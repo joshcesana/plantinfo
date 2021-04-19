@@ -1,0 +1,14 @@
+{% set alertPrefix = alert %}
+
+{% if alertContent %}
+  {% set alertPrefix = alertContent %}
+{% endif %}
+
+<article class="[ alert ] [ dot-shadow panel ] [ bg-light color-dark-shade ]">
+  <div class="container">
+    <div class="[ alert__inner ] [ flow ]">
+      <h2 class="[ alert__heading ] [ headline ]" data-highlight="quaternary">{{ alertPrefix.title }}</h2>
+      <p class="[ alert__summary ] [ measure-short ]">{{ alertPrefix.summary }}</p>
+    </div>
+  </div>
+</article>
