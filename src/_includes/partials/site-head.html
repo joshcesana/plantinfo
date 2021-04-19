@@ -1,0 +1,29 @@
+<a class="[ skip-link ] [ button ]" href="#main-content">Skip to content</a>
+<header class="site-head" role="banner">
+  <div class="site-head__image">
+    <div class="site-head__image-overlay"></div>
+  </div>
+  <div class="[ container ] site-head__container">
+    <div class="site-head__content">
+      <div class="site-head__brand">
+        <a class="site-head__brand-link" href="/" aria-label="{{ site.name }}" title="Home" rel="home">
+          <span class="site-head__brand-name">{{ site.name }}</span>
+        </a>
+      </div>
+    </div>
+    <div class="site-head__nav-wrapper">
+      <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
+        <h2 class="element-invisible">Main menu</h2>
+        <ul class="[ nav__list ] [ inline ]">
+          {% for item in navigation.header.items %}
+            <li class="nav__item">
+              <a class="[ button ]" href="{{ item.url }}"
+                 {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+              >{{ item.text }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,27 @@
+<footer class="site-foot" role="contentinfo">
+  <div class="[ container ] site-foot__container">
+    <div class="site-foot__content">
+      <div class="site-foot__photo-credit">{{ site.header_photo.credit }}</div>
+      <div class="site-foot__contribute">
+        <span class="site_foot__contribute-text">
+          {{ site.contribute.text }}
+          <a class="site-foot__contribute-link" href="{{ site.contribute.link.url }}">{{ site.contribute.link.text }}</a>
+        </span>
+      </div>
+    </div>
+    <div class="site-foot__nav-wrapper">
+      <nav class="[ nav ] [ site-foot__nav ] [ font-sans ]" aria-label="Secondary">
+        <h2 class="element-invisible">Secondary menu</h2>
+        <ul class="[ nav__list ] [ inline ]">
+          {% for item in navigation.footer.items %}
+          <li class="nav__item">
+            <a class="[ link ]" href="{{ item.url }}"
+               {{ helpers.getLinkActiveState(item.url, page.url) | safe }}
+            >{{ item.text }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>

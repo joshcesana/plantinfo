@@ -1,0 +1,42 @@
+{
+  "header": {
+    "items": [
+      {
+        "text": "Plant Search",
+        "url": "/search/plants"
+      },
+      {
+        "text": "Nursery Search",
+        "url":  "/search/nurseries"
+      }
+    ]
+  },
+  "footer": {
+    "items": [
+      {
+        "text": "Home",
+        "url":  "/"
+      },
+      {
+        "text": "About This Site",
+        "url":  "/about"
+      },
+      {
+        "text": "Credits",
+        "url":  "/credits"
+      },
+      {
+        "text": "Contribute",
+        "url":  "https://github.com/ten7/plantinfo/edit/main/README.md"
+      },
+      {
+        "text": "Plant Search",
+        "url": "/search/plants"
+      },
+      {
+        "text": "Nursery Search",
+        "url":  "/search/nurseries"
+      }
+    ]
+  }
+}

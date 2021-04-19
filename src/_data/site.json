@@ -1,0 +1,14 @@
+{
+  "name": "Plant Information Online",
+  "url":  "https://plantinfo.org",
+  "header_photo": {
+    "credit": "Photo by Don Olson courtesy of Arboretum Photographers Society."
+  },
+  "contribute": {
+    "text": "This site is open source.",
+    "link": {
+      "text": "Improve this page.",
+      "url": "https://github.com/ten7/plantinfo/edit/main/README.md"
+    }
+  }
+}
