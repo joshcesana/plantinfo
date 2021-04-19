@@ -1,0 +1,23 @@
+{
+  "name": "plantinfo.org",
+  "version": "1.0.0",
+  "description": "Build dependencies for Plant Information Onlines.",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ten7/plantinfo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ten7/plantinfo/issues"
+  },
+  "homepage": "https://github.com/ten7/plantinfo#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
