@@ -1,0 +1,10 @@
+<article class="[ species-display ] [ wrapper ]">
+  <h2>Plant species list</h2>
+  <ul class="[ list ] [ species-display__list ]">
+    {% for item in collections.species %}
+      <li class="[ list-item ] [ species-display__list-item ]">
+        <a class="[ link ]" href="/plants/species/{{ item.data.machine_name }}">{{ item.data.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

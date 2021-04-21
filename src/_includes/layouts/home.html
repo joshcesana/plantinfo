@@ -20,7 +20,12 @@
         </p>
       </div>
     </article>
-
     {{ content | safe }}
   </article>
+
+  {% include "partials/plants/family-list.html" %}
+  {% include "partials/plants/genus-list.html" %}
+  {% include "partials/plants/species-list.html" %}
+  {% include "partials/plants/variety-list.html" %}
+
 {% endblock %}
