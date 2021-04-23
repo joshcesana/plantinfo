@@ -10,22 +10,12 @@
   <article>
     <h1>{{ title }}</h1>
 
-    <article class="intro">
-      <div class="[ intro__content ] [ flow ]">
-        <p class="intro__summary">
-          {% for source in intro.sources %}
-            {{ source.pre }}{% for item in source.items %}{{ item.pre }}<strong>{{ item.total }} {{ item.label }}</strong>{% endfor %}{% if loop.last %}. {% else %}, {% endif %}
-          {% endfor %}
-          {{ intro.created_by }}
-        </p>
-      </div>
-    </article>
+    {% include "partials/intro.html" %}
+
     {{ content | safe }}
   </article>
 
-  {% include "partials/plants/family-list.html" %}
-  {% include "partials/plants/genus-list.html" %}
-  {% include "partials/plants/species-list.html" %}
-  {% include "partials/plants/variety-list.html" %}
+  {% include "partials/plants/plant-lists.html" %}
+
 
 {% endblock %}
