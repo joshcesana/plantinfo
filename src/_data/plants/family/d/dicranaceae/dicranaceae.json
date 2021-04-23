@@ -1,12 +1,14 @@
 {
   "name": "Dicranaceae",
-  "machine_name": "Dicranaceae",
+  "machine_name": "dicranaceae",
   "type": "family",
-  "id": "2526196",
-  "legacy_id": "",
   "authorities": "Tropicos",
   "naming_authorities": "Schimp.",
   "description": "",
-  "author": "r-isaa",
-  "created": "1560891720"
+  "archival_data": {
+    "id": "2526196",
+    "legacy_id": "",
+    "author": "r-isaa",
+    "created": "1560891720"
+  }
 }

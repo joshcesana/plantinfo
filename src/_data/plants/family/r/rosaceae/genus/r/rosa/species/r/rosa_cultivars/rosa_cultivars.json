@@ -2,13 +2,6 @@
   "name": "Rosa [Cultivars]",
   "machine_name": "rosa_cultivars",
   "type": "species",
-  "id": "1427563",
-  "legacy_fgsid": "30834",
-  "legacy_species_id": "2",
-  "legacy_from_data_cross_ref": [],
-  "fpi": "TRUE",
-  "source": "FALSE",
-  "active": "TRUE",
   "genus": "rosa",
   "species": "unknown",
   "hybrid": "FALSE",
@@ -16,6 +9,15 @@
   "authorities": "Cv.",
   "naming_authorities": "L.",
   "description": "",
-  "author": "oitadmin",
-  "created": "1482768960"
+  "archival_data": {
+    "id": "1427563",
+    "legacy_fgsid": "30834",
+    "legacy_species_id": "2",
+    "legacy_from_data_cross_ref": [],
+    "fpi": "TRUE",
+    "source": "FALSE",
+    "active": "TRUE",
+    "author": "oitadmin",
+    "created": "1482768960"
+  }
 }
