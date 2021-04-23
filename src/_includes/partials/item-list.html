@@ -1,0 +1,18 @@
+<div class="[ dot-shadow panel ] [ bg-secondary-glare ]" id="item-list">
+  <div class="[ wrapper ] [ flow flow-space-700 ]">
+    {% if itemListHeadline %}
+    <h2 class="[ headline ] [ measure-micro ]" data-highlight="primary">
+      {{ itemListHeadline }}
+    </h2>
+    {% endif %}
+    <div>
+      <ol class="[ item-list ] [ flow ]">
+        {% for item in itemListItems %}
+        <li class="[ item-list__item ] [ leading-tight measure-long ]">
+          <a href="{{ item.url }}" class="item-list__link">{{ item.data.name }}</a>
+        </li>
+        {% endfor %}
+      </ol>
+    </div>
+  </div>
+</div>

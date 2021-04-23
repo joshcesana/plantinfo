@@ -1,21 +1,22 @@
 {% extends "layouts/base.html" %}
 {% block content %}
 
-  {% set alertContent = primaryAlert %}
-  {% include "partials/alert.html" %}
+  <div class="wrapper">
+    {% set alertContent = primaryAlert %}
+    {% include "partials/alert.html" %}
 
-  {% set alertContent = alert %}
-  {% include "partials/alert.html" %}
+    {% set alertContent = alert %}
+    {% include "partials/alert.html" %}
 
-  <article>
-    <h1>{{ title }}</h1>
+    <article>
+      <h1>{{ title }}</h1>
 
-    {% include "partials/intro.html" %}
+      {% include "partials/intro.html" %}
 
-    {{ content | safe }}
-  </article>
+      {{ content | safe }}
+    </article>
 
-  {% include "partials/plants/plant-lists.html" %}
-
+    {% include "partials/plants/plant-lists.html" %}
+  </div>
 
 {% endblock %}
