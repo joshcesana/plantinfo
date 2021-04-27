@@ -2,18 +2,17 @@
   "name": "Catabrosa",
   "machine_name": "catabrosa",
   "type": "genus",
-  "family": "Poaceae",
-  "hybrid": "FALSE",
+  "family": "poaceae",
+  "hybrid": false,
   "cross_references": [],
   "authorities": "",
   "naming_authorities": "Pal.",
   "description": "",
-
   "archival_data": {
     "id": "1383461",
     "legacy_id": "1076",
     "legacy_from_data_cross_ref": [],
-    "active": "TRUE",
+    "active": true,
     "author": "oitadmin",
     "created": "1482758820"
   }

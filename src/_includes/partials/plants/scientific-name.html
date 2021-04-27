@@ -1,0 +1,16 @@
+{% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
+
+<div class="scientific-name">
+  {% if scientificNameInfo.genus.hybrid %}<strong class="scientific-name__genus-hybrid">X</strong>{% endif %}
+  {% if scientificNameInfo.genus.name %} <strong class="scientific-name__genus-name">{{ scientificNameInfo.genus.name }}</strong>{% endif %}{% if scientificNameInfo.genus.naming_authorities %}<span class="scientific-name__genus-naming-authorities">, {{ scientificNameInfo.genus.naming_authorities }}</span>{% endif %}
+  {% if scientificNameInfo.family.name %} <span class="scientific-name__family-name"> ({{ scientificNameInfo.family.name }})</span>{% endif %}
+  {% if scientificNameInfo.species.hybrid %} <strong class="scientific-name__species-hybrid">x</strong>{% endif %}
+  {% if scientificNameInfo.species.species_name %} <span class="scientific-name__species-name">{{ scientificNameInfo.species.species_name }}</span>{% endif %}
+  {% if scientificNameInfo.species.naming_authorities %} <span class="scientific-name__species-naming-authorities">{{ scientificNameInfo.species.naming_authorities }}</span>{% endif %}
+  {% if scientificNameInfo.lower_ranks.type.variety %} <span class="scientific-name__lower-ranks-type scientific-name__lower-ranks-type--variety">var.</span>{% endif %}
+  {% if scientificNameInfo.lower_ranks.type.form %} <span class="scientific-name__lower-ranks-type form">f.</span>{% endif %}
+  {% if scientificNameInfo.lower_ranks.type.subspecies %} <span class="scientific-name__lower-ranks-type scientific-name__lower-ranks-type--subspecies">ssp.</span>{% endif %}
+  {% if scientificNameInfo.lower_ranks.name %} <strong class="scientific-name__lower-ranks-name">{{ scientificNameInfo.lower_ranks.name }}</strong>{% endif %}
+  {% if scientificNameInfo.lower_ranks.mark.registered %} <span class="scientific-name__lower-ranks-registered">&reg;</span>{% endif %}
+  {% if scientificNameInfo.lower_ranks.mark.trademark %} <span class="scientific-name__lower-ranks-trademark">&trade;</span>{% endif %}
+</div>

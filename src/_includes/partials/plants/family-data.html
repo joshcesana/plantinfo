@@ -1,0 +1,20 @@
+{% if family_data.archival_data.legacy_id %}
+  <section class="family__legacy-id">
+    <h2 class="family__slegacy-id-heading">Family Legacy ID</h2>
+    <div class="family__legacy-id-details">{{ family_data.archival_data.legacy_id }}</div>
+  </section>
+{% endif %}
+
+{% if family_data.authorities %}
+  <section class="family__authorities">
+    <h2 class="family__authorities-heading">Authorities</h2>
+    <div class="family__authorities-details">{{ family_data.authorities }}</div>
+  </section>
+{% endif %}
+
+{% if family_data.naming_authorities %}
+  <section class="family__naming-authorities">
+    <h2 class="family__naming-authorities-heading">Naming Authorities</h2>
+    <div class="family__naming-authorities-details">{{ family_data.naming_authorities }}</div>
+  </section>
+{% endif %}

@@ -5,7 +5,7 @@ pagination:
   data: collections.variety
   size: 1
   alias: plant
-permalink: '/plants/{{ plant.data.type }}/{{ plant.data.machine_name }}/'
+permalink: '/plants/variety/{{ plant.data.machine_name }}/'
 eleventyComputed:
     title: "Plant Variety: {{ plant.data.name }}"
 ---

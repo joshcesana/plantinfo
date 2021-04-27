@@ -2,15 +2,15 @@
   "name": "Rosa [Cultivars] 'Double Delight'",
   "machine_name": "rosa_cultivars_double_delight",
   "type": "variety",
-  "genus_species": "rosa_cultivars",
+  "species": "rosa_cultivars",
   "cross_references": [],
   "lower_ranks_name": "Double Delight",
   "lower_ranks": {
-    "cultivar": "TRUE",
-    "variety": "FALSE",
-    "form": "FALSE",
-    "grex": "FALSE",
-    "subspecies": "FALSE"
+    "cultivar": true,
+    "variety": false,
+    "form": false,
+    "grex": false,
+    "subspecies": false
   },
   "mark": "none",
   "authorities": "Roses 9",
@@ -21,9 +21,9 @@
     "legacy_id": "28295",
     "legacy_fgsid": "30834",
     "legacy_from_data_cross_ref": [],
-    "fpi": "TRUE",
-    "source": "TRUE",
-    "active": "TRUE",
+    "fpi": true,
+    "source": true,
+    "active": true,
     "author": "oitadmin",
     "created": "1482768960"
   }

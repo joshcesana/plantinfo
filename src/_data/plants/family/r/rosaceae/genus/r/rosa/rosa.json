@@ -3,7 +3,7 @@
   "machine_name": "rosa",
   "type": "genus",
   "family": "rosaceae",
-  "hybrid": "FALSE",
+  "hybrid": false,
   "cross_references": [],
   "authorities": "Cv.",
   "naming_authorities": "L.",
@@ -12,7 +12,7 @@
     "id": "1386455",
     "legacy_id": "4841",
     "legacy_from_data_cross_ref": [],
-    "active": "TRUE",
+    "active": true,
     "author": "oitadmin",
     "created": "1482758820"
   }

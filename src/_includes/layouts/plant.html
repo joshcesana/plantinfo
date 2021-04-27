@@ -1,11 +1,24 @@
 {% extends "layouts/base.html" %}
+
+{% set plant_data = plant.data %}
+{% set plant_name = plant_data.name %}
+{% set plant_type = plant_data.type %}
+
 {% block content %}
 
   <div class="wrapper">
 
     <article>
-      <h1>{{ plant.data.name }} <em>({{ plant.data.type }}</em>)</h1>
+      <h1>{{ plant_name }} <em>({{ plant_type }}</em>)</h1>
 
+      {% if plant_type !== 'family' %}
+        {% include "partials/plants/scientific-name.html" %}
+      {% endif %}
+
+      {% if plant.data.type === 'family' %}
+        {% set family_data = plant.data %}
+        {% include "partials/plants/family-data.html" %}
+      {% endif %}
     </article>
   </div>
 
