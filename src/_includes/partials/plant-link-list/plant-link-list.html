@@ -1,0 +1,9 @@
+{% set list_class = '[ list ]' %}
+{% if plant_link_list.list_class %}
+  {% set list_class = list_class ~ ' ' ~ plant_link_list.list_class %}
+{% endif %}
+<ul class='{{ list_class }}'>
+  {% for plant_link_list_item in plant_link_list %}
+    {% include "./plant-link-list-item.html" %}
+  {% endfor %}
+</ul>

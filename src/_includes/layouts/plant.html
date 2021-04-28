@@ -13,6 +13,10 @@
 
       {% if plant_type !== 'family' %}
         {% include "partials/plants/scientific-name.html" %}
+
+        {% if plant_type !== 'variety' %}
+          {% include "partials/plants/related-plants.html" %}
+        {% endif %}
       {% endif %}
 
       {% if plant.data.type === 'family' %}

@@ -68,6 +68,107 @@ module.exports = {
   },
 
   /**
+   * Returns a plant type based on the child of the provided plant type.
+   *
+   * @param {String}       plantType    The plant type.
+   * @returns {String}                  The child plant type.
+   */
+  getChildPlantType(plantType) {
+    let childPlantType = null;
+
+    if (plantType === 'family') {
+      childPlantType = 'genus';
+    } else if (plantType === 'genus') {
+      childPlantType = 'species';
+    } else if (plantType === 'species') {
+      childPlantType = 'variety';
+    }
+
+    return childPlantType;
+  },
+
+  /**
+   * Returns a plant title based on the plant type.
+   *
+   * @param {String}       plantType    The plant type.
+   * @returns {String}                  The plant title.
+   */
+  getPlantTypeTitle(plantType) {
+    let plantTypeTitle = null;
+
+    if (plantType === 'family') {
+      plantTypeTitle = 'Family';
+    } else if (plantType === 'genus') {
+      plantTypeTitle = 'Genus';
+    } else if (plantType === 'species') {
+      plantTypeTitle = 'Species';
+    } else if (plantType === 'variety') {
+      plantTypeTitle = 'Variety';
+    }
+    return plantTypeTitle;
+  },
+
+  /**
+   * Returns plant items that are the child of a plant type and machine name.
+   *
+   * @param {Array}      childCollection The 11ty collection for the child plant items.
+   * @param {String}     childPlantType  The plant type of the child plant items.
+   * @param {String}     plantType       The plant type of the plant item.
+   * @param {String}     machineName     The machine name of the plant item.
+   * @returns {Array}                    The child plant items.
+   */
+  getChildPlantsByTypeAndMachineName(childCollection, childPlantType, plantType, machineName) {
+    const plantItems = childCollection;
+    let childPlantItems = [];
+
+    plantItems.forEach(plant => {
+      if (
+        plant.hasOwnProperty('data') &&
+        plant.data.hasOwnProperty('type') &&
+        plant.data.type === childPlantType &&
+        plant.data.hasOwnProperty(plantType) &&
+        plant.data[plantType] === machineName) {
+        childPlantItems.push({data: plant.data});
+      }
+    });
+
+    return childPlantItems;
+  },
+
+  /**
+   * Returns a link list of plant items that are the child of a plant type and machine name.
+   *
+   * @param {Array}      childPlantItems The hild plant items.
+   * @param {String}     childPlantType  The plant type of the child plant items.
+   * @returns {Array}                    The child plant items.
+   */
+  createChildLinkList(childPlantItems, childPlantType) {
+
+    let childLinkList = [];
+
+    childPlantItems.forEach(plant => {
+      if (
+        plant.hasOwnProperty('data') &&
+        plant.data.hasOwnProperty('type') &&
+        plant.data.hasOwnProperty('machine_name') &&
+        plant.data.hasOwnProperty('name')
+      ) {
+        childLinkList.push(
+          {
+            list_item_class: '[ related-' + childPlantType + '__link-list-item ]',
+            link_class: '[ related-' + childPlantType + '__link ]',
+            type: plant.data.type,
+            machine_name: plant.data.machine_name,
+            name: plant.data.name
+          }
+        );
+      }
+    });
+
+    return childLinkList;
+  },
+
+  /**
    * Sets information in a scientific name object, based on plant data. Used in
    * a recursive function to set all levels of the scientific name.
    *

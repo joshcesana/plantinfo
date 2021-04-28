@@ -1,0 +1,8 @@
+{% set list_item_class = '[ list-item ]' %}
+{% if plant_link_list_item.list_item_class %}
+  {% set list_item_class = list_item_class ~ ' ' ~ plant_link_list_item.list_item_class %}
+{% endif %}
+<li class='{{ list_item_class }}'>
+  {% set plant_link = plant_link_list_item %}
+  {% include "./plant-link.html" %}
+</li>
