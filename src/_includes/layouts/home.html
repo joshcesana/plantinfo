@@ -1,3 +1,4 @@
+{% set headerTitle = title %}
 {% extends "layouts/base.html" %}
 {% block content %}
 
@@ -9,8 +10,6 @@
     {% include "partials/alert.html" %}
 
     <article>
-      <h1>{{ title }}</h1>
-
       {% include "partials/intro.html" %}
 
       {{ content | safe }}

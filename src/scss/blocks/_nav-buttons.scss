@@ -1,0 +1,25 @@
+.nav-buttons {
+  line-height: 1;
+  padding-top: #{get-size('300')};
+}
+
+.nav-buttons__list {
+  display: flex;
+  flex-wrap: nowrap;
+
+
+  > * {
+    flex-grow: 1;
+    padding-top: get-size('300');
+    padding-left: get-size('300');
+    padding-right: get-size('300');
+  }
+
+  > :first-child {
+    padding-left: 0;
+  }
+
+  > :last-child {
+    padding-right: 0;
+  }
+}

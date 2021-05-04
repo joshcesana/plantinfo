@@ -25,6 +25,9 @@ module.exports = config => {
     return sortByMachineName(getFilteredByLetterGroup(collection, ['plants', 'family'], [9, 12], 'variety'));
   });
 
+  // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
+  config.setUseGitIgnore(false);
+
   return {
     markdownTemplateEngine: 'njk',
     dataTemplateEngine: 'njk',

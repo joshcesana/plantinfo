@@ -1,0 +1,14 @@
+.site-foot {
+  padding: get-size('500') 0 get-size('700') 0;
+  text-align: center;
+}
+
+.site-foot__nav {
+  padding: get-size('500') 0 get-size('700') 0;
+  .nav__list {
+    justify-content: center;
+    a {
+      color: get-color('dark-shade');
+    }
+  }
+}

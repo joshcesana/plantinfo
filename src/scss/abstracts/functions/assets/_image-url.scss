@@ -1,0 +1,19 @@
+/**
+ *
+ * @param {String} $file  The filename with extension
+ * @param {String} $path  The path within the images directory to the file
+ *                        (No slash at beginning, slash at end)
+ *
+ * @returns {String}      The file path
+ */
+@function image-url($file, $path: '') {
+  $file_path: '/images/';
+
+  @if $path {
+    $file_path: $file_path + $path;
+  }
+
+  $file_path: $file_path + $file;
+
+  @return $file_path;
+}
