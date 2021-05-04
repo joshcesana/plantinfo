@@ -38,6 +38,7 @@
 }
 
 .site-head__brand {
+  @include apply-utility('font', 'base');
   flex-basis: auto;
   flex-grow: 0;
   flex-shrink: 0;
@@ -120,7 +121,6 @@
 .site-head__page-title {
   @include apply-utility('font', 'base');
   @include apply-utility('weight', 'normal');
-  color: get-color('primary-shade');
   text-align: center;
   font-size: get-size('500');
 

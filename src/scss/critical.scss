@@ -14,10 +14,10 @@
 body {
   background: get-color('light');
   color: get-color('dark-shade');
-  line-height: 1.5;
+  line-height: 1.6;
   font-size: get-size('500');
 
-  @include apply-utility('font', 'base');
+  @include apply-utility('font', 'sans');
 }
 
 a:not([class]) {
@@ -38,9 +38,9 @@ h1,
 h2,
 h3,
 h4 {
-  font-weight: 900;
-
-  @include apply-utility('font', 'sans');
+  font-weight: 400;
+  color: get-color('primary-shade');
+  @include apply-utility('font', 'base');
   @include apply-utility('leading', 'flat');
 }
 
@@ -79,6 +79,7 @@ h4 {
 @import 'blocks/button';
 @import 'blocks/skip-link';
 @import 'blocks/page-header';
+@import 'blocks/alert';
 @import 'blocks/plant-list';
 
 // Import utilities

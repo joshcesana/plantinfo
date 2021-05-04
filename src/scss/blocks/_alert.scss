@@ -1,0 +1,16 @@
+.alert.panel {
+  padding: get-size('600') 0;
+}
+
+.alert__inner {
+  padding: 0 get-size('500')
+}
+
+.alert__headline {
+  font-size: get-size('500');
+}
+
+.alert__summary {
+  margin-top: get-size('300');
+  font-size: get-size('400');
+}
