@@ -1,0 +1,5 @@
+.page-title {
+  @include apply-utility('font', 'sans');
+  font-size: get-size('600');
+  line-height: 1.5;
+}

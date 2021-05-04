@@ -6,17 +6,19 @@
 
 {% block content %}
 
-  <div class="wrapper">
-
-    <article>
-      <h1>{{ plant_name }} <em>({{ plant_type }}</em>)</h1>
-
-      {% if plant_type !== 'family' %}
-        {% include "partials/plants/scientific-name.html" %}
-
-        {% if plant_type !== 'variety' %}
-          {% include "partials/plants/related-plants.html" %}
+  <div class="[ wrapper wrapper--topbot ]">
+    <article class="[ page ] [ page--plant ]">
+      <div class="[ page-head ] [ page-head--plant ]">
+        <h1 class="[ page-title ] [ page-title--plant ]">{{ plant_name }}</h1>
+        {% if plant_type !== 'family' %}
+          <div class="page-sub-title">
+            {% include "partials/plants/scientific-name.html" %}
+          </div>
         {% endif %}
+      </div>
+
+      {% if (plant_type !== 'family') and (plant_type !== 'variety') %}
+        {% include "partials/plants/related-plants.html" %}
       {% endif %}
 
       {% if plant.data.type === 'family' %}

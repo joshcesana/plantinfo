@@ -1,0 +1,10 @@
+.page-sub-title {
+  @include apply-utility('font', 'sans');
+  margin-top: get-size('300');
+  padding: 2px get-size('400');
+  color: get-color('dark-shade');
+  background-color: get-color('secondary');
+  border: 1px solid get-color('secondary-shade');
+  font-size: get-size('400');
+  line-height: 1.7;
+}

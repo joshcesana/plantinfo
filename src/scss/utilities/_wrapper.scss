@@ -10,3 +10,8 @@
   margin-right: auto;
   position: relative;
 }
+
+.wrapper--topbot {
+  padding-top: get-size('500');
+  padding-bottom: get-size('500');
+}

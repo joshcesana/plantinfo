@@ -1,6 +1,6 @@
 <article class="[ family-display ]">
   <h2>Plant families</h2>
-  <ul class="[ list ] [ family-display__list ]">
+  <ul class="[ list ] [ plant-display__list ] [ family-display__list ]">
     {% for item in collections.family %}
       <li class="[ list-item ] [ family-display__list-item ]">
         <a class="[ link ]" href="/plants/family/{{ item.data.machine_name }}">{{ item.data.name }}</a>

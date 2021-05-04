@@ -1,0 +1,26 @@
+.plant-display__list,
+.link-list-section {
+  .list-item {
+    font-size: get-size('400');
+    line-height: 1.75;
+    a {
+      color: get-color('quinary-shade');
+      text-decoration: none;
+
+      &:visited {
+        color: get-color('quinary-glare');
+      }
+
+      &:hover,
+      &:focus {
+        color: get-color('quinary');
+      }
+    }
+  }
+}
+
+.link-list-section__title {
+  font-size: get-size('500');
+  line-height: 1.7;
+  border-bottom: 1px solid get-color('secondary-shade');
+}

@@ -1,6 +1,7 @@
 {% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
 
 <div class="scientific-name">
+  <em class="scientific-name__label">Scientific name:</em>
   {% if scientificNameInfo.genus.hybrid %}<strong class="scientific-name__genus-hybrid">X</strong>{% endif %}
   {% if scientificNameInfo.genus.name %} <strong class="scientific-name__genus-name">{{ scientificNameInfo.genus.name }}</strong>{% endif %}{% if scientificNameInfo.genus.naming_authorities %}<span class="scientific-name__genus-naming-authorities">, {{ scientificNameInfo.genus.naming_authorities }}</span>{% endif %}
   {% if scientificNameInfo.family.name %} <span class="scientific-name__family-name"> ({{ scientificNameInfo.family.name }})</span>{% endif %}

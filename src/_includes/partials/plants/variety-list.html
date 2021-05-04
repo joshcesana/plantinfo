@@ -1,6 +1,6 @@
 <article class="[ variety-display ]">
   <h2>Plant variety list</h2>
-  <ul class="[ list ] [ variety-display__list ]">
+  <ul class="[ list ] [ plant-display__list ] [ variety-display__list ]">
     {% for item in collections.variety %}
       <li class="[ list-item ] [ variety-display__list-item ]">
         <a class="[ link ]" href="/plants/variety/{{ item.data.machine_name }}">{{ item.data.name }}</a>

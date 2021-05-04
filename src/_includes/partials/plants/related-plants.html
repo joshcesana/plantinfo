@@ -5,7 +5,8 @@
 {% set child_link_list = helpers.createChildLinkList(child_plant_items, child_plant_type) %}
 {% set plant_link_list_wrapper =
   {
-    wrapper_class: '[ related-' ~ child_plant_type ~ '__panel ]',
+    wrapper_class: '[ related-' ~ child_plant_type ~ '__link-list-section ]',
+    title_class: '[ related-' ~ child_plant_type ~ '__link-list-section__title ]',
     link_list_class: '[ related-' ~ child_plant_type ~ '__link-list ]',
     heading_level: 'h2',
     title: 'Related ' ~ child_plant_type_title,
