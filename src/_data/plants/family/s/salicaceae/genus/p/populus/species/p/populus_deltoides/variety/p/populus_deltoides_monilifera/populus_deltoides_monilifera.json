@@ -1,0 +1,34 @@
+{
+  "name": "Populus deltoides monilifera",
+  "machine_name": "populus_deltoides_monilifera",
+  "type": "variety",
+  "species": "populus_deltoides",
+  "cross_references": [],
+  "lower_ranks_name": "monilifera",
+  "lower_ranks": {
+    "cultivar": false,
+    "variety": false,
+    "form": false,
+    "grex": false,
+    "subspecies": true
+  },
+  "mark": {
+    "none": true,
+    "tm": false,
+    "r": false
+  },
+  "authorities": "Royal Hort",
+  "naming_authorities": "Eckenw.",
+  "description": "",
+  "archival_data": {
+    "id": "1486899",
+    "legacy_id": "24442",
+    "legacy_fgsid": "28144",
+    "legacy_from_data_cross_ref": [],
+    "fpi": true,
+    "source": true,
+    "active": true,
+    "author": "oitadmin",
+    "created": "1482824640"
+  }
+}

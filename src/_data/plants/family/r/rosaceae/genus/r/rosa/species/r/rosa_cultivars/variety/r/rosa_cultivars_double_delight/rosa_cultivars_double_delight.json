@@ -12,7 +12,11 @@
     "grex": false,
     "subspecies": false
   },
-  "mark": "none",
+  "mark": {
+    "none": true,
+    "tm": false,
+    "r": false
+  },
   "authorities": "Roses 9",
   "naming_authorities": "",
   "description": "",
