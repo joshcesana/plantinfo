@@ -26,3 +26,10 @@ $headline-highlights: ('dark', 'primary', 'secondary', 'quaternary', 'quinary');
     }
   }
 }
+
+.headline-with-border {
+  margin: 0;
+  border-bottom: 1px solid get-color('secondary-shade');
+  font-size: get-size('500');
+  line-height: 1.67;
+}

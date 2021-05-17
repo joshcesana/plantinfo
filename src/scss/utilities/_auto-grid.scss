@@ -11,3 +11,15 @@
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size, 16rem), 1fr));
   grid-gap: var(--auto-grid-gap, get-size('500'));
 }
+
+.grid-2-1 {
+  @include media-query('ml') {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+.grid-1-2 {
+  @include media-query('ml') {
+    grid-template-columns: 1fr 2fr;
+  }
+}

@@ -1,5 +1,3 @@
-{% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
-
 <div class="scientific-name">
   <em class="scientific-name__label">Scientific name:</em>
   {% if scientificNameInfo.genus.hybrid %}<strong class="scientific-name__genus-hybrid">X</strong>{% endif %}

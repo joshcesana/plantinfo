@@ -368,6 +368,7 @@ module.exports = {
     let thisScientificName = Object.assign(scientificName);
 
     thisScientificName[plantType].name = plantData.name;
+    thisScientificName[plantType].machine_name = plantData.machine_name;
     thisScientificName[plantType].naming_authorities = plantData.naming_authorities;
 
     if (plantType !== 'family') {
@@ -459,21 +460,25 @@ module.exports = {
     const scientificName = {
       family: {
         name: '',
+        machine_name: '',
         naming_authorities: ''
       },
       genus: {
         name: '',
+        machine_name: '',
         naming_authorities: '',
         hybrid: false
       },
       species: {
         name: '',
+        machine_name: '',
         naming_authorities: '',
         hybrid: false,
         species_name: ''
       },
       variety: {
         name: '',
+        machine_name: '',
         naming_authorities: ''
       },
       lower_ranks: {

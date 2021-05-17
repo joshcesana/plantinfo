@@ -1,0 +1,70 @@
+.taxonomy-levels {
+  margin-bottom: get-size('600');
+}
+
+.taxonomy-levels__level-list {
+  background-color: get-color('secondary');
+  border: 1px solid get-color('secondary-shade');
+}
+
+.taxonomy-levels__level-list[class] {
+  padding: calc(#{get-size('300')}/2) calc(#{get-size('600')}/2);
+}
+
+.taxonomy-levels__level {
+  font-size: get-size('400');
+  line-height: 1.72;
+  margin-bottom: calc(#{get-size('300')}/2);
+
+  &:before {
+    background: transparent url('/images/sprites/sprites-main.png') no-repeat 0 -88px;
+    content: '';
+    display: inline-block;
+    height: 24px;
+    margin: 0 calc(#{get-size('300')}/2) 0 0;
+    position: relative;
+    vertical-align: top;
+    width: 24px;
+  }
+
+  &:nth-child(2) {
+    &:before {
+      content: '\2022';
+      width: 36px;
+      background-position: 100% -88px;
+    }
+  }
+
+  &:nth-child(3) {
+    &:before {
+      content: '\2022\0020\2022';
+      width: 46px;
+      background-position: 100% -88px;
+    }
+  }
+}
+
+.taxonomy-levels__level--active {
+  &:before {
+    opacity: 0.4;
+  }
+}
+
+.taxonomy-levels__level-link {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: get-color('quinary-shade');
+  }
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: get-color('dark-shade');
+  }
+}
+
+.taxonomy-levels__level--active {
+  color: get-color('dark');
+}

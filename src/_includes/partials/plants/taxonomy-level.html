@@ -1,0 +1,24 @@
+{% if level_machine_name %}
+  {% set level_plant = helpers.getPlantByTypeAndMachineName(collections, level_type, level_machine_name) %}
+  {% set level_name = level_plant.data.name %}
+  {% set level_permalink_path = helpers.createPlantPermalinkPath(level_plant) %}
+  {% set level_class %}taxonomy-levels__level taxonomy-levels__level--{{ level_type }}{% endset %}
+  {% set level_active = false %}
+  {% if level_name == plant_name %}
+    {% set level_active = true %}
+    {% set level_class %}{{ level_class }} taxonomy-levels__level--active{% endset %}
+  {% endif %}
+  {% set level_title %}
+    <span class="taxonomy-levels__level-title">{{ level_name }}</span>
+  {% endset %}
+
+  <li class="[ {{ level_class }} ]">
+    {% if level_active %}
+      {{ level_title | safe }}
+    {% else %}
+      <a class="[ link ] [ taxonomy-levels__level-link ]" href="{{ level_permalink_path }}">
+        {{ level_title | safe }}
+      </a>
+    {% endif %}
+  </li>
+{% endif %}

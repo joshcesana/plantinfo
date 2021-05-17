@@ -3,6 +3,7 @@
 {% set plant_data = plant.data %}
 {% set plant_name = plant_data.name %}
 {% set plant_type = plant_data.type %}
+{% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
 
 {% block content %}
 
@@ -21,9 +22,21 @@
         {% include "partials/plants/related-plants.html" %}
       {% endif %}
 
-      {% if plant.data.type === 'family' %}
+      {% if plant_type === 'family' %}
         {% set family_data = plant.data %}
         {% include "partials/plants/family-data.html" %}
+      {% endif %}
+
+      {% if (plant_type === 'species') or (plant_type === 'variety') %}
+        <div class="[ page-bottom ] [ page-bottom--plant ] [ auto-grid grid-2-1 ]">
+          <div class="[ page-bottom__first ]">
+            {% include "partials/plants/nursery-availability.html" %}
+          </div>
+          <div class="[ page-bottom__second ]">
+            {% include "partials/plants/taxonomy-levels.html" %}
+            {% include "partials/plants/plant-citations.html" %}
+          </div>
+        </div>
       {% endif %}
     </article>
   </div>
