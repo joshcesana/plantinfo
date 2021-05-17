@@ -24,3 +24,30 @@
   line-height: 1.7;
   border-bottom: 1px solid get-color('secondary-shade');
 }
+
+.directory-genus__link-list-section {
+  margin-bottom: get-size('600');
+}
+
+.related-plant__link-list-section,
+.directory-genus__link-list-section {
+  .list {
+    column-count: 2;
+    column-gap: get-size('300');
+
+    @include media-query('md') {
+      column-count: 3;
+      column-gap: get-size('400');
+    }
+
+    @include media-query('ml') {
+      column-count: 4;
+      column-gap: get-size('500');
+    }
+
+    @include media-query('lg') {
+      column-count: 5;
+      column-gap: get-size('600');
+    }
+  }
+}

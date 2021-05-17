@@ -1,0 +1,86 @@
+{
+  "ceratozamia_cultivars_palma_solo": {
+    "name": "Ceratozamia [Cultivars] 'Palma Solo'",
+    "machine_name": "ceratozamia_cultivars_palma_solo",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Palma Solo",
+    "authorities": "Cv.",
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+      "Cultivar"
+    ],
+    "species": "ceratozamia_cultivars",
+    "genus": "ceratozamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+      "id": "1467319",
+      "legacy_id": "4458",
+      "fgsid": "7075",
+      "legacy_from_data_cross_ref": [],
+      "fpi": "true",
+      "source": "false",
+      "active": "true",
+      "author": "oitadmin",
+      "created": "1482817735"
+    }
+  },
+  "ceratozamia_cultivars_queretaro": {
+    "name": "Ceratozamia [Cultivars] 'Queretaro'",
+    "machine_name": "ceratozamia_cultivars_queretaro",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Queretaro",
+    "authorities": "Cv.",
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+      "Cultivar"
+    ],
+    "species": "ceratozamia_cultivars",
+    "genus": "ceratozamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+      "id": "1467320",
+      "legacy_id": "4459",
+      "fgsid": "7075",
+      "legacy_from_data_cross_ref": [],
+      "fpi": "true",
+      "source": "false",
+      "active": "true",
+      "author": "oitadmin",
+      "created": "1482817735"
+    }
+  },
+  "ceratozamia_cultivars_santiago_tuxla": {
+    "name": "Ceratozamia [Cultivars] 'Santiago Tuxla'",
+    "machine_name": "ceratozamia_cultivars_santiago_tuxla",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Santiago Tuxla",
+    "authorities": "Cv.",
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+      "Cultivar"
+    ],
+    "species": "ceratozamia_cultivars",
+    "genus": "ceratozamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+      "id": "1467321",
+      "legacy_id": "4460",
+      "fgsid": "7075",
+      "legacy_from_data_cross_ref": [],
+      "fpi": "true",
+      "source": "false",
+      "active": "true",
+      "author": "oitadmin",
+      "created": "1482817735"
+    }
+  }
+}

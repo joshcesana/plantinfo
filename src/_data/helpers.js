@@ -138,34 +138,220 @@ module.exports = {
   /**
    * Returns a link list of plant items that are the child of a plant type and machine name.
    *
-   * @param {Array}      childPlantItems The hild plant items.
+   * @param {Array}      childPlantItems The child plant items.
    * @param {String}     childPlantType  The plant type of the child plant items.
    * @returns {Array}                    The child plant items.
    */
   createChildLinkList(childPlantItems, childPlantType) {
+    return module.exports.createLinkList(childPlantItems, childPlantType, 'related');
+  },
 
-    let childLinkList = [];
+  /**
+   * Filters a list of plant items in a directory by letter.
+   *
+   * @param {Array}      directoryPlantItems The directory plant items.
+   * @param {String}     letter_slug         The letter to filter by.
+   * @returns {Array}                        The directory plant items.
+   */
+  filterDirectoryItemsByLetter(directoryPlantItems, letter_slug) {
+    let getLetterSlug = () => letter_slug;
 
-    childPlantItems.forEach(plant => {
+    let matchItemWithSlug = (item) => {
+      const slug = getLetterSlug();
+
+      return item.hasOwnProperty('data') &&
+        item.data.hasOwnProperty('name') &&
+        item.data.name !== '' &&
+        item.data.name.toLowerCase().charAt(0) === slug;
+    };
+
+    return directoryPlantItems.filter(item => matchItemWithSlug(item));
+  },
+
+  /**
+   * Creates the permalink path for a plant.
+   *
+   * @param {Array}      plantItem           The plant item.
+   * @returns {Array}                        The permalink path.
+   */
+  createPlantPermalinkPath(plantItem) {
+    let permalinkPath = '';
+    let pathParts = {
+      familySlug: '',
+      genusSlug: '',
+      speciesSlug: '',
+      varietySlug: ''
+    };
+
+    if (
+      plantItem.hasOwnProperty('data') &&
+      plantItem.data.hasOwnProperty('type') &&
+      plantItem.data.hasOwnProperty('machine_name')
+    ) {
+      if (plantItem.data.type === 'family') {
+        pathParts.familySlug = plantItem.data.machine_name;
+      }
+
+      if (plantItem.data.type === 'genus') {
+        pathParts.genusSlug = plantItem.data.machine_name;
+      }
+
+      if (plantItem.data.type === 'species') {
+        pathParts.speciesSlug = plantItem.data.machine_name;
+      }
+
+      if (plantItem.data.type === 'variety') {
+        pathParts.varietySlug = plantItem.data.machine_name;
+      }
+
+      if (plantItem.data.hasOwnProperty('family')) {
+        pathParts.familySlug = plantItem.data.family;
+      }
+
+      if (plantItem.data.hasOwnProperty('genus')) {
+        pathParts.genusSlug = plantItem.data.genus;
+      }
+
+      if (plantItem.data.hasOwnProperty('species')) {
+        pathParts.speciesSlug = plantItem.data.species;
+      }
+    }
+
+    if (pathParts.familySlug !== '') {
+      permalinkPath = permalinkPath + '/plants/family/' + pathParts.familySlug + '/';
+
+      if (pathParts.genusSlug !== '') {
+        permalinkPath = permalinkPath + 'genus/' + pathParts.genusSlug + '/';
+      }
+
+      if (pathParts.speciesSlug !== '') {
+        permalinkPath = permalinkPath + 'species/' + pathParts.speciesSlug + '/';
+      }
+
+      if (pathParts.varietySlug !== '') {
+        permalinkPath = permalinkPath + 'variety/' + pathParts.varietySlug + '/';
+      }
+    }
+
+    return permalinkPath;
+  },
+
+  /**
+   * Returns a link list of plant items in a directory.
+   *
+   * @param {Array}      directoryPlantItems The directory plant items.
+   * @param {String}     directoryPlantType  The plant type of the directory plant items.
+   * @returns {Array}                         The directory plant items.
+   */
+  createDirectoryLinkList(directoryPlantItems, directoryPlantType) {
+    return module.exports.createLinkList(directoryPlantItems, directoryPlantType, 'directory');
+  },
+
+  /**
+   * Returns a link list of plant items.
+   *
+   * @param {Array}      plantItems     The child plant items.
+   * @param {String}     plantType      The plant type of the child plant items.
+   * @param {String}     classPrefix    The prefix to use in the class name.
+   * @returns {Array}                   The child plant items.
+   */
+  createLinkList(plantItems, plantType, classPrefix) {
+    let linkList = [];
+
+    plantItems.forEach(plant => {
       if (
         plant.hasOwnProperty('data') &&
         plant.data.hasOwnProperty('type') &&
         plant.data.hasOwnProperty('machine_name') &&
         plant.data.hasOwnProperty('name')
       ) {
-        childLinkList.push(
+        linkList.push(
           {
-            list_item_class: '[ related-' + childPlantType + '__link-list-item ]',
-            link_class: '[ related-' + childPlantType + '__link ]',
+            list_item_class: '[ ' + classPrefix + '-' + plantType + '__link-list-item ]',
+            link_class: '[ ' + classPrefix + '-' + plantType + '__link ]',
             type: plant.data.type,
             machine_name: plant.data.machine_name,
-            name: plant.data.name
+            name: plant.data.name,
+            permalink_path: module.exports.createPlantPermalinkPath(plant)
           }
         );
       }
     });
 
-    return childLinkList;
+    return linkList;
+  },
+
+  /**
+   * Returns a letter list based on initial letters of plants for a
+   * particular plant type.
+   *
+   * @param {Array}      typeCollection  The 11ty collection for a plant type.
+   * @param {String}     plantType       The plant type.
+   * @returns {Array}                    The link list of plant letters.
+   */
+  createLetterList(typeCollection, plantType) {
+
+    let letterList = [];
+    let letterLinkList = [];
+
+    typeCollection.forEach(plant => {
+      if (
+        plant.hasOwnProperty('data') &&
+        plant.data.hasOwnProperty('type') &&
+        plant.data.hasOwnProperty('name')
+      ) {
+        if (plant.data.type === plantType) {
+          let firstLetter = '';
+          firstLetter = (plant.data.name.match(/[a-zA-Z]/) || []).pop();
+
+          if (firstLetter !== '' && !letterList.includes(firstLetter)) {
+            letterList.push(
+              {
+                data: {
+                  letter: firstLetter,
+                  letter_slug: firstLetter.toLowerCase()
+                }
+              }
+            );
+          }
+        }
+      }
+    });
+
+    return letterList;
+  },
+
+  /**
+   * Returns a letter link list based on initial letters of plants for a
+   * particular plant type.
+   *
+   * @param {Array}      letterList      The array of letters.
+   * @param {String}     plantType       The plant type.
+   * @returns {Array}                    The link list of plant letters.
+   */
+  createLetterLinkList(letterList, plantType) {
+
+    let letterLinkList = [];
+
+    letterList.forEach(letter => {
+      if (
+        letter.hasOwnProperty('data') &&
+        letter.data.hasOwnProperty('letter_slug') &&
+        letter.data.hasOwnProperty('letter')
+      ) {
+        letterLinkList.push(
+          {
+            list_item_class: '[ letter-list-item--' + plantType + '-directory ]',
+            link_class: '[ letter-list--' + plantType + '-directory ]',
+            directory_path: plantType + '-directory',
+            letter_slug: letter.data.letter_slug,
+            letter: letter.data.letter
+          }
+        );
+      }
+    });
+
+    return letterLinkList;
   },
 
   /**
@@ -186,8 +372,8 @@ module.exports = {
 
     if (plantType !== 'family') {
       if (plantType === 'species' || plantType === 'genus') {
-        if (plantData.hasOwnProperty('hybrid') && typeof(plantData.hybrid) === 'boolean') {
-          thisScientificName[plantType].hybrid = plantData.hybrid;
+        if (plantData.hasOwnProperty('hybrid') && (plantData.hybrid === 'true' || (typeof(plantData.hybrid) === 'boolean' && plantData.hybrid === true))) {
+          thisScientificName[plantType].hybrid = true;
         }
       }
 
@@ -200,12 +386,12 @@ module.exports = {
       }
 
       if (plantType === 'variety') {
-        if (plantData.hasOwnProperty('lower_ranks_name') && plantData.lower_ranks_name !== '') {
+        if (plantData.hasOwnProperty('lower_ranks_name') && (plantData.lower_ranks_name !== '' && plantData.lower_ranks_name !== null)) {
           thisScientificName.lower_ranks.name = plantData.lower_ranks_name;
         }
 
         if (plantData.hasOwnProperty('mark') && (plantData.mark === 'tm' || plantData.mark === 'r')) {
-          thisScientificName.lower_ranks.none = false;
+          thisScientificName.lower_ranks.mark.none = false;
 
           if (plantData.mark === 'tm') {
             thisScientificName.lower_ranks.mark.trademark = true;
@@ -216,34 +402,39 @@ module.exports = {
 
         if (plantData.hasOwnProperty('lower_ranks')) {
           if (
-            plantData.lower_ranks.hasOwnProperty('cultivar') &&
-            typeof(plantData.lower_ranks.cultivar) === 'boolean' &&
-            plantData.lower_ranks.cultivar === true
+            plantData.lower_ranks.hasOwnProperty('cultivar') && (
+              plantData.lower_ranks.cultivar === 'true' ||
+              (typeof(plantData.lower_ranks.cultivar) === 'boolean' && plantData.lower_ranks.cultivar === true)
+            )
           ) {
             thisScientificName.lower_ranks.type.cultivar = plantData.lower_ranks.cultivar;
           } else if (
-            plantData.lower_ranks.hasOwnProperty('variety') &&
-            typeof(plantData.lower_ranks.variety) === 'boolean' &&
-            plantData.lower_ranks.variety === true
+            plantData.lower_ranks.hasOwnProperty('variety') && (
+              plantData.lower_ranks.variety === 'true' ||
+              (typeof(plantData.lower_ranks.variety) === 'boolean' && plantData.lower_ranks.variety === true)
+            )
           ) {
             thisScientificName.lower_ranks.type.variety = plantData.lower_ranks.variety;
           } else if (
-            plantData.lower_ranks.hasOwnProperty('form') &&
-            typeof(plantData.lower_ranks.form) === 'boolean' &&
-            plantData.lower_ranks.form === true
+            plantData.lower_ranks.hasOwnProperty('form') && (
+              plantData.lower_ranks.form === 'true' ||
+              (typeof(plantData.lower_ranks.form) === 'boolean' && plantData.lower_ranks.form === true)
+            )
           ) {
             thisScientificName.lower_ranks.type.form = plantData.lower_ranks.form;
           } else if (
-            plantData.lower_ranks.hasOwnProperty('grex') &&
-            typeof(plantData.lower_ranks.grex) === 'boolean' &&
-            plantData.lower_ranks.grex === true
+            plantData.lower_ranks.hasOwnProperty('grex') && (
+              plantData.lower_ranks.grex === 'true' ||
+              (typeof(plantData.lower_ranks.grex) === 'boolean' && plantData.lower_ranks.grex === true)
+            )
           ) {
             thisScientificName.lower_ranks.type.grex = plantData.lower_ranks.grex
             ;
           } else if (
-            plantData.lower_ranks.hasOwnProperty('subspecies') &&
-            typeof(plantData.lower_ranks.subspecies) === 'boolean' &&
-            plantData.lower_ranks.subspecies === true
+            plantData.lower_ranks.hasOwnProperty('subspecies') && (
+              plantData.lower_ranks.subspecies === 'true' ||
+              (typeof(plantData.lower_ranks.subspecies) === 'boolean' && plantData.lower_ranks.subspecies === true)
+            )
           ) {
             thisScientificName.lower_ranks.type.subspecies = plantData.lower_ranks.subspecies;
           }

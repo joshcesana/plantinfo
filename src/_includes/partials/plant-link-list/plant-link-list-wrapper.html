@@ -4,8 +4,8 @@
 {% if plant_link_list_wrapper.wrapper_class %}
   {% set wrapper_class = wrapper_class ~ ' ' ~ plant_link_list_wrapper.wrapper_class %}
 {% endif %}
-{% if plant_link_list_wrapper.wrapper_title_class %}
-  {% set wrapper_title_class = wrapper_title_class ~ ' ' ~ plant_link_list_wrapper.wrapper_title_class %}
+{% if plant_link_list_wrapper.title_class %}
+  {% set wrapper_title_class = wrapper_title_class ~ ' ' ~ plant_link_list_wrapper.title_class %}
 {% endif %}
 <section class='{{ wrapper_class }}'>
   <{{ plant_link_list_wrapper.heading_level }} class='{{ wrapper_title_class }}'>{{ plant_link_list_wrapper.title }}</{{ plant_link_list_wrapper.heading_level }}>

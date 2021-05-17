@@ -1,8 +1,8 @@
-<article class="intro">
+<article class="intro by-numbers">
   <div class="[ intro__content ] [ flow ]">
     <p class="intro__summary">
       {% for source in intro.sources %}
-      {{ source.pre }}{% for item in source.items %}{{ item.pre }}<strong>{{ item.total }} {{ item.label }}</strong>{% endfor %}{% if loop.last %}. {% else %}, {% endif %}
+        {{ source.pre }}{% for item in source.items %}{{ item.pre }}<strong>{{ item.total }} {{ item.label }}</strong>{% endfor %}{% if loop.last %}. {% else %}, {% endif %}
       {% endfor %}
       {{ intro.created_by }}
     </p>

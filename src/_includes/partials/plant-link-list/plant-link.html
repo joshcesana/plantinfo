@@ -2,4 +2,4 @@
 {% if plant_link.link_class %}
   {% set link_class = list_item_class ~ ' ' ~ plant_link.link_class %}
 {% endif %}
-<a class='{{ link_class }}' href='/plants/{{ plant_link.type }}/{{ plant_link.machine_name }}'>{{ plant_link.name }}</a>
+<a class='{{ link_class }}' href='{{ plant_link.permalink_path }}'>{{ plant_link.name }}</a>

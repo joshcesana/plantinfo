@@ -1,0 +1,17 @@
+{% set plant_type ='genus' %}
+{% set plant_type_title = helpers.getPlantTypeTitle(plant_type) %}
+{% set plant_collection = collections[plant_type] %}
+{% set plant_items = helpers.filterDirectoryItemsByLetter(plant_collection, letter_slug) %}
+{% set directory_link_list = helpers.createDirectoryLinkList(plant_items, plant_type) %}
+{% set plant_link_list_wrapper =
+  {
+    wrapper_class: '[ directory-' ~ plant_type ~ '__link-list-section ]',
+    title_class: '[ directory-' ~ plant_type ~ '__link-list-section-title ]',
+    link_list_class: '[ directory-' ~ plant_type ~ '__link-list ]',
+    heading_level: 'h2',
+    title: plant_type_title ~ ' directory (' ~ letter_slug ~ ')',
+    link_list: directory_link_list,
+    empty_message: 'There are no ' ~ plant_type ~ ' directory items listed under ' ~ letter_slug ~ '.'
+  }
+%}
+{% include "../plant-link-list/plant-link-list-wrapper.html" %}

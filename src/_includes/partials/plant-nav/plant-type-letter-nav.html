@@ -1,0 +1,26 @@
+{% set plant_type_default = 'genus' %}
+{% set plant_type = '' %}
+{% if nav_plant_type %}
+  {% set plant_type = nav_plant_type %}
+{% else %}
+  {% set plant_type = plant_type_default %}
+{% endif %}
+
+{% set plant_type_title = helpers.getPlantTypeTitle(plant_type) %}
+{% set letterCollection =  plant_type ~ 'Letters' %}
+{% set plant_type_collection = collections[letterCollection] %}
+
+{% set plant_letter_list = helpers.createLetterList(plant_type_collection, plant_type) %}
+{% set plant_letter_link_list = helpers.createLetterLinkList(plant_type_collection, plant_type) %}
+{% set letter_list_wrapper =
+  {
+    wrapper_class: '[ letter-list-section--' ~ plant_type ~ '-directory letter-list-section--directory ]',
+    title_class: '[ letter-list-section__title--' ~ plant_type ~ '-directory ]',
+    list_class: '[ letter-list--' ~ plant_type ~ '-directory ]',
+    heading_level: 'h3',
+    title: plant_type_title ~ ' directory pages',
+    letter_list: plant_letter_link_list,
+    empty_message: 'There are no ' ~ plant_type ~ ' items at present.'
+  }
+%}
+{% include "../letter-nav/letter-list-wrapper.html" %}

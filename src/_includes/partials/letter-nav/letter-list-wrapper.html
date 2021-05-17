@@ -1,0 +1,20 @@
+{% set wrapper_class = '[ link-list-section ] [ letter-list-section ]' %}
+{% set wrapper_title_class = '[ link-list-section__title ] [ letter-list-section__title ]' %}
+
+{% if letter_list_wrapper.wrapper_class %}
+  {% set wrapper_class = wrapper_class ~ ' ' ~ letter_list_wrapper.wrapper_class %}
+{% endif %}
+{% if letter_list_wrapper.wrapper_title_class %}
+  {% set wrapper_title_class = wrapper_title_class ~ ' ' ~ letter_list_wrapper.wrapper_title_class %}
+{% endif %}
+<nav class='{{ wrapper_class }}' role="navigation">
+  <{{ letter_list_wrapper.heading_level }} class='{{ wrapper_title_class }}'>{{ letter_list_wrapper.title }}</{{ letter_list_wrapper.heading_level }}>
+  {% set letter_list = letter_list_wrapper.letter_list %}
+  {% if letter_list.length > 0 %}
+    {% include "./letter-list.html" %}
+  {% else %}
+    {% set empty_message = letter_list_wrapper.empty_message %}
+    {{ empty_message }}
+    {# {% include "./letter-list-empty.html" %} #}
+  {% endif %}
+</nav>

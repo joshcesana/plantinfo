@@ -3,7 +3,7 @@
   <ul class="[ list ] [ plant-display__list ] [ species-display__list ]">
     {% for item in collections.species %}
       <li class="[ list-item ] [ species-display__list-item ]">
-        <a class="[ link ]" href="/plants/species/{{ item.data.machine_name }}">{{ item.data.name }}</a>
+        <a class="[ link ]" href="/plants/family/{{ item.data.family }}/genus/{{ item.data.genus }}/species/{{ item.data.machine_name }}/">{{ item.data.name }}</a>
       </li>
     {% endfor %}
   </ul>

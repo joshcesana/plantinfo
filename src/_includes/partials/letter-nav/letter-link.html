@@ -1,0 +1,5 @@
+{% set link_class = '[ link ] [ letter-link ]' %}
+{% if letter_link.link_class %}
+  {% set link_class = list_item_class ~ ' ' ~ letter_link.link_class %}
+{% endif %}
+<a class='{{ link_class }}' href='/{{ letter_link.directory_path }}/{{ letter_link.letter_slug }}'>{{ letter_link.letter }}</a>

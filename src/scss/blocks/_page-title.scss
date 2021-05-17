@@ -3,3 +3,9 @@
   font-size: get-size('600');
   line-height: 1.5;
 }
+
+.letter-directory__title {
+  @include apply-utility('font', 'base');
+  font-size: get-size('700');
+  font-weight: 400;
+}

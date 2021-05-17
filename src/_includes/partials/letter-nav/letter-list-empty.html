@@ -1,0 +1,7 @@
+{% set empty_list_class = '[ list-empty ] [ letter-list-empty ]' %}
+{% if letter_list_wrapper.empty_list_class %}
+  {% set empty_list_class = empty_list_class ~ ' ' ~ letter_list_wrapper.empty_list_class %}
+{% endif %}
+<div class="{{ empty_list_class }}">
+  {{ empty_message }}
+</div>

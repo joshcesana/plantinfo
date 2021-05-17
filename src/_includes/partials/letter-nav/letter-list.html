@@ -1,0 +1,9 @@
+{% set list_class = '[ list ] [ letter-list ]' %}
+{% if letter_list.list_class %}
+  {% set list_class = list_class ~ ' ' ~ letter_list.list_class %}
+{% endif %}
+<ul class='{{ list_class }}'>
+  {% for letter_list_item in letter_list %}
+    {% include "./letter-list-item.html" %}
+  {% endfor %}
+</ul>

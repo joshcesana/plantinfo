@@ -1,0 +1,50 @@
+.letter-list-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  .letter-list-item {
+    display: inline;
+    font-size: get-size('500');
+    &:not(:first-child) {
+      &:before {
+        content: '-';
+      }
+    }
+  }
+}
+
+.letter-list-section__title {
+  @include element-invisible()
+}
+
+.browse-by-letter {
+  border: 1px solid get-color('secondary-shade');
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
+  padding: get-size('400') 0 get-size('500');
+}
+
+.browse-by-letter__title {
+  font-size: get-size('600');
+  line-height: 1.65;
+  text-align: center;
+}
+
+.letter-bar {
+  margin-bottom: get-size('600');
+  border-top: 2px solid get-color('secondary-shade');
+  border-bottom: 2px solid get-color('secondary-shade');
+  background-color: get-color('secondary');
+  padding: get-size('300');
+}
+
+.letter-bar__title {
+  @include element-invisible();
+}
+
+.directory-genus__link-list-section-title {
+  @include element-invisible();
+}
+

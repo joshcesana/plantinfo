@@ -1,0 +1,8 @@
+.page-secondary-title {
+  @include apply-utility('font', 'base');
+  margin-top: 0;
+  padding: 0;
+  color: get-color('primary-shade');
+  font-size: get-size('600');
+  line-height: 1.6;
+}

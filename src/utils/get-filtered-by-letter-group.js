@@ -28,14 +28,17 @@ module.exports = (collection, dataPath, levelsDeep, itemType) => {
     };
 
     let levelItemSeeker = function(items, currentLevel, targetLevel, itemType) {
-      Object.values(items).forEach(levelItems => {
-        if (currentLevel === targetLevel) {
-          let levelItem = Object.assign(levelItems);
-          addLevelItem(levelItem, itemType);
-        } else {
-          levelItemSeeker(levelItems, currentLevel + 1, targetLevel, itemType);
-        }
-      });
+      // Make sure items is not undefined or null, and that items is an Object.
+      if (typeof items !== undefined && typeof items !== null && Object.prototype.toString.call(items) === '[object Object]') {
+        Object.values(items).forEach(levelItems => {
+          if (currentLevel === targetLevel) {
+            let levelItem = Object.assign(levelItems);
+            addLevelItem(levelItem, itemType);
+          } else {
+            levelItemSeeker(levelItems, currentLevel + 1, targetLevel, itemType);
+          }
+        });
+      }
     };
 
     levelItemSeeker(itemsToSeek, 1, levels, itemType);
