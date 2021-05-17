@@ -1,0 +1,25 @@
+{
+    "name": "Etlingera venusta",
+    "machine_name": "etlingera_venusta",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis 19",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "etlingera",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1413250",
+        "legacy_id": "17220",
+        "fgsid": "13797",
+        "legacy_from_data_cross_ref": [
+            "+Hornstedtia venusta"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

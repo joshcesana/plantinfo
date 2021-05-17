@@ -1,0 +1,28 @@
+{
+    "name": "Kaempferia [Cultivars] 'Alva'",
+    "machine_name": "kaempferia_cultivars_alva",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Alva",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "kaempferia_cultivars",
+    "genus": "kaempferia",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1563257",
+        "legacy_id": "168502",
+        "fgsid": "42952",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482840869"
+    }
+}

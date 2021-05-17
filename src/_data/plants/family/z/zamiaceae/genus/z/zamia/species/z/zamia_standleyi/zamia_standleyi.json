@@ -1,0 +1,23 @@
+{
+    "name": "Zamia standleyi",
+    "machine_name": "zamia_standleyi",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis 19",
+    "naming_authorities": "B. Schutzman.",
+    "description": null,
+    "genus": "zamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1439257",
+        "legacy_id": "15479",
+        "fgsid": "60477",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

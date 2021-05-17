@@ -1,0 +1,30 @@
+{
+    "name": "Zamia floridana",
+    "machine_name": "zamia_floridana",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Royal Hort",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "zamia",
+    "family": "zamiaceae",
+    "cross_references": [
+        {
+            "machine_name": "zamia_pumila",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1438698",
+        "legacy_id": "6090",
+        "fgsid": "36855",
+        "legacy_from_data_cross_ref": [
+            "+Z. pumila"
+        ],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

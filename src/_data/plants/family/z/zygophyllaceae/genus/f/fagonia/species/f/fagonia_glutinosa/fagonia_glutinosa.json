@@ -1,0 +1,30 @@
+{
+    "name": "Fagonia glutinosa",
+    "machine_name": "fagonia_glutinosa",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis I",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "fagonia",
+    "family": "zygophyllaceae",
+    "cross_references": [
+        {
+            "machine_name": "fagonia_cretica",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1412559",
+        "legacy_id": "6735",
+        "fgsid": "15120",
+        "legacy_from_data_cross_ref": [
+            "+F. cretica"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

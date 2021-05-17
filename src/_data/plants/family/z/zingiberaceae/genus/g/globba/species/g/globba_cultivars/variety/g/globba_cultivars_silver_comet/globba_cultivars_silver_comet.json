@@ -1,0 +1,28 @@
+{
+    "name": "Globba [Cultivars] 'Silver Comet'",
+    "machine_name": "globba_cultivars_silver_comet",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Silver Comet",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "globba_cultivars",
+    "genus": "globba",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1642934",
+        "legacy_id": "261597",
+        "fgsid": "42951",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482862047"
+    }
+}

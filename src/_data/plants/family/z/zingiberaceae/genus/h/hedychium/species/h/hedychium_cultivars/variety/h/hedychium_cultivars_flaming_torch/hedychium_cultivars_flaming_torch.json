@@ -1,0 +1,28 @@
+{
+    "name": "Hedychium [Cultivars] 'Flaming Torch'",
+    "machine_name": "hedychium_cultivars_flaming_torch",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Flaming Torch",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "hedychium_cultivars",
+    "genus": "hedychium",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1649652",
+        "legacy_id": "378846",
+        "fgsid": "43743",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482862047"
+    }
+}

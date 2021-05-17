@@ -1,0 +1,30 @@
+{
+    "name": "Globba schomburgkii",
+    "machine_name": "globba_schomburgkii",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": "created for cross reference",
+    "genus": "globba",
+    "family": "zingiberaceae",
+    "cross_references": [
+        {
+            "machine_name": "globba_marantina",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1442162",
+        "legacy_id": "14612",
+        "fgsid": "43741",
+        "legacy_from_data_cross_ref": [
+            "Globba marantina"
+        ],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

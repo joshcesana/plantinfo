@@ -1,0 +1,23 @@
+{
+    "name": "Roscoea tibetica",
+    "machine_name": "roscoea_tibetica",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis 1",
+    "naming_authorities": "Batalin.",
+    "description": null,
+    "genus": "roscoea",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1440811",
+        "legacy_id": "16405",
+        "fgsid": "44773",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Curcuma [Cultivars] 'Emerald Chocozebra'",
+    "machine_name": "curcuma_cultivars_emerald_chocozebra",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Emerald Chocozebra",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "curcuma_cultivars",
+    "genus": "curcuma",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1593582",
+        "legacy_id": "380854",
+        "fgsid": "43095",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482849539"
+    }
+}

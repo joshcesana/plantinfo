@@ -1,0 +1,30 @@
+{
+    "name": "Macrozamia dyeri",
+    "machine_name": "macrozamia_dyeri",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": "created for cross reference",
+    "genus": "macrozamia",
+    "family": "zamiaceae",
+    "cross_references": [
+        {
+            "machine_name": "macrozamia_riedlei",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1440534",
+        "legacy_id": "5217",
+        "fgsid": "46111",
+        "legacy_from_data_cross_ref": [
+            "Macrozamia riedlei"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

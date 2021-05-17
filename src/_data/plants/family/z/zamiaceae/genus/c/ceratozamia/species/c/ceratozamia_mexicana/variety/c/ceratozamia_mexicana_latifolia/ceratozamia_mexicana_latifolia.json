@@ -1,0 +1,28 @@
+{
+    "name": "Ceratozamia mexicana latifolia",
+    "machine_name": "ceratozamia_mexicana_latifolia",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "latifolia",
+    "authorities": "Royal Hort",
+    "naming_authorities": "Schust.",
+    "description": null,
+    "lower_ranks": [
+        "Variety"
+    ],
+    "species": "ceratozamia_mexicana",
+    "genus": "ceratozamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1467322",
+        "legacy_id": "4461",
+        "fgsid": "7080",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482817735"
+    }
+}

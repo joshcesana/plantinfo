@@ -1,0 +1,30 @@
+{
+    "name": "Fagonia olivieri",
+    "machine_name": "fagonia_olivieri",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis I",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "fagonia",
+    "family": "zygophyllaceae",
+    "cross_references": [
+        {
+            "machine_name": "fagonia_cretica",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1412561",
+        "legacy_id": "11616",
+        "fgsid": "15122",
+        "legacy_from_data_cross_ref": [
+            "+F. cretica"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

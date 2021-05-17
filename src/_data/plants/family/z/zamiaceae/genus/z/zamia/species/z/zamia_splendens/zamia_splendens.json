@@ -1,0 +1,23 @@
+{
+    "name": "Zamia splendens",
+    "machine_name": "zamia_splendens",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis 18",
+    "naming_authorities": "Schutzman.",
+    "description": null,
+    "genus": "zamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1448102",
+        "legacy_id": "15416",
+        "fgsid": "86937",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

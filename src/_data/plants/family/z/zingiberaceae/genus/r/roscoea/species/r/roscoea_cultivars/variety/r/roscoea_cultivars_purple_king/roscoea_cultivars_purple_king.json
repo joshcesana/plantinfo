@@ -1,0 +1,28 @@
+{
+    "name": "Roscoea [Cultivars] 'Purple King'",
+    "machine_name": "roscoea_cultivars_purple_king",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Purple King",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "roscoea_cultivars",
+    "genus": "roscoea",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1613959",
+        "legacy_id": "237954",
+        "fgsid": "47715",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482853696"
+    }
+}

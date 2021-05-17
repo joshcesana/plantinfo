@@ -1,0 +1,30 @@
+{
+    "name": "Curcuma domestica",
+    "machine_name": "curcuma_domestica",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Hortus",
+    "naming_authorities": "Val.",
+    "description": null,
+    "genus": "curcuma",
+    "family": "zingiberaceae",
+    "cross_references": [
+        {
+            "machine_name": "curcuma_longa",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1408797",
+        "legacy_id": "5068",
+        "fgsid": "9618",
+        "legacy_from_data_cross_ref": [
+            "C. longa"
+        ],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

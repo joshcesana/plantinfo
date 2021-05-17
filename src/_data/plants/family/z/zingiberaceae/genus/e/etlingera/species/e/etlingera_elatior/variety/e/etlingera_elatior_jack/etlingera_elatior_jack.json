@@ -1,0 +1,28 @@
+{
+    "name": "Etlingera elatior 'Jack'",
+    "machine_name": "etlingera_elatior_jack",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Jack",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "etlingera_elatior",
+    "genus": "etlingera",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "2491021",
+        "legacy_id": null,
+        "fgsid": null,
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "false",
+        "author": "r-isaa",
+        "created": "1552481487"
+    }
+}

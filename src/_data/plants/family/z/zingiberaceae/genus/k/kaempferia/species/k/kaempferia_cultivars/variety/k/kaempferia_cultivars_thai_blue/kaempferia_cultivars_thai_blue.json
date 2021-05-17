@@ -1,0 +1,28 @@
+{
+    "name": "Kaempferia [Cultivars] 'Thai Blue'",
+    "machine_name": "kaempferia_cultivars_thai_blue",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Thai Blue",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "kaempferia_cultivars",
+    "genus": "kaempferia",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1539211",
+        "legacy_id": "113993",
+        "fgsid": "42952",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482836612"
+    }
+}

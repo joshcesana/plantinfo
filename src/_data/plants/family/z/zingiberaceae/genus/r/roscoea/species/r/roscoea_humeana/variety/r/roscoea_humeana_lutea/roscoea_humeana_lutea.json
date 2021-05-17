@@ -1,0 +1,28 @@
+{
+    "name": "Roscoea humeana lutea",
+    "machine_name": "roscoea_humeana_lutea",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "lutea",
+    "authorities": null,
+    "naming_authorities": "Cowley",
+    "description": null,
+    "lower_ranks": [
+        "Form"
+    ],
+    "species": "roscoea_humeana",
+    "genus": "roscoea",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1553120",
+        "legacy_id": "127162",
+        "fgsid": "30997",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482840869"
+    }
+}

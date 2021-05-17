@@ -1,0 +1,30 @@
+{
+    "name": "Globba bulbifera",
+    "machine_name": "globba_bulbifera",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "1998 Sources",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "globba",
+    "family": "zingiberaceae",
+    "cross_references": [
+        {
+            "machine_name": "globba_marantina",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1433790",
+        "legacy_id": "2434",
+        "fgsid": "38765",
+        "legacy_from_data_cross_ref": [
+            "G. marantina"
+        ],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

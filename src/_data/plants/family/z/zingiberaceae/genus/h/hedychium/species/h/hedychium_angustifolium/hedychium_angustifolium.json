@@ -1,0 +1,30 @@
+{
+    "name": "Hedychium angustifolium",
+    "machine_name": "hedychium_angustifolium",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": "created for cross reference",
+    "genus": "hedychium",
+    "family": "zingiberaceae",
+    "cross_references": [
+        {
+            "machine_name": "hedychium_coccineum_angustifolium",
+            "type": "variety"
+        }
+    ],
+    "archival_data": {
+        "id": "1442163",
+        "legacy_id": "829",
+        "fgsid": "43742",
+        "legacy_from_data_cross_ref": [
+            "Hedychium coccineum angustifolium"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

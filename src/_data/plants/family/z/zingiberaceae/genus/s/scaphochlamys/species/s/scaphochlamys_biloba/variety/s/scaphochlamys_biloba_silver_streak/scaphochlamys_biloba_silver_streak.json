@@ -1,0 +1,28 @@
+{
+    "name": "Scaphochlamys biloba 'Silver Streak'",
+    "machine_name": "scaphochlamys_biloba_silver_streak",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Silver Streak",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "scaphochlamys_biloba",
+    "genus": "scaphochlamys",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1539823",
+        "legacy_id": "114167",
+        "fgsid": "43910",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482836612"
+    }
+}

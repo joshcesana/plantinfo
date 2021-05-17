@@ -1,0 +1,30 @@
+{
+    "name": "Ceratozamia longifolia",
+    "machine_name": "ceratozamia_longifolia",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis I",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "ceratozamia",
+    "family": "zamiaceae",
+    "cross_references": [
+        {
+            "machine_name": "ceratozamia_mexicana",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1405154",
+        "legacy_id": "9474",
+        "fgsid": "7079",
+        "legacy_from_data_cross_ref": [
+            "+C. mexicana"
+        ],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

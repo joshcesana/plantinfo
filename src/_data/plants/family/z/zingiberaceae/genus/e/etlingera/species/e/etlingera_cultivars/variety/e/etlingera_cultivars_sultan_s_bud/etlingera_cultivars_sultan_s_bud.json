@@ -1,0 +1,28 @@
+{
+    "name": "Etlingera [Cultivars] 'Sultan's Bud'",
+    "machine_name": "etlingera_cultivars_sultan_s_bud",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Sultan's Bud",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "etlingera_cultivars",
+    "genus": "etlingera",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1553485",
+        "legacy_id": "134042",
+        "fgsid": "51975",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482840869"
+    }
+}

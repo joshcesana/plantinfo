@@ -1,0 +1,28 @@
+{
+    "name": "Roscoea debilis debilis",
+    "machine_name": "roscoea_debilis_debilis",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "debilis",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Variety"
+    ],
+    "species": "roscoea_debilis",
+    "genus": "roscoea",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1639279",
+        "legacy_id": "327179",
+        "fgsid": "125399",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482857903"
+    }
+}

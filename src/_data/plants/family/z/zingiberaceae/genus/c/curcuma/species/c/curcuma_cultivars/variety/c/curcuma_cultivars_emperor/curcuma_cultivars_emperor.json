@@ -1,0 +1,28 @@
+{
+    "name": "Curcuma [Cultivars] 'Emperor'",
+    "machine_name": "curcuma_cultivars_emperor",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Emperor",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "curcuma_cultivars",
+    "genus": "curcuma",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1541292",
+        "legacy_id": "120592",
+        "fgsid": "43095",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "true",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482836612"
+    }
+}

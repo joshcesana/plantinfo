@@ -1,0 +1,28 @@
+{
+    "name": "Hedychium [Cultivars] 'Bright Yellow'",
+    "machine_name": "hedychium_cultivars_bright_yellow",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Bright Yellow",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "hedychium_cultivars",
+    "genus": "hedychium",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1542413",
+        "legacy_id": "120848",
+        "fgsid": "43743",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482836612"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Alpinia [Cultivars] 'Pink Perfection'",
+    "machine_name": "alpinia_cultivars_pink_perfection",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "Pink Perfection",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Cultivar"
+    ],
+    "species": "alpinia_cultivars",
+    "genus": "alpinia",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1574460",
+        "legacy_id": "195540",
+        "fgsid": "2128",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "false",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482845206"
+    }
+}

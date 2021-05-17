@@ -1,0 +1,41 @@
+{
+    "name": "Hedychium coronarium chrysoleucum",
+    "machine_name": "hedychium_coronarium_chrysoleucum",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "chrysoleucum",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": {
+        "value": "created for cross reference",
+        "summary": null,
+        "format": null,
+        "safe_value": "created for cross reference",
+        "safe_summary": ""
+    },
+    "lower_ranks": [
+        "Variety"
+    ],
+    "species": "hedychium_coronarium",
+    "genus": "hedychium",
+    "family": "zingiberaceae",
+    "cross_references": [
+        {
+            "machine_name": "hedychium_chrysoleucum",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1537686",
+        "legacy_id": "113587",
+        "fgsid": "17648",
+        "legacy_from_data_cross_ref": [
+            "Hedychium chrysoleucum"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482836612"
+    }
+}

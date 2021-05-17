@@ -1,0 +1,25 @@
+{
+    "name": "Catimbium speciosum",
+    "machine_name": "catimbium_speciosum",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis 11",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "catimbium",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1403627",
+        "legacy_id": "15315",
+        "fgsid": "6702",
+        "legacy_from_data_cross_ref": [
+            "+Zerumbet speciosum"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

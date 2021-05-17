@@ -1,0 +1,28 @@
+{
+    "name": "Roscoea forrestii purpurea",
+    "machine_name": "roscoea_forrestii_purpurea",
+    "type": "variety",
+    "mark": null,
+    "lower_ranks_name": "purpurea",
+    "authorities": null,
+    "naming_authorities": null,
+    "description": null,
+    "lower_ranks": [
+        "Form"
+    ],
+    "species": "roscoea_forrestii",
+    "genus": "roscoea",
+    "family": "zingiberaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1597740",
+        "legacy_id": "385057",
+        "fgsid": "125400",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482849539"
+    }
+}

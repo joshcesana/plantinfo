@@ -1,0 +1,30 @@
+{
+    "name": "Zamia latifolia",
+    "machine_name": "zamia_latifolia",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Royal Hort",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "zamia",
+    "family": "zamiaceae",
+    "cross_references": [
+        {
+            "machine_name": "zamia_loddigesii_latifolia",
+            "type": "variety"
+        }
+    ],
+    "archival_data": {
+        "id": "1438701",
+        "legacy_id": "8936",
+        "fgsid": "36858",
+        "legacy_from_data_cross_ref": [
+            "+Z. loddigesii latifolia"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}

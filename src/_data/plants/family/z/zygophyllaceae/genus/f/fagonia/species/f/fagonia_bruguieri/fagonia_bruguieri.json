@@ -1,0 +1,30 @@
+{
+    "name": "Fagonia bruguieri",
+    "machine_name": "fagonia_bruguieri",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Kewensis I",
+    "naming_authorities": null,
+    "description": null,
+    "genus": "fagonia",
+    "family": "zygophyllaceae",
+    "cross_references": [
+        {
+            "machine_name": "fagonia_cretica",
+            "type": "species"
+        }
+    ],
+    "archival_data": {
+        "id": "1412557",
+        "legacy_id": "2369",
+        "fgsid": "15118",
+        "legacy_from_data_cross_ref": [
+            "+F. cretica"
+        ],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482812190"
+    }
+}

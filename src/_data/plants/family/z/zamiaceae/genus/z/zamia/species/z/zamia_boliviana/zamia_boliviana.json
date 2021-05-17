@@ -1,0 +1,23 @@
+{
+    "name": "Zamia boliviana",
+    "machine_name": "zamia_boliviana",
+    "type": "species",
+    "hybrid": "false",
+    "authorities": "Missouri.",
+    "naming_authorities": "A. DC.",
+    "description": null,
+    "genus": "zamia",
+    "family": "zamiaceae",
+    "cross_references": [],
+    "archival_data": {
+        "id": "1455107",
+        "legacy_id": "2094",
+        "fgsid": "99885",
+        "legacy_from_data_cross_ref": [],
+        "fpi": "true",
+        "source": "false",
+        "active": "true",
+        "author": "oitadmin",
+        "created": "1482815432"
+    }
+}
