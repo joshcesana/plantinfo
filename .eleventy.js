@@ -4,6 +4,7 @@ const getElementItemsByType = require('./src/utils/get-element-items-by-type.js'
 const getLetterListByItemType = require('./src/utils/get-letter-list-by-item-type.js');
 const sortByMachineName = require('./src/utils/sort-by-machine-name.js');
 const sortLetterArray = require('./src/utils/sort-letter-array.js');
+const getPlantPermalink = require('./src/filters/get-plant-permalink.js');
 
 module.exports = config => {
   // Set directories to pass through to the dist folder
@@ -12,6 +13,8 @@ module.exports = config => {
   let rootDataPath = ['plants_archive', 'family'];
   let rootLevelsDeep = [3];
   let rootItemType = 'family';
+
+  config.addNunjucksFilter("getPlantPermalink", (value) => getPlantPermalink(value));
 
   let getLetterGroupCollection = (collection, dataPath, levelsDeep, itemType) => {
     return sortByMachineName(

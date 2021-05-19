@@ -1,3 +1,5 @@
+const uuidv4 = require("uuid/v4");
+
 /**
  * Takes a collection and returns it back filtered by letter group.
  *
@@ -23,7 +25,11 @@ module.exports = (collection, dataPath, levelsDeep, itemType) => {
 
     let addLevelItem = function(levelItem, itemType) {
       if (levelItem.hasOwnProperty('type') && levelItem.type === itemType) {
-        collectionItems.push({ data: levelItem });
+        levelItem['uuid'] = uuidv4();
+
+        collectionItems.push({
+          data: levelItem
+        });
       }
     };
 

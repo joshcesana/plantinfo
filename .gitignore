@@ -14,7 +14,6 @@ Thumbs.db
 node_modules
 dist
 src/_includes/css
-src/_data/plants_archive/**/*
 
 # Temporary data
 temp

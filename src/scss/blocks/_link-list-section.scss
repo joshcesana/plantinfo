@@ -25,12 +25,10 @@
   border-bottom: 1px solid get-color('secondary-shade');
 }
 
-.directory-genus__link-list-section {
-  margin-bottom: get-size('600');
-}
-
 .related-plant__link-list-section,
 .directory-genus__link-list-section {
+  margin-bottom: get-size('600');
+
   .list {
     column-count: 2;
     column-gap: get-size('300');
@@ -50,4 +48,9 @@
       column-gap: get-size('600');
     }
   }
+}
+
+.list-empty {
+  font-size: get-size('400');
+  line-height: 1.7;
 }

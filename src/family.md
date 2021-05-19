@@ -1,10 +1,11 @@
 ---
+title: {{ plant.data.name }}
 layout: 'layouts/plant.html'
 pagination:
   data: collections.family
   size: 1
   alias: plant
-permalink: '/plants/family/{{ plant.data.machine_name }}/'
+permalink: '{{ plant | getPlantPermalink }}'
 eleventyComputed:
     title: "Plant Family: {{ plant.data.name }}"
 ---

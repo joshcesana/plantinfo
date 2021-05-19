@@ -1,3 +1,5 @@
+const uuidv4 = require("uuid/v4");
+
 /**
  * Takes a collection and returns it back with the attached element items by type.
  *
@@ -26,6 +28,8 @@ module.exports = (collection, itemType) => {
             elementItem.hasOwnProperty('type') &&
             elementItem.type === itemType
           ) {
+            elementItem['uuid'] = uuidv4();
+
             elementItems.push({
               data: elementItem
             });

@@ -24,16 +24,19 @@ module.exports = {
   /**
    * Returns a plant item based on the collection type and machine name.
    *
-   * @param {Array}        collections   The 11ty collections.
+   * @param {Array}        collections  The 11ty collections.
    * @param {String}       itemType     The item type to use for the collection.
    * @param {String}       machineName  The machine name of the plant item.
    * @returns {Array}                   The item from the collection.
    */
-  getPlantByTypeAndMachineName(collections, itemType, machineName) {
+  getPlantByTypeAndMachineName(collections, itemType, machineName, uuid) {
     const plantItems = collections[itemType];
-    let plantItem = {};
+    let plantFound = {};
+    let plantItemsFound = [];
 
     plantItems.forEach(plant => {
+      let plantItem = {};
+
       if (
         plant.hasOwnProperty('data') &&
         plant.data.hasOwnProperty('type') &&
@@ -42,9 +45,17 @@ module.exports = {
         plant.data.machine_name === machineName) {
         plantItem['data'] = plant.data;
       }
+
+      if (plantItem.hasOwnProperty('data')) {
+        plantItemsFound.push(plantItem);
+      }
     });
 
-    return plantItem;
+    if (plantItemsFound.length > 0) {
+      plantFound = plantItemsFound[0];
+    }
+
+    return plantFound;
   },
 
   /**
@@ -180,7 +191,8 @@ module.exports = {
       familySlug: '',
       genusSlug: '',
       speciesSlug: '',
-      varietySlug: ''
+      varietySlug: '',
+      uuidSlug: ''
     };
 
     if (
@@ -215,6 +227,10 @@ module.exports = {
       if (plantItem.data.hasOwnProperty('species')) {
         pathParts.speciesSlug = plantItem.data.species;
       }
+
+      if (plantItem.data.hasOwnProperty('uuid')) {
+        pathParts.uuidSlug = plantItem.data.uuid;
+      }
     }
 
     if (pathParts.familySlug !== '') {
@@ -230,6 +246,10 @@ module.exports = {
 
       if (pathParts.varietySlug !== '') {
         permalinkPath = permalinkPath + 'variety/' + pathParts.varietySlug + '/';
+      }
+
+      if (pathParts.uuidSlug !== '') {
+        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
       }
     }
 
