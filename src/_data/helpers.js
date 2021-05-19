@@ -228,8 +228,11 @@ module.exports = {
         pathParts.speciesSlug = plantItem.data.species;
       }
 
-      if (plantItem.data.hasOwnProperty('uuid')) {
-        pathParts.uuidSlug = plantItem.data.uuid;
+      if (
+        plantItem.data.hasOwnProperty('archival_data') &&
+        plantItem.data.archival_data.hasOwnProperty('id')
+      ) {
+        pathParts.uuidSlug = plantItem.data.archival_data.id;
       }
     }
 
@@ -292,6 +295,7 @@ module.exports = {
             type: plant.data.type,
             machine_name: plant.data.machine_name,
             name: plant.data.name,
+            uuid: plant.data.uuid,
             permalink_path: module.exports.createPlantPermalinkPath(plant)
           }
         );
