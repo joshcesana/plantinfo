@@ -1,0 +1,87 @@
+{
+  "name": "Yellow Rose, The",
+  "machine_name": "yellow_rose",
+  "type": "journal",
+  "journal_books": [
+    {
+      "name": "Yellow Rose, The. vol 12, no. 1.",
+      "machine_name": "yellow_rose_the_vol_12_no_1",
+      "type": "journal_book",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "additional_info": "",
+      "publish_date": "",
+      "pulling_date": "",
+      "description": "",
+      "archival_data": {
+        "id": "1679280",
+        "legacy_id": "5923",
+        "author": "oitadmin",
+        "created": "1473951060"
+      },
+      "citation_references": []
+    },
+    {
+      "name": "Yellow Rose, The. vol 12, no. 1. (1995)",
+      "machine_name": "yellow_rose_the_vol_12_no_1_1995",
+      "type": "journal_book",
+      "volume": "",
+      "number": "",
+      "year": "1995",
+      "additional_info": "",
+      "publish_date": "",
+      "pulling_date": "",
+      "description": "",
+      "archival_data": {
+        "id": "2112909",
+        "legacy_id": "5923",
+        "author": "oitadmin",
+        "created": "1473951060"
+      },
+      "citation_references": [
+        {
+          "name": "Yellow Rose, The. vol 12, no. 1. (1995) p cover",
+          "machine_name": "yellow_rose_the_vol_12_no_1_1995_p_cover",
+          "type": "citation_reference",
+          "plant": {
+            "machine_name": "rosa_cultivars_bonn",
+            "type": "variety",
+            "archival_data": {
+              "id": "1490345"
+            }
+          },
+          "volume": "",
+          "page": "p cover",
+          "year": "",
+          "notes": "",
+          "parts_shown": {
+            "Flower": true,
+            "Seed": false,
+            "Fruit": false,
+            "Bark": false,
+            "Root": false,
+            "Habit": false,
+            "Leaf": false,
+            "Twig": false,
+            "Unclear": false
+          },
+          "citation_type": {
+            "art": false,
+            "photo": true
+          },
+          "archival_data": {
+            "id": "1747908",
+            "legacy_fpi_id": "45426",
+            "AD": false,
+            "fpi_pub_issue": "",
+            "pullingdat": "1",
+            "active": true,
+            "author": "oitadmin",
+            "created": "1483154400"
+          }
+        }
+      ]
+    }
+  ]
+}
