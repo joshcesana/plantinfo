@@ -5,7 +5,8 @@
       "machine_name": "evergreens",
       "type": "nursery_category",
       "archival_data": {
-        "id": "216162"
+        "id": "216162",
+        "legacy_id": "10"
       }
     },
     {
@@ -13,7 +14,8 @@
       "machine_name": "shrubs",
       "type": "nursery_category",
       "archival_data": {
-        "id": "216184"
+        "id": "216184",
+        "legacy_id": "497"
       }
     },
     {
@@ -21,7 +23,8 @@
       "machine_name": "trees",
       "type": "nursery_category",
       "archival_data": {
-        "id": "216185"
+        "id": "216185",
+        "legacy_id": "49"
       }
     }
   ]
