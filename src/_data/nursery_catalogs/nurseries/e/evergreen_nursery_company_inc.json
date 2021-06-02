@@ -27,21 +27,21 @@
   },
   "specialties": [
     {
-      "machine_name": "Evergreens",
+      "machine_name": "evergreens",
       "type": "nursery_category",
       "archival_data": {
         "id": "216162"
       }
     },
     {
-      "machine_name": "Shrubs",
+      "machine_name": "shrubs",
       "type": "nursery_category",
       "archival_data": {
         "id": "216184"
       }
     },
     {
-      "machine_name": "Trees",
+      "machine_name": "tsrees",
       "type": "nursery_category",
       "archival_data": {
         "id": "216185"
