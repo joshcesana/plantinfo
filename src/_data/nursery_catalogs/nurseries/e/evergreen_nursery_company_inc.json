@@ -70,118 +70,121 @@
     "author": "oitadmin",
     "created": "1474897980"
   },
-  "catalog_data": {
-    "name": "Evergreen Nursery Company Inc 2020/21",
-    "machine_name": "evergreen_nursery_company_inc_2020_21",
-    "catalog_data": "Dec 30 2020",
-    "nursery": "evergreen_nursery_company_inc",
-    "active": true,
-    "plants": [
-      {
-        "reference": "254318",
-        "machine_name": "thuja_occidentalis_techny",
-        "type": "variety",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1530542",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
+  "catalogs": [
+    {
+      "name": "Evergreen Nursery Company Inc 2020/21",
+      "machine_name": "evergreen_nursery_company_inc_2020_21",
+      "type": "nursery_catalog",
+      "catalog_date": "Dec 30 2020",
+      "nursery": "evergreen_nursery_company_inc",
+      "active": true,
+      "plants": [
+        {
+          "reference": "254318",
+          "machine_name": "thuja_occidentalis_techny",
+          "type": "variety",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1530542",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "254321",
+          "machine_name": "rosa_cultivars_bonn",
+          "type": "variety",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1521412",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "254322",
+          "machine_name": "picea_glauca_densata",
+          "type": "variety",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1424518",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "254323",
+          "machine_name": "picea_omorika",
+          "type": "species",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1424539",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "284897",
+          "machine_name": "thuja_occidentalis",
+          "type": "species",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1430811",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "284898",
+          "machine_name": "thuja_occidentalis_nigra",
+          "type": "variety",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1530520",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
+        },
+        {
+          "reference": "284899",
+          "machine_name": "thuja_occidentalis_smaragd",
+          "type": "variety",
+          "seed": false,
+          "pages": "",
+          "active": true,
+          "notes": "",
+          "archival_data": {
+            "id": "1491347",
+            "fgsid": "",
+            "legacy_id": "",
+            "catalog_source_id": ""
+          }
         }
-      },
-      {
-        "reference": "254321",
-        "machine_name": "rosa_cultivars_bonn",
-        "type": "variety",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1521412",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      },
-      {
-        "reference": "254322",
-        "machine_name": "picea_glauca_densata",
-        "type": "variety",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1424518",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      },
-      {
-        "reference": "254323",
-        "machine_name": "picea_omorika",
-        "type": "species",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1424539",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      },
-      {
-        "reference": "284897",
-        "machine_name": "thuja_occidentalis",
-        "type": "species",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1430811",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      },
-      {
-        "reference": "284898",
-        "machine_name": "thuja_occidentalis_nigra",
-        "type": "variety",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1530520",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      },
-      {
-        "reference": "284899",
-        "machine_name": "thuja_occidentalis_smaragd",
-        "type": "variety",
-        "seed": false,
-        "pages": "",
-        "active": true,
-        "notes": "",
-        "archival_data": {
-          "id": "1491347",
-          "fgsid": "",
-          "legacy_id": "",
-          "catalog_source_id": ""
-        }
-      }
-    ]
-  }
+      ]
+    }
+  ]
 }
