@@ -1,0 +1,60 @@
+{
+    "name": "Wildwood Gardens of Ohio",
+    "machine_name": "wildwood_gardens_of_ohio",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "14488 Rock Creek Road",
+        "address_2": null,
+        "city": "Chardon",
+        "state": "OH",
+        "postal_code": "44024",
+        "geo_coordinate": "POINT (-81.124123 41.626256)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wildwoodgardens.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "440-286-3714",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bonsai",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216155"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673794",
+        "legacy_id": "26483",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

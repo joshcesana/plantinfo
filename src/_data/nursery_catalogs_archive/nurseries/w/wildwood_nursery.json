@@ -1,0 +1,2336 @@
+{
+    "name": "Wildwood Nursery",
+    "machine_name": "wildwood_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "10300 Sonoma Highway",
+        "address_2": "",
+        "city": "Kenwood",
+        "state": "CA",
+        "postal_code": "95452",
+        "geo_coordinate": "POINT (-122.5399643 38.4036235)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wildwoodmaples.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "sales@wildwoodmaples.com",
+        "phone": "707-833-1161",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2018 ",
+    "nursery_catalog_items": [
+        {
+            "name": "Wildwood Nursery 2018",
+            "machine_name": "wildwood_nursery_2018",
+            "type": "nursery_catalog",
+            "date": "Mar 30 2018",
+            "nursery": "wildwood_nursery",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1498094",
+                    "machine_name": "acer_palmatum_otto_s",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "6392",
+                        "fgsid": null,
+                        "legacy_id": "70335",
+                        "catalog_source_id": "1124302"
+                    }
+                },
+                {
+                    "reference": "1651120",
+                    "machine_name": "acer_shirasawanum_mr_sun",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "6399",
+                        "fgsid": null,
+                        "legacy_id": "381439",
+                        "catalog_source_id": "1124304"
+                    }
+                },
+                {
+                    "reference": "1636030",
+                    "machine_name": "ginkgo_biloba_gnome",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "52917",
+                        "fgsid": null,
+                        "legacy_id": "295982",
+                        "catalog_source_id": "1124258"
+                    }
+                },
+                {
+                    "reference": "1612269",
+                    "machine_name": "ginkgo_biloba_troll",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "52927",
+                        "fgsid": null,
+                        "legacy_id": "242118",
+                        "catalog_source_id": "1124263"
+                    }
+                },
+                {
+                    "reference": "1623536",
+                    "machine_name": "ginkgo_biloba_jehosephat",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "52961",
+                        "fgsid": null,
+                        "legacy_id": "381442",
+                        "catalog_source_id": "1124311"
+                    }
+                },
+                {
+                    "reference": "1666673",
+                    "machine_name": "cornus_kousa_minuma",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "62286",
+                        "fgsid": null,
+                        "legacy_id": "406278",
+                        "catalog_source_id": "1351735"
+                    }
+                },
+                {
+                    "reference": "1567615",
+                    "machine_name": "acer_palmatum_matthew",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "64672",
+                        "fgsid": null,
+                        "legacy_id": "171601",
+                        "catalog_source_id": "1293646"
+                    }
+                },
+                {
+                    "reference": "1606172",
+                    "machine_name": "acer_palmatum_shirazz",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93036",
+                        "fgsid": null,
+                        "legacy_id": "279981",
+                        "catalog_source_id": "1124224"
+                    }
+                },
+                {
+                    "reference": "1498365",
+                    "machine_name": "acer_palmatum_yugure",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93038",
+                        "fgsid": null,
+                        "legacy_id": "70398",
+                        "catalog_source_id": "1124226"
+                    }
+                },
+                {
+                    "reference": "1605908",
+                    "machine_name": "acer_palmatum_rhode_island_red",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93046",
+                        "fgsid": null,
+                        "legacy_id": "283217",
+                        "catalog_source_id": "1124231"
+                    }
+                },
+                {
+                    "reference": "1588484",
+                    "machine_name": "acer_palmatum_ryusen",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93047",
+                        "fgsid": null,
+                        "legacy_id": "325501",
+                        "catalog_source_id": "1124232"
+                    }
+                },
+                {
+                    "reference": "1498361",
+                    "machine_name": "acer_palmatum_wilson_s_pink_dwarf",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93048",
+                        "fgsid": null,
+                        "legacy_id": "70394",
+                        "catalog_source_id": "1124233"
+                    }
+                },
+                {
+                    "reference": "1497563",
+                    "machine_name": "acer_palmatum_beni_komo_no_su",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93051",
+                        "fgsid": null,
+                        "legacy_id": "70233",
+                        "catalog_source_id": "1124235"
+                    }
+                },
+                {
+                    "reference": "1538842",
+                    "machine_name": "acer_campestre_carnival",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93060",
+                        "fgsid": null,
+                        "legacy_id": "112686",
+                        "catalog_source_id": "1124249"
+                    }
+                },
+                {
+                    "reference": "1571328",
+                    "machine_name": "acer_shirasawanum_jordan",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "93076",
+                        "fgsid": null,
+                        "legacy_id": "194247",
+                        "catalog_source_id": "1124251"
+                    }
+                },
+                {
+                    "reference": "1501769",
+                    "machine_name": "cornus_kousa_wolf_eyes",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96307",
+                        "fgsid": null,
+                        "legacy_id": "74829",
+                        "catalog_source_id": "999939"
+                    }
+                },
+                {
+                    "reference": "1587864",
+                    "machine_name": "cornus_cultivars_ascona",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96308",
+                        "fgsid": null,
+                        "legacy_id": "217200",
+                        "catalog_source_id": "999940"
+                    }
+                },
+                {
+                    "reference": "1538837",
+                    "machine_name": "cornus_nuttallii_barrick",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96309",
+                        "fgsid": null,
+                        "legacy_id": "112681",
+                        "catalog_source_id": "999941"
+                    }
+                },
+                {
+                    "reference": "1501772",
+                    "machine_name": "cornus_nuttallii_colrigo_giant",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96310",
+                        "fgsid": null,
+                        "legacy_id": "74832",
+                        "catalog_source_id": "999942"
+                    }
+                },
+                {
+                    "reference": "1471024",
+                    "machine_name": "cornus_nuttallii_goldspot",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96311",
+                        "fgsid": null,
+                        "legacy_id": "5446",
+                        "catalog_source_id": "999943"
+                    }
+                },
+                {
+                    "reference": "1612676",
+                    "machine_name": "cornus_elwinortonii_venus",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96312",
+                        "fgsid": null,
+                        "legacy_id": "234954",
+                        "catalog_source_id": "999946"
+                    }
+                },
+                {
+                    "reference": "1405430",
+                    "machine_name": "davidia_involucrata",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96320",
+                        "fgsid": "10292",
+                        "legacy_id": null,
+                        "catalog_source_id": "999956"
+                    }
+                },
+                {
+                    "reference": "1507205",
+                    "machine_name": "ginkgo_biloba_chi_chi",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96323",
+                        "fgsid": null,
+                        "legacy_id": "79738",
+                        "catalog_source_id": "999959"
+                    }
+                },
+                {
+                    "reference": "1532754",
+                    "machine_name": "ginkgo_biloba_jade_butterflies",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96324",
+                        "fgsid": null,
+                        "legacy_id": "111090",
+                        "catalog_source_id": "999963"
+                    }
+                },
+                {
+                    "reference": "1575624",
+                    "machine_name": "ginkgo_biloba_mariken",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96325",
+                        "fgsid": null,
+                        "legacy_id": "199734",
+                        "catalog_source_id": "999964"
+                    }
+                },
+                {
+                    "reference": "1632890",
+                    "machine_name": "ginkgo_biloba_munchkin",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96326",
+                        "fgsid": null,
+                        "legacy_id": "306396",
+                        "catalog_source_id": "999965"
+                    }
+                },
+                {
+                    "reference": "1566670",
+                    "machine_name": "ginkgo_biloba_spring_grove",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96327",
+                        "fgsid": null,
+                        "legacy_id": "181047",
+                        "catalog_source_id": "999967"
+                    }
+                },
+                {
+                    "reference": "1432952",
+                    "machine_name": "sciadopitys_verticillata",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "96330",
+                        "fgsid": "32249",
+                        "legacy_id": null,
+                        "catalog_source_id": "999970"
+                    }
+                },
+                {
+                    "reference": "1466801",
+                    "machine_name": "acer_palmatum_waterfall",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102446",
+                        "fgsid": null,
+                        "legacy_id": "365",
+                        "catalog_source_id": "999860"
+                    }
+                },
+                {
+                    "reference": "1498135",
+                    "machine_name": "acer_palmatum_toyama_nishiki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102450",
+                        "fgsid": null,
+                        "legacy_id": "70379",
+                        "catalog_source_id": "999864"
+                    }
+                },
+                {
+                    "reference": "1497224",
+                    "machine_name": "acer_buergerianum_mino_yatsubusa",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102452",
+                        "fgsid": null,
+                        "legacy_id": "70112",
+                        "catalog_source_id": "999867"
+                    }
+                },
+                {
+                    "reference": "1622658",
+                    "machine_name": "acer_japonicum_fairy_lights",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102455",
+                        "fgsid": null,
+                        "legacy_id": "358768",
+                        "catalog_source_id": "999874"
+                    }
+                },
+                {
+                    "reference": "1497534",
+                    "machine_name": "acer_japonicum_mai_kujaku",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102456",
+                        "fgsid": null,
+                        "legacy_id": "70203",
+                        "catalog_source_id": "999875"
+                    }
+                },
+                {
+                    "reference": "1497537",
+                    "machine_name": "acer_japonicum_oregon_fern",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102461",
+                        "fgsid": null,
+                        "legacy_id": "70206",
+                        "catalog_source_id": "999882"
+                    }
+                },
+                {
+                    "reference": "1538607",
+                    "machine_name": "acer_japonicum_otaki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102462",
+                        "fgsid": null,
+                        "legacy_id": "113837",
+                        "catalog_source_id": "999883"
+                    }
+                },
+                {
+                    "reference": "1466607",
+                    "machine_name": "acer_palmatum_ornatum",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102464",
+                        "fgsid": null,
+                        "legacy_id": "326",
+                        "catalog_source_id": "1293621"
+                    }
+                },
+                {
+                    "reference": "1498675",
+                    "machine_name": "acer_shirasawanum_autumn_moon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102470",
+                        "fgsid": null,
+                        "legacy_id": "70496",
+                        "catalog_source_id": "1293663"
+                    }
+                },
+                {
+                    "reference": "1501496",
+                    "machine_name": "cornus_florida_cherokee_brave",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102507",
+                        "fgsid": null,
+                        "legacy_id": "74765",
+                        "catalog_source_id": "999907"
+                    }
+                },
+                {
+                    "reference": "1501498",
+                    "machine_name": "cornus_florida_cherokee_princess",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102508",
+                        "fgsid": null,
+                        "legacy_id": "74767",
+                        "catalog_source_id": "999910"
+                    }
+                },
+                {
+                    "reference": "1470986",
+                    "machine_name": "cornus_florida_cherokee_sunset",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102856",
+                        "fgsid": null,
+                        "legacy_id": "5407",
+                        "catalog_source_id": "999911"
+                    }
+                },
+                {
+                    "reference": "1501499",
+                    "machine_name": "cornus_florida_cloud_nine",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102858",
+                        "fgsid": null,
+                        "legacy_id": "74768",
+                        "catalog_source_id": "999912"
+                    }
+                },
+                {
+                    "reference": "1566666",
+                    "machine_name": "cornus_florida_spring_grove",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102860",
+                        "fgsid": null,
+                        "legacy_id": "181043",
+                        "catalog_source_id": "999914"
+                    }
+                },
+                {
+                    "reference": "1470752",
+                    "machine_name": "cornus_cultivars_eddie_s_white_wonder",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102862",
+                        "fgsid": null,
+                        "legacy_id": "5384",
+                        "catalog_source_id": "999915"
+                    }
+                },
+                {
+                    "reference": "1501755",
+                    "machine_name": "cornus_kousa_radiant_rose",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102863",
+                        "fgsid": null,
+                        "legacy_id": "74815",
+                        "catalog_source_id": "1293665"
+                    }
+                },
+                {
+                    "reference": "1556480",
+                    "machine_name": "daphne_odora_marginata",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102864",
+                        "fgsid": null,
+                        "legacy_id": "155993",
+                        "catalog_source_id": "1293666"
+                    }
+                },
+                {
+                    "reference": "1470999",
+                    "machine_name": "cornus_kousa_autumn_rose",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102865",
+                        "fgsid": null,
+                        "legacy_id": "5421",
+                        "catalog_source_id": "999917"
+                    }
+                },
+                {
+                    "reference": "1501534",
+                    "machine_name": "cornus_kousa_blue_shadow",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102866",
+                        "fgsid": null,
+                        "legacy_id": "74803",
+                        "catalog_source_id": "999918"
+                    }
+                },
+                {
+                    "reference": "1501536",
+                    "machine_name": "cornus_kousa_doubloon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102871",
+                        "fgsid": null,
+                        "legacy_id": "74805",
+                        "catalog_source_id": "999922"
+                    }
+                },
+                {
+                    "reference": "1501538",
+                    "machine_name": "cornus_kousa_elizabeth_lustgarten",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102872",
+                        "fgsid": null,
+                        "legacy_id": "74807",
+                        "catalog_source_id": "999923"
+                    }
+                },
+                {
+                    "reference": "1537149",
+                    "machine_name": "cornus_kousa_galilean",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102873",
+                        "fgsid": null,
+                        "legacy_id": "114565",
+                        "catalog_source_id": "999924"
+                    }
+                },
+                {
+                    "reference": "1471003",
+                    "machine_name": "cornus_kousa_gold_star",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102874",
+                        "fgsid": null,
+                        "legacy_id": "5425",
+                        "catalog_source_id": "999926"
+                    }
+                },
+                {
+                    "reference": "1537999",
+                    "machine_name": "cornus_kousa_heartthrob",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102875",
+                        "fgsid": null,
+                        "legacy_id": "113671",
+                        "catalog_source_id": "999927"
+                    }
+                },
+                {
+                    "reference": "1501757",
+                    "machine_name": "cornus_kousa_satomi",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102878",
+                        "fgsid": null,
+                        "legacy_id": "74817",
+                        "catalog_source_id": "999930"
+                    }
+                },
+                {
+                    "reference": "1600702",
+                    "machine_name": "cornus_kousa_summer_fun",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102882",
+                        "fgsid": null,
+                        "legacy_id": "228277",
+                        "catalog_source_id": "999933"
+                    }
+                },
+                {
+                    "reference": "1471012",
+                    "machine_name": "cornus_kousa_sunsplash",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102885",
+                        "fgsid": null,
+                        "legacy_id": "5434",
+                        "catalog_source_id": "999935"
+                    }
+                },
+                {
+                    "reference": "1501765",
+                    "machine_name": "cornus_kousa_temple_jewel",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "102887",
+                        "fgsid": null,
+                        "legacy_id": "74825",
+                        "catalog_source_id": "999936"
+                    }
+                },
+                {
+                    "reference": "1666673",
+                    "machine_name": "cornus_kousa_minuma",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "109823",
+                        "fgsid": null,
+                        "legacy_id": "406278",
+                        "catalog_source_id": "1351404"
+                    }
+                },
+                {
+                    "reference": "1466556",
+                    "machine_name": "acer_palmatum_aoyagi",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128981",
+                        "fgsid": null,
+                        "legacy_id": "270",
+                        "catalog_source_id": "999606"
+                    }
+                },
+                {
+                    "reference": "1497553",
+                    "machine_name": "acer_palmatum_asahi_zuru",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128982",
+                        "fgsid": null,
+                        "legacy_id": "70223",
+                        "catalog_source_id": "999608"
+                    }
+                },
+                {
+                    "reference": "1497561",
+                    "machine_name": "acer_palmatum_beni_kawa",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128987",
+                        "fgsid": null,
+                        "legacy_id": "70231",
+                        "catalog_source_id": "999612"
+                    }
+                },
+                {
+                    "reference": "1497565",
+                    "machine_name": "acer_palmatum_beni_otaki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128992",
+                        "fgsid": null,
+                        "legacy_id": "70235",
+                        "catalog_source_id": "999616"
+                    }
+                },
+                {
+                    "reference": "1628691",
+                    "machine_name": "acer_palmatum_dissectum_bewley_s_red",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128998",
+                        "fgsid": null,
+                        "legacy_id": "253132",
+                        "catalog_source_id": "999618"
+                    }
+                },
+                {
+                    "reference": "1466565",
+                    "machine_name": "acer_palmatum_butterfly",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129000",
+                        "fgsid": null,
+                        "legacy_id": "280",
+                        "catalog_source_id": "999623"
+                    }
+                },
+                {
+                    "reference": "1466568",
+                    "machine_name": "acer_palmatum_corallinum",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129001",
+                        "fgsid": null,
+                        "legacy_id": "283",
+                        "catalog_source_id": "999625"
+                    }
+                },
+                {
+                    "reference": "1497793",
+                    "machine_name": "acer_palmatum_emperor_i",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129002",
+                        "fgsid": null,
+                        "legacy_id": "70255",
+                        "catalog_source_id": "999626"
+                    }
+                },
+                {
+                    "reference": "1538609",
+                    "machine_name": "acer_palmatum_ever_autumn",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129003",
+                        "fgsid": null,
+                        "legacy_id": "113839",
+                        "catalog_source_id": "999627"
+                    }
+                },
+                {
+                    "reference": "1466580",
+                    "machine_name": "acer_palmatum_fireglow",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129004",
+                        "fgsid": null,
+                        "legacy_id": "298",
+                        "catalog_source_id": "999629"
+                    }
+                },
+                {
+                    "reference": "1603436",
+                    "machine_name": "acer_palmatum_hefners_red_select",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129005",
+                        "fgsid": null,
+                        "legacy_id": "278650",
+                        "catalog_source_id": "999647"
+                    }
+                },
+                {
+                    "reference": "1544104",
+                    "machine_name": "acer_palmatum_herbstfeuer_autumn_fire",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129007",
+                        "fgsid": null,
+                        "legacy_id": "119989",
+                        "catalog_source_id": "999649"
+                    }
+                },
+                {
+                    "reference": "1497806",
+                    "machine_name": "acer_palmatum_hogyoku",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129009",
+                        "fgsid": null,
+                        "legacy_id": "70268",
+                        "catalog_source_id": "999652"
+                    }
+                },
+                {
+                    "reference": "1497811",
+                    "machine_name": "acer_palmatum_ichigyoji",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129010",
+                        "fgsid": null,
+                        "legacy_id": "70273",
+                        "catalog_source_id": "999654"
+                    }
+                },
+                {
+                    "reference": "1497824",
+                    "machine_name": "acer_palmatum_katsura",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129013",
+                        "fgsid": null,
+                        "legacy_id": "70286",
+                        "catalog_source_id": "999660"
+                    }
+                },
+                {
+                    "reference": "1497827",
+                    "machine_name": "acer_palmatum_kinran",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129015",
+                        "fgsid": null,
+                        "legacy_id": "70289",
+                        "catalog_source_id": "999663"
+                    }
+                },
+                {
+                    "reference": "1632874",
+                    "machine_name": "acer_palmatum_korean_gem",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129016",
+                        "fgsid": null,
+                        "legacy_id": "306296",
+                        "catalog_source_id": "999665"
+                    }
+                },
+                {
+                    "reference": "1497838",
+                    "machine_name": "acer_palmatum_koto_no_ito",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129017",
+                        "fgsid": null,
+                        "legacy_id": "70300",
+                        "catalog_source_id": "999666"
+                    }
+                },
+                {
+                    "reference": "1544407",
+                    "machine_name": "acer_palmatum_novum",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129421",
+                        "fgsid": null,
+                        "legacy_id": "120075",
+                        "catalog_source_id": "999680"
+                    }
+                },
+                {
+                    "reference": "1498087",
+                    "machine_name": "acer_palmatum_omato",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129443",
+                        "fgsid": null,
+                        "legacy_id": "70328",
+                        "catalog_source_id": "999686"
+                    }
+                },
+                {
+                    "reference": "1498088",
+                    "machine_name": "acer_palmatum_omurayama",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129444",
+                        "fgsid": null,
+                        "legacy_id": "70329",
+                        "catalog_source_id": "999687"
+                    }
+                },
+                {
+                    "reference": "1538507",
+                    "machine_name": "acer_palmatum_orange_dream",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129445",
+                        "fgsid": null,
+                        "legacy_id": "112569",
+                        "catalog_source_id": "999688"
+                    }
+                },
+                {
+                    "reference": "1466608",
+                    "machine_name": "acer_palmatum_osakazuki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129447",
+                        "fgsid": null,
+                        "legacy_id": "327",
+                        "catalog_source_id": "999690"
+                    }
+                },
+                {
+                    "reference": "1498097",
+                    "machine_name": "acer_palmatum_peaches_and_cream",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129450",
+                        "fgsid": null,
+                        "legacy_id": "70338",
+                        "catalog_source_id": "999693"
+                    }
+                },
+                {
+                    "reference": "1586385",
+                    "machine_name": "acer_palmatum_purple_ghost",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129451",
+                        "fgsid": null,
+                        "legacy_id": "221891",
+                        "catalog_source_id": "999694"
+                    }
+                },
+                {
+                    "reference": "1609287",
+                    "machine_name": "acer_palmatum_shin_deshojo",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129472",
+                        "fgsid": null,
+                        "legacy_id": "349",
+                        "catalog_source_id": "999705"
+                    }
+                },
+                {
+                    "reference": "1466789",
+                    "machine_name": "acer_palmatum_shishigashira",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129473",
+                        "fgsid": null,
+                        "legacy_id": "350",
+                        "catalog_source_id": "999706"
+                    }
+                },
+                {
+                    "reference": "1599977",
+                    "machine_name": "acer_palmatum_sister_ghost",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129476",
+                        "fgsid": null,
+                        "legacy_id": "232932",
+                        "catalog_source_id": "999708"
+                    }
+                },
+                {
+                    "reference": "1498137",
+                    "machine_name": "acer_palmatum_tsukushigata",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129488",
+                        "fgsid": null,
+                        "legacy_id": "70381",
+                        "catalog_source_id": "999714"
+                    }
+                },
+                {
+                    "reference": "1466796",
+                    "machine_name": "acer_palmatum_ueno_yama",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129491",
+                        "fgsid": null,
+                        "legacy_id": "359",
+                        "catalog_source_id": "999715"
+                    }
+                },
+                {
+                    "reference": "1498139",
+                    "machine_name": "acer_palmatum_uki_gumo",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129492",
+                        "fgsid": null,
+                        "legacy_id": "70383",
+                        "catalog_source_id": "999716"
+                    }
+                },
+                {
+                    "reference": "1573311",
+                    "machine_name": "acer_palmatum_winter_flame",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129869",
+                        "fgsid": null,
+                        "legacy_id": "189333",
+                        "catalog_source_id": "999724"
+                    }
+                },
+                {
+                    "reference": "1544411",
+                    "machine_name": "acer_palmatum_yasemin",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129870",
+                        "fgsid": null,
+                        "legacy_id": "120079",
+                        "catalog_source_id": "999725"
+                    }
+                },
+                {
+                    "reference": "1466803",
+                    "machine_name": "acer_palmatum_yezo_nishiki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129872",
+                        "fgsid": null,
+                        "legacy_id": "367",
+                        "catalog_source_id": "999726"
+                    }
+                },
+                {
+                    "reference": "1604650",
+                    "machine_name": "acer_palmatum_abigail_rose",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129873",
+                        "fgsid": null,
+                        "legacy_id": "279156",
+                        "catalog_source_id": "999727"
+                    }
+                },
+                {
+                    "reference": "1497552",
+                    "machine_name": "acer_palmatum_aratama",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129879",
+                        "fgsid": null,
+                        "legacy_id": "70222",
+                        "catalog_source_id": "999734"
+                    }
+                },
+                {
+                    "reference": "1614669",
+                    "machine_name": "acer_palmatum_ariadne",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129880",
+                        "fgsid": null,
+                        "legacy_id": "241080",
+                        "catalog_source_id": "999735"
+                    }
+                },
+                {
+                    "reference": "1533328",
+                    "machine_name": "acer_palmatum_chishio_improved",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129890",
+                        "fgsid": null,
+                        "legacy_id": "111314",
+                        "catalog_source_id": "999743"
+                    }
+                },
+                {
+                    "reference": "1497787",
+                    "machine_name": "acer_palmatum_coonara_pygmy",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129896",
+                        "fgsid": null,
+                        "legacy_id": "70249",
+                        "catalog_source_id": "999744"
+                    }
+                },
+                {
+                    "reference": "1497803",
+                    "machine_name": "acer_palmatum_hanami_nishiki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129900",
+                        "fgsid": null,
+                        "legacy_id": "70265",
+                        "catalog_source_id": "999752"
+                    }
+                },
+                {
+                    "reference": "1497819",
+                    "machine_name": "acer_palmatum_kamagata",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129901",
+                        "fgsid": null,
+                        "legacy_id": "70281",
+                        "catalog_source_id": "999757"
+                    }
+                },
+                {
+                    "reference": "1498070",
+                    "machine_name": "acer_palmatum_mikawa_yatsubusa",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131957",
+                        "fgsid": null,
+                        "legacy_id": "70310",
+                        "catalog_source_id": "999770"
+                    }
+                },
+                {
+                    "reference": "1566918",
+                    "machine_name": "acer_palmatum_mizuho_beni",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131958",
+                        "fgsid": null,
+                        "legacy_id": "181082",
+                        "catalog_source_id": "999772"
+                    }
+                },
+                {
+                    "reference": "1498076",
+                    "machine_name": "acer_palmatum_murasaki_kiyohime",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131959",
+                        "fgsid": null,
+                        "legacy_id": "70316",
+                        "catalog_source_id": "999773"
+                    }
+                },
+                {
+                    "reference": "1498083",
+                    "machine_name": "acer_palmatum_o_jishi",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131960",
+                        "fgsid": null,
+                        "legacy_id": "70323",
+                        "catalog_source_id": "999774"
+                    }
+                },
+                {
+                    "reference": "1604654",
+                    "machine_name": "acer_palmatum_olsen_s_frosted_strawberry",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131961",
+                        "fgsid": null,
+                        "legacy_id": "279160",
+                        "catalog_source_id": "999775"
+                    }
+                },
+                {
+                    "reference": "1498090",
+                    "machine_name": "acer_palmatum_oregon_sunset",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131962",
+                        "fgsid": null,
+                        "legacy_id": "70331",
+                        "catalog_source_id": "999776"
+                    }
+                },
+                {
+                    "reference": "1498092",
+                    "machine_name": "acer_palmatum_otohime",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131963",
+                        "fgsid": null,
+                        "legacy_id": "70333",
+                        "catalog_source_id": "999777"
+                    }
+                },
+                {
+                    "reference": "1498099",
+                    "machine_name": "acer_palmatum_pixie",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131964",
+                        "fgsid": null,
+                        "legacy_id": "70340",
+                        "catalog_source_id": "999779"
+                    }
+                },
+                {
+                    "reference": "1498113",
+                    "machine_name": "acer_palmatum_shaina",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131969",
+                        "fgsid": null,
+                        "legacy_id": "70357",
+                        "catalog_source_id": "999786"
+                    }
+                },
+                {
+                    "reference": "1498114",
+                    "machine_name": "acer_palmatum_sharp_s_pygmy",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131970",
+                        "fgsid": null,
+                        "legacy_id": "70358",
+                        "catalog_source_id": "999787"
+                    }
+                },
+                {
+                    "reference": "1588547",
+                    "machine_name": "acer_palmatum_shidava_gold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131971",
+                        "fgsid": null,
+                        "legacy_id": "314737",
+                        "catalog_source_id": "999788"
+                    }
+                },
+                {
+                    "reference": "1544408",
+                    "machine_name": "acer_palmatum_sketer_s_broom",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131973",
+                        "fgsid": null,
+                        "legacy_id": "120076",
+                        "catalog_source_id": "999790"
+                    }
+                },
+                {
+                    "reference": "1497556",
+                    "machine_name": "acer_palmatum_baldsmith",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131980",
+                        "fgsid": null,
+                        "legacy_id": "70226",
+                        "catalog_source_id": "999805"
+                    }
+                },
+                {
+                    "reference": "1497782",
+                    "machine_name": "acer_palmatum_brocade",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131990",
+                        "fgsid": null,
+                        "legacy_id": "70244",
+                        "catalog_source_id": "999812"
+                    }
+                },
+                {
+                    "reference": "1549936",
+                    "machine_name": "acer_palmatum_dissectum_chantilly_lace",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131992",
+                        "fgsid": null,
+                        "legacy_id": "122750",
+                        "catalog_source_id": "999814"
+                    }
+                },
+                {
+                    "reference": "1498368",
+                    "machine_name": "acer_palmatum_dissectum_crimson_queen",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131993",
+                        "fgsid": null,
+                        "legacy_id": "70401",
+                        "catalog_source_id": "999815"
+                    }
+                },
+                {
+                    "reference": "1637769",
+                    "machine_name": "acer_palmatum_garnet",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131994",
+                        "fgsid": null,
+                        "legacy_id": "339278",
+                        "catalog_source_id": "999820"
+                    }
+                },
+                {
+                    "reference": "1466587",
+                    "machine_name": "acer_palmatum_inaba_shidare",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131998",
+                        "fgsid": null,
+                        "legacy_id": "306",
+                        "catalog_source_id": "999823"
+                    }
+                },
+                {
+                    "reference": "1538600",
+                    "machine_name": "acer_palmatum_lion_heart",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "131999",
+                        "fgsid": null,
+                        "legacy_id": "113830",
+                        "catalog_source_id": "999824"
+                    }
+                },
+                {
+                    "reference": "1498085",
+                    "machine_name": "acer_palmatum_octopus",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132000",
+                        "fgsid": null,
+                        "legacy_id": "70325",
+                        "catalog_source_id": "999825"
+                    }
+                },
+                {
+                    "reference": "1466607",
+                    "machine_name": "acer_palmatum_ornatum",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132001",
+                        "fgsid": null,
+                        "legacy_id": "326",
+                        "catalog_source_id": "999826"
+                    }
+                },
+                {
+                    "reference": "1498380",
+                    "machine_name": "acer_palmatum_dissectum_red_dragon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132003",
+                        "fgsid": null,
+                        "legacy_id": "70413",
+                        "catalog_source_id": "999828"
+                    }
+                },
+                {
+                    "reference": "1582470",
+                    "machine_name": "acer_palmatum_tamukeyama",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132007",
+                        "fgsid": null,
+                        "legacy_id": "210537",
+                        "catalog_source_id": "999832"
+                    }
+                },
+                {
+                    "reference": "1604651",
+                    "machine_name": "acer_palmatum_autumn_fire",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132008",
+                        "fgsid": null,
+                        "legacy_id": "279157",
+                        "catalog_source_id": "999834"
+                    }
+                },
+                {
+                    "reference": "1567612",
+                    "machine_name": "acer_palmatum_dissectum_emerald_lace",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132010",
+                        "fgsid": null,
+                        "legacy_id": "171598",
+                        "catalog_source_id": "999836"
+                    }
+                },
+                {
+                    "reference": "1498373",
+                    "machine_name": "acer_palmatum_dissectum_germaine_s_gyration",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132013",
+                        "fgsid": null,
+                        "legacy_id": "70260",
+                        "catalog_source_id": "999839"
+                    }
+                },
+                {
+                    "reference": "1466583",
+                    "machine_name": "acer_palmatum_green_mist",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132016",
+                        "fgsid": null,
+                        "legacy_id": "302",
+                        "catalog_source_id": "999844"
+                    }
+                },
+                {
+                    "reference": "1498376",
+                    "machine_name": "acer_palmatum_dissectum_irish_lace",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132017",
+                        "fgsid": null,
+                        "legacy_id": "70409",
+                        "catalog_source_id": "999845"
+                    }
+                },
+                {
+                    "reference": "1573018",
+                    "machine_name": "acer_palmatum_dissectum_lemon_lime_lace",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132018",
+                        "fgsid": null,
+                        "legacy_id": "189260",
+                        "catalog_source_id": "999846"
+                    }
+                },
+                {
+                    "reference": "1632844",
+                    "machine_name": "acer_palmatum_seiryu",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132368",
+                        "fgsid": null,
+                        "legacy_id": "306056",
+                        "catalog_source_id": "999851"
+                    }
+                },
+                {
+                    "reference": "1628685",
+                    "machine_name": "acer_palmatum_dissectum_spring_delight",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132370",
+                        "fgsid": null,
+                        "legacy_id": "113809",
+                        "catalog_source_id": "999854"
+                    }
+                },
+                {
+                    "reference": "1466577",
+                    "machine_name": "acer_palmatum_dissectum_viridis",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "132374",
+                        "fgsid": null,
+                        "legacy_id": "294",
+                        "catalog_source_id": "999859"
+                    }
+                },
+                {
+                    "reference": "1651267",
+                    "machine_name": "acer_palmatum_dissectum_kim",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "151410",
+                        "fgsid": null,
+                        "legacy_id": "381437",
+                        "catalog_source_id": "1295294"
+                    }
+                },
+                {
+                    "reference": "1501510",
+                    "machine_name": "cornus_florida_plena",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "186902",
+                        "fgsid": null,
+                        "legacy_id": "74779",
+                        "catalog_source_id": "1293649"
+                    }
+                },
+                {
+                    "reference": "1501509",
+                    "machine_name": "cornus_florida_pink_flame",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "186903",
+                        "fgsid": null,
+                        "legacy_id": "74778",
+                        "catalog_source_id": "1293650"
+                    }
+                },
+                {
+                    "reference": "1626030",
+                    "machine_name": "cornus_rutgersensis_celestial_shadow",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "186905",
+                        "fgsid": null,
+                        "legacy_id": "369698",
+                        "catalog_source_id": "1293651"
+                    }
+                },
+                {
+                    "reference": "1554685",
+                    "machine_name": "cornus_kousa_lemon_ripple",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "186908",
+                        "fgsid": null,
+                        "legacy_id": "135060",
+                        "catalog_source_id": "1293652"
+                    }
+                },
+                {
+                    "reference": "1571518",
+                    "machine_name": "ginkgo_biloba_sun_stream",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "186918",
+                        "fgsid": null,
+                        "legacy_id": "188177",
+                        "catalog_source_id": "1293655"
+                    }
+                },
+                {
+                    "reference": "1649798",
+                    "machine_name": "cornus_kousa_akatsuki",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "187268",
+                        "fgsid": null,
+                        "legacy_id": "361804",
+                        "catalog_source_id": "1124255"
+                    }
+                },
+                {
+                    "reference": "1648721",
+                    "machine_name": "ginkgo_biloba_beijing_gold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "187269",
+                        "fgsid": null,
+                        "legacy_id": "372600",
+                        "catalog_source_id": "1124256"
+                    }
+                },
+                {
+                    "reference": "1603437",
+                    "machine_name": "ginkgo_biloba_majestic_butterfly",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "187273",
+                        "fgsid": null,
+                        "legacy_id": "278651",
+                        "catalog_source_id": "1124260"
+                    }
+                },
+                {
+                    "reference": "1666673",
+                    "machine_name": "cornus_kousa_minuma",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "251523",
+                        "fgsid": null,
+                        "legacy_id": "406278",
+                        "catalog_source_id": "1295296"
+                    }
+                },
+                {
+                    "reference": null,
+                    "machine_name": "",
+                    "type": null,
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "267196",
+                        "fgsid": null,
+                        "legacy_id": "113838",
+                        "catalog_source_id": "1295295"
+                    }
+                },
+                {
+                    "reference": "1498368",
+                    "machine_name": "acer_palmatum_dissectum_crimson_queen",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951271",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1466575",
+                    "machine_name": "acer_palmatum_dissectum_flavescens",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951276",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1544102",
+                    "machine_name": "acer_palmatum_dissectum_green_hornet",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951281",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1498376",
+                    "machine_name": "acer_palmatum_dissectum_irish_lace",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951286",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1406769",
+                    "machine_name": "cotinus_coggygria",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951291",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1427977",
+                    "machine_name": "rosa_rugosa",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951296",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1653412",
+                    "machine_name": "cedrus_atlantica_glauca_pendula",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951301",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1419674",
+                    "machine_name": "loropetalum_chinense",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951306",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1539767",
+                    "machine_name": "cornus_kousa_greensleeves",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951311",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1647366",
+                    "machine_name": "cornus_elliptica_mountain_moon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "951316",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1672138",
+        "legacy_id": "17233",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2018, 2015",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

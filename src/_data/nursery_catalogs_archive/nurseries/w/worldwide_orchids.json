@@ -1,0 +1,60 @@
+{
+    "name": "Worldwide Orchids",
+    "machine_name": "worldwide_orchids",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "PO Box 2188",
+        "address_2": null,
+        "city": "Apopka",
+        "state": "FL",
+        "postal_code": "32704",
+        "geo_coordinate": "POINT (-81.5093333 28.6920002)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/worldwideorchids.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "sales@worldwideorchids.com",
+        "phone": "800-929-4230",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "orchids",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216175"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671614",
+        "legacy_id": "15391",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

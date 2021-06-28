@@ -1,0 +1,60 @@
+{
+    "name": "Wayne's Wholesale Nursery",
+    "machine_name": "wayne_s_wholesale_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": null,
+        "address_2": null,
+        "city": "Bealeton",
+        "state": "VA",
+        "postal_code": null,
+        "geo_coordinate": "POINT (-77.767773 38.5830443)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wayneswholesalenursery.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1674245",
+        "legacy_id": "33771",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

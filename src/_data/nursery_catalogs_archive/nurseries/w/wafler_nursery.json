@@ -1,0 +1,851 @@
+{
+    "name": "Wafler Nursery",
+    "machine_name": "wafler_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "10748 Slaght Road",
+        "address_2": "",
+        "city": "Wolcott",
+        "state": "NY",
+        "postal_code": "14590",
+        "geo_coordinate": "POINT (-76.8749055 43.2643113)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.waflernursery.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "877-397-0874",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "fruit_trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216166"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2019 ",
+    "nursery_catalog_items": [
+        {
+            "name": "Wafler Nursery 2019",
+            "machine_name": "wafler_nursery_2019",
+            "type": "nursery_catalog",
+            "date": "Sep 20 2019",
+            "nursery": "wafler_nursery",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1478493",
+                    "machine_name": "malus_a_cultivars_honeycrisp",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "101078",
+                        "fgsid": null,
+                        "legacy_id": "18755",
+                        "catalog_source_id": "1289747"
+                    }
+                },
+                {
+                    "reference": "1484427",
+                    "machine_name": "malus_a_cultivars_royal_empire",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "128080",
+                        "fgsid": null,
+                        "legacy_id": "18970",
+                        "catalog_source_id": "1103466"
+                    }
+                },
+                {
+                    "reference": "1610592",
+                    "machine_name": "malus_a_cultivars_autumn_crisp",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129087",
+                        "fgsid": null,
+                        "legacy_id": "360036",
+                        "catalog_source_id": "1289723"
+                    }
+                },
+                {
+                    "reference": "1573837",
+                    "machine_name": "malus_a_cultivars_dandee_red",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "129131",
+                        "fgsid": null,
+                        "legacy_id": "195343",
+                        "catalog_source_id": "1289738"
+                    }
+                },
+                {
+                    "reference": "1555136",
+                    "machine_name": "malus_a_cultivars_royal_court",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "141669",
+                        "fgsid": null,
+                        "legacy_id": "146122",
+                        "catalog_source_id": "537280"
+                    }
+                },
+                {
+                    "reference": "1553702",
+                    "machine_name": "malus_a_cultivars_lindamac_mcintosh",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "141674",
+                        "fgsid": null,
+                        "legacy_id": "127902",
+                        "catalog_source_id": "537293"
+                    }
+                },
+                {
+                    "reference": "1514936",
+                    "machine_name": "malus_a_cultivars_macoun",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "141676",
+                        "fgsid": null,
+                        "legacy_id": "92006",
+                        "catalog_source_id": "537296"
+                    }
+                },
+                {
+                    "reference": "1540629",
+                    "machine_name": "malus_a_cultivars_zestar",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "141680",
+                        "fgsid": null,
+                        "legacy_id": "114315",
+                        "catalog_source_id": "537305"
+                    }
+                },
+                {
+                    "reference": "1478165",
+                    "machine_name": "malus_a_cultivars_earligold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "180660",
+                        "fgsid": null,
+                        "legacy_id": "18656",
+                        "catalog_source_id": "1289741"
+                    }
+                },
+                {
+                    "reference": "1484129",
+                    "machine_name": "malus_a_cultivars_pacific_gala",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "217237",
+                        "fgsid": null,
+                        "legacy_id": "18898",
+                        "catalog_source_id": "710491"
+                    }
+                },
+                {
+                    "reference": "1515809",
+                    "machine_name": "malus_a_cultivars_red_rome",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "232747",
+                        "fgsid": null,
+                        "legacy_id": "92109",
+                        "catalog_source_id": "1289970"
+                    }
+                },
+                {
+                    "reference": "1584206",
+                    "machine_name": "malus_a_cultivars_summer_mac",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "233691",
+                        "fgsid": null,
+                        "legacy_id": "206236",
+                        "catalog_source_id": "1289986"
+                    }
+                },
+                {
+                    "reference": "1483813",
+                    "machine_name": "malus_a_cultivars_liberty",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "246485",
+                        "fgsid": null,
+                        "legacy_id": "18812",
+                        "catalog_source_id": "1289961"
+                    }
+                },
+                {
+                    "reference": "1632219",
+                    "machine_name": "malus_a_cultivars_rubymac",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "259206",
+                        "fgsid": null,
+                        "legacy_id": "305337",
+                        "catalog_source_id": "878648"
+                    }
+                },
+                {
+                    "reference": "1579216",
+                    "machine_name": "malus_a_cultivars_ambrosia",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108346",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1477899",
+                    "machine_name": "malus_a_cultivars_ashmead_s_kernel",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108351",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1514138",
+                    "machine_name": "malus_a_cultivars_chestnut_crab",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108356",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1584408",
+                    "machine_name": "malus_a_cultivars_chisel_jersey",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108361",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1478137",
+                    "machine_name": "malus_a_cultivars_cox_orange",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108366",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2217881",
+                    "machine_name": "malus_a_cultivars_crunch_a_bunch",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108371",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1514386",
+                    "machine_name": "malus_a_cultivars_duchess",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108376",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1478182",
+                    "machine_name": "malus_a_cultivars_enterprise",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108381",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1648132",
+                    "machine_name": "malus_a_cultivars_evercrisp",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108386",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1527087",
+                    "machine_name": "pyrus_cultivars_flemish_beauty",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108391",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1514411",
+                    "machine_name": "malus_a_cultivars_frettingham_crab",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108396",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1478450",
+                    "machine_name": "malus_a_cultivars_ginger_gold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108401",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1568246",
+                    "machine_name": "malus_a_cultivars_harry_master_s_jersey",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108406",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1478494",
+                    "machine_name": "malus_a_cultivars_honeygold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108411",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1485064",
+                    "machine_name": "malus_c_cultivars_indian_summer",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108416",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2439081",
+                    "machine_name": "malus_a_cultivars_maia_l_ludacrisp",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108421",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1514942",
+                    "machine_name": "malus_a_cultivars_manchurian_crab",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108426",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1484091",
+                    "machine_name": "malus_a_cultivars_monroe",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108431",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1514980",
+                    "machine_name": "malus_a_cultivars_northwestern_greening",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108436",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1484141",
+                    "machine_name": "malus_a_cultivars_pink_lady",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108441",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1585453",
+                    "machine_name": "malus_a_cultivars_pixie_crunch",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108446",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515786",
+                    "machine_name": "malus_a_cultivars_porter_s_perfection",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108451",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1553701",
+                    "machine_name": "malus_a_cultivars_prairie_magic",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108456",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515801",
+                    "machine_name": "malus_a_cultivars_red_gravenstein",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108466",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515802",
+                    "machine_name": "malus_a_cultivars_red_haralson",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108471",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2438961",
+                    "machine_name": "malus_a_cultivars_redridge_gala",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108476",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2207266",
+                    "machine_name": "malus_a_cultivars_rosalee",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108481",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2438966",
+                    "machine_name": "malus_a_cultivars_roseland_red_honeycrisp",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108486",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1485324",
+                    "machine_name": "malus_c_cultivars_snowdrift",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108491",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2207276",
+                    "machine_name": "malus_a_cultivars_summerset",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108496",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1484739",
+                    "machine_name": "malus_a_cultivars_sweet_sixteen",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108501",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2207281",
+                    "machine_name": "malus_a_cultivars_sweet_zinger",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108506",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515272",
+                    "machine_name": "malus_a_cultivars_tremlett_s_bitter",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108511",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515504",
+                    "machine_name": "malus_a_cultivars_wickson_crab",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108516",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1485012",
+                    "machine_name": "malus_a_cultivars_winesap",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108521",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1485017",
+                    "machine_name": "malus_a_cultivars_wolf_river",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108526",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1515514",
+                    "machine_name": "malus_a_cultivars_yarlington_mill",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108531",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1485025",
+                    "machine_name": "malus_a_cultivars_yellow_transparent",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1108536",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1672416",
+        "legacy_id": "7468",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2019, 2016",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

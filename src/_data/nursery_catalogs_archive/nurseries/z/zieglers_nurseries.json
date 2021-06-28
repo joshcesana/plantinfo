@@ -1,0 +1,363 @@
+{
+    "name": "Zieglers Nurseries",
+    "machine_name": "zieglers_nurseries",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "2369 Irish Creek Road",
+        "address_2": "",
+        "city": "Mohrsville",
+        "state": "PA",
+        "postal_code": "19541",
+        "geo_coordinate": "POINT (-76.040754 40.473021)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.zieglersnurseries.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "610-926-4071",
+        "fax": "610-916-0919",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": "2017 ",
+    "nursery_catalog_items": [
+        {
+            "name": "Zieglers Nurseries 2017",
+            "machine_name": "zieglers_nurseries_2017",
+            "type": "nursery_catalog",
+            "date": "Sep 10 2016",
+            "nursery": "zieglers_nurseries",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1429761",
+                    "machine_name": "viburnum_carlesii",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "28174",
+                        "fgsid": "36144",
+                        "legacy_id": null,
+                        "catalog_source_id": "444121"
+                    }
+                },
+                {
+                    "reference": "1427535",
+                    "machine_name": "tsuga_canadensis",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36281",
+                        "fgsid": "35519",
+                        "legacy_id": null,
+                        "catalog_source_id": "460306"
+                    }
+                },
+                {
+                    "reference": "1491055",
+                    "machine_name": "taxus_media_densiformis",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36282",
+                        "fgsid": null,
+                        "legacy_id": "32944",
+                        "catalog_source_id": "460307"
+                    }
+                },
+                {
+                    "reference": "1529933",
+                    "machine_name": "taxus_cuspidata_capitata",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36283",
+                        "fgsid": null,
+                        "legacy_id": "102909",
+                        "catalog_source_id": "460309"
+                    }
+                },
+                {
+                    "reference": "1529942",
+                    "machine_name": "taxus_cuspidata_nana",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36284",
+                        "fgsid": null,
+                        "legacy_id": "102918",
+                        "catalog_source_id": "460310"
+                    }
+                },
+                {
+                    "reference": "1425619",
+                    "machine_name": "pinus_strobus",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36288",
+                        "fgsid": "27446",
+                        "legacy_id": null,
+                        "catalog_source_id": "460314"
+                    }
+                },
+                {
+                    "reference": "1490414",
+                    "machine_name": "picea_pungens_glauca",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36289",
+                        "fgsid": null,
+                        "legacy_id": "24122",
+                        "catalog_source_id": "460315"
+                    }
+                },
+                {
+                    "reference": "1529977",
+                    "machine_name": "taxus_media_hicksii",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36290",
+                        "fgsid": null,
+                        "legacy_id": "102954",
+                        "catalog_source_id": "460316"
+                    }
+                },
+                {
+                    "reference": "1530520",
+                    "machine_name": "thuja_occidentalis_nigra",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36291",
+                        "fgsid": null,
+                        "legacy_id": "103068",
+                        "catalog_source_id": "460318"
+                    }
+                },
+                {
+                    "reference": "1530525",
+                    "machine_name": "thuja_occidentalis_pyramidalis",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "36292",
+                        "fgsid": null,
+                        "legacy_id": "103073",
+                        "catalog_source_id": "460319"
+                    }
+                },
+                {
+                    "reference": "1491055",
+                    "machine_name": "taxus_media_densiformis",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "75996",
+                        "fgsid": null,
+                        "legacy_id": "32944",
+                        "catalog_source_id": "1194775"
+                    }
+                },
+                {
+                    "reference": "1529975",
+                    "machine_name": "taxus_media_hatfieldii",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "178399",
+                        "fgsid": null,
+                        "legacy_id": "102952",
+                        "catalog_source_id": "1194778"
+                    }
+                },
+                {
+                    "reference": "1530525",
+                    "machine_name": "thuja_occidentalis_pyramidalis",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "178404",
+                        "fgsid": null,
+                        "legacy_id": "103073",
+                        "catalog_source_id": "1194779"
+                    }
+                },
+                {
+                    "reference": "1491347",
+                    "machine_name": "thuja_occidentalis_smaragd",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "198179",
+                        "fgsid": null,
+                        "legacy_id": "33019",
+                        "catalog_source_id": "656963"
+                    }
+                },
+                {
+                    "reference": "1508771",
+                    "machine_name": "euonymus_alatus_compactus",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "198180",
+                        "fgsid": null,
+                        "legacy_id": "78957",
+                        "catalog_source_id": "656964"
+                    }
+                },
+                {
+                    "reference": "1435974",
+                    "machine_name": "pseudotsuga_taxifolia",
+                    "type": "species",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "694326",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1529923",
+                    "machine_name": "taxus_baccata_repandens",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "694331",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1529961",
+                    "machine_name": "taxus_media_cliftonii",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "694336",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1529933",
+                    "machine_name": "taxus_cuspidata_capitata",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "694341",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1672306",
+        "legacy_id": "6468",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2019, 2017, 2014",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

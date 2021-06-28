@@ -1,0 +1,60 @@
+{
+    "name": "Zoysia Farm Nurseries",
+    "machine_name": "zoysia_farm_nurseries",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "3617 Old Taneytown Road",
+        "address_2": null,
+        "city": "Taneytown",
+        "state": "MD",
+        "postal_code": "21787",
+        "geo_coordinate": "POINT (-77.125302 39.63397)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www1.zoysiafarms.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "410-756-2311",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "seeds_lawn",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216197"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1674127",
+        "legacy_id": "31128",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

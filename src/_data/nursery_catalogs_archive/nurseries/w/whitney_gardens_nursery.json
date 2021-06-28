@@ -1,0 +1,95 @@
+{
+    "name": "Whitney Gardens & Nursery",
+    "machine_name": "whitney_gardens_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "P.O. Box 170 -- 306264 Hwy 101",
+        "address_2": null,
+        "city": "Brinnon",
+        "state": "WA",
+        "postal_code": "98320",
+        "geo_coordinate": "POINT (-122.898669 47.695571)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.whitneygardens.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": "info@whitneygardens.com",
+        "phone": "800-952-2404",
+        "fax": "360-796-3556",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "rhododendron",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216179"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        },
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "ground_covers",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216168"
+            }
+        },
+        {
+            "machine_name": "clematis",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216159"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672713",
+        "legacy_id": "985",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "U",
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

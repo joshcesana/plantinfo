@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 6, no. 8. (1990)",
+    "machine_name": "yellow_rose_the_vol_6_no_8_1990",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1990",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113099",
+        "legacy_id": "5973",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 6, no. 8. (1990) p cover",
+            "machine_name": "yellow_rose_the_vol_6_no_8_1990_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_rugosa_rubra",
+                "type": "variety",
+                "archival_data": [
+                    "1493506"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1758393",
+                "legacy_id": "54808",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        }
+    ]
+}

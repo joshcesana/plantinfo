@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 17, no. 3. (2000)",
+    "machine_name": "yellow_rose_the_vol_17_no_3_2000",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2000",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2116445",
+        "legacy_id": "16549",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 17, no. 3. (2000) p cover",
+            "machine_name": "yellow_rose_the_vol_17_no_3_2000_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_rubiginosa",
+                "type": "species",
+                "archival_data": [
+                    "1427975"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1871357",
+                "legacy_id": "198481",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

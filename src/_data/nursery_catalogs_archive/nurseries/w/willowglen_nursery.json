@@ -1,0 +1,131 @@
+{
+    "name": "Willowglen Nursery",
+    "machine_name": "willowglen_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "3512 Lost Mile Road",
+        "address_2": "",
+        "city": "Decorah",
+        "state": "IA",
+        "postal_code": "52101",
+        "geo_coordinate": "POINT (-91.9076592 43.4446453)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.willowglennursery.com\/willow-cuttings.php",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "563-735-5570",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2019",
+    "nursery_catalog_items": [
+        {
+            "name": "Willowglen Nursery 2019",
+            "machine_name": "willowglen_nursery_2019",
+            "type": "nursery_catalog",
+            "date": "Mar 7 2019",
+            "nursery": "willowglen_nursery",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1524808",
+                    "machine_name": "salix_purpurea_green_dicks",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "86773",
+                        "fgsid": null,
+                        "legacy_id": "101443",
+                        "catalog_source_id": "1356889"
+                    }
+                },
+                {
+                    "reference": "1552610",
+                    "machine_name": "salix_fragilis_belgian_red",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "105995",
+                        "fgsid": null,
+                        "legacy_id": "139723",
+                        "catalog_source_id": "1356892"
+                    }
+                },
+                {
+                    "reference": "1552606",
+                    "machine_name": "salix_cultivars_americana",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "105996",
+                        "fgsid": null,
+                        "legacy_id": "139702",
+                        "catalog_source_id": "1356893"
+                    }
+                },
+                {
+                    "reference": "2488101",
+                    "machine_name": "salix_alba_walter_s_gold",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998606",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1674128",
+        "legacy_id": "31148",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2019, 2016",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

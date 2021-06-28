@@ -1,0 +1,60 @@
+{
+    "name": "Wildflower Seed Company",
+    "machine_name": "wildflower_seed_company",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "P.O. Box 406",
+        "address_2": "",
+        "city": "St. Helena",
+        "state": "CA",
+        "postal_code": "94574",
+        "geo_coordinate": "POINT (-122.4697222 38.5027778)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/wildflower-seed.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "sales@wildflower-seed.com",
+        "phone": "800-456-3359",
+        "fax": "707-963-5383",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "wildflowers",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216189"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "Web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672045",
+        "legacy_id": "16908",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

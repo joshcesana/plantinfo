@@ -1,0 +1,74 @@
+{
+    "name": "Wetland Construction Supply Company",
+    "machine_name": "wetland_construction_supply_company",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "194 Goodview Drive",
+        "address_2": null,
+        "city": "Apollo",
+        "state": "PA",
+        "postal_code": "15613",
+        "geo_coordinate": "POINT (-79.5863675 40.5550672)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/wetlandsupply.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "724-727-3772",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "water_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216188"
+            }
+        },
+        {
+            "machine_name": "wildflowers",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216189"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673209",
+        "legacy_id": "30708",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

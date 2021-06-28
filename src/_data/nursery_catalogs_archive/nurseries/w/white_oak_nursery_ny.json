@@ -1,0 +1,67 @@
+{
+    "name": "White Oak Nursery (NY)",
+    "machine_name": "white_oak_nursery_ny",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "801 W. Washington St",
+        "address_2": "",
+        "city": "Geneva",
+        "state": "NY",
+        "postal_code": "14456",
+        "geo_coordinate": "POINT (-77.013087 42.8583939)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.whiteoaknursery.biz\/index.html",
+            "title": null,
+            "attributes": []
+        },
+        "email": "jengel53@rochester.rr.com",
+        "phone": "315-789-3509",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "web",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673289",
+        "legacy_id": "22110",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

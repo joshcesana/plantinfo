@@ -1,0 +1,60 @@
+{
+    "name": "Welter Seed & Honey Co",
+    "machine_name": "welter_seed_honey_co",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "17724 Hwy 136",
+        "address_2": null,
+        "city": "Onslow",
+        "state": "IA",
+        "postal_code": "52321",
+        "geo_coordinate": "POINT (-91.0110792 42.1970279)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/welterseed.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "info@welterseed.com",
+        "phone": "800-728-8450",
+        "fax": "563-485-2764",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "seeds_lawn",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216197"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "Web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672269",
+        "legacy_id": "16588",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

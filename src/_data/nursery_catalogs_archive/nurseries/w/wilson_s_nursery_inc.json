@@ -1,0 +1,88 @@
+{
+    "name": "Wilson's Nursery, Inc.",
+    "machine_name": "wilson_s_nursery_inc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "PO Box 160",
+        "address_2": "",
+        "city": "New Germany",
+        "state": "MN",
+        "postal_code": "55367",
+        "geo_coordinate": "POINT (-94.007229 44.898166)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wilsonsnurseryinc.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "info@wilsonsnurseryinc.com",
+        "phone": "800-477-4123",
+        "fax": "952-445-6219",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "grasses_ornamental",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216167"
+            }
+        },
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672808",
+        "legacy_id": "1001",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2021, 2019, 2018, 2015",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

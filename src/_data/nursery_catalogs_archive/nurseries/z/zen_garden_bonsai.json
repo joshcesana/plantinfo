@@ -1,0 +1,60 @@
+{
+    "name": "Zen Garden Bonsai",
+    "machine_name": "zen_garden_bonsai",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": false,
+            "canada": true
+        },
+        "address_1": "555 Rossland Road East, PO Box 62528",
+        "address_2": "",
+        "city": "Oshawa",
+        "state": "ON",
+        "postal_code": "L1K 1S7",
+        "geo_coordinate": "POINT (-78.8498264 43.9191289)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.zengardenbonsai.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bonsai",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216155"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673334",
+        "legacy_id": "26093",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

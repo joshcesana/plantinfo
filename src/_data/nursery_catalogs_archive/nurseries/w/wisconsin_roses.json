@@ -1,0 +1,326 @@
+{
+    "name": "Wisconsin Roses",
+    "machine_name": "wisconsin_roses",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "7939 31st Avenue",
+        "address_2": "",
+        "city": "Kenosha",
+        "state": "WI",
+        "postal_code": "53142-4617",
+        "geo_coordinate": "POINT (-87.8459778 42.5598659)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/wiroses.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": "wiroses@gmail.com",
+        "phone": "262-358-1298",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "roses",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216181"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2020",
+    "nursery_catalog_items": [
+        {
+            "name": "Wisconsin Roses 2020",
+            "machine_name": "wisconsin_roses_2020",
+            "type": "nursery_catalog",
+            "date": "Nov 19 2019",
+            "nursery": "wisconsin_roses",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1582699",
+                    "machine_name": "rosa_cultivars_twice_in_a_blue_moon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "63296",
+                        "fgsid": null,
+                        "legacy_id": "207676",
+                        "catalog_source_id": "1145609"
+                    }
+                },
+                {
+                    "reference": "1595301",
+                    "machine_name": "rosa_cultivars_mavrik",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "63299",
+                        "fgsid": null,
+                        "legacy_id": "362359",
+                        "catalog_source_id": "1145611"
+                    }
+                },
+                {
+                    "reference": "1586231",
+                    "machine_name": "rosa_cultivars_dr_john_dickman",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "63308",
+                        "fgsid": null,
+                        "legacy_id": "221744",
+                        "catalog_source_id": "1145614"
+                    }
+                },
+                {
+                    "reference": "1651393",
+                    "machine_name": "rosa_cultivars_dancing_pink",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "63319",
+                        "fgsid": null,
+                        "legacy_id": "384818",
+                        "catalog_source_id": "1145618"
+                    }
+                },
+                {
+                    "reference": "1629334",
+                    "machine_name": "rosa_cultivars_affirm",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94116",
+                        "fgsid": null,
+                        "legacy_id": "245633",
+                        "catalog_source_id": "965744"
+                    }
+                },
+                {
+                    "reference": "1598678",
+                    "machine_name": "rosa_cultivars_cajun_moon",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94117",
+                        "fgsid": null,
+                        "legacy_id": "230069",
+                        "catalog_source_id": "965745"
+                    }
+                },
+                {
+                    "reference": "1627362",
+                    "machine_name": "rosa_cultivars_cajun_sunrise",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94118",
+                        "fgsid": null,
+                        "legacy_id": "249279",
+                        "catalog_source_id": "965746"
+                    }
+                },
+                {
+                    "reference": "1604320",
+                    "machine_name": "rosa_cultivars_hot_princess",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94123",
+                        "fgsid": null,
+                        "legacy_id": "278954",
+                        "catalog_source_id": "965752"
+                    }
+                },
+                {
+                    "reference": "1491130",
+                    "machine_name": "rosa_cultivars_louise_estes",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94126",
+                        "fgsid": null,
+                        "legacy_id": "29286",
+                        "catalog_source_id": "965755"
+                    }
+                },
+                {
+                    "reference": "1604322",
+                    "machine_name": "rosa_cultivars_marlon_s_day",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "94133",
+                        "fgsid": null,
+                        "legacy_id": "278956",
+                        "catalog_source_id": "965758"
+                    }
+                },
+                {
+                    "reference": "1599952",
+                    "machine_name": "rosa_cultivars_olivia",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "228178",
+                        "fgsid": null,
+                        "legacy_id": "232877",
+                        "catalog_source_id": "1302083"
+                    }
+                },
+                {
+                    "reference": "1670206",
+                    "machine_name": "rosa_cultivars_chessie_s_favorite",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113156",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1633420",
+                    "machine_name": "rosa_cultivars_kristen_climbing",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113161",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2490406",
+                    "machine_name": "rosa_cultivars_robert_bruce",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113166",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2580991",
+                    "machine_name": "rosa_cultivars_zach_nobels",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113171",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2580981",
+                    "machine_name": "rosa_cultivars_pilgrim_maid",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113176",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2580986",
+                    "machine_name": "rosa_cultivars_sheer_joy",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "1113181",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1672721",
+        "legacy_id": "8450",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2020, 2018, 2016",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

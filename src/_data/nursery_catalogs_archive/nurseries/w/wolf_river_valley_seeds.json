@@ -1,0 +1,60 @@
+{
+    "name": "Wolf River Valley Seeds",
+    "machine_name": "wolf_river_valley_seeds",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "914 3rd Avenue",
+        "address_2": "",
+        "city": "Antigo",
+        "state": "WI",
+        "postal_code": "54409",
+        "geo_coordinate": "POINT (-89.1563016 45.1433696)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wolfrivervalleyseeds.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "800-359-2480",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "seeds_garden",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216182"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673229",
+        "legacy_id": "30898",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2020, 2017",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

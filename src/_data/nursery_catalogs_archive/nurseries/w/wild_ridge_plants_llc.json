@@ -1,0 +1,60 @@
+{
+    "name": "Wild Ridge Plants, LLC",
+    "machine_name": "wild_ridge_plants_llc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "170 Mountain Road",
+        "address_2": "",
+        "city": "Alpha",
+        "state": "NJ",
+        "postal_code": "08865",
+        "geo_coordinate": null
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/wildridgeplants.com\/native_plant_nursery\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "908-319-7230",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "native_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216201"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "2602331",
+        "legacy_id": null,
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "jense035",
+        "created": "1580913833"
+    }
+}

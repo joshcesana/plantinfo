@@ -1,0 +1,373 @@
+{
+    "name": "Walker Brothers, Inc",
+    "machine_name": "walker_brothers_inc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "105 Porchtown Road",
+        "address_2": "",
+        "city": "Pittsgrove",
+        "state": "NJ",
+        "postal_code": "08318",
+        "geo_coordinate": "POINT (-75.093124 39.5799499)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/www.walkerplants.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "856-358-2548",
+        "fax": "856-358-6127",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "fruit_small",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216165"
+            }
+        },
+        {
+            "machine_name": "vegetables",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216191"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2017",
+    "nursery_catalog_items": [
+        {
+            "name": "Catalog",
+            "machine_name": "catalog",
+            "type": "nursery_catalog",
+            "date": "Sep 10 2016",
+            "nursery": "walker_brothers_inc",
+            "active": false,
+            "plants": [
+                {
+                    "reference": "1555542",
+                    "machine_name": "asparagus_officinalis_jersey_supreme",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "21834",
+                        "fgsid": null,
+                        "legacy_id": "155484",
+                        "catalog_source_id": "1179246"
+                    }
+                },
+                {
+                    "reference": "1464043",
+                    "machine_name": "asparagus_officinalis_jersey_giant",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "21841",
+                        "fgsid": null,
+                        "legacy_id": "1800",
+                        "catalog_source_id": "1179247"
+                    }
+                },
+                {
+                    "reference": "1464045",
+                    "machine_name": "asparagus_officinalis_jersey_knight",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "21861",
+                        "fgsid": null,
+                        "legacy_id": "1802",
+                        "catalog_source_id": "1179248"
+                    }
+                },
+                {
+                    "reference": "1473738",
+                    "machine_name": "fragaria_ananassa_chandler",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "21869",
+                        "fgsid": null,
+                        "legacy_id": "9895",
+                        "catalog_source_id": "1179249"
+                    }
+                },
+                {
+                    "reference": "1474014",
+                    "machine_name": "fragaria_ananassa_sweet_charlie",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "21871",
+                        "fgsid": null,
+                        "legacy_id": "9947",
+                        "catalog_source_id": "1179250"
+                    }
+                },
+                {
+                    "reference": "1464040",
+                    "machine_name": "asparagus_officinalis_grande",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "53892",
+                        "fgsid": null,
+                        "legacy_id": "1797",
+                        "catalog_source_id": "1200882"
+                    }
+                },
+                {
+                    "reference": "1464036",
+                    "machine_name": "asparagus_officinalis_apollo",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "53893",
+                        "fgsid": null,
+                        "legacy_id": "1793",
+                        "catalog_source_id": "1200883"
+                    }
+                },
+                {
+                    "reference": "1602046",
+                    "machine_name": "asparagus_officinalis_jersey_gem",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "53903",
+                        "fgsid": null,
+                        "legacy_id": "231764",
+                        "catalog_source_id": "1200884"
+                    }
+                },
+                {
+                    "reference": "1464051",
+                    "machine_name": "asparagus_officinalis_purple_passion",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "53904",
+                        "fgsid": null,
+                        "legacy_id": "1808",
+                        "catalog_source_id": "1200885"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "Walker Brothers, Inc 2017",
+            "machine_name": "walker_brothers_inc_2017",
+            "type": "nursery_catalog",
+            "date": "Mar 10 2017",
+            "nursery": "walker_brothers_inc",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1555542",
+                    "machine_name": "asparagus_officinalis_jersey_supreme",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416826",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464043",
+                    "machine_name": "asparagus_officinalis_jersey_giant",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416831",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464045",
+                    "machine_name": "asparagus_officinalis_jersey_knight",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416836",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1473738",
+                    "machine_name": "fragaria_ananassa_chandler",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416841",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1474014",
+                    "machine_name": "fragaria_ananassa_sweet_charlie",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416846",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464040",
+                    "machine_name": "asparagus_officinalis_grande",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416851",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464036",
+                    "machine_name": "asparagus_officinalis_apollo",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416856",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464051",
+                    "machine_name": "asparagus_officinalis_purple_passion",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "416866",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1464037",
+                    "machine_name": "asparagus_officinalis_atlas",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "701841",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1498453",
+                    "machine_name": "asparagus_officinalis_uc_157",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "701846",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1673413",
+        "legacy_id": "29909",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2019, 2017, 2014",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

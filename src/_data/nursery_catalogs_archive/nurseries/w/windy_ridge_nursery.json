@@ -1,0 +1,60 @@
+{
+    "name": "Windy Ridge Nursery",
+    "machine_name": "windy_ridge_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "1918 SE 302nd Avenue",
+        "address_2": "",
+        "city": "Troutdale",
+        "state": "OR",
+        "postal_code": "97060",
+        "geo_coordinate": "POINT (-122.3521765 45.5081726)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/wrntrees.wordpress.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": " 503-667-7037  ",
+        "fax": "503-661-7315",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": false,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "2288371",
+        "legacy_id": null,
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "jense035",
+        "created": "1522960860"
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "name": "Wilson Bros Gardens",
+    "machine_name": "wilson_bros_gardens",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "1759 McGarity Road",
+        "address_2": "",
+        "city": "McDonough",
+        "state": "GA",
+        "postal_code": "30252",
+        "geo_coordinate": null
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/www.wilsonbrosgardens.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "team@wilsonbrosgardens.com",
+        "phone": "770-573-1778",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [],
+    "catalog": {
+        "print": false,
+        "online": false,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "2622621",
+        "legacy_id": null,
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "kallen",
+        "created": "1588705468"
+    }
+}

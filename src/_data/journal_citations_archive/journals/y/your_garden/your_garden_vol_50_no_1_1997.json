@@ -1,0 +1,881 @@
+{
+    "name": "Your Garden. vol 50, no. 1. (1997)",
+    "machine_name": "your_garden_vol_50_no_1_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110177",
+        "legacy_id": "6056",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 60-61",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_60_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "citrus_limon_meyer",
+                "type": "variety",
+                "archival_data": [
+                    "1469172"
+                ]
+            },
+            "volume": null,
+            "page": "p 60-61",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1707053",
+                "legacy_id": "7479",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 10",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clematis_cultivars_belle_of_woking",
+                "type": "variety",
+                "archival_data": [
+                    "1469236"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1707420",
+                "legacy_id": "7596",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 89",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clerodendrum_cultivars_jaffa_crown",
+                "type": "variety",
+                "archival_data": [
+                    "1470149"
+                ]
+            },
+            "volume": null,
+            "page": "p 89",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1710086",
+                "legacy_id": "8253",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 13",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_cultivars_fey",
+                "type": "variety",
+                "archival_data": [
+                    "1474655"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1718565",
+                "legacy_id": "15755",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 12",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_cultivars_garden_week",
+                "type": "variety",
+                "archival_data": [
+                    "1474670"
+                ]
+            },
+            "volume": null,
+            "page": "p 12",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1718592",
+                "legacy_id": "15782",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 13",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_cultivars_kit_kat",
+                "type": "variety",
+                "archival_data": [
+                    "1474925"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1718887",
+                "legacy_id": "15829",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 21 (Adv.)",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_21_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helichrysum_cultivars_beach_ball_series",
+                "type": "variety",
+                "archival_data": [
+                    "1474733"
+                ]
+            },
+            "volume": null,
+            "page": "p 21 (Adv.)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1721015",
+                "legacy_id": "17711",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 27",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_cultivars_robin_s_nest_series",
+                "type": "variety",
+                "archival_data": [
+                    "1480921"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722318",
+                "legacy_id": "21954",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 27",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_cultivars_taiko",
+                "type": "variety",
+                "archival_data": [
+                    "1480923"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722320",
+                "legacy_id": "21956",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 26 (Adv.)",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_26_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_frenzy_series",
+                "type": "variety",
+                "archival_data": [
+                    "1477616"
+                ]
+            },
+            "volume": null,
+            "page": "p 26 (Adv.)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725843",
+                "legacy_id": "22852",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 71 (Adv.)",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_71_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "origanum_cultivars_kent_beauty",
+                "type": "variety",
+                "archival_data": [
+                    "1483652"
+                ]
+            },
+            "volume": null,
+            "page": "p 71 (Adv.)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1737375",
+                "legacy_id": "34838",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 11",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_alfred_carriere",
+                "type": "variety",
+                "archival_data": [
+                    "1489124"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1744269",
+                "legacy_id": "44493",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p backcover (Adv.)",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_backcover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_flower_carpet_series",
+                "type": "variety",
+                "archival_data": [
+                    "1487746"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover (Adv.)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1751026",
+                "legacy_id": "47582",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 73",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_wife_of_bath",
+                "type": "variety",
+                "archival_data": [
+                    "1492923"
+                ]
+            },
+            "volume": null,
+            "page": "p 73",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1756785",
+                "legacy_id": "54418",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 10",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_prospero",
+                "type": "variety",
+                "archival_data": [
+                    "1494049"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757271",
+                "legacy_id": "51889",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 33",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_sikokianum",
+                "type": "species",
+                "archival_data": [
+                    "1401842"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765186",
+                "legacy_id": "73288",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 32",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bulbinella_floribunda",
+                "type": "species",
+                "archival_data": [
+                    "1398075"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770687",
+                "legacy_id": "77326",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 33",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cardiocrinum_giganteum",
+                "type": "species",
+                "archival_data": [
+                    "1407742"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778421",
+                "legacy_id": "79413",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 35",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eucharis_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1415180"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791441",
+                "legacy_id": "95014",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 32",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_reticulata",
+                "type": "species",
+                "archival_data": [
+                    "1417627"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799947",
+                "legacy_id": "105281",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 50, no. 1. (1997) p 35",
+            "machine_name": "your_garden_vol_50_no_1_1997_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lycoris_radiata",
+                "type": "species",
+                "archival_data": [
+                    "1420747"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805422",
+                "legacy_id": "110646",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

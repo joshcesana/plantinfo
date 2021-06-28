@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 21, no. 10. (2005)",
+    "machine_name": "yellow_rose_the_vol_21_no_10_2005",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2005",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121135",
+        "legacy_id": "65749",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 21, no. 10. (2005) p cover",
+            "machine_name": "yellow_rose_the_vol_21_no_10_2005_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_sutter_s_gold",
+                "type": "variety",
+                "archival_data": [
+                    "1491739"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1977014",
+                "legacy_id": "300430",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        }
+    ]
+}

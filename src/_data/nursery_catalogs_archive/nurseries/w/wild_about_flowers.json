@@ -1,0 +1,60 @@
+{
+    "name": "Wild about Flowers",
+    "machine_name": "wild_about_flowers",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": false,
+            "canada": true
+        },
+        "address_1": "PO Box 1257",
+        "address_2": "",
+        "city": "Turner Valley",
+        "state": "AB",
+        "postal_code": "T0L 2A0",
+        "geo_coordinate": "POINT (-114.278862 50.673904)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wildaboutflowers.ca\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "wildflowers",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216189"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673854",
+        "legacy_id": "26719",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

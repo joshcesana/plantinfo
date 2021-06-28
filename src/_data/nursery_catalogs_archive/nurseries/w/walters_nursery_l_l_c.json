@@ -1,0 +1,74 @@
+{
+    "name": "Walters Nursery L.L.C.",
+    "machine_name": "walters_nursery_l_l_c",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "4645 62nd Street",
+        "address_2": "",
+        "city": "Holland",
+        "state": "MI",
+        "postal_code": "49423",
+        "geo_coordinate": "POINT (-86.1567051 42.7572194)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.waltersnursery.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "sales@waltersnursery.com",
+        "phone": "616-335-3282",
+        "fax": "616-335-2016",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "Web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671802",
+        "legacy_id": "10188",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

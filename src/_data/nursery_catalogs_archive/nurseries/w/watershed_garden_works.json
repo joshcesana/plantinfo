@@ -1,0 +1,81 @@
+{
+    "name": "Watershed Garden Works",
+    "machine_name": "watershed_garden_works",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "2039 44th Avenue",
+        "address_2": "",
+        "city": "Longview",
+        "state": "WA",
+        "postal_code": "98632",
+        "geo_coordinate": "POINT (-122.9987453 46.1596387)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.watershedgardenworks.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": "scott@watershedgardenworks.com",
+        "phone": "360-423-6456",
+        "fax": "360-423-6456",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672518",
+        "legacy_id": "7953",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

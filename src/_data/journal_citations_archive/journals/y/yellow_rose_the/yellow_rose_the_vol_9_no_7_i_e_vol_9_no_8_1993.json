@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 9, no. 7 (i.e., vol 9, no. 8) (1993)",
+    "machine_name": "yellow_rose_the_vol_9_no_7_i_e_vol_9_no_8_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2112944",
+        "legacy_id": "5969",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 9, no. 7 (i.e., vol 9, no. 8) (1993) p cover",
+            "machine_name": "yellow_rose_the_vol_9_no_7_i_e_vol_9_no_8_1993_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_guose_tianxiang",
+                "type": "variety",
+                "archival_data": [
+                    "1493952"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1748802",
+                "legacy_id": "48330",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        }
+    ]
+}

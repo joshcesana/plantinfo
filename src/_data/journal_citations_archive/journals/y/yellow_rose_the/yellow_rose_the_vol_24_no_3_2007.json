@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 24, no. 3. (2007)",
+    "machine_name": "yellow_rose_the_vol_24_no_3_2007",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2007",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120186",
+        "legacy_id": "87089",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 24, no. 3. (2007) p cover",
+            "machine_name": "yellow_rose_the_vol_24_no_3_2007_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_joe_woodard",
+                "type": "variety",
+                "archival_data": [
+                    "1633677"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951680",
+                "legacy_id": "354392",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

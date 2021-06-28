@@ -1,0 +1,60 @@
+{
+    "name": "Wynn's Daylily Garden",
+    "machine_name": "wynn_s_daylily_garden",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "5604 State Rd 6 West",
+        "address_2": "",
+        "city": "Jasper",
+        "state": "FL",
+        "postal_code": "32052",
+        "geo_coordinate": "POINT (-83.1269725 30.4906075)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wynnsdaylilygarden.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "386-938-4722",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "daylilies",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216161"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "2327456",
+        "legacy_id": null,
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "jense035",
+        "created": "1527612060"
+    }
+}

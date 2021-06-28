@@ -1,0 +1,60 @@
+{
+    "name": "Willowbend Nurseries LLC",
+    "machine_name": "willowbend_nurseries_llc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "4654 Davis Road",
+        "address_2": null,
+        "city": "Perry",
+        "state": "OH",
+        "postal_code": "44081",
+        "geo_coordinate": "POINT (-81.123332 41.765105)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.willowbendnursery.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "440-259-5472",
+        "fax": "440-259-3299",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671964",
+        "legacy_id": "29908",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

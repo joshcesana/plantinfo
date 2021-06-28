@@ -1,0 +1,1332 @@
+{
+    "name": "Your Garden. vol 44, no. 12. (1991)",
+    "machine_name": "your_garden_vol_44_no_12_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2109436",
+        "legacy_id": "5991",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 74",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "beta_vulgaris_c_rainbow",
+                "type": "variety",
+                "archival_data": [
+                    "1464661"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704032",
+                "legacy_id": "3430",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 6",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cosmos_cultivars_purity_series",
+                "type": "variety",
+                "archival_data": [
+                    "1471315"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1706792",
+                "legacy_id": "8832",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 19",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_cultivars_betty_s_boy_imperial",
+                "type": "variety",
+                "archival_data": [
+                    "1469151"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714129",
+                "legacy_id": "13317",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 19",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_cultivars_helmut_magic_eureka",
+                "type": "variety",
+                "archival_data": [
+                    "1469158"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714136",
+                "legacy_id": "13324",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 18",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_cultivars_langley_rose_pink_frost",
+                "type": "variety",
+                "archival_data": [
+                    "1469162"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714144",
+                "legacy_id": "13332",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 18",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_cultivars_langley_rose_the_bride",
+                "type": "variety",
+                "archival_data": [
+                    "1469163"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714145",
+                "legacy_id": "13333",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 34",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_cultivars_blushing_bride",
+                "type": "variety",
+                "archival_data": [
+                    "1471961"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1716998",
+                "legacy_id": "16651",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 33",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_colvillei_salmoneus",
+                "type": "variety",
+                "archival_data": [
+                    "1472283"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717375",
+                "legacy_id": "16784",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 32",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_cultivars_amanda_mahy",
+                "type": "variety",
+                "archival_data": [
+                    "1471949"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1721925",
+                "legacy_id": "16637",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 49",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_anaea",
+                "type": "variety",
+                "archival_data": [
+                    "1477322"
+                ]
+            },
+            "volume": null,
+            "page": "p 49",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725183",
+                "legacy_id": "22674",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 48-49",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_48_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_blueberry_swirl",
+                "type": "variety",
+                "archival_data": [
+                    "1477338"
+                ]
+            },
+            "volume": null,
+            "page": "p 48-49",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725223",
+                "legacy_id": "22714",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 49",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_dunya",
+                "type": "variety",
+                "archival_data": [
+                    "1477603"
+                ]
+            },
+            "volume": null,
+            "page": "p 49",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725815",
+                "legacy_id": "22824",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 49",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_flame",
+                "type": "variety",
+                "archival_data": [
+                    "1477612"
+                ]
+            },
+            "volume": null,
+            "page": "p 49",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725839",
+                "legacy_id": "22848",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 27",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lactuca_cultivars_lollo_rossa",
+                "type": "variety",
+                "archival_data": [
+                    "1480761"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731598",
+                "legacy_id": "26847",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 27",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lactuca_cultivars_red_mignonette",
+                "type": "variety",
+                "archival_data": [
+                    "1481033"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731921",
+                "legacy_id": "26926",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 27",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lactuca_cultivars_sangria",
+                "type": "variety",
+                "archival_data": [
+                    "1481066"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1732229",
+                "legacy_id": "26991",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 10-11",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_mme_gregoire_staechelin_climbing",
+                "type": "variety",
+                "archival_data": [
+                    "1492255"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1751580",
+                "legacy_id": "50393",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 69",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "alpinia_zerumbet",
+                "type": "species",
+                "archival_data": [
+                    "1397859"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766294",
+                "legacy_id": "70745",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 36",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bauhinia_blakeana",
+                "type": "species",
+                "archival_data": [
+                    "1399984"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1773860",
+                "legacy_id": "75479",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 58",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carica_pubescens",
+                "type": "species",
+                "archival_data": [
+                    "1408209"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778743",
+                "legacy_id": "79488",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 19",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_uniflora",
+                "type": "species",
+                "archival_data": [
+                    "1409587"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781678",
+                "legacy_id": "89765",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 31",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eryngium_violetta",
+                "type": "species",
+                "archival_data": [
+                    "1412525"
+                ]
+            },
+            "volume": null,
+            "page": "p 31",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787578",
+                "legacy_id": "93707",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 31",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "echinops_ritro",
+                "type": "species",
+                "archival_data": [
+                    "1412751"
+                ]
+            },
+            "volume": null,
+            "page": "p 31",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1788253",
+                "legacy_id": "91270",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 59",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eucalyptus_macrocarpa",
+                "type": "species",
+                "archival_data": [
+                    "1414390"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1789553",
+                "legacy_id": "94600",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 33",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_byzantinus",
+                "type": "species",
+                "archival_data": [
+                    "1411949"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798187",
+                "legacy_id": "99456",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 33",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_cardinalis",
+                "type": "species",
+                "archival_data": [
+                    "1411952"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798198",
+                "legacy_id": "99467",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 32",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_carmineus",
+                "type": "species",
+                "archival_data": [
+                    "1411954"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798204",
+                "legacy_id": "99473",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 69",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haemanthus_coccineus",
+                "type": "species",
+                "archival_data": [
+                    "1415376"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798649",
+                "legacy_id": "100934",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p cover|3|5",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_cover_3_5",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gloriosa_rothschildiana",
+                "type": "species",
+                "archival_data": [
+                    "1412343"
+                ]
+            },
+            "volume": null,
+            "page": "p cover|3|5",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799158",
+                "legacy_id": "99700",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 65",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_longiflorum",
+                "type": "species",
+                "archival_data": [
+                    "1417692"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803668",
+                "legacy_id": "108858",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 39|41",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_39_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lavandula_angustifolia",
+                "type": "species",
+                "archival_data": [
+                    "1421412"
+                ]
+            },
+            "volume": null,
+            "page": "p 39|41",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804213",
+                "legacy_id": "107651",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 12. (1991) p 65",
+            "machine_name": "your_garden_vol_44_no_12_1991_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mandevilla_laxa",
+                "type": "species",
+                "archival_data": [
+                    "1417420"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805523",
+                "legacy_id": "112010",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

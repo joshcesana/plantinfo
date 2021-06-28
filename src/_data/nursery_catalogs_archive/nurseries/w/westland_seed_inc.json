@@ -1,0 +1,67 @@
+{
+    "name": "Westland Seed Inc.",
+    "machine_name": "westland_seed_inc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "36272 Round Butte Rjoad",
+        "address_2": null,
+        "city": "Ronan",
+        "state": "MT",
+        "postal_code": "59864",
+        "geo_coordinate": "POINT (-114.1172683 47.5300571)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.westlandseed.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "406-676-4100",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "seeds_garden",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216182"
+            }
+        },
+        {
+            "machine_name": "seeds_lawn",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216197"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673295",
+        "legacy_id": "22149",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

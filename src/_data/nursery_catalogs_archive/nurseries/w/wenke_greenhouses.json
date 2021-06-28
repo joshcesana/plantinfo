@@ -1,0 +1,60 @@
+{
+    "name": "Wenke Greenhouses",
+    "machine_name": "wenke_greenhouses",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "5071 Market Street",
+        "address_2": "",
+        "city": "Kalamazoo",
+        "state": "MI",
+        "postal_code": "49048",
+        "geo_coordinate": "POINT (-85.5300417 42.2787516)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/www.wenkewholesale.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "269-388-2266",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bedding_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216190"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "web",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673475",
+        "legacy_id": "23750",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

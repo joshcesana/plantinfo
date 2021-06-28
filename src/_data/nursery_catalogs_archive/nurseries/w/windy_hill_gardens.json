@@ -1,0 +1,60 @@
+{
+    "name": "Windy Hill Gardens",
+    "machine_name": "windy_hill_gardens",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "4500 Boles Road",
+        "address_2": null,
+        "city": "Labadie",
+        "state": "MO",
+        "postal_code": "63055",
+        "geo_coordinate": "POINT (-90.890924 38.525519)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.orchidmall.com\/windy.hill",
+            "title": null,
+            "attributes": []
+        },
+        "email": "ledoux@usmo.com",
+        "phone": "636-742-3010",
+        "fax": "636-742-3016",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "orchids",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216175"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "Web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672105",
+        "legacy_id": "10870",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

@@ -1,0 +1,2808 @@
+{
+    "name": "Your Garden. vol 48, no. 9. (1995)",
+    "machine_name": "your_garden_vol_48_no_9_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2109103",
+        "legacy_id": "6046",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 38-39",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_38_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "antirrhinum_cultivars_your_garden_designer_series",
+                "type": "variety",
+                "archival_data": [
+                    "1463625"
+                ]
+            },
+            "volume": null,
+            "page": "p 38-39",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1703067",
+                "legacy_id": "2033",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 21",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "begonia_tuberhybrida_paeony_bliss",
+                "type": "variety",
+                "archival_data": [
+                    "1464553"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1703682",
+                "legacy_id": "3247",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 26",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "beta_vulgaris_c_rainbow",
+                "type": "variety",
+                "archival_data": [
+                    "1464661"
+                ]
+            },
+            "volume": null,
+            "page": "p 26",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704035",
+                "legacy_id": "3433",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 21",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bougainvillea_cultivars_little_guy",
+                "type": "variety",
+                "archival_data": [
+                    "1464820"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704358",
+                "legacy_id": "3592",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 24 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_24_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "citrullus_lanatus_moon_and_stars",
+                "type": "variety",
+                "archival_data": [
+                    "1468881"
+                ]
+            },
+            "volume": null,
+            "page": "p 24 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1706423",
+                "legacy_id": "7356",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 68 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_68_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cosmos_cultivars_picotee",
+                "type": "variety",
+                "archival_data": [
+                    "1471314"
+                ]
+            },
+            "volume": null,
+            "page": "p 68 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1706790",
+                "legacy_id": "8830",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 91",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eriostemon_verrucosus_semmen_s_double_wax_flower",
+                "type": "variety",
+                "archival_data": [
+                    "1475787"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711551",
+                "legacy_id": "14051",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_purple_gem",
+                "type": "variety",
+                "archival_data": [
+                    "1468142"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711680",
+                "legacy_id": "11338",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_seagull",
+                "type": "variety",
+                "archival_data": [
+                    "1468422"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711738",
+                "legacy_id": "11396",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_white_angel",
+                "type": "variety",
+                "archival_data": [
+                    "1468468"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1712045",
+                "legacy_id": "11452",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 57 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_57_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysanthemum_cultivars_phoenix",
+                "type": "variety",
+                "archival_data": [
+                    "1470528"
+                ]
+            },
+            "volume": null,
+            "page": "p 57 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714714",
+                "legacy_id": "12142",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_adeline",
+                "type": "variety",
+                "archival_data": [
+                    "1471678"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714946",
+                "legacy_id": "10877",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_burgundy_ball",
+                "type": "variety",
+                "archival_data": [
+                    "1467163"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1715267",
+                "legacy_id": "10949",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_dilly",
+                "type": "variety",
+                "archival_data": [
+                    "1467217"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1715591",
+                "legacy_id": "11021",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_edinburgh",
+                "type": "variety",
+                "archival_data": [
+                    "1467227"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1715601",
+                "legacy_id": "11031",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_festival",
+                "type": "variety",
+                "archival_data": [
+                    "1467470"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1715624",
+                "legacy_id": "11054",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_kimberley_robin",
+                "type": "variety",
+                "archival_data": [
+                    "1467803"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1716275",
+                "legacy_id": "11200",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_my_love",
+                "type": "variety",
+                "archival_data": [
+                    "1468094"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1716601",
+                "legacy_id": "11277",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_old_gold",
+                "type": "variety",
+                "archival_data": [
+                    "1468106"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1716618",
+                "legacy_id": "11294",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p inside cover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dahlia_cultivars_pink_curls",
+                "type": "variety",
+                "archival_data": [
+                    "1468129"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1716645",
+                "legacy_id": "11321",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gnidia_cultivars_sulphur_showers",
+                "type": "variety",
+                "archival_data": [
+                    "1472314"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717683",
+                "legacy_id": "16848",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22-23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_cultivars_acclamation",
+                "type": "variety",
+                "archival_data": [
+                    "1474351"
+                ]
+            },
+            "volume": null,
+            "page": "p 22-23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717922",
+                "legacy_id": "15607",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 45",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_magellanica_macrostema",
+                "type": "variety",
+                "archival_data": [
+                    "1475519"
+                ]
+            },
+            "volume": null,
+            "page": "p 45",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1719885",
+                "legacy_id": "16084",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_cultivars_temptation",
+                "type": "variety",
+                "archival_data": [
+                    "1473782"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1719961",
+                "legacy_id": "17398",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_cultivars_winter_bronze",
+                "type": "variety",
+                "archival_data": [
+                    "1473789"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1719968",
+                "legacy_id": "17405",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 68 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_68_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_auricoma_african_queen",
+                "type": "variety",
+                "archival_data": [
+                    "1573609"
+                ]
+            },
+            "volume": null,
+            "page": "p 68 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725172",
+                "legacy_id": "22663",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 59 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_59_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_bingo_series",
+                "type": "variety",
+                "archival_data": [
+                    "1477334"
+                ]
+            },
+            "volume": null,
+            "page": "p 59 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725202",
+                "legacy_id": "22693",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 25 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_25_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lycopersicon_cultivars_mortgage_lifter",
+                "type": "variety",
+                "archival_data": [
+                    "1481477"
+                ]
+            },
+            "volume": null,
+            "page": "p 25 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1727284",
+                "legacy_id": "29697",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lantana_montevidensis_rosie",
+                "type": "variety",
+                "archival_data": [
+                    "1477207"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728436",
+                "legacy_id": "27333",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 52 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_52_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lavandula_cultivars_avonview",
+                "type": "variety",
+                "archival_data": [
+                    "1477483"
+                ]
+            },
+            "volume": null,
+            "page": "p 52 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728740",
+                "legacy_id": "27399",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lavandula_cultivars_fairy_wings",
+                "type": "variety",
+                "archival_data": [
+                    "1477485"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728743",
+                "legacy_id": "27402",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 21",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobularia_maritima_petite_mosaic",
+                "type": "variety",
+                "archival_data": [
+                    "1480241"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728783",
+                "legacy_id": "28684",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 25 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_25_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lycopersicon_cultivars_tommy_toe",
+                "type": "variety",
+                "archival_data": [
+                    "1476980"
+                ]
+            },
+            "volume": null,
+            "page": "p 25 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728932",
+                "legacy_id": "30214",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 25 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_25_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lycopersicon_cultivars_black_russian",
+                "type": "variety",
+                "archival_data": [
+                    "1480874"
+                ]
+            },
+            "volume": null,
+            "page": "p 25 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730148",
+                "legacy_id": "29076",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 25 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_25_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lycopersicon_cultivars_green_zebra",
+                "type": "variety",
+                "archival_data": [
+                    "1481415"
+                ]
+            },
+            "volume": null,
+            "page": "p 25 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731772",
+                "legacy_id": "29482",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 85|87",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_85_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_citronellum_mabel_grey",
+                "type": "variety",
+                "archival_data": [
+                    "1484030"
+                ]
+            },
+            "volume": null,
+            "page": "p 85|87",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1738168",
+                "legacy_id": "36373",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "petunia_cultivars_lullaby_series",
+                "type": "variety",
+                "archival_data": [
+                    "1481536"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1738643",
+                "legacy_id": "37831",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 34 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_34_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "petunia_cultivars_lullaby_series",
+                "type": "variety",
+                "archival_data": [
+                    "1481536"
+                ]
+            },
+            "volume": null,
+            "page": "p 34 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1738644",
+                "legacy_id": "37832",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 26",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "petunia_cultivars_pastelle_series",
+                "type": "variety",
+                "archival_data": [
+                    "1481544"
+                ]
+            },
+            "volume": null,
+            "page": "p 26",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1738933",
+                "legacy_id": "37875",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 46 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_46_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "petunia_cultivars_rococo",
+                "type": "variety",
+                "archival_data": [
+                    "1481781"
+                ]
+            },
+            "volume": null,
+            "page": "p 46 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1739291",
+                "legacy_id": "37987",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 5 (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_5_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polianthes_tuberosa_the_pearl",
+                "type": "variety",
+                "archival_data": [
+                    "1486628"
+                ]
+            },
+            "volume": null,
+            "page": "p 5 (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1741023",
+                "legacy_id": "39744",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 21",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_princess_sharon",
+                "type": "variety",
+                "archival_data": [
+                    "1490878"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1743909",
+                "legacy_id": "43146",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 21",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_appleblossom",
+                "type": "variety",
+                "archival_data": [
+                    "1489448"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1745318",
+                "legacy_id": "44802",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 88",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_88",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "prunus_subhirtella_rosea",
+                "type": "variety",
+                "archival_data": [
+                    "1488967"
+                ]
+            },
+            "volume": null,
+            "page": "p 88",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1746015",
+                "legacy_id": "41019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 55",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_duchesse_de_brabant",
+                "type": "variety",
+                "archival_data": [
+                    "1487405"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1748388",
+                "legacy_id": "46918",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 56",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_compassion",
+                "type": "variety",
+                "archival_data": [
+                    "1486501"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1750939",
+                "legacy_id": "46245",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p backcover (Adv.)",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_backcover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_flower_carpet_series",
+                "type": "variety",
+                "archival_data": [
+                    "1487746"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover (Adv.)",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1751019",
+                "legacy_id": "47575",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22-23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_johannes_becker",
+                "type": "variety",
+                "archival_data": [
+                    "1494849"
+                ]
+            },
+            "volume": null,
+            "page": "p 22-23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1751453",
+                "legacy_id": "49008",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 55",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_mme_isaac_pereire",
+                "type": "variety",
+                "archival_data": [
+                    "1492259"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1751877",
+                "legacy_id": "50444",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 22-23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_22_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_tinkerbell",
+                "type": "variety",
+                "archival_data": [
+                    "1492068"
+                ]
+            },
+            "volume": null,
+            "page": "p 22-23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1754759",
+                "legacy_id": "53856",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 56",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_solitaire",
+                "type": "variety",
+                "archival_data": [
+                    "1491143"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1756991",
+                "legacy_id": "53120",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 103",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_sparrieshoop",
+                "type": "variety",
+                "archival_data": [
+                    "1491182"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757374",
+                "legacy_id": "53255",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 59",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_queen_elizabeth",
+                "type": "variety",
+                "archival_data": [
+                    "1494075"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757575",
+                "legacy_id": "51950",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 55",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_stanwell_perpetual",
+                "type": "variety",
+                "archival_data": [
+                    "1491434"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757681",
+                "legacy_id": "53319",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viola_cultivars_tinkerbelle_series",
+                "type": "variety",
+                "archival_data": [
+                    "1499444"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1761329",
+                "legacy_id": "59518",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 27",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viola_wittrockiana_bingo_series",
+                "type": "variety",
+                "archival_data": [
+                    "1499731"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1761973",
+                "legacy_id": "59670",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 27",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viola_wittrockiana_black_n_blue",
+                "type": "variety",
+                "archival_data": [
+                    "1499732"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1761976",
+                "legacy_id": "59673",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 35",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_meyeri_palibin",
+                "type": "variety",
+                "archival_data": [
+                    "1495383"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1762169",
+                "legacy_id": "57139",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 37",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_persica_alba",
+                "type": "variety",
+                "archival_data": [
+                    "1495388"
+                ]
+            },
+            "volume": null,
+            "page": "p 37",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1762193",
+                "legacy_id": "57163",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 65",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tulipa_cultivars_monet_series",
+                "type": "variety",
+                "archival_data": [
+                    "1492492"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1762245",
+                "legacy_id": "58452",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 23",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tagetes_cultivars_champagn",
+                "type": "variety",
+                "archival_data": [
+                    "1495665"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1763126",
+                "legacy_id": "57356",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 12-13",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_12_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "allium_sativum",
+                "type": "species",
+                "archival_data": [
+                    "1402132"
+                ]
+            },
+            "volume": null,
+            "page": "p 12-13",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1769228",
+                "legacy_id": "70196",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 84",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_fragrans",
+                "type": "species",
+                "archival_data": [
+                    "1426671"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814114",
+                "legacy_id": "119571",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 84",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_tomentosum",
+                "type": "species",
+                "archival_data": [
+                    "1427003"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814455",
+                "legacy_id": "119673",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 32-33|35",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_32_33_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_chinensis",
+                "type": "species",
+                "archival_data": [
+                    "1428558"
+                ]
+            },
+            "volume": null,
+            "page": "p 32-33|35",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826581",
+                "legacy_id": "136155",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 33",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_diversifolia",
+                "type": "species",
+                "archival_data": [
+                    "1428559"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826582",
+                "legacy_id": "136156",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 32-33",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_32_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_persica",
+                "type": "species",
+                "archival_data": [
+                    "1428574"
+                ]
+            },
+            "volume": null,
+            "page": "p 32-33",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826605",
+                "legacy_id": "136179",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 48, no. 9. (1995) p 33",
+            "machine_name": "your_garden_vol_48_no_9_1995_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syringa_wolfii",
+                "type": "species",
+                "archival_data": [
+                    "1428584"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826644",
+                "legacy_id": "136218",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

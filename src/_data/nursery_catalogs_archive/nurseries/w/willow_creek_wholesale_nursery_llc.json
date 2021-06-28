@@ -1,0 +1,67 @@
+{
+    "name": "Willow Creek Wholesale Nursery LLC",
+    "machine_name": "willow_creek_wholesale_nursery_llc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "25455 North Lansing Lane",
+        "address_2": null,
+        "city": "Middleton",
+        "state": "ID",
+        "postal_code": "83644",
+        "geo_coordinate": "POINT (-116.580912 43.74157)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/wcwnidaho.com\/history\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "208-585-5797",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1674246",
+        "legacy_id": "33808",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

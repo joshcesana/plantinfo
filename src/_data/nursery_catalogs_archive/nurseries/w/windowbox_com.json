@@ -1,0 +1,60 @@
+{
+    "name": "Windowbox.com",
+    "machine_name": "windowbox_com",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "6056 Corte Del Cedro",
+        "address_2": "",
+        "city": "Carlsbad",
+        "state": "CA",
+        "postal_code": "92011",
+        "geo_coordinate": "POINT (-117.271336 33.126581)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.windowbox.com\/plants.html",
+            "title": null,
+            "attributes": []
+        },
+        "email": "Service@WindowBox.com",
+        "phone": "888-427-3362",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bonsai",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216155"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673402",
+        "legacy_id": "26150",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

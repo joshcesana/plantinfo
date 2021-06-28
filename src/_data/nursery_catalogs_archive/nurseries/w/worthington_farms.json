@@ -1,0 +1,60 @@
+{
+    "name": "Worthington Farms",
+    "machine_name": "worthington_farms",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "3661 Ballards Crossroads Road",
+        "address_2": null,
+        "city": "Greenville",
+        "state": "NC",
+        "postal_code": "27834",
+        "geo_coordinate": "POINT (-77.5016027 35.540814)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.worthingtonfarms.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673996",
+        "legacy_id": "29669",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

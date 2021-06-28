@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 16, no. 4. (1999)",
+    "machine_name": "yellow_rose_the_vol_16_no_4_1999",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1999",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115776",
+        "legacy_id": "7880",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 16, no. 4. (1999) p cover",
+            "machine_name": "yellow_rose_the_vol_16_no_4_1999_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_jenny_duval",
+                "type": "variety",
+                "archival_data": [
+                    "1494837"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1857419",
+                "legacy_id": "165979",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

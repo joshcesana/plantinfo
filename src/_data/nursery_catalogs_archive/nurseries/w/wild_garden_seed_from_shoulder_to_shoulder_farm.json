@@ -1,0 +1,60 @@
+{
+    "name": "Wild Garden Seed from Shoulder to Shoulder Farm",
+    "machine_name": "wild_garden_seed_from_shoulder_to_shoulder_farm",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "PO Box 1509",
+        "address_2": "",
+        "city": "Philomath",
+        "state": "OR",
+        "postal_code": "97370",
+        "geo_coordinate": "POINT (-123.3676014 44.540121)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wildgardenseed.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "541-929-4068",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "seeds_garden",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216182"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673310",
+        "legacy_id": "27048",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2020, 2019, 2018, 2016",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

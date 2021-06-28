@@ -1,0 +1,74 @@
+{
+    "name": "West Coast Seeds Ltd",
+    "machine_name": "west_coast_seeds_ltd",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": false,
+            "canada": true
+        },
+        "address_1": "5300 34B Avenue",
+        "address_2": "",
+        "city": "Delta",
+        "state": "BC",
+        "postal_code": "V4L 2P1",
+        "geo_coordinate": "POINT (-123.0762869 49.0657715)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.westcoastseeds.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "888-804-8820",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "herbs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216169"
+            }
+        },
+        {
+            "machine_name": "seeds_garden",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216182"
+            }
+        },
+        {
+            "machine_name": "vegetables",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216191"
+            }
+        }
+    ],
+    "catalog": {
+        "print": true,
+        "online": true,
+        "web_only": false
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671783",
+        "legacy_id": "2208",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": false,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2021, 2019, 2018, 2017",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

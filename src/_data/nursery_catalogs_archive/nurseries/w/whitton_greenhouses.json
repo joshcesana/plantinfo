@@ -1,0 +1,296 @@
+{
+    "name": "Whitton Greenhouses",
+    "machine_name": "whitton_greenhouses",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "550 Pony Track Road",
+        "address_2": "",
+        "city": "Camden",
+        "state": "DE",
+        "postal_code": "19934",
+        "geo_coordinate": "POINT (-75.6812659 39.054451)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/www.whittongreenhouses.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "302-284-8863",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "house_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216171"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2019",
+    "nursery_catalog_items": [
+        {
+            "name": "Whitton Greenhouses 2019",
+            "machine_name": "whitton_greenhouses_2019",
+            "type": "nursery_catalog",
+            "date": "Mar 7 2019",
+            "nursery": "whitton_greenhouses",
+            "active": true,
+            "plants": [
+                {
+                    "reference": "1492398",
+                    "machine_name": "schlumbergera_cultivars_christmas_fantasy",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "236511",
+                        "fgsid": null,
+                        "legacy_id": "31949",
+                        "catalog_source_id": "1302094"
+                    }
+                },
+                {
+                    "reference": "1642181",
+                    "machine_name": "schlumbergera_cultivars_malissa",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "236516",
+                        "fgsid": null,
+                        "legacy_id": "258933",
+                        "catalog_source_id": "1302099"
+                    }
+                },
+                {
+                    "reference": "1584440",
+                    "machine_name": "schlumbergera_cultivars_madslome",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237626",
+                        "fgsid": null,
+                        "legacy_id": "214871",
+                        "catalog_source_id": "780589"
+                    }
+                },
+                {
+                    "reference": "1642184",
+                    "machine_name": "schlumbergera_cultivars_modesto",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237628",
+                        "fgsid": null,
+                        "legacy_id": "258936",
+                        "catalog_source_id": "780591"
+                    }
+                },
+                {
+                    "reference": "1492422",
+                    "machine_name": "schlumbergera_cultivars_sleigh_bells",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237629",
+                        "fgsid": null,
+                        "legacy_id": "31973",
+                        "catalog_source_id": "780592"
+                    }
+                },
+                {
+                    "reference": "1578778",
+                    "machine_name": "schlumbergera_cultivars_thor_series",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237630",
+                        "fgsid": null,
+                        "legacy_id": "202633",
+                        "catalog_source_id": "780593"
+                    }
+                },
+                {
+                    "reference": "1660373",
+                    "machine_name": "schlumbergera_cultivars_naomi",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237636",
+                        "fgsid": null,
+                        "legacy_id": "268900",
+                        "catalog_source_id": "780601"
+                    }
+                },
+                {
+                    "reference": "1660374",
+                    "machine_name": "schlumbergera_cultivars_nicole",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "237637",
+                        "fgsid": null,
+                        "legacy_id": "268901",
+                        "catalog_source_id": "780602"
+                    }
+                },
+                {
+                    "reference": "1668296",
+                    "machine_name": "schlumbergera_cultivars_sunset_dancer",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": true,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "277728",
+                        "fgsid": null,
+                        "legacy_id": "405554",
+                        "catalog_source_id": "1302125"
+                    }
+                },
+                {
+                    "reference": "2488081",
+                    "machine_name": "schlumbergera_cultivars_outono_brazil",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998571",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2488086",
+                    "machine_name": "schlumbergera_cultivars_columba_brazil",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998576",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2488091",
+                    "machine_name": "schlumbergera_cultivars_larks_brazil",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998581",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1666212",
+                    "machine_name": "schlumbergera_cultivars_cristen",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998586",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "1641942",
+                    "machine_name": "schlumbergera_cultivars_limelight_dancer",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998591",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                },
+                {
+                    "reference": "2488096",
+                    "machine_name": "schlumbergera_cultivars_campinas",
+                    "type": "variety",
+                    "seed": false,
+                    "pages": null,
+                    "active": false,
+                    "notes": null,
+                    "archival_data": {
+                        "id": "998596",
+                        "fgsid": null,
+                        "legacy_id": null,
+                        "catalog_source_id": null
+                    }
+                }
+            ]
+        }
+    ],
+    "archival_data": {
+        "id": "1672131",
+        "legacy_id": "17188",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "2019, 2016",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

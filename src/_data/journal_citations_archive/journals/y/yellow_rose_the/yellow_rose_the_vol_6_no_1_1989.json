@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 6, no. 1. (1989)",
+    "machine_name": "yellow_rose_the_vol_6_no_1_1989",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1989",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2112984",
+        "legacy_id": "5938",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 6, no. 1. (1989) p frontcover",
+            "machine_name": "yellow_rose_the_vol_6_no_1_1989_p_frontcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_marie_van_houtte",
+                "type": "variety",
+                "archival_data": [
+                    "1491668"
+                ]
+            },
+            "volume": null,
+            "page": "p frontcover",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1749942",
+                "legacy_id": "49985",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        }
+    ]
+}

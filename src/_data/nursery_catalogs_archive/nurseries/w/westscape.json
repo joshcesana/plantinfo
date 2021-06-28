@@ -1,0 +1,74 @@
+{
+    "name": "Westscape",
+    "machine_name": "westscape",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "423 North Tracy",
+        "address_2": null,
+        "city": "Bozeman",
+        "state": "MT",
+        "postal_code": "59715",
+        "geo_coordinate": "POINT (-111.03772 45.6838679)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.westscapenursery.net\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "406-388-1116",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "prairie_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216178"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "consider for SL",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671793",
+        "legacy_id": "27850",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

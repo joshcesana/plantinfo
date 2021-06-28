@@ -1,0 +1,61 @@
+{
+    "name": "Yellow Rose, The. vol 19, no. 1. (2002)",
+    "machine_name": "yellow_rose_the_vol_19_no_1_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117584",
+        "legacy_id": "40869",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Yellow Rose, The. vol 19, no. 1. (2002) p cover",
+            "machine_name": "yellow_rose_the_vol_19_no_1_2002_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_pink_leda",
+                "type": "variety",
+                "archival_data": [
+                    "1526738"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1892423",
+                "legacy_id": "237490",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

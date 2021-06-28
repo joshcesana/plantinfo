@@ -1,0 +1,67 @@
+{
+    "name": "Wild Ginger Farm",
+    "machine_name": "wild_ginger_farm",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "24000 S Schuebel School Rd",
+        "address_2": null,
+        "city": "Beavercreek",
+        "state": "OR",
+        "postal_code": "97004",
+        "geo_coordinate": "POINT (-122.49328 45.259201)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.wildgingerfarm.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "info@wildgingerfarm.com",
+        "phone": "503-632-2338",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "iris",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216172"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "web",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673299",
+        "legacy_id": "22251",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

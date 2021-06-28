@@ -1,0 +1,60 @@
+{
+    "name": "Willow Creek Gardens",
+    "machine_name": "willow_creek_gardens",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "2521 Oceanside Blvd, Ste A",
+        "address_2": "",
+        "city": "Oceanside",
+        "state": "CA",
+        "postal_code": "92054",
+        "geo_coordinate": "POINT (-117.3442947 33.1998221)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.willowcreekgardens.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "service@easytogrowbulbs.com",
+        "phone": "866-725-5361",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bulbs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216156"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "web",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673398",
+        "legacy_id": "23491",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

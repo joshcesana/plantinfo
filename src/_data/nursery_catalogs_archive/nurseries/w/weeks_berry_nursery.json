@@ -1,0 +1,60 @@
+{
+    "name": "Weeks Berry Nursery",
+    "machine_name": "weeks_berry_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "6494 Windsor Island Road N",
+        "address_2": "",
+        "city": "Keizer",
+        "state": "OR",
+        "postal_code": "97303",
+        "geo_coordinate": "POINT (-123.04982 45.0128453)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.weeksberry.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "503-393-8112",
+        "fax": "503-393-2241",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "fruit_small",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216165"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "2015\/16",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672705",
+        "legacy_id": "972",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "N",
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

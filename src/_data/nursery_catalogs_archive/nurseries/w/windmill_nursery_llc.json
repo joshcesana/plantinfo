@@ -1,0 +1,60 @@
+{
+    "name": "Windmill Nursery LLC",
+    "machine_name": "windmill_nursery_llc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "12398 Hwy 25",
+        "address_2": null,
+        "city": "Franklinton",
+        "state": "LA",
+        "postal_code": "70438",
+        "geo_coordinate": "POINT (-90.1832494 30.705491)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.windmillnurseryllc.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "800-535-1887",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "tropical_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216186"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673850",
+        "legacy_id": "27810",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

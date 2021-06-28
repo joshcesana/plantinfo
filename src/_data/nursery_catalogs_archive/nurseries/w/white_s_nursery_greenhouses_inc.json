@@ -1,0 +1,60 @@
+{
+    "name": "White's Nursery & Greenhouses, Inc",
+    "machine_name": "white_s_nursery_greenhouses_inc",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "3133 Old Mill Road",
+        "address_2": null,
+        "city": "Chesakeake",
+        "state": "VA",
+        "postal_code": "23323",
+        "geo_coordinate": "POINT (-76.35177 36.742467)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.whitesnursery.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "bedding_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216190"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1674000",
+        "legacy_id": "29688",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

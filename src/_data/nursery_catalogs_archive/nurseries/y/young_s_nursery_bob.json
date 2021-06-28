@@ -1,0 +1,67 @@
+{
+    "name": "Young's Nursery, Bob",
+    "machine_name": "young_s_nursery_bob",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": false,
+        "wholesale": true
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "3053 Hennessee Bridge Road",
+        "address_2": null,
+        "city": "Rock Island",
+        "state": "TN",
+        "postal_code": "38581",
+        "geo_coordinate": "POINT (-85.690214 35.770259)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.bobyoungsnursery.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": "trees1@blomand.net",
+        "phone": "931-686-2496",
+        "fax": "931-686-8894",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": "Web only",
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1671903",
+        "legacy_id": "10511",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

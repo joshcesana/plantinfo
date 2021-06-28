@@ -1,0 +1,61 @@
+{
+    "name": "Ying, Shao-shun. [Coloured Illustrated Flora of Taiwan]. vol. 3",
+    "machine_name": "ying_shao_shun_coloured_illustrated_flora_of_taiwan_vol_3",
+    "type": "journal_book",
+    "volume": "3",
+    "number": null,
+    "year": null,
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2102739",
+        "legacy_id": "5974",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Ying, Shao-shun. [Coloured Illustrated Flora of Taiwan]. 3 p 5",
+            "machine_name": "ying_shao_shun_coloured_illustrated_flora_of_taiwan_3_p_5",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "platanus_occidentalis",
+                "type": "species",
+                "archival_data": [
+                    "1426368"
+                ]
+            },
+            "volume": "3",
+            "page": "p 5",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1895262",
+                "legacy_id": "239254",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483346299"
+            }
+        }
+    ]
+}

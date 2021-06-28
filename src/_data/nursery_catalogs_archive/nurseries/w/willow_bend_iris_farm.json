@@ -1,0 +1,67 @@
+{
+    "name": "Willow Bend Iris Farm",
+    "machine_name": "willow_bend_iris_farm",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "2331 J Road",
+        "address_2": null,
+        "city": "Grand Junction",
+        "state": "CO",
+        "postal_code": "81505",
+        "geo_coordinate": "POINT (-108.620888 39.148538)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.willowbendirisfarm.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "970-263-4138",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "iris",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216172"
+            }
+        },
+        {
+            "machine_name": "daylilies",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216161"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1672551",
+        "legacy_id": "12508",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": "N",
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

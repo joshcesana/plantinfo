@@ -1,0 +1,60 @@
+{
+    "name": "Wood Thrush Native Nursery",
+    "machine_name": "wood_thrush_native_nursery",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "1097 Beaver Creek Road, NW",
+        "address_2": "",
+        "city": "Floyd",
+        "state": "VA",
+        "postal_code": "24091",
+        "geo_coordinate": "POINT (-80.391328 36.954204)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.woodthrushnatives.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "215-272-1843",
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "native_plants",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216201"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "2129676",
+        "legacy_id": null,
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "jense035",
+        "created": "1498591020"
+    }
+}

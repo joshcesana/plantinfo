@@ -1,0 +1,74 @@
+{
+    "name": "Waterwise Botanicals",
+    "machine_name": "waterwise_botanicals",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "32151 Old Hwy 395",
+        "address_2": "",
+        "city": "Bonsall",
+        "state": "CA",
+        "postal_code": "92003",
+        "geo_coordinate": "POINT (-117.1523828 33.297022)"
+    },
+    "contact": {
+        "website": {
+            "url": "http:\/\/www.waterwisebotanicals.com\/",
+            "title": null,
+            "attributes": []
+        },
+        "email": null,
+        "phone": "760-728-2641",
+        "fax": "760-451-0265",
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "cactus_succulents",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216157"
+            }
+        },
+        {
+            "machine_name": "perennials",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216177"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673511",
+        "legacy_id": "26351",
+        "ships": true,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": true,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897980"
+    }
+}

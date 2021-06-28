@@ -180,6 +180,88 @@ module.exports = {
   },
 
   /**
+   * Creates the permalink path for a nursery.
+   *
+   * @param {Array}      nurseryItem         The nursery item.
+   * @returns {Array}                        The permalink path.
+   */
+  createNurseryPermalinkPath(nurseryItem) {
+    let permalinkPath = '';
+    let pathParts = {
+      nurserySlug: '',
+      uuidSlug: ''
+    };
+
+    if (
+      nurseryItem.hasOwnProperty('data') &&
+      nurseryItem.data.hasOwnProperty('type') &&
+      nurseryItem.data.hasOwnProperty('machine_name')
+    ) {
+      if (nurseryItem.data.type === 'nursery') {
+        pathParts.nurserySlug = nurseryItem.data.machine_name;
+      }
+
+      if (
+        nurseryItem.data.hasOwnProperty('archival_data') &&
+        nurseryItem.data.archival_data.hasOwnProperty('id')
+      ) {
+        pathParts.uuidSlug = nurseryItem.data.archival_data.id;
+      }
+    }
+
+    if (pathParts.nurserySlug !== '') {
+      permalinkPath = permalinkPath + '/nurseries/nursery/' + pathParts.nurserySlug + '/';
+
+      if (pathParts.uuidSlug !== '') {
+        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
+      }
+    }
+
+    return permalinkPath;
+  },
+
+  /**
+   * Creates the permalink path for a nursery category.
+   *
+   * @param {Array}      nurseryCategoryItem The nursery category item.
+   * @returns {Array}                        The permalink path.
+   */
+  createNurseryCategoryPermalinkPath(nurseryCategoryItem) {
+    let permalinkPath = '';
+    let pathParts = {
+      nurseryCategorySlug: '',
+      uuidSlug: ''
+    };
+
+    if (
+      nurseryCategoryItem.hasOwnProperty('data') &&
+      nurseryCategoryItem.data.hasOwnProperty('type') &&
+      nurseryCategoryItem.data.hasOwnProperty('machine_name')
+    ) {
+      if (nurseryCategoryItem.data.type === 'nursery_category') {
+        pathParts.nurserySlug = nurseryCategoryItem.data.machine_name;
+      }
+
+      if (
+        nurseryCategoryItem.data.hasOwnProperty('archival_data') &&
+        nurseryCategoryItem.data.archival_data.hasOwnProperty('id')
+      ) {
+        pathParts.uuidSlug = nurseryCategoryItem.data.archival_data.id;
+      }
+    }
+
+    if (pathParts.nurserySlug !== '') {
+      permalinkPath = permalinkPath + '/nurseries/nursery-category/' + pathParts.nurserySlug + '/';
+
+      if (pathParts.uuidSlug !== '') {
+        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
+      }
+    }
+
+    return permalinkPath;
+  },
+
+  /**
    * Creates the permalink path for a plant.
    *
    * @param {Array}      plantItem           The plant item.

@@ -1,0 +1,2808 @@
+{
+    "name": "Your Garden. vol 46, no. 12. (1993)",
+    "machine_name": "your_garden_vol_46_no_12_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2109500",
+        "legacy_id": "6014",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 77",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "billbergia_cultivars_albertii",
+                "type": "variety",
+                "archival_data": [
+                    "1464687"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704195",
+                "legacy_id": "3512",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 19",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "begonia_tuberhybrida_ballerina_series",
+                "type": "variety",
+                "archival_data": [
+                    "1495979"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704313",
+                "legacy_id": "2947",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 18",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cosmos_cultivars_purity_series",
+                "type": "variety",
+                "archival_data": [
+                    "1471315"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1706793",
+                "legacy_id": "8833",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cryptomeria_japonica_elegans_viridis",
+                "type": "variety",
+                "archival_data": [
+                    "1467429"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1707855",
+                "legacy_id": "9220",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 56",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chamaecyparis_lawsoniana_lycopodioides",
+                "type": "variety",
+                "archival_data": [
+                    "1467663"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1710346",
+                "legacy_id": "6977",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 56",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cuprocyparis_leylandii_sirebo",
+                "type": "variety",
+                "archival_data": [
+                    "1469298"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711671",
+                "legacy_id": "10089",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 19",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dianthus_cultivars_galaxy_series",
+                "type": "variety",
+                "archival_data": [
+                    "1467234"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711821",
+                "legacy_id": "12746",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 64",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_64",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_cultivars_dream_valley_gemini",
+                "type": "variety",
+                "archival_data": [
+                    "1470179"
+                ]
+            },
+            "volume": null,
+            "page": "p 64",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1713263",
+                "legacy_id": "10453",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 66 (Adv)",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_66_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diascia_cultivars_salmon_supreme",
+                "type": "variety",
+                "archival_data": [
+                    "1468197"
+                ]
+            },
+            "volume": null,
+            "page": "p 66 (Adv)",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1713475",
+                "legacy_id": "13169",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 62-63",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_62_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_cultivars_king_arthur_green_giant",
+                "type": "variety",
+                "archival_data": [
+                    "1470482"
+                ]
+            },
+            "volume": null,
+            "page": "p 62-63",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1713589",
+                "legacy_id": "10528",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 17",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_purpurea_alba",
+                "type": "variety",
+                "archival_data": [
+                    "1469111"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714075",
+                "legacy_id": "13263",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 17",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_purpurea_heywoodii",
+                "type": "variety",
+                "archival_data": [
+                    "1469116"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714087",
+                "legacy_id": "13275",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 72",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "heliconia_densiflora_fire_flash",
+                "type": "variety",
+                "archival_data": [
+                    "1475288"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1721314",
+                "legacy_id": "17766",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 10-11",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_macrophylla_amethyst",
+                "type": "variety",
+                "archival_data": [
+                    "1480910"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722295",
+                "legacy_id": "21931",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 11",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_cultivars_preziosa",
+                "type": "variety",
+                "archival_data": [
+                    "1480920"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722317",
+                "legacy_id": "21953",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 13",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_aspera_strigosa",
+                "type": "variety",
+                "archival_data": [
+                    "1480934"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722586",
+                "legacy_id": "21983",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 11",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_macrophylla_domotoi",
+                "type": "variety",
+                "archival_data": [
+                    "1481187"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722611",
+                "legacy_id": "22008",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 11",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_macrophylla_veitchii",
+                "type": "variety",
+                "archival_data": [
+                    "1481227"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722935",
+                "legacy_id": "22091",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 13",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_paniculata_grandiflora",
+                "type": "variety",
+                "archival_data": [
+                    "1481233"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722959",
+                "legacy_id": "22115",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 19",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "impatiens_cultivars_deco_series",
+                "type": "variety",
+                "archival_data": [
+                    "1477370"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1725802",
+                "legacy_id": "22811",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 19",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_cultivars_lightning_blue",
+                "type": "variety",
+                "archival_data": [
+                    "1480196"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728177",
+                "legacy_id": "28561",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 56",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "juniperus_chinensis_blue_point",
+                "type": "variety",
+                "archival_data": [
+                    "1479527"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1729641",
+                "legacy_id": "26335",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 98 (Adv)",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_98_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_sunrise",
+                "type": "variety",
+                "archival_data": [
+                    "1481706"
+                ]
+            },
+            "volume": null,
+            "page": "p 98 (Adv)",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735361",
+                "legacy_id": "34316",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "picea_glauca_albertiana_conica",
+                "type": "variety",
+                "archival_data": [
+                    "1490157"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1739045",
+                "legacy_id": "39222",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 18",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "petunia_cultivars_stereo_series",
+                "type": "variety",
+                "archival_data": [
+                    "1481788"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1739300",
+                "legacy_id": "37996",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 56",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pinus_thunbergii_mikawa",
+                "type": "variety",
+                "archival_data": [
+                    "1490750"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1740045",
+                "legacy_id": "39493",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 18",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_hortorum_vogue_series",
+                "type": "variety",
+                "archival_data": [
+                    "1485281"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1741122",
+                "legacy_id": "37117",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 33",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_buff_beauty",
+                "type": "variety",
+                "archival_data": [
+                    "1490624"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1743060",
+                "legacy_id": "45615",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 30",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_duchesse_de_brabant",
+                "type": "variety",
+                "archival_data": [
+                    "1487405"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1748385",
+                "legacy_id": "46915",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 20-21",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_20_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_parfume",
+                "type": "variety",
+                "archival_data": [
+                    "1493163"
+                ]
+            },
+            "volume": null,
+            "page": "p 20-21",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1749030",
+                "legacy_id": "51154",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p backcover (Adv)",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_backcover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_flower_carpet_series",
+                "type": "variety",
+                "archival_data": [
+                    "1487746"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover (Adv)",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1750756",
+                "legacy_id": "47556",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 9",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_sea_mist",
+                "type": "variety",
+                "archival_data": [
+                    "1495229"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1755392",
+                "legacy_id": "52740",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 33",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_sombreuil",
+                "type": "variety",
+                "archival_data": [
+                    "1491145"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757020",
+                "legacy_id": "53149",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 76 (Adv)",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_76_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_woman_s_day",
+                "type": "variety",
+                "archival_data": [
+                    "1492957"
+                ]
+            },
+            "volume": null,
+            "page": "p 76 (Adv)",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757116",
+                "legacy_id": "54505",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 33",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_souv_de_st_anne_s",
+                "type": "variety",
+                "archival_data": [
+                    "1491175"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757337",
+                "legacy_id": "53216",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thuja_plicata_hillieri",
+                "type": "variety",
+                "archival_data": [
+                    "1491575"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1759606",
+                "legacy_id": "57779",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thujopsis_dolabrata_variegata",
+                "type": "variety",
+                "archival_data": [
+                    "1491578"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1759614",
+                "legacy_id": "57787",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 74",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acalypha_hispida",
+                "type": "species",
+                "archival_data": [
+                    "1402418"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1760219",
+                "legacy_id": "67868",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 18",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tagetes_cultivars_chiffon",
+                "type": "variety",
+                "archival_data": [
+                    "1495667"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1763133",
+                "legacy_id": "57363",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 37",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "argemone_mexicana",
+                "type": "species",
+                "archival_data": [
+                    "1401473"
+                ]
+            },
+            "volume": null,
+            "page": "p 37",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764530",
+                "legacy_id": "73122",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 75",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "alpinia_zerumbet",
+                "type": "species",
+                "archival_data": [
+                    "1397859"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766295",
+                "legacy_id": "70746",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 26",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bismarckia_nobilis",
+                "type": "species",
+                "archival_data": [
+                    "1401885"
+                ]
+            },
+            "volume": null,
+            "page": "p 26",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1771891",
+                "legacy_id": "76254",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 37",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calandrinia_remota",
+                "type": "species",
+                "archival_data": [
+                    "1400074"
+                ]
+            },
+            "volume": null,
+            "page": "p 37",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1772694",
+                "legacy_id": "77868",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "callitris_oblonga",
+                "type": "species",
+                "archival_data": [
+                    "1400419"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1774020",
+                "legacy_id": "78219",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 35",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clianthus_formosus",
+                "type": "species",
+                "archival_data": [
+                    "1408993"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777299",
+                "legacy_id": "83098",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 17",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_ferruginea",
+                "type": "species",
+                "archival_data": [
+                    "1408489"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780067",
+                "legacy_id": "89284",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 15",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1408491"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780328",
+                "legacy_id": "89299",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 15",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_lutea",
+                "type": "species",
+                "archival_data": [
+                    "1408495"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780340",
+                "legacy_id": "89311",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 17",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_mertonensis",
+                "type": "species",
+                "archival_data": [
+                    "1408497"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780347",
+                "legacy_id": "89318",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 85",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_85",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_pedunculatum",
+                "type": "species",
+                "archival_data": [
+                    "1407933"
+                ]
+            },
+            "volume": null,
+            "page": "p 85",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781728",
+                "legacy_id": "85647",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 35",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crotalaria_novae_hollandiae",
+                "type": "species",
+                "archival_data": [
+                    "1408350"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783036",
+                "legacy_id": "85984",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 51",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cosmos_atrosanguineus",
+                "type": "species",
+                "archival_data": [
+                    "1406469"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1784627",
+                "legacy_id": "85089",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 26-27",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_26_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cycas_revoluta",
+                "type": "species",
+                "archival_data": [
+                    "1409153"
+                ]
+            },
+            "volume": null,
+            "page": "p 26-27",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1784662",
+                "legacy_id": "86387",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 36",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "grevillea_petrophiloides",
+                "type": "species",
+                "archival_data": [
+                    "1413854"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1796354",
+                "legacy_id": "100331",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 10-11",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_quercifolia",
+                "type": "species",
+                "archival_data": [
+                    "1420976"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799132",
+                "legacy_id": "103687",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 36",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hakea_eyreana",
+                "type": "species",
+                "archival_data": [
+                    "1409675"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799227",
+                "legacy_id": "101021",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 34",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_muelleri",
+                "type": "species",
+                "archival_data": [
+                    "1416906"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803091",
+                "legacy_id": "104760",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 28",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "latania_lontaroides",
+                "type": "species",
+                "archival_data": [
+                    "1421064"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803254",
+                "legacy_id": "107432",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 75",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_longiflorum",
+                "type": "species",
+                "archival_data": [
+                    "1417692"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803669",
+                "legacy_id": "108859",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 35",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ptilotus_exaltatus",
+                "type": "species",
+                "archival_data": [
+                    "1426463"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1815491",
+                "legacy_id": "125326",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 57",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "picea_abies",
+                "type": "species",
+                "archival_data": [
+                    "1424518"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1815568",
+                "legacy_id": "121337",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 36",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "prostanthera_striatiflora",
+                "type": "species",
+                "archival_data": [
+                    "1424960"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817722",
+                "legacy_id": "124519",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 29",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ravenea_rivularis",
+                "type": "species",
+                "archival_data": [
+                    "1422876"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1821185",
+                "legacy_id": "126795",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 35",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sida_platycalyx",
+                "type": "species",
+                "archival_data": [
+                    "1429556"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826773",
+                "legacy_id": "133487",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 25",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_chloropetalum",
+                "type": "species",
+                "archival_data": [
+                    "1433461"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831366",
+                "legacy_id": "138711",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 25",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pseudotrillium_rivale",
+                "type": "species",
+                "archival_data": [
+                    "1462348"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831974",
+                "legacy_id": "138832",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 25",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_sessile",
+                "type": "species",
+                "archival_data": [
+                    "1433490"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831987",
+                "legacy_id": "138845",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 46, no. 12. (1993) p 34",
+            "machine_name": "your_garden_vol_46_no_12_1993_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "wehlia_coarctata",
+                "type": "species",
+                "archival_data": [
+                    "1437923"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1833101",
+                "legacy_id": "141689",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

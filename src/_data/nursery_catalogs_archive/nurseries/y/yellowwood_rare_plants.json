@@ -1,0 +1,109 @@
+{
+    "name": "Yellowwood Rare Plants",
+    "machine_name": "yellowwood_rare_plants",
+    "type": "nursery",
+    "retail_wholesale": {
+        "retail": true,
+        "wholesale": false
+    },
+    "location": {
+        "country": {
+            "united_states": true,
+            "canada": false
+        },
+        "address_1": "Box 445",
+        "address_2": null,
+        "city": "Zanesville",
+        "state": "OH",
+        "postal_code": "43702",
+        "geo_coordinate": "POINT (-82.01 39.9)"
+    },
+    "contact": {
+        "website": {
+            "url": "https:\/\/yellowwoodrareplants.com",
+            "title": null,
+            "attributes": []
+        },
+        "email": "sales@yellowwoodrareplants.com",
+        "phone": null,
+        "fax": null,
+        "name": null
+    },
+    "specialties": [
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "evergreens_dwarf",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216163"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        },
+        {
+            "machine_name": "evergreens",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216162"
+            }
+        },
+        {
+            "machine_name": "evergreens_dwarf",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216163"
+            }
+        },
+        {
+            "machine_name": "shrubs",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216184"
+            }
+        },
+        {
+            "machine_name": "trees",
+            "type": "nursery_category",
+            "archival_data": {
+                "id": "216185"
+            }
+        }
+    ],
+    "catalog": {
+        "print": false,
+        "online": true,
+        "web_only": true
+    },
+    "update": null,
+    "nursery_catalog_items": [],
+    "archival_data": {
+        "id": "1673954",
+        "legacy_id": "20588",
+        "ships": false,
+        "NODATE": false,
+        "NoCatalog": true,
+        "active": false,
+        "bulkmail": false,
+        "SRCE2000": null,
+        "author": "oitadmin",
+        "created": "1474897990"
+    }
+}

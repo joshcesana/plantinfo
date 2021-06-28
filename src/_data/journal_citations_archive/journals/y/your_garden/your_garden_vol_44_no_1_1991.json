@@ -1,0 +1,1455 @@
+{
+    "name": "Your Garden. vol 44, no. 1. (1991)",
+    "machine_name": "your_garden_vol_44_no_1_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110656",
+        "legacy_id": "5988",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 59",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brassica_rapa_c_pak_choy",
+                "type": "variety",
+                "archival_data": [
+                    "1465561"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1710496",
+                "legacy_id": "4323",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p backcover (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_backcover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_cultivars_bergunden_series",
+                "type": "variety",
+                "archival_data": [
+                    "1474053"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717565",
+                "legacy_id": "15495",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 6",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "grevillea_cultivars_robyn_gordon",
+                "type": "variety",
+                "archival_data": [
+                    "1472622"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1718329",
+                "legacy_id": "17002",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 17",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_rosa_sinensis_captain_charles_louis_hope",
+                "type": "variety",
+                "archival_data": [
+                    "1473969"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722220",
+                "legacy_id": "20647",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 16",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_rosa_sinensis_firefly",
+                "type": "variety",
+                "archival_data": [
+                    "1473972"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722226",
+                "legacy_id": "20653",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 17|19",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_17_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_moscheutos_disco_belle_series",
+                "type": "variety",
+                "archival_data": [
+                    "1511073"
+                ]
+            },
+            "volume": null,
+            "page": "p 17|19",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1726983",
+                "legacy_id": "20581",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 19",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_moscheutos_dixie_belle_series",
+                "type": "variety",
+                "archival_data": [
+                    "1511074"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1726984",
+                "legacy_id": "20582",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 17",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_cultivars_island_empress",
+                "type": "variety",
+                "archival_data": [
+                    "1473932"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1726991",
+                "legacy_id": "20589",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_avignon",
+                "type": "variety",
+                "archival_data": [
+                    "1478365"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730323",
+                "legacy_id": "27770",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_bravo",
+                "type": "variety",
+                "archival_data": [
+                    "1478379"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730343",
+                "legacy_id": "27790",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_conchita",
+                "type": "variety",
+                "archival_data": [
+                    "1478396"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730651",
+                "legacy_id": "27855",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 43",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_43",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_connecticut_king",
+                "type": "variety",
+                "archival_data": [
+                    "1478397"
+                ]
+            },
+            "volume": null,
+            "page": "p 43",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730662",
+                "legacy_id": "27866",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_electric",
+                "type": "variety",
+                "archival_data": [
+                    "1478414"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1730696",
+                "legacy_id": "27900",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_grand_cru",
+                "type": "variety",
+                "archival_data": [
+                    "1478669"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731002",
+                "legacy_id": "27965",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_ike",
+                "type": "variety",
+                "archival_data": [
+                    "1478682"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731018",
+                "legacy_id": "27981",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_lucca",
+                "type": "variety",
+                "archival_data": [
+                    "1517902"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731296",
+                "legacy_id": "28017",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_menton",
+                "type": "variety",
+                "archival_data": [
+                    "1478720"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731310",
+                "legacy_id": "28031",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_monte_rosa",
+                "type": "variety",
+                "archival_data": [
+                    "1478729"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731332",
+                "legacy_id": "28053",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_montreux",
+                "type": "variety",
+                "archival_data": [
+                    "1478731"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731337",
+                "legacy_id": "28058",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_optimist",
+                "type": "variety",
+                "archival_data": [
+                    "1478740"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731348",
+                "legacy_id": "28069",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_parade",
+                "type": "variety",
+                "archival_data": [
+                    "1478979"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731362",
+                "legacy_id": "28083",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_rebecca",
+                "type": "variety",
+                "archival_data": [
+                    "1479004"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731635",
+                "legacy_id": "28112",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_sorrento",
+                "type": "variety",
+                "archival_data": [
+                    "1479034"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731682",
+                "legacy_id": "28159",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 45 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_45_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_cultivars_wattlebird",
+                "type": "variety",
+                "archival_data": [
+                    "1479287"
+                ]
+            },
+            "volume": null,
+            "page": "p 45 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1731991",
+                "legacy_id": "28226",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 64 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_64_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "robinia_pseudoacacia_frisia",
+                "type": "variety",
+                "archival_data": [
+                    "1488574"
+                ]
+            },
+            "volume": null,
+            "page": "p 64 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1743261",
+                "legacy_id": "44229",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 65 (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_65_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "robinia_ambigua_decaisneana",
+                "type": "variety",
+                "archival_data": [
+                    "1488571"
+                ]
+            },
+            "volume": null,
+            "page": "p 65 (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1748186",
+                "legacy_id": "44198",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 36",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_lorraine_lee",
+                "type": "variety",
+                "archival_data": [
+                    "1491119"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1748902",
+                "legacy_id": "49687",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 37",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_iceberg",
+                "type": "variety",
+                "archival_data": [
+                    "1494537"
+                ]
+            },
+            "volume": null,
+            "page": "p 37",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1750471",
+                "legacy_id": "48759",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 71",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "buckinghamia_celsissima",
+                "type": "species",
+                "archival_data": [
+                    "1397737"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770335",
+                "legacy_id": "77220",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 71",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clerodendrum_bungei",
+                "type": "species",
+                "archival_data": [
+                    "1408668"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776674",
+                "legacy_id": "82973",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 53",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_53",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lagunaria_patersonii",
+                "type": "species",
+                "archival_data": [
+                    "1420667"
+                ]
+            },
+            "volume": null,
+            "page": "p 53",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801965",
+                "legacy_id": "107110",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 59",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_aquatica",
+                "type": "species",
+                "archival_data": [
+                    "1416875"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1802786",
+                "legacy_id": "104693",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p inside backcover (Adv.)",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_inside_backcover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paulownia_tomentosa",
+                "type": "species",
+                "archival_data": [
+                    "1426262"
+                ]
+            },
+            "volume": null,
+            "page": "p inside backcover (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813132",
+                "legacy_id": "119313",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 51",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tecomaria_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1429351"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1833801",
+                "legacy_id": "136715",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Your Garden. vol 44, no. 1. (1991) p 71",
+            "machine_name": "your_garden_vol_44_no_1_1991_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zephyranthes_rosea",
+                "type": "species",
+                "archival_data": [
+                    "1439024"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1839829",
+                "legacy_id": "142291",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}
