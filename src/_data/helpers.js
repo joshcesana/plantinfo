@@ -262,6 +262,47 @@ module.exports = {
   },
 
   /**
+   * Creates the permalink path for a common name.
+   *
+   * @param {Array}      commonNameItem      The common name item.
+   * @returns {Array}                        The permalink path.
+   */
+  createCommonNamePermalinkPath(commonNameItem) {
+    let permalinkPath = '';
+    let pathParts = {
+      commonNameSlug: '',
+      uuidSlug: ''
+    };
+
+    if (
+      commonNameItem.hasOwnProperty('data') &&
+      commonNameItem.data.hasOwnProperty('type') &&
+      commonNameItem.data.hasOwnProperty('machine_name')
+    ) {
+      if (commonNameItem.data.type === 'common_name') {
+        pathParts.commonNameSlug = commonNameItem.data.machine_name;
+      }
+
+      if (
+        commonNameItem.data.hasOwnProperty('archival_data') &&
+        commonNameItem.data.archival_data.hasOwnProperty('id')
+      ) {
+        pathParts.uuidSlug = commonNameItem.data.archival_data.id;
+      }
+    }
+
+    if (pathParts.commonNameSlug !== '') {
+      permalinkPath = permalinkPath + '/plants/common-names/' + pathParts.commonNameSlug + '/';
+
+      if (pathParts.uuidSlug !== '') {
+        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
+      }
+    }
+
+    return permalinkPath;
+  },
+
+  /**
    * Creates the permalink path for a plant.
    *
    * @param {Array}      plantItem           The plant item.

@@ -1,7 +1,7 @@
 const getCustomCollection = require('./src/utils/get-custom-collection.js');
 const getFilteredByLetterGroup = require('./src/utils/get-filtered-by-letter-group.js');
 const getFilteredByNumberLetterGroup = require('./src/utils/get-filtered-by-number-letter-group.js');
-const getFilteredByTermType = require('./src/utils/get-filtered-by-term-type.js');
+const getFilteredByRootItemType = require('./src/utils/get-filtered-by-root-item-type.js');
 const getElementItemsByType = require('./src/utils/get-element-items-by-type.js');
 const getLetterListByItemType = require('./src/utils/get-letter-list-by-item-type.js');
 const sortByMachineName = require('./src/utils/sort-by-machine-name.js');
@@ -9,6 +9,7 @@ const sortLetterArray = require('./src/utils/sort-letter-array.js');
 const getPlantPermalink = require('./src/filters/get-plant-permalink.js');
 const getNurseryPermalink = require('./src/filters/get-nursery-permalink.js');
 const getNurseryCategoryPermalink = require('./src/filters/get-nursery-category-permalink.js');
+const getCommonNamePermalink = require('./src/filters/get-common-name-permalink.js');
 
 module.exports = config => {
   // Set directories to pass through to the dist folder
@@ -19,6 +20,10 @@ module.exports = config => {
       dataPath: ['plants_archive', 'family'],
       levelsDeep: [3],
       itemType: 'family'
+    },
+    common_names: {
+      dataPath: ['common_names_full', 'common_names'],
+      itemType: 'common_name'
     },
     nurseries: {
       dataPath: ['nursery_catalogs_archive', 'nurseries'],
@@ -39,6 +44,7 @@ module.exports = config => {
   config.addNunjucksFilter("getPlantPermalink", (value) => getPlantPermalink(value));
   config.addNunjucksFilter("getNurseryPermalink", (value) => getNurseryPermalink(value));
   config.addNunjucksFilter("getNurseryCategoryPermalink", (value) => getNurseryCategoryPermalink(value));
+  config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
   let getLetterGroupCollection = (collection, dataPath, levelsDeep, itemType) => {
     return sortByMachineName(
@@ -52,9 +58,9 @@ module.exports = config => {
     );
   };
 
-  let getTermCollection = (collection, dataPath, termType) => {
+  let getRootItemTypeCollection = (collection, dataPath, termType) => {
     return sortByMachineName(
-      getFilteredByTermType(collection, dataPath, termType)
+      getFilteredByRootItemType(collection, dataPath, termType)
     );
   };
 
@@ -108,6 +114,11 @@ module.exports = config => {
     return getElementItemsCollection(speciesCollection, 'variety');
   });
 
+  // Returns nursery term items.
+  config.addCollection('common_name', collection => {
+    return getRootItemTypeCollection(collection, rootData.common_names.dataPath, rootData.common_names.itemType);
+  });
+
   // Returns nursery items.
   config.addCollection('nursery', collection => {
     return getNumberLetterCollection(collection, rootData.nurseries.dataPath, rootData.nurseries.levelsDeep, rootData.nurseries.itemType);
@@ -122,7 +133,7 @@ module.exports = config => {
 
   // Returns nursery term items.
   config.addCollection('nursery_category', collection => {
-    return getTermCollection(collection, rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType);
+    return getRootItemTypeCollection(collection, rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType);
   });
 
   // Returns journal_book items.

@@ -1,0 +1,23 @@
+{% extends "layouts/base.html" %}
+
+{% set common_name_data = common_name.data %}
+{% set common_name_title = common_name_data.name %}
+
+{% block content %}
+
+<div class="[ wrapper wrapper--topbot ]">
+  <article class="[ page ] [ page--nursery-category ]">
+    <div class="[ page-head ] [ page-head--nursery-category ]">
+      <h1 class="[ page-title ] [ page-title--nursery-category ]">{{ common_name_title }}</h1>
+    </div>
+
+    <div class="[ page-bottom ] [ page-bottom--nursery-category ] [ auto-grid grid-2-1 ]">
+      <div class="[ page-bottom__first ]">
+      </div>
+      <div class="[ page-bottom__second ]">
+      </div>
+    </div>
+  </article>
+</div>
+
+{% endblock %}
