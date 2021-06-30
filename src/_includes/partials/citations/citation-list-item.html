@@ -1,0 +1,8 @@
+{% set list_item_class = '[ list-item ]' %}
+{% if citation_list_item.list_item_class %}
+  {% set list_item_class = list_item_class ~ ' ' ~ citation_list_item.list_item_class %}
+{% endif %}
+<li class='{{ list_item_class }}'>
+  {% set citation_item_data = citation_list_item %}
+  {% include "./citation-list-item-data.html" %}
+</li>

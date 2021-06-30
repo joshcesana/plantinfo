@@ -1,0 +1,40 @@
+{% set thisItem = null %}
+{% if itemWithBooleans.data %}
+  {% set thisItem = itemWithBooleans.data %}
+{% endif %}
+
+{% set thisItemClass = '[ item-data ]' %}
+{% if itemWithBooleans.class %}
+  {% set thisItemClass = thisItemClass ~ itemWithBooleans.class %}
+{% endif %}
+
+{% set hasLabel = false %}
+{% set thisLabel = '' %}
+{% if itemWithBooleans.has_label %}
+  {% set hasLabel = true %}
+  {% set thisLabel = itemWithBooleans.label %}
+{% endif%}
+
+{% set thisItemLabelClass = '[ item-data__label ]' %}
+{% if itemWithBooleans.label_class !== '' %}
+  {% set thisItemLabelClass = thisItemLabelClass ~ itemWithBooleans.label_class %}
+{% endif %}
+
+{% if thisItem %}
+  {% set itemProperties = [] %}
+
+  {% for propertyName, showProperty in thisItem %}
+    {% if showProperty %}
+      {% set propertyName = (itemProperties.push(propertyName), itemProperties) %}
+    {% endif %}
+  {% endfor %}
+
+  {% if itemProperties.length > 0 %}
+    <span class="{{ thisItemClass }}">
+      {% if hasLabel %}<span class="{{ thisItemLabelClass }}">{{ thisLabel }}:</span>{% endif %}
+      {% for itemProperty in itemProperties %}
+        {{ itemProperty }}{% if itemProperties.length > 1 and loop.index < itemProperties.length %}, {% endif %}
+      {% endfor %}
+    </span>
+  {% endif %}
+{% endif %}

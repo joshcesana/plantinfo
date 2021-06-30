@@ -1,0 +1,20 @@
+{% if debug_loop_limit %}
+  {% set loop_limit = debug_loop_limit %}
+{% else %}
+  {% set loop_limit = 4 %}
+{% endif %}
+
+<h2>Debug</h2>
+<h3>Item count: {{ debug_items.length }}</h3>
+<h3>Debug limit: {{ loop_limit }}</h3>
+{% for item in debug_items %}
+  {% if loop.index0 < loop_limit %}
+    <h4>Item</h4>
+    <ul>
+    {% for key, value in item %}
+      <li>{{ key }}: {{ value }}</li>
+    {% endfor %}
+    </ul>
+    <hr />
+  {% endif %}
+{% endfor %}

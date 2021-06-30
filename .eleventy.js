@@ -64,9 +64,9 @@ module.exports = config => {
     );
   };
 
-  let getElementItemsCollection = (collection, itemType) => {
+  let getElementItemsCollection = (collection, itemType, elementTypeRef) => {
     return sortByMachineName(
-      getElementItemsByType(collection, itemType)
+      getElementItemsByType(collection, itemType, elementTypeRef)
     );
   };
 
@@ -85,13 +85,13 @@ module.exports = config => {
   config.addCollection('genus', async (collection) => {
     let familyCollection = getLetterGroupCollection(collection, rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType);
 
-    return getElementItemsCollection(familyCollection, 'genus');
+    return getElementItemsCollection(familyCollection, 'genus', false);
   });
 
   // Returns genus letter items.
   config.addCollection('genusLetters', async (collection) => {
     let familyCollection = getLetterGroupCollection(collection, rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType);
-    let genusCollection = getElementItemsCollection(familyCollection, 'genus');
+    let genusCollection = getElementItemsCollection(familyCollection, 'genus', false);
 
     return getLetterListCollection(genusCollection, 'genus');
   });
@@ -100,18 +100,18 @@ module.exports = config => {
   let speciesCollection = [];
   config.addCollection('species', async (collection) => {
     let familyCollection = getLetterGroupCollection(collection, rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType);
-    let genusCollection = getElementItemsCollection(familyCollection, 'genus');
+    let genusCollection = getElementItemsCollection(familyCollection, 'genus', false);
 
-    return getElementItemsCollection(genusCollection, 'species');
+    return getElementItemsCollection(genusCollection, 'species', false);
   });
 
   // Returns variety items.
   config.addCollection('variety', async (collection) => {
     let familyCollection = getLetterGroupCollection(collection, rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType);
-    let genusCollection = getElementItemsCollection(familyCollection, 'genus');
-    let speciesCollection = getElementItemsCollection(genusCollection, 'species');
+    let genusCollection = getElementItemsCollection(familyCollection, 'genus', false);
+    let speciesCollection = getElementItemsCollection(genusCollection, 'species', false);
 
-    return getElementItemsCollection(speciesCollection, 'variety');
+    return getElementItemsCollection(speciesCollection, 'variety', false);
   });
 
   // Returns nursery term items.
@@ -128,7 +128,7 @@ module.exports = config => {
   config.addCollection('nursery_catalog', async (collection) => {
     let nurseryCollection = getNumberLetterCollection(collection, rootData.nurseries.dataPath, rootData.nurseries.levelsDeep, rootData.nurseries.itemType);
 
-    return getElementItemsCollection(nurseryCollection, 'nursery_catalog');
+    return getElementItemsCollection(nurseryCollection, 'nursery_catalog', false);
   });
 
   // Returns nursery term items.
@@ -145,7 +145,7 @@ module.exports = config => {
   config.addCollection('citation_reference', async (collection) => {
     let journalCollection = getNumberLetterCollection(collection, rootData.journals.dataPath, rootData.journals.levelsDeep, rootData.journals.itemType);
 
-    return getElementItemsCollection(journalCollection, 'citation_reference');
+    return getElementItemsCollection(journalCollection, 'citation_reference', 'journal_book');
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

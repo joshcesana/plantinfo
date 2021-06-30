@@ -1,3 +1,17 @@
-<div class="plant-citations">
-  <h2 class="[ headline-with-border ] [ plant-citations__title ]">Plant Citations</h2>
-</div>
+{% set plant_type = plant_data.type %}
+{% set citations_collection = collections['citation_reference'] %}
+{% set plant_citation_items = helpers.getPlantCitations(citations_collection, plant_data) %}
+
+{% set citation_list_wrapper =
+  {
+    wrapper_class: '[ plant-citations ]',
+    title_class: '[ plant-citations__title ]',
+    list_class: '[ plant-citations__list ]',
+    heading_level: 'h2',
+    title: 'Plant Citations',
+    list: plant_citation_items,
+    empty_message: 'There are no citations for ' ~ plant_data.name ~ '.'
+  }
+%}
+
+{% include "../citations/citation-list-wrapper.html" %}

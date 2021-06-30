@@ -1,1 +1,33 @@
+.plant-citations {
+  .list,
+  .list-empty {
+    padding-top: get-size('400');
+  }
 
+  .list-item {
+    margin-bottom: get-size('500');
+    font-size: get-size('400');
+    line-height: 1.2;
+    color: get-color('dark-shade');
+  }
+}
+
+.citation-item-data__journal {
+  @include apply-utility('font', 'sans');
+  @include apply-utility('weight', 'bold');
+}
+
+.citation-item-data__parts-shown-label {
+  @include apply-utility('font', 'sans');
+  @include apply-utility('weight', 'bold');
+  font-style: italic;
+}
+
+.citation-item-data__page,
+.citation-item-data__parts-shown,
+.citation-item-data__citation-type {
+  font-size: get-size('400') * 0.9;
+  display: block;
+  padding-left: get-size('400');
+  padding-top: get-size('400') / 4;
+}

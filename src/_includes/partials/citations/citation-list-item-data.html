@@ -1,0 +1,31 @@
+{% set journal = helpers.getItemByTypeAndMachineName(collections, 'journal_book', citation_item_data.journal_book) %}
+
+<span class="citation-item-data">
+  {% if journal.data.name %}
+    <span class="citation-item-data__journal">{{ journal.data.name }}</span>
+  {% endif %}
+
+  {% if citation_item_data.page %}
+    <span class="citation-item-data__page">{{ citation_item_data.page }}</span>
+  {% endif %}
+
+  {% set itemWithBooleans =
+    {
+      data: citation_item_data.parts_shown,
+      class: '[ citation-item-data__parts-shown ]',
+      has_label: true,
+      label: 'Parts Shown',
+      label_class: '[ citation-item-data__parts-shown-label ]'
+    }
+  %}
+  {% include "../helper/list-boolean-object-properties.html" %}
+
+  {% set itemWithBooleans =
+    {
+      data: citation_item_data.citation_type,
+      class: '[ citation-item-data__citation-type ]',
+      has_label: false
+    }
+  %}
+  {% include "../helper/list-boolean-object-properties.html" %}
+</span>

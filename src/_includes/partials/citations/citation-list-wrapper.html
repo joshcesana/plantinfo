@@ -1,0 +1,19 @@
+{% set wrapper_class = '' %}
+{% set wrapper_title_class = '[ headline-with-border ]' %}
+
+{% if citation_list_wrapper.wrapper_class %}
+  {% set wrapper_class = wrapper_class ~ ' ' ~ citation_list_wrapper.wrapper_class %}
+{% endif %}
+{% if citation_list_wrapper.title_class %}
+  {% set wrapper_title_class = wrapper_title_class ~ ' ' ~ citation_list_wrapper.title_class %}
+{% endif %}
+<section class='{{ wrapper_class }}'>
+  <{{ citation_list_wrapper.heading_level }} class='{{ wrapper_title_class }}'>{{ citation_list_wrapper.title }}</{{ citation_list_wrapper.heading_level }}>
+  {% set citation_list = citation_list_wrapper.list %}
+  {% if citation_list.length > 0 %}
+    {% include "./citation-list.html" %}
+  {% else %}
+    {% set empty_message = citation_list_wrapper.empty_message %}
+    {% include "./citation-list-empty.html" %}
+  {% endif %}
+</section>

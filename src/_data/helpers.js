@@ -22,40 +22,54 @@ module.exports = {
   },
 
   /**
+   * Returns an item based on the collection type and machine name.
+   *
+   * @param {Array}        collections  The 11ty collections.
+   * @param {String}       itemType     The item type to use for the collection.
+   * @param {String}       machineName  The machine name of the item.
+   * @param {String}       uuid         The uuid of the item.
+   * @returns {Array}                   The item from the collection.
+   */
+  getItemByTypeAndMachineName(collections, itemType, machineName, uuid) {
+    const collectionItems = collections[itemType];
+    let itemFound = {};
+    let collectionItemsFound = [];
+
+    collectionItems.forEach(collectionItem => {
+      let thisItem = {};
+
+      if (
+        collectionItem.hasOwnProperty('data') &&
+        collectionItem.data.hasOwnProperty('type') &&
+        collectionItem.data.type === itemType &&
+        collectionItem.data.hasOwnProperty('machine_name') &&
+        collectionItem.data.machine_name === machineName) {
+        thisItem['data'] = collectionItem.data;
+      }
+
+      if (thisItem.hasOwnProperty('data')) {
+        collectionItemsFound.push(thisItem);
+      }
+    });
+
+    if (collectionItemsFound.length > 0) {
+      itemFound = collectionItemsFound[0];
+    }
+
+    return itemFound;
+  },
+
+  /**
    * Returns a plant item based on the collection type and machine name.
    *
    * @param {Array}        collections  The 11ty collections.
    * @param {String}       itemType     The item type to use for the collection.
    * @param {String}       machineName  The machine name of the plant item.
+   * @param {String}       uuid         The uuid of the plant item.
    * @returns {Array}                   The item from the collection.
    */
   getPlantByTypeAndMachineName(collections, itemType, machineName, uuid) {
-    const plantItems = collections[itemType];
-    let plantFound = {};
-    let plantItemsFound = [];
-
-    plantItems.forEach(plant => {
-      let plantItem = {};
-
-      if (
-        plant.hasOwnProperty('data') &&
-        plant.data.hasOwnProperty('type') &&
-        plant.data.type === itemType &&
-        plant.data.hasOwnProperty('machine_name') &&
-        plant.data.machine_name === machineName) {
-        plantItem['data'] = plant.data;
-      }
-
-      if (plantItem.hasOwnProperty('data')) {
-        plantItemsFound.push(plantItem);
-      }
-    });
-
-    if (plantItemsFound.length > 0) {
-      plantFound = plantItemsFound[0];
-    }
-
-    return plantFound;
+    return module.exports.getItemByTypeAndMachineName(collections, itemType, machineName, uuid);
   },
 
   /**
@@ -155,6 +169,72 @@ module.exports = {
    */
   createChildLinkList(childPlantItems, childPlantType) {
     return module.exports.createLinkList(childPlantItems, childPlantType, 'related');
+  },
+
+  /**
+   * Returns plant items that are the child of a plant type and machine name.
+   *
+   * @param {Array}      collection      The 11ty collection for the child plant items.
+   * @param {Object}     plantData       The data from a plant item.
+   * @returns {Array}                    The plant citation items.
+   */
+  getPlantCitations(collection, plantData) {
+    const citationReferences = collection;
+    let plantCitationItems = [];
+
+    let plantType = plantData.hasOwnProperty('type') ? plantData['type'] : '';
+    let plantMachineName = plantData.hasOwnProperty('machine_name') ? plantData['machine_name'] : '';
+    let plantArchivalId = '';
+
+    if (
+      plantData.hasOwnProperty('archival_data') &&
+      typeof(plantData['archival_data']) !== 'undefined' &&
+      plantData['archival_data'].hasOwnProperty('id')
+    ) {
+      plantArchivalId = plantData['archival_data']['id'];
+    }
+
+
+    citationReferences.forEach(plantCitationItem => {
+      if (
+        plantCitationItem.hasOwnProperty('data') &&
+        typeof(plantCitationItem['data']) !== 'undefined' &&
+        plantCitationItem.data.hasOwnProperty('plant') &&
+        typeof(plantCitationItem.data['plant']) !== 'undefined' &&
+        plantCitationItem.data['plant'].hasOwnProperty('type') &&
+        plantCitationItem.data['plant']['type'] === plantType &&
+        plantCitationItem.data['plant'].hasOwnProperty('machine_name') &&
+        plantCitationItem.data['plant']['machine_name'] === plantMachineName
+      ) {
+        let pushItem = false;
+
+        if (
+          plantArchivalId !== '' &&
+          plantCitationItem.data['plant'].hasOwnProperty('archival_data') &&
+          typeof(plantCitationItem.data['plant']['archival_data']) !== 'undefined' &&
+          Array.isArray(plantCitationItem.data['plant']['archival_data']) === true &&
+          plantCitationItem.data['plant']['archival_data'].length > 0
+        ) {
+          plantCitationItem.data['plant']['archival_data'].forEach(id => {
+            if (
+              id !== '' &&
+              id === plantArchivalId
+            ) {
+              pushItem = true;
+            }
+          })
+        } else {
+          pushItem = true;
+        }
+
+        if (pushItem) {
+          plantCitationItems.push(plantCitationItem.data);
+        }
+      }
+    });
+
+
+    return plantCitationItems;
   },
 
   /**
