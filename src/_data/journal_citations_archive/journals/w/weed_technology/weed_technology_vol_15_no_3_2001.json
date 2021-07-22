@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 15, no. 3. (2001)",
+    "machine_name": "weed_technology_vol_15_no_3_2001",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2001",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117033",
+        "legacy_id": "28350",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 15, no. 3. (2001) p cover",
+            "machine_name": "weed_technology_vol_15_no_3_2001_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "passiflora_incarnata",
+                "type": "species",
+                "archival_data": [
+                    "1425928"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1882701",
+                "legacy_id": "219281",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

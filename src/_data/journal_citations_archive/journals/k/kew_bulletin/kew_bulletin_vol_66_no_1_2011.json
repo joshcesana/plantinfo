@@ -1,0 +1,143 @@
+{
+    "name": "Kew Bulletin. vol 66, no. 1. (2011)",
+    "machine_name": "kew_bulletin_vol_66_no_1_2011",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2011",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123785",
+        "legacy_id": "116289",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 66, no. 1. (2011) p 151, Pl. 3",
+            "machine_name": "kew_bulletin_vol_66_no_1_2011_p_151_pl_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "passiflora_glandulosa",
+                "type": "species",
+                "archival_data": [
+                    "1425922"
+                ]
+            },
+            "volume": null,
+            "page": "p 151, Pl. 3",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2044356",
+                "legacy_id": "440252",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 66, no. 1. (2011) p 151, Pl. 3",
+            "machine_name": "kew_bulletin_vol_66_no_1_2011_p_151_pl_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "passiflora_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1425910"
+                ]
+            },
+            "volume": null,
+            "page": "p 151, Pl. 3",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2044357",
+                "legacy_id": "440253",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 66, no. 1. (2011) p 156, Pl. 1A-B",
+            "machine_name": "kew_bulletin_vol_66_no_1_2011_p_156_pl_1a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zeuxine_strateumatica",
+                "type": "species",
+                "archival_data": [
+                    "1439030"
+                ]
+            },
+            "volume": null,
+            "page": "p 156, Pl. 1A-B",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2044358",
+                "legacy_id": "440254",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        }
+    ]
+}

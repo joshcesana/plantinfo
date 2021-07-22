@@ -1,0 +1,72 @@
+{% set showFirst = false %}
+{% set firstSlug = pagination_details.pageSlugs.first %}
+
+{% set showPrevious = false %}
+{% set previousSlug = pagination_details.pageSlugs.previous %}
+
+{% set showLast = false %}
+{% set lastSlug = pagination_details.pageSlugs.last %}
+
+{% set showNext = false %}
+{% set showNextEarly = false %}
+{% set nextSlug = pagination_details.pageSlugs.next %}
+
+{% set pageCount = pagination_details.pages | length %}
+{% set currentSlug = page.url %}
+{% if currentSlug | last == '/' %}
+  {% set slugReverse = currentSlug | reverse %}
+  {% set slugTrim = slugReverse.slice(1) %}
+  {% set currentSlug = slugTrim | reverse %}
+{% endif %}
+
+{% if pageCount > 1 %}
+  {% if previousSlug and (currentSlug != previousSlug) %}
+    {% set showPrevious = true %}
+  {% endif %}
+  {% if firstSlug and (currentSlug != firstSlug) and (showPrevious == false or (showPrevious == true and firstSlug != previousSlug))  %}
+    {% set showFirst = true %}
+  {% endif %}
+  {% if nextSlug and (currentSlug != nextSlug) %}
+    {% set showNext = true %}
+  {% endif %}
+  {% if lastSlug and (currentSlug != lastSlug) and (showNext == false or (showNext == true and lastSlug != nextSlug))  %}
+    {% set showLast = true %}
+  {% endif %}
+{% endif %}
+
+<nav class="pagination" aria-labelledby="{{ pagination_id }}">
+  <h2 class="pagination__title" id="{{ pagination_id }}">{{ pagination_title }} Pagination</h2>
+  <ol class="pagination__inner">
+    {% if showFirst %}
+      {% set itemSlug = firstSlug %}
+      {% set itemText = 'First' %}
+      {% set itemType = 'first' %}
+      {% include "partials/pagination/pagination-item-special.html" %}
+    {% endif %}
+    {% if showPrevious %}
+      {% set itemSlug = previousSlug %}
+      {% set itemText = 'Previous' %}
+      {% set itemType = 'previous' %}
+      {% include "partials/pagination/pagination-item-special.html" %}
+    {% endif %}
+    {%- for pageEntry in pagination_details.pages %}
+      {% set thisUrl = pagination_details.pages[ loop.index0 ] %}
+      {% set thisIndex = loop.index %}
+        {% set itemSlug = thisUrl %}
+        {% set itemText = thisIndex %}
+        {% include "partials/pagination/pagination-item.html" %}
+    {%- endfor %}
+    {% if showNext %}
+      {% set itemSlug = nextSlug %}
+      {% set itemText = 'Next' %}
+      {% set itemType = 'next' %}
+      {% include "partials/pagination/pagination-item-special.html" %}
+    {% endif %}
+    {% if showLast %}
+      {% set itemSlug = lastSlug %}
+      {% set itemText = 'Last' %}
+      {% set itemType = 'last' %}
+      {% include "partials/pagination/pagination-item-special.html" %}
+    {% endif %}
+  </ol>
+</nav>

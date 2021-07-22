@@ -1,0 +1,61 @@
+{
+    "name": "Kew Bulletin. vol 59, no. 4. (2005)",
+    "machine_name": "kew_bulletin_vol_59_no_4_2005",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2005",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120613",
+        "legacy_id": "64549",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 59, no. 4. (2005) p 602, Pl. 3c",
+            "machine_name": "kew_bulletin_vol_59_no_4_2005_p_602_pl_3c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_buphanoides",
+                "type": "species",
+                "archival_data": [
+                    "1407618"
+                ]
+            },
+            "volume": null,
+            "page": "p 602, Pl. 3c",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1963186",
+                "legacy_id": "297370",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        }
+    ]
+}

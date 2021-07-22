@@ -1,0 +1,307 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1999",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115941",
+        "legacy_id": "7830",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lagerstroemia_cultivars_muskogee",
+                "type": "variety",
+                "archival_data": [
+                    "1477165"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860124",
+                "legacy_id": "165373",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mutisia_spinosa",
+                "type": "species",
+                "archival_data": [
+                    "1416009"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860125",
+                "legacy_id": "165374",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disanthus_cercidifolius",
+                "type": "species",
+                "archival_data": [
+                    "1409594"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860126",
+                "legacy_id": "165375",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 7",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "juniperus_scopulorum",
+                "type": "species",
+                "archival_data": [
+                    "1419129"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860127",
+                "legacy_id": "165376",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 7",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lomatia_myricoides",
+                "type": "species",
+                "archival_data": [
+                    "1419280"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860128",
+                "legacy_id": "165377",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 12",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thuja_plicata",
+                "type": "species",
+                "archival_data": [
+                    "1430813"
+                ]
+            },
+            "volume": null,
+            "page": "p 12",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860129",
+                "legacy_id": "165378",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 61, no. 2. (1999) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_61_no_2_1999_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pseudotsuga_menziesii",
+                "type": "species",
+                "archival_data": [
+                    "1425741"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1860130",
+                "legacy_id": "165379",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

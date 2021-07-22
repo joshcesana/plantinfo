@@ -1,0 +1,389 @@
+{
+    "name": "Veld & Flora. vol 79, no. 3. (1993)",
+    "machine_name": "veld_flora_vol_79_no_3_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113644",
+        "legacy_id": "5789",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 84-85",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_84_85",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunsvigia_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1397725"
+                ]
+            },
+            "volume": null,
+            "page": "p 84-85",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770053",
+                "legacy_id": "77186",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 75",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dietes_bicolor",
+                "type": "species",
+                "archival_data": [
+                    "1408481"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780045",
+                "legacy_id": "89258",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 74",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dietes_butcheriana",
+                "type": "species",
+                "archival_data": [
+                    "1408482"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780048",
+                "legacy_id": "89261",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 76",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_76",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dietes_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1408483"
+                ]
+            },
+            "volume": null,
+            "page": "p 76",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780053",
+                "legacy_id": "89266",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 72",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_minor",
+                "type": "species",
+                "archival_data": [
+                    "1409577"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781652",
+                "legacy_id": "89739",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 87",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eucomis_autumnalis",
+                "type": "species",
+                "archival_data": [
+                    "1415190"
+                ]
+            },
+            "volume": null,
+            "page": "p 87",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791453",
+                "legacy_id": "95026",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 68",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_chrysanthus",
+                "type": "species",
+                "archival_data": [
+                    "1420484"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806299",
+                "legacy_id": "113544",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 86",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_86",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "siphonochilus_aethiopicus",
+                "type": "species",
+                "archival_data": [
+                    "1430007"
+                ]
+            },
+            "volume": null,
+            "page": "p 86",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828083",
+                "legacy_id": "133824",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 3. (1993) p 89",
+            "machine_name": "veld_flora_vol_79_no_3_1993_p_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "xerophyta_viscosa",
+                "type": "species",
+                "archival_data": [
+                    "1438351"
+                ]
+            },
+            "volume": null,
+            "page": "p 89",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1838586",
+                "legacy_id": "141976",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

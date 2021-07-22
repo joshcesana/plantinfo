@@ -1,0 +1,348 @@
+{
+    "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012)",
+    "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2012",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123344",
+        "legacy_id": "118172",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 27",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monarda_fistulosa",
+                "type": "species",
+                "archival_data": [
+                    "1421232"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2025029",
+                "legacy_id": "447814",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p backcover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_cardinalis",
+                "type": "species",
+                "archival_data": [
+                    "1418867"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2025030",
+                "legacy_id": "447815",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 7",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pavonia_lasiopetala_ellen_s_legacy",
+                "type": "variety",
+                "archival_data": [
+                    "1650204"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043188",
+                "legacy_id": "447808",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 8",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "quercus_fusiformis",
+                "type": "species",
+                "archival_data": [
+                    "1442074"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043189",
+                "legacy_id": "447809",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 13",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "spiraea_tomentosa",
+                "type": "species",
+                "archival_data": [
+                    "1431914"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043190",
+                "legacy_id": "447810",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 15",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helianthus_tuberosus",
+                "type": "species",
+                "archival_data": [
+                    "1411217"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043191",
+                "legacy_id": "447811",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 17",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "physostegia_virginiana",
+                "type": "species",
+                "archival_data": [
+                    "1424486"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043192",
+                "legacy_id": "447812",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 28, no. 4. (2012) p 23",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_28_no_4_2012_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salix_nigra",
+                "type": "species",
+                "archival_data": [
+                    "1429842"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2043193",
+                "legacy_id": "447813",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        }
+    ]
+}

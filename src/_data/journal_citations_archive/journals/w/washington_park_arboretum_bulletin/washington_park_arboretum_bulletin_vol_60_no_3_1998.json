@@ -1,0 +1,348 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1998",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114937",
+        "legacy_id": "6632",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hamamelis_intermedia_ruby_glow",
+                "type": "variety",
+                "archival_data": [
+                    "1473231"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842321",
+                "legacy_id": "150710",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 1",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_1",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nyssa_sylvatica",
+                "type": "species",
+                "archival_data": [
+                    "1425436"
+                ]
+            },
+            "volume": null,
+            "page": "p 1",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842322",
+                "legacy_id": "150711",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tropaeolum_majus_margaret_long",
+                "type": "variety",
+                "archival_data": [
+                    "1538255"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842323",
+                "legacy_id": "150712",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "senna_alata",
+                "type": "species",
+                "archival_data": [
+                    "1428853"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842324",
+                "legacy_id": "150713",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 4",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_4",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plectranthus_scutellarioides_el_brighto",
+                "type": "variety",
+                "archival_data": [
+                    "1527394"
+                ]
+            },
+            "volume": null,
+            "page": "p 4",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842325",
+                "legacy_id": "150714",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 8",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dichroa_febrifuga",
+                "type": "species",
+                "archival_data": [
+                    "1408433"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842326",
+                "legacy_id": "150715",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "franklinia_alatamaha",
+                "type": "species",
+                "archival_data": [
+                    "1414081"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842327",
+                "legacy_id": "150716",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 60, no. 3. (1998) p 18",
+            "machine_name": "washington_park_arboretum_bulletin_vol_60_no_3_1998_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "enkianthus_campanulatus_albiflorus",
+                "type": "variety",
+                "archival_data": [
+                    "1507404"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842328",
+                "legacy_id": "150717",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

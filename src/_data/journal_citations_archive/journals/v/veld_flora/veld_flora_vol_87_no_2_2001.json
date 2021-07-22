@@ -1,0 +1,758 @@
+{
+    "name": "Veld & Flora. vol 87, no. 2. (2001)",
+    "machine_name": "veld_flora_vol_87_no_2_2001",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2001",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117053",
+        "legacy_id": "27110",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p cover;64-65",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_cover_64_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "boophone_haemanthoides",
+                "type": "species",
+                "archival_data": [
+                    "1448981"
+                ]
+            },
+            "volume": null,
+            "page": "p cover;64-65",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1882942",
+                "legacy_id": "216942",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 54",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_mostertiae",
+                "type": "species",
+                "archival_data": [
+                    "1448987"
+                ]
+            },
+            "volume": null,
+            "page": "p 54",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883238",
+                "legacy_id": "217030",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 58",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acacia_pycnantha",
+                "type": "species",
+                "archival_data": [
+                    "1402028"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883239",
+                "legacy_id": "217031",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 60-62",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_60_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_membranaceus",
+                "type": "species",
+                "archival_data": [
+                    "1432209"
+                ]
+            },
+            "volume": null,
+            "page": "p 60-62",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883240",
+                "legacy_id": "217032",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 61",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_puniceus",
+                "type": "species",
+                "archival_data": [
+                    "1432211"
+                ]
+            },
+            "volume": null,
+            "page": "p 61",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883242",
+                "legacy_id": "217034",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 61",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_multiflorus_multiflorus",
+                "type": "variety",
+                "archival_data": [
+                    "1492136"
+                ]
+            },
+            "volume": null,
+            "page": "p 61",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883244",
+                "legacy_id": "217036",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 61;63",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_61_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_multiflorus_katherinae",
+                "type": "variety",
+                "archival_data": [
+                    "1492135"
+                ]
+            },
+            "volume": null,
+            "page": "p 61;63",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883246",
+                "legacy_id": "217038",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 67",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_67",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pycnostachys_stuhlmannii",
+                "type": "species",
+                "archival_data": [
+                    "1448989"
+                ]
+            },
+            "volume": null,
+            "page": "p 67",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883248",
+                "legacy_id": "217040",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 68",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_mildbraedii",
+                "type": "species",
+                "archival_data": [
+                    "1448990"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883250",
+                "legacy_id": "217042",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 69",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kniphofia_thomsonii",
+                "type": "species",
+                "archival_data": [
+                    "1419588"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883251",
+                "legacy_id": "217043",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 69",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_dalenii_dalenii",
+                "type": "variety",
+                "archival_data": [
+                    "1565123"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883252",
+                "legacy_id": "217044",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 70",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "delphinium_leroyi",
+                "type": "species",
+                "archival_data": [
+                    "1405792"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883253",
+                "legacy_id": "217045",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 70",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_ukingensis",
+                "type": "species",
+                "archival_data": [
+                    "1409586"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883254",
+                "legacy_id": "217046",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 70",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "habenaria_petraea",
+                "type": "species",
+                "archival_data": [
+                    "1448991"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883260",
+                "legacy_id": "217052",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 72-73",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_72_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_bisavium",
+                "type": "species",
+                "archival_data": [
+                    "1448992"
+                ]
+            },
+            "volume": null,
+            "page": "p 72-73",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883263",
+                "legacy_id": "217057",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 74",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1402861"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883264",
+                "legacy_id": "217058",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 78-79",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_78_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "colophospermum_mopane",
+                "type": "species",
+                "archival_data": [
+                    "1403761"
+                ]
+            },
+            "volume": null,
+            "page": "p 78-79",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883265",
+                "legacy_id": "217059",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 87, no. 2. (2001) p 82",
+            "machine_name": "veld_flora_vol_87_no_2_2001_p_82",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ochna_natalitia",
+                "type": "species",
+                "archival_data": [
+                    "1425455"
+                ]
+            },
+            "volume": null,
+            "page": "p 82",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1883267",
+                "legacy_id": "217061",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 2, no. 2. (1989)",
+    "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_2_no_2_1989",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1989",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114410",
+        "legacy_id": "5872",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 2, no. 2. (1989) p 23",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_2_no_2_1989_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "penstemon_baccharifolius",
+                "type": "species",
+                "archival_data": [
+                    "1427067"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1815069",
+                "legacy_id": "119799",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

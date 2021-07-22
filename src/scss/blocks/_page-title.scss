@@ -9,3 +9,13 @@
   font-size: get-size('700');
   font-weight: 400;
 }
+
+.page-title--nursery {
+  @include apply-utility('font', 'base');
+  font-size: get-size('600') * 0.85;
+}
+
+.page-title--nursery-category  {
+  @include apply-utility('font', 'base');
+  font-size: get-size('700');
+}

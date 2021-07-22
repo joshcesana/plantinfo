@@ -1,0 +1,635 @@
+{
+    "name": "Veld & Flora. vol 98, no. 3. (2012)",
+    "machine_name": "veld_flora_vol_98_no_3_2012",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2012",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2122016",
+        "legacy_id": "119310",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 126-27",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_126_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rapanea_melanophloeos",
+                "type": "species",
+                "archival_data": [
+                    "1460256"
+                ]
+            },
+            "volume": null,
+            "page": "p 126-27",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2000138",
+                "legacy_id": "452450",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 128",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_128",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asclepias_curassavica",
+                "type": "species",
+                "archival_data": [
+                    "1402975"
+                ]
+            },
+            "volume": null,
+            "page": "p 128",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2000139",
+                "legacy_id": "452451",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 117",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_117",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mesembryanthemum_hypertrophicum",
+                "type": "species",
+                "archival_data": [
+                    "1460836"
+                ]
+            },
+            "volume": null,
+            "page": "p 117",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033881",
+                "legacy_id": "452445",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 118",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "opuntia_ficus_indica",
+                "type": "species",
+                "archival_data": [
+                    "1421798"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033882",
+                "legacy_id": "452446",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 120-21",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_120_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_falcata",
+                "type": "species",
+                "archival_data": [
+                    "1402860"
+                ]
+            },
+            "volume": null,
+            "page": "p 120-21",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033883",
+                "legacy_id": "452447",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 121",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_121",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1424986"
+                ]
+            },
+            "volume": null,
+            "page": "p 121",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033884",
+                "legacy_id": "452448",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 122",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_122",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "holothrix_randii",
+                "type": "species",
+                "archival_data": [
+                    "1419805"
+                ]
+            },
+            "volume": null,
+            "page": "p 122",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033885",
+                "legacy_id": "452449",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p cover; 108-11",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_cover_108_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_tenuis",
+                "type": "species",
+                "archival_data": [
+                    "1458829"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 108-11",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072823",
+                "legacy_id": "452437",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 99",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_99",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geissorhiza_radians",
+                "type": "species",
+                "archival_data": [
+                    "1410400"
+                ]
+            },
+            "volume": null,
+            "page": "p 99",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072824",
+                "legacy_id": "452438",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 113",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_113",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "seriphium_plumosum",
+                "type": "species",
+                "archival_data": [
+                    "1461415"
+                ]
+            },
+            "volume": null,
+            "page": "p 113",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072825",
+                "legacy_id": "452439",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 113",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_113",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tetragonia_decumbens",
+                "type": "species",
+                "archival_data": [
+                    "1429718"
+                ]
+            },
+            "volume": null,
+            "page": "p 113",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072826",
+                "legacy_id": "452440",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 115",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euclea_racemosa",
+                "type": "species",
+                "archival_data": [
+                    "1458830"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073056",
+                "legacy_id": "452441",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 115",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_coniferum",
+                "type": "species",
+                "archival_data": [
+                    "1455226"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073057",
+                "legacy_id": "452442",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 115",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arctotheca_populifolia",
+                "type": "species",
+                "archival_data": [
+                    "1433677"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073058",
+                "legacy_id": "452443",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 98, no. 3. (2012) p 115",
+            "machine_name": "veld_flora_vol_98_no_3_2012_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysanthemoides_monilifera",
+                "type": "species",
+                "archival_data": [
+                    "1406720"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073059",
+                "legacy_id": "452444",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        }
+    ]
+}

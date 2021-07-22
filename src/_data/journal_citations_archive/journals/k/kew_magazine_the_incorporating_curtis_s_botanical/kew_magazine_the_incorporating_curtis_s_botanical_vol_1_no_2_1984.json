@@ -1,0 +1,307 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1984",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2109185",
+        "legacy_id": "4191",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 66",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_66",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_yamatense_sugimotoi",
+                "type": "variety",
+                "archival_data": [
+                    "1463917"
+                ]
+            },
+            "volume": null,
+            "page": "p 66",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1703259",
+                "legacy_id": "2227",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Kew Magazine, The. vol 1, no. 2. (1984) p cover",
+            "machine_name": "kew_magazine_the_vol_1_no_2_1984_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "abutilon_darwinii",
+                "type": "species",
+                "archival_data": [
+                    "1401186"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1763752",
+                "legacy_id": "67361",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 60",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_60",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_consanguineum",
+                "type": "species",
+                "archival_data": [
+                    "1401816"
+                ]
+            },
+            "volume": null,
+            "page": "p 60",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765122",
+                "legacy_id": "73224",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 56",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_costatum",
+                "type": "species",
+                "archival_data": [
+                    "1401817"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765128",
+                "legacy_id": "73230",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 62",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_leschenaultii",
+                "type": "species",
+                "archival_data": [
+                    "1401835"
+                ]
+            },
+            "volume": null,
+            "page": "p 62",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765158",
+                "legacy_id": "73260",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 58",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_tortuosum",
+                "type": "species",
+                "archival_data": [
+                    "1401846"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765442",
+                "legacy_id": "73297",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 2. (1984) p 64",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_2_1984_p_64",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_undulatifolium",
+                "type": "species",
+                "archival_data": [
+                    "1401848"
+                ]
+            },
+            "volume": null,
+            "page": "p 64",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765474",
+                "legacy_id": "73329",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        }
+    ]
+}

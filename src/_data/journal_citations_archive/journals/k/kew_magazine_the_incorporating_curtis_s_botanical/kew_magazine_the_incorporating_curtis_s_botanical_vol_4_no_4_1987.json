@@ -1,0 +1,266 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1987",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2111359",
+        "legacy_id": "4212",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p 154",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_154",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_nigercors_alabaster",
+                "type": "variety",
+                "archival_data": [
+                    "1475656"
+                ]
+            },
+            "volume": null,
+            "page": "p 154",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717134",
+                "legacy_id": "18032",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p cover; 180",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_cover_180",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "skimmia_japonica_chilan_choice",
+                "type": "variety",
+                "archival_data": [
+                    "1493040"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 180",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1758501",
+                "legacy_id": "56173",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p 188",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_188",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "skimmia_laureola_multinervia",
+                "type": "variety",
+                "archival_data": [
+                    "1493046"
+                ]
+            },
+            "volume": null,
+            "page": "p 188",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1758510",
+                "legacy_id": "56182",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p 160",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_160",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chamaedorea_metallica",
+                "type": "species",
+                "archival_data": [
+                    "1405616"
+                ]
+            },
+            "volume": null,
+            "page": "p 160",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776200",
+                "legacy_id": "81468",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p 158",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_158",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paphiopedilum_malipoense",
+                "type": "species",
+                "archival_data": [
+                    "1424791"
+                ]
+            },
+            "volume": null,
+            "page": "p 158",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1815033",
+                "legacy_id": "118508",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 4, no. 4. (1987) p 166",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_4_no_4_1987_p_166",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_pleianthum",
+                "type": "species",
+                "archival_data": [
+                    "1431722"
+                ]
+            },
+            "volume": null,
+            "page": "p 166",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1821903",
+                "legacy_id": "128238",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

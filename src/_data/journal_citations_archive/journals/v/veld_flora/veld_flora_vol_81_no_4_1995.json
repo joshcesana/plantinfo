@@ -1,0 +1,676 @@
+{
+    "name": "Veld & Flora. vol 81, no. 4. (1995)",
+    "machine_name": "veld_flora_vol_81_no_4_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113459",
+        "legacy_id": "5798",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 123",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aristea_lugens",
+                "type": "species",
+                "archival_data": [
+                    "1401860"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765497",
+                "legacy_id": "73352",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 115",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_suzannae",
+                "type": "species",
+                "archival_data": [
+                    "1403256"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765662",
+                "legacy_id": "70613",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 103",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "babiana_ringens",
+                "type": "species",
+                "archival_data": [
+                    "1399143"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1771510",
+                "legacy_id": "74844",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 126",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_126",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_discolor",
+                "type": "species",
+                "archival_data": [
+                    "1416593"
+                ]
+            },
+            "volume": null,
+            "page": "p 126",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801083",
+                "legacy_id": "108202",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 125",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_125",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_harpagonatum",
+                "type": "species",
+                "archival_data": [
+                    "1416599"
+                ]
+            },
+            "volume": null,
+            "page": "p 125",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801087",
+                "legacy_id": "108206",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 125",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_125",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_chrysanthus",
+                "type": "species",
+                "archival_data": [
+                    "1420484"
+                ]
+            },
+            "volume": null,
+            "page": "p 125",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806300",
+                "legacy_id": "113545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 106",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_106",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_pauciflorus",
+                "type": "species",
+                "archival_data": [
+                    "1420487"
+                ]
+            },
+            "volume": null,
+            "page": "p 106",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806305",
+                "legacy_id": "113550",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 130",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "onixotis_triquetra",
+                "type": "species",
+                "archival_data": [
+                    "1426946"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1812976",
+                "legacy_id": "116624",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 111",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "opuntia_stricta",
+                "type": "species",
+                "archival_data": [
+                    "1421846"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814611",
+                "legacy_id": "117059",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 127",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_127",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_subvestita",
+                "type": "species",
+                "archival_data": [
+                    "1425015"
+                ]
+            },
+            "volume": null,
+            "page": "p 127",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818071",
+                "legacy_id": "124627",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 129",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_129",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "restio_multiflorus",
+                "type": "species",
+                "archival_data": [
+                    "1424343"
+                ]
+            },
+            "volume": null,
+            "page": "p 129",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1822149",
+                "legacy_id": "127019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 130",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "restio_similis",
+                "type": "species",
+                "archival_data": [
+                    "1424344"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1822150",
+                "legacy_id": "127020",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 101",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "serruria_foeniculacea",
+                "type": "species",
+                "archival_data": [
+                    "1429181"
+                ]
+            },
+            "volume": null,
+            "page": "p 101",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826127",
+                "legacy_id": "133325",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 131",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_131",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "schizostylis_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1432891"
+                ]
+            },
+            "volume": null,
+            "page": "p 131",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827060",
+                "legacy_id": "132291",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 130",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thamnochortus_cinereus",
+                "type": "species",
+                "archival_data": [
+                    "1430105"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1835121",
+                "legacy_id": "137057",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 4. (1995) p 119",
+            "machine_name": "veld_flora_vol_81_no_4_1995_p_119",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "xerophyta_retinervis",
+                "type": "species",
+                "archival_data": [
+                    "1438350"
+                ]
+            },
+            "volume": null,
+            "page": "p 119",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1838583",
+                "legacy_id": "141973",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

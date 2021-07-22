@@ -1,0 +1,307 @@
+{
+    "name": "Veld & Flora. vol 79, no. 1. (1993)",
+    "machine_name": "veld_flora_vol_79_no_1_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113588",
+        "legacy_id": "5787",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 15",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "androcymbium_melanthioides",
+                "type": "species",
+                "archival_data": [
+                    "1398713"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768633",
+                "legacy_id": "71384",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 24",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "banksia_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1399543"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1772469",
+                "legacy_id": "75070",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 27",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brabejum_stellatifolium",
+                "type": "species",
+                "archival_data": [
+                    "1402683"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1773270",
+                "legacy_id": "76671",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 30",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyrtanthus_elatus",
+                "type": "species",
+                "archival_data": [
+                    "1404256"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782505",
+                "legacy_id": "87197",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 21",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_capitata",
+                "type": "species",
+                "archival_data": [
+                    "1410153"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1786736",
+                "legacy_id": "92773",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 7",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_patersonia",
+                "type": "species",
+                "archival_data": [
+                    "1410984"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787330",
+                "legacy_id": "93042",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 79, no. 1. (1993) p 27",
+            "machine_name": "veld_flora_vol_79_no_1_1993_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_grandiceps",
+                "type": "species",
+                "archival_data": [
+                    "1424985"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818015",
+                "legacy_id": "124571",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

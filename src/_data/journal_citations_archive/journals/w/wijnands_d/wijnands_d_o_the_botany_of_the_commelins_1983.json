@@ -1,0 +1,2767 @@
+{
+    "name": "Wijnands, D.O. The Botany of the Commelins. (1983)",
+    "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1983",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110201",
+        "legacy_id": "5858",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 54",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cotyledon_orbiculata_spuria",
+                "type": "variety",
+                "archival_data": [
+                    "1471596"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 54",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1707165",
+                "legacy_id": "8954",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 56",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "linaria_genistifolia_confertiflora",
+                "type": "variety",
+                "archival_data": [
+                    "1479610"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 56",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1727496",
+                "legacy_id": "28357",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 37",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acacia_cornigera",
+                "type": "species",
+                "archival_data": [
+                    "1401268"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 37",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1758872",
+                "legacy_id": "67496",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 29",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "abelmoschus_esculentus",
+                "type": "species",
+                "archival_data": [
+                    "1400806"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 29",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1763052",
+                "legacy_id": "67151",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 34",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_moscheutos",
+                "type": "species",
+                "archival_data": [
+                    "1419088"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 34",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1763067",
+                "legacy_id": "67166",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 33",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aeonium_canariense",
+                "type": "species",
+                "archival_data": [
+                    "1399800"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 33",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764606",
+                "legacy_id": "69011",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 13",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_glauca",
+                "type": "species",
+                "archival_data": [
+                    "1402868"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 13",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765329",
+                "legacy_id": "70524",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 43",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_43",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_humilis",
+                "type": "species",
+                "archival_data": [
+                    "1402885"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 43",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765342",
+                "legacy_id": "70537",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 26",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agapanthus_africanus",
+                "type": "species",
+                "archival_data": [
+                    "1400582"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 26",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765599",
+                "legacy_id": "69266",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 45",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_variegata",
+                "type": "species",
+                "archival_data": [
+                    "1403268"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 45",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765676",
+                "legacy_id": "70627",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 31",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anisodontea_scabrosa",
+                "type": "species",
+                "archival_data": [
+                    "1399850"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 31",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766038",
+                "legacy_id": "72029",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) p frontispiece",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_p_frontispiece",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anagallis_monelli",
+                "type": "species",
+                "archival_data": [
+                    "1398667"
+                ]
+            },
+            "volume": null,
+            "page": "p frontispiece",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768278",
+                "legacy_id": "71276",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 4",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_4",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ananas_comosus",
+                "type": "species",
+                "archival_data": [
+                    "1398674"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 4",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768310",
+                "legacy_id": "71308",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 45",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "astroloba_spiralis",
+                "type": "species",
+                "archival_data": [
+                    "1398405"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 45",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770235",
+                "legacy_id": "74557",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 52",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "caladium_bicolor",
+                "type": "species",
+                "archival_data": [
+                    "1400029"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 52",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1772376",
+                "legacy_id": "77788",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 28",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cineraria_geifolia",
+                "type": "species",
+                "archival_data": [
+                    "1407129"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 28",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778892",
+                "legacy_id": "82187",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 11",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cistus_ladanifer",
+                "type": "species",
+                "archival_data": [
+                    "1407527"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 11",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779837",
+                "legacy_id": "82395",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 55",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1407183"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 55",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780737",
+                "legacy_id": "85373",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 46",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_46",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diosma_oppositifolia",
+                "type": "species",
+                "archival_data": [
+                    "1408896"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 46",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781320",
+                "legacy_id": "89567",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 49",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_commelynii",
+                "type": "species",
+                "archival_data": [
+                    "1407620"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 49",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781697",
+                "legacy_id": "85616",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 3",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_zeylanicum",
+                "type": "species",
+                "archival_data": [
+                    "1407940"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 3",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781741",
+                "legacy_id": "85662",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 32",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "drimia_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1404704"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 32",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785229",
+                "legacy_id": "90383",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 8",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erythrina_corallodendron",
+                "type": "species",
+                "archival_data": [
+                    "1412847"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 8",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787732",
+                "legacy_id": "93783",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 58",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dorotheanthus_bellidiformis",
+                "type": "species",
+                "archival_data": [
+                    "1403909"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 58",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1788311",
+                "legacy_id": "90072",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 42",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_42",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_mammillaris",
+                "type": "species",
+                "archival_data": [
+                    "1411049"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 42",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1789616",
+                "legacy_id": "95883",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 14",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gasteria_disticha",
+                "type": "species",
+                "archival_data": [
+                    "1409983"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 14",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1793872",
+                "legacy_id": "98284",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 44",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_44",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_arachnoidea",
+                "type": "species",
+                "archival_data": [
+                    "1410134"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 44",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795128",
+                "legacy_id": "101326",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 12",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_maxima",
+                "type": "species",
+                "archival_data": [
+                    "1449586"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 12",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795143",
+                "legacy_id": "101341",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 15",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_maxima",
+                "type": "species",
+                "archival_data": [
+                    "1449586"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 15",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795144",
+                "legacy_id": "101342",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 43",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_43",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_marginata",
+                "type": "species",
+                "archival_data": [
+                    "1410444"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 43",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795146",
+                "legacy_id": "101344",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 59",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_minima",
+                "type": "species",
+                "archival_data": [
+                    "1410447"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 59",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795151",
+                "legacy_id": "101349",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 12",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_retusa",
+                "type": "species",
+                "archival_data": [
+                    "1410453"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 12",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795402",
+                "legacy_id": "101356",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 44",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_44",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_viscosa",
+                "type": "species",
+                "archival_data": [
+                    "1410461"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 44",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795408",
+                "legacy_id": "101362",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 61",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_sabdariffa",
+                "type": "species",
+                "archival_data": [
+                    "1419099"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 61",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795534",
+                "legacy_id": "102747",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 22",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helichrysum_crassifolium",
+                "type": "species",
+                "archival_data": [
+                    "1411246"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 22",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1796723",
+                "legacy_id": "101707",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 25",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haemanthus_coccineus",
+                "type": "species",
+                "archival_data": [
+                    "1415376"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 25",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798648",
+                "legacy_id": "100933",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 9",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leonotis_leonurus",
+                "type": "species",
+                "archival_data": [
+                    "1415827"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 9",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800081",
+                "legacy_id": "107925",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 16",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kniphofia_uvaria",
+                "type": "species",
+                "archival_data": [
+                    "1419876"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 16",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800288",
+                "legacy_id": "106641",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 6",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_orchioides",
+                "type": "species",
+                "archival_data": [
+                    "1419968"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 6",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800960",
+                "legacy_id": "106831",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 18",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_argenteum",
+                "type": "species",
+                "archival_data": [
+                    "1416587"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 18",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801075",
+                "legacy_id": "108194",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 2",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_erinus",
+                "type": "species",
+                "archival_data": [
+                    "1418876"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 2",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801484",
+                "legacy_id": "109789",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 7",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lantana_camara",
+                "type": "species",
+                "archival_data": [
+                    "1420722"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 7",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1802619",
+                "legacy_id": "107281",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 30",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lathyrus_odoratus",
+                "type": "species",
+                "archival_data": [
+                    "1421103"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 30",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803861",
+                "legacy_id": "107545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 60",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_60",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kaempferia_rotunda",
+                "type": "species",
+                "archival_data": [
+                    "1419175"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 60",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804124",
+                "legacy_id": "106321",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 62",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kalanchoe_ceratophylla",
+                "type": "species",
+                "archival_data": [
+                    "1419181"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 62",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804140",
+                "legacy_id": "106337",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 21",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monopsis_simplex",
+                "type": "species",
+                "archival_data": [
+                    "1421253"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 21",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1807942",
+                "legacy_id": "113974",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 47",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_47",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "melianthus_comosus",
+                "type": "species",
+                "archival_data": [
+                    "1419319"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 47",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1808823",
+                "legacy_id": "112877",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 36",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mammillaria_formosa",
+                "type": "species",
+                "archival_data": [
+                    "1416336"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 36",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1809345",
+                "legacy_id": "111661",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 48",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_48",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "orphium_frutescens",
+                "type": "species",
+                "archival_data": [
+                    "1422892"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 48",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810462",
+                "legacy_id": "117334",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 10",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "passiflora_edulis",
+                "type": "species",
+                "archival_data": [
+                    "1425917"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 10",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1812189",
+                "legacy_id": "119103",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 23",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "peucedanum_gummiferum",
+                "type": "species",
+                "archival_data": [
+                    "1422624"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 23",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1812216",
+                "legacy_id": "120315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 5",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_5",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nerium_oleander",
+                "type": "species",
+                "archival_data": [
+                    "1417892"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 5",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813564",
+                "legacy_id": "115477",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 63",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ophrys_holoserica",
+                "type": "species",
+                "archival_data": [
+                    "1427321"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 63",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813641",
+                "legacy_id": "116805",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 63",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ophrys_insectifera",
+                "type": "species",
+                "archival_data": [
+                    "1427322"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 63",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813652",
+                "legacy_id": "116818",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 41",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_pinnatum",
+                "type": "species",
+                "archival_data": [
+                    "1426704"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 41",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814410",
+                "legacy_id": "119626",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 24",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_rapaceum",
+                "type": "species",
+                "archival_data": [
+                    "1426712"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 24",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814427",
+                "legacy_id": "119643",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 40",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_40",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_zonale",
+                "type": "species",
+                "archival_data": [
+                    "1427010"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 40",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814466",
+                "legacy_id": "119684",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 1",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_1",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "orbea_variegata",
+                "type": "species",
+                "archival_data": [
+                    "1422150"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 1",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814644",
+                "legacy_id": "117092",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 17",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sansevieria_hyacinthoides",
+                "type": "species",
+                "archival_data": [
+                    "1430643"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 17",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1822400",
+                "legacy_id": "131182",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 64",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_64",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_puniceus",
+                "type": "species",
+                "archival_data": [
+                    "1432211"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 64",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826389",
+                "legacy_id": "132099",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 39",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stachytarpheta_boldinghii",
+                "type": "species",
+                "archival_data": [
+                    "1432293"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 39",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827884",
+                "legacy_id": "135138",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 51",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stapelia_hirsuta",
+                "type": "species",
+                "archival_data": [
+                    "1432631"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 51",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828489",
+                "legacy_id": "135258",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 20",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "wahlenbergia_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1437588"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 20",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831818",
+                "legacy_id": "141540",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 38",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tetragonia_herbacea",
+                "type": "species",
+                "archival_data": [
+                    "1429719"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 38",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834440",
+                "legacy_id": "136867",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 19",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ursinia_paleacea",
+                "type": "species",
+                "archival_data": [
+                    "1428591"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 19",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1835258",
+                "legacy_id": "139704",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 50",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asclepias_undulata",
+                "type": "species",
+                "archival_data": [
+                    "1403001"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 50",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1898634",
+                "legacy_id": "249826",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wijnands, D.O. The Botany of the Commelins. (1983) Pl. 6.",
+            "machine_name": "wijnands_d_o_the_botany_of_the_commelins_1983_pl_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "babiana_ringens",
+                "type": "species",
+                "archival_data": [
+                    "1399143"
+                ]
+            },
+            "volume": null,
+            "page": "Pl. 6.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1901137",
+                "legacy_id": "244659",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

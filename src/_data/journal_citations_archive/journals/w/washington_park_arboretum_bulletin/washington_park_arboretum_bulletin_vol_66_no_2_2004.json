@@ -1,0 +1,635 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2004",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121687",
+        "legacy_id": "69130",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "athyrium_niponicum_ursula_s_red",
+                "type": "variety",
+                "archival_data": [
+                    "1533023"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992884",
+                "legacy_id": "309965",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sinocalycalycanthus_raulstonii_hartlage_wine",
+                "type": "variety",
+                "archival_data": [
+                    "1583616"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992885",
+                "legacy_id": "309966",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 3",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "buddleja_davidii",
+                "type": "species",
+                "archival_data": [
+                    "1397750"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992886",
+                "legacy_id": "309967",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_columbianum",
+                "type": "species",
+                "archival_data": [
+                    "1417379"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992887",
+                "legacy_id": "309968",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 9",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_barrelieri",
+                "type": "species",
+                "archival_data": [
+                    "1429911"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992888",
+                "legacy_id": "309969",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 9",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_transsylvanica",
+                "type": "species",
+                "archival_data": [
+                    "1430297"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992889",
+                "legacy_id": "309970",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 16-17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_16_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "olearia_ilicifolia",
+                "type": "species",
+                "archival_data": [
+                    "1441248"
+                ]
+            },
+            "volume": null,
+            "page": "p 16-17",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992890",
+                "legacy_id": "309971",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_cultivars_white_gem",
+                "type": "variety",
+                "archival_data": [
+                    "1473787"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992891",
+                "legacy_id": "309972",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "callistemon_linearis_pumila",
+                "type": "variety",
+                "archival_data": [
+                    "1627533"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992892",
+                "legacy_id": "309973",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 20-21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_20_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "woodwardia_unigemmata",
+                "type": "species",
+                "archival_data": [
+                    "1450443"
+                ]
+            },
+            "volume": null,
+            "page": "p 20-21",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992893",
+                "legacy_id": "309974",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dryopteris_wallichiana",
+                "type": "species",
+                "archival_data": [
+                    "1442854"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992894",
+                "legacy_id": "309975",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polystichum_setiferum_plumosum_multilobum",
+                "type": "variety",
+                "archival_data": [
+                    "1627534"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992895",
+                "legacy_id": "309976",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 24 (Adv.)",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_24_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_capistrano",
+                "type": "variety",
+                "archival_data": [
+                    "1524656"
+                ]
+            },
+            "volume": null,
+            "page": "p 24 (Adv.)",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992896",
+                "legacy_id": "309977",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 27",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erythronium_oregonum",
+                "type": "species",
+                "archival_data": [
+                    "1412895"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992897",
+                "legacy_id": "309978",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 2. (2004) p 30",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_2_2004_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_quercifolia_snow_queen",
+                "type": "variety",
+                "archival_data": [
+                    "1481239"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1992898",
+                "legacy_id": "309979",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        }
+    ]
+}

@@ -1,0 +1,307 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1985",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2112278",
+        "legacy_id": "4201",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 202",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_202",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "magnolia_cultivars_albatross",
+                "type": "variety",
+                "archival_data": [
+                    "1477561"
+                ]
+            },
+            "volume": null,
+            "page": "p 202",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735502",
+                "legacy_id": "30455",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 198",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_198",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aechmea_streptocalycoides",
+                "type": "species",
+                "archival_data": [
+                    "1399764"
+                ]
+            },
+            "volume": null,
+            "page": "p 198",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764566",
+                "legacy_id": "68969",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 204",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_204",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dionysia_involucrata",
+                "type": "species",
+                "archival_data": [
+                    "1408853"
+                ]
+            },
+            "volume": null,
+            "page": "p 204",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781012",
+                "legacy_id": "89498",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 212",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_212",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_rarum",
+                "type": "species",
+                "archival_data": [
+                    "1406928"
+                ]
+            },
+            "volume": null,
+            "page": "p 212",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782552",
+                "legacy_id": "88498",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 196",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_196",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encyclia_mariae",
+                "type": "species",
+                "archival_data": [
+                    "1413935"
+                ]
+            },
+            "volume": null,
+            "page": "p 196",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785879",
+                "legacy_id": "91897",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p cover",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "forsythia_suspensa",
+                "type": "species",
+                "archival_data": [
+                    "1413748"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1789677",
+                "legacy_id": "97194",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 2, no. 1. (1985) p 208",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_2_no_1_1985_p_208",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_christii",
+                "type": "species",
+                "archival_data": [
+                    "1430553"
+                ]
+            },
+            "volume": null,
+            "page": "p 208",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1824442",
+                "legacy_id": "127603",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

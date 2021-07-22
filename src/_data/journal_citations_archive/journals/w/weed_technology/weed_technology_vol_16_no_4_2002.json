@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 16, no. 4. (2002)",
+    "machine_name": "weed_technology_vol_16_no_4_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117785",
+        "legacy_id": "44809",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 16, no. 4. (2002) p cover",
+            "machine_name": "weed_technology_vol_16_no_4_2002_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1416915"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897188",
+                "legacy_id": "246550",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

@@ -1,0 +1,2152 @@
+{
+    "name": "Kew Bulletin. vol 41, no. 3. (1986)",
+    "machine_name": "kew_bulletin_vol_41_no_3_1986",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1986",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113897",
+        "legacy_id": "4182",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 6a-c|7d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_6a_c_7d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_antennatum",
+                "type": "species",
+                "archival_data": [
+                    "1406139"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 6a-c|7d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780630",
+                "legacy_id": "88037",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 9f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_9f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_aries",
+                "type": "species",
+                "archival_data": [
+                    "1406144"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 9f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780888",
+                "legacy_id": "88049",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 6d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_6d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_bicaudatum",
+                "type": "species",
+                "archival_data": [
+                    "1406152"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 6d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780906",
+                "legacy_id": "88067",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_calophyllum",
+                "type": "species",
+                "archival_data": [
+                    "1406167"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780933",
+                "legacy_id": "88094",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 8a-b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_8a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_canaliculatum",
+                "type": "species",
+                "archival_data": [
+                    "1406168"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 8a-b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780936",
+                "legacy_id": "88097",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 7e-f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_7e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_capra",
+                "type": "species",
+                "archival_data": [
+                    "1406172"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 7e-f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780946",
+                "legacy_id": "88107",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 8c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_8c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_carronii",
+                "type": "species",
+                "archival_data": [
+                    "1406174"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 8c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780949",
+                "legacy_id": "88110",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 12d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_12d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_cochliodes",
+                "type": "species",
+                "archival_data": [
+                    "1406185"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 12d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780966",
+                "legacy_id": "88127",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 11e-f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_11e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_conanthum",
+                "type": "species",
+                "archival_data": [
+                    "1406189"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 11e-f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781217",
+                "legacy_id": "88137",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 12f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_12f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_crispilinguum",
+                "type": "species",
+                "archival_data": [
+                    "1406194"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 12f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781224",
+                "legacy_id": "88144",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 7c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_7c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_devosianum",
+                "type": "species",
+                "archival_data": [
+                    "1406499"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 7c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781282",
+                "legacy_id": "88202",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 11a|c-d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_11a_c_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_discolor",
+                "type": "species",
+                "archival_data": [
+                    "1406502"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 11a|c-d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781533",
+                "legacy_id": "88209",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 10a-b|d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_10a_b_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_gouldii",
+                "type": "species",
+                "archival_data": [
+                    "1406529"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 10a-b|d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781596",
+                "legacy_id": "88272",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13a.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_hamiferum",
+                "type": "species",
+                "archival_data": [
+                    "1406535"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13a.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781608",
+                "legacy_id": "88284",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 12b-c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_12b_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_helix",
+                "type": "species",
+                "archival_data": [
+                    "1406537"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 12b-c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781612",
+                "legacy_id": "88288",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 8f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_8f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_johannis",
+                "type": "species",
+                "archival_data": [
+                    "1406551"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 8f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781884",
+                "legacy_id": "88318",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 12e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_12e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_lasianthera",
+                "type": "species",
+                "archival_data": [
+                    "1406560"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 12e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781908",
+                "legacy_id": "88342",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 6f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_6f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_leporinum",
+                "type": "species",
+                "archival_data": [
+                    "1406564"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 6f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781915",
+                "legacy_id": "88349",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 10f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_10f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_lineale",
+                "type": "species",
+                "archival_data": [
+                    "1406569"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 10f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781921",
+                "legacy_id": "88355",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_macranthum",
+                "type": "species",
+                "archival_data": [
+                    "1406579"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782183",
+                "legacy_id": "88374",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_magistratus",
+                "type": "species",
+                "archival_data": [
+                    "1406863"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782190",
+                "legacy_id": "88381",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_mirbelianum",
+                "type": "species",
+                "archival_data": [
+                    "1406869"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782197",
+                "legacy_id": "88388",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 9d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_9d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_nindii",
+                "type": "species",
+                "archival_data": [
+                    "1406882"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 9d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782222",
+                "legacy_id": "88413",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 13e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_13e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_rennellii",
+                "type": "species",
+                "archival_data": [
+                    "1406929"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 13e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782556",
+                "legacy_id": "88502",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 9e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_9e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_schulleri",
+                "type": "species",
+                "archival_data": [
+                    "1406946"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 9e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782577",
+                "legacy_id": "88523",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 6e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_6e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_stratiotes",
+                "type": "species",
+                "archival_data": [
+                    "1407250"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 6e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782863",
+                "legacy_id": "88566",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 7a-b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_7a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_strebloceras",
+                "type": "species",
+                "archival_data": [
+                    "1407251"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 7a-b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782866",
+                "legacy_id": "88569",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 10e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_10e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_sylvanum",
+                "type": "species",
+                "archival_data": [
+                    "1407264"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 10e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782890",
+                "legacy_id": "88593",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 11b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_11b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_sylvanum",
+                "type": "species",
+                "archival_data": [
+                    "1407264"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 11b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782891",
+                "legacy_id": "88594",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 12a.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_12a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_tangerinum",
+                "type": "species",
+                "archival_data": [
+                    "1407265"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 12a.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782893",
+                "legacy_id": "88596",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 9c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_9c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_taurinum",
+                "type": "species",
+                "archival_data": [
+                    "1407268"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 9c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782899",
+                "legacy_id": "88602",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 8d-e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_8d_e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_trilamellatum",
+                "type": "species",
+                "archival_data": [
+                    "1407280"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 8d-e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783178",
+                "legacy_id": "88635",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 9a-b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_9a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_violaceoflavens",
+                "type": "species",
+                "archival_data": [
+                    "1407288"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 9a-b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783195",
+                "legacy_id": "88652",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 642, Pl. 10c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_642_pl_10c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dendrobium_wulainse",
+                "type": "species",
+                "archival_data": [
+                    "1407299"
+                ]
+            },
+            "volume": null,
+            "page": "p 642, Pl. 10c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783205",
+                "legacy_id": "88662",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 3c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_3c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_acutus",
+                "type": "species",
+                "archival_data": [
+                    "1405684"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 3c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783272",
+                "legacy_id": "84707",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 5a.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_5a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_calcicolus",
+                "type": "species",
+                "archival_data": [
+                    "1405686"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 5a.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783274",
+                "legacy_id": "84709",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 2a-b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_2a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_calopeplos",
+                "type": "species",
+                "archival_data": [
+                    "1405687"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2a-b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783275",
+                "legacy_id": "84710",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 1d-f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_1d_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_carinatus",
+                "type": "species",
+                "archival_data": [
+                    "1405688"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1d-f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783276",
+                "legacy_id": "84711",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 4d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_4d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_comptus",
+                "type": "species",
+                "archival_data": [
+                    "1405689"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 4d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783277",
+                "legacy_id": "84712",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 5e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_5e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_crenulatus",
+                "type": "species",
+                "archival_data": [
+                    "1405690"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 5e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783278",
+                "legacy_id": "84713",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 3a-b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_3a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_geminigibbus",
+                "type": "species",
+                "archival_data": [
+                    "1405697"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 3a-b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783287",
+                "legacy_id": "84722",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 2c-d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_2c_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_holttumii",
+                "type": "species",
+                "archival_data": [
+                    "1405700"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2c-d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783290",
+                "legacy_id": "84725",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 1a.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_1a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_imperatorius",
+                "type": "species",
+                "archival_data": [
+                    "1405701"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1a.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783291",
+                "legacy_id": "84726",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 1c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_1c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_muluensis",
+                "type": "species",
+                "archival_data": [
+                    "1405704"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783292",
+                "legacy_id": "84727",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 4e-f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_4e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_pictus",
+                "type": "species",
+                "archival_data": [
+                    "1405708"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 4e-f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783296",
+                "legacy_id": "84731",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 2f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_2f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_piliferus",
+                "type": "species",
+                "archival_data": [
+                    "1405709"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783297",
+                "legacy_id": "84732",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 2e.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_2e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_praetermissus",
+                "type": "species",
+                "archival_data": [
+                    "1405710"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2e.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783298",
+                "legacy_id": "84733",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 3e-f.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_3e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_ridleyanus",
+                "type": "species",
+                "archival_data": [
+                    "1405712"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 3e-f.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783302",
+                "legacy_id": "84737",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 5c-d.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_5c_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_selangorensis",
+                "type": "species",
+                "archival_data": [
+                    "1405713"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 5c-d.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783303",
+                "legacy_id": "84738",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 5b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_5b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_serpentinus",
+                "type": "species",
+                "archival_data": [
+                    "1405714"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 5b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783304",
+                "legacy_id": "84739",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 1b.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_1b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_umbrosus",
+                "type": "species",
+                "archival_data": [
+                    "1405715"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1b.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783305",
+                "legacy_id": "84741",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 41, no. 3. (1986) p 610, Pl. 4a-c.",
+            "machine_name": "kew_bulletin_vol_41_no_3_1986_p_610_pl_4a_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_villosus",
+                "type": "species",
+                "archival_data": [
+                    "1405718"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 4a-c.",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783309",
+                "legacy_id": "84745",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

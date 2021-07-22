@@ -1,0 +1,143 @@
+{
+    "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no. 4. (1994)",
+    "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no_4_1994",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1994",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113590",
+        "legacy_id": "5880",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no. 4. (1994) p cover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no_4_1994_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "andropogon_gerardii",
+                "type": "species",
+                "archival_data": [
+                    "1398720"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768663",
+                "legacy_id": "71416",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no. 4. (1994) p cover|backcover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no_4_1994_p_cover_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lupinus_perennis",
+                "type": "species",
+                "archival_data": [
+                    "1420061"
+                ]
+            },
+            "volume": null,
+            "page": "p cover|backcover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1809330",
+                "legacy_id": "110377",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no. 4. (1994) p cover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no_4_1994_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "quercus_velutina",
+                "type": "species",
+                "archival_data": [
+                    "1422056"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1824325",
+                "legacy_id": "126237",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

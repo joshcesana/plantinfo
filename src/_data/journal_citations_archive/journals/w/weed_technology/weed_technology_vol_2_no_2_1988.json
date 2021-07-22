@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 2, no. 2. (1988)",
+    "machine_name": "weed_technology_vol_2_no_2_1988",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1988",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114496",
+        "legacy_id": "5841",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 2, no. 2. (1988) p cover",
+            "machine_name": "weed_technology_vol_2_no_2_1988_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_multiflora",
+                "type": "species",
+                "archival_data": [
+                    "1427947"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1821650",
+                "legacy_id": "129482",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

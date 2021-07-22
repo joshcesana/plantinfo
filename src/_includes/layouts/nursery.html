@@ -1,23 +1,11 @@
 {% extends "layouts/base.html" %}
 
-{% set nursery_data = nursery.data %}
-{% set nursery_name = nursery_data.name %}
+{% set nursery_details = helpers.getNurseryDetails(nursery.data) %}
+{% set title = nursery_details.name %}
 
 {% block content %}
 
-<div class="[ wrapper wrapper--topbot ]">
-  <article class="[ page ] [ page--nursery ]">
-    <div class="[ page-head ] [ page-head--nursery ]">
-      <h1 class="[ page-title ] [ page-title--nursery ]">{{ nursery_name }}</h1>
-    </div>
-
-    <div class="[ page-bottom ] [ page-bottom--nursery ] [ auto-grid grid-2-1 ]">
-      <div class="[ page-bottom__first ]">
-      </div>
-      <div class="[ page-bottom__second ]">
-      </div>
-    </div>
-  </article>
-</div>
-
+  <div class="[ wrapper wrapper--topbot ]">
+    {% include "partials/nurseries/nursery-full.html" %}
+  </div>
 {% endblock %}

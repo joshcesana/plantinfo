@@ -1,0 +1,307 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1984",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2113372",
+        "legacy_id": "4190",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 6",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aechmea_abbreviata",
+                "type": "species",
+                "archival_data": [
+                    "1399378"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764227",
+                "legacy_id": "68878",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The. vol 1, no. 1. (1984) p cover",
+            "machine_name": "kew_magazine_the_vol_1_no_1_1984_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clianthus_formosus",
+                "type": "species",
+                "archival_data": [
+                    "1408993"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777291",
+                "legacy_id": "83090",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 10",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dimorphanthera_kempteriana",
+                "type": "species",
+                "archival_data": [
+                    "1408826"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780697",
+                "legacy_id": "89425",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 4",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_4",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paphiopedilum_sanderianum",
+                "type": "species",
+                "archival_data": [
+                    "1424810"
+                ]
+            },
+            "volume": null,
+            "page": "p 4",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810185",
+                "legacy_id": "118562",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 16",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pilea_peperomioides",
+                "type": "species",
+                "archival_data": [
+                    "1424860"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1816250",
+                "legacy_id": "121530",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 20",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_rarilepidotum",
+                "type": "species",
+                "archival_data": [
+                    "1432039"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1822225",
+                "legacy_id": "128315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 1, no. 1. (1984) p 12",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_1_no_1_1984_p_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trimezia_sincorana",
+                "type": "species",
+                "archival_data": [
+                    "1433503"
+                ]
+            },
+            "volume": null,
+            "page": "p 12",
+            "year": "1984",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1832009",
+                "legacy_id": "138869",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

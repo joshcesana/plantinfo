@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 15, no. 4. (2001)",
+    "machine_name": "weed_technology_vol_15_no_4_2001",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2001",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117021",
+        "legacy_id": "31212",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 15, no. 4. (2001) p cover",
+            "machine_name": "weed_technology_vol_15_no_4_2001_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bromus_rigidus",
+                "type": "species",
+                "archival_data": [
+                    "1397667"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1882525",
+                "legacy_id": "223695",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

@@ -1,0 +1,4079 @@
+{
+    "name": "Waterlilies and Other Aquatic Plants. (1989)",
+    "machine_name": "waterlilies_and_other_aquatic_plants_1989",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1989",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110286",
+        "legacy_id": "5831",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 130",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "caltha_palustris_plena",
+                "type": "variety",
+                "archival_data": [
+                    "1465244"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1707561",
+                "legacy_id": "4937",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 109",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_109",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "canna_cultivars_erebus",
+                "type": "variety",
+                "archival_data": [
+                    "1469456"
+                ]
+            },
+            "volume": null,
+            "page": "p 109",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1709933",
+                "legacy_id": "5547",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 109",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_109",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "canna_cultivars_ra",
+                "type": "variety",
+                "archival_data": [
+                    "1469470"
+                ]
+            },
+            "volume": null,
+            "page": "p 109",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1709956",
+                "legacy_id": "5570",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 113",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_113",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyperus_haspan_viviparus",
+                "type": "variety",
+                "archival_data": [
+                    "1471374"
+                ]
+            },
+            "volume": null,
+            "page": "p 113",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714318",
+                "legacy_id": "10749",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 137",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_137",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_laevigata_snowdrift",
+                "type": "variety",
+                "archival_data": [
+                    "1478943"
+                ]
+            },
+            "volume": null,
+            "page": "p 137",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728676",
+                "legacy_id": "26105",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 134",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_134",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_laevigata_variegata",
+                "type": "variety",
+                "archival_data": [
+                    "1478956"
+                ]
+            },
+            "volume": null,
+            "page": "p 134",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728692",
+                "legacy_id": "26121",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 137",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_137",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_laevigata_variegata",
+                "type": "variety",
+                "archival_data": [
+                    "1478956"
+                ]
+            },
+            "volume": null,
+            "page": "p 137",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1728693",
+                "legacy_id": "26122",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 103",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_nucifera_momo_botan",
+                "type": "variety",
+                "archival_data": [
+                    "1520973"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1733034",
+                "legacy_id": "33728",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 104-05",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_104_05",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_nucifera_mrs_perry_d_slocum",
+                "type": "variety",
+                "archival_data": [
+                    "1520974"
+                ]
+            },
+            "volume": null,
+            "page": "p 104-05",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1733039",
+                "legacy_id": "33733",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 102",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_102",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_nucifera_alba_grandiflora",
+                "type": "variety",
+                "archival_data": [
+                    "1485080"
+                ]
+            },
+            "volume": null,
+            "page": "p 102",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1733044",
+                "legacy_id": "33738",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 98",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_nucifera_rosea_plena",
+                "type": "variety",
+                "archival_data": [
+                    "1485085"
+                ]
+            },
+            "volume": null,
+            "page": "p 98",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1733047",
+                "legacy_id": "33741",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 89",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_afterglow",
+                "type": "variety",
+                "archival_data": [
+                    "1485980"
+                ]
+            },
+            "volume": null,
+            "page": "p 89",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734364",
+                "legacy_id": "34062",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 72",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_albatross",
+                "type": "variety",
+                "archival_data": [
+                    "1485981"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734365",
+                "legacy_id": "34063",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 65",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_amabilis",
+                "type": "variety",
+                "archival_data": [
+                    "1485985"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734370",
+                "legacy_id": "34068",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 37",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_arc_en_ciel",
+                "type": "variety",
+                "archival_data": [
+                    "1485989"
+                ]
+            },
+            "volume": null,
+            "page": "p 37",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734377",
+                "legacy_id": "34075",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 61",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_arethusa",
+                "type": "variety",
+                "archival_data": [
+                    "1485990"
+                ]
+            },
+            "volume": null,
+            "page": "p 61",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734379",
+                "legacy_id": "34077",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 55",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_atropurpurea",
+                "type": "variety",
+                "archival_data": [
+                    "1485991"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734380",
+                "legacy_id": "34078",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 58",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_attraction",
+                "type": "variety",
+                "archival_data": [
+                    "1485992"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734388",
+                "legacy_id": "34086",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 74",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_caroliniana_nivea",
+                "type": "variety",
+                "archival_data": [
+                    "1485996"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734392",
+                "legacy_id": "34090",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 83",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_charlene_strawn",
+                "type": "variety",
+                "archival_data": [
+                    "1485997"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734395",
+                "legacy_id": "34093",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 58",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_charles_de_meurville",
+                "type": "variety",
+                "archival_data": [
+                    "1485998"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734398",
+                "legacy_id": "34096",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 84",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_chromatella",
+                "type": "variety",
+                "archival_data": [
+                    "1486000"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734405",
+                "legacy_id": "34103",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 68",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_colossea",
+                "type": "variety",
+                "archival_data": [
+                    "1486003"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734409",
+                "legacy_id": "34107",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 80",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_comanche",
+                "type": "variety",
+                "archival_data": [
+                    "1486004"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734416",
+                "legacy_id": "34114",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 55",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_conqueror",
+                "type": "variety",
+                "archival_data": [
+                    "1486005"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734417",
+                "legacy_id": "34115",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 51",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_ellisiana",
+                "type": "variety",
+                "archival_data": [
+                    "1486009"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734426",
+                "legacy_id": "34124",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 94",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_emily_grant_hutchings",
+                "type": "variety",
+                "archival_data": [
+                    "1486010"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734431",
+                "legacy_id": "34129",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 55",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_escarboucle",
+                "type": "variety",
+                "archival_data": [
+                    "1486012"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734687",
+                "legacy_id": "34138",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 62",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_eugene_de_land",
+                "type": "variety",
+                "archival_data": [
+                    "1486013"
+                ]
+            },
+            "volume": null,
+            "page": "p 62",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734688",
+                "legacy_id": "34139",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 62",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_pink_beauty_fabiola",
+                "type": "variety",
+                "archival_data": [
+                    "1521785"
+                ]
+            },
+            "volume": null,
+            "page": "p 62",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734692",
+                "legacy_id": "34143",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 61",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_firecrest",
+                "type": "variety",
+                "archival_data": [
+                    "1486016"
+                ]
+            },
+            "volume": null,
+            "page": "p 61",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734694",
+                "legacy_id": "34145",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 51",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_froebelii",
+                "type": "variety",
+                "archival_data": [
+                    "1486018"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734699",
+                "legacy_id": "34150",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 77",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_gladstoniana",
+                "type": "variety",
+                "archival_data": [
+                    "1486020"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734705",
+                "legacy_id": "34156",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 69",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_gloire_du_temple_sur_lot",
+                "type": "variety",
+                "archival_data": [
+                    "1486021"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734708",
+                "legacy_id": "34159",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 52",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_gloriosa",
+                "type": "variety",
+                "archival_data": [
+                    "1486022"
+                ]
+            },
+            "volume": null,
+            "page": "p 52",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734711",
+                "legacy_id": "34162",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 73",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_gonnere",
+                "type": "variety",
+                "archival_data": [
+                    "1486023"
+                ]
+            },
+            "volume": null,
+            "page": "p 73",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734716",
+                "legacy_id": "34167",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 96",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_96",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_h_c_haarstick",
+                "type": "variety",
+                "archival_data": [
+                    "1486025"
+                ]
+            },
+            "volume": null,
+            "page": "p 96",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734719",
+                "legacy_id": "34170",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 81",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_indiana",
+                "type": "variety",
+                "archival_data": [
+                    "1486028"
+                ]
+            },
+            "volume": null,
+            "page": "p 81",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734724",
+                "legacy_id": "34175",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 86",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_86",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_isabelle_pring",
+                "type": "variety",
+                "archival_data": [
+                    "1486030"
+                ]
+            },
+            "volume": null,
+            "page": "p 86",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734726",
+                "legacy_id": "34177",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 53",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_53",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_james_brydon",
+                "type": "variety",
+                "archival_data": [
+                    "1486032"
+                ]
+            },
+            "volume": null,
+            "page": "p 53",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734735",
+                "legacy_id": "34186",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 59",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_laydekeri_lilacea",
+                "type": "variety",
+                "archival_data": [
+                    "1486040"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734745",
+                "legacy_id": "34196",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 91",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_leopardess",
+                "type": "variety",
+                "archival_data": [
+                    "1486041"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734746",
+                "legacy_id": "34197",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 54",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_lucida",
+                "type": "variety",
+                "archival_data": [
+                    "1481638"
+                ]
+            },
+            "volume": null,
+            "page": "p 54",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734751",
+                "legacy_id": "34202",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 66",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_66",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_mariliacea_rosea",
+                "type": "variety",
+                "archival_data": [
+                    "1481642"
+                ]
+            },
+            "volume": null,
+            "page": "p 66",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734755",
+                "legacy_id": "34206",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 95",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_95",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_maroon_beauty",
+                "type": "variety",
+                "archival_data": [
+                    "1481646"
+                ]
+            },
+            "volume": null,
+            "page": "p 95",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1734762",
+                "legacy_id": "34214",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 63",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_masaniello",
+                "type": "variety",
+                "archival_data": [
+                    "1481648"
+                ]
+            },
+            "volume": null,
+            "page": "p 63",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735017",
+                "legacy_id": "34219",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 93",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_missouri",
+                "type": "variety",
+                "archival_data": [
+                    "1481651"
+                ]
+            },
+            "volume": null,
+            "page": "p 93",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735021",
+                "legacy_id": "34223",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 83",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_moorei",
+                "type": "variety",
+                "archival_data": [
+                    "1481652"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735026",
+                "legacy_id": "34228",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 94",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_mrs_george_c_hitchcock",
+                "type": "variety",
+                "archival_data": [
+                    "1481658"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735033",
+                "legacy_id": "34235",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 70",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_mrs_richmond",
+                "type": "variety",
+                "archival_data": [
+                    "1481662"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735038",
+                "legacy_id": "34240",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 36",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_norma_gedye",
+                "type": "variety",
+                "archival_data": [
+                    "1481667"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735045",
+                "legacy_id": "34247",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 78",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_78",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_paul_hariot",
+                "type": "variety",
+                "archival_data": [
+                    "1481669"
+                ]
+            },
+            "volume": null,
+            "page": "p 78",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735048",
+                "legacy_id": "34250",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 65",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_pink_sensation",
+                "type": "variety",
+                "archival_data": [
+                    "1481686"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735074",
+                "legacy_id": "34276",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 78",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_78",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_pygmaea_helvola",
+                "type": "variety",
+                "archival_data": [
+                    "1481689"
+                ]
+            },
+            "volume": null,
+            "page": "p 78",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735084",
+                "legacy_id": "34286",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 67",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_67",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_ray_davies",
+                "type": "variety",
+                "archival_data": [
+                    "1481690"
+                ]
+            },
+            "volume": null,
+            "page": "p 67",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735087",
+                "legacy_id": "34289",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 97",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_97",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_red_flare",
+                "type": "variety",
+                "archival_data": [
+                    "1481691"
+                ]
+            },
+            "volume": null,
+            "page": "p 97",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735090",
+                "legacy_id": "34292",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 58",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_58",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_rembrandt",
+                "type": "variety",
+                "archival_data": [
+                    "1481693"
+                ]
+            },
+            "volume": null,
+            "page": "p 58",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735093",
+                "legacy_id": "34295",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 56",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_rene_gerard",
+                "type": "variety",
+                "archival_data": [
+                    "1481694"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735094",
+                "legacy_id": "34296",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 79",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_robinsonii",
+                "type": "variety",
+                "archival_data": [
+                    "1481695"
+                ]
+            },
+            "volume": null,
+            "page": "p 79",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735095",
+                "legacy_id": "34297",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 82",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_82",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_sioux",
+                "type": "variety",
+                "archival_data": [
+                    "1481698"
+                ]
+            },
+            "volume": null,
+            "page": "p 82",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735100",
+                "legacy_id": "34302",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 54",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_sirius",
+                "type": "variety",
+                "archival_data": [
+                    "1481700"
+                ]
+            },
+            "volume": null,
+            "page": "p 54",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735349",
+                "legacy_id": "34304",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 86",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_86",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_st_louis",
+                "type": "variety",
+                "archival_data": [
+                    "1481702"
+                ]
+            },
+            "volume": null,
+            "page": "p 86",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735351",
+                "legacy_id": "34306",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 59",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_sultan",
+                "type": "variety",
+                "archival_data": [
+                    "1481705"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735357",
+                "legacy_id": "34312",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 68",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_turicensis",
+                "type": "variety",
+                "archival_data": [
+                    "1481913"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735373",
+                "legacy_id": "34328",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 57",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_vesuve",
+                "type": "variety",
+                "archival_data": [
+                    "1481914"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735376",
+                "legacy_id": "34331",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 75",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_virginia",
+                "type": "variety",
+                "archival_data": [
+                    "1481916"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735384",
+                "legacy_id": "34339",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 57",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_cultivars_william_falconer",
+                "type": "variety",
+                "archival_data": [
+                    "1481920"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735388",
+                "legacy_id": "34343",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 71",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_odorata_minor",
+                "type": "variety",
+                "archival_data": [
+                    "1481935"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735411",
+                "legacy_id": "34366",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 70",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_pygmaea_alba",
+                "type": "variety",
+                "archival_data": [
+                    "1481941"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735414",
+                "legacy_id": "34369",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 52",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_pygmaea_rubra",
+                "type": "variety",
+                "archival_data": [
+                    "1481943"
+                ]
+            },
+            "volume": null,
+            "page": "p 52",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735415",
+                "legacy_id": "34371",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 77",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_tuberosa_richardsonii",
+                "type": "variety",
+                "archival_data": [
+                    "1481946"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1735419",
+                "legacy_id": "34375",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 146",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_146",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sagittaria_sagittifolia_flore_pleno",
+                "type": "variety",
+                "archival_data": [
+                    "1494090"
+                ]
+            },
+            "volume": null,
+            "page": "p 146",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1754564",
+                "legacy_id": "55168",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 129",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_129",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "caltha_palustris",
+                "type": "species",
+                "archival_data": [
+                    "1399646"
+                ]
+            },
+            "volume": null,
+            "page": "p 129",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1769778",
+                "legacy_id": "78518",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 127",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_127",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "butomus_umbellatus",
+                "type": "species",
+                "archival_data": [
+                    "1398843"
+                ]
+            },
+            "volume": null,
+            "page": "p 127",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1771687",
+                "legacy_id": "77585",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 128",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_128",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calla_palustris",
+                "type": "species",
+                "archival_data": [
+                    "1399270"
+                ]
+            },
+            "volume": null,
+            "page": "p 128",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1773331",
+                "legacy_id": "78019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 111",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "colocasia_esculenta",
+                "type": "species",
+                "archival_data": [
+                    "1403754"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779286",
+                "legacy_id": "83612",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 132",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_132",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eriophorum_angustifolium",
+                "type": "species",
+                "archival_data": [
+                    "1412107"
+                ]
+            },
+            "volume": null,
+            "page": "p 132",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787069",
+                "legacy_id": "93417",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 114",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_114",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eichhornia_crassipes",
+                "type": "species",
+                "archival_data": [
+                    "1413149"
+                ]
+            },
+            "volume": null,
+            "page": "p 114",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1788946",
+                "legacy_id": "91482",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 114",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_114",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euryale_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1412205"
+                ]
+            },
+            "volume": null,
+            "page": "p 114",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791872",
+                "legacy_id": "96461",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 133",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_133",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hottonia_palustris",
+                "type": "species",
+                "archival_data": [
+                    "1420191"
+                ]
+            },
+            "volume": null,
+            "page": "p 133",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1797476",
+                "legacy_id": "103245",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 116",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_116",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrocleys_nymphoides",
+                "type": "species",
+                "archival_data": [
+                    "1420987"
+                ]
+            },
+            "volume": null,
+            "page": "p 116",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799414",
+                "legacy_id": "103726",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 138",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_138",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_pseudacorus",
+                "type": "species",
+                "archival_data": [
+                    "1417618"
+                ]
+            },
+            "volume": null,
+            "page": "p 138",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1799897",
+                "legacy_id": "105231",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 135",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_135",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_ensata",
+                "type": "species",
+                "archival_data": [
+                    "1417259"
+                ]
+            },
+            "volume": null,
+            "page": "p 135",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804390",
+                "legacy_id": "105084",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 143",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myriophyllum_verticillatum",
+                "type": "species",
+                "archival_data": [
+                    "1416381"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805066",
+                "legacy_id": "114641",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 140",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_140",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lysichiton_americanus",
+                "type": "species",
+                "archival_data": [
+                    "1439646"
+                ]
+            },
+            "volume": null,
+            "page": "p 140",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805480",
+                "legacy_id": "110706",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 101",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_lutea",
+                "type": "species",
+                "archival_data": [
+                    "1417118"
+                ]
+            },
+            "volume": null,
+            "page": "p 101",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806336",
+                "legacy_id": "115019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 141",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimulus_luteus",
+                "type": "species",
+                "archival_data": [
+                    "1420523"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806632",
+                "legacy_id": "113635",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 74",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_odorata",
+                "type": "species",
+                "archival_data": [
+                    "1425136"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810032",
+                "legacy_id": "115882",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 143",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "orontium_aquaticum",
+                "type": "species",
+                "archival_data": [
+                    "1422605"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810446",
+                "legacy_id": "117318",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 144",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_144",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pontederia_cordata",
+                "type": "species",
+                "archival_data": [
+                    "1422745"
+                ]
+            },
+            "volume": null,
+            "page": "p 144",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818286",
+                "legacy_id": "123347",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 120",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_120",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pistia_stratiotes",
+                "type": "species",
+                "archival_data": [
+                    "1425663"
+                ]
+            },
+            "volume": null,
+            "page": "p 120",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818864",
+                "legacy_id": "122196",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 146",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_146",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "saururus_cernuus",
+                "type": "species",
+                "archival_data": [
+                    "1431387"
+                ]
+            },
+            "volume": null,
+            "page": "p 146",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1829562",
+                "legacy_id": "131603",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 149",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_149",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stratiotes_aloides",
+                "type": "species",
+                "archival_data": [
+                    "1433396"
+                ]
+            },
+            "volume": null,
+            "page": "p 149",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830080",
+                "legacy_id": "135641",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 150",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_150",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "typha_latifolia",
+                "type": "species",
+                "archival_data": [
+                    "1428220"
+                ]
+            },
+            "volume": null,
+            "page": "p 150",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834587",
+                "legacy_id": "139512",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 151",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "typha_laxmannii",
+                "type": "species",
+                "archival_data": [
+                    "1428221"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834591",
+                "legacy_id": "139516",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 151",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "typha_minima",
+                "type": "species",
+                "archival_data": [
+                    "1428222"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834595",
+                "legacy_id": "139520",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 121",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_121",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thalia_dealbata",
+                "type": "species",
+                "archival_data": [
+                    "1430072"
+                ]
+            },
+            "volume": null,
+            "page": "p 121",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834803",
+                "legacy_id": "136984",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 123",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "victoria_amazonica",
+                "type": "species",
+                "archival_data": [
+                    "1436481"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834994",
+                "legacy_id": "140951",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Waterlilies and Other Aquatic Plants. (1989) p 124",
+            "machine_name": "waterlilies_and_other_aquatic_plants_1989_p_124",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zantedeschia_aethiopica",
+                "type": "species",
+                "archival_data": [
+                    "1438716"
+                ]
+            },
+            "volume": null,
+            "page": "p 124",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1839250",
+                "legacy_id": "142177",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

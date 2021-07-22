@@ -1,0 +1,143 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 70, no. 4. (2009)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_70_no_4_2009",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2009",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121582",
+        "legacy_id": "98909",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 4. (2009) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_4_2009_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba",
+                "type": "species",
+                "archival_data": [
+                    "1411935"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1989495",
+                "legacy_id": "385258",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 4. (2009) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_4_2009_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cryptomeria_japonica_nana",
+                "type": "variety",
+                "archival_data": [
+                    "1467439"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1989496",
+                "legacy_id": "385259",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 4. (2009) p 24",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_4_2009_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paxistima_myrsinites",
+                "type": "species",
+                "archival_data": [
+                    "1426274"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1989497",
+                "legacy_id": "385260",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        }
+    ]
+}

@@ -1,0 +1,799 @@
+{
+    "name": "Wildflower. vol 34, no. 1. (2017)",
+    "machine_name": "wildflower_vol_34_no_1_2017",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2017",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2191881",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1515162482"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p inside cover; p 1-3",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_inside_cover_p_1_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ratibida_columnaris",
+                "type": "species",
+                "archival_data": [
+                    "1422862"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover; p 1-3",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191901",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 7",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "berlandiera_lyrata",
+                "type": "species",
+                "archival_data": [
+                    "1401154"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191906",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "wedelia_acapulcensis",
+                "type": "species",
+                "archival_data": [
+                    "2156231"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191911",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dalea_greggii",
+                "type": "species",
+                "archival_data": [
+                    "1404989"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191916",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "callirhoe_involucrata",
+                "type": "species",
+                "archival_data": [
+                    "1399300"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191921",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysactinia_mexicana",
+                "type": "species",
+                "archival_data": [
+                    "1433813"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191926",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nolina_texana",
+                "type": "species",
+                "archival_data": [
+                    "1435459"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191931",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hesperaloe_parviflora",
+                "type": "species",
+                "archival_data": [
+                    "1418654"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191936",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "melochia_tomentosa",
+                "type": "species",
+                "archival_data": [
+                    "2191886"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191941",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 11",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nassella_tenuissima",
+                "type": "species",
+                "archival_data": [
+                    "1441005"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191946",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 13",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rudbeckia_hirta",
+                "type": "species",
+                "archival_data": [
+                    "1428694"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191951",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 17",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "yucca_torreyi",
+                "type": "species",
+                "archival_data": [
+                    "1438683"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191956",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 12; 19",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_12_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "taxodium_distichum",
+                "type": "species",
+                "archival_data": [
+                    "1429331"
+                ]
+            },
+            "volume": null,
+            "page": "p 12; 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191961",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 18",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "centaurea_americana",
+                "type": "species",
+                "archival_data": [
+                    "1404394"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191966",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 27",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sorghastrum_nutans",
+                "type": "species",
+                "archival_data": [
+                    "1431491"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191971",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 27",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "schizachyrium_scoparium",
+                "type": "species",
+                "archival_data": [
+                    "1432591"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191976",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 27",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "panicum_virgatum",
+                "type": "species",
+                "archival_data": [
+                    "1424409"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191981",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 27",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "verbesina_oncophora",
+                "type": "species",
+                "archival_data": [
+                    "2191891"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191986",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no. 1. (2017) p 27",
+            "machine_name": "wildflower_vol_34_no_1_2017_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monochaetum_calcaratum",
+                "type": "species",
+                "archival_data": [
+                    "2191896"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2191991",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163549"
+            }
+        }
+    ]
+}

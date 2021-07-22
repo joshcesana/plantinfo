@@ -1,0 +1,102 @@
+{
+    "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 3, no. 2. (1990)",
+    "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_3_no_2_1990",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1990",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114233",
+        "legacy_id": "5874",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 3, no. 2. (1990) p cover| 21",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_3_no_2_1990_p_cover_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucophysalis_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1416932"
+                ]
+            },
+            "volume": null,
+            "page": "p cover| 21",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801714",
+                "legacy_id": "108352",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 3, no. 2. (1990) p 13",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_3_no_2_1990_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rudbeckia_hirta",
+                "type": "species",
+                "archival_data": [
+                    "1428694"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1823624",
+                "legacy_id": "130001",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

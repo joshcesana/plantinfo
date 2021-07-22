@@ -1,0 +1,389 @@
+{
+    "name": "Veld & Flora. vol 101, no. 3. (2015)",
+    "machine_name": "veld_flora_vol_101_no_3_2015",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2015",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2124384",
+        "legacy_id": "129175",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 123-24",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_123_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_sabulosa",
+                "type": "species",
+                "archival_data": [
+                    "1462549"
+                ]
+            },
+            "volume": null,
+            "page": "p 123-24",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2078577",
+                "legacy_id": "502787",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 123",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_pygmaea",
+                "type": "species",
+                "archival_data": [
+                    "1462149"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2078578",
+                "legacy_id": "502788",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 135",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_135",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aspalathus_dasyantha",
+                "type": "species",
+                "archival_data": [
+                    "1462150"
+                ]
+            },
+            "volume": null,
+            "page": "p 135",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2078898",
+                "legacy_id": "502789",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 141",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_insolens",
+                "type": "species",
+                "archival_data": [
+                    "1462151"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2078899",
+                "legacy_id": "502790",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 102",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_102",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oxalis_fergusonae",
+                "type": "species",
+                "archival_data": [
+                    "1449097"
+                ]
+            },
+            "volume": null,
+            "page": "p 102",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2084503",
+                "legacy_id": "502771",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 117",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_117",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_teixeirae",
+                "type": "species",
+                "archival_data": [
+                    "1411810"
+                ]
+            },
+            "volume": null,
+            "page": "p 117",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2084504",
+                "legacy_id": "502772",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 118",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hypericum_roeperianum",
+                "type": "species",
+                "archival_data": [
+                    "1462547"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2084505",
+                "legacy_id": "502773",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 118",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "podocarpus_milanjianus",
+                "type": "species",
+                "archival_data": [
+                    "1427121"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2084506",
+                "legacy_id": "502774",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 101, no. 3. (2015) p 119",
+            "machine_name": "veld_flora_vol_101_no_3_2015_p_119",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "drimia_altissima",
+                "type": "species",
+                "archival_data": [
+                    "1462548"
+                ]
+            },
+            "volume": null,
+            "page": "p 119",
+            "year": "2015",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2084507",
+                "legacy_id": "502775",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        }
+    ]
+}

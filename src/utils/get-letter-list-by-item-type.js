@@ -9,6 +9,10 @@ module.exports = (collection, itemType) => {
   let letterList = [];
   let letterFoundList = [];
 
+  let cloneItem = (item) => {
+    return JSON.parse(JSON.stringify(item))
+  };
+
   if (
     typeof(collection) !== 'undefined' &&
     Array.isArray(collection) &&
@@ -21,8 +25,8 @@ module.exports = (collection, itemType) => {
         item.data.hasOwnProperty('name')
       ) {
         if (item.data.type === itemType) {
-          let firstLetter = '';
-          firstLetter = (item.data.name.match(/[a-zA-Z]/) || []).pop();
+          let thisItem = cloneItem = item;
+          let firstLetter = (thisItem.data.name.match(/[a-zA-Z]/) || []).pop();
 
           if (firstLetter !== '' && !letterFoundList.includes(firstLetter)) {
             letterFoundList.push(firstLetter);

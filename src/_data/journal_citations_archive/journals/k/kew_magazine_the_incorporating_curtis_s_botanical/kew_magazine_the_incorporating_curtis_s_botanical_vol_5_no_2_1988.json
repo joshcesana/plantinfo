@@ -1,0 +1,266 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1988",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2113697",
+        "legacy_id": "4214",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p 72",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arum_pictum",
+                "type": "species",
+                "archival_data": [
+                    "1402625"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1772436",
+                "legacy_id": "73771",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p 56",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysanthemum_yezoense",
+                "type": "species",
+                "archival_data": [
+                    "1406116"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780572",
+                "legacy_id": "87979",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p 66",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_66",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corydalis_popovii",
+                "type": "species",
+                "archival_data": [
+                    "1406071"
+                ]
+            },
+            "volume": null,
+            "page": "p 66",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783922",
+                "legacy_id": "84868",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p cover; 52",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_cover_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lemboglossum_cervantesii",
+                "type": "species",
+                "archival_data": [
+                    "1415807"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 52",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800037",
+                "legacy_id": "107880",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p 60",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_60",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sarracenia_psittacina",
+                "type": "species",
+                "archival_data": [
+                    "1431045"
+                ]
+            },
+            "volume": null,
+            "page": "p 60",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828937",
+                "legacy_id": "131456",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 5, no. 2. (1988) p 70",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_5_no_2_1988_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zaluzianskya_microsiphon",
+                "type": "species",
+                "archival_data": [
+                    "1438689"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1839189",
+                "legacy_id": "142116",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+<h1 class="[ page-title ] [ page-title--nursery ]">{{ nursery_details.name }}</h1>
+
+{% if nursery_details.website !== "" %}
+  <div class="[ nursery-info ] [ nursery-info--website ]">
+    <a class="[ link ] [ link--nursery-website ]" href="{{ nursery_details.website }}">
+      {{ nursery_details.website }}
+    </a>
+  </div>
+{% endif %}

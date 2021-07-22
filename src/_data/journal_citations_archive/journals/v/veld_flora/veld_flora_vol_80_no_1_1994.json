@@ -1,0 +1,512 @@
+{
+    "name": "Veld & Flora. vol 80, no. 1. (1994)",
+    "machine_name": "veld_flora_vol_80_no_1_1994",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1994",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113219",
+        "legacy_id": "5791",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 23",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strelitzia_reginae_goldcrest",
+                "type": "variety",
+                "archival_data": [
+                    "1549759"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1761496",
+                "legacy_id": "56958",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 27",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dietes_robinsoniana",
+                "type": "species",
+                "archival_data": [
+                    "1408485"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780058",
+                "legacy_id": "89271",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 6",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "elegia_filacea",
+                "type": "species",
+                "archival_data": [
+                    "1413193"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785406",
+                "legacy_id": "91575",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 10",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encephalartos_woodii",
+                "type": "species",
+                "archival_data": [
+                    "1413911"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785824",
+                "legacy_id": "91842",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 11-13",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_11_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encephalartos_woodii",
+                "type": "species",
+                "archival_data": [
+                    "1413911"
+                ]
+            },
+            "volume": null,
+            "page": "p 11-13",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785825",
+                "legacy_id": "91843",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 6",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_maximiliani",
+                "type": "species",
+                "archival_data": [
+                    "1410939"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787200",
+                "legacy_id": "92992",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 3",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hakea_sericea",
+                "type": "species",
+                "archival_data": [
+                    "1409718"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1794433",
+                "legacy_id": "101106",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 15",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kniphofia_rooperi",
+                "type": "species",
+                "archival_data": [
+                    "1419587"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800031",
+                "legacy_id": "106629",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p cover",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_comosum",
+                "type": "species",
+                "archival_data": [
+                    "1416590"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801077",
+                "legacy_id": "108196",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 18-19",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_18_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monopsis_debilis",
+                "type": "species",
+                "archival_data": [
+                    "1421251"
+                ]
+            },
+            "volume": null,
+            "page": "p 18-19",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1807941",
+                "legacy_id": "113973",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 24",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "staavia_dodii",
+                "type": "species",
+                "archival_data": [
+                    "1432249"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827525",
+                "legacy_id": "135025",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 1. (1994) p 25",
+            "machine_name": "veld_flora_vol_80_no_1_1994_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "staavia_glutinosa",
+                "type": "species",
+                "archival_data": [
+                    "1432250"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827526",
+                "legacy_id": "135026",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

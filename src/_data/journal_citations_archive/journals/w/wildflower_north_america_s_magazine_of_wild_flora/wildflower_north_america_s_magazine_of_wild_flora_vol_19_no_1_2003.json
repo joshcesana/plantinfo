@@ -1,0 +1,594 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2003",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2118008",
+        "legacy_id": "46074",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oerstedella_pentadactyla",
+                "type": "species",
+                "archival_data": [
+                    "1446651"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902050",
+                "legacy_id": "251215",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "telipogon_griesbeckii",
+                "type": "species",
+                "archival_data": [
+                    "1446652"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902051",
+                "legacy_id": "251216",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 14",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "epidendrum_lacustre",
+                "type": "species",
+                "archival_data": [
+                    "1446653"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902052",
+                "legacy_id": "251217",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 14",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sobralia_mariannae",
+                "type": "species",
+                "archival_data": [
+                    "1446654"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902053",
+                "legacy_id": "251218",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 10",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cattleya_skinneri",
+                "type": "species",
+                "archival_data": [
+                    "1403668"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904798",
+                "legacy_id": "250508",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "coryanthes_maculata",
+                "type": "species",
+                "archival_data": [
+                    "1405679"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904799",
+                "legacy_id": "250509",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 10-11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acineta_chrysantha",
+                "type": "species",
+                "archival_data": [
+                    "1398156"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904800",
+                "legacy_id": "250510",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 14",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stelis_glossula",
+                "type": "species",
+                "archival_data": [
+                    "1432658"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904801",
+                "legacy_id": "250511",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stanhopea_costaricensis",
+                "type": "species",
+                "archival_data": [
+                    "1432603"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904802",
+                "legacy_id": "250512",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oncidium_schroederanum",
+                "type": "species",
+                "archival_data": [
+                    "1426914"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904803",
+                "legacy_id": "250513",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "neomoorea_wallisii",
+                "type": "species",
+                "archival_data": [
+                    "1417206"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904804",
+                "legacy_id": "250514",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 34",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agave_shawii",
+                "type": "species",
+                "archival_data": [
+                    "1400950"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904805",
+                "legacy_id": "250515",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pachycormus_discolor",
+                "type": "species",
+                "archival_data": [
+                    "1423694"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904806",
+                "legacy_id": "250516",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 19, no. 1. (2003) p 38-39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_19_no_1_2003_p_38_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fouquieria_columnaris",
+                "type": "species",
+                "archival_data": [
+                    "1413761"
+                ]
+            },
+            "volume": null,
+            "page": "p 38-39",
+            "year": "2003",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1904807",
+                "legacy_id": "250517",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

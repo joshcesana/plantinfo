@@ -1,0 +1,307 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2005",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120192",
+        "legacy_id": "88471",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_bioritensis",
+                "type": "species",
+                "archival_data": [
+                    "1416117"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951766",
+                "legacy_id": "359010",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sorbus_commixta",
+                "type": "species",
+                "archival_data": [
+                    "1431154"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951767",
+                "legacy_id": "359011",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 9",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_cultivars_rock_garden",
+                "type": "variety",
+                "archival_data": [
+                    "1511184"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951768",
+                "legacy_id": "359012",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 12-13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_12_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_perado_perado",
+                "type": "variety",
+                "archival_data": [
+                    "1632260"
+                ]
+            },
+            "volume": null,
+            "page": "p 12-13",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951769",
+                "legacy_id": "359032",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_aquifolium_fructu_aurantiaca",
+                "type": "variety",
+                "archival_data": [
+                    "1632261"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951770",
+                "legacy_id": "359033",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_aquifolium_ferox_argentea",
+                "type": "variety",
+                "archival_data": [
+                    "1477006"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951771",
+                "legacy_id": "359034",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 67, no. 3. (2005) p 16",
+            "machine_name": "washington_park_arboretum_bulletin_vol_67_no_3_2005_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gaultheria_shallon",
+                "type": "species",
+                "archival_data": [
+                    "1410350"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951772",
+                "legacy_id": "359035",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

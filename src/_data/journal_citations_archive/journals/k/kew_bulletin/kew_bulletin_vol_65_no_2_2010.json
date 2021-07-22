@@ -1,0 +1,143 @@
+{
+    "name": "Kew Bulletin. vol 65, no. 2. (2010)",
+    "machine_name": "kew_bulletin_vol_65_no_2_2010",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2010",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2122741",
+        "legacy_id": "116251",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 65, no. 2. (2010) p 237, Pl. 2A-F",
+            "machine_name": "kew_bulletin_vol_65_no_2_2010_p_237_pl_2a_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stylosanthes_guianensis",
+                "type": "species",
+                "archival_data": [
+                    "1427799"
+                ]
+            },
+            "volume": null,
+            "page": "p 237, Pl. 2A-F",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2010942",
+                "legacy_id": "440232",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 65, no. 2. (2010) p 249, Pl. 2A-E",
+            "machine_name": "kew_bulletin_vol_65_no_2_2010_p_249_pl_2a_e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mastigostyla_torotoroensis",
+                "type": "species",
+                "archival_data": [
+                    "1458996"
+                ]
+            },
+            "volume": null,
+            "page": "p 249, Pl. 2A-E",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2044353",
+                "legacy_id": "440233",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 65, no. 2. (2010) p 331, Pl. 3C",
+            "machine_name": "kew_bulletin_vol_65_no_2_2010_p_331_pl_3c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gagea_reticulata",
+                "type": "species",
+                "archival_data": [
+                    "1414883"
+                ]
+            },
+            "volume": null,
+            "page": "p 331, Pl. 3C",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2059629",
+                "legacy_id": "440234",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

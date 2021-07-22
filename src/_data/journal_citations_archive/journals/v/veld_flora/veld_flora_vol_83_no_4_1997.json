@@ -1,0 +1,758 @@
+{
+    "name": "Veld & Flora. vol 83, no. 4. (1997)",
+    "machine_name": "veld_flora_vol_83_no_4_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114957",
+        "legacy_id": "6439",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p cover",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "coleonema_album",
+                "type": "species",
+                "archival_data": [
+                    "1434188"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842791",
+                "legacy_id": "148307",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 104",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_104",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyphostemma_juttae",
+                "type": "species",
+                "archival_data": [
+                    "1404203"
+                ]
+            },
+            "volume": null,
+            "page": "p 104",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842792",
+                "legacy_id": "148308",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 104",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_104",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloidendron_dichotomum",
+                "type": "species",
+                "archival_data": [
+                    "1462272"
+                ]
+            },
+            "volume": null,
+            "page": "p 104",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842793",
+                "legacy_id": "148309",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 105",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_105",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tylecodon_paniculatus",
+                "type": "species",
+                "archival_data": [
+                    "1427928"
+                ]
+            },
+            "volume": null,
+            "page": "p 105",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842794",
+                "legacy_id": "148310",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 106",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_106",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_rubida",
+                "type": "species",
+                "archival_data": [
+                    "1420255"
+                ]
+            },
+            "volume": null,
+            "page": "p 106",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842795",
+                "legacy_id": "148311",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 107",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_107",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "limonium_capense",
+                "type": "species",
+                "archival_data": [
+                    "1440022"
+                ]
+            },
+            "volume": null,
+            "page": "p 107",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842796",
+                "legacy_id": "148312",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 107",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_107",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gethyllis_afra",
+                "type": "species",
+                "archival_data": [
+                    "1411879"
+                ]
+            },
+            "volume": null,
+            "page": "p 107",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842797",
+                "legacy_id": "148313",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 110",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_110",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acmadenia_mundiana",
+                "type": "species",
+                "archival_data": [
+                    "1440023"
+                ]
+            },
+            "volume": null,
+            "page": "p 110",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842798",
+                "legacy_id": "148314",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 111",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_mucronulata",
+                "type": "species",
+                "archival_data": [
+                    "1440024"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842799",
+                "legacy_id": "148315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 112",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_glabrata",
+                "type": "species",
+                "archival_data": [
+                    "1440025"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842800",
+                "legacy_id": "148316",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 112",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_cerefolium",
+                "type": "species",
+                "archival_data": [
+                    "1440026"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842801",
+                "legacy_id": "148317",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 118",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acanthosicyos_horridus",
+                "type": "species",
+                "archival_data": [
+                    "1402781"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842802",
+                "legacy_id": "148318",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 121",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_121",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhigozum_obovatum",
+                "type": "species",
+                "archival_data": [
+                    "1423575"
+                ]
+            },
+            "volume": null,
+            "page": "p 121",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1842803",
+                "legacy_id": "148319",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 121",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_121",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sansevieria_aethiopica",
+                "type": "species",
+                "archival_data": [
+                    "1430633"
+                ]
+            },
+            "volume": null,
+            "page": "p 121",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843038",
+                "legacy_id": "148320",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 122",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_122",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lepidium_capense",
+                "type": "species",
+                "archival_data": [
+                    "1441446"
+                ]
+            },
+            "volume": null,
+            "page": "p 122",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843517",
+                "legacy_id": "150965",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 123",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "malva_parviflora",
+                "type": "species",
+                "archival_data": [
+                    "1415946"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843518",
+                "legacy_id": "150966",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 124",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_124",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "isoglossa_woodii",
+                "type": "species",
+                "archival_data": [
+                    "1441447"
+                ]
+            },
+            "volume": null,
+            "page": "p 124",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843519",
+                "legacy_id": "150967",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 83, no. 4. (1997) p 124",
+            "machine_name": "veld_flora_vol_83_no_4_1997_p_124",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "moquiniella_rubra",
+                "type": "species",
+                "archival_data": [
+                    "1441448"
+                ]
+            },
+            "volume": null,
+            "page": "p 124",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843520",
+                "legacy_id": "150968",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

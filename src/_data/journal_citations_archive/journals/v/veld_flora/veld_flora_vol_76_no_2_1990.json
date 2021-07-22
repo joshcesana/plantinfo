@@ -1,0 +1,389 @@
+{
+    "name": "Veld & Flora. vol 76, no. 2. (1990)",
+    "machine_name": "veld_flora_vol_76_no_2_1990",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1990",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113642",
+        "legacy_id": "5776",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 45| 47",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_45_47",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunia_albiflora",
+                "type": "species",
+                "archival_data": [
+                    "1397714"
+                ]
+            },
+            "volume": null,
+            "page": "p 45| 47",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770027",
+                "legacy_id": "77160",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 46",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_46",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunia_stokoei",
+                "type": "species",
+                "archival_data": [
+                    "1397715"
+                ]
+            },
+            "volume": null,
+            "page": "p 46",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770028",
+                "legacy_id": "77161",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 57",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_bulbispermum",
+                "type": "species",
+                "archival_data": [
+                    "1407617"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781450",
+                "legacy_id": "85611",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 41",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disperis_fanniniae",
+                "type": "species",
+                "archival_data": [
+                    "1409619"
+                ]
+            },
+            "volume": null,
+            "page": "p 41",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781963",
+                "legacy_id": "89806",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p cover",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyrtanthus_guthrieae",
+                "type": "species",
+                "archival_data": [
+                    "1404258"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782752",
+                "legacy_id": "87199",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 55",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyrtanthus_obliquus",
+                "type": "species",
+                "archival_data": [
+                    "1404264"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1782759",
+                "legacy_id": "87208",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 40",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_40",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encephalartos_ghellinckii",
+                "type": "species",
+                "archival_data": [
+                    "1413585"
+                ]
+            },
+            "volume": null,
+            "page": "p 40",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785755",
+                "legacy_id": "91771",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 52",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_compacta",
+                "type": "species",
+                "archival_data": [
+                    "1424975"
+                ]
+            },
+            "volume": null,
+            "page": "p 52",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817740",
+                "legacy_id": "124537",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 2. (1990) p 48",
+            "machine_name": "veld_flora_vol_76_no_2_1990_p_48",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "staavia_dodii",
+                "type": "species",
+                "archival_data": [
+                    "1432249"
+                ]
+            },
+            "volume": null,
+            "page": "p 48",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827524",
+                "legacy_id": "135024",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

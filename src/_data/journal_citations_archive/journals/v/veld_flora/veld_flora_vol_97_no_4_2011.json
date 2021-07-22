@@ -1,0 +1,1127 @@
+{
+    "name": "Veld & Flora. vol 97, no. 4. (2011)",
+    "machine_name": "veld_flora_vol_97_no_4_2011",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2011",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123461",
+        "legacy_id": "116030",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p cover",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geissorhiza_radians",
+                "type": "species",
+                "archival_data": [
+                    "1410400"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028924",
+                "legacy_id": "439406",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 154",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_154",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhigozum_zambesiacum",
+                "type": "species",
+                "archival_data": [
+                    "1423576"
+                ]
+            },
+            "volume": null,
+            "page": "p 154",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028925",
+                "legacy_id": "439407",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 155",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_155",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asclepias_concinna",
+                "type": "species",
+                "archival_data": [
+                    "1457876"
+                ]
+            },
+            "volume": null,
+            "page": "p 155",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028926",
+                "legacy_id": "439408",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 155",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_155",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_boylei",
+                "type": "species",
+                "archival_data": [
+                    "1402537"
+                ]
+            },
+            "volume": null,
+            "page": "p 155",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028927",
+                "legacy_id": "439409",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 156",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_156",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloidendron_dichotomum",
+                "type": "species",
+                "archival_data": [
+                    "1462272"
+                ]
+            },
+            "volume": null,
+            "page": "p 156",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028928",
+                "legacy_id": "439410",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 159",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_159",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloiampelos_ciliaris",
+                "type": "species",
+                "archival_data": [
+                    "1462512"
+                ]
+            },
+            "volume": null,
+            "page": "p 159",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028929",
+                "legacy_id": "439411",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 160",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_160",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strelitzia_reginae",
+                "type": "species",
+                "archival_data": [
+                    "1433402"
+                ]
+            },
+            "volume": null,
+            "page": "p 160",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028930",
+                "legacy_id": "439412",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 162",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_162",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_cucullatus",
+                "type": "species",
+                "archival_data": [
+                    "1420485"
+                ]
+            },
+            "volume": null,
+            "page": "p 162",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028931",
+                "legacy_id": "439413",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 162",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_162",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_arborescens_philip",
+                "type": "variety",
+                "archival_data": [
+                    "1597598"
+                ]
+            },
+            "volume": null,
+            "page": "p 162",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028932",
+                "legacy_id": "439414",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 167",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_167",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zyrphelis_taxifolia",
+                "type": "species",
+                "archival_data": [
+                    "1456620"
+                ]
+            },
+            "volume": null,
+            "page": "p 167",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2028933",
+                "legacy_id": "439418",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 164",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_164",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helichrysum_felinum",
+                "type": "species",
+                "archival_data": [
+                    "1456619"
+                ]
+            },
+            "volume": null,
+            "page": "p 164",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2039009",
+                "legacy_id": "439415",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 165",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_165",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_uniflora",
+                "type": "species",
+                "archival_data": [
+                    "1409587"
+                ]
+            },
+            "volume": null,
+            "page": "p 165",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2039010",
+                "legacy_id": "439416",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 167",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_167",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "felicia_tenella",
+                "type": "species",
+                "archival_data": [
+                    "1456796"
+                ]
+            },
+            "volume": null,
+            "page": "p 167",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2039011",
+                "legacy_id": "439417",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 177",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_177",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eucalyptus_diversicolor",
+                "type": "species",
+                "archival_data": [
+                    "1413691"
+                ]
+            },
+            "volume": null,
+            "page": "p 177",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061466",
+                "legacy_id": "439419",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 178",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "selago_retropilosa",
+                "type": "species",
+                "archival_data": [
+                    "1461300"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061467",
+                "legacy_id": "439420",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 178",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helichrysum_tysonii",
+                "type": "species",
+                "archival_data": [
+                    "1461301"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061468",
+                "legacy_id": "439421",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 178",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "garuleum_tanacetifolium",
+                "type": "species",
+                "archival_data": [
+                    "1461302"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061469",
+                "legacy_id": "439422",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 178",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "moraea_spathulata",
+                "type": "species",
+                "archival_data": [
+                    "1421624"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061470",
+                "legacy_id": "439423",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_exilis_cooperi",
+                "type": "variety",
+                "archival_data": [
+                    "1502337"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061471",
+                "legacy_id": "439424",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stipa_trichotoma",
+                "type": "species",
+                "archival_data": [
+                    "1453450"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061472",
+                "legacy_id": "439425",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "psoralea_margaretiflora",
+                "type": "species",
+                "archival_data": [
+                    "1461303"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061473",
+                "legacy_id": "439426",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euryops_proteoides",
+                "type": "species",
+                "archival_data": [
+                    "1461304"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061474",
+                "legacy_id": "439427",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geranium_brycei",
+                "type": "species",
+                "archival_data": [
+                    "1411197"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061475",
+                "legacy_id": "439428",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 179",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_179",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euryops_dentatus",
+                "type": "species",
+                "archival_data": [
+                    "1461305"
+                ]
+            },
+            "volume": null,
+            "page": "p 179",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061476",
+                "legacy_id": "439429",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 180-81",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_180_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plectranthus_esculentus",
+                "type": "species",
+                "archival_data": [
+                    "1426417"
+                ]
+            },
+            "volume": null,
+            "page": "p 180-81",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061477",
+                "legacy_id": "439430",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 184",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_184",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_cooperi_cooperi",
+                "type": "variety",
+                "archival_data": [
+                    "1472202"
+                ]
+            },
+            "volume": null,
+            "page": "p 184",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061478",
+                "legacy_id": "439431",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 97, no. 4. (2011) p 184",
+            "machine_name": "veld_flora_vol_97_no_4_2011_p_184",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erythrina_lysistemon",
+                "type": "species",
+                "archival_data": [
+                    "1412861"
+                ]
+            },
+            "volume": null,
+            "page": "p 184",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2061479",
+                "legacy_id": "439432",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

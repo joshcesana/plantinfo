@@ -1,0 +1,143 @@
+{
+    "name": "Wealth of India, The: A Dictionary of Indian Raw Materials... vol. 1:A (1985)",
+    "machine_name": "wealth_of_india_the_a_dictionary_of_indian_raw_materials_vol_1_a_1985",
+    "type": "journal_book",
+    "volume": "1:A",
+    "number": null,
+    "year": "1985",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113366",
+        "legacy_id": "5832",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wealth of India, The: A Dictionary of Indian Raw Materials... vol. 1:A (1985) 1:A p 390, Pl. VIII",
+            "machine_name": "wealth_of_india_the_a_dictionary_of_indian_raw_materials_vol_1_a_1985_1_a_p_390_pl_viii",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "areca_catechu",
+                "type": "species",
+                "archival_data": [
+                    "1401417"
+                ]
+            },
+            "volume": "1:A",
+            "page": "p 390, Pl. VIII",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764173",
+                "legacy_id": "73015",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483346299"
+            }
+        },
+        {
+            "name": "Wealth of India, The: A Dictionary of Indian Raw Materials... vol. 1:A (1985) 1:A p frontispiece",
+            "machine_name": "wealth_of_india_the_a_dictionary_of_indian_raw_materials_vol_1_a_1985_1_a_p_frontispiece",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anacardium_occidentale",
+                "type": "species",
+                "archival_data": [
+                    "1398658"
+                ]
+            },
+            "volume": "1:A",
+            "page": "p frontispiece",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768001",
+                "legacy_id": "71245",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483346299"
+            }
+        },
+        {
+            "name": "Wealth of India, The: A Dictionary of Indian Raw Materials... vol. 1:A (1985) 1:A p 504, Pl. XI",
+            "machine_name": "wealth_of_india_the_a_dictionary_of_indian_raw_materials_vol_1_a_1985_1_a_p_504_pl_xi",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "azadirachta_indica",
+                "type": "species",
+                "archival_data": [
+                    "1398821"
+                ]
+            },
+            "volume": "1:A",
+            "page": "p 504, Pl. XI",
+            "year": "1985",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1771485",
+                "legacy_id": "74816",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483346299"
+            }
+        }
+    ]
+}

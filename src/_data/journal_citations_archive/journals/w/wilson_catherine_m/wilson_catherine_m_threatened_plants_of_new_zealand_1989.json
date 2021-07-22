@@ -1,0 +1,2931 @@
+{
+    "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989)",
+    "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1989",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2109510",
+        "legacy_id": "5909",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 18",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "boehmeria_australis_dealbata",
+                "type": "variety",
+                "archival_data": [
+                    "1464703"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1704211",
+                "legacy_id": "3528",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 72",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "celmisia_macmahonii_macmahonii",
+                "type": "variety",
+                "archival_data": [
+                    "1467029"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1709320",
+                "legacy_id": "6702",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 40",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_40",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_elliptica_crassifolia",
+                "type": "variety",
+                "archival_data": [
+                    "1473798"
+                ]
+            },
+            "volume": null,
+            "page": "p 40",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1719980",
+                "legacy_id": "17417",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 77",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myosotis_traversii_cinerascens",
+                "type": "variety",
+                "archival_data": [
+                    "1482704"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1733981",
+                "legacy_id": "32678",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 50",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pittosporum_pimeleoides_majus",
+                "type": "variety",
+                "archival_data": [
+                    "1486300"
+                ]
+            },
+            "volume": null,
+            "page": "p 50",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1740378",
+                "legacy_id": "39585",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 78",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_78",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plantago_spathulata_picta",
+                "type": "variety",
+                "archival_data": [
+                    "1486319"
+                ]
+            },
+            "volume": null,
+            "page": "p 78",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1740656",
+                "legacy_id": "39622",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 46",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_46",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pomaderris_phylicifolia_polifolia",
+                "type": "variety",
+                "archival_data": [
+                    "1486883"
+                ]
+            },
+            "volume": null,
+            "page": "p 46",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1741297",
+                "legacy_id": "39772",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 79",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acaena_pallida",
+                "type": "species",
+                "archival_data": [
+                    "1402409"
+                ]
+            },
+            "volume": null,
+            "page": "p 79",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1760207",
+                "legacy_id": "67853",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 66",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_66",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anisotome_acutifolia",
+                "type": "species",
+                "archival_data": [
+                    "1399856"
+                ]
+            },
+            "volume": null,
+            "page": "p 66",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766047",
+                "legacy_id": "72038",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 64",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_64",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aciphylla_dieffenbachii",
+                "type": "species",
+                "archival_data": [
+                    "1398169"
+                ]
+            },
+            "volume": null,
+            "page": "p 64",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1767790",
+                "legacy_id": "68449",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 65",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aciphylla_traversii",
+                "type": "species",
+                "archival_data": [
+                    "1398191"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1767800",
+                "legacy_id": "68460",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 52",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calystegia_marginata",
+                "type": "species",
+                "archival_data": [
+                    "1399672"
+                ]
+            },
+            "volume": null,
+            "page": "p 52",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770084",
+                "legacy_id": "78581",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 67",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_67",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "astelia_chathamica",
+                "type": "species",
+                "archival_data": [
+                    "1403368"
+                ]
+            },
+            "volume": null,
+            "page": "p 67",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1774103",
+                "legacy_id": "74216",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 112",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "baumea_complanata",
+                "type": "species",
+                "archival_data": [
+                    "1400306"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1774165",
+                "legacy_id": "75545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 96",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_96",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calochilus_robertsonii",
+                "type": "species",
+                "archival_data": [
+                    "1400435"
+                ]
+            },
+            "volume": null,
+            "page": "p 96",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1774333",
+                "legacy_id": "78286",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 100",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_100",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chiloglottis_gunnii",
+                "type": "species",
+                "archival_data": [
+                    "1406300"
+                ]
+            },
+            "volume": null,
+            "page": "p 100",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777192",
+                "legacy_id": "81714",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 22",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clianthus_puniceus",
+                "type": "species",
+                "archival_data": [
+                    "1408994"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777310",
+                "legacy_id": "83110",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 106",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_106",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chionochloa_spiralis",
+                "type": "species",
+                "archival_data": [
+                    "1406323"
+                ]
+            },
+            "volume": null,
+            "page": "p 106",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777535",
+                "legacy_id": "81810",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 71",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "celmisia_adamsii",
+                "type": "species",
+                "archival_data": [
+                    "1404028"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777801",
+                "legacy_id": "80562",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 20",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chordospartium_muritai",
+                "type": "species",
+                "archival_data": [
+                    "1406680"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777874",
+                "legacy_id": "81905",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 21",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chordospartium_stevensonii",
+                "type": "species",
+                "archival_data": [
+                    "1406681"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777875",
+                "legacy_id": "81906",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 48",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_48",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carmichaelia_fieldii",
+                "type": "species",
+                "archival_data": [
+                    "1408525"
+                ]
+            },
+            "volume": null,
+            "page": "p 48",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779029",
+                "legacy_id": "79527",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 53",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_53",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carmichaelia_kirkii",
+                "type": "species",
+                "archival_data": [
+                    "1408527"
+                ]
+            },
+            "volume": null,
+            "page": "p 53",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779032",
+                "legacy_id": "79530",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 19",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carmichaelia_williamsii",
+                "type": "species",
+                "archival_data": [
+                    "1408531"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779037",
+                "legacy_id": "79535",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 136-37",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_136_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dactylanthus_taylorii",
+                "type": "species",
+                "archival_data": [
+                    "1404640"
+                ]
+            },
+            "volume": null,
+            "page": "p 136-37",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783144",
+                "legacy_id": "87352",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 98-99",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_98_99",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corybas_unguiculatus",
+                "type": "species",
+                "archival_data": [
+                    "1405717"
+                ]
+            },
+            "volume": null,
+            "page": "p 98-99",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783308",
+                "legacy_id": "84744",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p cover| 101",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_cover_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cryptostylis_subulata",
+                "type": "species",
+                "archival_data": [
+                    "1408728"
+                ]
+            },
+            "volume": null,
+            "page": "p cover| 101",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1783400",
+                "legacy_id": "86105",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 117",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_117",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eleocharis_neo_zelandica",
+                "type": "species",
+                "archival_data": [
+                    "1413204"
+                ]
+            },
+            "volume": null,
+            "page": "p 117",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785416",
+                "legacy_id": "91585",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 23",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "elingamita_johnsonii",
+                "type": "species",
+                "archival_data": [
+                    "1413511"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785621",
+                "legacy_id": "91630",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 60",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_60",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "embergeria_grandifolia",
+                "type": "species",
+                "archival_data": [
+                    "1413546"
+                ]
+            },
+            "volume": null,
+            "page": "p 60",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785667",
+                "legacy_id": "91682",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 68",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_glauca",
+                "type": "species",
+                "archival_data": [
+                    "1410656"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1793776",
+                "legacy_id": "95667",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 42",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_42",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_diversifolius",
+                "type": "species",
+                "archival_data": [
+                    "1419067"
+                ]
+            },
+            "volume": null,
+            "page": "p 42",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795220",
+                "legacy_id": "102673",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 36",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_36",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_acutiflora",
+                "type": "species",
+                "archival_data": [
+                    "1410464"
+                ]
+            },
+            "volume": null,
+            "page": "p 36",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795410",
+                "legacy_id": "101364",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 8| 37",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_8_37",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_armstrongii",
+                "type": "species",
+                "archival_data": [
+                    "1410468"
+                ]
+            },
+            "volume": null,
+            "page": "p 8| 37",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795418",
+                "legacy_id": "101372",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 24",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_barkeri",
+                "type": "species",
+                "archival_data": [
+                    "1410469"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795419",
+                "legacy_id": "101373",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 38",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_breviracemosa",
+                "type": "species",
+                "archival_data": [
+                    "1410471"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795421",
+                "legacy_id": "101375",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 39",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_cupressoides",
+                "type": "species",
+                "archival_data": [
+                    "1410478"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795433",
+                "legacy_id": "101387",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 41",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hebe_speciosa",
+                "type": "species",
+                "archival_data": [
+                    "1410513"
+                ]
+            },
+            "volume": null,
+            "page": "p 41",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795481",
+                "legacy_id": "101436",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 54",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helichrysum_dimorphum",
+                "type": "species",
+                "archival_data": [
+                    "1411252"
+                ]
+            },
+            "volume": null,
+            "page": "p 54",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1796726",
+                "legacy_id": "101710",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 73",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gunnera_hamiltonii",
+                "type": "species",
+                "archival_data": [
+                    "1414250"
+                ]
+            },
+            "volume": null,
+            "page": "p 73",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1797282",
+                "legacy_id": "100537",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 80",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lepidium_banksii",
+                "type": "species",
+                "archival_data": [
+                    "1415889"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800415",
+                "legacy_id": "108016",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 81",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lepidium_kirkii",
+                "type": "species",
+                "archival_data": [
+                    "1416178"
+                ]
+            },
+            "volume": null,
+            "page": "p 81",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800421",
+                "legacy_id": "108022",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 84",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lepidium_obtusatum",
+                "type": "species",
+                "archival_data": [
+                    "1416182"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800429",
+                "legacy_id": "108030",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 82-83",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_82_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lepidium_oleraceum",
+                "type": "species",
+                "archival_data": [
+                    "1416184"
+                ]
+            },
+            "volume": null,
+            "page": "p 82-83",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800431",
+                "legacy_id": "108032",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 61",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myosotidium_hortensia",
+                "type": "species",
+                "archival_data": [
+                    "1416025"
+                ]
+            },
+            "volume": null,
+            "page": "p 61",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804690",
+                "legacy_id": "114509",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 76",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_76",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myosotis_colensoi",
+                "type": "species",
+                "archival_data": [
+                    "1416036"
+                ]
+            },
+            "volume": null,
+            "page": "p 76",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804708",
+                "legacy_id": "114527",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 59",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myriophyllum_robustum",
+                "type": "species",
+                "archival_data": [
+                    "1416378"
+                ]
+            },
+            "volume": null,
+            "page": "p 59",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805058",
+                "legacy_id": "114631",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 26",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myrsine_oliveri",
+                "type": "species",
+                "archival_data": [
+                    "1416395"
+                ]
+            },
+            "volume": null,
+            "page": "p 26",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805358",
+                "legacy_id": "114686",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 25",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "metrosideros_bartlettii",
+                "type": "species",
+                "archival_data": [
+                    "1420068"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805598",
+                "legacy_id": "113333",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 74",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mazus_pumilio",
+                "type": "species",
+                "archival_data": [
+                    "1418574"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1807197",
+                "legacy_id": "112461",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 69",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_physaloides",
+                "type": "species",
+                "archival_data": [
+                    "1418892"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1807316",
+                "legacy_id": "109814",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 49",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "myoporum_debile",
+                "type": "species",
+                "archival_data": [
+                    "1416015"
+                ]
+            },
+            "volume": null,
+            "page": "p 49",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1809899",
+                "legacy_id": "114484",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 94",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paracaleana_minor",
+                "type": "species",
+                "archival_data": [
+                    "1424841"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810515",
+                "legacy_id": "118648",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 27",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "olearia_pachyphylla",
+                "type": "species",
+                "archival_data": [
+                    "1426242"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1811984",
+                "legacy_id": "116371",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 43",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_43",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "olearia_semidentata",
+                "type": "species",
+                "archival_data": [
+                    "1426250"
+                ]
+            },
+            "volume": null,
+            "page": "p 43",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1811993",
+                "legacy_id": "116381",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 102",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_102",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pterostylis_nutans",
+                "type": "species",
+                "archival_data": [
+                    "1426151"
+                ]
+            },
+            "volume": null,
+            "page": "p 102",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1815186",
+                "legacy_id": "125265",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 31",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pomaderris_apetala",
+                "type": "species",
+                "archival_data": [
+                    "1422708"
+                ]
+            },
+            "volume": null,
+            "page": "p 31",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817979",
+                "legacy_id": "123285",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 32",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pomaderris_hamiltonii",
+                "type": "species",
+                "archival_data": [
+                    "1422716"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817985",
+                "legacy_id": "123291",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 32",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pomaderris_kumeraho",
+                "type": "species",
+                "archival_data": [
+                    "1422718"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817987",
+                "legacy_id": "123293",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 29",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pittosporum_dallii",
+                "type": "species",
+                "archival_data": [
+                    "1425986"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1819165",
+                "legacy_id": "122254",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 30",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pittosporum_obcordatum",
+                "type": "species",
+                "archival_data": [
+                    "1425996"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1819176",
+                "legacy_id": "122265",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 44",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_44",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pittosporum_pimeleoides",
+                "type": "species",
+                "archival_data": [
+                    "1425999"
+                ]
+            },
+            "volume": null,
+            "page": "p 44",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1819185",
+                "legacy_id": "122274",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 34",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pseudopanax_gilliesii",
+                "type": "species",
+                "archival_data": [
+                    "1425726"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1819673",
+                "legacy_id": "125007",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 70",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ranunculus_urvilleanus",
+                "type": "species",
+                "archival_data": [
+                    "1422810"
+                ]
+            },
+            "volume": null,
+            "page": "p 70",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1820810",
+                "legacy_id": "126661",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 118",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sporadanthus_traversii",
+                "type": "species",
+                "archival_data": [
+                    "1432226"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1827489",
+                "legacy_id": "134989",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 87",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scutellaria_novae_zelandiae",
+                "type": "species",
+                "archival_data": [
+                    "1427689"
+                ]
+            },
+            "volume": null,
+            "page": "p 87",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828662",
+                "legacy_id": "132669",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 139",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_139",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trilepidea_adamsii",
+                "type": "species",
+                "archival_data": [
+                    "1433454"
+                ]
+            },
+            "volume": null,
+            "page": "p 139",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831344",
+                "legacy_id": "138689",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 91",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "wahlenbergia_stricta",
+                "type": "species",
+                "archival_data": [
+                    "1437602"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1831835",
+                "legacy_id": "141558",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 55",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tecomanthe_speciosa",
+                "type": "species",
+                "archival_data": [
+                    "1429348"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1833788",
+                "legacy_id": "136702",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 88-89",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_88_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "theleophyton_billardieri",
+                "type": "species",
+                "archival_data": [
+                    "1430118"
+                ]
+            },
+            "volume": null,
+            "page": "p 88-89",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1835373",
+                "legacy_id": "137067",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Wilson, Catherine M. Threatened Plants of New Zealand. (1989) p 113",
+            "machine_name": "wilson_catherine_m_threatened_plants_of_new_zealand_1989_p_113",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carex_chathamica",
+                "type": "species",
+                "archival_data": [
+                    "1407796"
+                ]
+            },
+            "volume": null,
+            "page": "p 113",
+            "year": "1989",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1948879",
+                "legacy_id": "290739",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

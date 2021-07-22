@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 9, no. 1. (1995)",
+    "machine_name": "weed_technology_vol_9_no_1_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115924",
+        "legacy_id": "7942",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 9, no. 1. (1995) p cover",
+            "machine_name": "weed_technology_vol_9_no_1_1995_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geranium_dissectum",
+                "type": "species",
+                "archival_data": [
+                    "1411498"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1859918",
+                "legacy_id": "166604",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

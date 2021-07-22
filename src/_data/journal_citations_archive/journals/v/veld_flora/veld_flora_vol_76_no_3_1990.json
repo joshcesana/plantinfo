@@ -1,0 +1,225 @@
+{
+    "name": "Veld & Flora. vol 76, no. 3. (1990)",
+    "machine_name": "veld_flora_vol_76_no_3_1990",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1990",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114005",
+        "legacy_id": "5777",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 76, no. 3. (1990) p 78",
+            "machine_name": "veld_flora_vol_76_no_3_1990_p_78",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_nana",
+                "type": "species",
+                "archival_data": [
+                    "1410951"
+                ]
+            },
+            "volume": null,
+            "page": "p 78",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787215",
+                "legacy_id": "93007",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 3. (1990) p 83",
+            "machine_name": "veld_flora_vol_76_no_3_1990_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_tumida",
+                "type": "species",
+                "archival_data": [
+                    "1411389"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787619",
+                "legacy_id": "93167",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 3. (1990) p 83",
+            "machine_name": "veld_flora_vol_76_no_3_1990_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucospermum_catherinae",
+                "type": "species",
+                "archival_data": [
+                    "1416955"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801984",
+                "legacy_id": "108377",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 3. (1990) p cover| inside cover",
+            "machine_name": "veld_flora_vol_76_no_3_1990_p_cover_inside_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucospermum_reflexum",
+                "type": "species",
+                "archival_data": [
+                    "1416967"
+                ]
+            },
+            "volume": null,
+            "page": "p cover| inside cover",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1802010",
+                "legacy_id": "108404",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 76, no. 3. (1990) p 87",
+            "machine_name": "veld_flora_vol_76_no_3_1990_p_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thamnochortus_insignis",
+                "type": "species",
+                "archival_data": [
+                    "1430106"
+                ]
+            },
+            "volume": null,
+            "page": "p 87",
+            "year": "1990",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1835122",
+                "legacy_id": "137058",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

@@ -1,0 +1,840 @@
+{
+    "name": "Veld & Flora. vol 103, no. 1. (2017)",
+    "machine_name": "veld_flora_vol_103_no_1_2017",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2017",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2258211",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1519396852"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p cover",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucospermum_bolusii",
+                "type": "species",
+                "archival_data": [
+                    "1416954"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258236",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 3",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "moraea_algoensis",
+                "type": "species",
+                "archival_data": [
+                    "1421286"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258241",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 14",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_lanceolata",
+                "type": "species",
+                "archival_data": [
+                    "1440621"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258246",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 15",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "melianthus_major",
+                "type": "species",
+                "archival_data": [
+                    "1419320"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258251",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 17",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liparia_parva",
+                "type": "species",
+                "archival_data": [
+                    "2258216"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2258256",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 19",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conophytum_obcordellum",
+                "type": "species",
+                "archival_data": [
+                    "1404183"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258261",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 18",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conophytum_frutescens",
+                "type": "species",
+                "archival_data": [
+                    "2258221"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258266",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 19",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conophytum_stephanii",
+                "type": "species",
+                "archival_data": [
+                    "1448007"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258271",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 19",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conophytum_pellucidum",
+                "type": "species",
+                "archival_data": [
+                    "1404184"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258276",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 24-26",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_24_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "billardiera_heterophylla",
+                "type": "species",
+                "archival_data": [
+                    "2258231"
+                ]
+            },
+            "volume": null,
+            "page": "p 24-26",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258281",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 28-30",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_28_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tradescantia_fluminensis",
+                "type": "species",
+                "archival_data": [
+                    "1432395"
+                ]
+            },
+            "volume": null,
+            "page": "p 28-30",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258286",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 31",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "amaryllis_belladonna",
+                "type": "species",
+                "archival_data": [
+                    "1398251"
+                ]
+            },
+            "volume": null,
+            "page": "p 31",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258291",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 32",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_tinctum",
+                "type": "species",
+                "archival_data": [
+                    "1416612"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258296",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519397936"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 32",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syncolostemon_cultivars_tyrian_purple",
+                "type": "variety",
+                "archival_data": [
+                    "2258311"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258331",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 33",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_chrysanthus",
+                "type": "species",
+                "archival_data": [
+                    "1420484"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258336",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 33",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gnidia_squarrosa",
+                "type": "species",
+                "archival_data": [
+                    "2258316"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258341",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 35",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_cynaroides",
+                "type": "species",
+                "archival_data": [
+                    "1424980"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258346",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 40",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_40",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polhillia_ignota",
+                "type": "species",
+                "archival_data": [
+                    "2258321"
+                ]
+            },
+            "volume": null,
+            "page": "p 40",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258351",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 41",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diplosoma_retroversa",
+                "type": "species",
+                "archival_data": [
+                    "1409235"
+                ]
+            },
+            "volume": null,
+            "page": "p 41",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258356",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 103, no. 1. (2017) p 43",
+            "machine_name": "veld_flora_vol_103_no_1_2017_p_43",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "miscanthus_junceus",
+                "type": "species",
+                "archival_data": [
+                    "2258326"
+                ]
+            },
+            "volume": null,
+            "page": "p 43",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2258361",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1519398655"
+            }
+        }
+    ]
+}

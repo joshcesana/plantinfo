@@ -1,0 +1,635 @@
+{
+    "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009)",
+    "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2009",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123527",
+        "legacy_id": "106750",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p cover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "prosthechea_cochleata",
+                "type": "species",
+                "archival_data": [
+                    "1439868"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032144",
+                "legacy_id": "405312",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p inside cover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_inside_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_vomitoria",
+                "type": "species",
+                "archival_data": [
+                    "1416166"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032145",
+                "legacy_id": "405313",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 5",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_5",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kokia_cookei",
+                "type": "species",
+                "archival_data": [
+                    "1419905"
+                ]
+            },
+            "volume": null,
+            "page": "p 5",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032146",
+                "legacy_id": "405314",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 6",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cryptantha_crassipes",
+                "type": "species",
+                "archival_data": [
+                    "1460594"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032147",
+                "legacy_id": "405315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 9",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "guzmania_monostachia_variegata",
+                "type": "variety",
+                "archival_data": [
+                    "1473169"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032148",
+                "legacy_id": "405316",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 9",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tillandsia_pruinosa",
+                "type": "species",
+                "archival_data": [
+                    "1431637"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032149",
+                "legacy_id": "405317",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 16",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "magnolia_tamaulipana",
+                "type": "species",
+                "archival_data": [
+                    "1421493"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032150",
+                "legacy_id": "405318",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 16",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stanhopea_tigrina",
+                "type": "species",
+                "archival_data": [
+                    "1432619"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032151",
+                "legacy_id": "405319",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 19",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tillandsia_deppeana",
+                "type": "species",
+                "archival_data": [
+                    "1431553"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032152",
+                "legacy_id": "405320",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 28",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "platanus_occidentalis",
+                "type": "species",
+                "archival_data": [
+                    "1426368"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032153",
+                "legacy_id": "405321",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 28",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diospyros_virginiana",
+                "type": "species",
+                "archival_data": [
+                    "1409202"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032154",
+                "legacy_id": "405322",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 29",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "taxodium_distichum",
+                "type": "species",
+                "archival_data": [
+                    "1429331"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032155",
+                "legacy_id": "405323",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 29",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "populus_tremuloides",
+                "type": "species",
+                "archival_data": [
+                    "1422779"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032156",
+                "legacy_id": "405324",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p 29",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_opaca",
+                "type": "species",
+                "archival_data": [
+                    "1416155"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032157",
+                "legacy_id": "405325",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 26, no. 2. (2009) p backcover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_26_no_2_2009_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viburnum_rufidulum",
+                "type": "species",
+                "archival_data": [
+                    "1429805"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2032158",
+                "legacy_id": "405326",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        }
+    ]
+}

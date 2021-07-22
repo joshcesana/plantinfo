@@ -12,6 +12,12 @@
   grid-gap: var(--auto-grid-gap, get-size('500'));
 }
 
+.grid-1-1 {
+  @include media-query('ml') {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .grid-2-1 {
   @include media-query('ml') {
     grid-template-columns: 2fr 1fr;

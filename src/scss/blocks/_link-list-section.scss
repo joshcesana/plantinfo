@@ -1,4 +1,5 @@
 .plant-display__list,
+.link-list-inline,
 .link-list-section {
   .list-item {
     font-size: get-size('400');
@@ -23,6 +24,22 @@
   font-size: get-size('500');
   line-height: 1.7;
   border-bottom: 1px solid get-color('secondary-shade');
+}
+
+.link-list-inline__title {
+  font-size: get-size('400');
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.link-list-inline__list,
+.link-list-inline__list .link-list-inline__list-item {
+  line-height: 1.5;
+  display: inline-block;
+}
+
+.link-list-inline__list-item {
+  margin-right: get-size('400') * 3 / 5;
 }
 
 .related-plant__link-list-section,

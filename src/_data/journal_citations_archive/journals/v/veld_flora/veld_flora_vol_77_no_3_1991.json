@@ -1,0 +1,307 @@
+{
+    "name": "Veld & Flora. vol 77, no. 3. (1991)",
+    "machine_name": "veld_flora_vol_77_no_3_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113643",
+        "legacy_id": "5781",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 81",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunia_stokoei",
+                "type": "species",
+                "archival_data": [
+                    "1397715"
+                ]
+            },
+            "volume": null,
+            "page": "p 81",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1770029",
+                "legacy_id": "77162",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 90",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_90",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freylinia_lanceolata",
+                "type": "species",
+                "archival_data": [
+                    "1414129"
+                ]
+            },
+            "volume": null,
+            "page": "p 90",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1790672",
+                "legacy_id": "97485",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 84",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_auritum",
+                "type": "species",
+                "archival_data": [
+                    "1426644"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813806",
+                "legacy_id": "119506",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 85",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_85",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_betulinum",
+                "type": "species",
+                "archival_data": [
+                    "1426647"
+                ]
+            },
+            "volume": null,
+            "page": "p 85",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813816",
+                "legacy_id": "119517",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 85",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_85",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_peltatum",
+                "type": "species",
+                "archival_data": [
+                    "1426703"
+                ]
+            },
+            "volume": null,
+            "page": "p 85",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814407",
+                "legacy_id": "119623",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p inside cover (Adv.)",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_inside_cover_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_rupestris",
+                "type": "species",
+                "archival_data": [
+                    "1425011"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover (Adv.)",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818066",
+                "legacy_id": "124622",
+                "AD": true,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 77, no. 3. (1991) p 88",
+            "machine_name": "veld_flora_vol_77_no_3_1991_p_88",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunsvigia_marginata",
+                "type": "species",
+                "archival_data": [
+                    "1397723"
+                ]
+            },
+            "volume": null,
+            "page": "p 88",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1947848",
+                "legacy_id": "288722",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

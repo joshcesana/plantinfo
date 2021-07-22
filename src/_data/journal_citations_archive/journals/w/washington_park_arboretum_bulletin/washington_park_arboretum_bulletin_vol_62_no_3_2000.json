@@ -1,0 +1,389 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2000",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2116637",
+        "legacy_id": "17409",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acer_palmatum_hogyoku",
+                "type": "variety",
+                "archival_data": [
+                    "1497806"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875151",
+                "legacy_id": "199924",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 3",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oxydendrum_arboreum",
+                "type": "species",
+                "archival_data": [
+                    "1423345"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875152",
+                "legacy_id": "199925",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cercidiphyllum_japonicum_magnificum",
+                "type": "variety",
+                "archival_data": [
+                    "1529286"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875153",
+                "legacy_id": "199926",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 7",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cercis_canadensis",
+                "type": "species",
+                "archival_data": [
+                    "1405172"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875154",
+                "legacy_id": "199927",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 10",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geranium_robertianum",
+                "type": "species",
+                "archival_data": [
+                    "1411557"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875155",
+                "legacy_id": "199928",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 11",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "verbena_bonariensis",
+                "type": "species",
+                "archival_data": [
+                    "1430195"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875156",
+                "legacy_id": "199929",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 14-15",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_14_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "camellia_sasanqua_tago_no_tsuki",
+                "type": "variety",
+                "archival_data": [
+                    "1556710"
+                ]
+            },
+            "volume": null,
+            "page": "p 14-15",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875157",
+                "legacy_id": "199930",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 22",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "berberis_lologensis",
+                "type": "species",
+                "archival_data": [
+                    "1401119"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875158",
+                "legacy_id": "199931",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 62, no. 3. (2000) p 23",
+            "machine_name": "washington_park_arboretum_bulletin_vol_62_no_3_2000_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "berberis_gladwynensis_william_penn",
+                "type": "variety",
+                "archival_data": [
+                    "1496271"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1875159",
+                "legacy_id": "199932",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

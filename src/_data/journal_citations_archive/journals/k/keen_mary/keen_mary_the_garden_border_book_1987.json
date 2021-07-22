@@ -1,0 +1,717 @@
+{
+    "name": "Keen, Mary. The Garden Border Book. (1987)",
+    "machine_name": "keen_mary_the_garden_border_book_1987",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1987",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2108943",
+        "legacy_id": "4175",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 118",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anemone_hybrida_honorine_jobert",
+                "type": "variety",
+                "archival_data": [
+                    "1466466"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1702753",
+                "legacy_id": "1716",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 142",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_142",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_purpurea_excelsior_series",
+                "type": "variety",
+                "archival_data": [
+                    "1469114"
+                ]
+            },
+            "volume": null,
+            "page": "p 142",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1714081",
+                "legacy_id": "13269",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 72",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydrangea_cultivars_preziosa",
+                "type": "variety",
+                "archival_data": [
+                    "1480920"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1722314",
+                "legacy_id": "21950",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 136",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_136",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hylotelephium_cultivars_herbstfreude_autumn_joy",
+                "type": "variety",
+                "archival_data": [
+                    "1481242"
+                ]
+            },
+            "volume": null,
+            "page": "p 136",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1723255",
+                "legacy_id": "22174",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 109",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_109",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_cerise_bouquet",
+                "type": "variety",
+                "archival_data": [
+                    "1490952"
+                ]
+            },
+            "volume": null,
+            "page": "p 109",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1744357",
+                "legacy_id": "45921",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 25",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_cultivars_zephirine_drouhin",
+                "type": "variety",
+                "archival_data": [
+                    "1493217"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1757718",
+                "legacy_id": "54616",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 50",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "verbascum_cultivars_broussa",
+                "type": "variety",
+                "archival_data": [
+                    "1498582"
+                ]
+            },
+            "volume": null,
+            "page": "p 50",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1759045",
+                "legacy_id": "58953",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 102",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_102",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "allium_cristophii",
+                "type": "species",
+                "archival_data": [
+                    "1402079"
+                ]
+            },
+            "volume": null,
+            "page": "p 102",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768576",
+                "legacy_id": "70036",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 26",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clematis_jackmanii",
+                "type": "species",
+                "archival_data": [
+                    "1408295"
+                ]
+            },
+            "volume": null,
+            "page": "p 26",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1775980",
+                "legacy_id": "82772",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 77",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crambe_cordifolia",
+                "type": "species",
+                "archival_data": [
+                    "1407159"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780443",
+                "legacy_id": "85319",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 105",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_105",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_wulfenii",
+                "type": "species",
+                "archival_data": [
+                    "1411864"
+                ]
+            },
+            "volume": null,
+            "page": "p 105",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791571",
+                "legacy_id": "96398",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 128",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_128",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1411984"
+                ]
+            },
+            "volume": null,
+            "page": "p 128",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798671",
+                "legacy_id": "102206",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 94",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "malus_robusta",
+                "type": "species",
+                "archival_data": [
+                    "1415924"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1808390",
+                "legacy_id": "111425",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 106",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_106",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paeonia_obovata",
+                "type": "species",
+                "archival_data": [
+                    "1424053"
+                ]
+            },
+            "volume": null,
+            "page": "p 106",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813025",
+                "legacy_id": "117945",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 77",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "onopordum_nervosum",
+                "type": "species",
+                "archival_data": [
+                    "1426984"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813303",
+                "legacy_id": "116707",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 85",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_85",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "senecio_laxifolius",
+                "type": "species",
+                "archival_data": [
+                    "1428791"
+                ]
+            },
+            "volume": null,
+            "page": "p 85",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830265",
+                "legacy_id": "133060",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Keen, Mary. The Garden Border Book. (1987) p 98",
+            "machine_name": "keen_mary_the_garden_border_book_1987_p_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "verbena_bonariensis",
+                "type": "species",
+                "archival_data": [
+                    "1430195"
+                ]
+            },
+            "volume": null,
+            "page": "p 98",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1832429",
+                "legacy_id": "140334",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

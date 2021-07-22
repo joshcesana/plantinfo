@@ -1,0 +1,102 @@
+{
+    "name": "Weed Technology. vol 2, no. 3. (1988)",
+    "machine_name": "weed_technology_vol_2_no_3_1988",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1988",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113918",
+        "legacy_id": "5842",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 2, no. 3. (1988) p cover",
+            "machine_name": "weed_technology_vol_2_no_3_1988_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyperus_esculentus",
+                "type": "species",
+                "archival_data": [
+                    "1403852"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781456",
+                "legacy_id": "86869",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Weed Technology. vol 2, no. 3. (1988) p cover",
+            "machine_name": "weed_technology_vol_2_no_3_1988_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zea_mays",
+                "type": "species",
+                "archival_data": [
+                    "1438732"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1839531",
+                "legacy_id": "142226",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

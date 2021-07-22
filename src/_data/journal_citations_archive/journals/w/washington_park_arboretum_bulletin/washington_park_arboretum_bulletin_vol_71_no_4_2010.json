@@ -1,0 +1,348 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2010",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123090",
+        "legacy_id": "107052",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 10",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sabal_mauritiiformis",
+                "type": "species",
+                "archival_data": [
+                    "1429082"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2019388",
+                "legacy_id": "406543",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 10-11",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhizophora_mangle",
+                "type": "species",
+                "archival_data": [
+                    "1423625"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2019389",
+                "legacy_id": "406544",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "psidium_littorale",
+                "type": "species",
+                "archival_data": [
+                    "1425752"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072266",
+                "legacy_id": "406542",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 14",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cecropia_peltata",
+                "type": "species",
+                "archival_data": [
+                    "1404012"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072267",
+                "legacy_id": "406545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 19",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_unguicularis",
+                "type": "species",
+                "archival_data": [
+                    "1417662"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072268",
+                "legacy_id": "406546",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 22",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lychnis_coronaria",
+                "type": "species",
+                "archival_data": [
+                    "1420422"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072269",
+                "legacy_id": "406547",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 22",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1408501"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072270",
+                "legacy_id": "406548",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 71, no. 4. (2010) p 24",
+            "machine_name": "washington_park_arboretum_bulletin_vol_71_no_4_2010_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclamen_hederifolium",
+                "type": "species",
+                "archival_data": [
+                    "1409171"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "2010",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2072271",
+                "legacy_id": "406549",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

@@ -1,0 +1,143 @@
+{
+    "name": "Kew Bulletin. vol 42, no. 4. (1987)",
+    "machine_name": "kew_bulletin_vol_42_no_4_1987",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1987",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113916",
+        "legacy_id": "4183",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 42, no. 4. (1987) p 808, Pl. 1a-b.",
+            "machine_name": "kew_bulletin_vol_42_no_4_1987_p_808_pl_1a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinodendron_hookerianum",
+                "type": "species",
+                "archival_data": [
+                    "1407608"
+                ]
+            },
+            "volume": null,
+            "page": "p 808, Pl. 1a-b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781419",
+                "legacy_id": "85580",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 42, no. 4. (1987) p 808, Pl. 1e.",
+            "machine_name": "kew_bulletin_vol_42_no_4_1987_p_808_pl_1e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dubouzetia_australiensis",
+                "type": "species",
+                "archival_data": [
+                    "1406248"
+                ]
+            },
+            "volume": null,
+            "page": "p 808, Pl. 1e.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1788613",
+                "legacy_id": "90794",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 42, no. 4. (1987) p 808, Pl. 1c-d.",
+            "machine_name": "kew_bulletin_vol_42_no_4_1987_p_808_pl_1c_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dubouzetia_galorei",
+                "type": "species",
+                "archival_data": [
+                    "1406249"
+                ]
+            },
+            "volume": null,
+            "page": "p 808, Pl. 1c-d.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1788614",
+                "legacy_id": "90795",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

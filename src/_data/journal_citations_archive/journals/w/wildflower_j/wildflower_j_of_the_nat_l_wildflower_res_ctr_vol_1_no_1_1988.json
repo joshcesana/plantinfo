@@ -1,0 +1,102 @@
+{
+    "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 1, no. 1. (1988)",
+    "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_1_no_1_1988",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1988",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113580",
+        "legacy_id": "5869",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 1, no. 1. (1988) p cover|29",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_1_no_1_1988_p_cover_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aralia_spinosa",
+                "type": "species",
+                "archival_data": [
+                    "1401036"
+                ]
+            },
+            "volume": null,
+            "page": "p cover|29",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768410",
+                "legacy_id": "72688",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 1, no. 1. (1988) p 21",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_1_no_1_1988_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gaillardia_pulchella",
+                "type": "species",
+                "archival_data": [
+                    "1414906"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1792581",
+                "legacy_id": "97940",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        }
+    ]
+}

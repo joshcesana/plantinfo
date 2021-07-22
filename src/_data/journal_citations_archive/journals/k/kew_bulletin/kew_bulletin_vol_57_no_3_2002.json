@@ -1,0 +1,143 @@
+{
+    "name": "Kew Bulletin. vol 57, no. 3. (2002)",
+    "machine_name": "kew_bulletin_vol_57_no_3_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117823",
+        "legacy_id": "44289",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 57, no. 3. (2002) p 643, Pl. 2; 644, Pl. 3(a).",
+            "machine_name": "kew_bulletin_vol_57_no_3_2002_p_643_pl_2_644_pl_3_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nicotiana_mutabilis",
+                "type": "species",
+                "archival_data": [
+                    "1445176"
+                ]
+            },
+            "volume": null,
+            "page": "p 643, Pl. 2; 644, Pl. 3(a).",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897755",
+                "legacy_id": "245190",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 57, no. 3. (2002) p 644, Pl. 3(b).",
+            "machine_name": "kew_bulletin_vol_57_no_3_2002_p_644_pl_3_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nicotiana_forgetiana",
+                "type": "species",
+                "archival_data": [
+                    "1445177"
+                ]
+            },
+            "volume": null,
+            "page": "p 644, Pl. 3(b).",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897756",
+                "legacy_id": "245191",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 57, no. 3. (2002) p 650, Pl. 2-3.",
+            "machine_name": "kew_bulletin_vol_57_no_3_2002_p_650_pl_2_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rafflesia_speciosa",
+                "type": "species",
+                "archival_data": [
+                    "1445178"
+                ]
+            },
+            "volume": null,
+            "page": "p 650, Pl. 2-3.",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897996",
+                "legacy_id": "245192",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

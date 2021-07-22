@@ -1,0 +1,512 @@
+{
+    "name": "Veld & Flora. vol 84, no. 3. (1998)",
+    "machine_name": "veld_flora_vol_84_no_3_1998",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1998",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115015",
+        "legacy_id": "6659",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 77",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dorotheanthus_bellidiformis",
+                "type": "species",
+                "archival_data": [
+                    "1403909"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843574",
+                "legacy_id": "151023",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 81",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ledebouria_revoluta",
+                "type": "species",
+                "archival_data": [
+                    "1441457"
+                ]
+            },
+            "volume": null,
+            "page": "p 81",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843575",
+                "legacy_id": "151024",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 92",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_virosa",
+                "type": "species",
+                "archival_data": [
+                    "1411850"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843576",
+                "legacy_id": "151025",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 92",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_avasmontana",
+                "type": "species",
+                "archival_data": [
+                    "1409923"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843577",
+                "legacy_id": "151026",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 92",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_fusca",
+                "type": "species",
+                "archival_data": [
+                    "1410644"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843578",
+                "legacy_id": "151027",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 93",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_friedrichiae",
+                "type": "species",
+                "archival_data": [
+                    "1410640"
+                ]
+            },
+            "volume": null,
+            "page": "p 93",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843579",
+                "legacy_id": "151028",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 96",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_96",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chlorophytum_comosum",
+                "type": "species",
+                "archival_data": [
+                    "1406376"
+                ]
+            },
+            "volume": null,
+            "page": "p 96",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843580",
+                "legacy_id": "151029",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p cover",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haemanthus_deformis",
+                "type": "species",
+                "archival_data": [
+                    "1441461"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843881",
+                "legacy_id": "151094",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 90",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_90",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclopia_intermedia",
+                "type": "species",
+                "archival_data": [
+                    "1441462"
+                ]
+            },
+            "volume": null,
+            "page": "p 90",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843882",
+                "legacy_id": "151095",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 91",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclopia_galioides",
+                "type": "species",
+                "archival_data": [
+                    "1441463"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843883",
+                "legacy_id": "151096",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 93",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_spinea",
+                "type": "species",
+                "archival_data": [
+                    "1441464"
+                ]
+            },
+            "volume": null,
+            "page": "p 93",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843884",
+                "legacy_id": "151097",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 84, no. 3. (1998) p 97",
+            "machine_name": "veld_flora_vol_84_no_3_1998_p_97",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ficus_trichopoda",
+                "type": "species",
+                "archival_data": [
+                    "1441465"
+                ]
+            },
+            "volume": null,
+            "page": "p 97",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1843885",
+                "legacy_id": "151098",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

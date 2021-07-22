@@ -1,0 +1,594 @@
+{
+    "name": "Wildflower. vol 37, no. 1. (2020)",
+    "machine_name": "wildflower_vol_37_no_1_2020",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2020",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2611391",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1584027243"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p cover",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "andropogon_glomeratus",
+                "type": "species",
+                "archival_data": [
+                    "1434909"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611396",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 1",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_1",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arnoglossum_plantagineum",
+                "type": "species",
+                "archival_data": [
+                    "1451475"
+                ]
+            },
+            "volume": null,
+            "page": "p 1",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611401",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 2-3",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_2_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "centaurea_americana",
+                "type": "species",
+                "archival_data": [
+                    "1404394"
+                ]
+            },
+            "volume": null,
+            "page": "p 2-3",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611406",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 5",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_5",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "coreopsis_tinctoria",
+                "type": "species",
+                "archival_data": [
+                    "1405289"
+                ]
+            },
+            "volume": null,
+            "page": "p 5",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611411",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 7",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "malvaviscus_arboreus_drummondii",
+                "type": "variety",
+                "archival_data": [
+                    "1485344"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611416",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 8; 27",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_8_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monarda_citriodora",
+                "type": "species",
+                "archival_data": [
+                    "1421229"
+                ]
+            },
+            "volume": null,
+            "page": "p 8; 27",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611421",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 8",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lonicera_sempervirens",
+                "type": "species",
+                "archival_data": [
+                    "1419642"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611426",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 9; 35",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_9_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conoclinium_greggii",
+                "type": "species",
+                "archival_data": [
+                    "1456353"
+                ]
+            },
+            "volume": null,
+            "page": "p 9; 35",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611431",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 9",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucophyllum_frutescens",
+                "type": "species",
+                "archival_data": [
+                    "1416645"
+                ]
+            },
+            "volume": null,
+            "page": "p 9",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611436",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027535"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 14",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_azurea",
+                "type": "species",
+                "archival_data": [
+                    "1429910"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611441",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027930"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 13",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agave_americana",
+                "type": "species",
+                "archival_data": [
+                    "1400923"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611446",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027930"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 24025",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_24025",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hymenocallis_latifolia",
+                "type": "species",
+                "archival_data": [
+                    "1459102"
+                ]
+            },
+            "volume": null,
+            "page": "p 24025",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2611451",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584027930"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 30",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anisacanthus_quadrifidus",
+                "type": "species",
+                "archival_data": [
+                    "1399845"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611456",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584028135"
+            }
+        },
+        {
+            "name": "Wildflower. vol 37, no. 1. (2020)  p 35",
+            "machine_name": "wildflower_vol_37_no_1_2020_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysactinia_mexicana",
+                "type": "species",
+                "archival_data": [
+                    "1433813"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2611461",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1584028135"
+            }
+        }
+    ]
+}

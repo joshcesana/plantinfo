@@ -1,0 +1,14 @@
+{% set isActive = false %}
+{% if itemSlug == currentSlug %}
+  {% set isActive = true %}
+{% endif %}
+<li class="pagination__item">
+  <a
+    class="[ link ] [ pagination__link ]"
+    href="{{ itemSlug }}"
+    {% if isActive %} aria-current="page"{% endif %}
+  >
+    <span class="[ link__text link__text--extended ]">Page </span>
+    <span class="[ link__text link__text--short ]">{{ itemText }}</span>
+  </a>
+</li>

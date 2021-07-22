@@ -1,0 +1,102 @@
+{
+    "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no3. (1994)",
+    "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no3_1994",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1994",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114266",
+        "legacy_id": "5881",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no3. (1994) p backcover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no3_1994_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_philadelphicum",
+                "type": "species",
+                "archival_data": [
+                    "1417716"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1804019",
+                "legacy_id": "108964",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 10, no3. (1994) p backcover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_10_no3_1994_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rudbeckia_hirta",
+                "type": "species",
+                "archival_data": [
+                    "1428694"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1823625",
+                "legacy_id": "130002",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

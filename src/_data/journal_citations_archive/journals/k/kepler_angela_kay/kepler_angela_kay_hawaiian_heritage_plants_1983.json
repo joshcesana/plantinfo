@@ -1,0 +1,1537 @@
+{
+    "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983)",
+    "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1983",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2112357",
+        "legacy_id": "4176",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 89",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mangifera_indica_haden",
+                "type": "variety",
+                "archival_data": [
+                    "1485618"
+                ]
+            },
+            "volume": null,
+            "page": "p 89",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1736567",
+                "legacy_id": "32023",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 69|71-73",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_69_71_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acacia_koa",
+                "type": "species",
+                "archival_data": [
+                    "1401661"
+                ]
+            },
+            "volume": null,
+            "page": "p 69|71-73",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1759245",
+                "legacy_id": "67624",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 129|133",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_129_133",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "argyroxiphium_sandwicense",
+                "type": "species",
+                "archival_data": [
+                    "1401802"
+                ]
+            },
+            "volume": null,
+            "page": "p 129|133",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1764832",
+                "legacy_id": "73181",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 34",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "alpinia_purpurata",
+                "type": "species",
+                "archival_data": [
+                    "1403313"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766274",
+                "legacy_id": "70725",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 74|76",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_74_76",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aleurites_moluccana",
+                "type": "species",
+                "archival_data": [
+                    "1401738"
+                ]
+            },
+            "volume": null,
+            "page": "p 74|76",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1767916",
+                "legacy_id": "69866",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 141",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "broussonetia_papyrifera",
+                "type": "species",
+                "archival_data": [
+                    "1397682"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1769693",
+                "legacy_id": "77069",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 67",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_67",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "casuarina_equisetifolia",
+                "type": "species",
+                "archival_data": [
+                    "1409340"
+                ]
+            },
+            "volume": null,
+            "page": "p 67",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1775845",
+                "legacy_id": "80086",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 81",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clermontia_hirsutinervis",
+                "type": "species",
+                "archival_data": [
+                    "1408664"
+                ]
+            },
+            "volume": null,
+            "page": "p 81",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776667",
+                "legacy_id": "82964",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p cover",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clermontia_montis_loa",
+                "type": "species",
+                "archival_data": [
+                    "1408665"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776668",
+                "legacy_id": "82966",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 137-38",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_137_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cordyline_terminalis",
+                "type": "species",
+                "archival_data": [
+                    "1405276"
+                ]
+            },
+            "volume": null,
+            "page": "p 137-38",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777019",
+                "legacy_id": "84256",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 27-31",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_27_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cocos_nucifera",
+                "type": "species",
+                "archival_data": [
+                    "1409377"
+                ]
+            },
+            "volume": null,
+            "page": "p 27-31",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778267",
+                "legacy_id": "83331",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 134",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_134",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "colocasia_esculenta",
+                "type": "species",
+                "archival_data": [
+                    "1403754"
+                ]
+            },
+            "volume": null,
+            "page": "p 134",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779279",
+                "legacy_id": "83605",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 80",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyanea_aculeatifolia",
+                "type": "species",
+                "archival_data": [
+                    "1409104"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1784342",
+                "legacy_id": "86314",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 4",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_4",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyanea_atra",
+                "type": "species",
+                "archival_data": [
+                    "1409105"
+                ]
+            },
+            "volume": null,
+            "page": "p 4",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1784344",
+                "legacy_id": "86316",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 1|58|60|63",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_1_58_60_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freycinetia_arborea",
+                "type": "species",
+                "archival_data": [
+                    "1414124"
+                ]
+            },
+            "volume": null,
+            "page": "p 1|58|60|63",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1790666",
+                "legacy_id": "97477",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 146-48",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_146_48",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erythrina_tahitensis",
+                "type": "species",
+                "archival_data": [
+                    "1412872"
+                ]
+            },
+            "volume": null,
+            "page": "p 146-48",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791687",
+                "legacy_id": "93850",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 55",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_brackenridgei",
+                "type": "species",
+                "archival_data": [
+                    "1419060"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795202",
+                "legacy_id": "102655",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 55",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_furcellatus",
+                "type": "species",
+                "archival_data": [
+                    "1419073"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795225",
+                "legacy_id": "102678",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 53-54",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_53_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_kokio",
+                "type": "species",
+                "archival_data": [
+                    "1419081"
+                ]
+            },
+            "volume": null,
+            "page": "p 53-54",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795236",
+                "legacy_id": "102693",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 34",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hedychium_flavescens",
+                "type": "species",
+                "archival_data": [
+                    "1410844"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795803",
+                "legacy_id": "101514",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 49-52",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_49_52",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_tiliaceus",
+                "type": "species",
+                "archival_data": [
+                    "1419106"
+                ]
+            },
+            "volume": null,
+            "page": "p 49-52",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795812",
+                "legacy_id": "102785",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 56",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_waimeae",
+                "type": "species",
+                "archival_data": [
+                    "1419108"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795838",
+                "legacy_id": "102811",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 80",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_gaudichaudii",
+                "type": "species",
+                "archival_data": [
+                    "1418879"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801490",
+                "legacy_id": "109795",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 92-93",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_92_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_pes_caprae",
+                "type": "species",
+                "archival_data": [
+                    "1416912"
+                ]
+            },
+            "volume": null,
+            "page": "p 92-93",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1803108",
+                "legacy_id": "104777",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 106-07|109-11",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_106_07_109_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "metrosideros_polymorpha",
+                "type": "species",
+                "archival_data": [
+                    "1420077"
+                ]
+            },
+            "volume": null,
+            "page": "p 106-07|109-11",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1805623",
+                "legacy_id": "113358",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 99|101",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_99_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "morinda_citrifolia",
+                "type": "species",
+                "archival_data": [
+                    "1421649"
+                ]
+            },
+            "volume": null,
+            "page": "p 99|101",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1808882",
+                "legacy_id": "114184",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 8-9|46-48",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_8_9_46_48",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pandanus_odoratissimus",
+                "type": "species",
+                "archival_data": [
+                    "1424100"
+                ]
+            },
+            "volume": null,
+            "page": "p 8-9|46-48",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1813385",
+                "legacy_id": "118067",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 97-98",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_97_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scaevola_taccada",
+                "type": "species",
+                "archival_data": [
+                    "1432520"
+                ]
+            },
+            "volume": null,
+            "page": "p 97-98",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826669",
+                "legacy_id": "132140",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 94-96",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_94_96",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syzygium_malaccense",
+                "type": "species",
+                "archival_data": [
+                    "1428889"
+                ]
+            },
+            "volume": null,
+            "page": "p 94-96",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1826911",
+                "legacy_id": "136241",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 122",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_122",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "santalum_freycinetianum",
+                "type": "species",
+                "archival_data": [
+                    "1430657"
+                ]
+            },
+            "volume": null,
+            "page": "p 122",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828211",
+                "legacy_id": "131210",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 122",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_122",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "santalum_haleakalae",
+                "type": "species",
+                "archival_data": [
+                    "1430658"
+                ]
+            },
+            "volume": null,
+            "page": "p 122",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828213",
+                "legacy_id": "131212",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 86-88|backcover",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_86_88_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sophora_chrysophylla",
+                "type": "species",
+                "archival_data": [
+                    "1431111"
+                ]
+            },
+            "volume": null,
+            "page": "p 86-88|backcover",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830361",
+                "legacy_id": "134418",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 112",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "touchardia_latifolia",
+                "type": "species",
+                "archival_data": [
+                    "1432340"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834189",
+                "legacy_id": "138104",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 33",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zingiber_zerumbet",
+                "type": "species",
+                "archival_data": [
+                    "1439056"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1840138",
+                "legacy_id": "142366",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 115-16",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_115_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "argemone_glauca",
+                "type": "species",
+                "archival_data": [
+                    "1401472"
+                ]
+            },
+            "volume": null,
+            "page": "p 115-16",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897786",
+                "legacy_id": "246724",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 150",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_150",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "argyroxiphium_kauense",
+                "type": "species",
+                "archival_data": [
+                    "1401800"
+                ]
+            },
+            "volume": null,
+            "page": "p 150",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1897797",
+                "legacy_id": "246735",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Kepler, Angela Kay. Hawaiian Heritage Plants. (1983) p 83",
+            "machine_name": "kepler_angela_kay_hawaiian_heritage_plants_1983_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brighamia_citrina",
+                "type": "species",
+                "archival_data": [
+                    "1403460"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1947553",
+                "legacy_id": "288643",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 8, no. 4. (1994)",
+    "machine_name": "weed_technology_vol_8_no_4_1994",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1994",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115928",
+        "legacy_id": "7949",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 8, no. 4. (1994) p cover",
+            "machine_name": "weed_technology_vol_8_no_4_1994_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cirsium_arvense",
+                "type": "species",
+                "archival_data": [
+                    "1407447"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1859923",
+                "legacy_id": "166609",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

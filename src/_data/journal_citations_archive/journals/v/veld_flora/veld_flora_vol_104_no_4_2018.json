@@ -1,0 +1,1127 @@
+{
+    "name": "Veld & Flora. vol 104, no. 4. (2018)",
+    "machine_name": "veld_flora_vol_104_no_4_2018",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2018",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2494851",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1552908856"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 151",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liparia_laevigata",
+                "type": "species",
+                "archival_data": [
+                    "2494861"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494881",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 153",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_153",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_priorii",
+                "type": "species",
+                "archival_data": [
+                    "1412279"
+                ]
+            },
+            "volume": null,
+            "page": "p 153",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494886",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p cover; 154-57",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_cover_154_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cynorhiza_meifolia",
+                "type": "species",
+                "archival_data": [
+                    "2494856"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 154-57",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494891",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 158--61",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_158_61",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "boscia_albitrunca",
+                "type": "species",
+                "archival_data": [
+                    "1402343"
+                ]
+            },
+            "volume": null,
+            "page": "p 158--61",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494896",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 164",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_164",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclopia_subternata",
+                "type": "species",
+                "archival_data": [
+                    "2466606"
+                ]
+            },
+            "volume": null,
+            "page": "p 164",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494901",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 166",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_166",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclopia_intermedia",
+                "type": "species",
+                "archival_data": [
+                    "1441462"
+                ]
+            },
+            "volume": null,
+            "page": "p 166",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494906",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 167",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_167",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclopia_genistoides",
+                "type": "species",
+                "archival_data": [
+                    "1409478"
+                ]
+            },
+            "volume": null,
+            "page": "p 167",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494911",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 174",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_174",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oscularia_deltoides",
+                "type": "species",
+                "archival_data": [
+                    "1455619"
+                ]
+            },
+            "volume": null,
+            "page": "p 174",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494916",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 174",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_174",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_fulgidum",
+                "type": "species",
+                "archival_data": [
+                    "1438251"
+                ]
+            },
+            "volume": null,
+            "page": "p 174",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494921",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 174",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_174",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "babiana_rubrocyanea",
+                "type": "species",
+                "archival_data": [
+                    "1399144"
+                ]
+            },
+            "volume": null,
+            "page": "p 174",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494926",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 174",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_174",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bulbine_lagopus",
+                "type": "species",
+                "archival_data": [
+                    "1451641"
+                ]
+            },
+            "volume": null,
+            "page": "p 174",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494931",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_exilis",
+                "type": "species",
+                "archival_data": [
+                    "1437119"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494936",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloinopsis_malherbei",
+                "type": "species",
+                "archival_data": [
+                    "1439654"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494941",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gasteria_batesiana",
+                "type": "species",
+                "archival_data": [
+                    "1409979"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494946",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_muscosa",
+                "type": "species",
+                "archival_data": [
+                    "1407197"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494951",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_pygmaea",
+                "type": "species",
+                "archival_data": [
+                    "1440034"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494956",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 175",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_175",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adromischus_cooperi",
+                "type": "species",
+                "archival_data": [
+                    "1399352"
+                ]
+            },
+            "volume": null,
+            "page": "p 175",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494961",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 176",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_176",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "senecio_rowleyanus",
+                "type": "species",
+                "archival_data": [
+                    "1428825"
+                ]
+            },
+            "volume": null,
+            "page": "p 176",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494966",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 176",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_176",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassothonna_capensis",
+                "type": "species",
+                "archival_data": [
+                    "2494876"
+                ]
+            },
+            "volume": null,
+            "page": "p 176",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494971",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 176",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_176",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_perforata",
+                "type": "species",
+                "archival_data": [
+                    "1407204"
+                ]
+            },
+            "volume": null,
+            "page": "p 176",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494976",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 177",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_177",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "huernia_thuretii",
+                "type": "species",
+                "archival_data": [
+                    "1446694"
+                ]
+            },
+            "volume": null,
+            "page": "p 177",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494981",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 177",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_177",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_pictifolia",
+                "type": "species",
+                "archival_data": [
+                    "1403221"
+                ]
+            },
+            "volume": null,
+            "page": "p 177",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494986",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 178",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_bowiea",
+                "type": "species",
+                "archival_data": [
+                    "1402536"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494991",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 178",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_178",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_descoingsii",
+                "type": "species",
+                "archival_data": [
+                    "1402848"
+                ]
+            },
+            "volume": null,
+            "page": "p 178",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2494996",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 179-81",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_179_81",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gasteria_barbae",
+                "type": "species",
+                "archival_data": [
+                    "1462074"
+                ]
+            },
+            "volume": null,
+            "page": "p 179-81",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2495001",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 184",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_184",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zaluzianskya_microsiphon",
+                "type": "species",
+                "archival_data": [
+                    "1438689"
+                ]
+            },
+            "volume": null,
+            "page": "p 184",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2495006",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 4. (2018) p 186",
+            "machine_name": "veld_flora_vol_104_no_4_2018_p_186",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hydnora_africana",
+                "type": "species",
+                "archival_data": [
+                    "1420961"
+                ]
+            },
+            "volume": null,
+            "page": "p 186",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2495011",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1552910427"
+            }
+        }
+    ]
+}

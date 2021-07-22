@@ -1,0 +1,184 @@
+{
+    "name": "Kew Bulletin. vol 62, no. 1. (2007)",
+    "machine_name": "kew_bulletin_vol_62_no_1_2007",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2007",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121005",
+        "legacy_id": "84669",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 62, no. 1. (2007) p 97, Pl. 1a;102, Pl. 3a,d",
+            "machine_name": "kew_bulletin_vol_62_no_1_2007_p_97_pl_1a_102_pl_3a_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scabiosa_japonica_japonica",
+                "type": "variety",
+                "archival_data": [
+                    "1632991"
+                ]
+            },
+            "volume": null,
+            "page": "p 97, Pl. 1a;102, Pl. 3a,d",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1973150",
+                "legacy_id": "348653",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 1. (2007) p 97, Pl. 1b;102, Pl. 3e-f",
+            "machine_name": "kew_bulletin_vol_62_no_1_2007_p_97_pl_1b_102_pl_3e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scabiosa_jezoensis",
+                "type": "species",
+                "archival_data": [
+                    "1451157"
+                ]
+            },
+            "volume": null,
+            "page": "p 97, Pl. 1b;102, Pl. 3e-f",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1973151",
+                "legacy_id": "348652",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 1. (2007) p 109, Pl. 1a-c",
+            "machine_name": "kew_bulletin_vol_62_no_1_2007_p_109_pl_1a_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lagopsis_darwiniana",
+                "type": "species",
+                "archival_data": [
+                    "1451158"
+                ]
+            },
+            "volume": null,
+            "page": "p 109, Pl. 1a-c",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1973152",
+                "legacy_id": "348654",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 1. (2007) p 102, Pl. 3b",
+            "machine_name": "kew_bulletin_vol_62_no_1_2007_p_102_pl_3b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scabiosa_japonica_alpina",
+                "type": "variety",
+                "archival_data": [
+                    "1552292"
+                ]
+            },
+            "volume": null,
+            "page": "p 102, Pl. 3b",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1975907",
+                "legacy_id": "347615",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483193355"
+            }
+        }
+    ]
+}

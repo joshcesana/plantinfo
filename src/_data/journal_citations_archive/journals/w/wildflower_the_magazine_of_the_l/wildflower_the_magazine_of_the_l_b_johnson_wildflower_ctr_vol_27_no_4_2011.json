@@ -1,0 +1,717 @@
+{
+    "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011)",
+    "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2011",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2122840",
+        "legacy_id": "113709",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p cover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "blechnum_spicant",
+                "type": "species",
+                "archival_data": [
+                    "1441090"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2013161",
+                "legacy_id": "431024",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p inside cover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_inside_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acalypha_radians",
+                "type": "species",
+                "archival_data": [
+                    "1461228"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2013162",
+                "legacy_id": "431025",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 7",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erythronium_albidum",
+                "type": "species",
+                "archival_data": [
+                    "1412879"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2013163",
+                "legacy_id": "431026",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 13",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "athyrium_filix_femina",
+                "type": "species",
+                "archival_data": [
+                    "1440716"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2013164",
+                "legacy_id": "431027",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 15; 17",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_15_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adiantum_pedatum",
+                "type": "species",
+                "archival_data": [
+                    "1440718"
+                ]
+            },
+            "volume": null,
+            "page": "p 15; 17",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2013165",
+                "legacy_id": "431028",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 15; 19",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_15_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "selaginella_oregana",
+                "type": "species",
+                "archival_data": [
+                    "1461500"
+                ]
+            },
+            "volume": null,
+            "page": "p 15; 19",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065707",
+                "legacy_id": "431029",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 14",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "notholaena_standleyi",
+                "type": "species",
+                "archival_data": [
+                    "1452147"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065708",
+                "legacy_id": "431030",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 16",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polystichum_acrostichoides",
+                "type": "species",
+                "archival_data": [
+                    "1435809"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065709",
+                "legacy_id": "431031",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 17",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polystichum_munitum",
+                "type": "species",
+                "archival_data": [
+                    "1440389"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065710",
+                "legacy_id": "431032",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 18",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "osmunda_cinnamomea",
+                "type": "species",
+                "archival_data": [
+                    "1438618"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065712",
+                "legacy_id": "431034",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 20",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nothoscordum_bivalve",
+                "type": "species",
+                "archival_data": [
+                    "1424738"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065713",
+                "legacy_id": "431035",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 24; backcover",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_24_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tetraneuris_scaposa",
+                "type": "species",
+                "archival_data": [
+                    "1429732"
+                ]
+            },
+            "volume": null,
+            "page": "p 24; backcover",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065714",
+                "legacy_id": "431039",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 25",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plantago_helleri",
+                "type": "species",
+                "archival_data": [
+                    "1461501"
+                ]
+            },
+            "volume": null,
+            "page": "p 25",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065715",
+                "legacy_id": "431040",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 29",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimulus_cultivars_soquel_orange",
+                "type": "variety",
+                "archival_data": [
+                    "1655495"
+                ]
+            },
+            "volume": null,
+            "page": "p 29",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2065717",
+                "legacy_id": "431042",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 22",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bouteloua_hirsuta",
+                "type": "species",
+                "archival_data": [
+                    "1402668"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073357",
+                "legacy_id": "431036",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 22; 26",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_22_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chaptalia_texana",
+                "type": "species",
+                "archival_data": [
+                    "1458731"
+                ]
+            },
+            "volume": null,
+            "page": "p 22; 26",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073358",
+                "legacy_id": "431037",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        },
+        {
+            "name": "Wildflower: The Magazine of the L.B. Johnson Wildflower Ctr. vol 27, no. 4. (2011) p 23; 27",
+            "machine_name": "wildflower_the_magazine_of_the_l_b_johnson_wildflower_ctr_vol_27_no_4_2011_p_23_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyla_nodiflora",
+                "type": "species",
+                "archival_data": [
+                    "1423814"
+                ]
+            },
+            "volume": null,
+            "page": "p 23; 27",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2073359",
+                "legacy_id": "431038",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483209571"
+            }
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "name": "Wildflower: North America's Wild Flora Magazine. vol 11, no. 4. (1995)",
+    "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_11_no_4_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114450",
+        "legacy_id": "5886",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 11, no. 4. (1995) p backcover",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_11_no_4_1995_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pinus_longaeva",
+                "type": "species",
+                "archival_data": [
+                    "1425304"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817572",
+                "legacy_id": "121875",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

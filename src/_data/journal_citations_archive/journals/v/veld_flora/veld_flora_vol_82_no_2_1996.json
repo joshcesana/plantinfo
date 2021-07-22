@@ -1,0 +1,266 @@
+{
+    "name": "Veld & Flora. vol 82, no. 2. (1996)",
+    "machine_name": "veld_flora_vol_82_no_2_1996",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1996",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2111409",
+        "legacy_id": "5800",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 45",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_tristis_aestivalis",
+                "type": "variety",
+                "archival_data": [
+                    "1472297"
+                ]
+            },
+            "volume": null,
+            "page": "p 45",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717639",
+                "legacy_id": "16803",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 57",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1402861"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765323",
+                "legacy_id": "70518",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 53",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_53",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "amaryllis_belladonna",
+                "type": "species",
+                "archival_data": [
+                    "1398251"
+                ]
+            },
+            "volume": null,
+            "page": "p 53",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1767269",
+                "legacy_id": "71000",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 55",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_55",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_cerinthoides",
+                "type": "species",
+                "archival_data": [
+                    "1410158"
+                ]
+            },
+            "volume": null,
+            "page": "p 55",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1786833",
+                "legacy_id": "92788",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 54",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_54",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oxalis_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1423332"
+                ]
+            },
+            "volume": null,
+            "page": "p 54",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1811720",
+                "legacy_id": "117618",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 82, no. 2. (1996) p 56",
+            "machine_name": "veld_flora_vol_82_no_2_1996_p_56",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phylica_plumosa",
+                "type": "species",
+                "archival_data": [
+                    "1423816"
+                ]
+            },
+            "volume": null,
+            "page": "p 56",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1819456",
+                "legacy_id": "121053",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

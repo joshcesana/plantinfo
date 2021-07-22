@@ -1,0 +1,307 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1999",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115705",
+        "legacy_id": "7986",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p backcover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "maianthemum_racemosum",
+                "type": "species",
+                "archival_data": [
+                    "1450701"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1856171",
+                "legacy_id": "166940",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p cover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_cardinalis",
+                "type": "species",
+                "archival_data": [
+                    "1418867"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861201",
+                "legacy_id": "166934",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p 10-11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_spicata",
+                "type": "species",
+                "archival_data": [
+                    "1417019"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861202",
+                "legacy_id": "166935",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p 10-11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_punctata",
+                "type": "species",
+                "archival_data": [
+                    "1417016"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861203",
+                "legacy_id": "166936",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_aspera",
+                "type": "species",
+                "archival_data": [
+                    "1417007"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861204",
+                "legacy_id": "166937",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_ligulistylis",
+                "type": "species",
+                "archival_data": [
+                    "1417013"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861205",
+                "legacy_id": "166938",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 15, no. 4. (1999) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_15_no_4_1999_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_cylindracea",
+                "type": "species",
+                "archival_data": [
+                    "1417009"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1999",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1861206",
+                "legacy_id": "166939",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

@@ -1,0 +1,430 @@
+{
+    "name": "Kew Bulletin. vol 53, no. 3. (1998)",
+    "machine_name": "kew_bulletin_vol_53_no_3_1998",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1998",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115404",
+        "legacy_id": "6796",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 610, Pl. 2(c)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_610_pl_2_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_rhacodes",
+                "type": "species",
+                "archival_data": [
+                    "1442531"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2(c)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850571",
+                "legacy_id": "152828",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 609, Pl. 1(a)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_609_pl_1_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_spectabile_spectabile",
+                "type": "variety",
+                "archival_data": [
+                    "1539496"
+                ]
+            },
+            "volume": null,
+            "page": "p 609, Pl. 1(a)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850572",
+                "legacy_id": "152829",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 609, Pl. 1(b)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_609_pl_1_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_fornicatum_fornicatum",
+                "type": "variety",
+                "archival_data": [
+                    "1539497"
+                ]
+            },
+            "volume": null,
+            "page": "p 609, Pl. 1(b)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850573",
+                "legacy_id": "152830",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 610, Pl. 2(a)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_610_pl_2_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_pedunculatum",
+                "type": "species",
+                "archival_data": [
+                    "1442541"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2(a)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850578",
+                "legacy_id": "152835",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 610, Pl. 2(b)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_610_pl_2_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_fornicatum_tridentatum",
+                "type": "variety",
+                "archival_data": [
+                    "1539506"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 2(b)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850580",
+                "legacy_id": "152837",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 611, Pl. 3(a)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_611_pl_3_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_angustatum_angustatum",
+                "type": "variety",
+                "archival_data": [
+                    "1539504"
+                ]
+            },
+            "volume": null,
+            "page": "p 611, Pl. 3(a)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850582",
+                "legacy_id": "152839",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 611, Pl. 3(b)-(c).",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_611_pl_3_b_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_gigantiflorum",
+                "type": "species",
+                "archival_data": [
+                    "1442542"
+                ]
+            },
+            "volume": null,
+            "page": "p 611, Pl. 3(b)-(c).",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850583",
+                "legacy_id": "152840",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 611, Pl. 3(d)-(e).",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_611_pl_3_d_e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stathmostelma_pauciflorum",
+                "type": "species",
+                "archival_data": [
+                    "1442543"
+                ]
+            },
+            "volume": null,
+            "page": "p 611, Pl. 3(d)-(e).",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850584",
+                "legacy_id": "152841",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 619, Pl. 1(a)-(b)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_619_pl_1_a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stifftia_fruticosa",
+                "type": "species",
+                "archival_data": [
+                    "1442546"
+                ]
+            },
+            "volume": null,
+            "page": "p 619, Pl. 1(a)-(b)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850589",
+                "legacy_id": "152846",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 53, no. 3. (1998) p 619, Pl. 1(c)-(d)",
+            "machine_name": "kew_bulletin_vol_53_no_3_1998_p_619_pl_1_c_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stifftia_chrysantha_flavicans",
+                "type": "variety",
+                "archival_data": [
+                    "1539511"
+                ]
+            },
+            "volume": null,
+            "page": "p 619, Pl. 1(c)-(d)",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850591",
+                "legacy_id": "152848",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

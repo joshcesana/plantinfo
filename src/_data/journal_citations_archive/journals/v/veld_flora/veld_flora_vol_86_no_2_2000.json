@@ -1,0 +1,881 @@
+{
+    "name": "Veld & Flora. vol 86, no. 2. (2000)",
+    "machine_name": "veld_flora_vol_86_no_2_2000",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2000",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2116402",
+        "legacy_id": "15191",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p cover",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bulbinella_latifolia",
+                "type": "species",
+                "archival_data": [
+                    "1398077"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870361",
+                "legacy_id": "195574",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 62",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cheiridopsis_peculiaris",
+                "type": "species",
+                "archival_data": [
+                    "1405959"
+                ]
+            },
+            "volume": null,
+            "page": "p 62",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870362",
+                "legacy_id": "195575",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 62",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "meyerophytum_globosum",
+                "type": "species",
+                "archival_data": [
+                    "1444880"
+                ]
+            },
+            "volume": null,
+            "page": "p 62",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870363",
+                "legacy_id": "195590",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 63",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_63",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eriospermum_titanopsoides",
+                "type": "species",
+                "archival_data": [
+                    "1444881"
+                ]
+            },
+            "volume": null,
+            "page": "p 63",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870364",
+                "legacy_id": "195610",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 64",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_64",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diplosoma_luckhoffii",
+                "type": "species",
+                "archival_data": [
+                    "1409234"
+                ]
+            },
+            "volume": null,
+            "page": "p 64",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870365",
+                "legacy_id": "195611",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 65",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_zebrina",
+                "type": "species",
+                "archival_data": [
+                    "1444882"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870366",
+                "legacy_id": "195612",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 68",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crinum_moorei",
+                "type": "species",
+                "archival_data": [
+                    "1407928"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870367",
+                "legacy_id": "195613",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 69",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "begonia_sutherlandii",
+                "type": "species",
+                "archival_data": [
+                    "1400742"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870368",
+                "legacy_id": "195614",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 69",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_boylei",
+                "type": "species",
+                "archival_data": [
+                    "1402537"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870369",
+                "legacy_id": "195615",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 71",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunsvigia_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1397725"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870370",
+                "legacy_id": "195616",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 71",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acmadenia_laxa",
+                "type": "species",
+                "archival_data": [
+                    "1444883"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870371",
+                "legacy_id": "195617",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 72",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1402861"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870372",
+                "legacy_id": "195618",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 72",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crossyne_guttata",
+                "type": "species",
+                "archival_data": [
+                    "1444884"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870373",
+                "legacy_id": "195619",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 73",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_daphniflora",
+                "type": "species",
+                "archival_data": [
+                    "1410200"
+                ]
+            },
+            "volume": null,
+            "page": "p 73",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870374",
+                "legacy_id": "195620",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 74",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_74",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_vanderspuyiae",
+                "type": "species",
+                "archival_data": [
+                    "1437912"
+                ]
+            },
+            "volume": null,
+            "page": "p 74",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870375",
+                "legacy_id": "195621",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 75",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_susannae",
+                "type": "species",
+                "archival_data": [
+                    "1425017"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870376",
+                "legacy_id": "195622",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 76",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_76",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_nana",
+                "type": "species",
+                "archival_data": [
+                    "1424997"
+                ]
+            },
+            "volume": null,
+            "page": "p 76",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870377",
+                "legacy_id": "195623",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 77",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_77",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anemone_tenuifolia",
+                "type": "species",
+                "archival_data": [
+                    "1444885"
+                ]
+            },
+            "volume": null,
+            "page": "p 77",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870378",
+                "legacy_id": "195624",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 83",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anacampseros_lanceolata",
+                "type": "species",
+                "archival_data": [
+                    "1398652"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870379",
+                "legacy_id": "195625",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 83",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ferraria_crispa",
+                "type": "species",
+                "archival_data": [
+                    "1412937"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870380",
+                "legacy_id": "195626",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 86, no. 2. (2000) p 90",
+            "machine_name": "veld_flora_vol_86_no_2_2000_p_90",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kniphofia_bruceae",
+                "type": "species",
+                "archival_data": [
+                    "1443662"
+                ]
+            },
+            "volume": null,
+            "page": "p 90",
+            "year": "2000",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1870381",
+                "legacy_id": "195627",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

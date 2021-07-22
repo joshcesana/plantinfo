@@ -1,0 +1,1209 @@
+{
+    "name": "Veld & Flora. vol 80, no. 3. (1994)",
+    "machine_name": "veld_flora_vol_80_no_3_1994",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1994",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113121",
+        "legacy_id": "5793",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 72",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acacia_cyclops",
+                "type": "species",
+                "archival_data": [
+                    "1401278"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1758883",
+                "legacy_id": "67507",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acmadenia_heterophylla",
+                "type": "species",
+                "archival_data": [
+                    "1398193"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1767801",
+                "legacy_id": "68461",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aspalathus_candidula",
+                "type": "species",
+                "archival_data": [
+                    "1403023"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1773752",
+                "legacy_id": "74107",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 91",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_fastigiata",
+                "type": "species",
+                "archival_data": [
+                    "1410236"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1786996",
+                "legacy_id": "92869",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_oblongiflora",
+                "type": "species",
+                "archival_data": [
+                    "1410961"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787307",
+                "legacy_id": "93019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 71",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_occulta",
+                "type": "species",
+                "archival_data": [
+                    "1410963"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787310",
+                "legacy_id": "93022",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 86-87",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_86_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_porteri",
+                "type": "species",
+                "archival_data": [
+                    "1411008"
+                ]
+            },
+            "volume": null,
+            "page": "p 86-87",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787351",
+                "legacy_id": "93063",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_propinqua",
+                "type": "species",
+                "archival_data": [
+                    "1411300"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787356",
+                "legacy_id": "93068",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_pulvinata",
+                "type": "species",
+                "archival_data": [
+                    "1411305"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787362",
+                "legacy_id": "93074",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 71",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_scytophylla",
+                "type": "species",
+                "archival_data": [
+                    "1411330"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787472",
+                "legacy_id": "93102",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 91",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_vestita",
+                "type": "species",
+                "archival_data": [
+                    "1411699"
+                ]
+            },
+            "volume": null,
+            "page": "p 91",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787642",
+                "legacy_id": "93190",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_elimensis",
+                "type": "species",
+                "archival_data": [
+                    "1414110"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1790643",
+                "legacy_id": "97446",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euchaetis_intonsa",
+                "type": "species",
+                "archival_data": [
+                    "1415177"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1791429",
+                "legacy_id": "95002",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "felicia_ebracteata",
+                "type": "species",
+                "archival_data": [
+                    "1412608"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1792838",
+                "legacy_id": "96698",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 80",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "harveya_stenosiphon",
+                "type": "species",
+                "archival_data": [
+                    "1410119"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1795114",
+                "legacy_id": "101312",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_muirii",
+                "type": "species",
+                "archival_data": [
+                    "1419966"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800956",
+                "legacy_id": "106827",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_meridianum",
+                "type": "species",
+                "archival_data": [
+                    "1416603"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1801335",
+                "legacy_id": "108212",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_saxatilis",
+                "type": "species",
+                "archival_data": [
+                    "1420488"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806306",
+                "legacy_id": "113551",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "muraltia_pappeana",
+                "type": "species",
+                "archival_data": [
+                    "1415658"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1809502",
+                "legacy_id": "114315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 78-79",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_78_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "osmitopsis_asteriscoides",
+                "type": "species",
+                "archival_data": [
+                    "1422935"
+                ]
+            },
+            "volume": null,
+            "page": "p 78-79",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810788",
+                "legacy_id": "117418",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 92",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_comptonii",
+                "type": "species",
+                "archival_data": [
+                    "1424976"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817741",
+                "legacy_id": "124538",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 93",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_curvata",
+                "type": "species",
+                "archival_data": [
+                    "1424979"
+                ]
+            },
+            "volume": null,
+            "page": "p 93",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817743",
+                "legacy_id": "124540",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 92",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_laetans",
+                "type": "species",
+                "archival_data": [
+                    "1424990"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818019",
+                "legacy_id": "124575",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_obtusifolia",
+                "type": "species",
+                "archival_data": [
+                    "1425000"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818045",
+                "legacy_id": "124601",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 93",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_rubropilosa",
+                "type": "species",
+                "archival_data": [
+                    "1425010"
+                ]
+            },
+            "volume": null,
+            "page": "p 93",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1818065",
+                "legacy_id": "124621",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stoebe_muirii",
+                "type": "species",
+                "archival_data": [
+                    "1433391"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1829819",
+                "legacy_id": "135624",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 94",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "streptocarpus_primulifolius",
+                "type": "species",
+                "archival_data": [
+                    "1433440"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830152",
+                "legacy_id": "135716",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_fergusoniae",
+                "type": "species",
+                "archival_data": [
+                    "1437639"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1832153",
+                "legacy_id": "141631",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 80, no. 3. (1994) p 68",
+            "machine_name": "veld_flora_vol_80_no_3_1994_p_68",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_eriantha",
+                "type": "species",
+                "archival_data": [
+                    "1400920"
+                ]
+            },
+            "volume": null,
+            "page": "p 68",
+            "year": "1994",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1895235",
+                "legacy_id": "239171",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

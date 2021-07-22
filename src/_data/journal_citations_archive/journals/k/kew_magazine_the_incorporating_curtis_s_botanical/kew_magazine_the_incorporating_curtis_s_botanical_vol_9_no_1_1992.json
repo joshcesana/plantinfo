@@ -1,0 +1,266 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1992",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2113865",
+        "legacy_id": "4232",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p 4",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_4",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "centropogon_cornutus",
+                "type": "species",
+                "archival_data": [
+                    "1404771"
+                ]
+            },
+            "volume": null,
+            "page": "p 4",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779119",
+                "legacy_id": "80895",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p 8",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "neomarica_caerulea",
+                "type": "species",
+                "archival_data": [
+                    "1417201"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1806696",
+                "legacy_id": "115136",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p 18",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_brookeanum",
+                "type": "species",
+                "archival_data": [
+                    "1424008"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1823791",
+                "legacy_id": "127440",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p 10",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tropaeolum_peregrinum",
+                "type": "species",
+                "archival_data": [
+                    "1427524"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1832680",
+                "legacy_id": "139062",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p cover; 12",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_cover_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "camptosema_scarlatinum_pubescens",
+                "type": "variety",
+                "archival_data": [
+                    "1602214"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 12",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1948295",
+                "legacy_id": "290603",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 9, no. 1. (1992) p 16",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_9_no_1_1992_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_princess_alice",
+                "type": "variety",
+                "archival_data": [
+                    "1645260"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2292591",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1523277228"
+            }
+        }
+    ]
+}

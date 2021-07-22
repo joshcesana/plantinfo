@@ -1,0 +1,471 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2001",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117126",
+        "legacy_id": "30152",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 10-11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chrysothamnus_nauseosus",
+                "type": "species",
+                "archival_data": [
+                    "1407084"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884362",
+                "legacy_id": "221990",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 10",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "populus_tremuloides",
+                "type": "species",
+                "archival_data": [
+                    "1422779"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884363",
+                "legacy_id": "221991",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "artemisia_frigida",
+                "type": "species",
+                "archival_data": [
+                    "1402570"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884364",
+                "legacy_id": "221992",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "quercus_gambelii",
+                "type": "species",
+                "archival_data": [
+                    "1421694"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884365",
+                "legacy_id": "221993",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pediocactus_simpsonii",
+                "type": "species",
+                "archival_data": [
+                    "1426632"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884366",
+                "legacy_id": "221994",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phlox_caespitosa_pulvinata",
+                "type": "variety",
+                "archival_data": [
+                    "1489211"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884367",
+                "legacy_id": "221995",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aquilegia_caerulea",
+                "type": "species",
+                "archival_data": [
+                    "1400654"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884368",
+                "legacy_id": "221996",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "megalodonta_beckii",
+                "type": "species",
+                "archival_data": [
+                    "1450041"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884369",
+                "legacy_id": "221997",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 34-35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_34_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acer_platanoides",
+                "type": "species",
+                "archival_data": [
+                    "1403183"
+                ]
+            },
+            "volume": null,
+            "page": "p 34-35",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884370",
+                "legacy_id": "221998",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 38-39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_38_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "baptisia_sphaerocarpa",
+                "type": "species",
+                "archival_data": [
+                    "1399909"
+                ]
+            },
+            "volume": null,
+            "page": "p 38-39",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884371",
+                "legacy_id": "221999",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 4. (2001) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_4_2001_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "baptisia_alba",
+                "type": "species",
+                "archival_data": [
+                    "1399608"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1884372",
+                "legacy_id": "222000",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

@@ -1,0 +1,184 @@
+{
+    "name": "Kew Bulletin. vol 37, no. 3. (1982)",
+    "machine_name": "kew_bulletin_vol_37_no_3_1982",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1982",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113895",
+        "legacy_id": "4178",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 37, no. 3. (1982) p 400, Pl. 26a.",
+            "machine_name": "kew_bulletin_vol_37_no_3_1982_p_400_pl_26a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_aloifolium",
+                "type": "species",
+                "archival_data": [
+                    "1409510"
+                ]
+            },
+            "volume": null,
+            "page": "p 400, Pl. 26a.",
+            "year": "1982",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780487",
+                "legacy_id": "86628",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 37, no. 3. (1982) p 400, Pl. 26b.",
+            "machine_name": "kew_bulletin_vol_37_no_3_1982_p_400_pl_26b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_atropurpureum",
+                "type": "species",
+                "archival_data": [
+                    "1409511"
+                ]
+            },
+            "volume": null,
+            "page": "p 400, Pl. 26b.",
+            "year": "1982",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780493",
+                "legacy_id": "86634",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 37, no. 3. (1982) p 400, Pl. 27a.",
+            "machine_name": "kew_bulletin_vol_37_no_3_1982_p_400_pl_27a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_bicolor",
+                "type": "species",
+                "archival_data": [
+                    "1409512"
+                ]
+            },
+            "volume": null,
+            "page": "p 400, Pl. 27a.",
+            "year": "1982",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780495",
+                "legacy_id": "86636",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 37, no. 3. (1982) p 400, Pl. 27b.",
+            "machine_name": "kew_bulletin_vol_37_no_3_1982_p_400_pl_27b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cymbidium_findlaysonianum",
+                "type": "species",
+                "archival_data": [
+                    "1409523"
+                ]
+            },
+            "volume": null,
+            "page": "p 400, Pl. 27b.",
+            "year": "1982",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780521",
+                "legacy_id": "86662",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

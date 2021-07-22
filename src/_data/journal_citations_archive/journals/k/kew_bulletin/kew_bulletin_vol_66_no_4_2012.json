@@ -1,0 +1,61 @@
+{
+    "name": "Kew Bulletin. vol 66, no. 4. (2012)",
+    "machine_name": "kew_bulletin_vol_66_no_4_2012",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2012",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2124042",
+        "legacy_id": "117396",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 66, no. 4. (2012) p 550, Pl. 2A-B",
+            "machine_name": "kew_bulletin_vol_66_no_4_2012_p_550_pl_2a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corydalis_nana",
+                "type": "species",
+                "archival_data": [
+                    "1445376"
+                ]
+            },
+            "volume": null,
+            "page": "p 550, Pl. 2A-B",
+            "year": "2012",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2063333",
+                "legacy_id": "444870",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

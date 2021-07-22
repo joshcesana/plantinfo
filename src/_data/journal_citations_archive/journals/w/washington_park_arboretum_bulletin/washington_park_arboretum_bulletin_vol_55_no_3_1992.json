@@ -1,0 +1,471 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1992",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120194",
+        "legacy_id": "88489",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "populus_tremuloides",
+                "type": "species",
+                "archival_data": [
+                    "1422779"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951775",
+                "legacy_id": "359052",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gaultheria_shallon",
+                "type": "species",
+                "archival_data": [
+                    "1410350"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951776",
+                "legacy_id": "359053",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 2;13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_2_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ribes_sanguineum",
+                "type": "species",
+                "archival_data": [
+                    "1432874"
+                ]
+            },
+            "volume": null,
+            "page": "p 2;13",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952007",
+                "legacy_id": "359054",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mahonia_piperiana",
+                "type": "species",
+                "archival_data": [
+                    "1440582"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952008",
+                "legacy_id": "359055",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 16",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "vaccinium_parvifolium",
+                "type": "species",
+                "archival_data": [
+                    "1428678"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952009",
+                "legacy_id": "359056",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 16",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paxistima_myrsinites",
+                "type": "species",
+                "archival_data": [
+                    "1426274"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952010",
+                "legacy_id": "359057",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 16",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "juniperus_scopulorum",
+                "type": "species",
+                "archival_data": [
+                    "1419129"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952011",
+                "legacy_id": "359058",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 16",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acer_circinatum",
+                "type": "species",
+                "archival_data": [
+                    "1402819"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952012",
+                "legacy_id": "359059",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rosa_nutkana",
+                "type": "species",
+                "archival_data": [
+                    "1427953"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952013",
+                "legacy_id": "359060",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "penstemon_fruticosus",
+                "type": "species",
+                "archival_data": [
+                    "1427363"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952014",
+                "legacy_id": "359061",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 55, no. 3. (1992) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_55_no_3_1992_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "amelanchier_alnifolia",
+                "type": "species",
+                "archival_data": [
+                    "1398272"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1952015",
+                "legacy_id": "359062",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

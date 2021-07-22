@@ -1,0 +1,28 @@
+<div class="nursery-address">
+  {% if nursery_details.address_1 !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--address ]">
+      {{ nursery_details.address_1 }}
+    </div>
+  {% endif %}
+  {% if nursery_details.address_2 !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--address ]">
+      {{ nursery_details.address_2 }}
+    </div>
+  {% endif %}
+  <div class="[ nursery-info ] [ nursery-info--address ]">
+    {% if nursery_details.city !== "" %}
+      <span class="[ nursery-info__inline" ]>{{ nursery_details.city }}, </span>
+    {% endif %}
+    {% if nursery_details.state !== "" %}
+      <span class="[ nursery-info__inline" ]>{{ nursery_details.state }} </span>
+    {% endif %}
+    {% if nursery_details.postal_code !== "" %}
+      <span class="[ nursery-info__inline" ]>{{ nursery_details.postal_code }} </span>
+    {% endif %}
+  </div>
+  {% if nursery_details.country !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--address ]">
+      {{ nursery_details.country }}
+  </div>
+  {% endif %}
+</div>

@@ -1,0 +1,102 @@
+{
+    "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 4, no. 2 (1991)",
+    "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_4_no_2_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114355",
+        "legacy_id": "5907",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 4, no. 2 (1991) p 11",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_4_no_2_1991_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "penstemon_hirsutus",
+                "type": "species",
+                "archival_data": [
+                    "1427377"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1809914",
+                "legacy_id": "119874",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 4, no. 2 (1991) p cover| 10",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_4_no_2_1991_p_cover_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rudbeckia_hirta",
+                "type": "species",
+                "archival_data": [
+                    "1428694"
+                ]
+            },
+            "volume": null,
+            "page": "p cover| 10",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1823626",
+                "legacy_id": "130003",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

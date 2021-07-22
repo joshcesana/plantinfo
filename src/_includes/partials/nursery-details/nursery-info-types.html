@@ -1,0 +1,34 @@
+{% set has_print_catalog = 'No' %}
+{% if nursery_details.catalog_print == true %}
+  {% set has_print_catalog = 'Yes' %}
+{% endif %}
+
+{% set has_online_catalog = 'No' %}
+{% if nursery_details.catalog_online == true %}
+  {% set has_online_catalog = 'Yes' %}
+{% endif %}
+
+{% set has_web_online_catalog = 'No' %}
+{% if nursery_details.catalog_web_only == true %}
+  {% set has_web_online_catalog = 'Yes' %}
+{% endif %}
+
+<div class="[ panel panel--nursery-info-types ] [ bg-secondary-glare color-dark-shade ]">
+  <div class="[ nursery-info nursery-info--types ]">
+    {% if nursery_details.catalog_print !== "" %}
+      <span class="[ nursery-info__inline ] [ nursery-info__inline--info-types ]">
+        Print Catalog? <strong>{{ has_print_catalog }}</strong>
+      </span>
+    {% endif %}
+    {% if nursery_details.catalog_online !== "" %}
+      <span class="[ nursery-info__inline ] [ nursery-info__inline--info-types ]">
+        Online Catalog? <strong>{{ has_print_catalog }}</strong>
+      </span>
+    {% endif %}
+    {% if nursery_details.catalog_web_only !== "" %}
+      <span class="[ nursery-info__inline ] [ nursery-info__inline--info-types ]">
+        Web Only? <strong>{{ has_web_online_catalog }}</strong>
+      </span>
+    {% endif %}
+  </div>
+</div>

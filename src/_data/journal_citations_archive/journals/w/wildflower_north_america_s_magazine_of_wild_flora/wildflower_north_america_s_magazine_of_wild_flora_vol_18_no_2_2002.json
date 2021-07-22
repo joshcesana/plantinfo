@@ -1,0 +1,922 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2117614",
+        "legacy_id": "38409",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p cover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cercis_canadensis",
+                "type": "species",
+                "archival_data": [
+                    "1405172"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1892998",
+                "legacy_id": "234590",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 10",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cornus_florida",
+                "type": "species",
+                "archival_data": [
+                    "1405321"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1892999",
+                "legacy_id": "234591",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lobelia_siphilitica",
+                "type": "species",
+                "archival_data": [
+                    "1418900"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893000",
+                "legacy_id": "234592",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "medeola_virginiana",
+                "type": "species",
+                "archival_data": [
+                    "1418615"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893001",
+                "legacy_id": "234593",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asimina_triloba",
+                "type": "species",
+                "archival_data": [
+                    "1403020"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893002",
+                "legacy_id": "234594",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 14-15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_14_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chamerion_angustifolium",
+                "type": "species",
+                "archival_data": [
+                    "1405924"
+                ]
+            },
+            "volume": null,
+            "page": "p 14-15",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893003",
+                "legacy_id": "234595",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_setosa",
+                "type": "species",
+                "archival_data": [
+                    "1417639"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893004",
+                "legacy_id": "234596",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "primula_mistassinica_macropoda",
+                "type": "variety",
+                "archival_data": [
+                    "1572670"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893005",
+                "legacy_id": "234610",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "vaccinium_vitis_idaea",
+                "type": "species",
+                "archival_data": [
+                    "1428972"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893006",
+                "legacy_id": "234611",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mertensia_maritima",
+                "type": "species",
+                "archival_data": [
+                    "1419751"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893007",
+                "legacy_id": "234612",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diphylleia_cymosa",
+                "type": "species",
+                "archival_data": [
+                    "1409214"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893008",
+                "legacy_id": "234613",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aconitum_uncinatum",
+                "type": "species",
+                "archival_data": [
+                    "1398555"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893244",
+                "legacy_id": "234614",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aplectrum_hyemale",
+                "type": "species",
+                "archival_data": [
+                    "1400623"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893245",
+                "legacy_id": "234615",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "parnassia_asarifolia",
+                "type": "species",
+                "archival_data": [
+                    "1425190"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893246",
+                "legacy_id": "234616",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clintonia_umbellulata",
+                "type": "species",
+                "archival_data": [
+                    "1409010"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893247",
+                "legacy_id": "234617",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "galearis_spectabilis",
+                "type": "species",
+                "archival_data": [
+                    "1415230"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893248",
+                "legacy_id": "234618",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_catesbaei",
+                "type": "species",
+                "archival_data": [
+                    "1433459"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893249",
+                "legacy_id": "234619",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_vaseyi",
+                "type": "species",
+                "archival_data": [
+                    "1433498"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893250",
+                "legacy_id": "234620",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_erectum",
+                "type": "species",
+                "archival_data": [
+                    "1433466"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893251",
+                "legacy_id": "234621",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_cuneatum",
+                "type": "species",
+                "archival_data": [
+                    "1433462"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893252",
+                "legacy_id": "234622",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p backcover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "castilleja_miniata",
+                "type": "species",
+                "archival_data": [
+                    "1409318"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893253",
+                "legacy_id": "234623",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 18, no. 2. (2002) p backcover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_18_no_2_2002_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "epilobium_latifolium",
+                "type": "species",
+                "archival_data": [
+                    "1414721"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1893254",
+                "legacy_id": "234624",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483180383"
+            }
+        }
+    ]
+}

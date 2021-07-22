@@ -2,7 +2,7 @@
 {% set plant_type_title = helpers.getPlantTypeTitle(plant_type) %}
 {% set plant_collection = collections[plant_type] %}
 {% set plant_items = helpers.filterDirectoryItemsByLetter(plant_collection, letter_slug) %}
-{% set directory_link_list = helpers.createDirectoryLinkList(plant_items, plant_type) %}
+{% set directory_link_list = helpers.createDirectoryLinkList(collections, plant_items, plant_type) %}
 {% set plant_link_list_wrapper =
   {
     wrapper_class: '[ directory-' ~ plant_type ~ '__link-list-section ]',

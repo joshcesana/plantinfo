@@ -1,0 +1,840 @@
+{
+    "name": "Veld & Flora. vol 99, no. 3. (2013)",
+    "machine_name": "veld_flora_vol_99_no_3_2013",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2013",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123715",
+        "legacy_id": "122925",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 144",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_144",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "markhamia_obtusifolia",
+                "type": "species",
+                "archival_data": [
+                    "1460736"
+                ]
+            },
+            "volume": null,
+            "page": "p 144",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2039781",
+                "legacy_id": "468018",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 123",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_repens",
+                "type": "species",
+                "archival_data": [
+                    "1425008"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048073",
+                "legacy_id": "468004",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 138",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_138",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "babiana_carminea",
+                "type": "species",
+                "archival_data": [
+                    "1460728"
+                ]
+            },
+            "volume": null,
+            "page": "p 138",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048074",
+                "legacy_id": "468005",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 139",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_139",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bulbine_margarethae",
+                "type": "species",
+                "archival_data": [
+                    "1398069"
+                ]
+            },
+            "volume": null,
+            "page": "p 139",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048075",
+                "legacy_id": "468006",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 139",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_139",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "antimima_turneriana",
+                "type": "species",
+                "archival_data": [
+                    "1459635"
+                ]
+            },
+            "volume": null,
+            "page": "p 139",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048076",
+                "legacy_id": "468007",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 140",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_140",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "antimima_fenestrata",
+                "type": "species",
+                "archival_data": [
+                    "1456058"
+                ]
+            },
+            "volume": null,
+            "page": "p 140",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048077",
+                "legacy_id": "468008",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 140",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_140",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "moraea_deserticola",
+                "type": "species",
+                "archival_data": [
+                    "1460729"
+                ]
+            },
+            "volume": null,
+            "page": "p 140",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048078",
+                "legacy_id": "468009",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 140",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_140",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ixia_acaulis",
+                "type": "species",
+                "archival_data": [
+                    "1460730"
+                ]
+            },
+            "volume": null,
+            "page": "p 140",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048079",
+                "legacy_id": "468010",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 141",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "antimima_evoluta",
+                "type": "species",
+                "archival_data": [
+                    "1460731"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048080",
+                "legacy_id": "468011",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 141",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunsvigia_radula",
+                "type": "species",
+                "archival_data": [
+                    "1460732"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048081",
+                "legacy_id": "468012",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 141",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_141",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eriospermum_arachnoideum",
+                "type": "species",
+                "archival_data": [
+                    "1460733"
+                ]
+            },
+            "volume": null,
+            "page": "p 141",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048082",
+                "legacy_id": "468013",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 143",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pyrenacantha_scandens",
+                "type": "species",
+                "archival_data": [
+                    "1460734"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048083",
+                "legacy_id": "468014",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 143",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cynanchum_obtusifolium",
+                "type": "species",
+                "archival_data": [
+                    "1460735"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048084",
+                "legacy_id": "468015",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 143",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zehneria_scabra_scabra",
+                "type": "variety",
+                "archival_data": [
+                    "1647328"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048085",
+                "legacy_id": "468016",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 143",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scutia_myrtina",
+                "type": "species",
+                "archival_data": [
+                    "1427698"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048086",
+                "legacy_id": "468017",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 145",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_145",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mandragora_autumnalis",
+                "type": "species",
+                "archival_data": [
+                    "1417424"
+                ]
+            },
+            "volume": null,
+            "page": "p 145",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048087",
+                "legacy_id": "468019",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 148",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_148",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dioscorea_elephantipes",
+                "type": "species",
+                "archival_data": [
+                    "1408882"
+                ]
+            },
+            "volume": null,
+            "page": "p 148",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048088",
+                "legacy_id": "468020",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 150",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_150",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "audouinia_capitata",
+                "type": "species",
+                "archival_data": [
+                    "1450582"
+                ]
+            },
+            "volume": null,
+            "page": "p 150",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048089",
+                "legacy_id": "468021",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 151",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "syncarpha_argyropsis",
+                "type": "species",
+                "archival_data": [
+                    "1458373"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048090",
+                "legacy_id": "468022",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 99, no. 3. (2013) p 159",
+            "machine_name": "veld_flora_vol_99_no_3_2013_p_159",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_cooperi",
+                "type": "species",
+                "archival_data": [
+                    "1410276"
+                ]
+            },
+            "volume": null,
+            "page": "p 159",
+            "year": "2013",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2048091",
+                "legacy_id": "468023",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

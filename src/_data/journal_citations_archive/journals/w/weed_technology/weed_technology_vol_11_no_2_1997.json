@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 11, no. 2. (1997)",
+    "machine_name": "weed_technology_vol_11_no_2_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115919",
+        "legacy_id": "7934",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 11, no. 2. (1997) p cover",
+            "machine_name": "weed_technology_vol_11_no_2_1997_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_esula",
+                "type": "species",
+                "archival_data": [
+                    "1410332"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1859913",
+                "legacy_id": "166597",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

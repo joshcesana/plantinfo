@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 7, no. 3. (1993)",
+    "machine_name": "weed_technology_vol_7_no_3_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2118448",
+        "legacy_id": "55591",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 7, no. 3. (1993) p cover",
+            "machine_name": "weed_technology_vol_7_no_3_1993_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "solanum_viarum",
+                "type": "species",
+                "archival_data": [
+                    "1430755"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1911899",
+                "legacy_id": "272171",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

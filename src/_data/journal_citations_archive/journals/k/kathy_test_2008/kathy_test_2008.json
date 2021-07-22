@@ -1,0 +1,307 @@
+{
+    "name": "Kathy Test (2008)",
+    "machine_name": "kathy_test_2008",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": null,
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2100081",
+        "legacy_id": null,
+        "author": "kallen",
+        "created": "1478532042"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kathy Test (2008) cover",
+            "machine_name": "kathy_test_2008_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba_witches_broom",
+                "type": "variety",
+                "archival_data": [
+                    "1507437"
+                ]
+            },
+            "volume": null,
+            "page": "cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2100086",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478532125"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) cover",
+            "machine_name": "kathy_test_2008_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba_weeping_wonder",
+                "type": "variety",
+                "archival_data": [
+                    "1648752"
+                ]
+            },
+            "volume": null,
+            "page": "cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2100091",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478532125"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) cover",
+            "machine_name": "kathy_test_2008_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba_troll",
+                "type": "variety",
+                "archival_data": [
+                    "1612269"
+                ]
+            },
+            "volume": null,
+            "page": "cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2100096",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478532125"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) cover",
+            "machine_name": "kathy_test_2008_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba_summer_rainbow",
+                "type": "variety",
+                "archival_data": [
+                    "1607377"
+                ]
+            },
+            "volume": null,
+            "page": "cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2100101",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478532125"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) p 50",
+            "machine_name": "kathy_test_2008_p_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "abutilon_cultivars_rainbow_series",
+                "type": "variety",
+                "archival_data": [
+                    "1645983"
+                ]
+            },
+            "volume": null,
+            "page": "p 50",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2100121",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478789839"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) p 50",
+            "machine_name": "kathy_test_2008_p_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "alstroemeria_cultivars_rainbow_series",
+                "type": "variety",
+                "archival_data": [
+                    "1496169"
+                ]
+            },
+            "volume": null,
+            "page": "p 50",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2100126",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478789839"
+            }
+        },
+        {
+            "name": "Kathy Test (2008) p 50",
+            "machine_name": "kathy_test_2008_p_50",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aquilegia_cultivars_sweet_rainbows_series",
+                "type": "variety",
+                "archival_data": [
+                    "1578826"
+                ]
+            },
+            "volume": null,
+            "page": "p 50",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2100131",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "kallen",
+                "created": "1478789839"
+            }
+        }
+    ]
+}

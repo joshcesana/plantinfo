@@ -1,0 +1,102 @@
+{
+    "name": "Kew Bulletin. vol 51, no. 4. (1996)",
+    "machine_name": "kew_bulletin_vol_51_no_4_1996",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1996",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113823",
+        "legacy_id": "4189",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 51, no. 4. (1996) p 689",
+            "machine_name": "kew_bulletin_vol_51_no_4_1996_p_689",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_columnaris",
+                "type": "species",
+                "archival_data": [
+                    "1409025"
+                ]
+            },
+            "volume": null,
+            "page": "p 689",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777652",
+                "legacy_id": "83204",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 51, no. 4. (1996) p 684",
+            "machine_name": "kew_bulletin_vol_51_no_4_1996_p_684",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_schomburgkiana",
+                "type": "species",
+                "archival_data": [
+                    "1409028"
+                ]
+            },
+            "volume": null,
+            "page": "p 684",
+            "year": "1996",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1777658",
+                "legacy_id": "83210",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

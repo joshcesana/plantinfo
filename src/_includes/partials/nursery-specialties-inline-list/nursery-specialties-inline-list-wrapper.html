@@ -1,0 +1,18 @@
+{% set wrapper_class = '[ link-list-inline ] [ speciality-list-inline ]' %}
+{% set wrapper_title_class = '[ link-list-inline__title ] [ specialty-list-inline__title ]' %}
+
+{% if nursery_specialties_inline_list_wrapper.wrapper_class %}
+  {% set wrapper_class = wrapper_class ~ ' ' ~ nursery_specialties_inline_list_wrapper.wrapper_class %}
+{% endif %}
+{% if nursery_specialties_inline_list_wrapper.wrapper_title_class %}
+  {% set wrapper_title_class = wrapper_title_class ~ ' ' ~ nursery_specialties_inline_list_wrapper.wrapper_title_class %}
+{% endif %}
+<div class='{{ wrapper_class }}'>
+  <{{ nursery_specialties_inline_list_wrapper.heading_level }} class='{{ wrapper_title_class }}'>{{ nursery_specialties_inline_list_wrapper.title }}</{{ nursery_specialties_inline_list_wrapper.heading_level }}>
+  {% set nursery_specialties_inline_list = nursery_specialties_inline_list_wrapper.nursery_specialties_inline_list %}
+  {% if nursery_specialties_inline_list.length > 0 %}
+    {% include "./nursery-specialties-inline-list.html" %}
+  {% else %}
+    {% include "./nursery-specialties-inline-list-empty.html" %}
+  {% endif %}
+</div>

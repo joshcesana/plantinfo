@@ -1,0 +1,266 @@
+{
+    "name": "Kew Bulletin. vol 38, no. 3. (1983)",
+    "machine_name": "kew_bulletin_vol_38_no_3_1983",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1983",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114566",
+        "legacy_id": "4181",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19e.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_insularis",
+                "type": "species",
+                "archival_data": [
+                    "1430347"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19e.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828431",
+                "legacy_id": "133929",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19d.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_pulchra",
+                "type": "species",
+                "archival_data": [
+                    "1430348"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19d.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828432",
+                "legacy_id": "133930",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19a.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_sigun",
+                "type": "species",
+                "archival_data": [
+                    "1430349"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19a.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828433",
+                "legacy_id": "133931",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19b-c.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19b_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_sogerensis",
+                "type": "species",
+                "archival_data": [
+                    "1430350"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19b-c.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828434",
+                "legacy_id": "133932",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19g.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19g",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_streimannii",
+                "type": "species",
+                "archival_data": [
+                    "1430351"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19g.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828435",
+                "legacy_id": "133934",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 38, no. 3. (1983) p 358, Pl. 19f.",
+            "machine_name": "kew_bulletin_vol_38_no_3_1983_p_358_pl_19f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sloanea_tieghemii",
+                "type": "species",
+                "archival_data": [
+                    "1430352"
+                ]
+            },
+            "volume": null,
+            "page": "p 358, Pl. 19f.",
+            "year": "1983",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828436",
+                "legacy_id": "133935",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

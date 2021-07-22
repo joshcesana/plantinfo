@@ -1,0 +1,1045 @@
+{
+    "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987)",
+    "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1987",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110089",
+        "legacy_id": "5804",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 1b.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_1b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calandrinia_ciliata_menziesii",
+                "type": "variety",
+                "archival_data": [
+                    "1464943"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 1b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1706600",
+                "legacy_id": "4727",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 1e-f.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_1e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brassica_rapa_chinensis",
+                "type": "variety",
+                "archival_data": [
+                    "1465471"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 1e-f.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1710512",
+                "legacy_id": "4339",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 5c.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_5c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "xanthium_strumarium_canadense",
+                "type": "variety",
+                "archival_data": [
+                    "1496097"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 5c.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1759171",
+                "legacy_id": "60311",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3e.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anthemis_cotula",
+                "type": "species",
+                "archival_data": [
+                    "1400210"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3e.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766409",
+                "legacy_id": "72151",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2g.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2g",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ailanthus_altissima",
+                "type": "species",
+                "archival_data": [
+                    "1401317"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2g.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766877",
+                "legacy_id": "69567",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 1a.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_1a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "amaranthus_retroflexus",
+                "type": "species",
+                "archival_data": [
+                    "1398242"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 1a.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1766980",
+                "legacy_id": "70949",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 4a.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_4a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conyza_bonariensis",
+                "type": "species",
+                "archival_data": [
+                    "1404571"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 4a.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1775402",
+                "legacy_id": "84052",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 4b.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_4b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conyza_canadensis",
+                "type": "species",
+                "archival_data": [
+                    "1404572"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 4b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1775411",
+                "legacy_id": "84061",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3a.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carduus_pycnocephalus",
+                "type": "species",
+                "archival_data": [
+                    "1407765"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3a.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778714",
+                "legacy_id": "79458",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3f.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "centaurea_solstitialis",
+                "type": "species",
+                "archival_data": [
+                    "1404449"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3f.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1778790",
+                "legacy_id": "80811",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3d.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "conium_maculatum",
+                "type": "species",
+                "archival_data": [
+                    "1404155"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3d.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779966",
+                "legacy_id": "83804",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3b.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chamerion_angustifolium",
+                "type": "species",
+                "archival_data": [
+                    "1405924"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1786192",
+                "legacy_id": "92219",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2b.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "croton_setiger",
+                "type": "species",
+                "archival_data": [
+                    "1462798"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1786503",
+                "legacy_id": "92539",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2c.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erodium_cicutarium",
+                "type": "species",
+                "archival_data": [
+                    "1412167"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2c.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787267",
+                "legacy_id": "93544",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2d.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erodium_moschatum",
+                "type": "species",
+                "archival_data": [
+                    "1412472"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2d.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787297",
+                "legacy_id": "93574",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 3c.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_3c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "foeniculum_vulgare",
+                "type": "species",
+                "archival_data": [
+                    "1413724"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 3c.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1789653",
+                "legacy_id": "97168",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 4f.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_4f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lactuca_serriola",
+                "type": "species",
+                "archival_data": [
+                    "1420276"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 4f.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1800995",
+                "legacy_id": "106867",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 4e.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_4e",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "medicago_polymorpha",
+                "type": "species",
+                "archival_data": [
+                    "1418634"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 4e.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1808125",
+                "legacy_id": "112656",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2e-f.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2e_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "malva_parviflora",
+                "type": "species",
+                "archival_data": [
+                    "1415946"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2e-f.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1808694",
+                "legacy_id": "111492",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 1c.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_1c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salsola_iberica",
+                "type": "species",
+                "archival_data": [
+                    "1429895"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 1c.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1820716",
+                "legacy_id": "130637",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 2a.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_2a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "raphanus_sativus",
+                "type": "species",
+                "archival_data": [
+                    "1422840"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 2a.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1820860",
+                "legacy_id": "126713",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 1d.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_1d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stellaria_media",
+                "type": "species",
+                "archival_data": [
+                    "1432676"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 1d.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828820",
+                "legacy_id": "135346",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 5a.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_5a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sonchus_asper",
+                "type": "species",
+                "archival_data": [
+                    "1431096"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 5a.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830075",
+                "legacy_id": "134376",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 5b.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_5b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sonchus_oleraceus",
+                "type": "species",
+                "archival_data": [
+                    "1431100"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 5b.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1830341",
+                "legacy_id": "134396",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Vessel, Matthew F. Natural History of Vacant Lots. (1987) p 146, Pl. 4d.",
+            "machine_name": "vessel_matthew_f_natural_history_of_vacant_lots_1987_p_146_pl_4d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tragopogon_porrifolius",
+                "type": "species",
+                "archival_data": [
+                    "1432409"
+                ]
+            },
+            "volume": null,
+            "page": "p 146, Pl. 4d.",
+            "year": "1987",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1834850",
+                "legacy_id": "138282",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

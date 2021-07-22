@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 7, no. 1. (1993)",
+    "machine_name": "weed_technology_vol_7_no_1_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2118451",
+        "legacy_id": "55589",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 7, no. 1. (1993) p 39, Pl. 1(a)",
+            "machine_name": "weed_technology_vol_7_no_1_1993_p_39_pl_1_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_hederacea_integriuscula",
+                "type": "variety",
+                "archival_data": [
+                    "1587025"
+                ]
+            },
+            "volume": null,
+            "page": "p 39, Pl. 1(a)",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1911903",
+                "legacy_id": "272192",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

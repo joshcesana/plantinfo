@@ -1,0 +1,553 @@
+{
+    "name": "Kew Bulletin. vol 52, no. 3. (1997)",
+    "machine_name": "kew_bulletin_vol_52_no_3_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115555",
+        "legacy_id": "7305",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 619, Pl. 1(b)-(d);(f).",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_619_pl_1_b_d_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1409026"
+                ]
+            },
+            "volume": null,
+            "page": "p 619, Pl. 1(b)-(d);(f).",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853128",
+                "legacy_id": "158537",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 619, Pl. 1(j).",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_619_pl_1_j",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_nemorosa",
+                "type": "species",
+                "archival_data": [
+                    "1443626"
+                ]
+            },
+            "volume": null,
+            "page": "p 619, Pl. 1(j).",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853129",
+                "legacy_id": "158538",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 610, Pl. 1(a)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_610_pl_1_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aframomum_mala",
+                "type": "species",
+                "archival_data": [
+                    "1441152"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1(a)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853130",
+                "legacy_id": "158539",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 610, Pl. 1(b)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_610_pl_1_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aframomum_luteoalbum",
+                "type": "species",
+                "archival_data": [
+                    "1441153"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1(b)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853131",
+                "legacy_id": "158540",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 610, Pl. 1(c)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_610_pl_1_c",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aframomum_uniflorum",
+                "type": "species",
+                "archival_data": [
+                    "1441154"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1(c)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853132",
+                "legacy_id": "158541",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 610, Pl. 1(d)-(f).",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_610_pl_1_d_f",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aframomum_spiroligulatum",
+                "type": "species",
+                "archival_data": [
+                    "1441155"
+                ]
+            },
+            "volume": null,
+            "page": "p 610, Pl. 1(d)-(f).",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853133",
+                "legacy_id": "158542",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 612, Pl. 2(a)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_612_pl_2_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "costus_foliaceus",
+                "type": "species",
+                "archival_data": [
+                    "1441156"
+                ]
+            },
+            "volume": null,
+            "page": "p 612, Pl. 2(a)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853134",
+                "legacy_id": "158543",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 612, Pl. 2(b)-(d)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_612_pl_2_b_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "renealmia_bracteata",
+                "type": "species",
+                "archival_data": [
+                    "1441157"
+                ]
+            },
+            "volume": null,
+            "page": "p 612, Pl. 2(b)-(d)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853135",
+                "legacy_id": "158544",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 619, Pl. 1(h)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_619_pl_1_h",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_insignis",
+                "type": "species",
+                "archival_data": [
+                    "1441158"
+                ]
+            },
+            "volume": null,
+            "page": "p 619, Pl. 1(h)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853136",
+                "legacy_id": "158545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 621, Pl. 2(a)-(b).",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_621_pl_2_a_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_leprantha",
+                "type": "species",
+                "archival_data": [
+                    "1441161"
+                ]
+            },
+            "volume": null,
+            "page": "p 621, Pl. 2(a)-(b).",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853137",
+                "legacy_id": "158546",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 621, Pl. 2(c)-(g).",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_621_pl_2_c_g",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_renggerioides",
+                "type": "species",
+                "archival_data": [
+                    "1441162"
+                ]
+            },
+            "volume": null,
+            "page": "p 621, Pl. 2(c)-(g).",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853138",
+                "legacy_id": "158547",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 623, Pl. 3(a)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_623_pl_3_a",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_hilariana",
+                "type": "species",
+                "archival_data": [
+                    "1441159"
+                ]
+            },
+            "volume": null,
+            "page": "p 623, Pl. 3(a)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853139",
+                "legacy_id": "158548",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 52, no. 3. (1997) p 623, Pl. 3(b)",
+            "machine_name": "kew_bulletin_vol_52_no_3_1997_p_623_pl_3_b",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusiella_axillaris",
+                "type": "species",
+                "archival_data": [
+                    "1441160"
+                ]
+            },
+            "volume": null,
+            "page": "p 623, Pl. 3(b)",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1853140",
+                "legacy_id": "158549",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

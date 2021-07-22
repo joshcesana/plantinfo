@@ -1,0 +1,348 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2008",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2119306",
+        "legacy_id": "95270",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stewartia_rostrata",
+                "type": "species",
+                "archival_data": [
+                    "1442085"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928562",
+                "legacy_id": "375764",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 12",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anemone_hybrida_honorine_jobert",
+                "type": "variety",
+                "archival_data": [
+                    "1466466"
+                ]
+            },
+            "volume": null,
+            "page": "p 12",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928563",
+                "legacy_id": "375765",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 12-13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_12_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "stachys_byzantina",
+                "type": "species",
+                "archival_data": [
+                    "1432258"
+                ]
+            },
+            "volume": null,
+            "page": "p 12-13",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928564",
+                "legacy_id": "375766",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "echinacea_purpurea_white_swan",
+                "type": "variety",
+                "archival_data": [
+                    "1474239"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928565",
+                "legacy_id": "375767",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 16-17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_16_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nothofagus_antarctica_chillan",
+                "type": "variety",
+                "archival_data": [
+                    "1601749"
+                ]
+            },
+            "volume": null,
+            "page": "p 16-17",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928566",
+                "legacy_id": "375768",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nothofagus_dombeyi",
+                "type": "species",
+                "archival_data": [
+                    "1424723"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928567",
+                "legacy_id": "375769",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "araucaria_araucana",
+                "type": "species",
+                "archival_data": [
+                    "1401039"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928568",
+                "legacy_id": "375770",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 70, no. 2. (2008) p 27",
+            "machine_name": "washington_park_arboretum_bulletin_vol_70_no_2_2008_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_colchica",
+                "type": "species",
+                "archival_data": [
+                    "1416125"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2008",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1928569",
+                "legacy_id": "375771",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483186869"
+            }
+        }
+    ]
+}

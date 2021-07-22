@@ -1,0 +1,348 @@
+{
+    "name": "Veld & Flora. vol 104, no. 2. (2018)",
+    "machine_name": "veld_flora_vol_104_no_2_2018",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2018",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2340691",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1530551726"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 51",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ferraria_ferrariola",
+                "type": "species",
+                "archival_data": [
+                    "1450580"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340721",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p cover",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hessea_breviflora",
+                "type": "species",
+                "archival_data": [
+                    "1448590"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340726",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 58-59",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_58_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ceratophyllum_demersum",
+                "type": "species",
+                "archival_data": [
+                    "1404847"
+                ]
+            },
+            "volume": null,
+            "page": "p 58-59",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340731",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 61-62",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_61_62",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_remota",
+                "type": "species",
+                "archival_data": [
+                    "2340696"
+                ]
+            },
+            "volume": null,
+            "page": "p 61-62",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340736",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 64-66",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_64_66",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adansonia_kilima",
+                "type": "species",
+                "archival_data": [
+                    "2340701"
+                ]
+            },
+            "volume": null,
+            "page": "p 64-66",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340741",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 65",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adansonia_digitata",
+                "type": "species",
+                "archival_data": [
+                    "1398931"
+                ]
+            },
+            "volume": null,
+            "page": "p 65",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340746",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 90",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_90",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "habenaria_dives",
+                "type": "species",
+                "archival_data": [
+                    "1456943"
+                ]
+            },
+            "volume": null,
+            "page": "p 90",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340751",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 104, no. 2. (2018) p 90",
+            "machine_name": "veld_flora_vol_104_no_2_2018_p_90",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "orthochilus_ensata",
+                "type": "species",
+                "archival_data": [
+                    "2340716"
+                ]
+            },
+            "volume": null,
+            "page": "p 90",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2340756",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1530552448"
+            }
+        }
+    ]
+}

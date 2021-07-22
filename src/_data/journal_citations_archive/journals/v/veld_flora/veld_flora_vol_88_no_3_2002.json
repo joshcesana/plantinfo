@@ -1,0 +1,1373 @@
+{
+    "name": "Veld & Flora. vol 88, no. 3. (2002)",
+    "machine_name": "veld_flora_vol_88_no_3_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2118007",
+        "legacy_id": "46111",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 100",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_100",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "limonium_scabrum",
+                "type": "species",
+                "archival_data": [
+                    "1446646"
+                ]
+            },
+            "volume": null,
+            "page": "p 100",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902045",
+                "legacy_id": "251210",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_albicaulis",
+                "type": "species",
+                "archival_data": [
+                    "1446647"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902046",
+                "legacy_id": "251211",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 104",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_104",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_schlechteri",
+                "type": "species",
+                "archival_data": [
+                    "1446648"
+                ]
+            },
+            "volume": null,
+            "page": "p 104",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902047",
+                "legacy_id": "251212",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 104",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_104",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_dolomitica",
+                "type": "species",
+                "archival_data": [
+                    "1446649"
+                ]
+            },
+            "volume": null,
+            "page": "p 104",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902048",
+                "legacy_id": "251213",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 105-07",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_105_07",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nerine_gracilis",
+                "type": "species",
+                "archival_data": [
+                    "1446650"
+                ]
+            },
+            "volume": null,
+            "page": "p 105-07",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1902049",
+                "legacy_id": "251214",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p cover",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_hysterantha",
+                "type": "species",
+                "archival_data": [
+                    "1437644"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905062",
+                "legacy_id": "250540",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p inside cover",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_inside_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ixia_viridiflora",
+                "type": "species",
+                "archival_data": [
+                    "1418047"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905063",
+                "legacy_id": "250541",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 84",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_84",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gazania_rigens",
+                "type": "species",
+                "archival_data": [
+                    "1410373"
+                ]
+            },
+            "volume": null,
+            "page": "p 84",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905064",
+                "legacy_id": "250542",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 88",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_88",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_cultivars_glengold",
+                "type": "variety",
+                "archival_data": [
+                    "1577644"
+                ]
+            },
+            "volume": null,
+            "page": "p 88",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905065",
+                "legacy_id": "250543",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 94;97-98",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_94_97_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_humilis",
+                "type": "species",
+                "archival_data": [
+                    "1437643"
+                ]
+            },
+            "volume": null,
+            "page": "p 94;97-98",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905066",
+                "legacy_id": "250544",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 94;97",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_94_97",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_meriana",
+                "type": "species",
+                "archival_data": [
+                    "1437648"
+                ]
+            },
+            "volume": null,
+            "page": "p 94;97",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905067",
+                "legacy_id": "250545",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 94;98",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_94_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_strictiflora",
+                "type": "species",
+                "archival_data": [
+                    "1437657"
+                ]
+            },
+            "volume": null,
+            "page": "p 94;98",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905068",
+                "legacy_id": "250546",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 95",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_95",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1437635"
+                ]
+            },
+            "volume": null,
+            "page": "p 95",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905069",
+                "legacy_id": "250547",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 96",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_96",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_aletroides",
+                "type": "species",
+                "archival_data": [
+                    "1437628"
+                ]
+            },
+            "volume": null,
+            "page": "p 96",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905070",
+                "legacy_id": "250548",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 101",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_compacta",
+                "type": "species",
+                "archival_data": [
+                    "1424975"
+                ]
+            },
+            "volume": null,
+            "page": "p 101",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905071",
+                "legacy_id": "250553",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 98",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_98",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_stenosiphon",
+                "type": "species",
+                "archival_data": [
+                    "1437656"
+                ]
+            },
+            "volume": null,
+            "page": "p 98",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905072",
+                "legacy_id": "250550",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 99",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_99",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "felicia_amelloides",
+                "type": "species",
+                "archival_data": [
+                    "1412605"
+                ]
+            },
+            "volume": null,
+            "page": "p 99",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905073",
+                "legacy_id": "250551",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 100",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_100",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "acacia_saligna",
+                "type": "species",
+                "archival_data": [
+                    "1402043"
+                ]
+            },
+            "volume": null,
+            "page": "p 100",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905074",
+                "legacy_id": "250552",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 101",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_repens",
+                "type": "species",
+                "archival_data": [
+                    "1425008"
+                ]
+            },
+            "volume": null,
+            "page": "p 101",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905075",
+                "legacy_id": "250554",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_chamelaeagnea",
+                "type": "species",
+                "archival_data": [
+                    "1429924"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905076",
+                "legacy_id": "250555",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_muirii",
+                "type": "species",
+                "archival_data": [
+                    "1443326"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905077",
+                "legacy_id": "250556",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_thermara",
+                "type": "species",
+                "archival_data": [
+                    "1450138"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905078",
+                "legacy_id": "250557",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_reflexa",
+                "type": "species",
+                "archival_data": [
+                    "1430279"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905079",
+                "legacy_id": "250558",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_africana_lutea",
+                "type": "species",
+                "archival_data": [
+                    "1429902"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905080",
+                "legacy_id": "250559",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 103",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_103",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salvia_repens",
+                "type": "species",
+                "archival_data": [
+                    "1436693"
+                ]
+            },
+            "volume": null,
+            "page": "p 103",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905081",
+                "legacy_id": "250560",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 108-110",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_108_110",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "felicia_elongata",
+                "type": "species",
+                "archival_data": [
+                    "1446632"
+                ]
+            },
+            "volume": null,
+            "page": "p 108-110",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905082",
+                "legacy_id": "250561",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 111",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_cultivars_romelia",
+                "type": "variety",
+                "archival_data": [
+                    "1577645"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905083",
+                "legacy_id": "250562",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 111",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_cultivars_romaud",
+                "type": "variety",
+                "archival_data": [
+                    "1577646"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905084",
+                "legacy_id": "250563",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 112",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_cultivars_rosabeth",
+                "type": "variety",
+                "archival_data": [
+                    "1577647"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905085",
+                "legacy_id": "250564",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 113",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_113",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lachenalia_cultivars_rupert",
+                "type": "variety",
+                "archival_data": [
+                    "1577648"
+                ]
+            },
+            "volume": null,
+            "page": "p 113",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905086",
+                "legacy_id": "250565",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 115",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_115",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aloe_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1402861"
+                ]
+            },
+            "volume": null,
+            "page": "p 115",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905087",
+                "legacy_id": "250566",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 123",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geranium_incanum_multifidum",
+                "type": "variety",
+                "archival_data": [
+                    "1476135"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905088",
+                "legacy_id": "250567",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 88, no. 3. (2002) p 122",
+            "machine_name": "veld_flora_vol_88_no_3_2002_p_122",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strophanthus_petersianus",
+                "type": "species",
+                "archival_data": [
+                    "1427767"
+                ]
+            },
+            "volume": null,
+            "page": "p 122",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1905089",
+                "legacy_id": "250568",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483183626"
+            }
+        }
+    ]
+}

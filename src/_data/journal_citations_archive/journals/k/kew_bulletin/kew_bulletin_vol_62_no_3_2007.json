@@ -1,0 +1,184 @@
+{
+    "name": "Kew Bulletin. vol 62, no. 3. (2007)",
+    "machine_name": "kew_bulletin_vol_62_no_3_2007",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2007",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2122877",
+        "legacy_id": "115358",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 62, no. 3. (2007) p 466, Pl. 1H",
+            "machine_name": "kew_bulletin_vol_62_no_3_2007_p_466_pl_1h",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyllostachys_aurea",
+                "type": "species",
+                "archival_data": [
+                    "1424135"
+                ]
+            },
+            "volume": null,
+            "page": "p 466, Pl. 1H",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2014167",
+                "legacy_id": "437562",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 3. (2007) p 466, Pl. 1J-M",
+            "machine_name": "kew_bulletin_vol_62_no_3_2007_p_466_pl_1j_m",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyllostachys_edulis",
+                "type": "species",
+                "archival_data": [
+                    "1424139"
+                ]
+            },
+            "volume": null,
+            "page": "p 466, Pl. 1J-M",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2014168",
+                "legacy_id": "437563",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 3. (2007) p 466, Pl. 1E-G",
+            "machine_name": "kew_bulletin_vol_62_no_3_2007_p_466_pl_1e_g",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyllostachys_aurea_albo_variegata",
+                "type": "variety",
+                "archival_data": [
+                    "1489851"
+                ]
+            },
+            "volume": null,
+            "page": "p 466, Pl. 1E-G",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2053051",
+                "legacy_id": "437561",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Kew Bulletin. vol 62, no. 3. (2007) p 466, Pl. 1A-D",
+            "machine_name": "kew_bulletin_vol_62_no_3_2007_p_466_pl_1a_d",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyllostachys_meyeri",
+                "type": "species",
+                "archival_data": [
+                    "1424145"
+                ]
+            },
+            "volume": null,
+            "page": "p 466, Pl. 1A-D",
+            "year": "2007",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2053055",
+                "legacy_id": "437560",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

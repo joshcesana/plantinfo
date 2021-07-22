@@ -1,0 +1,5104 @@
+{
+    "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009)",
+    "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2009",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2413611",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1543500525"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p cover",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "heliconia_bihai",
+                "type": "species",
+                "archival_data": [
+                    "1412382"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 22",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413626",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p cover flap",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_cover_flap",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haemanthus_nortieri",
+                "type": "species",
+                "archival_data": [
+                    "1456267"
+                ]
+            },
+            "volume": null,
+            "page": "p cover flap; 112-13",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413631",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p backcover",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "malus_a_cultivars_tom_putt",
+                "type": "variety",
+                "archival_data": [
+                    "1484748"
+                ]
+            },
+            "volume": null,
+            "page": "p 175; backcover",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413636",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 10",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_10",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strelitzia_reginae",
+                "type": "species",
+                "archival_data": [
+                    "1433402"
+                ]
+            },
+            "volume": null,
+            "page": "p 10",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413641",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 11",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fritillaria_meleagris",
+                "type": "species",
+                "archival_data": [
+                    "1414470"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2413646",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 19",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ginkgo_biloba",
+                "type": "species",
+                "archival_data": [
+                    "1411935"
+                ]
+            },
+            "volume": null,
+            "page": "p 19; 54",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413651",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 19",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "wollemia_nobilis",
+                "type": "species",
+                "archival_data": [
+                    "1444189"
+                ]
+            },
+            "volume": null,
+            "page": "p 19; 61",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413656",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 19",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "platanus_wyomingensis",
+                "type": "species",
+                "archival_data": [
+                    "2413616"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2413661",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 19",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "populus_cinnamomoiidea",
+                "type": "species",
+                "archival_data": [
+                    "2413621"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2413666",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501152"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 25",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dicksonia_antarctica",
+                "type": "species",
+                "archival_data": [
+                    "1438923"
+                ]
+            },
+            "volume": null,
+            "page": "p 25; 44",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413671",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 25",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_25",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encephalartos_woodii",
+                "type": "species",
+                "archival_data": [
+                    "1413911"
+                ]
+            },
+            "volume": null,
+            "page": "p 25; 52-53",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413676",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 22",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "heliconia_caribaea",
+                "type": "species",
+                "archival_data": [
+                    "1412387"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413681",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 26",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "magnolia_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1421178"
+                ]
+            },
+            "volume": null,
+            "page": "p 26; 71",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413686",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 26",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_26",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fritillaria_imperialis",
+                "type": "species",
+                "archival_data": [
+                    "1414460"
+                ]
+            },
+            "volume": null,
+            "page": "p 26; 94",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413691",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 27",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "galanthus_nivalis",
+                "type": "species",
+                "archival_data": [
+                    "1414925"
+                ]
+            },
+            "volume": null,
+            "page": "p 27; 114",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413696",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 27",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_uniflora",
+                "type": "species",
+                "archival_data": [
+                    "1409587"
+                ]
+            },
+            "volume": null,
+            "page": "p 27; 101",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413701",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 28",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paeonia_mlokosewitschii",
+                "type": "species",
+                "archival_data": [
+                    "1424051"
+                ]
+            },
+            "volume": null,
+            "page": "p 28; 160-61",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413706",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 28",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "coccoloba_uvifera",
+                "type": "species",
+                "archival_data": [
+                    "1409048"
+                ]
+            },
+            "volume": null,
+            "page": "p 28; 235",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413711",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 29",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diospyros_kaki",
+                "type": "species",
+                "archival_data": [
+                    "1409190"
+                ]
+            },
+            "volume": null,
+            "page": "p 29; 253",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413716",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501497"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 47",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_47",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asplenium_rhizophyllum",
+                "type": "species",
+                "archival_data": [
+                    "1438262"
+                ]
+            },
+            "volume": null,
+            "page": "p 47",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413721",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501886"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 57",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_57",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pseudotsuga_menziesii",
+                "type": "species",
+                "archival_data": [
+                    "1425741"
+                ]
+            },
+            "volume": null,
+            "page": "p 57",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413726",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501886"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 58-59",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_58_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cedrus_deodara",
+                "type": "species",
+                "archival_data": [
+                    "1404018"
+                ]
+            },
+            "volume": null,
+            "page": "p 58-59",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413731",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543501886"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 66-67",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_66_67",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymphaea_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1425123"
+                ]
+            },
+            "volume": null,
+            "page": "p 66-67",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413766",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 69",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_69",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aristolochia_gigantea",
+                "type": "species",
+                "archival_data": [
+                    "1402186"
+                ]
+            },
+            "volume": null,
+            "page": "p 69",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413771",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 72-73",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_72_73",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "annona_crassifolia",
+                "type": "species",
+                "archival_data": [
+                    "2413756"
+                ]
+            },
+            "volume": null,
+            "page": "p 72-73",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413776",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 75",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "idiospermum_australiense",
+                "type": "species",
+                "archival_data": [
+                    "1416105"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413781",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 79",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monstera_deliciosa",
+                "type": "species",
+                "archival_data": [
+                    "1421274"
+                ]
+            },
+            "volume": null,
+            "page": "p 79",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413786",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 80",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_80",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "philodendron_muricatum",
+                "type": "species",
+                "archival_data": [
+                    "2413761"
+                ]
+            },
+            "volume": null,
+            "page": "p 80",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413791",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 83",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_83",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "butomus_umbellatus",
+                "type": "species",
+                "archival_data": [
+                    "1398843"
+                ]
+            },
+            "volume": null,
+            "page": "p 83",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413796",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 87",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_87",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pandanus_tectorius",
+                "type": "species",
+                "archival_data": [
+                    "1424388"
+                ]
+            },
+            "volume": null,
+            "page": "p 87",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413801",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 88-89",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_88_89",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trillium_decumbens",
+                "type": "species",
+                "archival_data": [
+                    "1433464"
+                ]
+            },
+            "volume": null,
+            "page": "p 88-89",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413806",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543582801"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 90-91",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_90_91",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gloriosa_rothschildiana",
+                "type": "species",
+                "archival_data": [
+                    "1412343"
+                ]
+            },
+            "volume": null,
+            "page": "p 90-91",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413811",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 92-93",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_92_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lapageria_rosea_albiflora",
+                "type": "variety",
+                "archival_data": [
+                    "1477209"
+                ]
+            },
+            "volume": null,
+            "page": "p 92-93",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413816",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 92-93",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_92_93",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lapageria_rosea",
+                "type": "species",
+                "archival_data": [
+                    "1420728"
+                ]
+            },
+            "volume": null,
+            "page": "p 92-93",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413821",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 96-97",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_96_97",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lilium_regale",
+                "type": "species",
+                "archival_data": [
+                    "1417724"
+                ]
+            },
+            "volume": null,
+            "page": "p 96-97",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413826",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 102-03",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_102_03",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "prosthechea_cochleata",
+                "type": "species",
+                "archival_data": [
+                    "1439868"
+                ]
+            },
+            "volume": null,
+            "page": "p 102-03",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413831",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 104",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_104",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phragmipedium_kovachii",
+                "type": "species",
+                "archival_data": [
+                    "1445107"
+                ]
+            },
+            "volume": null,
+            "page": "p 104",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413836",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 107",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_107",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iris_foetidissima",
+                "type": "species",
+                "archival_data": [
+                    "1417263"
+                ]
+            },
+            "volume": null,
+            "page": "p 107",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413841",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 108-09",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_108_09",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "xanthorrhoea_australis",
+                "type": "species",
+                "archival_data": [
+                    "1438301"
+                ]
+            },
+            "volume": null,
+            "page": "p 108-09",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413846",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 110",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_110",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "allium_cepa",
+                "type": "species",
+                "archival_data": [
+                    "1402075"
+                ]
+            },
+            "volume": null,
+            "page": "p 110",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413851",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543583362"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 117",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_117",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hyacinthus_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1420953"
+                ]
+            },
+            "volume": null,
+            "page": "p 117",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413856",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 118",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_118",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cocos_nucifera",
+                "type": "species",
+                "archival_data": [
+                    "1409377"
+                ]
+            },
+            "volume": null,
+            "page": "p 118",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413861",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 121",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_121",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dichorisandra_thyrsiflora",
+                "type": "species",
+                "archival_data": [
+                    "1408431"
+                ]
+            },
+            "volume": null,
+            "page": "p 121",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413866",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 123",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_123",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "anigozanthos_manglesii",
+                "type": "species",
+                "archival_data": [
+                    "1399839"
+                ]
+            },
+            "volume": null,
+            "page": "p 123",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413871",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 124",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_124",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pontederia_cordata",
+                "type": "species",
+                "archival_data": [
+                    "1422745"
+                ]
+            },
+            "volume": null,
+            "page": "p 124",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413876",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 127",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_127",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strelitzia_alba",
+                "type": "species",
+                "archival_data": [
+                    "1433399"
+                ]
+            },
+            "volume": null,
+            "page": "p 127",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413881",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 129",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_129",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "heliconia_solomonensis",
+                "type": "species",
+                "archival_data": [
+                    "1411608"
+                ]
+            },
+            "volume": null,
+            "page": "p 129",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413886",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 130",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "musa_sapientum",
+                "type": "species",
+                "archival_data": [
+                    "1415680"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2413891",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543584220"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 132",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_132",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "canna_indica",
+                "type": "species",
+                "archival_data": [
+                    "1407037"
+                ]
+            },
+            "volume": null,
+            "page": "p 132",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414481",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 135",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_135",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "maranta_leuconeura",
+                "type": "species",
+                "archival_data": [
+                    "1417455"
+                ]
+            },
+            "volume": null,
+            "page": "p 135",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414486",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 136",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_136",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "billbergia_sanderiana",
+                "type": "species",
+                "archival_data": [
+                    "1433717"
+                ]
+            },
+            "volume": null,
+            "page": "p 136",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414491",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 136",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_136",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hylocharis_cyanus",
+                "type": "species",
+                "archival_data": [
+                    "2414476"
+                ]
+            },
+            "volume": null,
+            "page": "p 136",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414496",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 139",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_139",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bromelia_antiacantha",
+                "type": "species",
+                "archival_data": [
+                    "1403485"
+                ]
+            },
+            "volume": null,
+            "page": "p 139",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414501",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 140",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_140",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "juncus_maritimus",
+                "type": "species",
+                "archival_data": [
+                    "1418789"
+                ]
+            },
+            "volume": null,
+            "page": "p 140",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414506",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 143",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_143",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phyllostachys_viridis",
+                "type": "species",
+                "archival_data": [
+                    "1424158"
+                ]
+            },
+            "volume": null,
+            "page": "p 143",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414511",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 146-47",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_146_47",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "papaver_orientale",
+                "type": "species",
+                "archival_data": [
+                    "1424442"
+                ]
+            },
+            "volume": null,
+            "page": "p 146-47",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414516",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 148-49",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_148_49",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "akebia_quinata",
+                "type": "species",
+                "archival_data": [
+                    "1401352"
+                ]
+            },
+            "volume": null,
+            "page": "p 148-49",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414521",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 150-51",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_150_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clematis_cultivars_elsa_spath",
+                "type": "variety",
+                "archival_data": [
+                    "1469484"
+                ]
+            },
+            "volume": null,
+            "page": "p 150-51",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414526",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767268"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 152-53",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_152_53",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nelumbo_lutea",
+                "type": "species",
+                "archival_data": [
+                    "1417118"
+                ]
+            },
+            "volume": null,
+            "page": "p 152-53",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414531",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 154",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_154",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "banksia_serrata",
+                "type": "species",
+                "archival_data": [
+                    "1399595"
+                ]
+            },
+            "volume": null,
+            "page": "p 154",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414536",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 159",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_159",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gunnera_manicata",
+                "type": "species",
+                "archival_data": [
+                    "1414252"
+                ]
+            },
+            "volume": null,
+            "page": "p 159",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414541",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 163",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_163",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ribes_uva_crispa",
+                "type": "species",
+                "archival_data": [
+                    "1432879"
+                ]
+            },
+            "volume": null,
+            "page": "p 163",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414546",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 167",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_167",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_coccinea",
+                "type": "species",
+                "archival_data": [
+                    "1407183"
+                ]
+            },
+            "volume": null,
+            "page": "p 167",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414551",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 169",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_169",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "vitis_vinifera",
+                "type": "species",
+                "archival_data": [
+                    "1437218"
+                ]
+            },
+            "volume": null,
+            "page": "p 169",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414556",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 170",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_170",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "strongylodon_macrobotrys",
+                "type": "species",
+                "archival_data": [
+                    "1427764"
+                ]
+            },
+            "volume": null,
+            "page": "p 170",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414561",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 173",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_173",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pisum_sativum",
+                "type": "species",
+                "archival_data": [
+                    "1425664"
+                ]
+            },
+            "volume": null,
+            "page": "p 173",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414566",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 178-79",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_178_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ficus_carica",
+                "type": "species",
+                "archival_data": [
+                    "1412991"
+                ]
+            },
+            "volume": null,
+            "page": "p 178-79",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414571",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 181",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_181",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "quercus_robur",
+                "type": "species",
+                "archival_data": [
+                    "1421758"
+                ]
+            },
+            "volume": null,
+            "page": "p 181",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414576",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 185",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_185",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corylus_maxima_purpurea",
+                "type": "variety",
+                "archival_data": [
+                    "1471290"
+                ]
+            },
+            "volume": null,
+            "page": "p 185",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414581",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543767870"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 187",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_187",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cucurbita_pepo",
+                "type": "species",
+                "archival_data": [
+                    "1408748"
+                ]
+            },
+            "volume": null,
+            "page": "p 187",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414606",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 188",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_188",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "begonia_socotrana",
+                "type": "species",
+                "archival_data": [
+                    "1400739"
+                ]
+            },
+            "volume": null,
+            "page": "p 188",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414611",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 191",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_191",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "averrhoa_carambola",
+                "type": "species",
+                "archival_data": [
+                    "1398809"
+                ]
+            },
+            "volume": null,
+            "page": "p 191",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414616",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 192",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_192",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "elaeocarpus_angustifolius",
+                "type": "species",
+                "archival_data": [
+                    "1413167"
+                ]
+            },
+            "volume": null,
+            "page": "p 192",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414621",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 195",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_195",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cephalotus_follicularis",
+                "type": "species",
+                "archival_data": [
+                    "1404813"
+                ]
+            },
+            "volume": null,
+            "page": "p 195",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414626",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 197",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_197",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_obesa",
+                "type": "species",
+                "archival_data": [
+                    "1411094"
+                ]
+            },
+            "volume": null,
+            "page": "p 197",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414631",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 198-99",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_198_99",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adenia_hastata",
+                "type": "species",
+                "archival_data": [
+                    "2414586"
+                ]
+            },
+            "volume": null,
+            "page": "p 198-99",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414636",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 200",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_200",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "salix_caprea",
+                "type": "species",
+                "archival_data": [
+                    "1429484"
+                ]
+            },
+            "volume": null,
+            "page": "p 200",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414641",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 204",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_204",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "clusia_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1409026"
+                ]
+            },
+            "volume": null,
+            "page": "p 204",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414646",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 207",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_207",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mourera_fluviatiilis",
+                "type": "species",
+                "archival_data": [
+                    "2414601"
+                ]
+            },
+            "volume": null,
+            "page": "p 207",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2414651",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543768594"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 209",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_209",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pelargonium_tetragonum",
+                "type": "species",
+                "archival_data": [
+                    "1427002"
+                ]
+            },
+            "volume": null,
+            "page": "p 209",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415031",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 211",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_211",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "punica_granatum",
+                "type": "species",
+                "archival_data": [
+                    "1426885"
+                ]
+            },
+            "volume": null,
+            "page": "p 211",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415036",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 213",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_213",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fuchsia_cultivars_corallina",
+                "type": "variety",
+                "archival_data": [
+                    "1474631"
+                ]
+            },
+            "volume": null,
+            "page": "p 213",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415041",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 215",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_215",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corymbia_ficifolia",
+                "type": "species",
+                "archival_data": [
+                    "1447461"
+                ]
+            },
+            "volume": null,
+            "page": "p 215",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415046",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 216-17",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_216_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "medinilla_magnifica",
+                "type": "species",
+                "archival_data": [
+                    "1418938"
+                ]
+            },
+            "volume": null,
+            "page": "p 216-17",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415051",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 219",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_219",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aesculus_hippocastanum",
+                "type": "species",
+                "archival_data": [
+                    "1400527"
+                ]
+            },
+            "volume": null,
+            "page": "p 219",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": true,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415056",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 220",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_220",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "calodendrum_capense",
+                "type": "species",
+                "archival_data": [
+                    "1400481"
+                ]
+            },
+            "volume": null,
+            "page": "p 220",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415061",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 223",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_223",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nymania_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1425117"
+                ]
+            },
+            "volume": null,
+            "page": "p 223",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415066",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 223",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_223",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pseudobombax_tomentosum",
+                "type": "species",
+                "archival_data": [
+                    "2415026"
+                ]
+            },
+            "volume": null,
+            "page": "p 225",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415071",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543832193"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 227",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_227",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tropaeolum_majus",
+                "type": "species",
+                "archival_data": [
+                    "1427520"
+                ]
+            },
+            "volume": null,
+            "page": "p 227",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415081",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 228-29",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_228_29",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brassica_oleracea_c_savoy",
+                "type": "variety",
+                "archival_data": [
+                    "2415076"
+                ]
+            },
+            "volume": null,
+            "page": "p 228-29",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415086",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 231",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_231",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "langsdorffia_hypogaea",
+                "type": "species",
+                "archival_data": [
+                    "1444021"
+                ]
+            },
+            "volume": null,
+            "page": "p 231",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415091",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 237",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_237",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nepenthes_truncata",
+                "type": "species",
+                "archival_data": [
+                    "1417548"
+                ]
+            },
+            "volume": null,
+            "page": "p 237",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415096",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 238",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_238",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dianthus_cultivars_pike_s_pink",
+                "type": "variety",
+                "archival_data": [
+                    "1501716"
+                ]
+            },
+            "volume": null,
+            "page": "p 238",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415101",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 240-41",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_240_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "beta_vulgaris_b",
+                "type": "species",
+                "archival_data": [
+                    "1401174"
+                ]
+            },
+            "volume": null,
+            "page": "p 240-41",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415106",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 243",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_243",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mesembryanthemum_graniticum",
+                "type": "species",
+                "archival_data": [
+                    "1453655"
+                ]
+            },
+            "volume": null,
+            "page": "p 243",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415111",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 244",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_244",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carnegiea_gigantea",
+                "type": "species",
+                "archival_data": [
+                    "1408533"
+                ]
+            },
+            "volume": null,
+            "page": "p 244",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415116",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 247",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_247",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cornus_florida",
+                "type": "species",
+                "archival_data": [
+                    "1405321"
+                ]
+            },
+            "volume": null,
+            "page": "p 247",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415121",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 250",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_250",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "couroupita_guianensis",
+                "type": "species",
+                "archival_data": [
+                    "1407152"
+                ]
+            },
+            "volume": null,
+            "page": "p 250",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415126",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543839292"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 259",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_259",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "camellia_chrysantha",
+                "type": "species",
+                "archival_data": [
+                    "1406592"
+                ]
+            },
+            "volume": null,
+            "page": "p 259",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415136",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 261",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_261",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sarracenia_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1431046"
+                ]
+            },
+            "volume": null,
+            "page": "p 261",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415141",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 264-65",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_264_65",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_falconeri",
+                "type": "species",
+                "archival_data": [
+                    "1430921"
+                ]
+            },
+            "volume": null,
+            "page": "p 264-65",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415146",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 267",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_267",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gentiana_quinquefolia_occidentalis",
+                "type": "variety",
+                "archival_data": [
+                    "2415131"
+                ]
+            },
+            "volume": null,
+            "page": "p 267",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415151",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 269",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_269",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "allamanda_cathartica",
+                "type": "species",
+                "archival_data": [
+                    "1401755"
+                ]
+            },
+            "volume": null,
+            "page": "p 269",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415156",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 271",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_271",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trichodesma_scottii",
+                "type": "species",
+                "archival_data": [
+                    "1432755"
+                ]
+            },
+            "volume": null,
+            "page": "p 271",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415161",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 273",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_273",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ipomoea_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1416915"
+                ]
+            },
+            "volume": null,
+            "page": "p 273",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415166",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 274-75",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_274_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "solanum_melongena",
+                "type": "species",
+                "archival_data": [
+                    "1430730"
+                ]
+            },
+            "volume": null,
+            "page": "p 274-75",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415171",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 276",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_276",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "physalis_peruviana",
+                "type": "species",
+                "archival_data": [
+                    "1424177"
+                ]
+            },
+            "volume": null,
+            "page": "p 276",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415176",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 281",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_281",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plantago_lanceolata",
+                "type": "species",
+                "archival_data": [
+                    "1426045"
+                ]
+            },
+            "volume": null,
+            "page": "p 281",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415181",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 283",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_283",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "veronica_persica",
+                "type": "species",
+                "archival_data": [
+                    "1429412"
+                ]
+            },
+            "volume": null,
+            "page": "p 283",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": true,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415186",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 285",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_285",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "origanum_dictamnus",
+                "type": "species",
+                "archival_data": [
+                    "1422225"
+                ]
+            },
+            "volume": null,
+            "page": "p 285",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415191",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 286",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_286",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plectranthus_zuluensis",
+                "type": "species",
+                "archival_data": [
+                    "1440332"
+                ]
+            },
+            "volume": null,
+            "page": "p 286",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415196",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 289",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_289",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paulownia_elongata",
+                "type": "species",
+                "archival_data": [
+                    "1435751"
+                ]
+            },
+            "volume": null,
+            "page": "p 289",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415201",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 290",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_290",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aeginetia_indica",
+                "type": "species",
+                "archival_data": [
+                    "1399783"
+                ]
+            },
+            "volume": null,
+            "page": "p 290",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415206",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 293",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_293",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thunbergia_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1430822"
+                ]
+            },
+            "volume": null,
+            "page": "p 293",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415211",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840360"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 294-95",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_294_95",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "spathodea_campanulata",
+                "type": "species",
+                "archival_data": [
+                    "1431530"
+                ]
+            },
+            "volume": null,
+            "page": "p 294-95",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415216",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 299",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_299",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "physoplexis_comosa",
+                "type": "species",
+                "archival_data": [
+                    "1424197"
+                ]
+            },
+            "volume": null,
+            "page": "p 299",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415221",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 300",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_300",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "menyanthes_trifoliata",
+                "type": "species",
+                "archival_data": [
+                    "1419720"
+                ]
+            },
+            "volume": null,
+            "page": "p 300",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415226",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 303",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_303",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "taraxacum_officinale",
+                "type": "species",
+                "archival_data": [
+                    "1429314"
+                ]
+            },
+            "volume": null,
+            "page": "p 303",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415231",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 305",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_305",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cynara_scolymus",
+                "type": "species",
+                "archival_data": [
+                    "1403809"
+                ]
+            },
+            "volume": null,
+            "page": "p 305",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415236",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 307",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_307",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cirsium_eriophorum",
+                "type": "species",
+                "archival_data": [
+                    "1407457"
+                ]
+            },
+            "volume": null,
+            "page": "p 307",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415241",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 308",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_308",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viburnum_rhytidophyllum",
+                "type": "species",
+                "archival_data": [
+                    "1429804"
+                ]
+            },
+            "volume": null,
+            "page": "p 308",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415246",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 310-311",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_310_311",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hedera_helix",
+                "type": "species",
+                "archival_data": [
+                    "1410831"
+                ]
+            },
+            "volume": null,
+            "page": "p 310-311",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415251",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 313",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_313",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "eryngium_maritimum",
+                "type": "species",
+                "archival_data": [
+                    "1412512"
+                ]
+            },
+            "volume": null,
+            "page": "p 313",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415256",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543840835"
+            }
+        },
+        {
+            "name": "Kress, W. John and Shirley Sherwood. The Art of Plant Evolution. (2009) p 51",
+            "machine_name": "kress_w_john_and_shirley_sherwood_the_art_of_plant_evolution_2009_p_51",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encephalartos_ferox",
+                "type": "species",
+                "archival_data": [
+                    "1413583"
+                ]
+            },
+            "volume": null,
+            "page": "p 51",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2415261",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1543842252"
+            }
+        }
+    ]
+}

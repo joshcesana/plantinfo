@@ -1,0 +1,61 @@
+{
+    "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 5, no. 2. (1992)",
+    "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_5_no_2_1992",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1992",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114242",
+        "legacy_id": "5875",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: J. of the Nat'l. Wildflower Res. Ctr. vol 5, no. 2. (1992) p cover",
+            "machine_name": "wildflower_j_of_the_nat_l_wildflower_res_ctr_vol_5_no_2_1992_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_spicata",
+                "type": "species",
+                "archival_data": [
+                    "1417019"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1802663",
+                "legacy_id": "108581",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        }
+    ]
+}

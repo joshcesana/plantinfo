@@ -1,14 +1,22 @@
 .site-foot {
-  padding: get-size('500') 0 get-size('700') 0;
+  @include apply-utility('font', 'sans');
+  font-size: get-size('400');
   text-align: center;
+}
+
+.site-foot__wrapper[class~='site-foot__wrapper'] {
+  margin-top: get-size('500');
+  padding-bottom: get-size('700');
+}
+
+.site-foot__content {
+  border-top: 1px solid get-color('secondary-shade');
+  padding-top: get-size('700');
 }
 
 .site-foot__nav {
   padding: get-size('500') 0 get-size('700') 0;
   .nav__list {
     justify-content: center;
-    a {
-      color: get-color('dark-shade');
-    }
   }
 }

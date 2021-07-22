@@ -1,0 +1,184 @@
+{
+    "name": "Verdant Views. 2012. Fall.",
+    "machine_name": "verdant_views_2012_fall",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": null,
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "1693075",
+        "legacy_id": "120769",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Verdant Views. 2012. Fall. p 18",
+            "machine_name": "verdant_views_2012_fall_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "miscanthus_sinensis_condensatus",
+                "type": "variety",
+                "archival_data": [
+                    "1482386"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2064506",
+                "legacy_id": "456532",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Verdant Views. 2012. Fall. p 18",
+            "machine_name": "verdant_views_2012_fall_p_18",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pennisetum_alopecuroides_viridescens",
+                "type": "variety",
+                "archival_data": [
+                    "1522739"
+                ]
+            },
+            "volume": null,
+            "page": "p 18",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2064507",
+                "legacy_id": "456533",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Verdant Views. 2012. Fall. p 19",
+            "machine_name": "verdant_views_2012_fall_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "panicum_virgatum_cheyenne_sky",
+                "type": "variety",
+                "archival_data": [
+                    "1652788"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2064508",
+                "legacy_id": "456534",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        },
+        {
+            "name": "Verdant Views. 2012. Fall. p 19",
+            "machine_name": "verdant_views_2012_fall_p_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "miscanthus_sinensis_strictus",
+                "type": "variety",
+                "archival_data": [
+                    "1482398"
+                ]
+            },
+            "volume": null,
+            "page": "p 19",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2069211",
+                "legacy_id": "456535",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483206328"
+            }
+        }
+    ]
+}

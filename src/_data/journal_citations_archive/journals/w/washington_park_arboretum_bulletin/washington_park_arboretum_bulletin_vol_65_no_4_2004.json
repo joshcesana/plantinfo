@@ -1,0 +1,512 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2004",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120189",
+        "legacy_id": "88449",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chimonanthus_praecox",
+                "type": "species",
+                "archival_data": [
+                    "1406317"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951728",
+                "legacy_id": "358972",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 3",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "polypodium_glycyrrhiza",
+                "type": "species",
+                "archival_data": [
+                    "1442961"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951729",
+                "legacy_id": "358973",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "magnolia_acuminata",
+                "type": "species",
+                "archival_data": [
+                    "1421161"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": true,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951730",
+                "legacy_id": "358974",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 12",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_12",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "prunus_subhirtella_autumnalis",
+                "type": "variety",
+                "archival_data": [
+                    "1488961"
+                ]
+            },
+            "volume": null,
+            "page": "p 12",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951731",
+                "legacy_id": "358975",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 13 (Adv.)",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_13_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_capistrano",
+                "type": "variety",
+                "archival_data": [
+                    "1524656"
+                ]
+            },
+            "volume": null,
+            "page": "p 13 (Adv.)",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951732",
+                "legacy_id": "358976",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 16-17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_16_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "akebia_quinata",
+                "type": "species",
+                "archival_data": [
+                    "1401352"
+                ]
+            },
+            "volume": null,
+            "page": "p 16-17",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951733",
+                "legacy_id": "358977",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 20",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "corydalis_solida_george_p_baker",
+                "type": "variety",
+                "archival_data": [
+                    "1471267"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951734",
+                "legacy_id": "358978",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 20",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "galanthus_cultivars_straffan",
+                "type": "variety",
+                "archival_data": [
+                    "1475564"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951735",
+                "legacy_id": "358979",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 21",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "primula_auricula_striped_victorians_series",
+                "type": "variety",
+                "archival_data": [
+                    "1627535"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951736",
+                "legacy_id": "358980",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 27",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_verticillata_red_sprite",
+                "type": "variety",
+                "archival_data": [
+                    "1477310"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951737",
+                "legacy_id": "358981",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 27",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ilex_verticillata_cacapon",
+                "type": "variety",
+                "archival_data": [
+                    "1477308"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951738",
+                "legacy_id": "358982",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 65, no. 4. (2004) p 30",
+            "machine_name": "washington_park_arboretum_bulletin_vol_65_no_4_2004_p_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_candidissimum",
+                "type": "species",
+                "archival_data": [
+                    "1401815"
+                ]
+            },
+            "volume": null,
+            "page": "p 30",
+            "year": "2004",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951739",
+                "legacy_id": "358983",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

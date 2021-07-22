@@ -1,0 +1,348 @@
+{
+    "name": "Veld & Flora. vol 81, no. 3. (1995)",
+    "machine_name": "veld_flora_vol_81_no_3_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2110710",
+        "legacy_id": "5797",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 72",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_72",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "chasmanthe_floribunda_duckittii",
+                "type": "variety",
+                "archival_data": [
+                    "1468278"
+                ]
+            },
+            "volume": null,
+            "page": "p 72",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1711034",
+                "legacy_id": "7160",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 75",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_75",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "adenia_spinosa",
+                "type": "species",
+                "archival_data": [
+                    "1398969"
+                ]
+            },
+            "volume": null,
+            "page": "p 75",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1768823",
+                "legacy_id": "68756",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 79",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_79",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crocosmia_pearsei",
+                "type": "species",
+                "archival_data": [
+                    "1407948"
+                ]
+            },
+            "volume": null,
+            "page": "p 79",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1781771",
+                "legacy_id": "85692",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 71",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_equitans",
+                "type": "species",
+                "archival_data": [
+                    "1411969"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798229",
+                "legacy_id": "99498",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 71",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_71",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "lapeirousia_silenoides",
+                "type": "species",
+                "archival_data": [
+                    "1421015"
+                ]
+            },
+            "volume": null,
+            "page": "p 71",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1802899",
+                "legacy_id": "107317",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 94",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_94",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_asymmetrica",
+                "type": "species",
+                "archival_data": [
+                    "1424970"
+                ]
+            },
+            "volume": null,
+            "page": "p 94",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817730",
+                "legacy_id": "124527",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p 92",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_92",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "restio_festuciformis",
+                "type": "species",
+                "archival_data": [
+                    "1424340"
+                ]
+            },
+            "volume": null,
+            "page": "p 92",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1822146",
+                "legacy_id": "127016",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 81, no. 3. (1995) p cover|70",
+            "machine_name": "veld_flora_vol_81_no_3_1995_p_cover_70",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ursinia_cakilefolia",
+                "type": "species",
+                "archival_data": [
+                    "1428301"
+                ]
+            },
+            "volume": null,
+            "page": "p cover|70",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1835252",
+                "legacy_id": "139698",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

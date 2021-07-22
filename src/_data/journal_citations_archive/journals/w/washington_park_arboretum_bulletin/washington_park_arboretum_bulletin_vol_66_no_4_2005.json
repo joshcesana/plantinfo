@@ -1,0 +1,307 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2005",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121699",
+        "legacy_id": "69151",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "camellia_williamsii",
+                "type": "species",
+                "archival_data": [
+                    "1406610"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993156",
+                "legacy_id": "310008",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 3",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_foetidus_wester_flisk",
+                "type": "variety",
+                "archival_data": [
+                    "1475641"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993157",
+                "legacy_id": "310009",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 3",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arum_italicum_pictum",
+                "type": "variety",
+                "archival_data": [
+                    "1463960"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993158",
+                "legacy_id": "310010",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arctostaphylos_manzanita",
+                "type": "species",
+                "archival_data": [
+                    "1401385"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993159",
+                "legacy_id": "310011",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 6",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arctostaphylos_densiflora_howard_mcminn",
+                "type": "variety",
+                "archival_data": [
+                    "1463866"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993160",
+                "legacy_id": "310012",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 13",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fatsia_japonica",
+                "type": "species",
+                "archival_data": [
+                    "1412594"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993161",
+                "legacy_id": "310013",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 66, no. 4. (2005) p 21 (Adv.)",
+            "machine_name": "washington_park_arboretum_bulletin_vol_66_no_4_2005_p_21_adv",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_capistrano",
+                "type": "variety",
+                "archival_data": [
+                    "1524656"
+                ]
+            },
+            "volume": null,
+            "page": "p 21 (Adv.)",
+            "year": "2005",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1993162",
+                "legacy_id": "310014",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        }
+    ]
+}

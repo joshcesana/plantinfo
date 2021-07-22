@@ -1,0 +1,389 @@
+{
+    "name": "Wildflower. vol 34, no..2. (2017)",
+    "machine_name": "wildflower_vol_34_no_2_2017",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2017",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2191996",
+        "legacy_id": null,
+        "author": "r-isaa",
+        "created": "1515163625"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p inside cover; 1-3; 8-9",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_inside_cover_1_3_8_9",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "datura_wrightii",
+                "type": "species",
+                "archival_data": [
+                    "1405425"
+                ]
+            },
+            "volume": null,
+            "page": "p inside cover; 1-3; 8-9",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192001",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163792"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 7",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_7",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhus_lanceolata",
+                "type": "species",
+                "archival_data": [
+                    "1432504"
+                ]
+            },
+            "volume": null,
+            "page": "p 7",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192006",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515163792"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 13",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_13",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_spicata_alba",
+                "type": "variety",
+                "archival_data": [
+                    "1478105"
+                ]
+            },
+            "volume": null,
+            "page": "p 13",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192011",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 39",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "astrophytum_asterias",
+                "type": "species",
+                "archival_data": [
+                    "1398414"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192016",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 40",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_40",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "manihot_walkerae",
+                "type": "species",
+                "archival_data": [
+                    "1417442"
+                ]
+            },
+            "volume": null,
+            "page": "p 40",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192021",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 41",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_41",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rubus_trivialis",
+                "type": "species",
+                "archival_data": [
+                    "1460532"
+                ]
+            },
+            "volume": null,
+            "page": "p 41",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192026",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 45",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "bouteloua_gracilis",
+                "type": "species",
+                "archival_data": [
+                    "1402667"
+                ]
+            },
+            "volume": null,
+            "page": "p 45",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192031",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 45",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "dalea_formosa",
+                "type": "species",
+                "archival_data": [
+                    "1439558"
+                ]
+            },
+            "volume": null,
+            "page": "p 45",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192036",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        },
+        {
+            "name": "Wildflower. vol 34, no..2. (2017) p 45",
+            "machine_name": "wildflower_vol_34_no_2_2017_p_45",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "fouquieria_splendens",
+                "type": "species",
+                "archival_data": [
+                    "1413766"
+                ]
+            },
+            "volume": null,
+            "page": "p 45",
+            "year": null,
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": true
+            },
+            "archival_data": {
+                "id": "2192041",
+                "legacy_id": null,
+                "AD": null,
+                "fpi_pub_issue": null,
+                "pullingdat": null,
+                "active": null,
+                "author": "r-isaa",
+                "created": "1515164314"
+            }
+        }
+    ]
+}

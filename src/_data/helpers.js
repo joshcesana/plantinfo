@@ -1,5 +1,73 @@
 module.exports = {
   /**
+   * Checks if the object or object chain has a set of properties.
+   *
+   * @param {Object}       object       The object chain.
+   * @param {Array}        properties   The array of property names.
+   * @returns {Boolean}                 The determination if the object has these properties.
+   */
+  objectHasOwnProperties(object, properties) {
+    let currentObject = Object.assign(object);
+    let hasProperties = true;
+
+    properties.forEach(property => {
+      if (
+        currentObject.hasOwnProperty(property) &&
+        currentObject[property] !== null &&
+        typeof(currentObject[property]) !== 'undefined'
+      ) {
+        currentObject = Object.assign(currentObject[property]);
+      } else {
+        hasProperties = false;
+      }
+    });
+
+    return hasProperties;
+  },
+
+  /**
+   * Checks if this is an array that has items.
+   *
+   * @param {Array}       checkThis   The item to check.
+   * @returns {Boolean}               The determination if the object has these properties.
+   */
+  isArrayWithItems(checkThis) {
+    return (
+      Array.isArray(checkThis) &&
+      checkThis.length > 0
+    );
+  },
+
+  /**
+   * Clones an object without a reference.
+   *
+   * @param {Object}       object      The object.
+   * @returns {Object}                 The cloned object.
+   */
+  cloneObject(object) {
+    return JSON.parse(JSON.stringify(object))
+  },
+
+  /**
+   * Insert line break opportunities into a URL
+   */
+  addUrlLineBreaks(url) {
+  // Split the URL into an array to distinguish double slashes from single slashes
+    var doubleSlash = url.split('//');
+
+    // Format the strings on either side of double slashes separately
+    return doubleSlash.map(str =>
+        // Insert a word break opportunity after a colon and at-sign
+        str.replace(/(?<after>[:@])/giu, '$1<wbr>')
+        // Before a single slash, tilde, period, comma, hyphen, underline, question mark, number sign, or percent symbol
+          .replace(/(?<before>[/~.,\-_?#%])/giu, '<wbr>$1')
+          // Before and after an equals sign or ampersand
+          .replace(/(?<beforeAndAfter>[=&])/giu, '<wbr>$1<wbr>')
+      // Reconnect the strings with word break opportunities after double slashes
+    ).join('//<wbr>');
+  },
+
+  /**
    * Returns back some attributes based on whether the
    * link is active or a parent of an active item
    *
@@ -30,7 +98,7 @@ module.exports = {
    * @param {String}       uuid         The uuid of the item.
    * @returns {Array}                   The item from the collection.
    */
-  getItemByTypeAndMachineName(collections, itemType, machineName, uuid) {
+  getItemByTypeAndMachineName(collections, itemType, machineName, uuid = '') {
     const collectionItems = collections[itemType];
     let itemFound = {};
     let collectionItemsFound = [];
@@ -44,7 +112,7 @@ module.exports = {
         collectionItem.data.type === itemType &&
         collectionItem.data.hasOwnProperty('machine_name') &&
         collectionItem.data.machine_name === machineName) {
-        thisItem['data'] = collectionItem.data;
+        thisItem['data'] = module.exports.cloneObject(collectionItem.data);
       }
 
       if (thisItem.hasOwnProperty('data')) {
@@ -163,12 +231,48 @@ module.exports = {
   /**
    * Returns a link list of plant items that are the child of a plant type and machine name.
    *
+   * @param {Array}      collections     The default collections.
    * @param {Array}      childPlantItems The child plant items.
    * @param {String}     childPlantType  The plant type of the child plant items.
    * @returns {Array}                    The child plant items.
    */
-  createChildLinkList(childPlantItems, childPlantType) {
-    return module.exports.createLinkList(childPlantItems, childPlantType, 'related');
+  createChildLinkList(collections, childPlantItems, childPlantType) {
+    return module.exports.createLinkList(collections, childPlantItems, childPlantType, 'related');
+  },
+
+  /**
+   * Returns nursery specialties for a particular nursery
+   *
+   * @param {Object}     nurseryData     The data from a nursery.
+   * @returns {Array}                    The nursery speciality items.
+ */
+  getNurserySpecialties(nurseryData) {
+    let specialityItems = [];
+
+    if (
+      module.exports.objectHasOwnProperties(nurseryData, ['specialties']) &&
+      module.exports.isArrayWithItems(nurseryData.specialties)
+    ) {
+      nurseryData.specialties.forEach(specialty => {
+        specialityItems.push(
+          {
+            data: specialty
+          }
+        );
+        if (
+          module.exports.objectHasOwnProperties(specialty, ['type']) &&
+          module.exports.objectHasOwnProperties(specialty, ['machine_name'])
+        ) {
+          specialityItems.push(
+            {
+              data: specialty
+            }
+          );
+        }
+      });
+    }
+
+    return specialityItems;
   },
 
   /**
@@ -313,27 +417,54 @@ module.exports = {
       uuidSlug: ''
     };
 
+    let permalink_data = {};
+
     if (
-      nurseryCategoryItem.hasOwnProperty('data') &&
-      nurseryCategoryItem.data.hasOwnProperty('type') &&
-      nurseryCategoryItem.data.hasOwnProperty('machine_name')
+      module.exports.objectHasOwnProperties(nurseryCategoryItem, ['data'])
     ) {
-      if (nurseryCategoryItem.data.type === 'nursery_category') {
-        pathParts.nurserySlug = nurseryCategoryItem.data.machine_name;
+      permalink_data = Object.assign(nurseryCategoryItem.data);
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(permalink_data, ['nursery_category_items'])
+    ) {
+      permalink_data = Object.assign(nurseryCategoryItem.data);
+    }
+
+    // if (
+    //   permalink_data.hasOwnProperty('nursery_category') &&
+    //   typeof(permalink_data['nursery_category']) !== 'undefined' &&
+    //   permalink_data['nursery_category'].hasOwnProperty('data') &&
+    //   typeof(permalink_data['nursery_category'].data) !== 'undefined'
+    // ) {
+    //   permalink_data = permalink_data['nursery_category'].data
+    // }
+
+    if (
+      module.exports.objectHasOwnProperties(permalink_data, ['type']) &&
+      module.exports.objectHasOwnProperties(permalink_data, ['machine_name'])
+    ) {
+      if (permalink_data.type === 'nursery_category') {
+        pathParts.nurseryCategorySlug = permalink_data.machine_name;
       }
 
       if (
-        nurseryCategoryItem.data.hasOwnProperty('archival_data') &&
-        nurseryCategoryItem.data.archival_data.hasOwnProperty('id')
+        module.exports.objectHasOwnProperties(permalink_data, ['archival_data', 'id'])
       ) {
-        pathParts.uuidSlug = nurseryCategoryItem.data.archival_data.id;
+        pathParts.uuidSlug = permalink_data.archival_data.id;
       }
     }
 
-    if (pathParts.nurserySlug !== '') {
-      permalinkPath = permalinkPath + '/nurseries/nursery-category/' + pathParts.nurserySlug + '/';
+    if (
+      pathParts.nurseryCategorySlug !== '' &&
+      typeof(pathParts.nurseryCategorySlug) !== 'undefined'
+    ) {
+      permalinkPath = permalinkPath + '/nurseries/nursery-category/' + pathParts.nurseryCategorySlug + '/';
 
-      if (pathParts.uuidSlug !== '') {
+      if (
+        pathParts.uuidSlug !== '' &&
+        typeof(pathParts.uuidSlug) !== 'undefined'
+      ) {
         permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
       }
     }
@@ -465,43 +596,65 @@ module.exports = {
   /**
    * Returns a link list of plant items in a directory.
    *
+   * @param {Array}      collections         The default collections.
    * @param {Array}      directoryPlantItems The directory plant items.
    * @param {String}     directoryPlantType  The plant type of the directory plant items.
    * @returns {Array}                         The directory plant items.
    */
-  createDirectoryLinkList(directoryPlantItems, directoryPlantType) {
-    return module.exports.createLinkList(directoryPlantItems, directoryPlantType, 'directory');
+  createDirectoryLinkList(collections, directoryPlantItems, directoryPlantType) {
+    return module.exports.createLinkList(collections, directoryPlantItems, directoryPlantType, 'directory');
   },
 
   /**
-   * Returns a link list of plant items.
+   * Returns a link list of items.
    *
-   * @param {Array}      plantItems     The child plant items.
-   * @param {String}     plantType      The plant type of the child plant items.
-   * @param {String}     classPrefix    The prefix to use in the class name.
-   * @returns {Array}                   The child plant items.
+   * @param {Array}     collections   The default collections.
+   * @param {Array}      items         The items.
+   * @param {String}     itemType      The type of the items.
+   * @param {String}     classPrefix   The prefix to use in the class name.
+   * @param {String}     permalinkType The permalink type to use.
+   * @returns {Array}                  The link list items.
    */
-  createLinkList(plantItems, plantType, classPrefix) {
+  createLinkList(collections, items, itemType, classPrefix, permalinkType = 'plant') {
     let linkList = [];
 
-    plantItems.forEach(plant => {
+    items.forEach(item => {
       if (
-        plant.hasOwnProperty('data') &&
-        plant.data.hasOwnProperty('type') &&
-        plant.data.hasOwnProperty('machine_name') &&
-        plant.data.hasOwnProperty('name')
+        module.exports.objectHasOwnProperties(item, ['data']) &&
+        module.exports.objectHasOwnProperties(item.data, ['type']) &&
+        module.exports.objectHasOwnProperties(item.data, ['machine_name'])
       ) {
-        linkList.push(
-          {
-            list_item_class: '[ ' + classPrefix + '-' + plantType + '__link-list-item ]',
-            link_class: '[ ' + classPrefix + '-' + plantType + '__link ]',
-            type: plant.data.type,
-            machine_name: plant.data.machine_name,
-            name: plant.data.name,
-            uuid: plant.data.uuid,
-            permalink_path: module.exports.createPlantPermalinkPath(plant)
+        let permalinkPath = '';
+        if (permalinkType === 'plant') {
+          permalinkPath = module.exports.createPlantPermalinkPath(item);
+        } else if (permalinkType === 'nursery_category') {
+          permalinkPath = module.exports.createNurseryCategoryPermalinkPath(item);
+        }
+
+        let linkListItem = {
+          list_item_class: '[ ' + classPrefix + '-' + itemType + '__link-list-item ]',
+          link_class: '[ ' + classPrefix + '-' + itemType + '__link ]',
+          type: item.data.type,
+          machine_name: item.data.machine_name,
+          uuid: item.data.uuid,
+          permalink_path: permalinkPath
+        };
+
+        if (
+          module.exports.objectHasOwnProperties(item.data, ['name'])
+        ) {
+          linkListItem.name = item.data.name
+        } else {
+          const itemData = module.exports.getItemByTypeAndMachineName(collections, itemType, item.data.machine_name);
+
+          if (
+            module.exports.objectHasOwnProperties(itemData, ['data', 'name'])
+          ) {
+            linkListItem.name = itemData.data.name
           }
-        );
+        }
+
+        linkList.push(linkListItem);
       }
     });
 
@@ -519,7 +672,6 @@ module.exports = {
   createLetterList(typeCollection, plantType) {
 
     let letterList = [];
-    let letterLinkList = [];
 
     typeCollection.forEach(plant => {
       if (
@@ -528,8 +680,8 @@ module.exports = {
         plant.data.hasOwnProperty('name')
       ) {
         if (plant.data.type === plantType) {
-          let firstLetter = '';
-          firstLetter = (plant.data.name.match(/[a-zA-Z]/) || []).pop();
+          let thisPlant = module.exports.cloneObject(plant);
+          let firstLetter = (thisPlant.data.name.match(/[a-zA-Z]/) || []).pop();
 
           if (firstLetter !== '' && !letterList.includes(firstLetter)) {
             letterList.push(
@@ -746,5 +898,162 @@ module.exports = {
     currentScientificName = module.exports.setScientificNameInfo(collections, currentPlantData, currentPlantType, currentScientificName);
 
     return currentScientificName;
+  },
+
+  /**
+   * Returns an object with the information necessary to display nursery data.
+   *
+   * @param {Object}       nurseryData    The nursery data object.
+   * @returns {Object}                    The nursery details object.
+   */
+  getNurseryDetails(nurseryData) {
+    const location = nurseryData.location;
+
+    const nurseryDetails = {
+      name: '',
+      website: '',
+      email: '',
+      email_breaks: '',
+      phone: '',
+      phone_tel: '',
+      fax: '',
+      fax_tel: '',
+      contact_name: '',
+      address_1: '',
+      address_2: '',
+      city: '',
+      state: '',
+      postal_code: '',
+      country: '',
+      geo_coordinate: '',
+      catalog_print: false,
+      catalog_online: false,
+      catalog_web_only: false
+    };
+
+    if (
+      module.exports.objectHasOwnProperties(nurseryData, ['name'])
+    ) {
+      nurseryDetails.name = nurseryData.name;
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(nurseryData, ['contact'])
+    ) {
+      const contact = nurseryData.contact;
+
+      if (
+        module.exports.objectHasOwnProperties(contact, ['website', 'url'])
+      ) {
+        nurseryDetails.website = contact.website.url;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(contact, ['email'])
+      ) {
+        nurseryDetails.email = contact.email;
+        nurseryDetails.email_breaks = module.exports.addUrlLineBreaks(contact.email);
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(contact, ['phone'])
+      ) {
+        nurseryDetails.phone = contact.phone;
+        nurseryDetails.phone_tel = contact.phone.replace('-', '');
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(contact, ['fax'])
+      ) {
+        nurseryDetails.fax = contact.fax;
+        nurseryDetails.fax_tel = contact.fax.replace('-', '');
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(contact, ['name'])
+      ) {
+        nurseryDetails.contact_name = contact.name;
+      }
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(nurseryData, ['location'])
+    ) {
+      const location = nurseryData.location;
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['address_1'])
+      ) {
+        nurseryDetails.address_1 = location.address_1;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['address_2'])
+      ) {
+        nurseryDetails.address_2 = location.address_2;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['city'])
+      ) {
+        nurseryDetails.city = location.city;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['state'])
+      ) {
+        nurseryDetails.state = location.state;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['postal_code'])
+      ) {
+        nurseryDetails.postal_code = location.postal_code;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['country']) &&
+        module.exports.objectHasOwnProperties(location.country, ['united_states']) &&
+        module.exports.objectHasOwnProperties(location.country, ['canada'])
+      ) {
+        if (location.country.united_states === true) {
+          nurseryDetails.country = 'United States';
+        } else if (location.country.canada === true) {
+          nurseryDetails.country = 'Canada';
+        }
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(location, ['geo_coordinate'])
+      ) {
+        nurseryDetails.geo_coordinate = location.geo_coordinate;
+      }
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(nurseryData, ['catalog'])
+    ) {
+      const catalog = nurseryData.catalog;
+
+      if (
+        module.exports.objectHasOwnProperties(catalog, ['print'])
+      ) {
+        nurseryDetails.catalog_print = catalog.print;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(catalog, ['online'])
+      ) {
+        nurseryDetails.catalog_online = catalog.online;
+      }
+
+      if (
+        module.exports.objectHasOwnProperties(catalog, ['web_only'])
+      ) {
+        nurseryDetails.catalog_web_only = catalog.web_only;
+      }
+    }
+
+    return nurseryDetails;
   }
 };

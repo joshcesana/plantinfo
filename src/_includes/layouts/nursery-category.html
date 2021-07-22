@@ -1,21 +1,31 @@
 {% extends "layouts/base.html" %}
 
-{% set nursery_category_data = nursery_category.data %}
-{% set nursery_category_name = nursery_category_data.name %}
+{% set nurseries = nursery_by_category.items %}
+{% set nursery_category_data = nursery_by_category.source %}
+{% set nursery_category_slug = nursery_category_data.machine_name %}
 
 {% block content %}
 
 <div class="[ wrapper wrapper--topbot ]">
   <article class="[ page ] [ page--nursery-category ]">
     <div class="[ page-head ] [ page-head--nursery-category ]">
-      <h1 class="[ page-title ] [ page-title--nursery-category ]">{{ nursery_category_name }}</h1>
+      <h1 class="[ page-title ] [ page-title--nursery-category ]">{{ nursery_by_category.title }}</h1>
     </div>
 
-    <div class="[ page-bottom ] [ page-bottom--nursery-category ] [ auto-grid grid-2-1 ]">
-      <div class="[ page-bottom__first ]">
-      </div>
-      <div class="[ page-bottom__second ]">
-      </div>
+    <div class="[ page-bottom ] [ page-bottom--nursery-category ]">
+
+      {% for nursery in nurseries %}
+
+        {% set nursery_details = helpers.getNurseryDetails(nursery.data) %}
+        {% set title = nursery_details.name %}
+        {% include "partials/nurseries/nursery-teaser.html" %}
+
+      {% endfor %}
+
+      {% set pagination_title = "Nursery Category" %}
+      {% set pagination_id = "pagination-nurseries-by-category" %}
+      {% set pagination_details = nursery_by_category %}
+      {% include "partials/pagination.html" %}
     </div>
   </article>
 </div>

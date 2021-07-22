@@ -1,0 +1,61 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 51, no. 4. (1988)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_51_no_4_1988",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1988",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2112898",
+        "legacy_id": "5809",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 51, no. 4. (1988) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_51_no_4_1988_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_lady_rosebery",
+                "type": "variety",
+                "archival_data": [
+                    "1489666"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1988",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1747393",
+                "legacy_id": "42658",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        }
+    ]
+}

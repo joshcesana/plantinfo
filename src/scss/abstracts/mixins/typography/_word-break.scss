@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Word break mixin
+   ========================================================================== */
+
+// word-break
+//
+// Set word-break properties.
+//
+// @param {Boolean}  $hyphens
+@mixin word-break($hyphens: false) {
+  white-space: normal;
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all; // sass-lint:disable-line no-misspelled-properties
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all; // sass-lint:disable-line no-duplicate-properties
+  /* Instead use this non-standard one: */
+  word-break: break-word; // sass-lint:disable-line no-duplicate-properties
+
+  @if ($hyphens == true) {
+    /* Adds a hyphen where the word breaks, if supported (No Blink) */
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  } @else {
+    -ms-hyphens: none;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+  }
+}

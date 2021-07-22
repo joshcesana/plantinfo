@@ -1,0 +1,635 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1998",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115417",
+        "legacy_id": "6955",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p cover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "maianthemum_racemosum",
+                "type": "species",
+                "archival_data": [
+                    "1450701"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850751",
+                "legacy_id": "155399",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p cover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "quercus_macrocarpa",
+                "type": "species",
+                "archival_data": [
+                    "1421727"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850752",
+                "legacy_id": "155400",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 10-11",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_10_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hamamelis_virginiana",
+                "type": "species",
+                "archival_data": [
+                    "1410072"
+                ]
+            },
+            "volume": null,
+            "page": "p 10-11",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850753",
+                "legacy_id": "155401",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 14",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "viola_flettii",
+                "type": "species",
+                "archival_data": [
+                    "1436844"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850754",
+                "legacy_id": "155402",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 34",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_moscheutos_palustris",
+                "type": "variety",
+                "archival_data": [
+                    "1473966"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850755",
+                "legacy_id": "155403",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 34",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "kosteletzkya_virginica",
+                "type": "species",
+                "archival_data": [
+                    "1419919"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850756",
+                "legacy_id": "155404",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 34",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_34",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hibiscus_waimeae_hannerae",
+                "type": "variety",
+                "archival_data": [
+                    "1541032"
+                ]
+            },
+            "volume": null,
+            "page": "p 34",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850995",
+                "legacy_id": "155405",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "iliamna_remota",
+                "type": "species",
+                "archival_data": [
+                    "1416170"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850996",
+                "legacy_id": "155406",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sphaeralcea_ambigua",
+                "type": "species",
+                "archival_data": [
+                    "1431842"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850997",
+                "legacy_id": "155407",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "saxifraga_cespitosa",
+                "type": "species",
+                "archival_data": [
+                    "1431449"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850998",
+                "legacy_id": "155408",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "silene_acaulis",
+                "type": "species",
+                "archival_data": [
+                    "1429591"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1850999",
+                "legacy_id": "155409",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pedicularis_lanata_dasyantha",
+                "type": "variety",
+                "archival_data": [
+                    "1541033"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1851000",
+                "legacy_id": "155410",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cassiope_tetragona_tetragona",
+                "type": "variety",
+                "archival_data": [
+                    "1541034"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1851001",
+                "legacy_id": "155411",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "saxifraga_cernua",
+                "type": "species",
+                "archival_data": [
+                    "1431458"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1851002",
+                "legacy_id": "155412",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 14, no. 4. (1998) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_14_no_4_1998_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "papaver_dahlianum",
+                "type": "species",
+                "archival_data": [
+                    "1424421"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "1998",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1851003",
+                "legacy_id": "155413",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483173897"
+            }
+        }
+    ]
+}

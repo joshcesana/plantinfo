@@ -1,0 +1,307 @@
+{
+    "name": "Veld & Flora. vol 78, no. 4. (1992)",
+    "machine_name": "veld_flora_vol_78_no_4_1992",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1992",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114006",
+        "legacy_id": "5786",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 126",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_126",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_nevillei",
+                "type": "species",
+                "archival_data": [
+                    "1410954"
+                ]
+            },
+            "volume": null,
+            "page": "p 126",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1787219",
+                "legacy_id": "93011",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 101",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_101",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gethyllis_britteniana",
+                "type": "species",
+                "archival_data": [
+                    "1411880"
+                ]
+            },
+            "volume": null,
+            "page": "p 101",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1797530",
+                "legacy_id": "99291",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 104-05",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_104_05",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gethyllis_ciliaris",
+                "type": "species",
+                "archival_data": [
+                    "1411881"
+                ]
+            },
+            "volume": null,
+            "page": "p 104-05",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1797532",
+                "legacy_id": "99293",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 108",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_108",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haemanthus_pumilio",
+                "type": "species",
+                "archival_data": [
+                    "1415384"
+                ]
+            },
+            "volume": null,
+            "page": "p 108",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798904",
+                "legacy_id": "100944",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 110-11",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_110_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nivenia_concinna",
+                "type": "species",
+                "archival_data": [
+                    "1424682"
+                ]
+            },
+            "volume": null,
+            "page": "p 110-11",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1814215",
+                "legacy_id": "115644",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 111",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_111",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "witsenia_maura",
+                "type": "species",
+                "archival_data": [
+                    "1437988"
+                ]
+            },
+            "volume": null,
+            "page": "p 111",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1832478",
+                "legacy_id": "141807",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 78, no. 4. (1992) p 118-19",
+            "machine_name": "veld_flora_vol_78_no_4_1992_p_118_19",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "welwitschia_mirabilis",
+                "type": "species",
+                "archival_data": [
+                    "1437934"
+                ]
+            },
+            "volume": null,
+            "page": "p 118-19",
+            "year": "1992",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1833128",
+                "legacy_id": "141718",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

@@ -1,12 +1,71 @@
 .pagination {
-  &__inner {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
+  width: 100%;
+  text-align: center;
+}
 
-  // Pushes a sole "next" link out to the right
-  &__inner > [data-direction='forwards'] {
-    margin-inline-start: auto;
+.pagination__title {
+  @include element-invisible();
+}
+
+.pagination__inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pagination__item {
+  @include apply-utility('font', 'sans');
+  font-size: get-size('400');
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &:not(:last-child) {
+    margin-right: get-size('400');
+  }
+}
+
+.pagination__link[aria-current='page'] {
+  @include apply-utility('weight', 'bold');
+}
+
+.pagination__link--first {
+  &:before {
+    display: inline-block;
+    content: '<<';
+  }
+}
+
+.pagination__link--previous {
+  &:before {
+    display: inline-block;
+    content: '<';
+  }
+}
+
+.pagination__link--next {
+  &:before {
+    display: inline-block;
+    content: '>';
+  }
+}
+
+.pagination__link--last {
+  &:before {
+    display: inline-block;
+    content: '>>';
+  }
+}
+
+.pagination__link--first,
+.pagination__link--previous,
+.pagination__link--next,
+.pagination__link--last {
+  .link__text--short {
+    @include element-invisible();
   }
 }

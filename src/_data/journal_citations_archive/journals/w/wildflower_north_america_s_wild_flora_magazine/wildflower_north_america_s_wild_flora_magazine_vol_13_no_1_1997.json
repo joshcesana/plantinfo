@@ -1,0 +1,143 @@
+{
+    "name": "Wildflower: North America's Wild Flora Magazine. vol 13, no. 1. (1997)",
+    "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_13_no_1_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2111908",
+        "legacy_id": "5891",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 13, no. 1. (1997) p 209",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_13_no_1_1997_p_209",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liriodendron_tulipifera_fastigiatum",
+                "type": "variety",
+                "archival_data": [
+                    "1479631"
+                ]
+            },
+            "volume": null,
+            "page": "p 209",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1727538",
+                "legacy_id": "28399",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 13, no. 1. (1997) p 24",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_13_no_1_1997_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pinus_albicaulis",
+                "type": "species",
+                "archival_data": [
+                    "1425263"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1816880",
+                "legacy_id": "121674",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Wild Flora Magazine. vol 13, no. 1. (1997) p 24",
+            "machine_name": "wildflower_north_america_s_wild_flora_magazine_vol_13_no_1_1997_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "pinus_flexilis",
+                "type": "species",
+                "archival_data": [
+                    "1425290"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1817513",
+                "legacy_id": "121816",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2002",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2120190",
+        "legacy_id": "88469",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "garrya_issaquahensis",
+                "type": "species",
+                "archival_data": [
+                    "1409974"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951740",
+                "legacy_id": "358984",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "callicarpa_japonica",
+                "type": "species",
+                "archival_data": [
+                    "1399292"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951741",
+                "legacy_id": "358985",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002) p 17",
+            "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002_p_17",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_characias_wulfenii",
+                "type": "variety",
+                "archival_data": [
+                    "1472197"
+                ]
+            },
+            "volume": null,
+            "page": "p 17",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951742",
+                "legacy_id": "358986",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002) p 24",
+            "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002_p_24",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "opuntia_compressa",
+                "type": "species",
+                "archival_data": [
+                    "1421779"
+                ]
+            },
+            "volume": null,
+            "page": "p 24",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951743",
+                "legacy_id": "358987",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 63, no. 4. (2002) p 31",
+            "machine_name": "washington_park_arboretum_bulletin_vol_63_no_4_2002_p_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "echinocereus_reichenbachii",
+                "type": "species",
+                "archival_data": [
+                    "1405878"
+                ]
+            },
+            "volume": null,
+            "page": "p 31",
+            "year": "2002",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1951744",
+                "legacy_id": "358988",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483190112"
+            }
+        }
+    ]
+}

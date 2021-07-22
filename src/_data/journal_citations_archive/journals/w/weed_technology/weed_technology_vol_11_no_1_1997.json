@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 11, no. 1. (1997)",
+    "machine_name": "weed_technology_vol_11_no_1_1997",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1997",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2115918",
+        "legacy_id": "7933",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 11, no. 1. (1997) p cover",
+            "machine_name": "weed_technology_vol_11_no_1_1997_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carduus_acanthoides",
+                "type": "species",
+                "archival_data": [
+                    "1407748"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1997",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1859912",
+                "legacy_id": "166596",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

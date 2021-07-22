@@ -1,0 +1,9 @@
+{% set list_class = '[ list link-list-inline__list ] [ specialty-list-inline ]' %}
+{% if nursery_specialties_inline_list.list_class %}
+  {% set list_class = list_class ~ ' ' ~ nursery_specialties_inline_list.list_class %}
+{% endif %}
+<ul class='{{ list_class }}'>
+  {% for nursery_specialties_inline_list_item in nursery_specialties_inline_list %}
+    {% include "./nursery-specialties-inline-list-item.html" %}
+  {% endfor %}
+</ul>

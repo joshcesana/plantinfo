@@ -1,0 +1,102 @@
+{
+    "name": "Wilderness. vol 54, no. 194. (1991)",
+    "machine_name": "wilderness_vol_54_no_194_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113874",
+        "legacy_id": "5863",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wilderness. vol 54, no. 194. (1991) p 28",
+            "machine_name": "wilderness_vol_54_no_194_1991_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "carnegiea_gigantea",
+                "type": "species",
+                "archival_data": [
+                    "1408533"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1779338",
+                "legacy_id": "79588",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilderness. vol 54, no. 194. (1991) p 28",
+            "machine_name": "wilderness_vol_54_no_194_1991_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhus_integrifolia",
+                "type": "species",
+                "archival_data": [
+                    "1432501"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1823862",
+                "legacy_id": "128726",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        }
+    ]
+}

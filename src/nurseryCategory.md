@@ -1,9 +1,9 @@
 ---
-title: {{ nursery_category.data.name }}
+title: 'Nursery Categories'
 layout: 'layouts/nursery-category.html'
 pagination:
-  data: collections.nursery_category
+  data: collections.nursery_by_category
   size: 1
-  alias: nursery_category
-permalink: '{{ nursery_category | getNurseryCategoryPermalink }}'
+  alias: nursery_by_category
+permalink: '{{ nursery_by_category.slug }}/index.html'
 ---

@@ -1,0 +1,16 @@
+{% set nursery_specialties = helpers.getNurserySpecialties(nursery.data) %}
+{% set nursery_specialties_link_list = helpers.createLinkList(collections, nursery_specialties, 'nursery_category', 'specialties', 'nursery_category') %}
+
+{% set nursery_specialties_inline_list_wrapper =
+  {
+    wrapper_class: '',
+    title_class: '',
+    list_class: '',
+    heading_level: 'strong',
+    title: 'Nursery specialties:',
+    nursery_specialties_inline_list: nursery_specialties_link_list,
+    empty_message: 'There are no specialties for this nursery.'
+  }
+%}
+
+{% include "partials/nursery-specialties-inline-list/nursery-specialties-inline-list-wrapper.html" %}

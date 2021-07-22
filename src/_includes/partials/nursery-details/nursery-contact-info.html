@@ -1,0 +1,34 @@
+<div class="nursery-contact-info">
+  {% if nursery_details.phone !== "" %}
+  <div class="[ nursery-info ] [ nursery-info--contact ]">
+    <strong class="nursery-info__contact-label">Phone:</strong>
+    <span class="nursery-info__contact-detail">
+      <a class="[ link link--tel ]" href="tel: +1{{ nursery_details.phone_tel }}">{{ nursery_details.phone }}</a>
+    </span>
+  </div>
+  {% endif %}
+  {% if nursery_details.fax !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--contact ]">
+      <strong class="nursery-info__contact-label">Fax:</strong>
+      <span class="nursery-info__contact-detail">
+        <a class="[ link link--tel ]" href="tel: +1{{ nursery_details.fax_tel }}">{{ nursery_details.fax }}</a>
+      </span>
+    </div>
+  {% endif %}
+  {% if nursery_details.email !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--contact ]">
+      <strong class="nursery-info__contact-label">Email:</strong>
+      <span class="nursery-info__contact-detail">
+        <a class="[ link link--email ]" href="mailto:{{ nursery_details.email }}">{{ nursery_details.email_breaks | safe }}</a>
+      </span>
+    </div>
+  {% endif %}
+  {% if nursery_details.contact_name !== "" %}
+    <div class="[ nursery-info ] [ nursery-info--contact ]">
+      <strong class="nursery-info__contact-label">Contact name:</strong>
+      <span class="nursery-info__contact-detail">
+        {{ nursery_details.contact_name }}
+      </span>
+    </div>
+  {% endif %}
+</div>

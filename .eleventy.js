@@ -4,6 +4,8 @@ const getFilteredByNumberLetterGroup = require('./src/utils/get-filtered-by-numb
 const getFilteredByRootItemType = require('./src/utils/get-filtered-by-root-item-type.js');
 const getElementItemsByType = require('./src/utils/get-element-items-by-type.js');
 const getLetterListByItemType = require('./src/utils/get-letter-list-by-item-type.js');
+const getFilteredByCategoryCollection = require('./src/utils/get-filtered-by-category-collection.js');
+const getPagedItemsInCategoryCollection = require('./src/utils/get-paged-items-in-category-collection.js');
 const sortByMachineName = require('./src/utils/sort-by-machine-name.js');
 const sortLetterArray = require('./src/utils/sort-letter-array.js');
 const getPlantPermalink = require('./src/filters/get-plant-permalink.js');
@@ -76,6 +78,16 @@ module.exports = config => {
     );
   };
 
+  let getCategoryCollection = (sourceCollection, targetCollection, categoryKey, itemType) => {
+    return sortByMachineName(
+      getFilteredByCategoryCollection(sourceCollection, targetCollection, categoryKey, itemType)
+    );
+  };
+
+  let getPagedCategoryCollection = (categoryCollection, itemsPerPage, itemType) => {
+    return getPagedItemsInCategoryCollection(categoryCollection, itemsPerPage, itemType)
+  };
+
   // Returns family items.
   config.addCollection('family', collection => {
     return getLetterGroupCollection(collection, rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType);
@@ -134,6 +146,14 @@ module.exports = config => {
   // Returns nursery term items.
   config.addCollection('nursery_category', collection => {
     return getRootItemTypeCollection(collection, rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType);
+  });
+
+  config.addCollection('nursery_by_category', async (collection) => {
+    let nurseryCollection = getNumberLetterCollection(collection, rootData.nurseries.dataPath, rootData.nurseries.levelsDeep, rootData.nurseries.itemType);
+    let nurseryCategory = getRootItemTypeCollection(collection, rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType);
+    let nurserySpecialties = getCategoryCollection(nurseryCollection, nurseryCategory, "specialties", "nursery_category");
+
+    return getPagedCategoryCollection(nurserySpecialties, 20, "nursery_category");
   });
 
   // Returns journal_book items.

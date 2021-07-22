@@ -1,0 +1,348 @@
+{
+    "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001)",
+    "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2001",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2116822",
+        "legacy_id": "24789",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 15",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cirsium_scariosum",
+                "type": "species",
+                "archival_data": [
+                    "1407478"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878448",
+                "legacy_id": "212310",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cypripedium_acaule",
+                "type": "species",
+                "archival_data": [
+                    "1404209"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878449",
+                "legacy_id": "212311",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_triphyllum",
+                "type": "species",
+                "archival_data": [
+                    "1401847"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878450",
+                "legacy_id": "212312",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 35",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_35",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "galearis_spectabilis",
+                "type": "species",
+                "archival_data": [
+                    "1415230"
+                ]
+            },
+            "volume": null,
+            "page": "p 35",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878451",
+                "legacy_id": "212313",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "spartina_pectinata",
+                "type": "species",
+                "archival_data": [
+                    "1431519"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878452",
+                "legacy_id": "212314",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 38",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_38",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "symphyotrichum_ericoides",
+                "type": "species",
+                "archival_data": [
+                    "1453079"
+                ]
+            },
+            "volume": null,
+            "page": "p 38",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878453",
+                "legacy_id": "212315",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p 39",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "liatris_pycnostachya",
+                "type": "species",
+                "archival_data": [
+                    "1417017"
+                ]
+            },
+            "volume": null,
+            "page": "p 39",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878454",
+                "legacy_id": "212316",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        },
+        {
+            "name": "Wildflower: North America's Magazine of Wild Flora. vol 17, no. 2. (2001) p backcover",
+            "machine_name": "wildflower_north_america_s_magazine_of_wild_flora_vol_17_no_2_2001_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "caltha_palustris",
+                "type": "species",
+                "archival_data": [
+                    "1399646"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "2001",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1878455",
+                "legacy_id": "212317",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483177140"
+            }
+        }
+    ]
+}

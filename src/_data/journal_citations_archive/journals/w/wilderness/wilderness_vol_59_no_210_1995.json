@@ -1,0 +1,102 @@
+{
+    "name": "Wilderness. vol 59, no. 210. (1995)",
+    "machine_name": "wilderness_vol_59_no_210_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113796",
+        "legacy_id": "5867",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wilderness. vol 59, no. 210. (1995) p 28|30",
+            "machine_name": "wilderness_vol_59_no_210_1995_p_28_30",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "catharanthus_roseus",
+                "type": "species",
+                "archival_data": [
+                    "1403626"
+                ]
+            },
+            "volume": null,
+            "page": "p 28|30",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776503",
+                "legacy_id": "80251",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Wilderness. vol 59, no. 210. (1995) p 32",
+            "machine_name": "wilderness_vol_59_no_210_1995_p_32",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "digitalis_purpurea",
+                "type": "species",
+                "archival_data": [
+                    "1408501"
+                ]
+            },
+            "volume": null,
+            "page": "p 32",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1780392",
+                "legacy_id": "89363",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

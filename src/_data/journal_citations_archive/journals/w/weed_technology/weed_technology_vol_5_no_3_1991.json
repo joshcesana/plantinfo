@@ -1,0 +1,61 @@
+{
+    "name": "Weed Technology. vol 5, no. 3. (1991)",
+    "machine_name": "weed_technology_vol_5_no_3_1991",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1991",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2114576",
+        "legacy_id": "5850",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Weed Technology. vol 5, no. 3. (1991) p cover",
+            "machine_name": "weed_technology_vol_5_no_3_1991_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "solanum_sarrachoides",
+                "type": "species",
+                "archival_data": [
+                    "1430743"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1991",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1829401",
+                "legacy_id": "134172",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

@@ -1,0 +1,348 @@
+{
+    "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993)",
+    "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1993",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2111358",
+        "legacy_id": "5822",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 15",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_foetidus_wester_flisk",
+                "type": "variety",
+                "archival_data": [
+                    "1475641"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717125",
+                "legacy_id": "18023",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 14",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_niger_white_magic",
+                "type": "variety",
+                "archival_data": [
+                    "1475655"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1717133",
+                "legacy_id": "18031",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483151195"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 11",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_11",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "rhododendron_cultivars_point_defiance",
+                "type": "variety",
+                "archival_data": [
+                    "1490855"
+                ]
+            },
+            "volume": null,
+            "page": "p 11",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1743871",
+                "legacy_id": "43108",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483154438"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 2",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arbutus_menziesii",
+                "type": "species",
+                "archival_data": [
+                    "1401054"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1769008",
+                "legacy_id": "72791",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p backcover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_backcover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "callicarpa_bodinieri",
+                "type": "species",
+                "archival_data": [
+                    "1399290"
+                ]
+            },
+            "volume": null,
+            "page": "p backcover",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1773637",
+                "legacy_id": "78077",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p cover",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cornus_kousa",
+                "type": "species",
+                "archival_data": [
+                    "1405323"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776745",
+                "legacy_id": "84486",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 14",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_14",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_argutifolius",
+                "type": "species",
+                "archival_data": [
+                    "1411678"
+                ]
+            },
+            "volume": null,
+            "page": "p 14",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798059",
+                "legacy_id": "102076",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        },
+        {
+            "name": "Washington Park Arboretum Bulletin. vol 56, no. 3. (1993) p 15",
+            "machine_name": "washington_park_arboretum_bulletin_vol_56_no_3_1993_p_15",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "helleborus_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1411984"
+                ]
+            },
+            "volume": null,
+            "page": "p 15",
+            "year": "1993",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1798691",
+                "legacy_id": "102226",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483164168"
+            }
+        }
+    ]
+}

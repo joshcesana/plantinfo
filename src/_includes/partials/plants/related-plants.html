@@ -2,7 +2,7 @@
 {% set child_plant_type_title = helpers.getPlantTypeTitle(child_plant_type) %}
 {% set child_collection = collections[child_plant_type] %}
 {% set child_plant_items = helpers.getChildPlantsByTypeAndMachineName(child_collection, child_plant_type, plant_data.type, plant_data.machine_name) %}
-{% set child_link_list = helpers.createChildLinkList(child_plant_items, child_plant_type) %}
+{% set child_link_list = helpers.createChildLinkList(collections,child_plant_items, child_plant_type) %}
 {% set plant_link_list_wrapper =
   {
     wrapper_class: '[ related-plant__link-list-section related-' ~ child_plant_type ~ '__link-list-section ]',

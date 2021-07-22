@@ -1,0 +1,61 @@
+{
+    "name": "Wilderness. vol 59, no. 211. (1995)",
+    "machine_name": "wilderness_vol_59_no_211_1995",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1995",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2113797",
+        "legacy_id": "5868",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Wilderness. vol 59, no. 211. (1995) p 6",
+            "machine_name": "wilderness_vol_59_no_211_1995_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "catharanthus_roseus",
+                "type": "species",
+                "archival_data": [
+                    "1403626"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "1995",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1776504",
+                "legacy_id": "80252",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        }
+    ]
+}

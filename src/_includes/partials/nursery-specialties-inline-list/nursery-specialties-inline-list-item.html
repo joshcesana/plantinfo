@@ -1,0 +1,8 @@
+{% set list_item_class = '[ list-item link-list-inline__list-item ] [ specialty-list-inline-item ]' %}
+{% if nursery_specialties_inline_list_item.list_item_class %}
+  {% set list_item_class = list_item_class ~ ' ' ~ nursery_specialties_inline_list_item.list_item_class %}
+{% endif %}
+<li class='{{ list_item_class }}'>
+  {% set nursery_specialties_inline_link = nursery_specialties_inline_list_item %}
+  {% include "./nursery-specialties-inline-link.html" %}
+</li>

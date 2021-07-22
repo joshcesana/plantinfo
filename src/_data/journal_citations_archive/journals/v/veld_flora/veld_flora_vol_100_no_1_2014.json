@@ -1,0 +1,1373 @@
+{
+    "name": "Veld & Flora. vol 100, no. 1. (2014)",
+    "machine_name": "veld_flora_vol_100_no_1_2014",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2014",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2122396",
+        "legacy_id": "124191",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 44",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_44",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hyaenanche_globosa",
+                "type": "species",
+                "archival_data": [
+                    "1460786"
+                ]
+            },
+            "volume": null,
+            "page": "p 44",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2005012",
+                "legacy_id": "474956",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 3",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_3",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aptosimum_procumbens",
+                "type": "species",
+                "archival_data": [
+                    "1400642"
+                ]
+            },
+            "volume": null,
+            "page": "p 3",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009687",
+                "legacy_id": "474926",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 8",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunia_laevis",
+                "type": "species",
+                "archival_data": [
+                    "1460960"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009688",
+                "legacy_id": "474930",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "searsia_crenata",
+                "type": "species",
+                "archival_data": [
+                    "1457215"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009689",
+                "legacy_id": "474938",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "monopsis_unidentata",
+                "type": "species",
+                "archival_data": [
+                    "1453373"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009690",
+                "legacy_id": "474939",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euryops_tysonii",
+                "type": "species",
+                "archival_data": [
+                    "1460684"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009691",
+                "legacy_id": "474941",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22; 27",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_mammosa",
+                "type": "species",
+                "archival_data": [
+                    "1410931"
+                ]
+            },
+            "volume": null,
+            "page": "p 22; 27",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009692",
+                "legacy_id": "474942",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "zantedeschia_odorata",
+                "type": "species",
+                "archival_data": [
+                    "1438720"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009693",
+                "legacy_id": "474943",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 23",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "serruria_aemula_congesta",
+                "type": "variety",
+                "archival_data": [
+                    "1653302"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009694",
+                "legacy_id": "474944",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 23",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "thamnochortus_bachmannii",
+                "type": "species",
+                "archival_data": [
+                    "1451811"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009695",
+                "legacy_id": "474946",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 23",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_tinctum",
+                "type": "species",
+                "archival_data": [
+                    "1416612"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009696",
+                "legacy_id": "474947",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 23",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_chrysanthus",
+                "type": "species",
+                "archival_data": [
+                    "1420484"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009697",
+                "legacy_id": "474948",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 28",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_levisanus",
+                "type": "species",
+                "archival_data": [
+                    "1455178"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009698",
+                "legacy_id": "474951",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 28",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_28",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "metalasia_muricata",
+                "type": "species",
+                "archival_data": [
+                    "1455228"
+                ]
+            },
+            "volume": null,
+            "page": "p 28",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009699",
+                "legacy_id": "474952",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 33",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "vachellia_karroo",
+                "type": "species",
+                "archival_data": [
+                    "1460785"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2009700",
+                "legacy_id": "474954",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 20",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_20",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ocimum_labiatum",
+                "type": "species",
+                "archival_data": [
+                    "1457213"
+                ]
+            },
+            "volume": null,
+            "page": "p 20",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017078",
+                "legacy_id": "474932",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 21",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phylica_buxifolia",
+                "type": "species",
+                "archival_data": [
+                    "1457214"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017079",
+                "legacy_id": "474933",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 21",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_21",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plectranthus_oertendahlii",
+                "type": "species",
+                "archival_data": [
+                    "1426425"
+                ]
+            },
+            "volume": null,
+            "page": "p 21",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017080",
+                "legacy_id": "474934",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "sparrmannia_africana",
+                "type": "species",
+                "archival_data": [
+                    "1431514"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017081",
+                "legacy_id": "474937",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "scadoxus_multiflorus_katherinae",
+                "type": "variety",
+                "archival_data": [
+                    "1492135"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017082",
+                "legacy_id": "474940",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 23",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_23",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ursinia_sericea",
+                "type": "species",
+                "archival_data": [
+                    "1460685"
+                ]
+            },
+            "volume": null,
+            "page": "p 23",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2017083",
+                "legacy_id": "474945",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483199841"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p cover",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trachyandra_falcata",
+                "type": "species",
+                "archival_data": [
+                    "1459356"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2030691",
+                "legacy_id": "474923",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 16",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_16",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tritoniopsis_triticea",
+                "type": "species",
+                "archival_data": [
+                    "1460683"
+                ]
+            },
+            "volume": null,
+            "page": "p 16",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2030692",
+                "legacy_id": "474931",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 2",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_equitans",
+                "type": "species",
+                "archival_data": [
+                    "1411969"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035273",
+                "legacy_id": "474924",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 2",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_2",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "leucadendron_macowanii",
+                "type": "species",
+                "archival_data": [
+                    "1416602"
+                ]
+            },
+            "volume": null,
+            "page": "p 2",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035274",
+                "legacy_id": "474925",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 6",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "plectranthus_esculentus",
+                "type": "species",
+                "archival_data": [
+                    "1426417"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": true,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035275",
+                "legacy_id": "474927",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 6",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_6",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "schizoglossum_quadridens",
+                "type": "species",
+                "archival_data": [
+                    "1460682"
+                ]
+            },
+            "volume": null,
+            "page": "p 6",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035276",
+                "legacy_id": "474928",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 8",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_8",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "euphorbia_groenewaldii",
+                "type": "species",
+                "archival_data": [
+                    "1410674"
+                ]
+            },
+            "volume": null,
+            "page": "p 8",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035277",
+                "legacy_id": "474929",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_ovata_kluitjeskraal",
+                "type": "variety",
+                "archival_data": [
+                    "1652406"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035278",
+                "legacy_id": "474935",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 22",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_22",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geranium_multisectum",
+                "type": "species",
+                "archival_data": [
+                    "1448852"
+                ]
+            },
+            "volume": null,
+            "page": "p 22",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035279",
+                "legacy_id": "474936",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 27",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_27",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "protea_scolymocephala",
+                "type": "species",
+                "archival_data": [
+                    "1425012"
+                ]
+            },
+            "volume": null,
+            "page": "p 27",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035280",
+                "legacy_id": "474949",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 30-31",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_30_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_verticillata",
+                "type": "species",
+                "archival_data": [
+                    "1411698"
+                ]
+            },
+            "volume": null,
+            "page": "p 30-31",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035282",
+                "legacy_id": "474953",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 100, no. 1. (2014) p 33",
+            "machine_name": "veld_flora_vol_100_no_1_2014_p_33",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "senegalia_adenocalyx",
+                "type": "species",
+                "archival_data": [
+                    "1460686"
+                ]
+            },
+            "volume": null,
+            "page": "p 33",
+            "year": "2014",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": true,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2035283",
+                "legacy_id": "474955",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        }
+    ]
+}

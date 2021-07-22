@@ -1,0 +1,61 @@
+{
+    "name": "Kew Bulletin. vol 66, no. 2. (2011)",
+    "machine_name": "kew_bulletin_vol_66_no_2_2011",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2011",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2123544",
+        "legacy_id": "116290",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Bulletin. vol 66, no. 2. (2011) p 285, Pl. 3A-D,G",
+            "machine_name": "kew_bulletin_vol_66_no_2_2011_p_285_pl_3a_d_g",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "encholirium_agavoides",
+                "type": "species",
+                "archival_data": [
+                    "1458346"
+                ]
+            },
+            "volume": null,
+            "page": "p 285, Pl. 3A-D,G",
+            "year": "2011",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "2033151",
+                "legacy_id": "440255",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483203084"
+            }
+        }
+    ]
+}

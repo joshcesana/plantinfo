@@ -1,0 +1,1865 @@
+{
+    "name": "Veld & Flora. vol 95, no. 3. (2009)",
+    "machine_name": "veld_flora_vol_95_no_3_2009",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "2009",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": null,
+    "description": null,
+    "archival_data": {
+        "id": "2121970",
+        "legacy_id": "105209",
+        "author": "oitadmin",
+        "created": "1473951107"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p cover",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_cover",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tecomaria_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1429351"
+                ]
+            },
+            "volume": null,
+            "page": "p cover",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999401",
+                "legacy_id": "401232",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 129",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_129",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ornithogalum_dubium",
+                "type": "species",
+                "archival_data": [
+                    "1422547"
+                ]
+            },
+            "volume": null,
+            "page": "p 129",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999402",
+                "legacy_id": "401233",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 130",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_130",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "marasmodes_trifida",
+                "type": "species",
+                "archival_data": [
+                    "1453251"
+                ]
+            },
+            "volume": null,
+            "page": "p 130",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999403",
+                "legacy_id": "401234",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 130-31",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_130_31",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "marasmodes_fasciculata",
+                "type": "species",
+                "archival_data": [
+                    "1453252"
+                ]
+            },
+            "volume": null,
+            "page": "p 130-31",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999404",
+                "legacy_id": "401235",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 131",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_131",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_graminifolia",
+                "type": "species",
+                "archival_data": [
+                    "1445437"
+                ]
+            },
+            "volume": null,
+            "page": "p 131",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999405",
+                "legacy_id": "401236",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 132",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_132",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_leichtlinii",
+                "type": "species",
+                "archival_data": [
+                    "1414114"
+                ]
+            },
+            "volume": null,
+            "page": "p 132",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999406",
+                "legacy_id": "401237",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 133",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_133",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_speciosa",
+                "type": "species",
+                "archival_data": [
+                    "1453253"
+                ]
+            },
+            "volume": null,
+            "page": "p 133",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999407",
+                "legacy_id": "401238",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 133",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_133",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_grandiflora",
+                "type": "species",
+                "archival_data": [
+                    "1453006"
+                ]
+            },
+            "volume": null,
+            "page": "p 133",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999408",
+                "legacy_id": "401239",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 135",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_135",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_fucata",
+                "type": "species",
+                "archival_data": [
+                    "1453254"
+                ]
+            },
+            "volume": null,
+            "page": "p 135",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999409",
+                "legacy_id": "401240",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 135;151",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_135_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "freesia_refracta",
+                "type": "species",
+                "archival_data": [
+                    "1414116"
+                ]
+            },
+            "volume": null,
+            "page": "p 135;151",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999410",
+                "legacy_id": "401241",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 136-39",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_136_39",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "mimetes_stokoei",
+                "type": "species",
+                "archival_data": [
+                    "1453255"
+                ]
+            },
+            "volume": null,
+            "page": "p 136-39",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999411",
+                "legacy_id": "401242",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 142",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_142",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "nerine_sarniensis",
+                "type": "species",
+                "archival_data": [
+                    "1417888"
+                ]
+            },
+            "volume": null,
+            "page": "p 142",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999412",
+                "legacy_id": "401243",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 142",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_142",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "retzia_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1450070"
+                ]
+            },
+            "volume": null,
+            "page": "p 142",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999413",
+                "legacy_id": "401244",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 144",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_144",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_limnophila",
+                "type": "species",
+                "archival_data": [
+                    "1453256"
+                ]
+            },
+            "volume": null,
+            "page": "p 144",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999414",
+                "legacy_id": "401245",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 144",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_144",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "geissorhiza_lapidosa",
+                "type": "species",
+                "archival_data": [
+                    "1453257"
+                ]
+            },
+            "volume": null,
+            "page": "p 144",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999415",
+                "legacy_id": "401246",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 144",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_144",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_petrensis",
+                "type": "species",
+                "archival_data": [
+                    "1453258"
+                ]
+            },
+            "volume": null,
+            "page": "p 144",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999416",
+                "legacy_id": "401247",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 145",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_145",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_wittebergensis",
+                "type": "species",
+                "archival_data": [
+                    "1453259"
+                ]
+            },
+            "volume": null,
+            "page": "p 145",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999417",
+                "legacy_id": "401248",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 145",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_145",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_rimarum",
+                "type": "species",
+                "archival_data": [
+                    "1453260"
+                ]
+            },
+            "volume": null,
+            "page": "p 145",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999418",
+                "legacy_id": "401249",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 146",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_146",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "disa_nubigena",
+                "type": "species",
+                "archival_data": [
+                    "1449368"
+                ]
+            },
+            "volume": null,
+            "page": "p 146",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999419",
+                "legacy_id": "401250",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 146",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_146",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "erica_cameronii",
+                "type": "species",
+                "archival_data": [
+                    "1410148"
+                ]
+            },
+            "volume": null,
+            "page": "p 146",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999420",
+                "legacy_id": "401251",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 146",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_146",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oreoleysera_montana",
+                "type": "species",
+                "archival_data": [
+                    "1453261"
+                ]
+            },
+            "volume": null,
+            "page": "p 146",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999421",
+                "legacy_id": "401252",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 151",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "aristea_teretifolia",
+                "type": "species",
+                "archival_data": [
+                    "1401862"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999423",
+                "legacy_id": "401254",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 151",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_151",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "moraea_elegans",
+                "type": "species",
+                "archival_data": [
+                    "1453262"
+                ]
+            },
+            "volume": null,
+            "page": "p 151",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999424",
+                "legacy_id": "401255",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gibbaeum_haaglenii",
+                "type": "species",
+                "archival_data": [
+                    "1453263"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999425",
+                "legacy_id": "401256",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_floribundus",
+                "type": "species",
+                "archival_data": [
+                    "1441294"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999426",
+                "legacy_id": "401257",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "gladiolus_liliaceus",
+                "type": "species",
+                "archival_data": [
+                    "1412264"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999427",
+                "legacy_id": "401258",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "oedera_squarrosa",
+                "type": "species",
+                "archival_data": [
+                    "1453264"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999428",
+                "legacy_id": "401259",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "trichodiadema_pygmaeum",
+                "type": "species",
+                "archival_data": [
+                    "1453265"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999429",
+                "legacy_id": "401260",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 152",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_152",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ornithogalum_thyrsoides",
+                "type": "species",
+                "archival_data": [
+                    "1422567"
+                ]
+            },
+            "volume": null,
+            "page": "p 152",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999430",
+                "legacy_id": "401261",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 153",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_153",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "typha_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1428217"
+                ]
+            },
+            "volume": null,
+            "page": "p 153",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999431",
+                "legacy_id": "401262",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 155",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_155",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "phragmites_australis",
+                "type": "species",
+                "archival_data": [
+                    "1423798"
+                ]
+            },
+            "volume": null,
+            "page": "p 155",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999432",
+                "legacy_id": "401263",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 155",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_155",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tetraria_thermalis",
+                "type": "species",
+                "archival_data": [
+                    "1453266"
+                ]
+            },
+            "volume": null,
+            "page": "p 155",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999433",
+                "legacy_id": "401264",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 155",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_155",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "elegia_capensis",
+                "type": "species",
+                "archival_data": [
+                    "1413192"
+                ]
+            },
+            "volume": null,
+            "page": "p 155",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999434",
+                "legacy_id": "401265",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 156",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_156",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "asclepias_albens",
+                "type": "species",
+                "archival_data": [
+                    "1453267"
+                ]
+            },
+            "volume": null,
+            "page": "p 156",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999435",
+                "legacy_id": "401266",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 157",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_157",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "crassula_alba",
+                "type": "species",
+                "archival_data": [
+                    "1407176"
+                ]
+            },
+            "volume": null,
+            "page": "p 157",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999436",
+                "legacy_id": "401267",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 157",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_157",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hesperantha_lactea",
+                "type": "species",
+                "archival_data": [
+                    "1453268"
+                ]
+            },
+            "volume": null,
+            "page": "p 157",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999437",
+                "legacy_id": "401268",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 157",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_157",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "hypoxis_hemerocallidea",
+                "type": "species",
+                "archival_data": [
+                    "1415784"
+                ]
+            },
+            "volume": null,
+            "page": "p 157",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999438",
+                "legacy_id": "401269",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 157",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_157",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "tristachya_leucothrix",
+                "type": "species",
+                "archival_data": [
+                    "1433534"
+                ]
+            },
+            "volume": null,
+            "page": "p 157",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": true,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999439",
+                "legacy_id": "401270",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 157",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_157",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "watsonia_densiflora",
+                "type": "species",
+                "archival_data": [
+                    "1437637"
+                ]
+            },
+            "volume": null,
+            "page": "p 157",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999440",
+                "legacy_id": "401271",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 158-59",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_158_59",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_retusa",
+                "type": "species",
+                "archival_data": [
+                    "1410453"
+                ]
+            },
+            "volume": null,
+            "page": "p 158-59",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999441",
+                "legacy_id": "401272",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 159",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_159",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "haworthia_mirabilis",
+                "type": "species",
+                "archival_data": [
+                    "1440849"
+                ]
+            },
+            "volume": null,
+            "page": "p 159",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999442",
+                "legacy_id": "401273",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 160",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_160",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_betulina",
+                "type": "species",
+                "archival_data": [
+                    "1454753"
+                ]
+            },
+            "volume": null,
+            "page": "p 160",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999443",
+                "legacy_id": "401274",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 160",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_160",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "agathosma_crenulata",
+                "type": "species",
+                "archival_data": [
+                    "1435036"
+                ]
+            },
+            "volume": null,
+            "page": "p 160",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999444",
+                "legacy_id": "401275",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 171",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_171",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "brunsvigia_orientalis",
+                "type": "species",
+                "archival_data": [
+                    "1397725"
+                ]
+            },
+            "volume": null,
+            "page": "p 171",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999445",
+                "legacy_id": "401276",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        },
+        {
+            "name": "Veld & Flora. vol 95, no. 3. (2009) p 171",
+            "machine_name": "veld_flora_vol_95_no_3_2009_p_171",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "ziziphus_mucronata",
+                "type": "species",
+                "archival_data": [
+                    "1439072"
+                ]
+            },
+            "volume": null,
+            "page": "p 171",
+            "year": "2009",
+            "notes": null,
+            "parts_shown": {
+                "Flower": false,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": false,
+                "Twig": false,
+                "Unclear": true
+            },
+            "citation_type": {
+                "Art": false,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1999446",
+                "legacy_id": "401277",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "7",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483196598"
+            }
+        }
+    ]
+}

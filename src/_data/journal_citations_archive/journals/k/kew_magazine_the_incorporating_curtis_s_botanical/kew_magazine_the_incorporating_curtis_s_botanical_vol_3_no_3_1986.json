@@ -1,0 +1,266 @@
+{
+    "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986)",
+    "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986",
+    "type": "journal_book",
+    "volume": null,
+    "number": null,
+    "year": "1986",
+    "additional_info": null,
+    "publish_date": null,
+    "pulling_date": "7",
+    "description": null,
+    "archival_data": {
+        "id": "2113441",
+        "legacy_id": "4207",
+        "author": "oitadmin",
+        "created": "1473951060"
+    },
+    "citation_reference_items": [
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p 110",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_110",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "arisaema_sikokianum",
+                "type": "species",
+                "archival_data": [
+                    "1401842"
+                ]
+            },
+            "volume": null,
+            "page": "p 110",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1765183",
+                "legacy_id": "73285",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483157682"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p 112",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_112",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "begonia_bogneri",
+                "type": "species",
+                "archival_data": [
+                    "1400340"
+                ]
+            },
+            "volume": null,
+            "page": "p 112",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1774458",
+                "legacy_id": "75589",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p 100",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_100",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "diascia_rigescens",
+                "type": "species",
+                "archival_data": [
+                    "1408088"
+                ]
+            },
+            "volume": null,
+            "page": "p 100",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": true,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1784813",
+                "legacy_id": "89041",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p cover; 106",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_cover_106",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "cyclamen_purpurascens",
+                "type": "species",
+                "archival_data": [
+                    "1409179"
+                ]
+            },
+            "volume": null,
+            "page": "p cover; 106",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1785050",
+                "legacy_id": "86534",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483160925"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p 102",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_102",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "paphiopedilum_urbanianum",
+                "type": "species",
+                "archival_data": [
+                    "1424823"
+                ]
+            },
+            "volume": null,
+            "page": "p 102",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1810227",
+                "legacy_id": "118605",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483167411"
+            }
+        },
+        {
+            "name": "Kew Magazine, The (Incorporating Curtis's Botanical...). vol 3, no. 3. (1986) p 116",
+            "machine_name": "kew_magazine_the_incorporating_curtis_s_botanical_vol_3_no_3_1986_p_116",
+            "type": "citation_reference",
+            "plant": {
+                "machine_name": "smilax_megalantha",
+                "type": "species",
+                "archival_data": [
+                    "1430364"
+                ]
+            },
+            "volume": null,
+            "page": "p 116",
+            "year": "1986",
+            "notes": null,
+            "parts_shown": {
+                "Flower": true,
+                "Seed": false,
+                "Fruit": false,
+                "Bark": false,
+                "Root": false,
+                "Habit": false,
+                "Leaf": true,
+                "Twig": false,
+                "Unclear": false
+            },
+            "citation_type": {
+                "Art": true,
+                "Photo": false
+            },
+            "archival_data": {
+                "id": "1828731",
+                "legacy_id": "133984",
+                "AD": false,
+                "fpi_pub_issue": null,
+                "pullingdat": "1",
+                "active": true,
+                "author": "oitadmin",
+                "created": "1483170654"
+            }
+        }
+    ]
+}

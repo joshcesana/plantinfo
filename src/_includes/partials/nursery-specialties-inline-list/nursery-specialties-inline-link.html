@@ -1,0 +1,5 @@
+{% set link_class = '[ link ] [ specialty-list-inline-link ]' %}
+{% if nursery_specialties_inline_link.link_class %}
+  {% set link_class = link_class ~ ' ' ~ nursery_specialties_inline_link.link_class %}
+{% endif %}
+<a class='{{ link_class }}' href='{{ nursery_specialties_inline_link.permalink_path }}'>{{ nursery_specialties_inline_link.name }}</a>
