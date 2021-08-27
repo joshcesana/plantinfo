@@ -1,8 +1,8 @@
 /**
  * Returns a custom collection by name.
  *
- * @param {Array}        collection     The 11ty collection
- * @param {String}       collectionName The custom collecion name.
+ * @param {string}       cacheKey      A unique key used for caching the data.
+ * @param {string}       getFunction   The name of the function used t.
  * @returns {Array}                      The custom collection
  */
 module.exports = (collection, collectionName) => {

@@ -1,0 +1,62 @@
+<form
+  class="search-form"
+  id="search-form"
+  name="searchForm"
+  role="form"
+  onsubmit="return false"
+  data-search-type="nurseries"
+>
+  <div class="search-form__widgets">
+    <div class="search-form__input-widgets">
+      <div class="[ search-form__widget search-form__widget--input ]">
+        <input
+          class="search-input"
+          id="search-text"
+          name="q"
+          type="text"
+          size="30"
+          maxlength="128"
+          autocomplete="off"
+          placeholder=""
+          aria-label="Search site"
+          value=""
+        />
+      </div>
+    </div>
+    <div class="search-form__action-widgets">
+      <div class="[ search-form__widget search-form__widget--submit ]">
+        <button
+          class="[ button ] [ search-form__button search-form__button--search ]"
+          id="submit-search-results"
+        >
+          <span class="[ button-text button-text--short ] [ search-form__button-text search-form__button-text--short ]">
+            Submit
+          </span>
+          <span class="[ button-text button-text--long ] [ search-form__button-text search-form__button-text--long ]">
+            Search Request
+          </span>
+        </button>
+      </div>
+      <div class="[ search-form__widget search-form__widget--clear ]">
+        <button
+          class="[ button ] [ search-form__button search-form__button--clear ]"
+          id="clear-search-results"
+        >
+          <span class="[ button-text button-text--short ] [ search-form__button-text search-form__button-text--short ]">
+            Clear
+          </span>
+          <span class="[ button-text button-text--long ] [ search-form__button-text search-form__button-text--long ]">
+            Search Request
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="search-form__messages" data-hide-element="true">
+    <div class="search-error">
+      <span class="search-error__message"></span>
+    </div>
+  </div>
+</form>
+
+

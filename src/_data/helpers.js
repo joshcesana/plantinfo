@@ -10,17 +10,19 @@ module.exports = {
     let currentObject = Object.assign(object);
     let hasProperties = true;
 
-    properties.forEach(property => {
-      if (
-        currentObject.hasOwnProperty(property) &&
-        currentObject[property] !== null &&
-        typeof(currentObject[property]) !== 'undefined'
-      ) {
-        currentObject = Object.assign(currentObject[property]);
-      } else {
-        hasProperties = false;
-      }
-    });
+    if (Array.isArray(properties)) {
+      properties.forEach(property => {
+        if (
+          currentObject.hasOwnProperty(property) &&
+          currentObject[property] !== null &&
+          typeof(currentObject[property]) !== 'undefined'
+        ) {
+          currentObject = Object.assign(currentObject[property]);
+        } else {
+          hasProperties = false;
+        }
+      });
+    }
 
     return hasProperties;
   },
