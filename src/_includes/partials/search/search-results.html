@@ -2,6 +2,18 @@
   class="search-results"
   data-search-type="nurseries"
 >
+  <div class="search-results__header">
+    <div
+      class="search-results__total"
+      data-total-available="false"
+    >
+      <span
+        class="search-results__total-count"
+        data-text-filled="false"
+      >0</span>
+      <span class="search-results__total-text"> Search Results</span>
+    </div>
+  </div>
   <table
     class="search-results__table"
     data-hide-element="true"
@@ -12,7 +24,13 @@
       data-caption-topic-available="false"
     >
       <span class="search-results__caption-text---short">Search results</span>
-      <span class="search-results__caption-text---long">for </span>
+      <span
+        class="search-results__caption-text---short"
+        data-hide-when-available="true"
+      > not yet available</span>
+      <span
+        class="search-results__caption-text---long"
+      >for </span>
       <span
         class="search-results__caption-text---long"
         data-text-filled="false"

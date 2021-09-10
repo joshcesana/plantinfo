@@ -1,4 +1,15 @@
 (function (lunr) {
+  const
+    searchInput = document.getElementById("search-text"),
+    searchSubmit = document.getElementById("submit-search-results"),
+    searchClear = document.getElementById("clear-search-results"),
+    getTemplate = true,
+    resultHeadings = getResultHeadings(),
+    headingsRowTemplate = getResultHeadingsItemCollection(getTemplate),
+    headingsItemTemplate = getResultHeadingsItem(getTemplate),
+    resultsRowTemplate = getResultItemCollection(getTemplate).item(0),
+    resultsItemTemplate = getResultItem(getTemplate);
+
   let
     indexData,
     searchData = {
@@ -68,10 +79,53 @@
     return hasProperties;
   }
 
+  function setElementHTML(element, html) {
+    element.innerHTML = html;
+  }
+
+
+  function setHideElement(element, boolean) {
+    element.setAttribute("data-hide-element", boolean);
+  }
+
+  function setAvailable(element, target, boolean) {
+    element.setAttribute("data-" + target + "-available", boolean);
+  }
+
+  function setIsTemplate(element, target, boolean) {
+    element.setAttribute("data-" + target +  "-is-template", boolean);
+  }
+
+  function setTextFilled(element, boolean) {
+    element.setAttribute("data-text-filled", boolean);
+  }
+
+  function setSearchScore(element, score) {
+    element.setAttribute("data-search-score", score);
+  }
+
+  function showSearchTable() {
+    let searchResultsTable = getResultTable();
+
+    setHideElement(searchResultsTable, "false");
+  }
+
+  function showSearchResults() {
+    let searchResultsTable = getResultTable();
+
+    setAvailable(searchResultsTable, "results", "true");
+    // document.querySelector(".search-results").classList.remove("hide-element");
+    // document.getElementById("site-search").classList.add("expanded");
+    // document.getElementById("clear-search-results-sidebar").classList.remove("hide-element");
+  }
+
   function displayErrorMessage(message) {
-    document.querySelector(".search-error__message").innerHTML = message;
+    let
+      searchErrorMessage = document.querySelector(".search-error__message"),
+      searchErrorMessageList = document.querySelector(".search-form__messages");
+    setElementHTML(searchErrorMessage, message);
     // document.querySelector(".search-container").classList.remove("focused");
-    document.querySelector(".search-form__messages").setAttribute("data-hide-element", "false");
+    setHideElement(searchErrorMessageList, "false");
     // document.querySelector(".search-error").classList.add("fade");
   }
 
@@ -120,6 +174,8 @@
 
   function handleSearchQuery(event) {
     event.preventDefault();
+    clearSearchResults({ clearInput: false, clearSearchData: true });
+
     const query = document.getElementById("search-text").value.trim().toLowerCase();
     if (!query) {
       displayErrorMessage("Please enter a search term");
@@ -130,11 +186,8 @@
       displayErrorMessage("Your search returned no results");
       return;
     } else {
-      console.log('yes we have results');
-      console.log(searchData.results);
+      renderSearchResults();
     }
-
-    renderSearchResults();
   }
 
   function getSearchFormType() {
@@ -161,6 +214,22 @@
     }
   }
 
+  function getResultTable() {
+    return document.querySelector(".search-results__table");
+  }
+
+  function getResultTotal() {
+    return document.querySelectorAll(".search-results__total").item(0);
+  }
+
+  function getResultTotalCount() {
+    return document.querySelectorAll(".search-results__total-count").item(0);
+  }
+
+  function getResultTotalText() {
+    return document.querySelectorAll(".search-results__total-text").item(0);
+  }
+
   function getResultHeadings() {
     return document.querySelector(".search-results__headings");
   }
@@ -172,28 +241,39 @@
 
   function getResultHeadingsItem(isTemplate) {
     const selector = ".search-results__heading-item[data-item-is-template='"  + isTemplate + "']";
-    return document.querySelector(selector);
+    return document.querySelectorAll(selector).item(0);
   }
 
   function getResultItemList() {
-    return document.querySelector(".search-results__result-item-list");
+    return document.querySelectorAll(".search-results__result-item-list");
   }
 
   function getResultItemCollection(isTemplate) {
-    const selector = ".search-results__result-item-list[data-row-is-template='" + isTemplate + "']";
+    const selector = ".search-results__result-item[data-row-is-template='" + isTemplate + "']";
     return document.querySelectorAll(selector);
   }
 
   function getResultItem(isTemplate) {
-    const selector = ".search-results__result-item[data-item-is-template='"  + isTemplate + "']";
+    const selector = ".search-results__result-data[data-item-is-template='"  + isTemplate + "']";
     return document.querySelector(selector);
+  }
+
+  function removeElementChildren(element) {
+    while (element.firstChild) {
+      element.removeChild(element.firstChild);
+    }
+  }
+
+  function addElementChildren(element, children) {
+    children.forEach(child => {
+      element.appendChild(child);
+    });
   }
 
   function clearSearchHeadings() {
     const isTemplate = false;
 
     // Select non-template heading rows.
-    const resultHeadings = getResultHeadings();
     const resultHeadingsItemCollection = getResultHeadingsItemCollection(isTemplate);
     if (resultHeadings !== null && resultHeadingsItemCollection !== null && resultHeadingsItemCollection.length > 0) {
       // Loop through non-template heading rows and remove them.
@@ -203,30 +283,41 @@
     }
   }
 
-  function clearSearchResults() {
-    const isTemplate = false;
+  /**
+   *
+   * @param { Object } options
+   *  - { Boolean } clearInput
+   *    Whether or not to clear the input when clearing search results.
+     - { Boolean } clearSearchData
+   *    Whether or not to clear the query and results from the search data.
+   */
+  function clearSearchResults(options) {
+    let resultRows = getResultItemList().item(0);
+    // Remove results.
+    removeElementChildren(resultRows);
 
-    // Select non-template result rows.
-    const resultItemList = getResultItemList;
-    const resultItemCollection = getResultItemCollection(isTemplate);
-    if (resultItemList !== null && resultItemCollection !== null && resultItemCollection.length > 0) {
-      // Loop through non-template result rows and remove them.
-      resultItemCollection.forEach(resultItem => {
-        resultItemList.removeChild(resultItem);
-      });
+    // Clear search result count.
+    updateSearchResultCount(0);
+
+    // Clear search query.
+    updateSearchCaptionQuery("", "false");
+
+    // Clear search input.
+    if (objectHasOwnProperties(options, ['clearInput']) &&
+      options['clearInput'] === true) {
+      searchInput.value = '';
+    }
+
+    // Clear search search data.
+    if (objectHasOwnProperties(options, ['clearSearchData']) &&
+      options['clearSearchData'] === true) {
+      searchData.query = '';
+      searchData.terms = '';
+      searchData.results = [];
     }
   }
 
   function addSearchHeadings() {
-    const
-      isTemplate = true,
-      headingsRowTemplate = getResultHeadingsItemCollection(isTemplate),
-      headingsItemTemplate = getResultHeadingsItem(isTemplate),
-      resultHeadings = getResultHeadings();
-    console.log(headingsRowTemplate);
-    console.log(headingsItemTemplate);
-    console.log(resultHeadings);
-
     let headingItems = [];
 
     if (
@@ -236,53 +327,117 @@
     ) {
       // Loop through heading labels for search type, add a heading item for each.
       searchTypes[searchType].results.forEach(searchHeading => {
-        let thisHeading = headingsItemTemplate;
-        console.log(thisHeading);
-        thisHeading.querySelector(".search-results__heading-text").innerHTML = searchHeading.label;
-        thisHeading.querySelector(".search-results__heading-text").setAttribute("data-text-filled", "true");
-        thisHeading.setAttribute("data-item-is-template", "false");
-        thisHeading.setAttribute("data-item-available", "true");
+        let thisHeading = headingsItemTemplate.cloneNode(true);
+        let thisHeadingText = thisHeading.querySelector(".search-results__heading-text");
+        setElementHTML(thisHeadingText, searchHeading.label);
+        setTextFilled(thisHeadingText, "true");
+        setIsTemplate(thisHeading, "item", "false");
+        setAvailable(thisHeading, "item", "true");
         headingItems.push(thisHeading);
       });
-      let thisHeadingsRow = headingsRowTemplate;
+
+      let thisHeadingsRow = headingsRowTemplate.item(0);
+
       // Remove template children
-      while (thisHeadingsRow.firstChild) {
-        thisHeadingsRow.removeChild(thisHeadingsRow.firstChild);
-      }
+      removeElementChildren(thisHeadingsRow);
+
       // Add headings for search type.
-      headingItems.forEach(headingItem => {
-        thisHeadingsRow.appendChild(headingItem);
-      });
+      addElementChildren(thisHeadingsRow, headingItems);
+      setIsTemplate(thisHeadingsRow, "row", "false");
+      setAvailable(thisHeadingsRow, "row", "true");
 
       resultHeadings.appendChild(thisHeadingsRow);
+      showSearchTable();
     }
   }
 
-  function updateSearchResults() {
-    document.getElementById("search-results-caption-query").innerHTML = searchData.query;
-    // document.querySelector(".search-results ul").innerHTML = results
-    //   .map(
-    //     (hit) => `
-    // <li class="search-result-item" data-score="${hit.score.toFixed(2)}">
-    //   <a href="${hit.href}" class="search-result-page-title">${hit.title}</a>
-    //   <p>${createSearchResultBlurb(query, hit.content)}</p>
-    // </li>
-    // `
-    //   )
-    //   .join("");
-    // const searchResultListItems = document.querySelectorAll(".search-results ul li");
-    // document.getElementById("results-count").innerHTML = searchResultListItems.length;
-    // document.getElementById("results-count-text").innerHTML = searchResultListItems.length > 1 ? "results" : "result";
-    // searchResultListItems.forEach(
-    //   (li) => (li.firstElementChild.style.color = getColorForSearchResult(li.dataset.score))
-    // );
+  function updateSearchCaptionQuery(query, queryAvailable) {
+    let
+      search_query_caption = document.querySelector(".search-results__caption"),
+      search_query_caption_query = document.getElementById("search-results-caption-query");
+
+    setElementHTML(search_query_caption_query, searchData.query);
+    setAvailable(search_query_caption, "caption-topic", "true");
   }
 
-  function showSearchResults() {
-    // document.querySelector(".primary").classList.add("hide-element");
-    // document.querySelector(".search-results").classList.remove("hide-element");
-    // document.getElementById("site-search").classList.add("expanded");
-    // document.getElementById("clear-search-results-sidebar").classList.remove("hide-element");
+  function updateSearchResultCount(resultCount) {
+    const
+      resultTotal = getResultTotal(),
+      resultTotalCount = getResultTotalCount(),
+      resultTotalText = getResultTotalText();
+
+    let resultTotalCountText = " Search Result";
+
+    if (resultCount !== 1) {
+      resultTotalCountText += "s";
+    }
+
+    setElementHTML(resultTotalCount, resultCount);
+    setElementHTML(resultTotalText, resultTotalCountText);
+
+    setTextFilled(resultTotalCount, "true");
+    setAvailable(resultTotal, "true");
+  }
+
+  function updateSearchResults() {
+    updateSearchCaptionQuery(searchData.query, "true");
+
+    let
+      resultItems = [],
+      resultRows = getResultItemList().item(0);
+
+    if (
+      objectHasOwnProperties(searchData, ['results']) &&
+      isArrayWithItems(searchData.results) &&
+      searchType !== null &&
+      objectHasOwnProperties(searchTypes, [searchType]) &&
+      isArrayWithItems(searchTypes[searchType].results)
+    ) {
+      // Loop through search results, add a row for each.
+      searchData.results.forEach(searchResult => {
+        let thisResultRow = resultsRowTemplate.cloneNode(true);
+        let thisResultRowData = [];
+
+        // Remove template children
+        removeElementChildren(thisResultRow);
+
+        // Loop through heading labels for search type, add a result item for each.
+        searchTypes[searchType].results.forEach(searchHeading => {
+          let thisResultItem = resultsItemTemplate.cloneNode(true);
+          let thisResultItemText = thisResultItem.querySelector(".search-results__result-text");
+
+          if (objectHasOwnProperties(searchResult, [searchHeading.key])) {
+            setElementHTML(thisResultItemText, searchResult[searchHeading.key]);
+            setTextFilled(thisResultItemText, "true");
+            setIsTemplate(thisResultItem, "item", "false");
+            setAvailable(thisResultItem, "item", "true");
+            thisResultRowData.push(thisResultItem);
+          }
+        });
+
+        // Add row data to results row.
+        addElementChildren(thisResultRow, thisResultRowData);
+
+        if (objectHasOwnProperties(searchResult, ['score'])) {
+          let searchScore = searchResult.score.toFixed(2);
+          setSearchScore(thisResultRow, searchScore);
+        }
+
+        setIsTemplate(thisResultRow, "row", "false");
+        setAvailable(thisResultRow, "row", "true");
+
+        resultItems.push(thisResultRow);
+
+      });
+
+      // Remove template children
+      removeElementChildren(resultRows);
+
+      // Add result items to result rows.
+      addElementChildren(resultRows, resultItems);
+      updateSearchResultCount(resultItems.length);
+      showSearchResults();
+    }
   }
 
   function scrollToTop() {
@@ -298,8 +453,7 @@
   }
 
   function renderSearchResults() {
-    console.log('time to render');
-    clearSearchResults();
+    clearSearchResults({ clearInput: false, clearSearchData: false });
     updateSearchResults();
     showSearchResults();
     scrollToTop();
@@ -309,18 +463,26 @@
     if (document.getElementById("search-form") !== null) {
       loadSearchIndex();
       getSearchType();
-      // addSearchHeadings();
+      addSearchHeadings();
 
-      const searchInput = document.getElementById("search-text");
-      const searchSubmit = document.getElementById("submit-search-results");
       searchInput.addEventListener("keydown", (event) => {
         if (event.code === "Enter") {
           handleSearchQuery(event);
         }
       });
+
       searchInput.addEventListener("click", (event) => {
         handleSearchQuery(event);
       });
+
+      searchSubmit.addEventListener("click", (event) => {
+        handleSearchQuery(event);
+      });
+
+      searchClear.addEventListener("click", (event) => {
+        clearSearchResults({ clearInput: true, clearSearchData: true });
+      });
+
       // document
       //   .querySelector(".search-error")
       //   .addEventListener("animationend", removeAnimation);
