@@ -99,3 +99,9 @@
 .search-results__result-text {
   @include apply-utility('weight', 'normal');
 }
+
+.search-results__result-link {
+  &[data-item-available="false"] {
+    display: none;
+  }
+}

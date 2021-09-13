@@ -1,7 +1,8 @@
 const {
   objectHasOwnProperties,
   isArrayWithItems,
-  getItemByTypeAndMachineName
+  getItemByTypeAndMachineName,
+  createNurseryPermalinkPath
 } = require('../_data/helpers.js');
 
 /**
@@ -22,9 +23,11 @@ module.exports = (nurseryCollection, nurseryCategories) => {
         if (
           objectHasOwnProperties(nursery.data, ['name']) &&
           objectHasOwnProperties(nursery.data, ['machine_name']) &&
+          objectHasOwnProperties(nursery.data, ['location', 'city']) &&
           objectHasOwnProperties(nursery.data, ['location', 'state']) &&
           objectHasOwnProperties(nursery.data, ['specialties'])
         ) {
+          let permalink_path = createNurseryPermalinkPath(nursery);
 
           let nurserySpecialties = [];
 
@@ -46,7 +49,9 @@ module.exports = (nurseryCollection, nurseryCategories) => {
 
           index.push({
             machine_name: nursery.data['machine_name'],
+            permalink_path: permalink_path,
             name: nursery.data['name'],
+            city: nursery.data['location']['city'],
             state: nursery.data['location']['state'],
             specialties: nurserySpecialties,
           });

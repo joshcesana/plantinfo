@@ -241,7 +241,7 @@ module.exports = config => {
     nurseryIndexCollection = await getCacheData(cacheData.nurseryIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
 
-    buildCustomLunrIndex(nurseryIndexCollection, 'dist', 'nursery', 'machine_name', ['name','state', 'specialties']);
+    buildCustomLunrIndex(nurseryIndexCollection, 'dist', 'nursery', 'machine_name', ['name', 'city', 'state', 'specialties']);
 
     return nurseryPagedCategoryCollection;
   });

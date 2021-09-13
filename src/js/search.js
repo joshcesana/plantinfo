@@ -8,7 +8,9 @@
     headingsRowTemplate = getResultHeadingsItemCollection(getTemplate),
     headingsItemTemplate = getResultHeadingsItem(getTemplate),
     resultsRowTemplate = getResultItemCollection(getTemplate).item(0),
-    resultsItemTemplate = getResultItem(getTemplate);
+    resultsItemTemplate = getResultItem(getTemplate),
+    resultItemTextTemplate = getResultItemText(getTemplate),
+    resultItemLinkTemplate = getResultItemLink(getTemplate);
 
   let
     indexData,
@@ -26,6 +28,10 @@
           {
             key: "name",
             label: "Nursery name",
+          },
+          {
+            key: "city",
+            label: "City",
           },
           {
             key: "state",
@@ -83,6 +89,9 @@
     element.innerHTML = html;
   }
 
+  function setElementHref(element, href) {
+    element.href = href;
+  }
 
   function setHideElement(element, boolean) {
     element.setAttribute("data-hide-element", boolean);
@@ -258,6 +267,16 @@
     return document.querySelector(selector);
   }
 
+  function getResultItemText(isTemplate) {
+    const selector = ".search-results__result-text[data-item-is-template='"  + isTemplate + "']";
+    return document.querySelector(selector);
+  }
+
+  function getResultItemLink(isTemplate) {
+    const selector = ".search-results__result-link[data-item-is-template='"  + isTemplate + "']";
+    return document.querySelector(selector);
+  }
+
   function removeElementChildren(element) {
     while (element.firstChild) {
       element.removeChild(element.firstChild);
@@ -398,21 +417,52 @@
         let thisResultRow = resultsRowTemplate.cloneNode(true);
         let thisResultRowData = [];
 
+        let permalinkPath = '';
+
+        if (objectHasOwnProperties(searchResult, ['permalink_path'])) {
+          permalinkPath = searchResult['permalink_path'];
+        }
+
         // Remove template children
         removeElementChildren(thisResultRow);
 
         // Loop through heading labels for search type, add a result item for each.
-        searchTypes[searchType].results.forEach(searchHeading => {
-          let thisResultItem = resultsItemTemplate.cloneNode(true);
-          let thisResultItemText = thisResultItem.querySelector(".search-results__result-text");
+        searchTypes[searchType].results.forEach((searchHeading, index) => {
+          let
+            thisResultItem = resultsItemTemplate.cloneNode(true),
+            thisResultItemText = resultItemTextTemplate.cloneNode(true),
+            thisResultItemLink = resultItemLinkTemplate.cloneNode(true),
+            thisResultItemLinkText = thisResultItemLink.querySelector(".search-results__result-link-text"),
+            thisResultItemData = [];
+
+          // Remove template children
+          removeElementChildren(thisResultItem);
 
           if (objectHasOwnProperties(searchResult, [searchHeading.key])) {
-            setElementHTML(thisResultItemText, searchResult[searchHeading.key]);
-            setTextFilled(thisResultItemText, "true");
-            setIsTemplate(thisResultItem, "item", "false");
-            setAvailable(thisResultItem, "item", "true");
-            thisResultRowData.push(thisResultItem);
+            if (index === 0 && permalinkPath !== '') {
+              setElementHTML(thisResultItemLinkText, searchResult[searchHeading.key]);
+              setTextFilled(thisResultItemLinkText, "true");
+              setIsTemplate(thisResultItemLinkText, "item", "false");
+
+              setElementHref(thisResultItemLink, permalinkPath);
+              setIsTemplate(thisResultItemLink, "item", "false");
+              setAvailable(thisResultItemLink, "item", "true");
+              thisResultItemData.push(thisResultItemLink);
+            } else {
+              setElementHTML(thisResultItemText, searchResult[searchHeading.key]);
+              setTextFilled(thisResultItemText, "true");
+              setIsTemplate(thisResultItemText, "item", "false");
+              thisResultItemData.push(thisResultItemText);
+            }
           }
+
+          // Add row item data to row item.
+          addElementChildren(thisResultItem, thisResultItemData);
+          setIsTemplate(thisResultItem, "item", "false");
+          setAvailable(thisResultItem, "item", "true");
+
+          // Add row item to result row.
+          thisResultRowData.push(thisResultItem);
         });
 
         // Add row data to results row.
