@@ -1,0 +1,101 @@
+.search-results__total {
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'normal');
+  font-size: #{get-size('600')};
+  line-height: 1.73;
+  color: #{get-color('primary-shade')};
+}
+
+.search-results__table {
+  width: 100%;
+  color: get-color('dark');
+  background-color: transparent;
+  margin-top: #{get-size('400')};
+  margin-bottom: #{get-size('600')};
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.search-results__caption {
+  position: relative;
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'normal');
+  font-size: #{get-size('500')};
+  color: #{get-color('primary-shade')};
+  padding-bottom: #{(get-size('400') / 2)};
+}
+
+.search-results__caption-text---short {
+  [data-results-available="false"] &[data-hide-when-available='true'] {
+    display: inline-block;
+  }
+
+  [data-results-available="true"] &[data-hide-when-available='true'] {
+    display: none;
+  }
+}
+
+.search-results__caption-text---long {
+
+  [data-results-available="false"] & {
+    display: none;
+  }
+
+  [data-results-available="true"] & {
+    display: inline-block;
+  }
+}
+
+#search-results-caption-query {
+  @include apply-utility('weight', 'bold');
+}
+
+.search-results__headings-item-list {
+  @include top-gradient-shade();
+}
+
+.search-results__heading-item {
+  border: 1px solid #{get-color('secondary-shade')};
+  border-bottom-width: 2px;
+  padding: #{(get-size('400')/2)} #{(get-size('400') * 3 / 4)} ;
+  text-align: left;
+}
+
+.search-results__heading-text,
+.search-results__result-text {
+  @include apply-utility('font', 'sans');
+  font-size: #{get-size('400')};
+  line-height: 1.2;
+}
+
+.search-results__heading-text {
+  @include apply-utility('weight', 'bold');
+}
+
+.search-results__result-item-list {
+  border: 1px solid #{get-color('secondary-shade')};
+}
+
+.search-results__result-item {
+  border-bottom: 1px solid #{get-color('secondary-shade')};
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:nth-child(odd) {
+    background-color: transparent;
+  }
+
+  &:nth-child(even) {
+    background-color: #{get-color('secondary-glare')};
+  }
+}
+
+.search-results__result-data {
+  padding: #{(get-size('400') * 5 / 16)} #{(get-size('400') / 2)} #{(get-size('400') * 3 / 8) } ;
+}
+
+.search-results__result-text {
+  @include apply-utility('weight', 'normal');
+}

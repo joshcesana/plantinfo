@@ -1,0 +1,61 @@
+.page-head--search {
+  padding-top: #{get-size('500')};
+  padding-bottom: 0;
+}
+
+.page-title--search {
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'normal');
+  font-size: #{get-size('700')};
+  line-height: 1.5;
+  padding-top: #{get-size('500')};
+}
+
+.search-form {
+  padding-bottom: #{get-size('500')};
+  border-bottom: 2px solid #{get-color('secondary-shade')};
+  margin-bottom: #{get-size('400')};
+}
+
+.search-form__input-widgets {
+  margin-bottom: #{get-size('400')};
+}
+
+.search-form__input-widgets,
+.search-form__action-widgets {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: stretch;
+  justify-content: flex-start;
+  gap: #{get-size('400')};
+}
+
+.search-form__widget {
+  font-size: #{get-size('400')};
+}
+
+.search-input {
+  padding: #{(get-size('400') / 2)} #{(get-size('400') * 3 / 4)} #{(get-size('400') / 2)};
+}
+
+.search-form__button {
+  font-size: #{get-size('400')};
+  background: #{get-color('quinary')};
+  color: #{get-color('light')};
+
+  &:hover,
+  &:focus {
+    background: #{get-color('quinary-shade')} !important;
+    color: #{get-color('quaternary')} !important;
+  }
+}
+
+.search-form__messages {
+  @include apply-utility('font', 'sans');
+  @include apply-utility('weight', 'normal');
+  font-size: #{get-size('400')};
+  line-height: 1.73;
+  color: #{get-color('primary-shade')};
+  margin-top: #{get-size('400')};
+}
