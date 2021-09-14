@@ -2,7 +2,8 @@ const {
   objectHasOwnProperties,
   isArrayWithItems,
   createNurseryPermalinkPath,
-  createNurseryCategoryPermalinkPath
+  createNurseryCategoryPermalinkPath,
+  capitalizeFirstLetter
 } = require('../_data/helpers.js');
 
 /**
@@ -68,17 +69,20 @@ module.exports = (nurseryCollection, nurseryCategories) => {
       if (
         objectHasOwnProperties(nursery, ['data'])
       ) {
+
         if (
           objectHasOwnProperties(nursery.data, ['name']) &&
           objectHasOwnProperties(nursery.data, ['machine_name']) &&
           objectHasOwnProperties(nursery.data, ['location', 'city']) &&
           objectHasOwnProperties(nursery.data, ['location', 'state']) &&
-          objectHasOwnProperties(nursery.data, ['specialties'])
+          objectHasOwnProperties(nursery.data, ['specialties']) &&
+          objectHasOwnProperties(nursery.data, ['retail_wholesale'])
         ) {
-          let permalink_path = createNurseryPermalinkPath(nursery);
-
-          let nurserySpecialties = [];
-          let nurserySpecialtyPaths = [];
+          let
+            permalink_path = createNurseryPermalinkPath(nursery),
+            nurserySpecialties = [],
+            nurserySpecialtyPaths = [],
+            salseTypes = [];
 
           if (isArrayWithItems(nursery.data['specialties'])) {
             nursery.data['specialties'].forEach(specialty => {
@@ -101,6 +105,15 @@ module.exports = (nurseryCollection, nurseryCategories) => {
             });
           }
 
+          let salesTypeEntries = Object.entries(nursery.data['retail_wholesale']);
+          if (isArrayWithItems(salesTypeEntries)) {
+            salesTypeEntries.forEach(([sales_type, in_use]) => {
+              if (in_use) {
+                salseTypes.push(capitalizeFirstLetter(sales_type));
+              }
+            });
+          }
+
           index.push({
             machine_name: nursery.data['machine_name'],
             permalink_path: permalink_path,
@@ -109,6 +122,7 @@ module.exports = (nurseryCollection, nurseryCategories) => {
             state: nursery.data['location']['state'],
             specialty_names: nurserySpecialties,
             specialty_permalink_paths: nurserySpecialtyPaths,
+            sales_types: salseTypes,
           });
       }
       }

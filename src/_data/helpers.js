@@ -1,4 +1,15 @@
 module.exports = {
+
+  /**
+   * Capitalizes the first letter of a string.
+   *
+   * @param {String}       string       The string.
+   * @returns {String}                  The capitalized string.
+   */
+  capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  },
+
   /**
    * Checks if the object or object chain has a set of properties.
    *

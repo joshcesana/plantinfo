@@ -27,7 +27,7 @@ module.exports = config => {
   config.addNunjucksFilter("getNurseryCategoryPermalink", (value) => getNurseryCategoryPermalink(value));
   config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
-  let cacheDuration = '1d';
+  let cacheDuration = '1s';
 
   let getCacheData = async function(cache, collectionParameters, duration) {
     let cacheContents = [];
@@ -121,6 +121,7 @@ module.exports = config => {
       itemType: 'journal_book'
     }
   };
+
   let
     nurseryRootCollection,
     nurseryCategoryRootCollection,
@@ -163,6 +164,16 @@ module.exports = config => {
       staticParameters: [20, "nursery_category"]
     }
   };
+
+  let
+    searchOutputDir = 'dist',
+    searchData = {
+      nurseries: {
+        indexSlug: 'nursery',
+        refKey: 'machine_name',
+        fieldKeys: ['name', 'city', 'state', 'specialty_names', 'sales_types']
+      }
+    };
 
   //
   // // Returns family items.
@@ -240,7 +251,7 @@ module.exports = config => {
     nurseryIndexCollection = await getCacheData(cacheData.nurseryIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
 
-    buildCustomLunrIndex(nurseryIndexCollection, 'dist', 'nursery', 'machine_name', ['name', 'city', 'state', 'specialty_names']);
+    buildCustomLunrIndex(nurseryIndexCollection, searchOutputDir, searchData['nurseries']['indexSlug'], searchData['nurseries']['refKey'], searchData['nurseries']['fieldKeys']);
 
     return nurseryPagedCategoryCollection;
   });

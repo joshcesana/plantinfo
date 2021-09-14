@@ -53,6 +53,13 @@
             has_multiple_items: true,
             has_text_link: true,
             link_key: "specialty_permalink_paths",
+          },
+          {
+            key: "sales_types",
+            label: "Sales Types",
+            has_multiple_items: true,
+            has_text_link: false,
+            link_key: null,
           }
         ]
       },
