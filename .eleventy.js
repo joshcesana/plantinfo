@@ -45,7 +45,6 @@ module.exports = config => {
         return asset.getCachedValue();
       }
       let getParameters = [...collectionParameters, ...cache.staticParameters];
-
       cacheContents = cache.getFunction(...getParameters);
       await asset.save(cacheContents, 'json');
     }
@@ -241,7 +240,7 @@ module.exports = config => {
     nurseryIndexCollection = await getCacheData(cacheData.nurseryIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
 
-    buildCustomLunrIndex(nurseryIndexCollection, 'dist', 'nursery', 'machine_name', ['name', 'city', 'state', 'specialties']);
+    buildCustomLunrIndex(nurseryIndexCollection, 'dist', 'nursery', 'machine_name', ['name', 'city', 'state', 'specialty_names']);
 
     return nurseryPagedCategoryCollection;
   });

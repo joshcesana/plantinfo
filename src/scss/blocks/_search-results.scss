@@ -62,7 +62,8 @@
 }
 
 .search-results__heading-text,
-.search-results__result-text {
+.search-results__result-text,
+.search-results__result-link-text {
   @include apply-utility('font', 'sans');
   font-size: #{get-size('400')};
   line-height: 1.2;
@@ -96,7 +97,8 @@
   padding: #{(get-size('400') * 5 / 16)} #{(get-size('400') / 2)} #{(get-size('400') * 3 / 8) } ;
 }
 
-.search-results__result-text {
+.search-results__result-text,
+.search-results__result-link-text {
   @include apply-utility('weight', 'normal');
 }
 

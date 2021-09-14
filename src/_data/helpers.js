@@ -92,6 +92,48 @@ module.exports = {
   },
 
   /**
+   * Finds an item based on the collection type and machine name.
+   *
+   * @param {Array}        collections  The 11ty collections.
+   * @param {String}       itemType     The item type to use for the collection.
+   * @param {String}       machineName  The machine name of the item.
+   * @param {String}       uuid         The uuid of the item.
+   * @returns {Array}                   The item from the collection.
+   */
+  async findItemByTypeAndMachineName(collections, itemType, machineName, uuid = '') {
+    let collectionItemsFound = [];
+
+    if (module.exports.objectHasOwnProperties(collections, [itemType])) {
+      const collectionItems = collections[itemType];
+
+      if (module.exports.isArrayWithItems(collectionItems)) {
+        collectionItems.forEach(collectionItem => {
+          let thisItem = {};
+
+          if (module.exports.objectHasOwnProperties(collectionItem, ['data'])) {
+            if (
+              module.exports.objectHasOwnProperties(collectionItem['data'], ['type']) &&
+              module.exports.objectHasOwnProperties(collectionItem['data'], ['machine_name']) &&
+              collectionItem['data']['type'] === itemType &&
+              collectionItem['data']['machine_name'] === machineName
+            ) {
+              thisItem['data'] = module.exports.cloneObject(collectionItem.data);
+            }
+          }
+
+          if (module.exports.objectHasOwnProperties(thisItem, ['data'])) {
+            collectionItemsFound.push(thisItem);
+          }
+        });
+      }
+    }
+
+    return new Promise(resolve => {
+      resolve(collectionItemsFound);
+    });
+  },
+
+  /**
    * Returns an item based on the collection type and machine name.
    *
    * @param {Array}        collections  The 11ty collections.
@@ -101,29 +143,58 @@ module.exports = {
    * @returns {Array}                   The item from the collection.
    */
   getItemByTypeAndMachineName(collections, itemType, machineName, uuid = '') {
-    const collectionItems = collections[itemType];
-    let itemFound = {};
-    let collectionItemsFound = [];
 
-    collectionItems.forEach(collectionItem => {
+    let checkItem = function(item, itemType, machineName) {
       let thisItem = {};
 
-      if (
-        collectionItem.hasOwnProperty('data') &&
-        collectionItem.data.hasOwnProperty('type') &&
-        collectionItem.data.type === itemType &&
-        collectionItem.data.hasOwnProperty('machine_name') &&
-        collectionItem.data.machine_name === machineName) {
-        thisItem['data'] = module.exports.cloneObject(collectionItem.data);
+      if (module.exports.objectHasOwnProperties(item, ['data'])) {
+        if (
+          module.exports.objectHasOwnProperties(item['data'], ['type']) &&
+          module.exports.objectHasOwnProperties(item['data'], ['machine_name']) &&
+          item['data']['type'] === itemType &&
+          item['data']['machine_name'] === machineName
+        ) {
+          thisItem['data'] = module.exports.cloneObject(item.data);
+        }
       }
 
-      if (thisItem.hasOwnProperty('data')) {
-        collectionItemsFound.push(thisItem);
-      }
-    });
+      return thisItem;
+    };
 
-    if (collectionItemsFound.length > 0) {
-      itemFound = collectionItemsFound[0];
+    let addItem = function(item, collectedItems) {
+      if (module.exports.objectHasOwnProperties(item, ['data'])) {
+        collectedItems.push(item);
+      }
+
+      return collectedItems;
+    };
+
+    let findItemByTypeAndMachineName = function(collections, itemType, machineName, uuid = '') {
+      let collectionItemsFound = [];
+
+      if (module.exports.objectHasOwnProperties(collections, [itemType])) {
+        const collectionItems = collections[itemType];
+
+        if (module.exports.isArrayWithItems(collectionItems)) {
+          collectionItems.forEach(collectionItem => {
+            let thisItem = checkItem(collectionItem, itemType, machineName);
+
+            collectionItemsFound = addItem(thisItem, collectionItemsFound);
+          });
+        }
+      }
+
+      return collectionItemsFound;
+    };
+
+    let itemFound = {},
+      collectionItems = [];
+
+    collectionItems = findItemByTypeAndMachineName(collections, itemType, machineName, uuid = '');
+
+
+    if (collectionItems.length > 0 ) {
+      itemFound = collectionItems[0];
     }
 
     return itemFound;

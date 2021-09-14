@@ -10,7 +10,8 @@
     resultsRowTemplate = getResultItemCollection(getTemplate).item(0),
     resultsItemTemplate = getResultItem(getTemplate),
     resultItemTextTemplate = getResultItemText(getTemplate),
-    resultItemLinkTemplate = getResultItemLink(getTemplate);
+    resultItemLinkTemplate = getResultItemLink(getTemplate),
+    resultItemLinkTextTemplate = getResultItemLinkText(getTemplate);
 
   let
     indexData,
@@ -28,14 +29,30 @@
           {
             key: "name",
             label: "Nursery name",
+            has_multiple_items: false,
+            has_text_link: true,
+            link_key: "permalink_path",
           },
           {
             key: "city",
             label: "City",
+            has_multiple_items: false,
+            has_text_link: false,
+            link_key: null,
           },
           {
             key: "state",
             label: "State",
+            has_multiple_items: false,
+            has_text_link: false,
+            link_key: null,
+          },
+          {
+            key: "specialty_names",
+            label: "Specialties",
+            has_multiple_items: true,
+            has_text_link: true,
+            link_key: "specialty_permalink_paths",
           }
         ]
       },
@@ -223,6 +240,37 @@
     }
   }
 
+  function getHasMultipleItems(searchTypeInfo) {
+    let has_multiple_items = false;
+
+    if (objectHasOwnProperties(searchTypeInfo, ['has_multiple_items'])) {
+      has_multiple_items = searchTypeInfo['has_multiple_items'];
+    }
+
+    return has_multiple_items;
+  }
+
+  function getHasTextLink(searchTypeInfo) {
+    let has_text_link = false;
+
+    if (objectHasOwnProperties(searchTypeInfo, ['has_text_link'])) {
+      has_text_link = searchTypeInfo['has_text_link'];
+    }
+
+    return has_text_link;
+  }
+
+  function getLinkKey(searchTypeInfo) {
+    let link_key = null;
+
+    if (objectHasOwnProperties(searchTypeInfo, ['link_key'])) {
+      link_key = searchTypeInfo['link_key'];
+    }
+
+    return link_key;
+  }
+
+
   function getResultTable() {
     return document.querySelector(".search-results__table");
   }
@@ -277,16 +325,63 @@
     return document.querySelector(selector);
   }
 
+  function getResultItemLinkText(isTemplate) {
+    const selector = ".search-results__result-link-text[data-item-is-template='"  + isTemplate + "']";
+    return document.querySelector(selector);
+  }
+
+  function getElementToString(element) {
+    return element.outerHTML;
+  }
+
   function removeElementChildren(element) {
     while (element.firstChild) {
       element.removeChild(element.firstChild);
     }
+
+    return element;
   }
 
   function addElementChildren(element, children) {
     children.forEach(child => {
       element.appendChild(child);
     });
+
+    return element;
+  }
+
+  function addTextElementData(element, data) {
+    setElementHTML(element, data);
+    setTextFilled(element, "true");
+    setIsTemplate(element, "item", "false");
+
+    return element;
+  }
+
+  function addLinkElementPath(element, path) {
+    setElementHref(element, path);
+    setIsTemplate(element, "item", "false");
+    setAvailable(element, "item", "true");
+
+    return element;
+  }
+
+  function addTextToLinkElement(textElement, linkElement, textData, linkPath) {
+    let
+      text_element = addTextElementData(textElement, textData),
+      link_element = addLinkElementPath(linkElement, linkPath);
+
+    link_element = removeElementChildren(link_element);
+    link_element = addElementChildren(link_element, [text_element]);
+
+    return link_element;
+  }
+
+  function addElementToItemData(element, itemData) {
+
+    itemData.push(element);
+
+    return itemData;
   }
 
   function clearSearchHeadings() {
@@ -358,10 +453,10 @@
       let thisHeadingsRow = headingsRowTemplate.item(0);
 
       // Remove template children
-      removeElementChildren(thisHeadingsRow);
+      thisHeadingsRow = removeElementChildren(thisHeadingsRow);
 
       // Add headings for search type.
-      addElementChildren(thisHeadingsRow, headingItems);
+      thisHeadingsRow = addElementChildren(thisHeadingsRow, headingItems);
       setIsTemplate(thisHeadingsRow, "row", "false");
       setAvailable(thisHeadingsRow, "row", "true");
 
@@ -412,6 +507,7 @@
       objectHasOwnProperties(searchTypes, [searchType]) &&
       isArrayWithItems(searchTypes[searchType].results)
     ) {
+
       // Loop through search results, add a row for each.
       searchData.results.forEach(searchResult => {
         let thisResultRow = resultsRowTemplate.cloneNode(true);
@@ -424,40 +520,91 @@
         }
 
         // Remove template children
-        removeElementChildren(thisResultRow);
+        thisResultRow = removeElementChildren(thisResultRow);
+
+        // console.log(searchResult);
 
         // Loop through heading labels for search type, add a result item for each.
-        searchTypes[searchType].results.forEach((searchHeading, index) => {
+        searchTypes[searchType].results.forEach((searchTypeInfo, index) => {
           let
             thisResultItem = resultsItemTemplate.cloneNode(true),
             thisResultItemText = resultItemTextTemplate.cloneNode(true),
             thisResultItemLink = resultItemLinkTemplate.cloneNode(true),
-            thisResultItemLinkText = thisResultItemLink.querySelector(".search-results__result-link-text"),
+            thisResultItemLinkText = resultItemLinkTextTemplate.cloneNode(true),
             thisResultItemData = [];
 
           // Remove template children
-          removeElementChildren(thisResultItem);
+          thisResultItem = removeElementChildren(thisResultItem);
 
-          if (objectHasOwnProperties(searchResult, [searchHeading.key])) {
-            if (index === 0 && permalinkPath !== '') {
-              setElementHTML(thisResultItemLinkText, searchResult[searchHeading.key]);
-              setTextFilled(thisResultItemLinkText, "true");
-              setIsTemplate(thisResultItemLinkText, "item", "false");
+          if (objectHasOwnProperties(searchResult, [searchTypeInfo.key])) {
+            let
+              searchResultData = searchResult[searchTypeInfo.key],
+              has_multiple_items = getHasMultipleItems(searchTypeInfo),
+              has_text_link = getHasTextLink(searchTypeInfo),
+              link_key = getLinkKey(searchTypeInfo);
 
-              setElementHref(thisResultItemLink, permalinkPath);
-              setIsTemplate(thisResultItemLink, "item", "false");
-              setAvailable(thisResultItemLink, "item", "true");
-              thisResultItemData.push(thisResultItemLink);
+            if (has_multiple_items && isArrayWithItems(searchResultData)) {
+              let
+                itemCount = searchResultData.length,
+                thisResultItemDataList = [],
+                thisResultItemDataListText = '';
+
+              searchResultData.forEach((dataItem, index) => {
+                if (
+                  has_text_link &&
+                  link_key !== null &&
+                  objectHasOwnProperties(searchResult, [link_key]) &&
+                  searchResult[link_key][index] !== null
+                ) {
+                  let
+                    thisDataItemPermalinkPath = searchResult[link_key][index],
+                    thisDataItemLink = resultItemLinkTemplate.cloneNode(true),
+                    thisDataItemLinkText = thisResultItemLinkText.cloneNode(true),
+                    thisLinkElement = addTextToLinkElement(thisDataItemLinkText, thisDataItemLink, dataItem, thisDataItemPermalinkPath),
+                    thisLinkTextData = getElementToString(thisLinkElement);
+
+                  thisResultItemDataList = addElementToItemData(thisLinkTextData, thisResultItemDataList);
+                } else {
+
+                  let
+                    thisDataItemText = thisResultItemText.cloneNode(true),
+                    thisTextElement = addTextElementData(thisDataItemText, dataItem),
+                    thisTextData = getElementToString(thisTextElement);
+
+                  thisResultItemDataList = addElementToItemData(thisTextData, thisResultItemDataList);
+                }
+
+                if (itemCount - 2 >= 0 && itemCount - 1 !== index ) {
+                  thisResultItemDataList.push(', ');
+                }
+
+                if (itemCount - 1 >= 0 && itemCount - 2 === index ) {
+                  thisResultItemDataList.push(' and ');
+                }
+              });
+
+              thisResultItemDataList.forEach(listItem => {
+                thisResultItemDataListText += listItem;
+              });
+
+              let thisResultItemDataListTextElement = addTextElementData(thisResultItemText, thisResultItemDataListText);
+
+              thisResultItemData = addElementToItemData(thisResultItemDataListTextElement, thisResultItemData);
             } else {
-              setElementHTML(thisResultItemText, searchResult[searchHeading.key]);
-              setTextFilled(thisResultItemText, "true");
-              setIsTemplate(thisResultItemText, "item", "false");
-              thisResultItemData.push(thisResultItemText);
+              let thisElement = null;
+
+              if (has_text_link && link_key !== null) {
+                thisElement = addTextToLinkElement(thisResultItemLinkText, thisResultItemLink, searchResultData, permalinkPath);
+              } else {
+                thisElement = addTextElementData(thisResultItemText, searchResultData);
+              }
+
+              thisResultItemData = addElementToItemData(thisElement, thisResultItemData);
             }
           }
 
           // Add row item data to row item.
-          addElementChildren(thisResultItem, thisResultItemData);
+          thisResultItem = addElementChildren(thisResultItem, thisResultItemData);
           setIsTemplate(thisResultItem, "item", "false");
           setAvailable(thisResultItem, "item", "true");
 
@@ -466,7 +613,7 @@
         });
 
         // Add row data to results row.
-        addElementChildren(thisResultRow, thisResultRowData);
+        thisResultRow = addElementChildren(thisResultRow, thisResultRowData);
 
         if (objectHasOwnProperties(searchResult, ['score'])) {
           let searchScore = searchResult.score.toFixed(2);
@@ -481,7 +628,7 @@
       });
 
       // Remove template children
-      removeElementChildren(resultRows);
+      resultRows = removeElementChildren(resultRows);
 
       // Add result items to result rows.
       addElementChildren(resultRows, resultItems);
