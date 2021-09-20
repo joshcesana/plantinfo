@@ -13,6 +13,11 @@
       {% include "partials/intro.html" %}
 
       {{ content | safe }}
+
+      <div class="[ auto-grid grid-1-1 ]">
+        {% include "partials/plants/plant-search-box.html" %}
+        {% include "partials/nurseries/nursery-search-box.html" %}
+      </div>
     </article>
 
     {% include "partials/plant-nav/browse-by-letter.html" %}

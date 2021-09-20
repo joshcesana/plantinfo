@@ -56,18 +56,6 @@
   padding-right: 0;
 }
 
-.search-form__button {
-  font-size: #{get-size('400')};
-  background: #{get-color('quinary')};
-  color: #{get-color('light')};
-
-  &:hover,
-  &:focus {
-    background: #{get-color('quinary-shade')} !important;
-    color: #{get-color('quaternary')} !important;
-  }
-}
-
 .search-form__messages {
   @include apply-utility('font', 'sans');
   @include apply-utility('weight', 'normal');

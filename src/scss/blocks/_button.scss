@@ -48,6 +48,19 @@
       top: 1px;
     }
   }
+
+  // Add an action modifier
+  &[data-variant='action'] {
+    font-size: #{get-size('400')};
+    background: #{get-color('quinary')};
+    color: #{get-color('light')};
+
+    &:hover,
+    &:focus {
+      background: #{get-color('quinary-shade')} !important;
+      color: #{get-color('quaternary')} !important;
+    }
+  }
 }
 
 .button-text--long {
