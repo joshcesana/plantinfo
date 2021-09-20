@@ -1,6 +1,8 @@
 (function (lunr) {
   const
     searchInput = document.getElementById("search-text"),
+    countryInput = document.getElementById("country"),
+    salesTypeInput = document.getElementById("sales-type"),
     searchSubmit = document.getElementById("submit-search-results"),
     searchClear = document.getElementById("clear-search-results"),
     getTemplate = true,
@@ -55,7 +57,7 @@
             link_key: "specialty_permalink_paths",
           },
           {
-            key: "sales_types",
+            key: "sales_type_names",
             label: "Sales Types",
             has_multiple_items: true,
             has_text_link: false,
@@ -168,9 +170,9 @@
 //   document.querySelector(".search-container").classList.add("focused");
 // }
 
-  function searchSite(query) {
+  function searchSite(query, modifiers) {
     searchData.query = query;
-    searchData.terms = getLunrSearchTerms(searchData.query);
+    searchData.terms = getLunrSearchTerms(searchData.query, modifiers);
     searchData.results = [];
     let results = getSearchResults(searchData.terms);
 
@@ -192,8 +194,40 @@
     });
   }
 
-  function getLunrSearchTerms(query) {
+  function getQuery() {
+    return document.getElementById("search-text").value.trim().toLowerCase();
+  }
+
+  function getQueryModifiers() {
+    let
+      country_default = "all",
+      country = document.getElementById("country").options[countryInput.selectedIndex].value,
+      country_key = "country_keys",
+      country_term = country_key + ":" + country,
+      sales_type_default = "all",
+      sales_type = document.getElementById("sales-type").options[salesTypeInput.selectedIndex].value,
+      sales_type_key = "sales_type_keys",
+      sales_type_term = sales_type_key + ":" + sales_type,
+      modifier_terms = "";
+
+    if (country !== country_default) {
+      modifier_terms = addTerm(modifier_terms, country_term);
+    }
+
+    if (sales_type !== sales_type_default) {
+      modifier_terms = addTerm(modifier_terms, sales_type_term);
+    }
+
+    return modifier_terms;
+  }
+
+  function getLunrSearchTerms(query, modifiers) {
     let queryTerms = cloneObject(query);
+
+    if (modifiers !== "") {
+      queryTerms = addTerm(queryTerms, modifiers);
+    }
+
     const searchTerms = queryTerms.split(" ");
     if (searchTerms.length === 1) {
       return queryTerms;
@@ -209,12 +243,14 @@
     event.preventDefault();
     clearSearchResults({ clearInput: false, clearSearchData: true });
 
-    const query = document.getElementById("search-text").value.trim().toLowerCase();
-    if (!query) {
-      displayErrorMessage("Please enter a search term");
+    const
+      query = getQuery(),
+      query_modifiers = getQueryModifiers();
+    if (!query && !query_modifiers) {
+      displayErrorMessage("Please enter a search term or select a search option");
       return;
     }
-    searchSite(query);
+    searchSite(query, query_modifiers);
     if (!searchData.results.length) {
       displayErrorMessage("Your search returned no results");
       return;
@@ -389,6 +425,16 @@
     itemData.push(element);
 
     return itemData;
+  }
+
+  function addTerm(terms, term) {
+    if (terms !== "") {
+      terms += " ";
+    }
+
+    terms += term;
+
+    return terms;
   }
 
   function clearSearchHeadings() {
@@ -676,6 +722,14 @@
       });
 
       searchInput.addEventListener("click", (event) => {
+        handleSearchQuery(event);
+      });
+
+      countryInput.addEventListener("change", (event) => {
+        handleSearchQuery(event);
+      });
+
+      salesTypeInput.addEventListener("change", (event) => {
         handleSearchQuery(event);
       });
 

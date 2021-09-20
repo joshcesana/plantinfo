@@ -8,10 +8,8 @@
 
 {% set plant_type_title = helpers.getPlantTypeTitle(plant_type) %}
 {% set letterCollection =  plant_type ~ 'Letters' %}
-{% set plant_type_collection = collections[letterCollection] %}
-
-{% set plant_letter_list = helpers.createLetterList(plant_type_collection, plant_type) %}
-{% set plant_letter_link_list = helpers.createLetterLinkList(plant_type_collection, plant_type) %}
+{% set plant_type_letter_collection = collections[letterCollection] %}
+{% set plant_letter_link_list = helpers.createLetterLinkList(plant_type_letter_collection, plant_type) %}
 {% set letter_list_wrapper =
   {
     wrapper_class: '[ letter-list-section--' ~ plant_type ~ '-directory letter-list-section--directory ]',

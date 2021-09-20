@@ -25,18 +25,35 @@
 .search-form__action-widgets {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: stretch;
   align-content: stretch;
   justify-content: flex-start;
   gap: #{get-size('400')};
 }
 
 .search-form__widget {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: stretch;
   font-size: #{get-size('400')};
+
+  > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
 }
 
-.search-input {
+.search-input,
+.search-select {
   padding: #{(get-size('400') / 2)} #{(get-size('400') * 3 / 4)} #{(get-size('400') / 2)};
+  line-height: 1.5625;
+}
+
+.search-select {
+  padding-right: 0;
 }
 
 .search-form__button {

@@ -1,9 +1,11 @@
 const {
   objectHasOwnProperties,
+  checkBooleanObjectProperties,
   isArrayWithItems,
   createNurseryPermalinkPath,
   createNurseryCategoryPermalinkPath,
-  capitalizeFirstLetter
+  capitalizeFirstLetter,
+  getCountryName
 } = require('../_data/helpers.js');
 
 /**
@@ -75,14 +77,19 @@ module.exports = (nurseryCollection, nurseryCategories) => {
           objectHasOwnProperties(nursery.data, ['machine_name']) &&
           objectHasOwnProperties(nursery.data, ['location', 'city']) &&
           objectHasOwnProperties(nursery.data, ['location', 'state']) &&
+          objectHasOwnProperties(nursery.data, ['location', 'country']) &&
           objectHasOwnProperties(nursery.data, ['specialties']) &&
           objectHasOwnProperties(nursery.data, ['retail_wholesale'])
         ) {
           let
             permalink_path = createNurseryPermalinkPath(nursery),
             nurserySpecialties = [],
+            nurserySpecialtyKeys = [],
             nurserySpecialtyPaths = [],
-            salseTypes = [];
+            salesTypeKeys = [],
+            salesTypeNames = [],
+            countryKeys = [],
+            countryNames = [];
 
           if (isArrayWithItems(nursery.data['specialties'])) {
             nursery.data['specialties'].forEach(specialty => {
@@ -91,6 +98,7 @@ module.exports = (nurseryCollection, nurseryCategories) => {
                 objectHasOwnProperties(specialty, ['machine_name'])
               ) {
                 let thisSpecialty = findCategory(nurseryCategoriesData, specialty['type'], specialty['machine_name']);
+                nurserySpecialtyKeys.push(thisSpecialty['data']['machine_name']);
 
                 if (
                   objectHasOwnProperties(thisSpecialty, ['data']) &&
@@ -105,14 +113,15 @@ module.exports = (nurseryCollection, nurseryCategories) => {
             });
           }
 
-          let salesTypeEntries = Object.entries(nursery.data['retail_wholesale']);
-          if (isArrayWithItems(salesTypeEntries)) {
-            salesTypeEntries.forEach(([sales_type, in_use]) => {
-              if (in_use) {
-                salseTypes.push(capitalizeFirstLetter(sales_type));
-              }
-            });
-          }
+          checkBooleanObjectProperties(nursery.data['retail_wholesale'], (sales_type, in_use) => {
+            salesTypeKeys.push(sales_type);
+            salesTypeNames.push(capitalizeFirstLetter(sales_type));
+          });
+
+          checkBooleanObjectProperties(nursery.data['location']['country'], (country_key, in_use) => {
+            countryKeys.push(country_key);
+            countryNames.push(getCountryName(country_key));
+          });
 
           index.push({
             machine_name: nursery.data['machine_name'],
@@ -120,9 +129,13 @@ module.exports = (nurseryCollection, nurseryCategories) => {
             name: nursery.data['name'],
             city: nursery.data['location']['city'],
             state: nursery.data['location']['state'],
+            country_keys: countryKeys,
+            country_names: countryNames,
+            specialty_keys: nurserySpecialtyKeys,
             specialty_names: nurserySpecialties,
             specialty_permalink_paths: nurserySpecialtyPaths,
-            sales_types: salseTypes,
+            sales_type_keys: salesTypeKeys,
+            sales_type_names: salesTypeNames,
           });
       }
       }

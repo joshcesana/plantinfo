@@ -39,6 +39,25 @@ module.exports = {
   },
 
   /**
+   * Iterates over an object's boolean properties in order to allow a check
+   * function to do something with the properties set to `true`.
+   *
+   * @param {Object}       object          The object to iterate over.
+   * @param {Function}     checkFunction   The check function, which should take
+   *                                         parameters of `key` and `in_use`.
+   */
+  checkBooleanObjectProperties(object, checkFunction) {
+    let objectEntries = Object.entries(object);
+    if (module.exports.isArrayWithItems(objectEntries)) {
+      objectEntries.forEach(([key, in_use]) => {
+        if (in_use) {
+          checkFunction(key, in_use);
+        }
+      });
+    }
+  },
+
+  /**
    * Checks if this is an array that has items.
    *
    * @param {Array}       checkThis   The item to check.
@@ -78,6 +97,24 @@ module.exports = {
           .replace(/(?<beforeAndAfter>[=&])/giu, '<wbr>$1<wbr>')
       // Reconnect the strings with word break opportunities after double slashes
     ).join('//<wbr>');
+  },
+
+  /**
+   * Gets the name of the country based on a country key.
+   *
+   * @param {String}       country_key      The country key.
+   * @returns {String}                      The country name.
+   */
+  getCountryName(country_key) {
+    let countryName = "";
+
+    if (country_key === "united_states") {
+      countryName = "United States";
+    } else if (country_key === "canada") {
+      countryName = "Canada";
+    }
+
+    return countryName;
   },
 
   /**
@@ -1100,11 +1137,10 @@ module.exports = {
         module.exports.objectHasOwnProperties(location.country, ['united_states']) &&
         module.exports.objectHasOwnProperties(location.country, ['canada'])
       ) {
-        if (location.country.united_states === true) {
-          nurseryDetails.country = 'United States';
-        } else if (location.country.canada === true) {
-          nurseryDetails.country = 'Canada';
-        }
+
+        nurseryDetails.country = module.exports.checkBooleanObjectProperties(location.country, (key, in_use) => {
+          return module.exports.getCountryName(key);
+        });
       }
 
       if (
