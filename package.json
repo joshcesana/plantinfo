@@ -21,17 +21,18 @@
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "concurrently": "^6.0.2",
+    "@11ty/eleventy-upgrade-help": "^1.0.1",
+    "concurrently": "^7.0.0",
     "fs": "^0.0.1-security",
     "get-google-fonts": "^1.2.2",
     "gorko": "^0.3.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-imagemin": "^7.1.0",
-    "gulp-sass": "^4.1.0",
+    "gulp-sass": "^5.1.0",
     "lodash": "^4.17.21",
     "lunr": "^2.3.9",
-    "sass": "^1.32.12",
+    "sass": "^1.49.0",
     "uuid": "^3.4.0"
   }
 }

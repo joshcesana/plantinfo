@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .page--nursery-category {
   .teaser--nursery {
     margin-bottom: get-size('700');
@@ -20,7 +22,7 @@
 }
 
 .nursery-info__inline {
-  margin-right: get-size('400') * 3 / 4;
+  margin-right: get-size('400') * math.div(3, 4);
 
   .nursery-info--address & {
     margin-right: 0;
@@ -38,10 +40,10 @@
   align-items: flex-start;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: get-size('400') * 3 / 4;
+  margin-bottom: get-size('400') * math.div(3, 4);
 
   .page--nursery-category & {
-    margin-bottom: get-size('400') * 1 / 2;
+    margin-bottom: get-size('400') * math.div(1, 2);
     justify-content: flex-start;
   }
 }
@@ -74,11 +76,11 @@
 
 .panel.panel--nursery-info-types {
   margin: get-size('400') 0 0;
-  padding: (get-size('400') / 2) 0 0;
+  padding: (math.div(get-size('400'), 2)) 0 0;
 
   @include media-query('md') {
     margin: get-size('500') 0 0;
-    padding: (get-size('400') * 3 / 4);
+    padding: (get-size('400') * math.div(3, 4));
   }
 }
 

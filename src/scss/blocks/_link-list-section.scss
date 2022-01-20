@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .plant-display__list,
 .link-list-inline,
 .link-list-section {
@@ -39,7 +41,7 @@
 }
 
 .link-list-inline__list-item {
-  margin-right: get-size('400') * 3 / 5;
+  margin-right: get-size('400') * math.div(3, 5);
 }
 
 .related-plant__link-list-section,

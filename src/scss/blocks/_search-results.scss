@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .search-results__total {
   @include apply-utility('font', 'base');
   @include apply-utility('weight', 'normal');
@@ -22,7 +24,7 @@
   @include apply-utility('weight', 'normal');
   font-size: #{get-size('500')};
   color: #{get-color('primary-shade')};
-  padding-bottom: #{(get-size('400') / 2)};
+  padding-bottom: #{(math.div(get-size('400'), 2))};
 }
 
 .search-results__caption-text---short {
@@ -57,7 +59,7 @@
 .search-results__heading-item {
   border: 1px solid #{get-color('secondary-shade')};
   border-bottom-width: 2px;
-  padding: #{(get-size('400')/2)} #{(get-size('400') * 3 / 4)} ;
+  padding: #{(math.div(get-size('400'), 2))} #{(get-size('400') * math.div(3, 4))} ;
   text-align: left;
 }
 
@@ -94,7 +96,7 @@
 }
 
 .search-results__result-data {
-  padding: #{(get-size('400') * 5 / 16)} #{(get-size('400') / 2)} #{(get-size('400') * 3 / 8) } ;
+  padding: #{(get-size('400') * math.div(5, 16))} #{(math.div(get-size('400'), 2))} #{(get-size('400') * math.div(3, 8)) } ;
 }
 
 .search-results__result-text,

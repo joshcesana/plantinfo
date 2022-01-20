@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .box {
   border: 1px solid get-color('secondary-shade');
   box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
@@ -40,7 +42,7 @@
 }
 
 .box__heading .box__title{
-  padding-bottom: get-size('400') * 3 / 4;
+  padding-bottom: get-size('400') * math.div(3, 4);
 }
 
 .box__content .box__item-list {
@@ -58,7 +60,7 @@
     &:after {
       content: "\2022";
       color: #{get-color('quinary')};
-      padding: 0 get-size('400') / 2;
+      padding: 0 math.div(get-size('400'), 2);
     }
   }
 }

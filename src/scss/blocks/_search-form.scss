@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .page-head--search {
   padding-top: #{get-size('500')};
   padding-bottom: 0;
@@ -48,7 +50,7 @@
 
 .search-input,
 .search-select {
-  padding: #{(get-size('400') / 2)} #{(get-size('400') * 3 / 4)} #{(get-size('400') / 2)};
+  padding: #{(math.div(get-size('400'), 2))} #{(get-size('400') * math.div(3, 4))} #{(math.div(get-size('400'), 2))};
   line-height: 1.5625;
 }
 
