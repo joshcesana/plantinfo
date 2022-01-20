@@ -18,7 +18,7 @@
     "url": "https://github.com/ten7/plantinfo/issues"
   },
   "homepage": "https://github.com/ten7/plantinfo#readme",
-  "dependencies": {
+  "devDependencies": {
     "@11ty/eleventy": "^1.0.0",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-upgrade-help": "^1.0.1",
