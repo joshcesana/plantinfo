@@ -1,8 +1,6 @@
 (function (lunr) {
   const
     searchInput = document.getElementById("search-text"),
-    countryInput = document.getElementById("country"),
-    salesTypeInput = document.getElementById("sales-type"),
     searchSubmit = document.getElementById("submit-search-results"),
     searchClear = document.getElementById("clear-search-results"),
     getTemplate = true,
@@ -16,6 +14,8 @@
     resultItemLinkTextTemplate = getResultItemLinkText(getTemplate);
 
   let
+    countryInput = null,
+    salesTypeInput = null,
     indexData,
     searchData = {
       docs: null,
@@ -25,8 +25,12 @@
       results: null
     },
     searchType = null,
+    searchIndex = null,
+    searchDocs = null,
     searchTypes = {
       nurseries: {
+        index: "/lunr/nursery/index.json",
+        docs: "/lunr/nursery/raw.json",
         results: [
           {
             key: "name",
@@ -65,16 +69,29 @@
           }
         ]
       },
+      plants: {
+        index: "/lunr/plant/index.json",
+        docs: "/lunr/plant/raw.json",
+        results: [
+          {
+            key: "plant_name",
+            label: "Plant name",
+            has_multiple_items: false,
+            has_text_link: true,
+            link_key: "plant_permalink_path",
+          }
+        ]
+      }
     }
   ;
 
   async function loadSearchIndex() {
     try {
-      const index = await fetch("/lunr/nursery/index.json");
+      const index = await fetch(searchIndex);
       indexData = await index.json();
       searchData.idx = lunr.Index.load(indexData);
 
-      let docs = await fetch("/lunr/nursery/raw.json");
+      let docs = await fetch(searchDocs);
       searchData.docs = await docs.json();
     } catch (e) {
       console.log(e);
@@ -199,23 +216,27 @@
   }
 
   function getQueryModifiers() {
-    let
-      country_default = "all",
-      country = document.getElementById("country").options[countryInput.selectedIndex].value,
-      country_key = "country_keys",
-      country_term = country_key + ":" + country,
-      sales_type_default = "all",
-      sales_type = document.getElementById("sales-type").options[salesTypeInput.selectedIndex].value,
-      sales_type_key = "sales_type_keys",
-      sales_type_term = sales_type_key + ":" + sales_type,
-      modifier_terms = "";
+    let modifier_terms = "";
 
-    if (country !== country_default) {
-      modifier_terms = addTerm(modifier_terms, country_term);
-    }
+    if (searchType === "nurseries") {
+      let
+        country_default = "all",
+        country = document.getElementById("country").options[countryInput.selectedIndex].value,
+        country_key = "country_keys",
+        country_term = country_key + ":" + country,
+        sales_type_default = "all",
+        sales_type = document.getElementById("sales-type").options[salesTypeInput.selectedIndex].value,
+        sales_type_key = "sales_type_keys",
+        sales_type_term = sales_type_key + ":" + sales_type,
+        modifier_terms = "";
 
-    if (sales_type !== sales_type_default) {
-      modifier_terms = addTerm(modifier_terms, sales_type_term);
+      if (country !== country_default) {
+        modifier_terms = addTerm(modifier_terms, country_term);
+      }
+
+      if (sales_type !== sales_type_default) {
+        modifier_terms = addTerm(modifier_terms, sales_type_term);
+      }
     }
 
     return modifier_terms;
@@ -283,6 +304,24 @@
     }
   }
 
+  function getSearchIndex() {
+    if (
+      objectHasOwnProperties(searchTypes, [searchType]) &&
+      objectHasOwnProperties(searchTypes[searchType], ['index'])
+    ) {
+      searchIndex = searchTypes[searchType].index;
+    }
+  }
+
+  function getSearchDocs() {
+    if (
+      objectHasOwnProperties(searchTypes, [searchType]) &&
+      objectHasOwnProperties(searchTypes[searchType], ['docs'])
+    ) {
+      searchDocs = searchTypes[searchType].docs;
+    }
+  }
+
   function getHasMultipleItems(searchTypeInfo) {
     let has_multiple_items = false;
 
@@ -328,6 +367,14 @@
 
   function getResultTotalText() {
     return document.querySelectorAll(".search-results__total-text").item(0);
+  }
+
+  function getCountryInput() {
+    return document.getElementById("country");
+  }
+
+  function getSalesTypeInput() {
+    return document.getElementById("sales-type");
   }
 
   function getResultHeadings() {
@@ -711,8 +758,11 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     if (document.getElementById("search-form") !== null) {
-      loadSearchIndex();
       getSearchType();
+      getSearchIndex();
+      getSearchDocs();
+
+      loadSearchIndex();
       addSearchHeadings();
 
       searchInput.addEventListener("keydown", (event) => {
@@ -725,13 +775,18 @@
         handleSearchQuery(event);
       });
 
-      countryInput.addEventListener("change", (event) => {
-        handleSearchQuery(event);
-      });
+      if (searchType === 'nurseries') {
+        countryInput = getCountryInput();
+        salesTypeInput = getSalesTypeInput();
 
-      salesTypeInput.addEventListener("change", (event) => {
-        handleSearchQuery(event);
-      });
+        countryInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+
+        salesTypeInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+      }
 
       searchSubmit.addEventListener("click", (event) => {
         handleSearchQuery(event);

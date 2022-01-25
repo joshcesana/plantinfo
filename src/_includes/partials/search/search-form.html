@@ -4,7 +4,7 @@
   name="searchForm"
   role="form"
   onsubmit="return false"
-  data-search-type="nurseries"
+  data-search-type="{{ search_type }}"
 >
   <div class="search-form__widgets">
     <div class="search-form__input-widgets">
@@ -22,30 +22,11 @@
           value=""
         />
       </div>
-      <div class="[ search-form__widget search-form__widget--select ]">
-        <select
-          class="search-select"
-          id="country"
-          name="country"
-          aria-label="Search by country"
-        >
-          <option value="all">All Countries</option>
-          <option value="united_states">United States</option>
-          <option value="canada">Canada</option>
-        </select>
-      </div>
-      <div class="[ search-form__widget search-form__widget--select ]">
-        <select
-          class="search-select"
-          id="sales-type"
-          name="sales-type"
-          aria-label="Search by sales type"
-        >
-          <option value="all">All Sales Types</option>
-          <option value="retail">Retail</option>
-          <option value="wholesale">Wholesale</option>
-        </select>
-      </div>
+      {% if search_type == 'nurseries' %}
+        {% include "partials/search/search-form-input-widgets--nurseries.html" %}
+      {% elif search_type == 'plants' %}
+        {% include "partials/search/search-form-input-widgets--plants.html" %}
+      {% endif %}
     </div>
     <div class="search-form__action-widgets">
       <div class="[ search-form__widget search-form__widget--submit ]">

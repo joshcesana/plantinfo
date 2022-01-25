@@ -9,6 +9,7 @@ const getLetterListByItemType = require('./src/utils/get-letter-list-by-item-typ
 const getFilteredByCategoryCollection = require('./src/utils/get-filtered-by-category-collection.js');
 const getPagedItemsInCategoryCollection = require('./src/utils/get-paged-items-in-category-collection.js');
 const prepareNurseryIndex = require('./src/utils/prepare-nursery-index.js');
+const preparePlantIndex = require('./src/utils/prepare-plant-index.js');
 const buildLunrIndex = require('./src/utils/build-lunr-index.js');
 const writeLunrIndex = require('./src/utils/write-lunr-index.js');
 const writeRawIndex = require('./src/utils/write-raw-index.js');
@@ -41,6 +42,7 @@ module.exports = config => {
   config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
   let cacheDuration = '5d';
+  cacheDuration = '5d';
 
   let getCacheData = async function(cache, collectionParameters, duration) {
     let cacheContents = [];
@@ -150,15 +152,23 @@ module.exports = config => {
         indexSlug: 'nursery',
         refKey: 'machine_name',
         fieldKeys: ['name', 'city', 'state', 'country_keys', 'country_names', 'specialty_keys', 'specialty_names', 'sales_type_keys', 'sales_type_names']
+      },
+      plants: {
+        indexSlug: 'plant',
+        refKey: 'machine_name',
+        fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name','availabile_in_nursery','has_citations']
       }
     };
 
   let
     journalCollection,
+    citationCollection,
     plantFamilyRootCollection,
     plantFamilyCollection,
     plantGenusCollection,
     plantSpeciesCollection,
+    plantVarietyCollection,
+    plantCommonNameCollection,
     nurseryRootCollection,
     nurseryCategoryRootCollection,
     nurseryCollection,
@@ -166,7 +176,10 @@ module.exports = config => {
     nurserySpecialtiesCollection,
     nurseryPrepareIndexCollection,
     nurseryBuildIndexCollection,
-    nurseryPagedCategoryCollection = [];
+    nurseryPagedCategoryCollection = [],
+    plantPrepareIndexCollection,
+    plantBuildIndexCollection,
+    fullPlantIndexCollection = [];
 
   let cacheData = {
     journalBookCache: {
@@ -243,7 +256,17 @@ module.exports = config => {
       assetKey: 'nursery_by_category_cache_paged_category_collection',
       getFunction: getPagedCategoryCollection,
       staticParameters: [20, "nursery_category"]
-    }
+    },
+    plantPrepareIndexCache: {
+      assetKey: 'plant_cache_prepare_index',
+      getFunction: preparePlantIndex,
+      staticParameters: []
+    },
+    plantBuildIndexCache: {
+      assetKey: 'plant_cache_build_index',
+      getFunction: buildLunrIndex,
+      staticParameters: [searchData['plants']['refKey'], searchData['plants']['fieldKeys']]
+    },
   };
 
   // Returns journal_book items.
@@ -336,6 +359,7 @@ module.exports = config => {
     nurseryCategoryCollection = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
     nurserySpecialtiesCollection = await getCacheData(cacheData.nurserySpecialtiesCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
+
     nurseryPrepareIndexCollection = await getCacheData(cacheData.nurseryPrepareIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryBuildIndexCollection = await getCacheData(cacheData.nurseryBuildIndexCache, [nurseryPrepareIndexCollection], cacheDuration);
 
@@ -343,6 +367,39 @@ module.exports = config => {
     writeCustomRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryPrepareIndexCollection);
 
     return nurseryPagedCategoryCollection;
+  });
+
+  config.addCollection('full_plant_index', async (collection) => {
+    plantFamilyRootCollection = collection;
+    nurseryRootCollection = collection;
+    nurseryCategoryRootCollection = collection;
+
+    plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+    plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
+    plantSpeciesCollection = await getCacheData(cacheData.plantSpeciesCache, [plantGenusCollection], cacheDuration);
+    plantVarietyCollection = await getCacheData(cacheData.plantVarietyCache, [plantSpeciesCollection], cacheDuration);
+
+    plantCommonNameCollection = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
+    // plantFullIndexLevelFiveCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelFourCollection], cacheDuration);
+
+    nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
+    nurseryCategoryCollection = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
+    // plantFullIndexLevelSixCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelFiveCollection], cacheDuration);
+
+    journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+    citationCollection = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
+    // plantFullIndexCompleteCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelSixCollection], cacheDuration);
+
+    plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
+      [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection]
+    ], cacheDuration);
+    plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
+
+    writeCustomLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);
+    writeCustomRawIndex(searchOutputDir, searchData['plants']['indexSlug'], plantPrepareIndexCollection);
+    fullPlantIndexCollection = plantPrepareIndexCollection;
+
+    return fullPlantIndexCollection;
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
