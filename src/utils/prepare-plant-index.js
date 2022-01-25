@@ -30,7 +30,7 @@ module.exports = (plantLevelCollections) => {
       common_name:  null,
       common_machine_name: null,
       common_name_permalink_path: null,
-      availabile_in_nursery: null,
+      available_in_nursery: null,
       has_citations: null
     };
 
@@ -53,7 +53,7 @@ module.exports = (plantLevelCollections) => {
       if (
         objectHasOwnProperties(plantInLevel.data, ['name']) &&
         objectHasOwnProperties(plantInLevel.data, ['machine_name']) &&
-        objectHasOwnProperties(plantInLevel.data, ['type'])
+        objectHasOwnProperties(plantInLevel.data, [''])
       ) {
         let
           plant_name = plantInLevel.data['name'],
@@ -70,8 +70,8 @@ module.exports = (plantLevelCollections) => {
           taxonomy_level_key = plantInLevel.data['lower_ranks'][0];
           taxonomy_level_name = plantInLevel.data['lower_ranks'][0];
         } else {
-          taxonomy_level_key = plantInLevel.data['type'];
-          taxonomy_level_name = capitalizeFirstLetter(plantInLevel.data['type']);
+          taxonomy_level_key = plantInLevel.data[''];
+          taxonomy_level_name = capitalizeFirstLetter(plantInLevel.data['']);
         }
 
         let this_plant_index_settings = {

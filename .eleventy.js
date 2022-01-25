@@ -156,7 +156,7 @@ module.exports = config => {
       plants: {
         indexSlug: 'plant',
         refKey: 'machine_name',
-        fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name','availabile_in_nursery','has_citations']
+        fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name','available_in_nursery','has_citations']
       }
     };
 
@@ -178,8 +178,7 @@ module.exports = config => {
     nurseryBuildIndexCollection,
     nurseryPagedCategoryCollection = [],
     plantPrepareIndexCollection,
-    plantBuildIndexCollection,
-    fullPlantIndexCollection = [];
+    plantBuildIndexCollection;
 
   let cacheData = {
     journalBookCache: {
@@ -380,16 +379,14 @@ module.exports = config => {
     plantVarietyCollection = await getCacheData(cacheData.plantVarietyCache, [plantSpeciesCollection], cacheDuration);
 
     plantCommonNameCollection = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
-    // plantFullIndexLevelFiveCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelFourCollection], cacheDuration);
 
     nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
     nurseryCategoryCollection = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
-    // plantFullIndexLevelSixCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelFiveCollection], cacheDuration);
 
     journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
     citationCollection = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
-    // plantFullIndexCompleteCollection = await getCacheData(cacheData.plantAddFamilyLevelToFullIndexCache, [plantFamilyCollection, plantFullIndexLevelSixCollection], cacheDuration);
 
+    plantPrepareIndexCollection = [];
     plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
       [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection]
     ], cacheDuration);
@@ -397,9 +394,8 @@ module.exports = config => {
 
     writeCustomLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);
     writeCustomRawIndex(searchOutputDir, searchData['plants']['indexSlug'], plantPrepareIndexCollection);
-    fullPlantIndexCollection = plantPrepareIndexCollection;
 
-    return fullPlantIndexCollection;
+    return plantPrepareIndexCollection;
   });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file

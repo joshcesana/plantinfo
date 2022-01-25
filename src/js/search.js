@@ -16,6 +16,7 @@
   let
     countryInput = null,
     salesTypeInput = null,
+    taxonomyLevelInput = null,
     indexData,
     searchData = {
       docs: null,
@@ -73,6 +74,13 @@
         index: "/lunr/plant/index.json",
         docs: "/lunr/plant/raw.json",
         results: [
+          {
+            key: "taxonomy_level_name",
+            label: "Level",
+            has_multiple_items: false,
+            has_text_link: false,
+            link_key: null,
+          },
           {
             key: "plant_name",
             label: "Plant name",
@@ -227,8 +235,7 @@
         sales_type_default = "all",
         sales_type = document.getElementById("sales-type").options[salesTypeInput.selectedIndex].value,
         sales_type_key = "sales_type_keys",
-        sales_type_term = sales_type_key + ":" + sales_type,
-        modifier_terms = "";
+        sales_type_term = sales_type_key + ":" + sales_type;
 
       if (country !== country_default) {
         modifier_terms = addTerm(modifier_terms, country_term);
@@ -236,6 +243,16 @@
 
       if (sales_type !== sales_type_default) {
         modifier_terms = addTerm(modifier_terms, sales_type_term);
+      }
+    } else if (searchType === "plants") {
+      let
+        taxonomy_level_default = "all",
+        taxonomy_level = document.getElementById("taxonomy-level").options[taxonomyLevelInput.selectedIndex].value,
+        taxonomy_level_key = "taxonomy_level_key",
+        taxonomy_level_term = taxonomy_level_key + ":" + taxonomy_level;
+
+      if (taxonomy_level !== taxonomy_level_default) {
+        modifier_terms = addTerm(modifier_terms, taxonomy_level_term);
       }
     }
 
@@ -375,6 +392,10 @@
 
   function getSalesTypeInput() {
     return document.getElementById("sales-type");
+  }
+
+  function getTaxonomyLevelInput() {
+    return document.getElementById("taxonomy-level");
   }
 
   function getResultHeadings() {
@@ -784,6 +805,12 @@
         });
 
         salesTypeInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+      } else if (searchType === 'plants') {
+        taxonomyLevelInput = getTaxonomyLevelInput();
+
+        taxonomyLevelInput.addEventListener("change", (event) => {
           handleSearchQuery(event);
         });
       }

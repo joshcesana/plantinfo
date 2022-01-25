@@ -4,8 +4,8 @@
   "description": "Build dependencies for Plant Information Onlines.",
   "main": ".eleventy.js",
   "scripts": {
-    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
-    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
+    "start": "npx gulp && concurrently \"npx gulp watch\" \"npx @11ty/eleventy --serve\"",
+    "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",

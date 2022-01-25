@@ -22,11 +22,13 @@
           value=""
         />
       </div>
+
       {% if search_type == 'nurseries' %}
-        {% include "partials/search/search-form-input-widgets--nurseries.html" %}
+        {% include "./search-form-input-widgets--nurseries.html" %}
       {% elif search_type == 'plants' %}
-        {% include "partials/search/search-form-input-widgets--plants.html" %}
+        {% include "./search-form-input-widgets--plants.html" %}
       {% endif %}
+
     </div>
     <div class="search-form__action-widgets">
       <div class="[ search-form__widget search-form__widget--submit ]">
