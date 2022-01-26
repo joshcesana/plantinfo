@@ -87,6 +87,13 @@
             has_multiple_items: false,
             has_text_link: true,
             link_key: "plant_permalink_path",
+          },
+          {
+            key: "common_name",
+            label: "Common name",
+            has_multiple_items: false,
+            has_text_link: "common_name_has_permalink",
+            link_key: "common_name_permalink_path",
           }
         ]
       }
@@ -663,6 +670,15 @@
               has_multiple_items = getHasMultipleItems(searchTypeInfo),
               has_text_link = getHasTextLink(searchTypeInfo),
               link_key = getLinkKey(searchTypeInfo);
+
+            if (
+              typeof(has_text_link) !== 'boolean' &&
+              objectHasOwnProperties(searchResult, [has_text_link]) &&
+              searchResult[has_text_link] !== null &&
+              typeof(searchResult[has_text_link]) === 'boolean'
+            ) {
+              has_text_link = searchResult[has_text_link];
+            }
 
             if (has_multiple_items && isArrayWithItems(searchResultData)) {
               let

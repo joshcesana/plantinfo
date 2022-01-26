@@ -42,7 +42,6 @@ module.exports = config => {
   config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
   let cacheDuration = '5d';
-  cacheDuration = '5d';
 
   let getCacheData = async function(cache, collectionParameters, duration) {
     let cacheContents = [];
@@ -388,7 +387,8 @@ module.exports = config => {
 
     plantPrepareIndexCollection = [];
     plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
-      [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection]
+      [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection],
+      plantCommonNameCollection
     ], cacheDuration);
     plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
 

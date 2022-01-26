@@ -81,6 +81,20 @@ module.exports = {
   },
 
   /**
+   * Merges two objects.
+   *
+   * @param {Object}       defaultObject      The default object.
+   * @param {Object}       overrideObject     The override object.
+   * @returns {Object}                        The merged object.
+   */
+  mergeObjects(defaultObject, overrideObject) {
+    return {
+      ...defaultObject,
+      ...module.exports.cloneObject(overrideObject)
+    };
+  },
+
+  /**
    * Insert line break opportunities into a URL
    */
   addUrlLineBreaks(url) {
