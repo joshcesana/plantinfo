@@ -17,6 +17,8 @@
     countryInput = null,
     salesTypeInput = null,
     taxonomyLevelInput = null,
+    commonNamesInput = null,
+    availableInNurseryInput = null,
     indexData,
     searchData = {
       docs: null,
@@ -94,6 +96,13 @@
             has_multiple_items: false,
             has_text_link: "common_name_has_permalink",
             link_key: "common_name_permalink_path",
+          },
+          {
+            key: "available_in_nursery",
+            label: "Available in nursery",
+            has_multiple_items: false,
+            has_text_link: false,
+            link_key: null,
           }
         ]
       }
@@ -261,6 +270,38 @@
       if (taxonomy_level !== taxonomy_level_default) {
         modifier_terms = addTerm(modifier_terms, taxonomy_level_term);
       }
+
+      let
+        common_names_default = "all",
+        common_names_element = document.getElementById("common-names"),
+        common_names = common_names_default,
+        common_names_key = "has_common_name";
+
+      if (common_names_element.checked) {
+        common_names = common_names_element.value;
+      }
+
+      let common_names_term = common_names_key + ":" + common_names;
+
+      if (common_names !== common_names_default) {
+        modifier_terms = addTerm(modifier_terms, common_names_term);
+      }
+
+      let
+        available_in_nursery_default = "all",
+        available_in_nursery_element = document.getElementById("available-in-nursery"),
+        available_in_nursery = available_in_nursery_default,
+        available_in_nursery_key = "available_in_nursery";
+
+      if (available_in_nursery_element.checked) {
+        available_in_nursery = available_in_nursery_element.value;
+      }
+
+      let available_in_nursery_term = available_in_nursery_key + ":" + available_in_nursery;
+
+      if (available_in_nursery !== available_in_nursery_default) {
+        modifier_terms = addTerm(modifier_terms, available_in_nursery_term);
+      }
     }
 
     return modifier_terms;
@@ -405,6 +446,14 @@
     return document.getElementById("taxonomy-level");
   }
 
+  function getCommonNamesInput() {
+    return document.getElementById("common-names");
+  }
+
+  function getAvailableInNurseryInput() {
+    return document.getElementById("available-in-nursery");
+  }
+
   function getResultHeadings() {
     return document.querySelector(".search-results__headings");
   }
@@ -469,6 +518,10 @@
   }
 
   function addTextElementData(element, data) {
+    if (typeof(data) === 'boolean') {
+      data = data ? 'true' : '';
+    }
+
     setElementHTML(element, data);
     setTextFilled(element, "true");
     setIsTemplate(element, "item", "false");
@@ -687,6 +740,7 @@
                 thisResultItemDataListText = '';
 
               searchResultData.forEach((dataItem, index) => {
+
                 if (
                   has_text_link &&
                   link_key !== null &&
@@ -825,8 +879,18 @@
         });
       } else if (searchType === 'plants') {
         taxonomyLevelInput = getTaxonomyLevelInput();
+        commonNamesInput = getCommonNamesInput();
+        availableInNurseryInput = getAvailableInNurseryInput();
 
         taxonomyLevelInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+
+        commonNamesInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+
+        availableInNurseryInput.addEventListener("change", (event) => {
           handleSearchQuery(event);
         });
       }

@@ -155,7 +155,7 @@ module.exports = config => {
       plants: {
         indexSlug: 'plant',
         refKey: 'machine_name',
-        fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name','available_in_nursery','has_citations']
+        fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name',"has_common_name",'available_in_nursery','has_citations']
       }
     };
 
@@ -171,6 +171,7 @@ module.exports = config => {
     nurseryRootCollection,
     nurseryCategoryRootCollection,
     nurseryCollection,
+    nurseryCatalogCollection,
     nurseryCategoryCollection,
     nurserySpecialtiesCollection,
     nurseryPrepareIndexCollection,
@@ -370,7 +371,6 @@ module.exports = config => {
   config.addCollection('full_plant_index', async (collection) => {
     plantFamilyRootCollection = collection;
     nurseryRootCollection = collection;
-    nurseryCategoryRootCollection = collection;
 
     plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
     plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
@@ -380,7 +380,7 @@ module.exports = config => {
     plantCommonNameCollection = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
 
     nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
-    nurseryCategoryCollection = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
+    nurseryCatalogCollection = await getCacheData(cacheData.nurseryCatalogCache, [nurseryCollection], cacheDuration)
 
     journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
     citationCollection = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
@@ -388,7 +388,8 @@ module.exports = config => {
     plantPrepareIndexCollection = [];
     plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
       [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection],
-      plantCommonNameCollection
+      plantCommonNameCollection,
+      nurseryCatalogCollection
     ], cacheDuration);
     plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
 

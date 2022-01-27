@@ -13,12 +13,15 @@ const {
  *
  * @param {Array}           plantLevelCollections  An array of 11ty collections
  * @param {Array}           commonNameCollection   The 11ty collection
+ * @param {Array}           nurseryCatalogCollection   The 11ty collection
  * @returns {Array}                                The custom index
  */
-module.exports = (plantLevelCollections, commonNameCollection) => {
+module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCollection) => {
   let index = [],
     plantLevels = plantLevelCollections,
     commonNames = commonNameCollection,
+    nurseryCatalogs = nurseryCatalogCollection,
+    plantsInNurseryCatalogs = [],
     index_default_settings = {
       machine_name: null,
       permalink_path: null,
@@ -35,13 +38,47 @@ module.exports = (plantLevelCollections, commonNameCollection) => {
       common_machine_name: null,
       common_name_has_permalink: false,
       common_name_permalink_path: null,
-      available_in_nursery: null,
+      available_in_nursery: false,
       has_citations: null
     };
 
   let addItemToIndex = function(index_settings = index_default_settings, index) {
     let merged_index_settings = mergeObjects(index_default_settings, index_settings);
     index.push(merged_index_settings);
+
+    return index;
+  }
+
+  let addNurseryCatalogPlant = function(plant) {
+    if (
+      objectHasOwnProperties(plant, ['machine_name']) &&
+      plantsInNurseryCatalogs.includes(plant['machine_name']) === false
+    ) {
+      plantsInNurseryCatalogs.push(plant['machine_name']);
+    }
+  }
+
+  let mergeItemsToIndexProp = function(itemsArray, index, indexProp) {
+    const
+      merge_key = 'machine_name',
+      merge_settings = {};
+
+    merge_settings[indexProp] = true;
+
+    itemsArray.forEach(itemKey => {
+      let
+        merged_item_index = null,
+        item_for_merge = {},
+        merged_item = {};
+
+      merged_item_index = index.findIndex(item => item[merge_key] === itemKey);
+
+      if (merged_item_index !== -1) {
+        item_for_merge = index[merged_item_index];
+        merged_item = mergeObjects(item_for_merge, merge_settings);
+        index[merged_item_index] = merged_item;
+      }
+    });
 
     return index;
   }
@@ -224,8 +261,36 @@ module.exports = (plantLevelCollections, commonNameCollection) => {
     }
   }
 
+  let reviewNurseryCatalog = function(nurseryCatalog) {
+    if (
+      objectHasOwnProperties(nurseryCatalog, ['data']) &&
+      objectHasOwnProperties(nurseryCatalog.data, ['plants']) &&
+      isArrayWithItems(nurseryCatalog.data['plants'])
+    ) {
+      nurseryCatalog.data['plants'].forEach(plant => {
+        addNurseryCatalogPlant(plant);
+      });
+    }
+  }
+
+  let reviewNurseryCatalogs = function(nurseryCatalogs, index) {
+    if (
+      isArrayWithItems(nurseryCatalogs) &&
+      Array.isArray(index)
+    ) {
+      nurseryCatalogs.forEach(nurseryCatalog => {
+        reviewNurseryCatalog(nurseryCatalog);
+      });
+    }
+
+    index = mergeItemsToIndexProp(plantsInNurseryCatalogs, index, 'available_in_nursery')
+
+    return index;
+  }
+
   index = addPlantLevelsToIndex(plantLevels, index);
   index = addCommonNamesToIndex(commonNames, index);
+  index = reviewNurseryCatalogs(nurseryCatalogs, index);
 
   return index;
 };
