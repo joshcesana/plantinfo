@@ -11,17 +11,16 @@ const {
 /**
  * Takes a collection and returns it back with the custom index.
  *
- * @param {Array}           plantLevelCollections  An array of 11ty collections
- * @param {Array}           commonNameCollection   The 11ty collection
- * @param {Array}           nurseryCatalogCollection   The 11ty collection
- * @returns {Array}                                The custom index
+ * @param {Array}           plantLevels      An array of 11ty collections
+ * @param {Array}           commonNames       The 11ty collection
+ * @param {Array}           nurseryCatalogs   The 11ty collection
+ * @param {Array}           journalCitations         The 11ty collection
+ * @returns {Array}                                    The custom index
  */
-module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCollection) => {
+module.exports = (plantLevels, commonNames, nurseryCatalogs, journalCitations) => {
   let index = [],
-    plantLevels = plantLevelCollections,
-    commonNames = commonNameCollection,
-    nurseryCatalogs = nurseryCatalogCollection,
     plantsInNurseryCatalogs = [],
+    plantsInJournalCitations = [],
     index_default_settings = {
       machine_name: null,
       permalink_path: null,
@@ -39,26 +38,35 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
       common_name_has_permalink: false,
       common_name_permalink_path: null,
       available_in_nursery: false,
-      has_citations: null
-    };
+      has_citations: false
+    },
 
-  let addItemToIndex = function(index_settings = index_default_settings, index) {
+  addItemToIndex = function(index_settings = index_default_settings, index) {
     let merged_index_settings = mergeObjects(index_default_settings, index_settings);
     index.push(merged_index_settings);
 
     return index;
-  }
+  },
 
-  let addNurseryCatalogPlant = function(plant) {
+  addNurseryCatalogPlant = function(plant) {
     if (
       objectHasOwnProperties(plant, ['machine_name']) &&
       plantsInNurseryCatalogs.includes(plant['machine_name']) === false
     ) {
       plantsInNurseryCatalogs.push(plant['machine_name']);
     }
-  }
+  },
 
-  let mergeItemsToIndexProp = function(itemsArray, index, indexProp) {
+  addJournalCitationPlant = function(plant) {
+    if (
+      objectHasOwnProperties(plant, ['machine_name']) &&
+      plantsInJournalCitations.includes(plant['machine_name']) === false
+    ) {
+      plantsInJournalCitations.push(plant['machine_name']);
+    }
+  },
+
+  mergeItemsToIndexProp = function(itemsArray, index, indexProp) {
     const
       merge_key = 'machine_name',
       merge_settings = {};
@@ -81,9 +89,9 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     });
 
     return index;
-  }
+  },
 
-  let mergeCommonNameWithIndex = function(index_settings = index_default_settings, index) {
+  mergeCommonNameWithIndex = function(index_settings = index_default_settings, index) {
     let
       merged_index_settings = mergeObjects(index_default_settings, index_settings),
       merge_key = 'machine_name',
@@ -119,9 +127,9 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     }
 
     return index;
-  }
+  },
 
-  let addPlantToIndex = function(plantInLevel, index) {
+  addPlantToIndex = function(plantInLevel, index) {
     if (
       objectHasOwnProperties(plantInLevel, ['data'])
     ) {
@@ -168,9 +176,9 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     }
 
     return index;
-  }
+  },
 
-  let addPlantLevelToIndex = function(plantLevel, index) {
+  addPlantLevelToIndex = function(plantLevel, index) {
     if (
       isArrayWithItems(plantLevel) &&
       Array.isArray(index)
@@ -181,22 +189,9 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     } else {
       return index;
     }
-  }
+  },
 
-  let addPlantLevelsToIndex = function(plantLevels, index) {
-    if (
-      isArrayWithItems(plantLevels) &&
-      Array.isArray(index)
-    ) {
-      return plantLevels.reduce((index, plantLevel) => {
-        return addPlantLevelToIndex(plantLevel, index);
-      }, index);
-    } else {
-      return index;
-    }
-  }
-
-  let addCommonNameToIndex = function(commonName, index) {
+  addCommonNameToIndex = function(commonName, index) {
     if (
       objectHasOwnProperties(commonName, ['data'])
     ) {
@@ -246,9 +241,43 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     }
 
     return index;
-  }
+  },
 
-  let addCommonNamesToIndex = function(commonNames, index) {
+  reviewNurseryCatalog = function(nurseryCatalog) {
+    if (
+      objectHasOwnProperties(nurseryCatalog, ['data']) &&
+      objectHasOwnProperties(nurseryCatalog.data, ['plants']) &&
+      isArrayWithItems(nurseryCatalog.data['plants'])
+    ) {
+      nurseryCatalog.data['plants'].forEach(plant => {
+        addNurseryCatalogPlant(plant);
+      });
+    }
+  },
+
+  reviewJournalCitation = function(journalCitation) {
+    if (
+      objectHasOwnProperties(journalCitation, ['data']) &&
+      objectHasOwnProperties(journalCitation.data, ['plant'])
+    ) {
+      addJournalCitationPlant(journalCitation.data['plant']);
+    }
+  },
+
+  addPlantLevelsToIndex = function(plantLevels, index) {
+    if (
+      isArrayWithItems(plantLevels) &&
+      Array.isArray(index)
+    ) {
+      return plantLevels.reduce((index, plantLevel) => {
+        return addPlantLevelToIndex(plantLevel, index);
+      }, index);
+    } else {
+      return index;
+    }
+  },
+
+  addCommonNamesToIndex = function(commonNames, index) {
     if (
       isArrayWithItems(commonNames) &&
       Array.isArray(index)
@@ -259,21 +288,9 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     } else {
       return index;
     }
-  }
+  },
 
-  let reviewNurseryCatalog = function(nurseryCatalog) {
-    if (
-      objectHasOwnProperties(nurseryCatalog, ['data']) &&
-      objectHasOwnProperties(nurseryCatalog.data, ['plants']) &&
-      isArrayWithItems(nurseryCatalog.data['plants'])
-    ) {
-      nurseryCatalog.data['plants'].forEach(plant => {
-        addNurseryCatalogPlant(plant);
-      });
-    }
-  }
-
-  let reviewNurseryCatalogs = function(nurseryCatalogs, index) {
+  reviewNurseryCatalogs = function(nurseryCatalogs, index) {
     if (
       isArrayWithItems(nurseryCatalogs) &&
       Array.isArray(index)
@@ -286,11 +303,27 @@ module.exports = (plantLevelCollections, commonNameCollection, nurseryCatalogCol
     index = mergeItemsToIndexProp(plantsInNurseryCatalogs, index, 'available_in_nursery')
 
     return index;
+  },
+
+  reviewJournalCitations = function(journalCitations, index) {
+    if (
+      isArrayWithItems(journalCitations) &&
+      Array.isArray(index)
+    ) {
+      journalCitations.forEach(journalCitation => {
+        reviewJournalCitation(journalCitation);
+      });
+    }
+
+    index = mergeItemsToIndexProp(plantsInJournalCitations, index, 'has_citations')
+
+    return index;
   }
 
   index = addPlantLevelsToIndex(plantLevels, index);
   index = addCommonNamesToIndex(commonNames, index);
   index = reviewNurseryCatalogs(nurseryCatalogs, index);
+  index = reviewJournalCitations(journalCitations, index);
 
   return index;
 };

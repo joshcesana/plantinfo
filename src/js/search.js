@@ -11,7 +11,14 @@
     resultsItemTemplate = getResultItem(getTemplate),
     resultItemTextTemplate = getResultItemText(getTemplate),
     resultItemLinkTemplate = getResultItemLink(getTemplate),
-    resultItemLinkTextTemplate = getResultItemLinkText(getTemplate);
+    resultItemLinkTextTemplate = getResultItemLinkText(getTemplate),
+    term_modifier_default_settings = {
+      default_term: 'all',
+      element_id: null,
+      element_type: 'select',
+      term_key: null,
+    }
+  ;
 
   let
     countryInput = null,
@@ -19,6 +26,7 @@
     taxonomyLevelInput = null,
     commonNamesInput = null,
     availableInNurseryInput = null,
+    hasCitationsInput = null,
     indexData,
     searchData = {
       docs: null,
@@ -103,6 +111,13 @@
             has_multiple_items: false,
             has_text_link: false,
             link_key: null,
+          },
+          {
+            key: "has_citations",
+            label: "Has book / magazine citations",
+            has_multiple_items: false,
+            has_text_link: false,
+            link_key: null,
           }
         ]
       }
@@ -124,6 +139,13 @@
 
   function cloneObject(object) {
     return JSON.parse(JSON.stringify(object))
+  }
+
+  function mergeObjects(defaultObject, overrideObject) {
+    return {
+      ...defaultObject,
+      ...cloneObject(overrideObject)
+    };
   }
 
   function isArrayWithItems(checkThis) {
@@ -239,69 +261,77 @@
     return document.getElementById("search-text").value.trim().toLowerCase();
   }
 
+  function addTermModifier(term_modifier_settings = term_modifier_default_settings, modifier_terms) {
+    const merged_term_modifier_settings = mergeObjects(term_modifier_default_settings, term_modifier_settings);
+
+    let
+      this_term_default = merged_term_modifier_settings.default_term,
+      this_term_element_id = merged_term_modifier_settings.element_id,
+      this_term_element = document.getElementById(this_term_element_id),
+      this_term_element_type = merged_term_modifier_settings.element_type,
+      this_term_value = this_term_default,
+      this_term_key = merged_term_modifier_settings.term_key
+    ;
+
+    if (
+      this_term_element_type === 'select'
+    ) {
+      this_term_value = this_term_element.options[this_term_element.options.selectedIndex].value;
+    } else if (
+      this_term_element_type === 'checkbox' &&
+      this_term_element.checked
+    ) {
+      this_term_value = this_term_element.value;
+    }
+
+    let this_term = this_term_key + ":" + this_term_value;
+
+    if (this_term_value !== this_term_default) {
+      modifier_terms = addTerm(modifier_terms, this_term);
+    }
+
+    return modifier_terms;
+  }
+
   function getQueryModifiers() {
     let modifier_terms = "";
 
     if (searchType === "nurseries") {
-      let
-        country_default = "all",
-        country = document.getElementById("country").options[countryInput.selectedIndex].value,
-        country_key = "country_keys",
-        country_term = country_key + ":" + country,
-        sales_type_default = "all",
-        sales_type = document.getElementById("sales-type").options[salesTypeInput.selectedIndex].value,
-        sales_type_key = "sales_type_keys",
-        sales_type_term = sales_type_key + ":" + sales_type;
+      modifier_terms = addTermModifier({
+        element_id: 'country',
+        element_type: 'select',
+        term_key: 'country_keys',
+      }, modifier_terms);
 
-      if (country !== country_default) {
-        modifier_terms = addTerm(modifier_terms, country_term);
-      }
-
-      if (sales_type !== sales_type_default) {
-        modifier_terms = addTerm(modifier_terms, sales_type_term);
-      }
+      modifier_terms = addTermModifier({
+        element_id: 'sales-type',
+        element_type: 'select',
+        term_key: 'sales_type_keys',
+      }, modifier_terms);
     } else if (searchType === "plants") {
-      let
-        taxonomy_level_default = "all",
-        taxonomy_level = document.getElementById("taxonomy-level").options[taxonomyLevelInput.selectedIndex].value,
-        taxonomy_level_key = "taxonomy_level_key",
-        taxonomy_level_term = taxonomy_level_key + ":" + taxonomy_level;
+      modifier_terms = addTermModifier({
+        element_id: 'taxonomy-level',
+        element_type: 'select',
+        term_key: 'taxonomy_level_key',
+      }, modifier_terms);
 
-      if (taxonomy_level !== taxonomy_level_default) {
-        modifier_terms = addTerm(modifier_terms, taxonomy_level_term);
-      }
+      modifier_terms = addTermModifier({
+        element_id: 'common-names',
+        element_type: 'checkbox',
+        term_key: 'has_common_name',
+      }, modifier_terms);
 
-      let
-        common_names_default = "all",
-        common_names_element = document.getElementById("common-names"),
-        common_names = common_names_default,
-        common_names_key = "has_common_name";
+      modifier_terms = addTermModifier({
+        element_id: 'available-in-nursery',
+        element_type: 'checkbox',
+        term_key: 'available_in_nursery',
+      }, modifier_terms);
 
-      if (common_names_element.checked) {
-        common_names = common_names_element.value;
-      }
-
-      let common_names_term = common_names_key + ":" + common_names;
-
-      if (common_names !== common_names_default) {
-        modifier_terms = addTerm(modifier_terms, common_names_term);
-      }
-
-      let
-        available_in_nursery_default = "all",
-        available_in_nursery_element = document.getElementById("available-in-nursery"),
-        available_in_nursery = available_in_nursery_default,
-        available_in_nursery_key = "available_in_nursery";
-
-      if (available_in_nursery_element.checked) {
-        available_in_nursery = available_in_nursery_element.value;
-      }
-
-      let available_in_nursery_term = available_in_nursery_key + ":" + available_in_nursery;
-
-      if (available_in_nursery !== available_in_nursery_default) {
-        modifier_terms = addTerm(modifier_terms, available_in_nursery_term);
-      }
+      modifier_terms = addTermModifier({
+        element_id: 'has-citations',
+        element_type: 'checkbox',
+        term_key: 'has_citations',
+      }, modifier_terms);
     }
 
     return modifier_terms;
@@ -452,6 +482,22 @@
 
   function getAvailableInNurseryInput() {
     return document.getElementById("available-in-nursery");
+  }
+
+  function getHasCitationsInput() {
+    return document.getElementById("has-citations");
+  }
+
+  function getSearchInputs() {
+    if (searchType === 'nurseries') {
+      countryInput = getCountryInput();
+      salesTypeInput = getSalesTypeInput();
+    } else if (searchType === 'plants') {
+      taxonomyLevelInput = getTaxonomyLevelInput();
+      commonNamesInput = getCommonNamesInput();
+      availableInNurseryInput = getAvailableInNurseryInput();
+      hasCitationsInput = getHasCitationsInput();
+    }
   }
 
   function getResultHeadings() {
@@ -855,6 +901,7 @@
 
       loadSearchIndex();
       addSearchHeadings();
+      getSearchInputs();
 
       searchInput.addEventListener("keydown", (event) => {
         if (event.code === "Enter") {
@@ -867,9 +914,6 @@
       });
 
       if (searchType === 'nurseries') {
-        countryInput = getCountryInput();
-        salesTypeInput = getSalesTypeInput();
-
         countryInput.addEventListener("change", (event) => {
           handleSearchQuery(event);
         });
@@ -878,10 +922,6 @@
           handleSearchQuery(event);
         });
       } else if (searchType === 'plants') {
-        taxonomyLevelInput = getTaxonomyLevelInput();
-        commonNamesInput = getCommonNamesInput();
-        availableInNurseryInput = getAvailableInNurseryInput();
-
         taxonomyLevelInput.addEventListener("change", (event) => {
           handleSearchQuery(event);
         });
@@ -891,6 +931,10 @@
         });
 
         availableInNurseryInput.addEventListener("change", (event) => {
+          handleSearchQuery(event);
+        });
+
+        hasCitationsInput.addEventListener("change", (event) => {
           handleSearchQuery(event);
         });
       }

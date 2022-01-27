@@ -389,7 +389,8 @@ module.exports = config => {
     plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
       [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection],
       plantCommonNameCollection,
-      nurseryCatalogCollection
+      nurseryCatalogCollection,
+      citationCollection
     ], cacheDuration);
     plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
 
