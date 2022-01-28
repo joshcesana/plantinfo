@@ -364,7 +364,7 @@
 
   function handleSearchQuery(event) {
     event.preventDefault();
-    clearSearchResults({ clearInput: false, clearSearchData: true });
+    clearSearchResults({ clearInput: false, clearSearchData: true, clearErrorMessages: true });
 
     const
       query = getQuery(),
@@ -638,6 +638,8 @@
    *    Whether or not to clear the input when clearing search results.
      - { Boolean } clearSearchData
    *    Whether or not to clear the query and results from the search data.
+   * - { Boolean } clearSearchErrors
+   *    Whether or not to clear the search error messages.
    */
   function clearSearchResults(options) {
     let resultRows = getResultItemList().item(0);
@@ -649,6 +651,12 @@
 
     // Clear search query.
     updateSearchCaptionQuery("", "false");
+
+    // Clear error messages.
+    if (objectHasOwnProperties(options, ['clearErrorMessages']) &&
+      options['clearErrorMessages'] === true) {
+      removeErrorMessage();
+    }
 
     // Clear search input.
     if (objectHasOwnProperties(options, ['clearInput']) &&
@@ -663,9 +671,6 @@
       searchData.terms = '';
       searchData.results = [];
     }
-
-    // Clear error messages.
-    removeErrorMessage();
   }
 
   function addSearchHeadings() {
@@ -897,7 +902,7 @@
   }
 
   function renderSearchResults() {
-    clearSearchResults({ clearInput: false, clearSearchData: false });
+    clearSearchResults({ clearInput: false, clearSearchData: false, clearErrorMessages: true });
     updateSearchResults();
     showSearchResults();
     scrollToTop();
@@ -954,7 +959,7 @@
       });
 
       searchClear.addEventListener("click", (event) => {
-        clearSearchResults({ clearInput: true, clearSearchData: true });
+        clearSearchResults({ clearInput: true, clearSearchData: true, clearErrorMessages: true });
       });
 
       // document
