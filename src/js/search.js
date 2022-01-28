@@ -217,14 +217,21 @@
     // document.getElementById("clear-search-results-sidebar").classList.remove("hide-element");
   }
 
-  function displayErrorMessage(message) {
+  function displayErrorMessage(message, hideErrorMessage = "false") {
     let
       searchErrorMessage = document.querySelector(".search-error__message"),
       searchErrorMessageList = document.querySelector(".search-form__messages");
     setElementHTML(searchErrorMessage, message);
     // document.querySelector(".search-container").classList.remove("focused");
-    setHideElement(searchErrorMessageList, "false");
+    setHideElement(searchErrorMessageList, hideErrorMessage);
     // document.querySelector(".search-error").classList.add("fade");
+  }
+
+  function removeErrorMessage() {
+    let removeMessage = '',
+      hideErrorMessage = true;
+
+    displayErrorMessage(removeMessage, hideErrorMessage);
   }
 
 // function removeAnimation() {
@@ -656,6 +663,9 @@
       searchData.terms = '';
       searchData.results = [];
     }
+
+    // Clear error messages.
+    removeErrorMessage();
   }
 
   function addSearchHeadings() {
