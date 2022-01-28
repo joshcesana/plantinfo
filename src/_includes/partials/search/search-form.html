@@ -8,27 +8,35 @@
 >
   <div class="search-form__widgets">
     <div class="search-form__input-widgets">
-      <div class="[ search-form__widget search-form__widget--input ]">
-        <input
-          class="search-input"
-          id="search-text"
-          name="q"
-          type="text"
-          size="30"
-          maxlength="128"
-          autocomplete="off"
-          placeholder=""
-          aria-label="Search site"
-          value=""
-        />
+      <div class="search-form__input-widgets--primary">
+        <div class="[ search-form__widget search-form__widget--input ]">
+          <input
+            class="search-input"
+            id="search-text"
+            name="q"
+            type="text"
+            size="30"
+            maxlength="128"
+            autocomplete="off"
+            placeholder=""
+            aria-label="Search site"
+            value=""
+          />
+        </div>
+
+        {% if search_type == 'nurseries' %}
+          {% include "./search-form-input-widgets--primary--nurseries.html" %}
+        {% elif search_type == 'plants' %}
+          {% include "./search-form-input-widgets--primary--plants.html" %}
+        {% endif %}
       </div>
-
-      {% if search_type == 'nurseries' %}
-        {% include "./search-form-input-widgets--nurseries.html" %}
-      {% elif search_type == 'plants' %}
-        {% include "./search-form-input-widgets--plants.html" %}
-      {% endif %}
-
+      <div class="search-form__input-widgets--secondary">
+        {% if search_type == 'nurseries' %}
+          {% include "./search-form-input-widgets--secondary--nurseries.html" %}
+        {% elif search_type == 'plants' %}
+          {% include "./search-form-input-widgets--secondary--plants.html" %}
+        {% endif %}
+      </div>
     </div>
     <div class="search-form__action-widgets">
       <div class="[ search-form__widget search-form__widget--submit ]">
