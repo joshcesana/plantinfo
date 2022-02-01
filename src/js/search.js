@@ -17,10 +17,22 @@
       element_id: null,
       element_type: 'select',
       term_key: null,
-    }
+    },
+    paginationItemsPerPage = 50
   ;
 
   let
+    paginationFirstPageNum = 1,
+    paginationLastPageNum = 1,
+    paginationCurrentPageNum = 1,
+    paginationPreviousPageNum = 1,
+    paginationNextPageNum = 1,
+    paginationHasPreviousPage = false,
+    paginationHasNextPage = false,
+    paginationRangeMinItemNum = 1,
+    paginationRangeMaxItemNum = 1,
+    paginationTotalItemCount = 1,
+    paginationTotalPages = 1,
     countryInput = null,
     salesTypeInput = null,
     taxonomyLevelInput = null,
@@ -471,6 +483,21 @@
     return document.querySelectorAll(".search-results__total-text").item(0);
   }
 
+  function getResultRange() {
+    return document.querySelectorAll(".search-results__range").item(0);
+  }
+
+  function getResultRangeStartNum() {
+    return document.querySelectorAll(".search-results__range-start-num").item(0);
+  }
+
+  function getResultRangeEndNum() {
+    return document.querySelectorAll(".search-results__range-end-num").item(0);
+  }
+  function getResultRangeTotalNum() {
+    return document.querySelectorAll(".search-results__range-total-num").item(0);
+  }
+
   function getCountryInput() {
     return document.getElementById("country");
   }
@@ -649,6 +676,8 @@
     // Clear search result count.
     updateSearchResultCount(0);
 
+    updateSearchResultRange(0, 0, 0);
+
     // Clear search query.
     updateSearchCaptionQuery("", "false");
 
@@ -732,7 +761,70 @@
     setElementHTML(resultTotalText, resultTotalCountText);
 
     setTextFilled(resultTotalCount, "true");
-    setAvailable(resultTotal, "true");
+    setAvailable(resultTotal, "total", "true");
+  }
+
+  function resetSearchPagination(resultCount) {
+    paginationTotalItemCount = resultCount;
+    paginationTotalPages = Math.ceil(resultCount / paginationItemsPerPage);
+    paginationFirstPageNum = 1;
+    paginationLastPageNum = paginationTotalPages;
+    paginationCurrentPageNum = paginationFirstPageNum;
+    paginationPreviousPageNum = paginationFirstPageNum;
+
+    if (paginationTotalPages > 1) {
+      paginationNextPageNum = paginationFirstPageNum + 1;
+      paginationHasNextPage = true;
+    } else {
+      paginationNextPageNum = 1;
+      paginationHasNextPage = false;
+    }
+
+    paginationRangeMinItemNum = 1;
+
+    if (resultCount > paginationItemsPerPage) {
+      paginationRangeMaxItemNum = paginationItemsPerPage;
+    } else {
+      paginationRangeMaxItemNum = resultCount;
+    }
+  }
+
+  function updateSearchResultRange(resultCount, resultStart, resultEnd) {
+    const
+      resultRange = getResultRange(),
+      resultRangeStartNum = getResultRangeStartNum(),
+      resultRangeEndNum = getResultRangeEndNum(),
+      resultRangeTotalNum = getResultRangeTotalNum();
+
+    setElementHTML(resultRangeStartNum, resultStart);
+
+    if (resultStart === 0) {
+      setTextFilled(resultRangeStartNum, "false");
+    } else {
+      setTextFilled(resultRangeStartNum, "true");
+    }
+
+    setElementHTML(resultRangeEndNum, resultEnd);
+
+    if (resultEnd === 0) {
+      setTextFilled(resultRangeEndNum, "false");
+    } else {
+      setTextFilled(resultRangeEndNum, "true");
+    }
+
+    setElementHTML(resultRangeTotalNum, resultCount);
+
+    if (resultCount === 0) {
+      setTextFilled(resultRangeTotalNum, "false");
+    } else {
+      setTextFilled(resultRangeTotalNum, "true");
+    }
+
+    if (resultStart === 0 && resultEnd === 0 && resultCount === 0) {
+      setAvailable(resultRange, "range", "false");
+    } else {
+      setAvailable(resultRange, "range", "true");
+    }
   }
 
   function updateSearchResults() {
@@ -885,6 +977,8 @@
       // Add result items to result rows.
       addElementChildren(resultRows, resultItems);
       updateSearchResultCount(resultItems.length);
+      resetSearchPagination(resultItems.length);
+      updateSearchResultRange(resultItems.length, paginationRangeMinItemNum, paginationRangeMaxItemNum);
       showSearchResults();
     }
   }

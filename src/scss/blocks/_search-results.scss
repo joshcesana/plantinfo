@@ -1,11 +1,42 @@
 @use "sass:math";
 
+.search-results__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: stretch;
+  justify-content: space-between;
+}
+
 .search-results__total {
   @include apply-utility('font', 'base');
   @include apply-utility('weight', 'normal');
   font-size: #{get-size('600')};
   line-height: 1.73;
   color: #{get-color('primary-shade')};
+  order: 1;
+}
+
+.search-results__range {
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'normal');
+  font-size: #{get-size('400')};
+  line-height: 1.73;
+  color: #{get-color('dark-glare')};
+  order: 4;
+  transition: opacity 0.2s ease-in-out;
+
+  &[data-range-available="false"] {
+    opacity: 0;
+  }
+
+  &[data-range-available="true"] {
+    opacity: 1;
+  }
+}
+
+.search-results__range-text--long {
+  @include element-invisible();
 }
 
 .search-results__table {
