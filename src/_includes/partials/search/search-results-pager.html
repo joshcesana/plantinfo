@@ -1,0 +1,26 @@
+<div
+  class="search-results__pager"
+  data-pager-available="false"
+>
+  <div class="search-results__pager-layout">
+    <div class="search-results__pager-backwards">
+      {% set itemSlug = "first" %}
+      {% set itemText = "First" %}
+      {% include "./search-results-pager-button.html" %}
+
+      {% set itemSlug = "previous" %}
+      {% set itemText = "Previous" %}
+      {% include "./search-results-pager-button.html" %}
+    </div>
+    {% include "./search-results-pager-range.html" %}
+    <div class="search-results__pager-forwards">
+      {% set itemSlug = "next" %}
+      {% set itemText = "Next" %}
+      {% include "./search-results-pager-button.html" %}
+
+      {% set itemSlug = "last" %}
+      {% set itemText = "Last" %}
+      {% include "./search-results-pager-button.html" %}
+    </div>
+  </div>
+</div>

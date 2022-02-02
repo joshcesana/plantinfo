@@ -22,17 +22,19 @@
   ;
 
   let
-    paginationFirstPageNum = 1,
-    paginationLastPageNum = 1,
-    paginationCurrentPageNum = 1,
-    paginationPreviousPageNum = 1,
-    paginationNextPageNum = 1,
-    paginationHasPreviousPage = false,
-    paginationHasNextPage = false,
-    paginationRangeMinItemNum = 1,
-    paginationRangeMaxItemNum = 1,
-    paginationTotalItemCount = 1,
-    paginationTotalPages = 1,
+    paginationFirstPageNum = 0,
+    paginationLastPageNum = 0,
+    paginationCurrentPageNum = 0,
+    paginationPreviousPageNum = 0,
+    paginationNextPageNum = 0,
+    paginationFirstPageButtonIsActive = false,
+    paginationLastPageButtonIsActive = false,
+    paginationPreviousPageButtonIsActive = false,
+    paginationNextPageButtonIsActive = false,
+    paginationRangeMinItemNum = 0,
+    paginationRangeMaxItemNum = 0,
+    paginationTotalItemCount = 0,
+    paginationTotalPages = 0,
     countryInput = null,
     salesTypeInput = null,
     taxonomyLevelInput = null,
@@ -200,6 +202,10 @@
 
   function setAvailable(element, target, boolean) {
     element.setAttribute("data-" + target + "-available", boolean);
+  }
+
+  function setIsActive(element, target, boolean) {
+    element.setAttribute("data-" + target + "-is-active", boolean);
   }
 
   function setIsTemplate(element, target, boolean) {
@@ -483,6 +489,34 @@
     return document.querySelectorAll(".search-results__total-text").item(0);
   }
 
+  function getResultPager() {
+    return document.querySelectorAll(".search-results__pager").item(0);
+  }
+
+  function getResultPagerCurrentPageNum() {
+    return document.querySelectorAll(".search-results__pager-range-current-num").item(0);
+  }
+
+  function getResultPagerTotalPageNum() {
+    return document.querySelectorAll(".search-results__pager-range-total--num").item(0);
+  }
+
+  function getResultPagerLinkFirst() {
+    return document.querySelectorAll(".pager__link--first").item(0);
+  }
+
+  function getResultPagerLinkPrevious() {
+    return document.querySelectorAll(".pager__link--previous").item(0);
+  }
+
+  function getResultPagerLinkNext() {
+    return document.querySelectorAll(".pager__link--next").item(0);
+  }
+
+  function getResultPagerLinkLast() {
+    return document.querySelectorAll(".pager__link--last").item(0);
+  }
+
   function getResultRange() {
     return document.querySelectorAll(".search-results__range").item(0);
   }
@@ -674,9 +708,13 @@
     removeElementChildren(resultRows);
 
     // Clear search result count.
-    updateSearchResultCount(0);
+    updateSearchResultCount();
 
-    updateSearchResultRange(0, 0, 0);
+    // Clear search result pager.
+    updateSearchResultPager();
+
+    // Clear search result range.
+    updateSearchResultRange();
 
     // Clear search query.
     updateSearchCaptionQuery("", "false");
@@ -736,6 +774,32 @@
     }
   }
 
+  function updateElementText(element, num) {
+    setElementHTML(element, num);
+
+    if (num === 0) {
+      setTextFilled(element, "false");
+    } else {
+      setTextFilled(element, "true");
+    }
+  }
+
+  function updateElementAvailable(element, target, isAvailable) {
+    if (isAvailable) {
+      setAvailable(element, target, "true");
+    } else {
+      setAvailable(element, target, "false");
+    }
+  }
+
+  function updateElementIsActive(element, target, isActive) {
+    if (isActive) {
+      setIsActive(element, target, "true");
+    } else {
+      setAvailable(element, target, "false");
+    }
+  }
+
   function updateSearchCaptionQuery(query, queryAvailable) {
     let
       search_query_caption = document.querySelector(".search-results__caption"),
@@ -745,7 +809,7 @@
     setAvailable(search_query_caption, "caption-topic", "true");
   }
 
-  function updateSearchResultCount(resultCount) {
+  function updateSearchResultCount(resultCount = 0) {
     const
       resultTotal = getResultTotal(),
       resultTotalCount = getResultTotalCount(),
@@ -761,23 +825,36 @@
     setElementHTML(resultTotalText, resultTotalCountText);
 
     setTextFilled(resultTotalCount, "true");
+
+    updateElementAvailable(resultTotal, "total", !(resultCount === 0))
     setAvailable(resultTotal, "total", "true");
   }
 
   function resetSearchPagination(resultCount) {
     paginationTotalItemCount = resultCount;
     paginationTotalPages = Math.ceil(resultCount / paginationItemsPerPage);
+
     paginationFirstPageNum = 1;
-    paginationLastPageNum = paginationTotalPages;
+    paginationFirstPageButtonIsActive = false;
     paginationCurrentPageNum = paginationFirstPageNum;
+
+    paginationLastPageNum = paginationTotalPages;
+
     paginationPreviousPageNum = paginationFirstPageNum;
+    paginationPreviousPageButtonIsActive = false;
 
     if (paginationTotalPages > 1) {
       paginationNextPageNum = paginationFirstPageNum + 1;
-      paginationHasNextPage = true;
+      paginationNextPageButtonIsActive = true;
     } else {
       paginationNextPageNum = 1;
-      paginationHasNextPage = false;
+      paginationNextPageButtonIsActive = false;
+    }
+
+    if (paginationNextPageNum < paginationTotalPages) {
+      paginationLastPageButtonIsActive = true;
+    } else {
+      paginationLastPageButtonIsActive = false;
     }
 
     paginationRangeMinItemNum = 1;
@@ -789,42 +866,50 @@
     }
   }
 
-  function updateSearchResultRange(resultCount, resultStart, resultEnd) {
+  function updateSearchResultPager(
+    totalPageCount = 0,
+    currentPageNum = 0,
+    firstPageButtonIsActive = false,
+    previousPageButtonIsActive = false,
+    nextPageButtonIsActive = false,
+    lastPageButtonIsActive = false
+  ) {
+    const
+      resultPager = getResultPager(),
+      resultPagerCurrentPageNum = getResultPagerCurrentPageNum(),
+      resultPagerTotalPageNum = getResultPagerTotalPageNum(),
+      resultPagerLinkFirst = getResultPagerLinkFirst(),
+      resultPagerLinkPrevious = getResultPagerLinkPrevious(),
+      resultPagerLinkNext = getResultPagerLinkNext(),
+      resultPagerLinkLast = getResultPagerLinkLast();
+
+    updateElementText(resultPagerCurrentPageNum, currentPageNum);
+    updateElementText(resultPagerTotalPageNum, totalPageCount);
+
+    updateElementIsActive(resultPagerLinkFirst, "pager-link", firstPageButtonIsActive);
+    updateElementIsActive(resultPagerLinkPrevious, "pager-link", previousPageButtonIsActive);
+    updateElementIsActive(resultPagerLinkNext, "pager-link", nextPageButtonIsActive);
+    updateElementIsActive(resultPagerLinkLast, "pager-link", lastPageButtonIsActive);
+
+    updateElementAvailable(resultPager, "pager", !(totalPageCount === 0 && currentPageNum === 0));
+  }
+
+  function updateSearchResultRange(
+    resultCount = 0,
+    resultStart = 0,
+    resultEnd = 0
+  ) {
     const
       resultRange = getResultRange(),
       resultRangeStartNum = getResultRangeStartNum(),
       resultRangeEndNum = getResultRangeEndNum(),
       resultRangeTotalNum = getResultRangeTotalNum();
 
-    setElementHTML(resultRangeStartNum, resultStart);
+    updateElementText(resultRangeStartNum, resultStart);
+    updateElementText(resultRangeEndNum, resultEnd);
+    updateElementText(resultRangeTotalNum, resultCount);
 
-    if (resultStart === 0) {
-      setTextFilled(resultRangeStartNum, "false");
-    } else {
-      setTextFilled(resultRangeStartNum, "true");
-    }
-
-    setElementHTML(resultRangeEndNum, resultEnd);
-
-    if (resultEnd === 0) {
-      setTextFilled(resultRangeEndNum, "false");
-    } else {
-      setTextFilled(resultRangeEndNum, "true");
-    }
-
-    setElementHTML(resultRangeTotalNum, resultCount);
-
-    if (resultCount === 0) {
-      setTextFilled(resultRangeTotalNum, "false");
-    } else {
-      setTextFilled(resultRangeTotalNum, "true");
-    }
-
-    if (resultStart === 0 && resultEnd === 0 && resultCount === 0) {
-      setAvailable(resultRange, "range", "false");
-    } else {
-      setAvailable(resultRange, "range", "true");
-    }
+    updateElementAvailable(resultRange, "range", !(resultStart === 0 && resultEnd === 0 && resultCount === 0));
   }
 
   function updateSearchResults() {
@@ -978,6 +1063,14 @@
       addElementChildren(resultRows, resultItems);
       updateSearchResultCount(resultItems.length);
       resetSearchPagination(resultItems.length);
+      updateSearchResultPager(
+        paginationTotalPages,
+        paginationCurrentPageNum,
+        paginationFirstPageButtonIsActive,
+        paginationPreviousPageButtonIsActive,
+        paginationNextPageButtonIsActive,
+        paginationLastPageButtonIsActive
+      )
       updateSearchResultRange(resultItems.length, paginationRangeMinItemNum, paginationRangeMaxItemNum);
       showSearchResults();
     }

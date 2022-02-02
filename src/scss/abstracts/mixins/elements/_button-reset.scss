@@ -1,0 +1,20 @@
+// Reset button styles.
+@mixin button-reset() {
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  transition: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: inherit;
+
+  &:hover,
+  &:focus {
+    background: none;
+  }
+}
