@@ -18,7 +18,13 @@
       element_type: 'select',
       term_key: null,
     },
-    paginationItemsPerPage = 50
+    paginationItemsPerPage = 50,
+    paginationActions = [
+      'first',
+      'previous',
+      'next',
+      'last',
+    ]
   ;
 
   let
@@ -41,6 +47,21 @@
     commonNamesInput = null,
     availableInNurseryInput = null,
     hasCitationsInput = null,
+    resultTotal = null,
+    resultTotalCount = null,
+    resultTotalText = null,
+    resultPagerLinkFirst = null,
+    resultPagerLinkPrevious = null,
+    resultPagerLinkNext = null,
+    resultPagerLinkLast = null,
+    resultPager = null,
+    resultPagerCurrentPageNum = null,
+    resultPagerTotalPageNum = null,
+    resultPagerRange = null,
+    resultRange,
+    resultRangeStartNum,
+    resultRangeEndNum,
+    resultRangeTotalNum,
     indexData,
     searchData = {
       docs: null,
@@ -400,6 +421,27 @@
     }
   }
 
+  function handleSearchPaginationUpdate(event, paginationAction, actionIsActive) {
+    event.preventDefault();
+
+    if (paginationActions.includes(paginationAction) && actionIsActive) {
+      updateSearchPagination(paginationAction);
+      updateSearchResultPager(
+        paginationTotalPages,
+        paginationCurrentPageNum,
+        paginationFirstPageButtonIsActive,
+        paginationPreviousPageButtonIsActive,
+        paginationNextPageButtonIsActive,
+        paginationLastPageButtonIsActive
+      );
+      updateSearchResultRange(
+        paginationTotalItemCount,
+        paginationRangeMinItemNum,
+        paginationRangeMaxItemNum,
+      );
+    }
+  }
+
   function getSearchFormType() {
     return document.querySelector(".search-form").getAttribute("data-search-type");
   }
@@ -501,6 +543,10 @@
     return document.querySelectorAll(".search-results__pager-range-total--num").item(0);
   }
 
+  function getResultPagerRange() {
+    return document.querySelectorAll(".search-results__pager-range").item(0);
+  }
+
   function getResultPagerLinkFirst() {
     return document.querySelectorAll(".pager__link--first").item(0);
   }
@@ -566,6 +612,41 @@
       availableInNurseryInput = getAvailableInNurseryInput();
       hasCitationsInput = getHasCitationsInput();
     }
+  }
+
+  function getSearchResultTotal() {
+    resultTotal = getResultTotal();
+    resultTotalCount = getResultTotalCount();
+    resultTotalText = getResultTotalText();
+  }
+
+  function getSearchPagerButtons() {
+    resultPagerLinkFirst = getResultPagerLinkFirst();
+    resultPagerLinkPrevious = getResultPagerLinkPrevious();
+    resultPagerLinkNext = getResultPagerLinkNext();
+    resultPagerLinkLast = getResultPagerLinkLast();
+  }
+
+  function getSearchPagerRange() {
+    resultPager = getResultPager();
+    resultPagerCurrentPageNum = getResultPagerCurrentPageNum();
+    resultPagerTotalPageNum = getResultPagerTotalPageNum();
+    resultPagerRange = getResultPagerRange();
+  }
+
+  function getSearchResultRange() {
+    resultRange = getResultRange();
+    resultRangeStartNum = getResultRangeStartNum();
+    resultRangeEndNum = getResultRangeEndNum();
+    resultRangeTotalNum = getResultRangeTotalNum();
+  }
+
+  function getSearchElements() {
+    getSearchInputs();
+    getSearchResultTotal();
+    getSearchPagerButtons();
+    getSearchPagerRange();
+    getSearchResultRange();
   }
 
   function getResultHeadings() {
@@ -796,7 +877,7 @@
     if (isActive) {
       setIsActive(element, target, "true");
     } else {
-      setAvailable(element, target, "false");
+      setIsActive(element, target, "false");
     }
   }
 
@@ -810,11 +891,6 @@
   }
 
   function updateSearchResultCount(resultCount = 0) {
-    const
-      resultTotal = getResultTotal(),
-      resultTotalCount = getResultTotalCount(),
-      resultTotalText = getResultTotalText();
-
     let resultTotalCountText = " Search Result";
 
     if (resultCount !== 1) {
@@ -830,40 +906,145 @@
     setAvailable(resultTotal, "total", "true");
   }
 
+  function getFirstPageNum() {
+    return 1;
+  }
+
+  function getPreviousPageNum() {
+    let previousPageNum = paginationCurrentPageNum - 1;
+
+    if (previousPageNum <= paginationFirstPageNum) {
+      previousPageNum = paginationFirstPageNum;
+    }
+
+    return previousPageNum;
+  }
+
+  function getNextPageNum() {
+    let nextPageNum = paginationCurrentPageNum + 1;
+
+    if (nextPageNum >= paginationLastPageNum) {
+      nextPageNum = paginationLastPageNum;
+    }
+
+    return nextPageNum;
+  }
+
+  function getLastPageNum() {
+    return paginationTotalPages;
+  }
+
+  function getPreviousNextPageNums() {
+    paginationPreviousPageNum = getPreviousPageNum();
+    paginationNextPageNum = getNextPageNum();
+  }
+
+  function getPaginationRangeMinItemNum() {
+    return ((paginationCurrentPageNum - 1) * paginationItemsPerPage) + 1;
+  }
+
+  function getPaginationRangeMaxItemNum() {
+    let rangeMaxItemNum = paginationTotalItemCount;
+
+    if (
+      (paginationCurrentPageNum !== paginationLastPageNum) &&
+      !(
+        (paginationCurrentPageNum === paginationFirstPageNum) &&
+        (paginationCurrentPageNum === paginationLastPageNum)
+      )
+    ) {
+      rangeMaxItemNum = (paginationCurrentPageNum * paginationItemsPerPage);
+    }
+
+    return rangeMaxItemNum;
+  }
+
+  function getPaginationRangeItemNums() {
+    paginationRangeMinItemNum = getPaginationRangeMinItemNum();
+    paginationRangeMaxItemNum = getPaginationRangeMaxItemNum();
+  }
+
+  function checkFirstPageButtonIsActive() {
+    let firstPageButtonIsActive = true;
+
+    if (
+      (paginationCurrentPageNum === paginationFirstPageNum) ||
+      (paginationPreviousPageNum === paginationFirstPageNum)
+    ) {
+      firstPageButtonIsActive = false;
+    }
+
+    return firstPageButtonIsActive;
+  }
+
+  function checkPreviousPageButtonIsActive() {
+    let previousPageButtonIsActive = true;
+
+    if (paginationCurrentPageNum === paginationFirstPageNum ) {
+      previousPageButtonIsActive = false;
+    }
+
+    return previousPageButtonIsActive;
+  }
+
+  function checkNextPageButtonIsActive() {
+    let nextPageButtonIsActive = true;
+
+    if (paginationCurrentPageNum === paginationLastPageNum) {
+      nextPageButtonIsActive = false;
+    }
+
+    return nextPageButtonIsActive;
+  }
+
+  function checkLastPageButtonIsActive() {
+    let lastPageButtonIsActive = true;
+
+    if (
+      (paginationCurrentPageNum === paginationLastPageNum) ||
+      (paginationNextPageNum === paginationLastPageNum)
+    ) {
+      lastPageButtonIsActive = false;
+    }
+
+    return lastPageButtonIsActive;
+  }
+
+  function checkPagerButtonsAreActive() {
+    paginationFirstPageButtonIsActive = checkFirstPageButtonIsActive();
+    paginationPreviousPageButtonIsActive = checkPreviousPageButtonIsActive();
+    paginationNextPageButtonIsActive = checkNextPageButtonIsActive();
+    paginationLastPageButtonIsActive = checkLastPageButtonIsActive();
+  }
+
   function resetSearchPagination(resultCount) {
     paginationTotalItemCount = resultCount;
     paginationTotalPages = Math.ceil(resultCount / paginationItemsPerPage);
 
-    paginationFirstPageNum = 1;
-    paginationFirstPageButtonIsActive = false;
+    paginationFirstPageNum = getFirstPageNum();
+    paginationLastPageNum = getLastPageNum();
+
     paginationCurrentPageNum = paginationFirstPageNum;
 
-    paginationLastPageNum = paginationTotalPages;
+    getPreviousNextPageNums();
+    checkPagerButtonsAreActive();
+    getPaginationRangeItemNums();
+  }
 
-    paginationPreviousPageNum = paginationFirstPageNum;
-    paginationPreviousPageButtonIsActive = false;
-
-    if (paginationTotalPages > 1) {
-      paginationNextPageNum = paginationFirstPageNum + 1;
-      paginationNextPageButtonIsActive = true;
-    } else {
-      paginationNextPageNum = 1;
-      paginationNextPageButtonIsActive = false;
+  function updateSearchPagination(paginationAction) {
+    if (paginationAction === 'first') {
+      paginationCurrentPageNum = paginationFirstPageNum;
+    } else if (paginationAction === 'previous') {
+      paginationCurrentPageNum = paginationPreviousPageNum;
+    } else if (paginationAction === 'next') {
+      paginationCurrentPageNum = paginationNextPageNum;
+    } else if (paginationAction === 'last') {
+      paginationCurrentPageNum = paginationLastPageNum;
     }
 
-    if (paginationNextPageNum < paginationTotalPages) {
-      paginationLastPageButtonIsActive = true;
-    } else {
-      paginationLastPageButtonIsActive = false;
-    }
-
-    paginationRangeMinItemNum = 1;
-
-    if (resultCount > paginationItemsPerPage) {
-      paginationRangeMaxItemNum = paginationItemsPerPage;
-    } else {
-      paginationRangeMaxItemNum = resultCount;
-    }
+    getPreviousNextPageNums();
+    checkPagerButtonsAreActive();
+    getPaginationRangeItemNums();
   }
 
   function updateSearchResultPager(
@@ -874,24 +1055,23 @@
     nextPageButtonIsActive = false,
     lastPageButtonIsActive = false
   ) {
-    const
-      resultPager = getResultPager(),
-      resultPagerCurrentPageNum = getResultPagerCurrentPageNum(),
-      resultPagerTotalPageNum = getResultPagerTotalPageNum(),
-      resultPagerLinkFirst = getResultPagerLinkFirst(),
-      resultPagerLinkPrevious = getResultPagerLinkPrevious(),
-      resultPagerLinkNext = getResultPagerLinkNext(),
-      resultPagerLinkLast = getResultPagerLinkLast();
+    const pagerHasPages = !(totalPageCount === 0 && currentPageNum === 0);
 
     updateElementText(resultPagerCurrentPageNum, currentPageNum);
     updateElementText(resultPagerTotalPageNum, totalPageCount);
+    updateElementAvailable(resultPagerRange, "pager-range", pagerHasPages);
 
     updateElementIsActive(resultPagerLinkFirst, "pager-link", firstPageButtonIsActive);
     updateElementIsActive(resultPagerLinkPrevious, "pager-link", previousPageButtonIsActive);
     updateElementIsActive(resultPagerLinkNext, "pager-link", nextPageButtonIsActive);
     updateElementIsActive(resultPagerLinkLast, "pager-link", lastPageButtonIsActive);
 
-    updateElementAvailable(resultPager, "pager", !(totalPageCount === 0 && currentPageNum === 0));
+    updateElementAvailable(resultPagerLinkFirst, "pager-link", pagerHasPages);
+    updateElementAvailable(resultPagerLinkPrevious, "pager-link", pagerHasPages);
+    updateElementAvailable(resultPagerLinkNext, "pager-link", pagerHasPages);
+    updateElementAvailable(resultPagerLinkLast, "pager-link", pagerHasPages);
+
+    updateElementAvailable(resultPager, "pager", pagerHasPages);
   }
 
   function updateSearchResultRange(
@@ -899,11 +1079,6 @@
     resultStart = 0,
     resultEnd = 0
   ) {
-    const
-      resultRange = getResultRange(),
-      resultRangeStartNum = getResultRangeStartNum(),
-      resultRangeEndNum = getResultRangeEndNum(),
-      resultRangeTotalNum = getResultRangeTotalNum();
 
     updateElementText(resultRangeStartNum, resultStart);
     updateElementText(resultRangeEndNum, resultEnd);
@@ -1103,7 +1278,7 @@
 
       loadSearchIndex();
       addSearchHeadings();
-      getSearchInputs();
+      getSearchElements();
 
       searchInput.addEventListener("keydown", (event) => {
         if (event.code === "Enter") {
@@ -1143,6 +1318,22 @@
 
       searchSubmit.addEventListener("click", (event) => {
         handleSearchQuery(event);
+      });
+
+      resultPagerLinkFirst.addEventListener("click", (event) => {
+        handleSearchPaginationUpdate(event, 'first', paginationFirstPageButtonIsActive);
+      });
+
+      resultPagerLinkPrevious.addEventListener("click", (event) => {
+        handleSearchPaginationUpdate(event, 'previous', paginationPreviousPageButtonIsActive);
+      });
+
+      resultPagerLinkNext.addEventListener("click", (event) => {
+        handleSearchPaginationUpdate(event, 'next', paginationNextPageButtonIsActive);
+      });
+
+      resultPagerLinkLast.addEventListener("click", (event) => {
+        handleSearchPaginationUpdate(event, 'last', paginationLastPageButtonIsActive);
       });
 
       searchClear.addEventListener("click", (event) => {
