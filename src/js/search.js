@@ -28,6 +28,13 @@
   ;
 
   let
+    useOxfordComma = false,
+    query_modifiers = '',
+    queryModifierItems = [],
+    resultItems = [],
+    pagedResultItems = [],
+    resultItemListElement = null,
+    resultRowsElement = null,
     paginationFirstPageNum = 0,
     paginationLastPageNum = 0,
     paginationCurrentPageNum = 0,
@@ -209,6 +216,21 @@
     return hasProperties;
   }
 
+  function modifyFirstLetter(string, modification = 'uppercase') {
+    let
+      firstLetter = string.charAt(0),
+      lastLetters = string.slice(1),
+      modifiedFirstLetter = firstLetter;
+
+    if (modification === 'uppercase') {
+      modifiedFirstLetter = firstLetter.toUpperCase();
+    } else if (modification === 'lowercase') {
+      modifiedFirstLetter = firstLetter.toLowerCase();
+    }
+
+    return modifiedFirstLetter + lastLetters;
+  }
+
   function setElementHTML(element, html) {
     element.innerHTML = html;
   }
@@ -307,6 +329,24 @@
     return document.getElementById("search-text").value.trim().toLowerCase();
   }
 
+  function resetQueryModifiers() {
+    query_modifiers = '';
+    queryModifierItems = [];
+  }
+
+  function addQueryModifier(termKey = '', termValue = '') {
+    let queryModifier = {
+      termKey: '',
+      termValue: '',
+    }
+
+    if (termKey !== '' && termValue !== '') {
+      queryModifier.termKey = termKey;
+      queryModifier.termValue = termValue;
+      queryModifierItems.push(queryModifier);
+    }
+  }
+
   function addTermModifier(term_modifier_settings = term_modifier_default_settings, modifier_terms) {
     const merged_term_modifier_settings = mergeObjects(term_modifier_default_settings, term_modifier_settings);
 
@@ -334,12 +374,109 @@
 
     if (this_term_value !== this_term_default) {
       modifier_terms = addTerm(modifier_terms, this_term);
+      addQueryModifier(this_term_key, this_term_value);
     }
 
     return modifier_terms;
   }
 
-  function getQueryModifiers() {
+  function getQueryModifierCaptionText(queryModifier) {
+    let modifierCaptionText = '';
+
+    if (
+      objectHasOwnProperties(queryModifier, ['termKey']) &&
+      objectHasOwnProperties(queryModifier, ['termValue']) &&
+      queryModifier['termKey'] !== '' &&
+      queryModifier['termValue'] !== ''
+    ) {
+
+      if (queryModifier['termKey'] === 'country_keys') {
+        modifierCaptionText = queryModifier['termValue'];
+      } else if (queryModifier['termKey'] === 'sales_type_keys') {
+        modifierCaptionText = modifyFirstLetter(queryModifier['termValue'], 'lowercase');
+      } else if (queryModifier['termKey'] === 'taxonomy_level_key') {
+        modifierCaptionText = modifyFirstLetter(queryModifier['termValue'], 'lowercase');
+      } else if (queryModifier['termKey'] === 'has_common_name') {
+        modifierCaptionText = "common names";
+      } else if (queryModifier['termKey'] === 'available_in_nursery') {
+        modifierCaptionText = "available in nursery";
+      } else if (queryModifier['termKey'] === 'has_citations') {
+        modifierCaptionText = "has book/magazine citations";
+      }
+    }
+
+    return modifierCaptionText;
+  }
+
+  function getQueryModifierItemsCaptionText(queryModifierItems) {
+    let modifiersCaptionText = [];
+
+    queryModifierItems.forEach((queryModifier, index) => {
+      let modifierCaptionText = getQueryModifierCaptionText(queryModifier);
+
+      if (modifierCaptionText !== '') {
+        modifiersCaptionText.push(modifierCaptionText)
+      }
+    });
+
+    return modifiersCaptionText;
+  }
+
+  function getQueryCaptionText(queryText, queryModifierItems) {
+    let
+      queryCaptionTextItems = [],
+      queryCaptionText = '';
+
+    if (queryText !== '') {
+      queryCaptionTextItems.push(queryText);
+    }
+
+    if (isArrayWithItems(queryModifierItems)) {
+      queryCaptionTextItems = [...queryCaptionTextItems, ...queryModifierItems];
+    }
+
+    if (isArrayWithItems(queryCaptionTextItems)) {
+      queryCaptionTextItems.forEach((textItem, index) => {
+        let
+          useComma = false,
+          useAnd = false,
+          commaIndexEndpoint = 2;
+
+        if (useOxfordComma) {
+          commaIndexEndpoint = 1;
+        }
+
+        if (
+          queryCaptionTextItems.length > 2 &&
+          index + commaIndexEndpoint < queryCaptionTextItems.length
+        ) {
+          useComma = true;
+        }
+
+        if (
+          queryCaptionTextItems.length > 1 &&
+          index + 1 === queryCaptionTextItems.length
+        ) {
+          useAnd = true;
+        }
+
+        if (useAnd) {
+          queryCaptionText = queryCaptionText + ' and ';
+        }
+
+        queryCaptionText = queryCaptionText + textItem;
+
+        if (useComma) {
+          queryCaptionText = queryCaptionText + ', ';
+        }
+      })
+    }
+
+    return queryCaptionText;
+  }
+
+
+  function getQueryModifierItems() {
     let modifier_terms = "";
 
     if (searchType === "nurseries") {
@@ -405,9 +542,9 @@
     event.preventDefault();
     clearSearchResults({ clearInput: false, clearSearchData: true, clearErrorMessages: true });
 
-    const
-      query = getQuery(),
-      query_modifiers = getQueryModifiers();
+    const query = getQuery()
+    query_modifiers = getQueryModifierItems();
+
     if (!query && !query_modifiers) {
       displayErrorMessage("Please enter a search term or select a search option");
       return;
@@ -439,6 +576,7 @@
         paginationRangeMinItemNum,
         paginationRangeMaxItemNum,
       );
+      updateResultRowsContent(resultItems);
     }
   }
 
@@ -667,6 +805,10 @@
     return document.querySelectorAll(".search-results__result-item-list");
   }
 
+  function getResultRowsElement(resultItemList) {
+    return resultItemList.item(0);
+  }
+
   function getResultItemCollection(isTemplate) {
     const selector = ".search-results__result-item[data-row-is-template='" + isTemplate + "']";
     return document.querySelectorAll(selector);
@@ -784,18 +926,16 @@
    *    Whether or not to clear the search error messages.
    */
   function clearSearchResults(options) {
-    let resultRows = getResultItemList().item(0);
-    // Remove results.
-    removeElementChildren(resultRows);
+    // Reset result items.
+    resetResultItems();
+    // Get result rows element.
+    resultItemListElement = getResultItemList()
+    resultRowsElement = getResultRowsElement(resultItemListElement);
+    // Clear result row content.
+    resultRowsElement = removeElementChildren(resultRowsElement);
 
-    // Clear search result count.
-    updateSearchResultCount();
-
-    // Clear search result pager.
-    updateSearchResultPager();
-
-    // Clear search result range.
-    updateSearchResultRange();
+    // Clear search result count, pager and result range.
+    resetSearchInfoNav();
 
     // Clear search query.
     updateSearchCaptionQuery("", "false");
@@ -818,6 +958,7 @@
       searchData.query = '';
       searchData.terms = '';
       searchData.results = [];
+      resetQueryModifiers();
     }
   }
 
@@ -884,10 +1025,27 @@
   function updateSearchCaptionQuery(query, queryAvailable) {
     let
       search_query_caption = document.querySelector(".search-results__caption"),
-      search_query_caption_query = document.getElementById("search-results-caption-query");
+      search_query_caption_query = document.getElementById("search-results-caption-query"),
+      query_text = searchData.query,
+      query_modifier_items_caption_text = getQueryModifierItemsCaptionText(queryModifierItems),
+      caption_text = getQueryCaptionText(query_text, query_modifier_items_caption_text);
 
-    setElementHTML(search_query_caption_query, searchData.query);
+    setElementHTML(search_query_caption_query, caption_text);
     setAvailable(search_query_caption, "caption-topic", "true");
+  }
+
+  function resetSearchInfoNav(resultCount = 0) {
+    updateSearchResultCount(resultItems.length);
+    resetSearchPagination(resultItems.length);
+    updateSearchResultPager(
+      paginationTotalPages,
+      paginationCurrentPageNum,
+      paginationFirstPageButtonIsActive,
+      paginationPreviousPageButtonIsActive,
+      paginationNextPageButtonIsActive,
+      paginationLastPageButtonIsActive
+    )
+    updateSearchResultRange(resultItems.length, paginationRangeMinItemNum, paginationRangeMaxItemNum);
   }
 
   function updateSearchResultCount(resultCount = 0) {
@@ -907,7 +1065,13 @@
   }
 
   function getFirstPageNum() {
-    return 1;
+    let firstPageNum = 0;
+
+    if (paginationTotalPages > 0) {
+      firstPageNum = 1;
+    }
+
+    return firstPageNum;
   }
 
   function getPreviousPageNum() {
@@ -940,7 +1104,13 @@
   }
 
   function getPaginationRangeMinItemNum() {
-    return ((paginationCurrentPageNum - 1) * paginationItemsPerPage) + 1;
+    let rangeMinItemNum = 0;
+
+    if (paginationTotalPages > 0) {
+      rangeMinItemNum = ((paginationCurrentPageNum - 1) * paginationItemsPerPage) + 1;
+    }
+
+    return rangeMinItemNum;
   }
 
   function getPaginationRangeMaxItemNum() {
@@ -1087,12 +1257,34 @@
     updateElementAvailable(resultRange, "range", !(resultStart === 0 && resultEnd === 0 && resultCount === 0));
   }
 
+  function resetResultItems() {
+    resultItems = [];
+    pagedResultItems = [];
+  }
+
+  function updatePagedResultItems(resultItems = []) {
+    pagedResultItems = resultItems.slice(paginationRangeMinItemNum, paginationRangeMaxItemNum);
+  }
+
+  function updateResultRowsContent(resultItems = []) {
+    // Update pagedResultItems based on current paging info.
+    updatePagedResultItems(resultItems);
+
+    // Remove template children
+    resultRowsElement = removeElementChildren(resultRowsElement);
+
+    if (pagedResultItems !== []) {
+      // Add paged result items to result rows.
+      addElementChildren(resultRowsElement, pagedResultItems);
+    }
+  }
+
   function updateSearchResults() {
     updateSearchCaptionQuery(searchData.query, "true");
 
-    let
-      resultItems = [],
-      resultRows = getResultItemList().item(0);
+    resetResultItems();
+    resultItemListElement = getResultItemList()
+    resultRowsElement = getResultRowsElement(resultItemListElement);
 
     if (
       objectHasOwnProperties(searchData, ['results']) &&
@@ -1230,24 +1422,11 @@
         resultItems.push(thisResultRow);
 
       });
+      // Update search result count, pager and result range based on result items.
+      resetSearchInfoNav(resultItems.length);
 
-      // Remove template children
-      resultRows = removeElementChildren(resultRows);
-
-      // Add result items to result rows.
-      addElementChildren(resultRows, resultItems);
-      updateSearchResultCount(resultItems.length);
-      resetSearchPagination(resultItems.length);
-      updateSearchResultPager(
-        paginationTotalPages,
-        paginationCurrentPageNum,
-        paginationFirstPageButtonIsActive,
-        paginationPreviousPageButtonIsActive,
-        paginationNextPageButtonIsActive,
-        paginationLastPageButtonIsActive
-      )
-      updateSearchResultRange(resultItems.length, paginationRangeMinItemNum, paginationRangeMaxItemNum);
-      showSearchResults();
+      // Update search result content, updating paging information to do so.
+      updateResultRowsContent(resultItems);
     }
   }
 
