@@ -1,11 +1,16 @@
 @use "sass:math";
 
+.search-results {
+  margin-top: #{get-size('600')};
+}
+
 .search-results__header {
   display: flex;
   flex-direction: row;
   align-items: center;
   align-content: stretch;
   justify-content: space-between;
+  margin-bottom: #{get-size('600')};
 }
 
 .search-results__total,

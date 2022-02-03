@@ -1,5 +1,6 @@
 (function (lunr) {
   const
+    searchForm = document.getElementById("search-form"),
     searchInput = document.getElementById("search-text"),
     searchSubmit = document.getElementById("submit-search-results"),
     searchClear = document.getElementById("clear-search-results"),
@@ -267,6 +268,15 @@
     let searchResultsTable = getResultTable();
 
     setHideElement(searchResultsTable, "false");
+  }
+
+  function hideSearchResults() {
+    let searchResultsTable = getResultTable();
+
+    setAvailable(searchResultsTable, "results", "false");
+    // document.querySelector(".search-results").classList.remove("hide-element");
+    // document.getElementById("site-search").classList.add("expanded");
+    // document.getElementById("clear-search-results-sidebar").classList.remove("hide-element");
   }
 
   function showSearchResults() {
@@ -933,12 +943,10 @@
     resultRowsElement = getResultRowsElement(resultItemListElement);
     // Clear result row content.
     resultRowsElement = removeElementChildren(resultRowsElement);
+    hideSearchResults();
 
     // Clear search result count, pager and result range.
     resetSearchInfoNav();
-
-    // Clear search query.
-    updateSearchCaptionQuery("", "false");
 
     // Clear error messages.
     if (objectHasOwnProperties(options, ['clearErrorMessages']) &&
@@ -950,15 +958,17 @@
     if (objectHasOwnProperties(options, ['clearInput']) &&
       options['clearInput'] === true) {
       searchInput.value = '';
+      searchForm.reset();
     }
 
-    // Clear search search data.
+    // Clear search data.
     if (objectHasOwnProperties(options, ['clearSearchData']) &&
       options['clearSearchData'] === true) {
       searchData.query = '';
       searchData.terms = '';
       searchData.results = [];
       resetQueryModifiers();
+      updateSearchCaptionQuery('', false);
     }
   }
 
@@ -1022,16 +1032,16 @@
     }
   }
 
-  function updateSearchCaptionQuery(query, queryAvailable) {
+  function updateSearchCaptionQuery(queryText, queryAvailable) {
     let
       search_query_caption = document.querySelector(".search-results__caption"),
       search_query_caption_query = document.getElementById("search-results-caption-query"),
-      query_text = searchData.query,
+      query_text = queryText,
       query_modifier_items_caption_text = getQueryModifierItemsCaptionText(queryModifierItems),
       caption_text = getQueryCaptionText(query_text, query_modifier_items_caption_text);
 
     setElementHTML(search_query_caption_query, caption_text);
-    setAvailable(search_query_caption, "caption-topic", "true");
+    setAvailable(search_query_caption, "caption-topic", queryAvailable);
   }
 
   function resetSearchInfoNav(resultCount = 0) {
@@ -1280,7 +1290,7 @@
   }
 
   function updateSearchResults() {
-    updateSearchCaptionQuery(searchData.query, "true");
+    updateSearchCaptionQuery(searchData.query, true);
 
     resetResultItems();
     resultItemListElement = getResultItemList()
