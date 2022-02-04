@@ -1,5 +1,6 @@
-const {AssetCache} = require("@11ty/eleventy-cache-assets");
-const {objectHasOwnProperties} = require('./src/_data/helpers.js');
+const { AssetCache } = require("@11ty/eleventy-cache-assets");
+const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
+const { objectHasOwnProperties } = require('./src/_data/helpers.js');
 const getCustomCollection = require('./src/utils/get-custom-collection.js');
 const getFilteredByLetterGroup = require('./src/utils/get-filtered-by-letter-group.js');
 const getFilteredByNumberLetterGroup = require('./src/utils/get-filtered-by-number-letter-group.js');
@@ -31,6 +32,16 @@ module.exports = config => {
       dynamicPartials: false,
     }
   );
+
+  config.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: 'serverless',
+    functionsDir: './netlify/functions/',
+    copy: [
+      'src/filters/',
+      'src/utils/',
+      { from: ".cache", to: "cache" }
+    ]
+  });
 
   // Set directories to pass through to the dist folder
   config.addPassthroughCopy('./src/images/');

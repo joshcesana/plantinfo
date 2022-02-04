@@ -34,5 +34,8 @@
     "lunr": "^2.3.9",
     "sass": "^1.49.0",
     "uuid": "^3.4.0"
+  },
+  "dependencies": {
+    "@netlify/functions": "^0.11.0"
   }
 }

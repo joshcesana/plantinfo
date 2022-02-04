@@ -17,3 +17,7 @@ src/_includes/css
 
 # Temporary data
 temp
+
+# Netlify serverless files
+netlify/functions/serverless/**
+!netlify/functions/serverless/index.js
