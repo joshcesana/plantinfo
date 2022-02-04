@@ -400,8 +400,18 @@
       queryModifier['termValue'] !== ''
     ) {
 
-      if (queryModifier['termKey'] === 'country_keys') {
-        modifierCaptionText = queryModifier['termValue'];
+      if (
+        queryModifier['termKey'] === 'country_keys' &&
+        (
+          queryModifier['termValue'] === 'united_states' ||
+          queryModifier['termValue'] === 'canada'
+        )
+      ) {
+        if (queryModifier['termValue'] === 'united_states') {
+          modifierCaptionText = 'United States';
+        } else if (queryModifier['termValue'] === 'canada') {
+          modifierCaptionText = 'Canada';
+        }
       } else if (queryModifier['termKey'] === 'sales_type_keys') {
         modifierCaptionText = modifyFirstLetter(queryModifier['termValue'], 'lowercase');
       } else if (queryModifier['termKey'] === 'taxonomy_level_key') {
@@ -1273,7 +1283,19 @@
   }
 
   function updatePagedResultItems(resultItems = []) {
-    pagedResultItems = resultItems.slice(paginationRangeMinItemNum, paginationRangeMaxItemNum);
+    let
+      hasResultItems = isArrayWithItems(resultItems),
+      hasMultiplePages = resultItems.length > paginationItemsPerPage,
+      pagingMinSlice = 0,
+      pagingMaxSlice = 0;
+
+    if (hasResultItems && hasMultiplePages) {
+      pagingMinSlice = (paginationRangeMinItemNum - 1);
+      pagingMaxSlice = (paginationRangeMaxItemNum - 1);
+      pagedResultItems = resultItems.slice(pagingMinSlice, pagingMaxSlice);
+    } else {
+      pagedResultItems = resultItems;
+    }
   }
 
   function updateResultRowsContent(resultItems = []) {
