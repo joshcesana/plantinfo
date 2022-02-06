@@ -1,21 +1,17 @@
-const { AssetCache } = require("@11ty/eleventy-cache-assets");
 const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
-const { objectHasOwnProperties } = require('./src/_data/helpers.js');
-const getCustomCollection = require('./src/utils/get-custom-collection.js');
-const getFilteredByLetterGroup = require('./src/utils/get-filtered-by-letter-group.js');
-const getFilteredByNumberLetterGroup = require('./src/utils/get-filtered-by-number-letter-group.js');
-const getFilteredByRootItemType = require('./src/utils/get-filtered-by-root-item-type.js');
-const getElementItemsByType = require('./src/utils/get-element-items-by-type.js');
-const getLetterListByItemType = require('./src/utils/get-letter-list-by-item-type.js');
-const getFilteredByCategoryCollection = require('./src/utils/get-filtered-by-category-collection.js');
-const getPagedItemsInCategoryCollection = require('./src/utils/get-paged-items-in-category-collection.js');
+const getCacheData = require('./src/utils/get-cache-data.js');
+const getLetterGroupCollection = require('./src/utils/get-letter-group-collection.js');
+const getNumberLetterCollection = require('./src/utils/get-number-letter-collection.js');
+const getRootItemTypeCollection = require('./src/utils/get-root-item-type-collection.js');
+const getElementItemsCollection = require('./src/utils/get-element-items-collection.js');
+const getLetterListCollection = require('./src/utils/get-letter-list-collection.js');
+const getCategoryCollection = require('./src/utils/get-category-collection.js');
+const getPagedCategoryCollection = require('./src/utils/get-paged-category-collection.js');
 const prepareNurseryIndex = require('./src/utils/prepare-nursery-index.js');
 const preparePlantIndex = require('./src/utils/prepare-plant-index.js');
 const buildLunrIndex = require('./src/utils/build-lunr-index.js');
 const writeLunrIndex = require('./src/utils/write-lunr-index.js');
 const writeRawIndex = require('./src/utils/write-raw-index.js');
-const sortByMachineName = require('./src/utils/sort-by-machine-name.js');
-const sortLetterArray = require('./src/utils/sort-letter-array.js');
 const getPlantPermalink = require('./src/filters/get-plant-permalink.js');
 const getNurseryPermalink = require('./src/filters/get-nursery-permalink.js');
 const getNurseryCategoryPermalink = require('./src/filters/get-nursery-category-permalink.js');
@@ -52,110 +48,33 @@ module.exports = config => {
   config.addNunjucksFilter("getNurseryCategoryPermalink", (value) => getNurseryCategoryPermalink(value));
   config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
-  let cacheDuration = '5d';
-
-  let getCacheData = async function(cache, collectionParameters, duration) {
-    let cacheContents = [];
-
-    if (
-      typeof(cache) !== 'undefined' &&
-      objectHasOwnProperties(cache, ['assetKey']) &&
-      objectHasOwnProperties(cache, ['getFunction']) &&
-      objectHasOwnProperties(cache, ['staticParameters']) &&
-      Array.isArray(cache.staticParameters) &&
-      Array.isArray(collectionParameters)
-    ) {
-      let asset = new AssetCache(cache.assetKey);
-      if (asset.isCacheValid(duration)) {
-        return asset.getCachedValue();
-      }
-      let getParameters = [...collectionParameters, ...cache.staticParameters];
-      cacheContents = cache.getFunction(...getParameters);
-      await asset.save(cacheContents, 'json');
-    }
-
-    return cacheContents;
-  };
-
-  let getLetterGroupCollection = (collection, dataPath, levelsDeep, itemType) => {
-    return sortByMachineName(
-      getFilteredByLetterGroup(collection, dataPath, levelsDeep, itemType)
-    );
-  };
-
-  let getNumberLetterCollection = (collection, dataPath, levelsDeep, itemType) => {
-    return sortByMachineName(
-      getFilteredByNumberLetterGroup(collection, dataPath, levelsDeep, itemType)
-    );
-  };
-
-  let getRootItemTypeCollection = (collection, dataPath, termType) => {
-    return sortByMachineName(
-      getFilteredByRootItemType(collection, dataPath, termType)
-    );
-  };
-
-  let getElementItemsCollection = (collection, itemType, elementTypeRef) => {
-    return sortByMachineName(
-      getElementItemsByType(collection, itemType, elementTypeRef)
-    );
-  };
-
-  let getLetterListCollection = (collection, itemType) => {
-    return sortLetterArray(
-      getLetterListByItemType(collection, itemType)
-    );
-  };
-
-  let getCategoryCollection = (sourceCollection, targetCollection, categoryKey, itemType) => {
-    return sortByMachineName(
-      getFilteredByCategoryCollection(sourceCollection, targetCollection, categoryKey, itemType)
-    );
-  };
-
-  let getPagedCategoryCollection = (categoryCollection, itemsPerPage, itemType) => {
-    return getPagedItemsInCategoryCollection(categoryCollection, itemsPerPage, itemType)
-  };
-
-  let buildCustomLunrIndex = (collection, refKey, fieldKeys) => {
-    buildLunrIndex(collection, refKey, fieldKeys)
-  };
-
-  let writeCustomLunrIndex = (outputDir, indexSlug, idx) => {
-    writeLunrIndex(outputDir, indexSlug, idx)
-  };
-
-  let writeCustomRawIndex = (outputDir, indexSlug, collection) => {
-    writeRawIndex(outputDir, indexSlug, collection)
-  };
-
-  let rootData = {
-    plants: {
-      dataPath: ['plants_archive', 'family'],
-      levelsDeep: [3],
-      itemType: 'family'
-    },
-    common_names: {
-      dataPath: ['common_names_full', 'common_names'],
-      itemType: 'common_name'
-    },
-    nurseries: {
-      dataPath: ['nursery_catalogs_archive', 'nurseries'],
-      levelsDeep: [2],
-      itemType: 'nursery'
-    },
-    nursery_categories: {
-      dataPath: ['terms_full', 'terms'],
-      itemType: 'nursery_category'
-    },
-    journals: {
-      dataPath: ['journal_citations_archive', 'journals'],
-      levelsDeep: [3],
-      itemType: 'journal_book'
-    }
-  };
-
   let
+    cacheDuration = '5d',
+    rootData = {
+      plants: {
+        dataPath: ['plants_archive', 'family'],
+        levelsDeep: [3],
+        itemType: 'family'
+      },
+      common_names: {
+        dataPath: ['common_names_full', 'common_names'],
+        itemType: 'common_name'
+      },
+      nurseries: {
+        dataPath: ['nursery_catalogs_archive', 'nurseries'],
+        levelsDeep: [2],
+        itemType: 'nursery'
+      },
+      nursery_categories: {
+        dataPath: ['terms_full', 'terms'],
+        itemType: 'nursery_category'
+      },
+      journals: {
+        dataPath: ['journal_citations_archive', 'journals'],
+        levelsDeep: [3],
+        itemType: 'journal_book'
+      }
+    },
     searchOutputDir = 'dist',
     searchData = {
       nurseries: {
@@ -168,9 +87,94 @@ module.exports = config => {
         refKey: 'machine_name',
         fieldKeys: ['machine_name','name','plant_machine_name','plant_name','taxonomy_level_key','taxonomy_level_name','common_machine_name','common_name',"has_common_name",'available_in_nursery','has_citations']
       }
-    };
-
-  let
+    },
+    cacheData = {
+      journalBookCache: {
+        assetKey: 'journal_book_cache',
+        getFunction: getNumberLetterCollection,
+        staticParameters: [rootData.journals.dataPath, rootData.journals.levelsDeep, rootData.journals.itemType]
+      },
+      citationReferenceCache: {
+        assetKey: 'citation_reference_cache',
+        getFunction: getElementItemsCollection,
+        staticParameters: ['citation_reference', 'journal_book']
+      },
+      plantFamilyCache: {
+        assetKey: 'plant_family_cache',
+        getFunction: getLetterGroupCollection,
+        staticParameters: [rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType]
+      },
+      plantGenusCache: {
+        assetKey: 'plant_genus_cache',
+        getFunction: getElementItemsCollection,
+        staticParameters: ['genus', false]
+      },
+      plantGenusLettersCache: {
+        assetKey: 'plant_genus_letters_cache',
+        getFunction: getLetterListCollection,
+        staticParameters: ['genus']
+      },
+      plantSpeciesCache: {
+        assetKey: 'plant_species_cache',
+        getFunction: getElementItemsCollection,
+        staticParameters: ['species', false]
+      },
+      plantVarietyCache: {
+        assetKey: 'plant_variety_cache',
+        getFunction: getElementItemsCollection,
+        staticParameters: ['variety', false]
+      },
+      plantCommonNameCache: {
+        assetKey: 'plant_common_name_cache',
+        getFunction: getRootItemTypeCollection,
+        staticParameters: [rootData.common_names.dataPath, rootData.common_names.itemType]
+      },
+      nurseryCache: {
+        assetKey: 'nursery_cache_nurseries',
+        getFunction: getNumberLetterCollection,
+        staticParameters: [rootData.nurseries.dataPath, rootData.nurseries.levelsDeep, rootData.nurseries.itemType]
+      },
+      nurseryCatalogCache: {
+        assetKey: 'nursery_catalog_cache_nursery_catalogs',
+        getFunction: getElementItemsCollection,
+        staticParameters: ['nursery_catalog', false]
+      },
+      nurseryCategoryCache: {
+        assetKey: 'nursery_category_cache_categories',
+        getFunction: getRootItemTypeCollection,
+        staticParameters: [rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType]
+      },
+      nurserySpecialtiesCache: {
+        assetKey: 'nursery_by_category_cache_specialties',
+        getFunction: getCategoryCollection,
+        staticParameters: ["specialties", "nursery_category"]
+      },
+      nurseryPrepareIndexCache: {
+        assetKey: 'nursery_by_category_cache_prepare_index',
+        getFunction: prepareNurseryIndex,
+        staticParameters: []
+      },
+      nurseryBuildIndexCache: {
+        assetKey: 'nursery_by_category_cache_build_index',
+        getFunction: buildLunrIndex,
+        staticParameters: [searchData['nurseries']['refKey'], searchData['nurseries']['fieldKeys']]
+      },
+      nurseryPagedCategoryCollectionCache: {
+        assetKey: 'nursery_by_category_cache_paged_category_collection',
+        getFunction: getPagedCategoryCollection,
+        staticParameters: [20, "nursery_category"]
+      },
+      plantPrepareIndexCache: {
+        assetKey: 'plant_cache_prepare_index',
+        getFunction: preparePlantIndex,
+        staticParameters: []
+      },
+      plantBuildIndexCache: {
+        assetKey: 'plant_cache_build_index',
+        getFunction: buildLunrIndex,
+        staticParameters: [searchData['plants']['refKey'], searchData['plants']['fieldKeys']]
+      },
+    },
     journalCollection,
     citationCollection,
     plantFamilyRootCollection,
@@ -189,95 +193,14 @@ module.exports = config => {
     nurseryBuildIndexCollection,
     nurseryPagedCategoryCollection = [],
     plantPrepareIndexCollection,
-    plantBuildIndexCollection;
+    plantBuildIndexCollection
+  ;
 
-  let cacheData = {
-    journalBookCache: {
-      assetKey: 'journal_book_cache',
-      getFunction: getNumberLetterCollection,
-      staticParameters: [rootData.journals.dataPath, rootData.journals.levelsDeep, rootData.journals.itemType]
-    },
-    citationReferenceCache: {
-      assetKey: 'citation_reference_cache',
-      getFunction: getElementItemsCollection,
-      staticParameters: ['citation_reference', 'journal_book']
-    },
-    plantFamilyCache: {
-      assetKey: 'plant_family_cache',
-      getFunction: getLetterGroupCollection,
-      staticParameters: [rootData.plants.dataPath, rootData.plants.levelsDeep, rootData.plants.itemType]
-    },
-    plantGenusCache: {
-      assetKey: 'plant_genus_cache',
-      getFunction: getElementItemsCollection,
-      staticParameters: ['genus', false]
-    },
-    plantGenusLettersCache: {
-      assetKey: 'plant_genus_letters_cache',
-      getFunction: getLetterListCollection,
-      staticParameters: ['genus']
-    },
-    plantSpeciesCache: {
-      assetKey: 'plant_species_cache',
-      getFunction: getElementItemsCollection,
-      staticParameters: ['species', false]
-    },
-    plantVarietyCache: {
-      assetKey: 'plant_variety_cache',
-      getFunction: getElementItemsCollection,
-      staticParameters: ['variety', false]
-    },
-    plantCommonNameCache: {
-      assetKey: 'plant_common_name_cache',
-      getFunction: getRootItemTypeCollection,
-      staticParameters: [rootData.common_names.dataPath, rootData.common_names.itemType]
-    },
-    nurseryCache: {
-      assetKey: 'nursery_cache_nurseries',
-      getFunction: getNumberLetterCollection,
-      staticParameters: [rootData.nurseries.dataPath, rootData.nurseries.levelsDeep, rootData.nurseries.itemType]
-    },
-    nurseryCatalogCache: {
-      assetKey: 'nursery_catalog_cache_nursery_catalogs',
-      getFunction: getElementItemsCollection,
-      staticParameters: ['nursery_catalog', false]
-    },
-    nurseryCategoryCache: {
-      assetKey: 'nursery_category_cache_categories',
-      getFunction: getRootItemTypeCollection,
-      staticParameters: [rootData.nursery_categories.dataPath, rootData.nursery_categories.itemType]
-    },
-    nurserySpecialtiesCache: {
-      assetKey: 'nursery_by_category_cache_specialties',
-      getFunction: getCategoryCollection,
-      staticParameters: ["specialties", "nursery_category"]
-    },
-    nurseryPrepareIndexCache: {
-      assetKey: 'nursery_by_category_cache_prepare_index',
-      getFunction: prepareNurseryIndex,
-      staticParameters: []
-    },
-    nurseryBuildIndexCache: {
-      assetKey: 'nursery_by_category_cache_build_index',
-      getFunction: buildLunrIndex,
-      staticParameters: [searchData['nurseries']['refKey'], searchData['nurseries']['fieldKeys']]
-    },
-    nurseryPagedCategoryCollectionCache: {
-      assetKey: 'nursery_by_category_cache_paged_category_collection',
-      getFunction: getPagedCategoryCollection,
-      staticParameters: [20, "nursery_category"]
-    },
-    plantPrepareIndexCache: {
-      assetKey: 'plant_cache_prepare_index',
-      getFunction: preparePlantIndex,
-      staticParameters: []
-    },
-    plantBuildIndexCache: {
-      assetKey: 'plant_cache_build_index',
-      getFunction: buildLunrIndex,
-      staticParameters: [searchData['plants']['refKey'], searchData['plants']['fieldKeys']]
-    },
-  };
+  config.addGlobalData('cacheDuration', cacheDuration);
+  config.addGlobalData('rootData', rootData);
+  config.addGlobalData('searchOutputDir', searchOutputDir);
+  config.addGlobalData('searchData', searchData);
+  config.addGlobalData('cacheData', cacheData);
 
   // Returns journal_book items.
   config.addCollection('journal_book', async (collection) => {
@@ -373,8 +296,8 @@ module.exports = config => {
     nurseryPrepareIndexCollection = await getCacheData(cacheData.nurseryPrepareIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
     nurseryBuildIndexCollection = await getCacheData(cacheData.nurseryBuildIndexCache, [nurseryPrepareIndexCollection], cacheDuration);
 
-    writeCustomLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryBuildIndexCollection);
-    writeCustomRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryPrepareIndexCollection);
+    writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryBuildIndexCollection);
+    writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryPrepareIndexCollection);
 
     return nurseryPagedCategoryCollection;
   });
@@ -405,8 +328,8 @@ module.exports = config => {
     ], cacheDuration);
     plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
 
-    writeCustomLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);
-    writeCustomRawIndex(searchOutputDir, searchData['plants']['indexSlug'], plantPrepareIndexCollection);
+    writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);
+    writeRawIndex(searchOutputDir, searchData['plants']['indexSlug'], plantPrepareIndexCollection);
 
     return plantPrepareIndexCollection;
   });

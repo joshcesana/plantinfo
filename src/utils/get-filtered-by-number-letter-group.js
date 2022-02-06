@@ -70,6 +70,5 @@ module.exports = (collection, dataPath, levelsDeep, itemType) => {
 
   });
 
-
   return collectionItems;
 };
