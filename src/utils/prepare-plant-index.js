@@ -4,7 +4,6 @@ const {
   createPlantPermalinkPath,
   createCommonNamePermalinkPath,
   capitalizeFirstLetter,
-  cloneObject,
   mergeObjects,
 } = require('../_data/helpers.js');
 

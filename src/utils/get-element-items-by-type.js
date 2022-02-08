@@ -1,4 +1,8 @@
-const uuidv4 = require("uuid/v4");
+const {
+  isArray,
+  isArrayWithItems,
+  checkGroupItem,
+} = require('../_data/helpers.js');
 
 /**
  * Takes a collection and returns it back with the attached element items by type.
@@ -10,45 +14,36 @@ const uuidv4 = require("uuid/v4");
  * @returns {Array}                         The filtered collection
  */
 module.exports = (collection, itemType, elementTypeRef) => {
-  let elementItems = [];
   const elementItemsLabel = itemType + '_items';
+  let
+    groupItems = [],
+    itemGroup = collection,
+    groupItemHasData = true,
+    groupItemHasName = false,
+    groupItemHasElementItems = true,
+    groupElementItems = elementItemsLabel,
+    groupElementTypeRef = elementTypeRef
+  ;
 
   if (
-    typeof(collection) !== 'undefined' &&
-    Array.isArray(collection) &&
-    collection.length > 0
+    isArray(itemGroup) &&
+    isArrayWithItems(itemGroup)
   ) {
-    collection.forEach(item => {
-      if (
-        item.hasOwnProperty('data') &&
-        item.data.hasOwnProperty('type') &&
-        item.data.hasOwnProperty('machine_name') &&
-        item.data.hasOwnProperty(elementItemsLabel) &&
-        typeof(item.data[elementItemsLabel]) !== 'undefined' &&
-        item.data[elementItemsLabel].length > 0
-      ) {
-        item.data[elementItemsLabel].forEach(elementItem => {
-          let elementType = item.data['type'];
-          let elementMachineName = item.data['machine_name'];
-
-          if (
-            elementItem.hasOwnProperty('type') &&
-            elementItem.type === itemType
-          ) {
-            elementItem['uuid'] = uuidv4();
-
-            if (elementTypeRef !== false) {
-              elementItem[elementType] = elementMachineName;
-            }
-
-            elementItems.push({
-              data: elementItem
-            });
-          }
-        });
-      }
+    itemGroup.forEach(groupItem => {
+      groupItems = checkGroupItem(
+        groupItems,
+        groupItem,
+        itemType,
+        groupItemHasData,
+        groupItemHasName,
+        groupItemHasElementItems,
+        groupElementItems,
+        groupElementTypeRef
+      );
     });
   }
 
-  return elementItems;
+  console.log('element items by type group has ' + groupItems.length + ' items for ' + itemType);
+
+  return groupItems;
 };
