@@ -49,7 +49,7 @@ module.exports = config => {
   config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
   let
-    cacheDuration = '1s',
+    cacheDuration = '5d',
     rootData = {
       plants: {
         dataPath: ['plants_archive', 'family'],

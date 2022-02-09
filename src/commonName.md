@@ -5,6 +5,5 @@ pagination:
   data: collections.common_name
   size: 1
   alias: common_name
-permalink:
-  serverless: '{{ common_name | getCommonNamePermalink }}'
+permalink: '{{ common_name | getCommonNamePermalink }}'
 ---
