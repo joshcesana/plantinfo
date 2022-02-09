@@ -5,6 +5,5 @@ pagination:
   data: collections.nursery
   size: 1
   alias: nursery
-permalink:
-  serverless: '{{ nursery | getNurseryPermalink }}'
+permalink: '{{ nursery | getNurseryPermalink }}'
 ---

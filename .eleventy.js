@@ -225,6 +225,8 @@ module.exports = config => {
   config.addCollection('genus', async (collection) => {
     plantFamilyRootCollection = collection;
     plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+    console.log('family collection has items');
+    console.log(plantFamilyCollection.length > 0);
 
     return await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
   });
@@ -234,6 +236,8 @@ module.exports = config => {
     plantFamilyRootCollection = collection;
     plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
     plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
+    console.log('genus collection has items');
+    console.log(plantGenusCollection.length > 0);
 
     return await getCacheData(cacheData.plantGenusLettersCache, [plantGenusCollection], cacheDuration);
   });
@@ -253,6 +257,8 @@ module.exports = config => {
     plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
     plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
     plantSpeciesCollection = await getCacheData(cacheData.plantSpeciesCache, [plantGenusCollection], cacheDuration);
+    console.log('species collection has items');
+    console.log(plantSpeciesCollection.length > 0);
 
     return await getCacheData(cacheData.plantVarietyCache, [plantSpeciesCollection], cacheDuration);
   });
@@ -273,6 +279,8 @@ module.exports = config => {
   config.addCollection('nursery_catalog', async (collection) => {
     nurseryRootCollection = collection;
     nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
+    console.log('nursery collection has items');
+    console.log(nurseryCollection.length > 0);
 
     return await getCacheData(cacheData.nurseryCatalogCache, [nurseryCollection], cacheDuration);
   });
@@ -294,7 +302,18 @@ module.exports = config => {
     nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
 
     nurseryPrepareIndexCollection = await getCacheData(cacheData.nurseryPrepareIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
+    console.log('nursery prepare index collection has items');
+    console.log(nurseryPrepareIndexCollection.length > 0);
+
     nurseryBuildIndexCollection = await getCacheData(cacheData.nurseryBuildIndexCache, [nurseryPrepareIndexCollection], cacheDuration);
+    console.log('nursery category collection has items');
+    console.log(nurseryCategoryCollection.length > 0);
+
+    console.log('nursery specialty collection has items');
+    console.log(nurserySpecialtiesCollection.length > 0);
+
+    console.log('nursery paged category collection has items');
+    console.log(nurseryPagedCategoryCollection.length > 0);
 
     writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryBuildIndexCollection);
     writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryPrepareIndexCollection);
@@ -319,6 +338,18 @@ module.exports = config => {
     journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
     citationCollection = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
 
+    console.log('plant variety collection has items');
+    console.log(plantVarietyCollection.length > 0);
+
+    console.log('plant common name collection has items');
+    console.log(plantCommonNameCollection.length > 0);
+
+    console.log('journal collection has items');
+    console.log(journalCollection.length > 0);
+
+    console.log('citation collection has items');
+    console.log(citationCollection.length > 0);
+
     plantPrepareIndexCollection = [];
     plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
       [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection],
@@ -326,6 +357,8 @@ module.exports = config => {
       nurseryCatalogCollection,
       citationCollection
     ], cacheDuration);
+    console.log('plant prepare index collection has items');
+    console.log(plantPrepareIndexCollection.length > 0);
     plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
 
     writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);

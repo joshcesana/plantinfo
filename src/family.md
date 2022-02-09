@@ -5,8 +5,7 @@ pagination:
   data: collections.family
   size: 1
   alias: plant
-permalink:
-  serverless: '{{ plant | getPlantPermalink }}'
+permalink: '{{ plant | getPlantPermalink }}'
 eleventyComputed:
     title: "Plant Family: {{ plant.data.name }}"
 ---

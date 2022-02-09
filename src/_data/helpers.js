@@ -1,3 +1,4 @@
+const uuidv4 = require("uuid/v4");
 module.exports = {
 
   /**
@@ -8,6 +9,23 @@ module.exports = {
    */
   capitalizeFirstLetter(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
+  },
+
+  /**
+   * Gets the methods for an object, including those on prototype chain.
+   *
+   * @param {Object}       checkThis       The object chain.
+   * @returns {Array}                   The array of object methods.
+   */
+  getObjectMethods(checkThis) {
+    let properties = new Set();
+    let currentObject = checkThis;
+    do {
+      Object.getOwnPropertyNames(currentObject).map(item => properties.add(item));
+    } while (
+      (currentObject = Object.getPrototypeOf(currentObject))
+      );
+    return [...properties.keys()].filter(item => typeof checkThis[item] === 'function');
   },
 
   /**
@@ -58,6 +76,34 @@ module.exports = {
   },
 
   /**
+   * Checks if this is an object.
+   *
+   * @param {Object}       checkThis   The item to check.
+   * @returns {Boolean}               The determination if this is an object.
+   */
+  isObject(checkThis) {
+    return (
+      typeof checkThis !== undefined &&
+      typeof checkThis !== null &&
+      Object.prototype.toString.call(checkThis) === '[object Object]'
+    );
+  },
+
+  /**
+   * Checks if this object is an array.
+   *
+   * @param {Array}       checkThis   The item to check.
+   * @returns {Boolean}               The determination if this is an array.
+   */
+  isArray(checkThis) {
+    return (
+      typeof checkThis !== undefined &&
+      typeof checkThis !== null &&
+      Object.prototype.toString.call(checkThis) === '[object Array]'
+    );
+  },
+
+  /**
    * Checks if this is an array that has items.
    *
    * @param {Array}       checkThis   The item to check.
@@ -68,6 +114,29 @@ module.exports = {
       Array.isArray(checkThis) &&
       checkThis.length > 0
     );
+  },
+
+  /**
+   * Checks if this is an Eleventy collection.
+   *
+   * @param {Array}       checkThis   The item to check.
+   * @returns {Boolean}               The determination if the object has these properties.
+   */
+  isCollection(checkThis) {
+    return (
+      module.exports.isObject(checkThis) &&
+      module.exports.getObjectMethods(checkThis).includes('getAll')
+    );
+  },
+
+  /**
+   * Copies an object without a reference.
+   *
+   * @param {Object}       object      The object.
+   * @returns {Object}                 The copied object.
+   */
+  copyObject(object) {
+    return Object.assign(object)
   },
 
   /**
@@ -92,6 +161,350 @@ module.exports = {
       ...defaultObject,
       ...module.exports.cloneObject(overrideObject)
     };
+  },
+
+  /**
+   * Finds the values from an object.
+   *
+   * @param {Object|Array}       checkThis      The item to check.
+   * @returns {Array}                           The object values.
+   */
+  objectValueSeeker(checkThis) {
+    let objectValues = [];
+
+    if (module.exports.isObject(checkThis)) {
+      objectValues = Object.values(checkThis);
+    } else if (module.exports.isArray(checkThis)) {
+      let arrayToObject = {};
+
+      checkThis.map((arrayItemValue, objectKey) => {
+        arrayToObject[objectKey] = arrayItemValue;
+      });
+
+      objectValues = module.exports.objectValueSeeker(arrayToObject);
+    }
+
+    return objectValues;
+  },
+
+  /**
+   * Get root data from collection.
+   *
+   * @param {Array}        collection         The 11ty collection
+   * @returns {Object}                        The collection data.
+   */
+  getCollectionRootData(collection) {
+    let
+      allCollectionData = [];
+      rootCollectionData = {};
+
+    if (module.exports.isCollection(collection)) {
+      allCollectionData = collection.getAll();
+
+      if (
+        module.exports.isArrayWithItems(allCollectionData) &&
+        module.exports.isObject(allCollectionData[0]) &&
+        module.exports.objectHasOwnProperties(allCollectionData[0], ['data'])
+      ) {
+        rootCollectionData = collection.getAll()[0].data;
+      }
+    }
+
+    return rootCollectionData;
+  },
+
+  /**
+   * Get data from collection path.
+   *
+   * @param {Array}        collectionData     The 11ty collection data.
+   * @param {Array}        dataPath           The path to the data.
+   * @returns {Object}                        The collection data.
+   */
+  getCollectionPathData(collectionData, dataPath) {
+    let collectionPathData = {};
+
+    if (module.exports.isObject(collectionData) && module.exports.isArrayWithItems(dataPath)) {
+      collectionPathData = collectionData;
+      dataPath.forEach(pathItem => {
+        if (module.exports.objectHasOwnProperties(collectionPathData, [pathItem])) {
+          collectionPathData = collectionPathData[pathItem];
+        }
+      });
+    }
+
+    return collectionPathData;
+  },
+
+  /**
+   * Add item from group to group of items.
+   *
+   * @param {Array}        groupItems    The group items.
+   * @param {Object}       groupItem     The group item object.
+   * @return {Array}                     The group items.
+   */
+  addGroupItem (groupItems, groupItem) {
+    groupItem['uuid'] = uuidv4();
+
+    groupItems.push({
+      data: groupItem
+    });
+
+    return groupItems;
+
+  },
+
+  /**
+   * Check an element item from group before adding it to a group of items.
+   *
+   * @param {Array}     groupItems            The group items.
+   * @param {Object}    elementItem           The element item object.
+   * @param {String}    elementType         The group item type.
+   * @param {String}    elementMachineName  The group item machine name.
+   * @param {String}    itemType              The item type for the group items.
+   * @param {Boolean|String}  elementTypeRef  The option to add a reference to
+   *                                          the element machine name, using
+   *                                          the element type.
+   * @return {Array}                     The group items.
+   */
+  checkGroupElementItem (
+    groupItems,
+    elementItem,
+    elementType,
+    elementMachineName,
+    itemType,
+    elementTypeRef = false,
+  ) {
+    let itemToCheck = elementItem;
+
+    if (
+      module.exports.objectHasOwnProperties(itemToCheck, ['type']) &&
+      itemToCheck.type === itemType
+    ) {
+      if (elementTypeRef !== false) {
+        itemToCheck[elementType] = elementMachineName;
+      }
+
+      groupItems = module.exports.addGroupItem(groupItems, itemToCheck);
+    }
+
+    return groupItems;
+  },
+
+  /**
+   * Check an item from group before adding it to a group of items.
+   *
+   * @param {Array}     groupItems       The group items.
+   * @param {Object}    groupItem        The group item object.
+   * @param {String}    itemType         The item type for the group items.
+   * @param {Boolean}   hasData          The group item has a data sub-element.
+   * @param {Boolean}   hasName          The group item has a name value.
+   * @param {Boolean}   hasElementItems  The group item has element items (label).
+   * @param {String}    elementItems     The element items label.
+   * @param {Boolean|String}  elementTypeRef  The option to add a reference to
+   *                                          the element machine name, using
+   *                                          the element type.
+   * @return {Array}                     The group items.
+   */
+  checkGroupItem (
+    groupItems,
+    groupItem,
+    itemType,
+    hasData = false,
+    hasName = false,
+    hasElementItems = false,
+    elementItems = '',
+    elementTypeRef = false,
+  ) {
+    let itemToCheck = groupItem;
+
+    if (
+      hasData &&
+      module.exports.objectHasOwnProperties(itemToCheck, ['data'])
+    ) {
+      itemToCheck = itemToCheck['data'];
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(itemToCheck, ['type']) &&
+      module.exports.objectHasOwnProperties(itemToCheck, ['machine_name'])
+    ) {
+      if (
+        hasName &&
+        module.exports.objectHasOwnProperties(itemToCheck, ['name']) &&
+        itemToCheck.type === itemType
+      ) {
+        groupItems = module.exports.addGroupItem(groupItems, itemToCheck);
+      } else if (
+        hasElementItems &&
+        module.exports.objectHasOwnProperties(itemToCheck, [elementItems]) &&
+        module.exports.isArrayWithItems(itemToCheck[elementItems])
+      ) {
+        itemToCheck[elementItems].forEach(elementItem => {
+          let
+            elementType = itemToCheck['type'],
+            elementMachineName = itemToCheck['machine_name'];
+
+          groupItems = module.exports.checkGroupElementItem(
+            groupItems,
+            elementItem,
+            elementType,
+            elementMachineName,
+            itemType,
+            elementTypeRef
+          );
+        });
+      }
+    }
+
+    return groupItems;
+  },
+
+  /**
+   * Add item from letter group to group of items.
+   *
+   * @param {Object}    letterListSearch  The object used for collecting the
+   *                                      letter list, containing:
+   *                                      - @param {Array} letterList
+   *                                      - @param {Array} letterFoundList
+   * @param {Object}    letterGroupItem   The letter group item object.
+   * @param {String}    firstLetter       The first letter to add.
+   * @return {Object}                     The letterListSearch items.
+   */
+  addLetterGroupItem (letterListSearch, letterGroupItem, firstLetter) {
+    letterListSearch.letterFoundList.push(firstLetter);
+    letterListSearch.letterList.push({
+      data: {
+        name: firstLetter,
+        letter: firstLetter,
+        letter_slug: firstLetter.toLowerCase()
+      }
+    });
+
+    return letterListSearch;
+  },
+
+  /**
+   * Check an item from letter group before adding it to a group of items.
+   *
+   * @param {Object}    letterListSearch The object used for collecting the
+   *                                     letter list, containing:
+   *                                     - @param {Array} letterList
+   *                                     - @param {Array} letterFoundList
+   * @param {Object}    letterGroupItem  The letter group item object.
+   * @param {String}    itemType         The item type for the letter group items.
+   * @return {Object}                     The letterListSearch items.
+   */
+  checkLetterGroupItem (
+    letterListSearch,
+    letterGroupItem,
+    itemType,
+  ) {
+    let itemToCheck = letterGroupItem;
+
+    if (
+      module.exports.objectHasOwnProperties(itemToCheck, ['data'])
+    ) {
+      itemToCheck = itemToCheck['data'];
+    }
+
+    if (
+      module.exports.objectHasOwnProperties(itemToCheck, ['type']) &&
+      module.exports.objectHasOwnProperties(itemToCheck, ['name']) &&
+      itemToCheck.type === itemType
+    ) {
+      let
+        letterGroupItem = module.exports.cloneObject(itemToCheck),
+        firstLetter = (letterGroupItem.name.match(/[a-zA-Z]/) || []).pop();
+
+      if (firstLetter !== '' && !letterListSearch.letterFoundList.includes(firstLetter)) {
+        letterListSearch = module.exports.addLetterGroupItem(letterListSearch, letterGroupItem, firstLetter)
+      }
+    }
+
+    return letterListSearch;
+  },
+
+  /**
+   * Add item from level to collection of items.
+   *
+   * @param {Array}        collectionItems    The collection items.
+   * @param {Object}       levelItem          The level item object.
+   * @param {String}       itemType           The collection item type.
+   * @return {Array}                          The collection items.
+   */
+  addLevelItem (collectionItems, levelItem, itemType) {
+    if (
+      module.exports.objectHasOwnProperties(levelItem, ['type']) &&
+      levelItem.type === itemType
+    ) {
+      levelItem['uuid'] = uuidv4();
+
+      collectionItems.push({
+        data: levelItem
+      });
+    }
+
+    return collectionItems;
+  },
+
+  /**
+   * Get the values for the level in an array.
+   *
+   * @param {Object|Array}        levelToSearch       The level to search.
+   * @param {Boolean}      checkForLevelArray  The option to check if the level
+   *                                            to search is in an array.
+   * @return {Array}                           The level values.
+   */
+  getLevelValues(levelToSearch, checkForLevelArray) {
+    let levelValues = [];
+
+    if (checkForLevelArray) {
+      levelValues = module.exports.objectValueSeeker(levelToSearch);
+    } else if (module.exports.isObject(levelToSearch)) {
+      levelValues = Object.values(levelToSearch);
+    }
+
+    return levelValues;
+  },
+
+  /**
+   * Recursively search through levels until reaching target level, then add
+   * items to collection.
+   *
+   * @param {Array}        collectionItems    The collection items.
+   * @param {Object|Array} levelToSearch      The level to search.
+   * @param {Number}       currentLevel       The current level being searched.
+   * @param {Number}       targetLevel        The target level to find items.
+   * @param {String}       itemType           The collection item type.
+   * @param {Boolean}      checkForLevelArray  The option to check if the level
+   *                                            to search is in an array.
+   * @return {Array}                          The collection items.
+   */
+  levelItemSeeker(collectionItems, levelToSearch, currentLevel, targetLevel, itemType, checkForLevelArray= false) {
+    let
+      levelValues = module.exports.getLevelValues(levelToSearch, checkForLevelArray),
+      checkLevelValues = false;
+
+    if (checkForLevelArray) {
+      if (module.exports.isArrayWithItems(levelValues)) {
+        checkLevelValues = true;
+      }
+    } else {
+      checkLevelValues = true;
+    }
+
+    if (checkLevelValues) {
+      levelValues.forEach(levelValue => {
+        if (currentLevel === targetLevel) {
+          let levelItem = module.exports.copyObject(levelValue);
+          collectionItems = module.exports.addLevelItem(collectionItems, levelItem, itemType);
+        } else {
+          collectionItems = module.exports.levelItemSeeker(collectionItems, levelValue, currentLevel + 1, targetLevel, itemType, checkForLevelArray);
+        }
+      });
+    }
+
+    return collectionItems;
   },
 
   /**
@@ -542,7 +955,7 @@ module.exports = {
   /**
    * Creates the permalink path for a nursery category.
    *
-   * @param {Array}      nurseryCategoryItem The nursery category item.
+   * @param {Object|Array}      nurseryCategoryItem The nursery category item.
    * @returns {Array}                        The permalink path.
    */
   createNurseryCategoryPermalinkPath(nurseryCategoryItem) {

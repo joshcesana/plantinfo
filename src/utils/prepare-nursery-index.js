@@ -1,6 +1,8 @@
 const {
   objectHasOwnProperties,
   checkBooleanObjectProperties,
+  isObject,
+  isArray,
   isArrayWithItems,
   createNurseryPermalinkPath,
   createNurseryCategoryPermalinkPath,
@@ -16,131 +18,162 @@ const {
  * @returns {Array}                            The custom index
  */
 module.exports = (nurseryCollection, nurseryCategories) => {
-  let index = [];
-
-  let nurseryCategoriesData = [];
-
-  let addCategory = function(category, categories) {
-    if (
-      objectHasOwnProperties(category, ['data'])
-    ) {
+  let
+    index = [],
+    nurseryCategoriesData = [],
+    addCategory = function(category, categories) {
       if (
-        objectHasOwnProperties(category['data'], ['name']) &&
-        objectHasOwnProperties(category['data'], ['machine_name']) &&
-        objectHasOwnProperties(category['data'], ['type'])
+        objectHasOwnProperties(category, ['data'])
+      ) {
+        if (
+          objectHasOwnProperties(category['data'], ['name']) &&
+          objectHasOwnProperties(category['data'], ['machine_name']) &&
+          objectHasOwnProperties(category['data'], ['type'])
+        ) {
+          categories.push(category);
+        }
+      }
+      return categories
+    },
+    checkCategory = function(category, categories, type, machine_name) {
+      if (
+        (category['data']['type'] === type) &&
+        (category['data']['machine_name'] === machine_name)
       ) {
         categories.push(category);
       }
-    }
-    return categories
-  };
 
-  let checkCategory = function(category, categories, type, machine_name) {
-    if (
-      (category['data']['type'] === type) &&
-      (category['data']['machine_name'] === machine_name)
-    ) {
-      categories.push(category);
-    }
+      return categories;
+    },
+    findCategory = function(categories, type, machine_name) {
+      let
+        categoriesFound = [],
+        categoryFound = {};
 
-    return categories;
-  };
+      categories.forEach(category => {
+        categoriesFound = checkCategory(category, categoriesFound, type, machine_name);
+      });
 
-  let findCategory = function(categories, type, machine_name) {
-    let
-      categoriesFound = [],
-      categoryFound = {};
+      if (categoriesFound.length > 0) {
+        categoryFound = categoriesFound[0];
+      }
 
-    categories.forEach(category => {
-      categoriesFound = checkCategory(category, categoriesFound, type, machine_name);
-    });
+      return categoryFound;
+    },
+    buildNurseryIndexCountries = (itemIndex, itemCheck) => {
+      checkBooleanObjectProperties(itemCheck['location']['country'], (country_key, in_use) => {
+        itemIndex.country_keys.push(country_key);
+        itemIndex.country_names.push(getCountryName(country_key));
+      });
 
-    if (categoriesFound.length > 0) {
-      categoryFound = categoriesFound[0];
-    }
+      return itemIndex;
+    },
+    buildNurseryIndexSalesTypes = (itemIndex, itemCheck) => {
+      checkBooleanObjectProperties(itemCheck['retail_wholesale'], (sales_type, in_use) => {
+        itemIndex.sales_type_keys.push(sales_type);
+        itemIndex.sales_type_names.push(capitalizeFirstLetter(sales_type));
+      });
 
-    return categoryFound;
-  };
+      return itemIndex;
+    },
+    buildNurseryIndexSpecialties = (itemIndex, itemCheck, nurseryCategoriesData) => {
+      if (isArrayWithItems(itemCheck['specialties'])) {
+        itemCheck['specialties'].forEach(specialty => {
+          if (
+            objectHasOwnProperties(specialty, ['type']) &&
+            objectHasOwnProperties(specialty, ['machine_name'])
+          ) {
+            let thisSpecialty = findCategory(nurseryCategoriesData, specialty['type'], specialty['machine_name']);
+
+            if (
+              isObject(thisSpecialty) &&
+              objectHasOwnProperties(thisSpecialty, ['data'])
+            ) {
+              if (
+                objectHasOwnProperties(thisSpecialty['data'], ['name']) &&
+                objectHasOwnProperties(thisSpecialty['data'], ['machine_name']) &&
+                objectHasOwnProperties(thisSpecialty['data'], ['type'])
+              ) {
+                let thisSpecialtyPath = createNurseryCategoryPermalinkPath(thisSpecialty);
+
+                itemIndex.specialty_keys.push(thisSpecialty['data']['machine_name']);
+                itemIndex.specialty_names.push(thisSpecialty['data']['name']);
+                itemIndex.specialty_permalink_paths.push(thisSpecialtyPath);
+              }
+            }
+          }
+        });
+      }
+
+      return itemIndex;
+    },
+    buildNurseryIndex = (itemCheck, nurseryCategoriesData) => {
+      let itemIndex = {
+        machine_name: itemCheck['machine_name'],
+        permalink_path: createNurseryPermalinkPath(itemCheck),
+        name: itemCheck['name'],
+        city: itemCheck['location']['city'],
+        state: itemCheck['location']['state'],
+        country_keys: [],
+        country_names: [],
+        specialty_keys: [],
+        specialty_names: [],
+        specialty_permalink_paths: [],
+        sales_type_keys: [],
+        sales_type_names: [],
+      };
+
+      itemIndex = buildNurseryIndexSpecialties(itemIndex, itemCheck, nurseryCategoriesData);
+      itemIndex = buildNurseryIndexSalesTypes(itemIndex, itemCheck);
+      itemIndex = buildNurseryIndexCountries(itemIndex, itemCheck);
+
+      return itemIndex;
+    },
+    addItemToIndex = (index, item) => {
+      index.push(item);
+
+      return index;
+    },
+    checkNursery = (index, nursery, nurseryCategoriesData) => {
+      let itemCheck = nursery;
+
+      if (
+        objectHasOwnProperties(itemCheck, ['data'])
+      ) {
+        itemCheck = nursery.data;
+
+        if (
+          objectHasOwnProperties(itemCheck, ['name']) &&
+          objectHasOwnProperties(itemCheck, ['machine_name']) &&
+          objectHasOwnProperties(itemCheck, ['location', 'city']) &&
+          objectHasOwnProperties(itemCheck, ['location', 'state']) &&
+          objectHasOwnProperties(itemCheck, ['location', 'country']) &&
+          objectHasOwnProperties(itemCheck, ['specialties']) &&
+          objectHasOwnProperties(itemCheck, ['retail_wholesale'])
+        ) {
+          let itemIndex = buildNurseryIndex(itemCheck, nurseryCategoriesData);
+          index = addItemToIndex(index, itemIndex)
+        }
+      }
+
+      return index;
+    };
 
   nurseryCategories.forEach(nurseryCategory => {
     nurseryCategoriesData = addCategory(nurseryCategory, nurseryCategoriesData);
   });
 
-  if (isArrayWithItems(nurseryCollection)) {
+  if (
+    isArray(nurseryCollection) &&
+    isArrayWithItems(nurseryCollection)
+  ) {
+    console.log('nursery collection has an array for indexing');
     nurseryCollection.forEach(nursery => {
-      if (
-        objectHasOwnProperties(nursery, ['data'])
-      ) {
-
-        if (
-          objectHasOwnProperties(nursery.data, ['name']) &&
-          objectHasOwnProperties(nursery.data, ['machine_name']) &&
-          objectHasOwnProperties(nursery.data, ['location', 'city']) &&
-          objectHasOwnProperties(nursery.data, ['location', 'state']) &&
-          objectHasOwnProperties(nursery.data, ['location', 'country']) &&
-          objectHasOwnProperties(nursery.data, ['specialties']) &&
-          objectHasOwnProperties(nursery.data, ['retail_wholesale'])
-        ) {
-          let
-            permalink_path = createNurseryPermalinkPath(nursery),
-            nurserySpecialties = [],
-            nurserySpecialtyKeys = [],
-            nurserySpecialtyPaths = [],
-            salesTypeKeys = [],
-            salesTypeNames = [],
-            countryKeys = [],
-            countryNames = [];
-
-          if (isArrayWithItems(nursery.data['specialties'])) {
-            nursery.data['specialties'].forEach(specialty => {
-              if (
-                objectHasOwnProperties(specialty, ['type']) &&
-                objectHasOwnProperties(specialty, ['machine_name'])
-              ) {
-                let thisSpecialty = findCategory(nurseryCategoriesData, specialty['type'], specialty['machine_name']);
-                nurserySpecialtyKeys.push(thisSpecialty['data']['machine_name']);
-
-                if (
-                  objectHasOwnProperties(thisSpecialty, ['data']) &&
-                  objectHasOwnProperties(thisSpecialty['data'], ['name'])
-                ) {
-                  nurserySpecialties.push(thisSpecialty['data']['name']);
-                }
-
-                let thisSpecialtyPath = createNurseryCategoryPermalinkPath(thisSpecialty);
-                nurserySpecialtyPaths.push(thisSpecialtyPath);
-              }
-            });
-          }
-
-          checkBooleanObjectProperties(nursery.data['retail_wholesale'], (sales_type, in_use) => {
-            salesTypeKeys.push(sales_type);
-            salesTypeNames.push(capitalizeFirstLetter(sales_type));
-          });
-
-          checkBooleanObjectProperties(nursery.data['location']['country'], (country_key, in_use) => {
-            countryKeys.push(country_key);
-            countryNames.push(getCountryName(country_key));
-          });
-
-          index.push({
-            machine_name: nursery.data['machine_name'],
-            permalink_path: permalink_path,
-            name: nursery.data['name'],
-            city: nursery.data['location']['city'],
-            state: nursery.data['location']['state'],
-            country_keys: countryKeys,
-            country_names: countryNames,
-            specialty_keys: nurserySpecialtyKeys,
-            specialty_names: nurserySpecialties,
-            specialty_permalink_paths: nurserySpecialtyPaths,
-            sales_type_keys: salesTypeKeys,
-            sales_type_names: salesTypeNames,
-          });
-      }
-      }
+      index = checkNursery(index, nursery, nurseryCategoriesData);
     });
   }
+
+  console.log('nursery index has ' + index.length + ' items');
 
   return index;
 };

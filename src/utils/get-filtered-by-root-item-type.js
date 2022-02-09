@@ -1,4 +1,10 @@
-const uuidv4 = require("uuid/v4");
+const {
+  getCollectionRootData,
+  isArray,
+  isArrayWithItems,
+  getCollectionPathData,
+  checkGroupItem,
+} = require('../_data/helpers.js');
 
 /**
  * Takes a collection and returns it back with the attached items by type.
@@ -9,39 +15,31 @@ const uuidv4 = require("uuid/v4");
  * @returns {Array}                   The filtered collection
  */
 module.exports = (collection, dataPath, itemType) => {
-  let rootGroup = collection.getAll()[0].data;
-  let rootItems = [];
-
-  dataPath.forEach(pathItem => {
-    if (
-      rootGroup.hasOwnProperty(pathItem) &&
-      typeof(rootGroup[pathItem]) !== 'undefined'
-    ) {
-      rootGroup = rootGroup[pathItem];
-    }
-  });
+  let
+    groupItems = [],
+    collectionRootData = getCollectionRootData(collection),
+    collectionPathData = getCollectionPathData(collectionRootData, dataPath),
+    itemGroup = collectionPathData,
+    groupItemHasData = false,
+    groupItemHasName = true
+  ;
 
   if (
-    typeof(rootGroup) !== 'undefined' &&
-    Array.isArray(rootGroup) &&
-    rootGroup.length > 0
+    isArray(itemGroup) &&
+    isArrayWithItems(itemGroup)
   ) {
-
-    rootGroup.forEach(rootItem => {
-      if (
-        rootItem.hasOwnProperty('type') &&
-        rootItem.type === itemType &&
-        rootItem.hasOwnProperty('name') &&
-        rootItem.hasOwnProperty('machine_name')
-      ) {
-        rootItem['uuid'] = uuidv4();
-
-        rootItems.push({
-          data: rootItem
-        });
-      }
+    itemGroup.forEach(groupItem => {
+      groupItems = checkGroupItem(
+        groupItems,
+        groupItem,
+        itemType,
+        groupItemHasData,
+        groupItemHasName
+      );
     });
   }
 
-  return rootItems;
+  console.log('root group has ' + groupItems.length + ' items for ' + itemType);
+
+  return groupItems;
 };
