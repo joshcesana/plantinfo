@@ -4,9 +4,9 @@
 }
 
 .page-title--general {
-  line-height: 1.5;
   @include apply-utility('font', 'base');
   @include apply-utility('weight', 'normal');
+  line-height: 1.5;
   font-size: #{get-size('700')};
   padding-top: #{get-size('700')};
 }
@@ -14,19 +14,17 @@
 .general-content {
   @include apply-utility('leading', 'loose');
 
-  > * {
-    @include apply-utility('measure', 'long');
-  }
-
   h2 {
     font-size: get-size('600');
-    padding-top: #{get-size('600')};
+    padding-top: #{get-size('300')};
+    padding-bottom: #{get-size('300')};
     line-height: 1.5;
   }
 
   h3 {
     font-size: get-size('500');
-    padding-top: #{get-size('500')};
+    padding-top: #{get-size('300')};
+    padding-bottom: #{get-size('300')};
     line-height: 1.5;
   }
 
@@ -54,11 +52,10 @@
     --flow-space: #{get-size('300')};
   }
 
-  p {
-    font-size: 1em;
-    line-height: 1.7;
+  ol, ul, p {
     color: get-color('dark');
-    margin-top: get-size('400');
-    margin-bottom: get-size('400');
+    margin-bottom: get-size('600');
+    font-size: 1rem;
+    line-height: 1.5;
   }
 }
