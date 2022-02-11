@@ -59,6 +59,10 @@
     line-height: 1.5;
   }
 
+  p:last-child {
+    margin-bottom: 0;
+  }
+
   a {
     color: get-color('quinary-shade');
     text-decoration: none;
