@@ -4,12 +4,17 @@
 
 <div class="[ wrapper wrapper--topbot ]">
   <article>
-      <div class="[ page-head ] [ page-head--general ]">
-        <h1 class="[ page-title ] [ page-title--general ]">{{ title }}</h1>
-      </div>
-      <div class="[ general-content ] [ measure-long ]">
-        {{ content | safe }}
-      </div>
+    <div class="[ page-head ] [ page-head--general ]">
+      <h1 class="[ page-title ] [ page-title--general ]">
+        {{ title }}
+      </h1>
+    </div>
+    <div class="[ general-content ] [ measure-long ]">
+    {{ content | safe }} 
+    
+    {% if boxContent %} 
+      {% include "partials/contact/contact-us-box.html" %} 
+    {% endif %}</div>
   </article>
 </div>
 
