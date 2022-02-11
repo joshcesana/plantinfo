@@ -3,7 +3,7 @@
 .box {
   border: 1px solid get-color('secondary-shade');
   box-shadow: 0 0 3px 0 rgb(0 0 0 / 20%);
-  padding: get-size('600') get-size('400');
+  padding: get-size('500');
   background-color: #{get-color('tertiary-glare')};
   margin-bottom: get-size('600');
 }
