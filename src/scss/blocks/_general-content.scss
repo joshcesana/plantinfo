@@ -1,0 +1,71 @@
+.page-head--general {
+  padding-top: #{get-size('300')};
+  padding-bottom: 0;
+}
+
+.page-title--general {
+  @include apply-utility('font', 'base');
+  @include apply-utility('weight', 'normal');
+  line-height: 1.5;
+  font-size: #{get-size('700')};
+  padding-top: #{get-size('700')};
+}
+
+.general-content {
+  @include apply-utility('leading', 'loose');
+
+  h2 {
+    font-size: get-size('600');
+    padding-top: #{get-size('300')};
+    padding-bottom: #{get-size('300')};
+    line-height: 1.5;
+  }
+
+  h3 {
+    font-size: get-size('500');
+    padding-top: #{get-size('300')};
+    padding-bottom: #{get-size('300')};
+    line-height: 1.5;
+  }
+
+  ol,
+  ul {
+    padding-inline-start: get-size('800');
+  }
+
+  li + li {
+    margin-top: get-size('300');
+  }
+
+  // Add a greater flow space for heading elements so
+  // they appear more like article sections
+  h1,
+  h2,
+  h3 {
+    --flow-space: #{get-size('800')};
+  }
+
+  // Add tighter flow for elements that follow a heading
+  h1,
+  h2 + *,
+  h3 + * {
+    --flow-space: #{get-size('300')};
+  }
+
+  ol, ul, p {
+    color: get-color('dark');
+    margin-bottom: get-size('600');
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  a {
+    color: get-color('quinary-shade');
+    text-decoration: none;
+  
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+}
