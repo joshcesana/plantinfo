@@ -1,5 +1,21 @@
+{% set letter_bar_topic_default = 'Genus' %}
+{% if (letter_bar_type) and (letter_bar_type == 'genus') %}
+  {% set letter_bar_topic = letter_bar_topic_default %}
+  {% set nav_type = 'genus' %}
+{% elif (letter_bar_type) and (letter_bar_type == 'common_name') %}
+  {% set letter_bar_topic = 'Common Name' %}
+  {% set nav_type = letter_bar_type %}
+{% endif %}
+
 <div class="letter-bar">
-  <h2 class="letter-bar__title">Browse by Genus</h2>
-  {% set nav_plant_type = 'genus' %}
-  {% include "./plant-type-letter-nav.html" %}
+  <h2 class="letter-bar__title">Browse by {{ letter_bar_topic }}</h2>
+  {% if nav_type == 'genus' %}
+    {% set nav_plant_type = nav_type %}
+    {% include "./plant-type-letter-nav.html" %}
+  {% elif nav_type == 'common_name' %}
+    {% set nav_type_name = 'common names' %}
+    {% set nav_type_title = 'Common names' %}
+    {% set letter_collection_prefix = 'commonNames' %}
+    {% include "./item-type-letter-nav.html" %}
+  {% endif %}
 </div>

@@ -1,5 +1,6 @@
 ---
 title: 'Plant Genus'
+type: 'genus'
 layout: 'layouts/letter-directory.html'
 pagination:
   data: collections.genusLetters

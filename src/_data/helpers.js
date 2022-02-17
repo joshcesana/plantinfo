@@ -890,13 +890,13 @@ module.exports = {
   },
 
   /**
-   * Filters a list of plant items in a directory by letter.
+   * Filters a list of items in a directory by letter.
    *
-   * @param {Array}      directoryPlantItems The directory plant items.
+   * @param {Array}      directoryItems      The directory items.
    * @param {String}     letter_slug         The letter to filter by.
-   * @returns {Array}                        The directory plant items.
+   * @returns {Array}                        The directory items.
    */
-  filterDirectoryItemsByLetter(directoryPlantItems, letter_slug) {
+  filterDirectoryItemsByLetter(directoryItems, letter_slug) {
     let getLetterSlug = () => letter_slug;
 
     let matchItemWithSlug = (item) => {
@@ -908,7 +908,7 @@ module.exports = {
         item.data.name.toLowerCase().charAt(0) === slug;
     };
 
-    return directoryPlantItems.filter(item => matchItemWithSlug(item));
+    return directoryItems.filter(item => matchItemWithSlug(item));
   },
 
   /**
@@ -1142,15 +1142,16 @@ module.exports = {
   },
 
   /**
-   * Returns a link list of plant items in a directory.
+   * Returns a link list of items in a directory.
    *
-   * @param {Array}      collections         The default collections.
-   * @param {Array}      directoryPlantItems The directory plant items.
-   * @param {String}     directoryPlantType  The plant type of the directory plant items.
-   * @returns {Array}                         The directory plant items.
+   * @param {Array}      collections      The default collections.
+   * @param {Array}      dirItems         The directory items.
+   * @param {String}     dirItemType      The item type of the directory items.
+   * @param {String}     dirPermalinkType The permalink type of the directory items.
+   * @returns {Array}                     The directory  items.
    */
-  createDirectoryLinkList(collections, directoryPlantItems, directoryPlantType) {
-    return module.exports.createLinkList(collections, directoryPlantItems, directoryPlantType, 'directory');
+  createDirectoryLinkList(collections, dirItems, dirItemType, dirPermalinkType = 'plant') {
+    return module.exports.createLinkList(collections, dirItems, dirItemType, 'directory', dirPermalinkType);
   },
 
   /**
@@ -1177,7 +1178,10 @@ module.exports = {
           permalinkPath = module.exports.createPlantPermalinkPath(item);
         } else if (permalinkType === 'nursery_category') {
           permalinkPath = module.exports.createNurseryCategoryPermalinkPath(item);
+        } else if (permalinkType === 'common_name') {
+          permalinkPath = module.exports.createCommonNamePermalinkPath(item)
         }
+
 
         let linkListItem = {
           list_item_class: '[ ' + classPrefix + '-' + itemType + '__link-list-item ]',
@@ -1271,6 +1275,46 @@ module.exports = {
             list_item_class: '[ letter-list-item--' + plantType + '-directory ]',
             link_class: '[ letter-list--' + plantType + '-directory ]',
             directory_path: plantType + '-directory',
+            letter_slug: letter.data.letter_slug,
+            letter: letter.data.letter
+          }
+        );
+      }
+    });
+
+    return letterLinkList;
+  },
+
+  /**
+   * Returns a letter link list based on initial letters of item type.
+   *
+   * @param {Array}      letterList        The array of common names.
+   * @param {String}     itemType          The item type.
+   * @param {Boolean}    itemDirHasPlural  If the item directory name is
+   *                                       pluralized.
+   * @returns {Array}                      The link list of plant letters.
+   */
+  createItemTypeLetterLinkList(letterList, itemType, itemDirHasPlural) {
+
+    let
+      letterLinkList = [],
+      directoryPath = itemType;
+
+    if (itemDirHasPlural) {
+      directoryPath = directoryPath + 's';
+    }
+
+    letterList.forEach(letter => {
+      if (
+        letter.hasOwnProperty('data') &&
+        letter.data.hasOwnProperty('letter_slug') &&
+        letter.data.hasOwnProperty('letter')
+      ) {
+        letterLinkList.push(
+          {
+            list_item_class: '[ letter-list-item--' + itemType + '-directory ]',
+            link_class: '[ letter-list--' + itemType + '-directory ]',
+            directory_path: directoryPath,
             letter_slug: letter.data.letter_slug,
             letter: letter.data.letter
           }

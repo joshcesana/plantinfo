@@ -1,0 +1,18 @@
+{% set item_type = nav_type %}
+{% set item_type_name = nav_type_name %}
+{% set item_type_title = nav_type_title ~ ' directory pages' %}
+{% set letterCollection =  letter_collection_prefix ~ 'Letters %}
+{% set item_type_letter_collection = collections[letterCollection] %}
+{% set item_type_letter_link_list = helpers.createItemTypeLetterLinkList(item_type_letter_collection) %}
+{% set letter_list_wrapper =
+  {
+    wrapper_class: '[ letter-list-section--' ~ item_type ~ 'common-names-directory letter-list-section--directory ]',
+    title_class: '[ letter-list-section__title--' ~ item_type ~ '-directory ]',
+    list_class: '[ letter-list--' ~ item_type ~ '-directory ]',
+    heading_level: 'h3',
+    title: item_type_title,
+    letter_list: item_type_letter_link_list,
+    empty_message: 'There are no ' ~ item_type_name ~ ' items at present.'
+  }
+%}
+{% include "../letter-nav/letter-list-wrapper.html" %}
