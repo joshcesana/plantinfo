@@ -1,0 +1,6520 @@
+{
+  "name": "plants",
+  "children": [
+    {
+      "name": "family",
+      "children": [
+        {
+          "name": "a",
+          "children": [
+            {
+              "name": "aardvarcaceae",
+              "children": [
+                {
+                  "name": "aardvarcaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "acanthaceae",
+              "children": [
+                {
+                  "name": "acanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aceraceae",
+              "children": [
+                {
+                  "name": "aceraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "achariaceae",
+              "children": [
+                {
+                  "name": "achariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "achatocarpaceae",
+              "children": [
+                {
+                  "name": "achatocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "acoraceae",
+              "children": [
+                {
+                  "name": "acoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "actinidiaceae",
+              "children": [
+                {
+                  "name": "actinidiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "adiantaceae",
+              "children": [
+                {
+                  "name": "adiantaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "adiantiaceae",
+              "children": [
+                {
+                  "name": "adiantiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "adoxaceae",
+              "children": [
+                {
+                  "name": "adoxaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aextoxicaceae",
+              "children": [
+                {
+                  "name": "aextoxicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "agavaceae",
+              "children": [
+                {
+                  "name": "agavaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aizoaceae",
+              "children": [
+                {
+                  "name": "aizoaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "akaniaceae",
+              "children": [
+                {
+                  "name": "akaniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "alangiaceae",
+              "children": [
+                {
+                  "name": "alangiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "alismataceae",
+              "children": [
+                {
+                  "name": "alismataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aloeaceae",
+              "children": [
+                {
+                  "name": "aloeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "alseuosmiaceae",
+              "children": [
+                {
+                  "name": "alseuosmiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "alstroemeriaceae",
+              "children": [
+                {
+                  "name": "alstroemeriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "altingiaceae",
+              "children": [
+                {
+                  "name": "altingiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "alzateaceae",
+              "children": [
+                {
+                  "name": "alzateaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "amaranthaceae",
+              "children": [
+                {
+                  "name": "amaranthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "amaryllidaceae",
+              "children": [
+                {
+                  "name": "amaryllidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "amborellaceae",
+              "children": [
+                {
+                  "name": "amborellaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "anacampserotaceae",
+              "children": [
+                {
+                  "name": "anacampserotaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "anacardiaceae",
+              "children": [
+                {
+                  "name": "anacardiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ancistrocladaceae",
+              "children": [
+                {
+                  "name": "ancistrocladaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "anemiaceae",
+              "children": [
+                {
+                  "name": "anemiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "anisophylleaceaae",
+              "children": [
+                {
+                  "name": "anisophylleaceaae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "annonaceae",
+              "children": [
+                {
+                  "name": "annonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aphanopetalaceae",
+              "children": [
+                {
+                  "name": "aphanopetalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aphloiaceae",
+              "children": [
+                {
+                  "name": "aphloiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "apiaceae",
+              "children": [
+                {
+                  "name": "apiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "apocynaceae",
+              "children": [
+                {
+                  "name": "apocynaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "apodanthaceae",
+              "children": [
+                {
+                  "name": "apodanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aponogetonaceae",
+              "children": [
+                {
+                  "name": "aponogetonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aquifoliaceae",
+              "children": [
+                {
+                  "name": "aquifoliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "araceae",
+              "children": [
+                {
+                  "name": "araceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "araliaceae",
+              "children": [
+                {
+                  "name": "araliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "araucariaceae",
+              "children": [
+                {
+                  "name": "araucariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "archaefructaceae",
+              "children": [
+                {
+                  "name": "archaefructaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "arecaceae",
+              "children": [
+                {
+                  "name": "arecaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "argophyllaceae",
+              "children": [
+                {
+                  "name": "argophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aristolochiaceae",
+              "children": [
+                {
+                  "name": "aristolochiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asclepiadaceae",
+              "children": [
+                {
+                  "name": "asclepiadaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asparagaceae",
+              "children": [
+                {
+                  "name": "asparagaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asphodelaceae",
+              "children": [
+                {
+                  "name": "asphodelaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "aspleniaceae",
+              "children": [
+                {
+                  "name": "aspleniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asteliaceae",
+              "children": [
+                {
+                  "name": "asteliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asteraceae",
+              "children": [
+                {
+                  "name": "asteraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "asteropeiaceae",
+              "children": [
+                {
+                  "name": "asteropeiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "atherospermataceae",
+              "children": [
+                {
+                  "name": "atherospermataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "athyriaceae",
+              "children": [
+                {
+                  "name": "athyriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "austrobaileyaceae",
+              "children": [
+                {
+                  "name": "austrobaileyaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "azollaceae",
+              "children": [
+                {
+                  "name": "azollaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "b",
+          "children": [
+            {
+              "name": "balanopaceae",
+              "children": [
+                {
+                  "name": "balanopaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "balanophoraceae",
+              "children": [
+                {
+                  "name": "balanophoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "balsaminaceae",
+              "children": [
+                {
+                  "name": "balsaminaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "baraginaceae",
+              "children": [
+                {
+                  "name": "baraginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "barbeuiaceae",
+              "children": [
+                {
+                  "name": "barbeuiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "barbeyaceae",
+              "children": [
+                {
+                  "name": "barbeyaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "basellaceae",
+              "children": [
+                {
+                  "name": "basellaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bataceae",
+              "children": [
+                {
+                  "name": "bataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "begoniaceae",
+              "children": [
+                {
+                  "name": "begoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "berberidaceae",
+              "children": [
+                {
+                  "name": "berberidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "berberidopsidaceae",
+              "children": [
+                {
+                  "name": "berberidopsidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "betulaceae",
+              "children": [
+                {
+                  "name": "betulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "biebersteiniaceae",
+              "children": [
+                {
+                  "name": "biebersteiniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bignoniaceae",
+              "children": [
+                {
+                  "name": "bignoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bixaceae",
+              "children": [
+                {
+                  "name": "bixaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "blandfordiaceae",
+              "children": [
+                {
+                  "name": "blandfordiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "blechnaceae",
+              "children": [
+                {
+                  "name": "blechnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bombacaceae",
+              "children": [
+                {
+                  "name": "bombacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bombaceae",
+              "children": [
+                {
+                  "name": "bombaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bonnetiaceae",
+              "children": [
+                {
+                  "name": "bonnetiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "boraginaceae",
+              "children": [
+                {
+                  "name": "boraginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "boryaceae",
+              "children": [
+                {
+                  "name": "boryaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "brassicaceae",
+              "children": [
+                {
+                  "name": "brassicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bretschneideraceae",
+              "children": [
+                {
+                  "name": "bretschneideraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bromeliaceae",
+              "children": [
+                {
+                  "name": "bromeliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "brunelliaceae",
+              "children": [
+                {
+                  "name": "brunelliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bruniaceae",
+              "children": [
+                {
+                  "name": "bruniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "brunoniaceae",
+              "children": [
+                {
+                  "name": "brunoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "bryaceae",
+              "children": [
+                {
+                  "name": "bryaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "burmanniaceae",
+              "children": [
+                {
+                  "name": "burmanniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "burseraceae",
+              "children": [
+                {
+                  "name": "burseraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "butomaceae",
+              "children": [
+                {
+                  "name": "butomaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "buxaceae",
+              "children": [
+                {
+                  "name": "buxaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "byblidaceae",
+              "children": [
+                {
+                  "name": "byblidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "c",
+          "children": [
+            {
+              "name": "cabombaceae",
+              "children": [
+                {
+                  "name": "cabombaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cactaceae",
+              "children": [
+                {
+                  "name": "cactaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "calceolariaceae",
+              "children": [
+                {
+                  "name": "calceolariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "callitrichaceae",
+              "children": [
+                {
+                  "name": "callitrichaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "calophyllaceae",
+              "children": [
+                {
+                  "name": "calophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "calycanthaceae",
+              "children": [
+                {
+                  "name": "calycanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "calyceraceae",
+              "children": [
+                {
+                  "name": "calyceraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "campanulaceae",
+              "children": [
+                {
+                  "name": "campanulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "campynemataceae",
+              "children": [
+                {
+                  "name": "campynemataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "canellaceae",
+              "children": [
+                {
+                  "name": "canellaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cannabaceae",
+              "children": [
+                {
+                  "name": "cannabaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cannaceae",
+              "children": [
+                {
+                  "name": "cannaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "capparaceae",
+              "children": [
+                {
+                  "name": "capparaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "capparidaceae",
+              "children": [
+                {
+                  "name": "capparidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "caprifoliaceae",
+              "children": [
+                {
+                  "name": "caprifoliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cardiopteridaceae",
+              "children": [
+                {
+                  "name": "cardiopteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "caricaceae",
+              "children": [
+                {
+                  "name": "caricaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "carlemanniaceae",
+              "children": [
+                {
+                  "name": "carlemanniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "caryocaraceae",
+              "children": [
+                {
+                  "name": "caryocaraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "caryophyllaceae",
+              "children": [
+                {
+                  "name": "caryophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "casuarinaceae",
+              "children": [
+                {
+                  "name": "casuarinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cecropiaceae",
+              "children": [
+                {
+                  "name": "cecropiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "celastraceae",
+              "children": [
+                {
+                  "name": "celastraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "centrolepidaceae",
+              "children": [
+                {
+                  "name": "centrolepidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "centroplacaceae",
+              "children": [
+                {
+                  "name": "centroplacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cephalotaceae",
+              "children": [
+                {
+                  "name": "cephalotaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cephalotaxaceae",
+              "children": [
+                {
+                  "name": "cephalotaxaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ceratophyllaceae",
+              "children": [
+                {
+                  "name": "ceratophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cercidiphyllaceae",
+              "children": [
+                {
+                  "name": "cercidiphyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "chenopodiaceae",
+              "children": [
+                {
+                  "name": "chenopodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "chloranthaceae",
+              "children": [
+                {
+                  "name": "chloranthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "chrysobalanaceae",
+              "children": [
+                {
+                  "name": "chrysobalanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cibotiaceae",
+              "children": [
+                {
+                  "name": "cibotiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "circaeasteraceae",
+              "children": [
+                {
+                  "name": "circaeasteraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cistaceae",
+              "children": [
+                {
+                  "name": "cistaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cladoniaceae",
+              "children": [
+                {
+                  "name": "cladoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cleomaceae",
+              "children": [
+                {
+                  "name": "cleomaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "clethraceae",
+              "children": [
+                {
+                  "name": "clethraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "clusiaceae",
+              "children": [
+                {
+                  "name": "clusiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cneoraceae",
+              "children": [
+                {
+                  "name": "cneoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "colchicaceae",
+              "children": [
+                {
+                  "name": "colchicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "columelliaceae",
+              "children": [
+                {
+                  "name": "columelliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "combretaceae",
+              "children": [
+                {
+                  "name": "combretaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "commelinaceae",
+              "children": [
+                {
+                  "name": "commelinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "connaraceae",
+              "children": [
+                {
+                  "name": "connaraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "convallariaceae",
+              "children": [
+                {
+                  "name": "convallariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "convolvulaceae",
+              "children": [
+                {
+                  "name": "convolvulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "coriariaceae",
+              "children": [
+                {
+                  "name": "coriariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cornaceae",
+              "children": [
+                {
+                  "name": "cornaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "corsiaceae",
+              "children": [
+                {
+                  "name": "corsiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "corynocarpaceae",
+              "children": [
+                {
+                  "name": "corynocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "costaceae",
+              "children": [
+                {
+                  "name": "costaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "crassulaceae",
+              "children": [
+                {
+                  "name": "crassulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "crossosomata",
+              "children": [
+                {
+                  "name": "crossosomata.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "crossosomataceae",
+              "children": [
+                {
+                  "name": "crossosomataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "crypteroniaceae",
+              "children": [
+                {
+                  "name": "crypteroniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cucurbitaceae",
+              "children": [
+                {
+                  "name": "cucurbitaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "culcitaceae",
+              "children": [
+                {
+                  "name": "culcitaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cunoniaceae",
+              "children": [
+                {
+                  "name": "cunoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cupressaceae",
+              "children": [
+                {
+                  "name": "cupressaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "curtisiaceae",
+              "children": [
+                {
+                  "name": "curtisiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cyanastraceae",
+              "children": [
+                {
+                  "name": "cyanastraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cyatheaceae",
+              "children": [
+                {
+                  "name": "cyatheaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cycadaceae",
+              "children": [
+                {
+                  "name": "cycadaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cyclanthaceae",
+              "children": [
+                {
+                  "name": "cyclanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cymodoceaceae",
+              "children": [
+                {
+                  "name": "cymodoceaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cynomoriaceae",
+              "children": [
+                {
+                  "name": "cynomoriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cyperaceae",
+              "children": [
+                {
+                  "name": "cyperaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cyrillaceae",
+              "children": [
+                {
+                  "name": "cyrillaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cystodiaceae",
+              "children": [
+                {
+                  "name": "cystodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cystopteridaceae",
+              "children": [
+                {
+                  "name": "cystopteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "cytinaceae",
+              "children": [
+                {
+                  "name": "cytinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "d",
+          "children": [
+            {
+              "name": "daphniphyllaceae",
+              "children": [
+                {
+                  "name": "daphniphyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dasypogonaceae",
+              "children": [
+                {
+                  "name": "dasypogonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "datiscaceae",
+              "children": [
+                {
+                  "name": "datiscaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "davalliaceae",
+              "children": [
+                {
+                  "name": "davalliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "davidsoniaceae",
+              "children": [
+                {
+                  "name": "davidsoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "degeneriaceae",
+              "children": [
+                {
+                  "name": "degeneriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dennstaedtiaceae",
+              "children": [
+                {
+                  "name": "dennstaedtiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "diapensiaceae",
+              "children": [
+                {
+                  "name": "diapensiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dichapetalaceae",
+              "children": [
+                {
+                  "name": "dichapetalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dicksoniaceae",
+              "children": [
+                {
+                  "name": "dicksoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dicranaceae",
+              "children": [
+                {
+                  "name": "dicranaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "didiereaceae",
+              "children": [
+                {
+                  "name": "didiereaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dilleniaceae",
+              "children": [
+                {
+                  "name": "dilleniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dioncophyllaceae",
+              "children": [
+                {
+                  "name": "dioncophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dioscoreaceae",
+              "children": [
+                {
+                  "name": "dioscoreaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dipentodontaceae",
+              "children": [
+                {
+                  "name": "dipentodontaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "diplaziopsidaceae",
+              "children": [
+                {
+                  "name": "diplaziopsidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dipsacaceae",
+              "children": [
+                {
+                  "name": "dipsacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dipteridaceae",
+              "children": [
+                {
+                  "name": "dipteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dipterocarpaceae",
+              "children": [
+                {
+                  "name": "dipterocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dirachmaceae",
+              "children": [
+                {
+                  "name": "dirachmaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "donatiaceae",
+              "children": [
+                {
+                  "name": "donatiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "doryanthaceae",
+              "children": [
+                {
+                  "name": "doryanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "droseraceae",
+              "children": [
+                {
+                  "name": "droseraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "drosophyllaceae",
+              "children": [
+                {
+                  "name": "drosophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "dryopteridaceae",
+              "children": [
+                {
+                  "name": "dryopteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "e",
+          "children": [
+            {
+              "name": "ebenaceae",
+              "children": [
+                {
+                  "name": "ebenaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ecdeiocoleaceae",
+              "children": [
+                {
+                  "name": "ecdeiocoleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "elaeagnaceae",
+              "children": [
+                {
+                  "name": "elaeagnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "elaeocarpaceae",
+              "children": [
+                {
+                  "name": "elaeocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "elatinaceae",
+              "children": [
+                {
+                  "name": "elatinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "emblingiaceae",
+              "children": [
+                {
+                  "name": "emblingiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "empetraceae",
+              "children": [
+                {
+                  "name": "empetraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "epacridaceae",
+              "children": [
+                {
+                  "name": "epacridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ephedraceae",
+              "children": [
+                {
+                  "name": "ephedraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "equisetaceae",
+              "children": [
+                {
+                  "name": "equisetaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ericaceae",
+              "children": [
+                {
+                  "name": "ericaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "eriocaulaceae",
+              "children": [
+                {
+                  "name": "eriocaulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "erythroxylaceae",
+              "children": [
+                {
+                  "name": "erythroxylaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "escalloniaceae",
+              "children": [
+                {
+                  "name": "escalloniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "eucommiaceae",
+              "children": [
+                {
+                  "name": "eucommiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "eucryphiaceae",
+              "children": [
+                {
+                  "name": "eucryphiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "euphorbiaceae",
+              "children": [
+                {
+                  "name": "euphorbiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "euphroniaceae",
+              "children": [
+                {
+                  "name": "euphroniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "eupomatiaceae",
+              "children": [
+                {
+                  "name": "eupomatiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "eupteleaceae",
+              "children": [
+                {
+                  "name": "eupteleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "f",
+          "children": [
+            {
+              "name": "fabaceae",
+              "children": [
+                {
+                  "name": "fabaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "fagaceae",
+              "children": [
+                {
+                  "name": "fagaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "family_1",
+              "children": [
+                {
+                  "name": "family_1.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ficoidaceae",
+              "children": [
+                {
+                  "name": "ficoidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "flacourtiaceae",
+              "children": [
+                {
+                  "name": "flacourtiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "flagellariaceae",
+              "children": [
+                {
+                  "name": "flagellariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "fontinalaceae",
+              "children": [
+                {
+                  "name": "fontinalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "fouquieriaceae",
+              "children": [
+                {
+                  "name": "fouquieriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "francoaceae",
+              "children": [
+                {
+                  "name": "francoaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "frankeniaceae",
+              "children": [
+                {
+                  "name": "frankeniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "fumariaceae",
+              "children": [
+                {
+                  "name": "fumariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "g",
+          "children": [
+            {
+              "name": "garryaceae",
+              "children": [
+                {
+                  "name": "garryaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "geissolomataceae",
+              "children": [
+                {
+                  "name": "geissolomataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gelsemiaceae",
+              "children": [
+                {
+                  "name": "gelsemiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gentianaceae",
+              "children": [
+                {
+                  "name": "gentianaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "geraniaceae",
+              "children": [
+                {
+                  "name": "geraniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gerrardinaceae",
+              "children": [
+                {
+                  "name": "gerrardinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gesneriaceae",
+              "children": [
+                {
+                  "name": "gesneriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ginkgoaceae",
+              "children": [
+                {
+                  "name": "ginkgoaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gisekiaceae",
+              "children": [
+                {
+                  "name": "gisekiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gleicheniaceae",
+              "children": [
+                {
+                  "name": "gleicheniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "globulariaceae",
+              "children": [
+                {
+                  "name": "globulariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gnetaceae",
+              "children": [
+                {
+                  "name": "gnetaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gomortegaceae",
+              "children": [
+                {
+                  "name": "gomortegaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "goodeniaceae",
+              "children": [
+                {
+                  "name": "goodeniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "goupiaceae",
+              "children": [
+                {
+                  "name": "goupiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "greyiaceae",
+              "children": [
+                {
+                  "name": "greyiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "griseliniaceae",
+              "children": [
+                {
+                  "name": "griseliniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "grossulariaceae",
+              "children": [
+                {
+                  "name": "grossulariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "grubbiaceae",
+              "children": [
+                {
+                  "name": "grubbiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "guamatelaceae",
+              "children": [
+                {
+                  "name": "guamatelaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gunneraceae",
+              "children": [
+                {
+                  "name": "gunneraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "gyrostemonaceae",
+              "children": [
+                {
+                  "name": "gyrostemonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "h",
+          "children": [
+            {
+              "name": "haemodoraceae",
+              "children": [
+                {
+                  "name": "haemodoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "halophytaceae",
+              "children": [
+                {
+                  "name": "halophytaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "haloragaceae",
+              "children": [
+                {
+                  "name": "haloragaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "haloragidaceae",
+              "children": [
+                {
+                  "name": "haloragidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hamamelidaceae",
+              "children": [
+                {
+                  "name": "hamamelidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hanguanaceae",
+              "children": [
+                {
+                  "name": "hanguanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "heliconiaceae",
+              "children": [
+                {
+                  "name": "heliconiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "helwingiaceae",
+              "children": [
+                {
+                  "name": "helwingiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hericiaceae",
+              "children": [
+                {
+                  "name": "hericiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hernandiaceae",
+              "children": [
+                {
+                  "name": "hernandiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "himantandraceae",
+              "children": [
+                {
+                  "name": "himantandraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hippocastanaceae",
+              "children": [
+                {
+                  "name": "hippocastanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hippuridaceae",
+              "children": [
+                {
+                  "name": "hippuridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "huaceae",
+              "children": [
+                {
+                  "name": "huaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "humiriaceae",
+              "children": [
+                {
+                  "name": "humiriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydatellaceae",
+              "children": [
+                {
+                  "name": "hydatellaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydnoraceae",
+              "children": [
+                {
+                  "name": "hydnoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydrangeaceae",
+              "children": [
+                {
+                  "name": "hydrangeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydrocharitaceae",
+              "children": [
+                {
+                  "name": "hydrocharitaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydroleaceae",
+              "children": [
+                {
+                  "name": "hydroleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydrophyllaceae",
+              "children": [
+                {
+                  "name": "hydrophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hydrostachyaceae",
+              "children": [
+                {
+                  "name": "hydrostachyaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hymenophyllaceae",
+              "children": [
+                {
+                  "name": "hymenophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hypericaceae",
+              "children": [
+                {
+                  "name": "hypericaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "hypoxidaceae",
+              "children": [
+                {
+                  "name": "hypoxidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "i",
+          "children": [
+            {
+              "name": "icacinaceae",
+              "children": [
+                {
+                  "name": "icacinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "illiciaceae",
+              "children": [
+                {
+                  "name": "illiciaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "iridaceae",
+              "children": [
+                {
+                  "name": "iridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "irvingiaceae",
+              "children": [
+                {
+                  "name": "irvingiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "isoetaceae",
+              "children": [
+                {
+                  "name": "isoetaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "iteaceae",
+              "children": [
+                {
+                  "name": "iteaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ixiolirionaceae",
+              "children": [
+                {
+                  "name": "ixiolirionaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ixonanthaceae",
+              "children": [
+                {
+                  "name": "ixonanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "j",
+          "children": [
+            {
+              "name": "joinvilleaceae",
+              "children": [
+                {
+                  "name": "joinvilleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "juglandaceae",
+              "children": [
+                {
+                  "name": "juglandaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "juncaceae",
+              "children": [
+                {
+                  "name": "juncaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "juncaginaceae",
+              "children": [
+                {
+                  "name": "juncaginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "k",
+          "children": [
+            {
+              "name": "kewaceae",
+              "children": [
+                {
+                  "name": "kewaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "kirkiaceae",
+              "children": [
+                {
+                  "name": "kirkiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "koeberliniaceae",
+              "children": [
+                {
+                  "name": "koeberliniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "krameriaceae",
+              "children": [
+                {
+                  "name": "krameriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "l",
+          "children": [
+            {
+              "name": "lacandoniaceae",
+              "children": [
+                {
+                  "name": "lacandoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lacistemataceae",
+              "children": [
+                {
+                  "name": "lacistemataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lamiaceae",
+              "children": [
+                {
+                  "name": "lamiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lanariaceae",
+              "children": [
+                {
+                  "name": "lanariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lardizabalaceae",
+              "children": [
+                {
+                  "name": "lardizabalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lauraceae",
+              "children": [
+                {
+                  "name": "lauraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lecythidaceae",
+              "children": [
+                {
+                  "name": "lecythidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "leeaceae",
+              "children": [
+                {
+                  "name": "leeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "leitneriaceae",
+              "children": [
+                {
+                  "name": "leitneriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lemnaceae",
+              "children": [
+                {
+                  "name": "lemnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lennoaceae",
+              "children": [
+                {
+                  "name": "lennoaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lentibulariaceae",
+              "children": [
+                {
+                  "name": "lentibulariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lepidobotryaceae",
+              "children": [
+                {
+                  "name": "lepidobotryaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "liliaceae",
+              "children": [
+                {
+                  "name": "liliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "limeaceae",
+              "children": [
+                {
+                  "name": "limeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "limnanthaceae",
+              "children": [
+                {
+                  "name": "limnanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "linaceae",
+              "children": [
+                {
+                  "name": "linaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "linderniaceae",
+              "children": [
+                {
+                  "name": "linderniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lindl",
+              "children": [
+                {
+                  "name": "lindl.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lindsaeaceae",
+              "children": [
+                {
+                  "name": "lindsaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "liz_family",
+              "children": [
+                {
+                  "name": "liz_family.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "loasaceae",
+              "children": [
+                {
+                  "name": "loasaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lobariaceae",
+              "children": [
+                {
+                  "name": "lobariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "loganiaceae",
+              "children": [
+                {
+                  "name": "loganiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lomariopsidaceae",
+              "children": [
+                {
+                  "name": "lomariopsidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lonchitidaceae",
+              "children": [
+                {
+                  "name": "lonchitidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lophiocarpaceae",
+              "children": [
+                {
+                  "name": "lophiocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lophopyxidaceae",
+              "children": [
+                {
+                  "name": "lophopyxidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lophosoriaceae",
+              "children": [
+                {
+                  "name": "lophosoriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "loranthaceae",
+              "children": [
+                {
+                  "name": "loranthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lowiaceae",
+              "children": [
+                {
+                  "name": "lowiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "loxsomataceae",
+              "children": [
+                {
+                  "name": "loxsomataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lycopodiaceae",
+              "children": [
+                {
+                  "name": "lycopodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lygodiaceae",
+              "children": [
+                {
+                  "name": "lygodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "lythraceae",
+              "children": [
+                {
+                  "name": "lythraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "m",
+          "children": [
+            {
+              "name": "macarthuriaceae",
+              "children": [
+                {
+                  "name": "macarthuriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "magnoliaceae",
+              "children": [
+                {
+                  "name": "magnoliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "malpighiaceae",
+              "children": [
+                {
+                  "name": "malpighiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "malvaceae",
+              "children": [
+                {
+                  "name": "malvaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "mangoliaceae",
+              "children": [
+                {
+                  "name": "mangoliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "marantaceae",
+              "children": [
+                {
+                  "name": "marantaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "maranthaceae",
+              "children": [
+                {
+                  "name": "maranthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "marattiaceae",
+              "children": [
+                {
+                  "name": "marattiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "marcgraviaceae",
+              "children": [
+                {
+                  "name": "marcgraviaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "marchantiaceae",
+              "children": [
+                {
+                  "name": "marchantiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "marsileaceae",
+              "children": [
+                {
+                  "name": "marsileaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "martyniaceae",
+              "children": [
+                {
+                  "name": "martyniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "matoniaceae",
+              "children": [
+                {
+                  "name": "matoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "maundiaceae",
+              "children": [
+                {
+                  "name": "maundiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "mayacaceae",
+              "children": [
+                {
+                  "name": "mayacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "mazaceae",
+              "children": [
+                {
+                  "name": "mazaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "medusagynaceae",
+              "children": [
+                {
+                  "name": "medusagynaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "melaeaceae",
+              "children": [
+                {
+                  "name": "melaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "melanthiaceae",
+              "children": [
+                {
+                  "name": "melanthiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "melastomataceae",
+              "children": [
+                {
+                  "name": "melastomataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "meliaceae",
+              "children": [
+                {
+                  "name": "meliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "melianthaceae",
+              "children": [
+                {
+                  "name": "melianthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "menispermaceae",
+              "children": [
+                {
+                  "name": "menispermaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "menyanthaceae",
+              "children": [
+                {
+                  "name": "menyanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "metaxyaceae",
+              "children": [
+                {
+                  "name": "metaxyaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "metteniusaceae",
+              "children": [
+                {
+                  "name": "metteniusaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "microteaceae",
+              "children": [
+                {
+                  "name": "microteaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "misodendraceae",
+              "children": [
+                {
+                  "name": "misodendraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "mitrastemonaceae",
+              "children": [
+                {
+                  "name": "mitrastemonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "molluginaceae",
+              "children": [
+                {
+                  "name": "molluginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "monimiaceae",
+              "children": [
+                {
+                  "name": "monimiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "monotropaceae",
+              "children": [
+                {
+                  "name": "monotropaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "montiaceae",
+              "children": [
+                {
+                  "name": "montiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "montiniaceae",
+              "children": [
+                {
+                  "name": "montiniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "moraceae",
+              "children": [
+                {
+                  "name": "moraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "morinaceae",
+              "children": [
+                {
+                  "name": "morinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "moringaceae",
+              "children": [
+                {
+                  "name": "moringaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "muntingiaceae",
+              "children": [
+                {
+                  "name": "muntingiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "musaceae",
+              "children": [
+                {
+                  "name": "musaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myodocarpaceae",
+              "children": [
+                {
+                  "name": "myodocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myoporaceae",
+              "children": [
+                {
+                  "name": "myoporaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myricaceae",
+              "children": [
+                {
+                  "name": "myricaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myristicaceae",
+              "children": [
+                {
+                  "name": "myristicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myrothamnaceae",
+              "children": [
+                {
+                  "name": "myrothamnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myrsinaceae",
+              "children": [
+                {
+                  "name": "myrsinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "myrtaceae",
+              "children": [
+                {
+                  "name": "myrtaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "n",
+          "children": [
+            {
+              "name": "najadaceae",
+              "children": [
+                {
+                  "name": "najadaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "namaceae",
+              "children": [
+                {
+                  "name": "namaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nartheciaceae",
+              "children": [
+                {
+                  "name": "nartheciaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nelumbonaceae",
+              "children": [
+                {
+                  "name": "nelumbonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nepenthaceae",
+              "children": [
+                {
+                  "name": "nepenthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nephrolepidaceae",
+              "children": [
+                {
+                  "name": "nephrolepidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "neuradaceae",
+              "children": [
+                {
+                  "name": "neuradaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nitrariaceae",
+              "children": [
+                {
+                  "name": "nitrariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nolanaceae",
+              "children": [
+                {
+                  "name": "nolanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nothofagaceae",
+              "children": [
+                {
+                  "name": "nothofagaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nyctaginaceae",
+              "children": [
+                {
+                  "name": "nyctaginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nymphaeaceae",
+              "children": [
+                {
+                  "name": "nymphaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "nyssaceae",
+              "children": [
+                {
+                  "name": "nyssaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "o",
+          "children": [
+            {
+              "name": "ochnaceae",
+              "children": [
+                {
+                  "name": "ochnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "olacaceae",
+              "children": [
+                {
+                  "name": "olacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "oleaceae",
+              "children": [
+                {
+                  "name": "oleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "oleandraceae",
+              "children": [
+                {
+                  "name": "oleandraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "oliniaceae",
+              "children": [
+                {
+                  "name": "oliniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "onagraceae",
+              "children": [
+                {
+                  "name": "onagraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "oncothecaceae",
+              "children": [
+                {
+                  "name": "oncothecaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "onocleaceae",
+              "children": [
+                {
+                  "name": "onocleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ophioglossaceae",
+              "children": [
+                {
+                  "name": "ophioglossaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "opiliaceae",
+              "children": [
+                {
+                  "name": "opiliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "orchidaceae",
+              "children": [
+                {
+                  "name": "orchidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "orobanchaceae",
+              "children": [
+                {
+                  "name": "orobanchaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "osmundaceae",
+              "children": [
+                {
+                  "name": "osmundaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "oxalidaceae",
+              "children": [
+                {
+                  "name": "oxalidaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "p",
+          "children": [
+            {
+              "name": "paeoniaceae",
+              "children": [
+                {
+                  "name": "paeoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pandaceae",
+              "children": [
+                {
+                  "name": "pandaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pandanaceae",
+              "children": [
+                {
+                  "name": "pandanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "papaveraceae",
+              "children": [
+                {
+                  "name": "papaveraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "paracryphiaceae",
+              "children": [
+                {
+                  "name": "paracryphiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "passifloraceae",
+              "children": [
+                {
+                  "name": "passifloraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "paulowniaceae",
+              "children": [
+                {
+                  "name": "paulowniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pedaliaceae",
+              "children": [
+                {
+                  "name": "pedaliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pedalinaceae",
+              "children": [
+                {
+                  "name": "pedalinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "penaeaceae",
+              "children": [
+                {
+                  "name": "penaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pennantiaceae",
+              "children": [
+                {
+                  "name": "pennantiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pentadiplandraceae",
+              "children": [
+                {
+                  "name": "pentadiplandraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pentaphragmataceae",
+              "children": [
+                {
+                  "name": "pentaphragmataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pentaphylacaceae",
+              "children": [
+                {
+                  "name": "pentaphylacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "penthoraceae",
+              "children": [
+                {
+                  "name": "penthoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "peraceae",
+              "children": [
+                {
+                  "name": "peraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "peridiscaceae",
+              "children": [
+                {
+                  "name": "peridiscaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "petenaeaceae",
+              "children": [
+                {
+                  "name": "petenaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "petermanniaceae",
+              "children": [
+                {
+                  "name": "petermanniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "petiveriaceae",
+              "children": [
+                {
+                  "name": "petiveriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "petrosaviaceae",
+              "children": [
+                {
+                  "name": "petrosaviaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phellinaceae",
+              "children": [
+                {
+                  "name": "phellinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "philesiaceae",
+              "children": [
+                {
+                  "name": "philesiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "philydraceae",
+              "children": [
+                {
+                  "name": "philydraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phrymaceae",
+              "children": [
+                {
+                  "name": "phrymaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phyllanthaceae",
+              "children": [
+                {
+                  "name": "phyllanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phyllocladaceae",
+              "children": [
+                {
+                  "name": "phyllocladaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phyllonomaceae",
+              "children": [
+                {
+                  "name": "phyllonomaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "physenaceae",
+              "children": [
+                {
+                  "name": "physenaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "phytolaccaceae",
+              "children": [
+                {
+                  "name": "phytolaccaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "picramniaceae",
+              "children": [
+                {
+                  "name": "picramniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "picrodendraceae",
+              "children": [
+                {
+                  "name": "picrodendraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pinaceae",
+              "children": [
+                {
+                  "name": "pinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "piperaceae",
+              "children": [
+                {
+                  "name": "piperaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pittosporaceae",
+              "children": [
+                {
+                  "name": "pittosporaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "plagiogyriaceae",
+              "children": [
+                {
+                  "name": "plagiogyriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "plantaginaceae",
+              "children": [
+                {
+                  "name": "plantaginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "platanaceae",
+              "children": [
+                {
+                  "name": "platanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "plemoniaceae",
+              "children": [
+                {
+                  "name": "plemoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "plocospermataceae",
+              "children": [
+                {
+                  "name": "plocospermataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "plumbaginaceae",
+              "children": [
+                {
+                  "name": "plumbaginaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "poaceae",
+              "children": [
+                {
+                  "name": "poaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "podocarpaceae",
+              "children": [
+                {
+                  "name": "podocarpaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "podostemaceae",
+              "children": [
+                {
+                  "name": "podostemaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "polemoniaceae",
+              "children": [
+                {
+                  "name": "polemoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "polygalaceae",
+              "children": [
+                {
+                  "name": "polygalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "polygonaceae",
+              "children": [
+                {
+                  "name": "polygonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "polypodiaceae",
+              "children": [
+                {
+                  "name": "polypodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "polytrichaceae",
+              "children": [
+                {
+                  "name": "polytrichaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pontederiaceae",
+              "children": [
+                {
+                  "name": "pontederiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "portulacaceae",
+              "children": [
+                {
+                  "name": "portulacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "posidoniaceae",
+              "children": [
+                {
+                  "name": "posidoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "potamogetonaceae",
+              "children": [
+                {
+                  "name": "potamogetonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "primulaceae",
+              "children": [
+                {
+                  "name": "primulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "proteaceae",
+              "children": [
+                {
+                  "name": "proteaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "psilotaceae",
+              "children": [
+                {
+                  "name": "psilotaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ptaeroxylaceae",
+              "children": [
+                {
+                  "name": "ptaeroxylaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pteridaceae",
+              "children": [
+                {
+                  "name": "pteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "punicaceae",
+              "children": [
+                {
+                  "name": "punicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "putranjivaceae",
+              "children": [
+                {
+                  "name": "putranjivaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "pyrolaceae",
+              "children": [
+                {
+                  "name": "pyrolaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "q",
+          "children": [
+            {
+              "name": "quiinaceae",
+              "children": [
+                {
+                  "name": "quiinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "quillajaceae",
+              "children": [
+                {
+                  "name": "quillajaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "r",
+          "children": [
+            {
+              "name": "rafflesiaceae",
+              "children": [
+                {
+                  "name": "rafflesiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ranunculaceae",
+              "children": [
+                {
+                  "name": "ranunculaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rapateaceae",
+              "children": [
+                {
+                  "name": "rapateaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "resedaceae",
+              "children": [
+                {
+                  "name": "resedaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "restionaceae",
+              "children": [
+                {
+                  "name": "restionaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rhabdodendraceae",
+              "children": [
+                {
+                  "name": "rhabdodendraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rhamnaceae",
+              "children": [
+                {
+                  "name": "rhamnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rhizophoraceae",
+              "children": [
+                {
+                  "name": "rhizophoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rhoipteleaceae",
+              "children": [
+                {
+                  "name": "rhoipteleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "roridulaceae",
+              "children": [
+                {
+                  "name": "roridulaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rosaceae",
+              "children": [
+                {
+                  "name": "rosaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rousseaceae",
+              "children": [
+                {
+                  "name": "rousseaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rubiaceae",
+              "children": [
+                {
+                  "name": "rubiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ruppiaceae",
+              "children": [
+                {
+                  "name": "ruppiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "rutaceae",
+              "children": [
+                {
+                  "name": "rutaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "s",
+          "children": [
+            {
+              "name": "sabiaceae",
+              "children": [
+                {
+                  "name": "sabiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "saccolomataceae",
+              "children": [
+                {
+                  "name": "saccolomataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "salicaceae",
+              "children": [
+                {
+                  "name": "salicaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "salvadoraceae",
+              "children": [
+                {
+                  "name": "salvadoraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "salviniaceae",
+              "children": [
+                {
+                  "name": "salviniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "santalaceae",
+              "children": [
+                {
+                  "name": "santalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sapindaceae",
+              "children": [
+                {
+                  "name": "sapindaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sapotaceae",
+              "children": [
+                {
+                  "name": "sapotaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sarcobataceae",
+              "children": [
+                {
+                  "name": "sarcobataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sarcolaenaceae",
+              "children": [
+                {
+                  "name": "sarcolaenaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sarraceniaceae",
+              "children": [
+                {
+                  "name": "sarraceniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "saururaceae",
+              "children": [
+                {
+                  "name": "saururaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "saxifragaceae",
+              "children": [
+                {
+                  "name": "saxifragaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "scheuchzeriaceae",
+              "children": [
+                {
+                  "name": "scheuchzeriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "schisandraceae",
+              "children": [
+                {
+                  "name": "schisandraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "schizaeaceae",
+              "children": [
+                {
+                  "name": "schizaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "schlegeliaceae",
+              "children": [
+                {
+                  "name": "schlegeliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "schoepfiaceae",
+              "children": [
+                {
+                  "name": "schoepfiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sciadopityaceae",
+              "children": [
+                {
+                  "name": "sciadopityaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "scrophulariaceae",
+              "children": [
+                {
+                  "name": "scrophulariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "selaginellaceae",
+              "children": [
+                {
+                  "name": "selaginellaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "setchellanthaceae",
+              "children": [
+                {
+                  "name": "setchellanthaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "simaroubaceae",
+              "children": [
+                {
+                  "name": "simaroubaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "simmondsiaceae",
+              "children": [
+                {
+                  "name": "simmondsiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "siparunaceae",
+              "children": [
+                {
+                  "name": "siparunaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sladeniaceae",
+              "children": [
+                {
+                  "name": "sladeniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "smilacaceae",
+              "children": [
+                {
+                  "name": "smilacaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "solanaceae",
+              "children": [
+                {
+                  "name": "solanaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sonneratiaceae",
+              "children": [
+                {
+                  "name": "sonneratiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sparganiaceae",
+              "children": [
+                {
+                  "name": "sparganiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sphaerosepalaceae",
+              "children": [
+                {
+                  "name": "sphaerosepalaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sphagnaceae",
+              "children": [
+                {
+                  "name": "sphagnaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sphenocleaceae",
+              "children": [
+                {
+                  "name": "sphenocleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stachyuraceae",
+              "children": [
+                {
+                  "name": "stachyuraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stackhousiaceae",
+              "children": [
+                {
+                  "name": "stackhousiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stangeriaceae",
+              "children": [
+                {
+                  "name": "stangeriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "staphyleaceae",
+              "children": [
+                {
+                  "name": "staphyleaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stegnospermataceae",
+              "children": [
+                {
+                  "name": "stegnospermataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stemonaceae",
+              "children": [
+                {
+                  "name": "stemonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stemonuraceae",
+              "children": [
+                {
+                  "name": "stemonuraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "sterculiaceae",
+              "children": [
+                {
+                  "name": "sterculiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stilbaceae",
+              "children": [
+                {
+                  "name": "stilbaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "strasburgeriaceae",
+              "children": [
+                {
+                  "name": "strasburgeriaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "strelitziaceae",
+              "children": [
+                {
+                  "name": "strelitziaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "stylidiaceae",
+              "children": [
+                {
+                  "name": "stylidiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "styracaceae",
+              "children": [
+                {
+                  "name": "styracaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "surianaceae",
+              "children": [
+                {
+                  "name": "surianaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "symplocaceae",
+              "children": [
+                {
+                  "name": "symplocaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "t",
+          "children": [
+            {
+              "name": "taccaceae",
+              "children": [
+                {
+                  "name": "taccaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "talinaceae",
+              "children": [
+                {
+                  "name": "talinaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tamaricaceae",
+              "children": [
+                {
+                  "name": "tamaricaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tapisciaceae",
+              "children": [
+                {
+                  "name": "tapisciaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "taxaceae",
+              "children": [
+                {
+                  "name": "taxaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "taxodiaceae",
+              "children": [
+                {
+                  "name": "taxodiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tecophilaeaceae",
+              "children": [
+                {
+                  "name": "tecophilaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tectariaceae",
+              "children": [
+                {
+                  "name": "tectariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tetracarpaeaceae",
+              "children": [
+                {
+                  "name": "tetracarpaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tetrachondraceae",
+              "children": [
+                {
+                  "name": "tetrachondraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tetramelaceae",
+              "children": [
+                {
+                  "name": "tetramelaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tetrameristaceae",
+              "children": [
+                {
+                  "name": "tetrameristaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "theaceae",
+              "children": [
+                {
+                  "name": "theaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "theligonaceae",
+              "children": [
+                {
+                  "name": "theligonaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thelypteridaceae",
+              "children": [
+                {
+                  "name": "thelypteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "theophrastaceae",
+              "children": [
+                {
+                  "name": "theophrastaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thomandersiaceae",
+              "children": [
+                {
+                  "name": "thomandersiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thumelaeaceae",
+              "children": [
+                {
+                  "name": "thumelaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thurniaceae",
+              "children": [
+                {
+                  "name": "thurniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thymelaeaceae",
+              "children": [
+                {
+                  "name": "thymelaeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "thyrsopteridaceae",
+              "children": [
+                {
+                  "name": "thyrsopteridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ticodendraceae",
+              "children": [
+                {
+                  "name": "ticodendraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tiliaceae",
+              "children": [
+                {
+                  "name": "tiliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tofieldiaceae",
+              "children": [
+                {
+                  "name": "tofieldiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tony",
+              "children": [
+                {
+                  "name": "tony.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "torricelliaceae",
+              "children": [
+                {
+                  "name": "torricelliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tovariaceae",
+              "children": [
+                {
+                  "name": "tovariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "trapaceae",
+              "children": [
+                {
+                  "name": "trapaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tremandraceae",
+              "children": [
+                {
+                  "name": "tremandraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "trigoniaceae",
+              "children": [
+                {
+                  "name": "trigoniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "trimeniaceae",
+              "children": [
+                {
+                  "name": "trimeniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "triuridaceae",
+              "children": [
+                {
+                  "name": "triuridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "trochodendraceae",
+              "children": [
+                {
+                  "name": "trochodendraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "tropaeolaceae",
+              "children": [
+                {
+                  "name": "tropaeolaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "turneraceae",
+              "children": [
+                {
+                  "name": "turneraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "typhaceae",
+              "children": [
+                {
+                  "name": "typhaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "u",
+          "children": [
+            {
+              "name": "ulmaceae",
+              "children": [
+                {
+                  "name": "ulmaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "unknown",
+              "children": [
+                {
+                  "name": "unknown.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "urrent_li",
+              "children": [
+                {
+                  "name": "urrent_li.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "urticaceae",
+              "children": [
+                {
+                  "name": "urticaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "v",
+          "children": [
+            {
+              "name": "vahliaceae",
+              "children": [
+                {
+                  "name": "vahliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "valerianaceae",
+              "children": [
+                {
+                  "name": "valerianaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "velloziaceae",
+              "children": [
+                {
+                  "name": "velloziaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "verbenaceae",
+              "children": [
+                {
+                  "name": "verbenaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "violaceae",
+              "children": [
+                {
+                  "name": "violaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "viscaceae",
+              "children": [
+                {
+                  "name": "viscaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "vitaceae",
+              "children": [
+                {
+                  "name": "vitaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "vittariaceae",
+              "children": [
+                {
+                  "name": "vittariaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "vivianiaceae",
+              "children": [
+                {
+                  "name": "vivianiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "vochysiaceae",
+              "children": [
+                {
+                  "name": "vochysiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "w",
+          "children": [
+            {
+              "name": "welwitschiaceae",
+              "children": [
+                {
+                  "name": "welwitschiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "winteraceae",
+              "children": [
+                {
+                  "name": "winteraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "woodsiaceae",
+              "children": [
+                {
+                  "name": "woodsiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "x",
+          "children": [
+            {
+              "name": "xanthophyllaceae",
+              "children": [
+                {
+                  "name": "xanthophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "xanthorrhoeaceae",
+              "children": [
+                {
+                  "name": "xanthorrhoeaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "xeronemataceae",
+              "children": [
+                {
+                  "name": "xeronemataceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "ximeniaceae",
+              "children": [
+                {
+                  "name": "ximeniaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "xyridaceae",
+              "children": [
+                {
+                  "name": "xyridaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        },
+        {
+          "name": "z",
+          "children": [
+            {
+              "name": "zamiaceae",
+              "children": [
+                {
+                  "name": "zamiaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "zannichelliaceae",
+              "children": [
+                {
+                  "name": "zannichelliaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "zingiberaceae",
+              "children": [
+                {
+                  "name": "zingiberaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "zosteraceae",
+              "children": [
+                {
+                  "name": "zosteraceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            },
+            {
+              "name": "zygophyllaceae",
+              "children": [
+                {
+                  "name": "zygophyllaceae.json",
+                  "type": "file",
+                  "extension": ".json"
+                }
+              ],
+              "type": "directory"
+            }
+          ],
+          "type": "directory"
+        }
+      ],
+      "type": "directory"
+    }
+  ],
+  "type": "directory"
+}
