@@ -303,15 +303,15 @@
                     }
                 },
                 {
-                    "name": "Haworthiopsis sordida",
-                    "machine_name": "haworthiopsis_sordida",
-                    "type": "species",
-                    "hybrid": "false",
-                    "authorities": "none?",
-                    "naming_authorities": null,
-                    "description": null,
-                    "genus": "haworthiopsis",
-                    "family": "xanthorrhoeaceae",
+                "name": "Haworthiopsis sordida",
+                "machine_name": "haworthiopsis_sordida",
+                "type": "species",
+                "hybrid": "false",
+                "authorities": "none?",
+                "naming_authorities": null,
+                "description": null,
+                "genus": "haworthiopsis",
+                "family": "xanthorrhoeaceae",
                     "variety_items": [
                         {
                             "name": "Haworthiopsis sordida sordida",

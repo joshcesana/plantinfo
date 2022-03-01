@@ -1,12 +1,18 @@
 const getCacheData = require('../utils/get-cache-data.js');
 const { objectHasOwnProperties } = require('../_data/helpers.js');
+const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
+
 module.exports = async function(configData) {
   let
     plantInfoData = {},
     citationsData = {},
     nurseriesData = {},
-    plantsData = {}
-  ;
+    plantsData = {},
+    plantFamily,
+    plantGenus,
+    plantGenusLetter,
+    plantSpecies,
+    plantVariety;
 
   /*
    * Fetch JSON from external data sources
@@ -31,6 +37,119 @@ module.exports = async function(configData) {
    * match the collections being added in .eleventy.js, so that this processing
    * can be cached ahead of time. This includes the creation of search indexes.
    */
+
+  /*
+   * Temporary simulation of external data fetched and processed into the
+   * plantsData structure, so we can work on testing the data processing.
+   */
+  plantsData = {
+    "plants": {
+      "family": {
+        "x":
+          [
+            {
+              "Xanthorrhoeaceae": {
+                "name": "Xanthorrhoeaceae",
+                "machine_name": "xanthorrhoeaceae",
+                "type": "family",
+                "authorities": null,
+                "naming_authorities": null,
+                "description": null,
+                "archival_data": {
+                  "id": "1381444",
+                  "legacy_id": "438",
+                  "author": "oitadmin",
+                  "created": "1473443572"
+                },
+                "genus_items": [
+                  {
+                    "name": "Haworthiopsis",
+                    "machine_name": "haworthiopsis",
+                    "type": "genus",
+                    "hybrid": "false",
+                    "authorities": "none?",
+                    "naming_authorities": null,
+                    "description": null,
+                    "family": "xanthorrhoeaceae",
+                    "cross_references": [],
+                    "species_items": [
+                      {
+                        "name": "Haworthiopsis sordida",
+                        "machine_name": "haworthiopsis_sordida",
+                        "type": "species",
+                        "hybrid": "false",
+                        "authorities": "none?",
+                        "naming_authorities": null,
+                        "description": null,
+                        "genus": "haworthiopsis",
+                        "family": "xanthorrhoeaceae",
+                        "variety_items": [
+                          {
+                            "name": "Haworthiopsis sordida sordida",
+                            "machine_name": "haworthiopsis_sordida_sordida",
+                            "type": "variety",
+                            "mark": null,
+                            "lower_ranks_name": "sordida",
+                            "authorities": null,
+                            "naming_authorities": null,
+                            "description": null,
+                            "lower_ranks": [
+                              "Variety"
+                            ],
+                            "species": "haworthiopsis_sordida",
+                            "genus": "haworthiopsis",
+                            "family": "xanthorrhoeaceae",
+                            "cross_references": [],
+                            "archival_data": {
+                              "id": "2218971",
+                              "legacy_id": null,
+                              "fgsid": null,
+                              "legacy_from_data_cross_ref": [],
+                              "fpi": "false",
+                              "source": "false",
+                              "active": "false",
+                              "author": "r-isaa",
+                              "created": "1516977804"
+                            }
+                          }
+                        ],
+                        "cross_references": [],
+                        "archival_data": {
+                          "id": "2218966",
+                          "legacy_id": null,
+                          "fgsid": null,
+                          "legacy_from_data_cross_ref": [],
+                          "fpi": "false",
+                          "source": "false",
+                          "active": "false",
+                          "author": "r-isaa",
+                          "created": "1516977773"
+                        }
+                      }
+                    ],
+                  "archival_data": {
+                    "id": "1397497",
+                      "legacy_id": "29804",
+                      "legacy_from_data_cross_ref": [],
+                      "active": "true",
+                      "author": "oitadmin",
+                      "created": "1482758874"
+                    }
+                  }
+                ]
+            }
+          }
+        ]
+      }
+    }
+  };
+
+  let plantDataPath = [ 'plants', 'family' ];
+  plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
+  plantInfoData = {
+    family: plantFamily
+  };
+  console.log('plants_info processing complete');
 
   return plantInfoData;
 };

@@ -188,26 +188,47 @@ module.exports = {
   },
 
   /**
+   * Get all data from collection.
+   *
+   * @param {Array|Object}  collection         The 11ty collection
+   * @returns {Array}                          The collection data array.
+   */
+  collectionGetAll(collection) {
+    let
+      isCollection = module.exports.isCollection(collection),
+      allCollectionData = []
+    ;
+
+    if (isCollection) {
+      allCollectionData = collection.getAll();
+    } else if (module.exports.isObject(collection)) {
+      allCollectionData = [
+        {
+          data: collection
+        }
+      ]
+    }
+
+    return allCollectionData;
+  },
+
+  /**
    * Get root data from collection.
    *
-   * @param {Array}        collection         The 11ty collection
+   * @param {Array|Object}        collection         The 11ty collection
    * @returns {Object}                        The collection data.
    */
   getCollectionRootData(collection) {
     let
-      allCollectionData = [];
+      allCollectionData = module.exports.collectionGetAll(collection),
       rootCollectionData = {};
 
-    if (module.exports.isCollection(collection)) {
-      allCollectionData = collection.getAll();
-
-      if (
-        module.exports.isArrayWithItems(allCollectionData) &&
-        module.exports.isObject(allCollectionData[0]) &&
-        module.exports.objectHasOwnProperties(allCollectionData[0], ['data'])
-      ) {
-        rootCollectionData = collection.getAll()[0].data;
-      }
+    if (
+      module.exports.isArrayWithItems(allCollectionData) &&
+      module.exports.isObject(allCollectionData[0]) &&
+      module.exports.objectHasOwnProperties(allCollectionData[0], ['data'])
+    ) {
+      rootCollectionData = allCollectionData[0].data;
     }
 
     return rootCollectionData;
@@ -216,7 +237,7 @@ module.exports = {
   /**
    * Get data from collection path.
    *
-   * @param {Array}        collectionData     The 11ty collection data.
+   * @param {Array|Object} collectionData     The 11ty collection data.
    * @param {Array}        dataPath           The path to the data.
    * @returns {Object}                        The collection data.
    */
@@ -499,6 +520,12 @@ module.exports = {
           let levelItem = module.exports.copyObject(levelValue);
           collectionItems = module.exports.addLevelItem(collectionItems, levelItem, itemType);
         } else {
+          if (module.exports.isObject(levelValue)) {
+            checkForLevelArray = false;
+          } else if (module.exports.isArray(levelValue)) {
+            checkForLevelArray = true;
+          }
+
           collectionItems = module.exports.levelItemSeeker(collectionItems, levelValue, currentLevel + 1, targetLevel, itemType, checkForLevelArray);
         }
       });
