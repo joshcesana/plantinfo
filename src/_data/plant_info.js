@@ -146,7 +146,9 @@ module.exports = async function(configData) {
   let plantDataPath = [ 'plants', 'family' ];
   plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
   plantInfoData = {
-    family: plantFamily
+    "plants": {
+      "family": plantFamily
+    }
   };
   console.log('plants_info processing complete');
 

@@ -1,5 +1,6 @@
 const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy");
 const getCacheData = require('./src/utils/get-cache-data.js');
+const getGlobalDataCollection = require('./src/utils/get-global-data-collection.js');
 const getLetterGroupCollection = require('./src/utils/get-letter-group-collection.js');
 const getNumberLetterCollection = require('./src/utils/get-number-letter-collection.js');
 const getRootItemTypeCollection = require('./src/utils/get-root-item-type-collection.js');
@@ -217,8 +218,13 @@ module.exports = config => {
   // Returns family items.
   config.addCollection('family', async (collection) => {
     plantFamilyRootCollection = collection;
-
-    return await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+    // console.log('eleventy add family');
+    // let plantInfoFamilyCollection = getGlobalDataCollection(collection, 'plant_info', ['plants', 'family']);
+    // console.log(plantInfoFamilyCollection);
+    // console.log(collection.getAll()[0].data['plants']['family']);
+    // console.log(await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration));
+    // return plantInfoFamilyCollection;
+    return await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration)await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
   });
 
   // Returns genus items.
