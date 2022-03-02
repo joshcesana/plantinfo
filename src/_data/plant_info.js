@@ -1,6 +1,8 @@
 const getCacheData = require('../utils/get-cache-data.js');
 const { objectHasOwnProperties } = require('../_data/helpers.js');
 const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
+const getElementItemsCollection = require("../utils/get-element-items-collection.js");
+const getLetterListCollection = require("../utils/get-letter-list-collection.js");
 
 module.exports = async function(configData) {
   let
@@ -145,9 +147,17 @@ module.exports = async function(configData) {
 
   let plantDataPath = [ 'plants', 'family' ];
   plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
+  plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
+  plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
+  plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
+  plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
   plantInfoData = {
     "plants": {
-      "family": plantFamily
+      "family": plantFamily,
+      "genus": plantGenus,
+      "species": plantSpecies,
+      "variety": plantVariety,
+      "genusLetters": plantGenusLetter,
     }
   };
   console.log('plants_info processing complete');
