@@ -45,101 +45,100 @@ module.exports = async function(configData) {
   plantsData = {
     "plants": {
       "family": {
-        "x":
-          [
-            {
-              "Xanthorrhoeaceae": {
-                "name": "Xanthorrhoeaceae",
-                "machine_name": "xanthorrhoeaceae",
-                "type": "family",
-                "authorities": null,
-                "naming_authorities": null,
-                "description": null,
-                "archival_data": {
-                  "id": "1381444",
-                  "legacy_id": "438",
-                  "author": "oitadmin",
-                  "created": "1473443572"
-                },
-                "genus_items": [
-                  {
-                    "name": "Haworthiopsis",
-                    "machine_name": "haworthiopsis",
-                    "type": "genus",
-                    "hybrid": "false",
-                    "authorities": "none?",
-                    "naming_authorities": null,
-                    "description": null,
-                    "family": "xanthorrhoeaceae",
-                    "cross_references": [],
-                    "species_items": [
-                      {
-                        "name": "Haworthiopsis sordida",
-                        "machine_name": "haworthiopsis_sordida",
-                        "type": "species",
-                        "hybrid": "false",
-                        "authorities": "none?",
-                        "naming_authorities": null,
-                        "description": null,
-                        "genus": "haworthiopsis",
-                        "family": "xanthorrhoeaceae",
-                        "variety_items": [
-                          {
-                            "name": "Haworthiopsis sordida sordida",
-                            "machine_name": "haworthiopsis_sordida_sordida",
-                            "type": "variety",
-                            "mark": null,
-                            "lower_ranks_name": "sordida",
-                            "authorities": null,
-                            "naming_authorities": null,
-                            "description": null,
-                            "lower_ranks": [
-                              "Variety"
-                            ],
-                            "species": "haworthiopsis_sordida",
-                            "genus": "haworthiopsis",
-                            "family": "xanthorrhoeaceae",
-                            "cross_references": [],
-                            "archival_data": {
-                              "id": "2218971",
-                              "legacy_id": null,
-                              "fgsid": null,
-                              "legacy_from_data_cross_ref": [],
-                              "fpi": "false",
-                              "source": "false",
-                              "active": "false",
-                              "author": "r-isaa",
-                              "created": "1516977804"
-                            }
+        "x": {
+          "xanthorrhoeaceae": {
+            "xanthorrhoeaceae": {
+              "name": "Xanthorrhoeaceae",
+              "machine_name": "xanthorrhoeaceae",
+              "type": "family",
+              "authorities": null,
+              "naming_authorities": null,
+              "description": null,
+              "archival_data": {
+                "id": "1381444",
+                "legacy_id": "438",
+                "author": "oitadmin",
+                "created": "1473443572"
+              },
+              "genus_items": [
+                {
+                  "name": "Haworthiopsis",
+                  "machine_name": "haworthiopsis",
+                  "type": "genus",
+                  "hybrid": "false",
+                  "authorities": "none?",
+                  "naming_authorities": null,
+                  "description": null,
+                  "family": "xanthorrhoeaceae",
+                  "cross_references": [],
+                  "species_items": [
+                    {
+                      "name": "Haworthiopsis sordida",
+                      "machine_name": "haworthiopsis_sordida",
+                      "type": "species",
+                      "hybrid": "false",
+                      "authorities": "none?",
+                      "naming_authorities": null,
+                      "description": null,
+                      "genus": "haworthiopsis",
+                      "family": "xanthorrhoeaceae",
+                      "variety_items": [
+                        {
+                          "name": "Haworthiopsis sordida sordida",
+                          "machine_name": "haworthiopsis_sordida_sordida",
+                          "type": "variety",
+                          "mark": null,
+                          "lower_ranks_name": "sordida",
+                          "authorities": null,
+                          "naming_authorities": null,
+                          "description": null,
+                          "lower_ranks": [
+                            "Variety"
+                          ],
+                          "species": "haworthiopsis_sordida",
+                          "genus": "haworthiopsis",
+                          "family": "xanthorrhoeaceae",
+                          "cross_references": [],
+                          "archival_data": {
+                            "id": "2218971",
+                            "legacy_id": null,
+                            "fgsid": null,
+                            "legacy_from_data_cross_ref": [],
+                            "fpi": "false",
+                            "source": "false",
+                            "active": "false",
+                            "author": "r-isaa",
+                            "created": "1516977804"
                           }
-                        ],
-                        "cross_references": [],
-                        "archival_data": {
-                          "id": "2218966",
-                          "legacy_id": null,
-                          "fgsid": null,
-                          "legacy_from_data_cross_ref": [],
-                          "fpi": "false",
-                          "source": "false",
-                          "active": "false",
-                          "author": "r-isaa",
-                          "created": "1516977773"
                         }
+                      ],
+                      "cross_references": [],
+                      "archival_data": {
+                        "id": "2218966",
+                        "legacy_id": null,
+                        "fgsid": null,
+                        "legacy_from_data_cross_ref": [],
+                        "fpi": "false",
+                        "source": "false",
+                        "active": "false",
+                        "author": "r-isaa",
+                        "created": "1516977773"
                       }
-                    ],
+                    }
+                  ],
                   "archival_data": {
                     "id": "1397497",
-                      "legacy_id": "29804",
-                      "legacy_from_data_cross_ref": [],
-                      "active": "true",
-                      "author": "oitadmin",
-                      "created": "1482758874"
-                    }
+                    "legacy_id": "29804",
+                    "legacy_from_data_cross_ref": [],
+                    "active": "true",
+                    "author": "oitadmin",
+                    "created": "1482758874"
                   }
-                ]
+                }
+              ]
             }
           }
-        ]
+        }
       }
     }
   };
