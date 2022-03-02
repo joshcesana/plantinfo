@@ -13,9 +13,9 @@ const {
 /**
  * Takes a collection and returns it back with the custom index.
  *
- * @param {Array}           nurseryCollection  The 11ty collection
- * @param {Array}           nurseryCategories  The 11ty collection
- * @returns {Array}                            The custom index
+ * @param {Array|Object}    nurseryCollection     The 11ty collection
+ * @param {Array|Object}    nurseryCategories     The 11ty collection
+ * @returns {Array}                               The custom index
  */
 module.exports = (nurseryCollection, nurseryCategories) => {
   let

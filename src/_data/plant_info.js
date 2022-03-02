@@ -5,14 +5,21 @@ const getElementItemsCollection = require("../utils/get-element-items-collection
 const getLetterListCollection = require("../utils/get-letter-list-collection.js");
 const getRootItemTypeCollection = require("../utils/get-root-item-type-collection.js");
 const getNumberLetterCollection = require("../utils/get-number-letter-collection.js");
+const getCategoryCollection = require("../utils/get-category-collection.js");
+const getPagedCategoryCollection = require("../utils/get-paged-category-collection.js");
+const prepareNurseryIndex = require("../utils/prepare-nursery-index.js");
+const buildLunrIndex = require("../utils/build-lunr-index.js");
+const writeLunrIndex = require("../utils/write-lunr-index.js");
+const writeRawIndex = require("../utils/write-raw-index.js");
 
 module.exports = async function(configData) {
   let
     plantInfoData = {},
     citationsData = {},
-    nurseriesData = {},
     plantsData = {},
     commonNamesData = {},
+    nurseriesData = {},
+    termsData = {},
     plantFamily,
     plantGenus,
     plantSpecies,
@@ -20,7 +27,13 @@ module.exports = async function(configData) {
     plantGenusLetter,
     plantCommonName,
     plantCommonNameLetter,
-    nurseriesNursery
+    nurseriesNursery,
+    nurseriesNurseryCatalog,
+    nurseriesNurseryCategory,
+    nurseriesNurserySpecialties,
+    nurseriesNurseryByCategory,
+    nurseriesPrepareIndex,
+    nurseriesBuildIndex
   ;
 
   /*
@@ -175,7 +188,7 @@ module.exports = async function(configData) {
         }
       }
     ]
-  }
+  };
   nurseriesData = {
     "nursery_catalogs": {
       "nurseries": {
@@ -250,19 +263,51 @@ module.exports = async function(configData) {
         }
       }
     }
-  }
+  };
+  termsData = {
+    "terms": [
+      {
+        "name": "Evergreens",
+        "machine_name": "evergreens",
+        "type": "nursery_category",
+        "archival_data": {
+          "id": "216162",
+          "legacy_id": "10"
+        }
+      }
+    ]
+  };
 
-  let plantDataPath = [ 'plants', 'family' ];
+  const
+    plantDataPath = [ 'plants', 'family' ],
+    nurseriesDataPath = ['nursery_catalogs', 'nurseries'],
+    searchOutputDir = 'dist_test'
+  ;
+
   plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
   plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
   plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
   plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
-  plantGenusLetter = getLetterListCollection(plantGenus, 'genus'),
-  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['dataPath'], configData['rootData']['common_names']['itemType'])
-  ;
+  plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
+  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['dataPath'], configData['rootData']['common_names']['itemType']);
 
-  let nurseriesDataPath = ['nursery_catalogs', 'nurseries'];
   nurseriesNursery = getNumberLetterCollection(nurseriesData, nurseriesDataPath, configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
+  nurseriesNurseryCatalog = getElementItemsCollection(nurseriesNursery, 'nursery_catalog', false);
+  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, configData['rootData']['nursery_categories']['dataPath'], configData['rootData']['nursery_categories']['itemType']);
+  nurseriesNurserySpecialties = getCategoryCollection(nurseriesNursery, nurseriesNurseryCategory, 'specialties', 'nursery_category');
+  nurseriesNurseryByCategory = getPagedCategoryCollection(nurseriesNurserySpecialties, 20, "nursery_category");
+  nurseriesPrepareIndex = prepareNurseryIndex(nurseriesNursery, nurseriesNurseryCategory);
+  nurseriesBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['nurseries']['refKey'], configData['searchData']['nurseries']['fieldKeys']);
+
+  console.log('nursery category collection has ' + nurseriesNurseryCategory.length  + ' items');
+  console.log('nursery specialty collection has ' + nurseriesNurserySpecialties.length + ' items');
+  console.log('nursery paged category collection has ' + nurseriesNurseryByCategory.length + ' items');
+
+  console.log('nursery prepare index collection has ' + nurseriesPrepareIndex.length + ' items');
+  console.log('nursery build index collection has ' + Object.keys(nurseriesBuildIndex).length + ' items');
+
+  writeLunrIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesBuildIndex);
+  writeRawIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesPrepareIndex);
 
   plantInfoData = {
     "plants": {
@@ -274,11 +319,17 @@ module.exports = async function(configData) {
       "commonName": plantCommonName,
     },
     "nurseries": {
-      "nursery":  nurseriesNursery
+      "nursery":  nurseriesNursery,
+      "nursery_catalog": nurseriesNurseryCatalog,
+      "nursery_category": nurseriesNurseryCategory,
+      "nursery_specialty": nurseriesNurserySpecialties,
+      "nursery_by_category": nurseriesNurseryByCategory,
+      "nursery_prepare_index": nurseriesPrepareIndex,
+      "nursery_build_index": nurseriesBuildIndex,
     },
   };
 
-  console.log('plants_info processing complete');
+  console.log('plant_info processing complete');
 
   return plantInfoData;
 };

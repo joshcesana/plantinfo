@@ -5,7 +5,7 @@ const fs = require("fs");
  *
  * @param {String}          outputDir   The 11ty output directory.
  * @param {String}          indexSlug   The slug for the custom lunr index.
- * @param {Array}          collection  The collection used by the index.
+ * @param {Array|Object}    collection  The collection used by the index.
  */
 module.exports = (outputDir, indexSlug, collection) => {
   let lunrDir = './' + outputDir + '/lunr';
