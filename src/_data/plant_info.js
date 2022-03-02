@@ -3,6 +3,8 @@ const { objectHasOwnProperties } = require('../_data/helpers.js');
 const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
 const getElementItemsCollection = require("../utils/get-element-items-collection.js");
 const getLetterListCollection = require("../utils/get-letter-list-collection.js");
+const getRootItemTypeCollection = require("../utils/get-root-item-type-collection.js");
+const getNumberLetterCollection = require("../utils/get-number-letter-collection.js");
 
 module.exports = async function(configData) {
   let
@@ -10,11 +12,16 @@ module.exports = async function(configData) {
     citationsData = {},
     nurseriesData = {},
     plantsData = {},
+    commonNamesData = {},
     plantFamily,
     plantGenus,
-    plantGenusLetter,
     plantSpecies,
-    plantVariety;
+    plantVariety,
+    plantGenusLetter,
+    plantCommonName,
+    plantCommonNameLetter,
+    nurseriesNursery
+  ;
 
   /*
    * Fetch JSON from external data sources
@@ -144,13 +151,119 @@ module.exports = async function(configData) {
       }
     }
   };
+  commonNamesData = {
+    "common_names": [
+      {
+        "name": "Llacon",
+        "machine_name": "llacon",
+        "type": "common_name",
+        "plants": [
+          {
+            "machine_name": "smallanthus_sonchifolius",
+            "type": "species",
+            "archival_data": {
+              "id": "1453185"
+            }
+          }
+        ],
+        "archival_data": {
+          "id": "2102802",
+          "legacy_id": "12897",
+          "active": true,
+          "author": "oitadmin",
+          "created": "1483715040"
+        }
+      }
+    ]
+  }
+  nurseriesData = {
+    "nursery_catalogs": {
+      "nurseries": {
+        "w": {
+          "w_w_nurseries": {
+            "name": "W.W. Nurseries",
+            "machine_name": "w_w_nurseries",
+            "type": "nursery",
+            "retail_wholesale": {
+              "retail": true,
+              "wholesale": false
+            },
+            "location": {
+              "country": {
+                "united_states": true,
+                "canada": false
+              },
+              "address_1": "188 VALLEY GREEN DR.",
+              "address_2": "",
+              "city": "Indiana",
+              "state": "PA",
+              "postal_code": "15701",
+              "geo_coordinate": null
+            },
+            "contact": {
+              "website": {
+                "url": "https:\/\/www.rhodiesrus.com\/",
+                "title": null,
+                "attributes": []
+              },
+              "email": null,
+              "phone": null,
+              "fax": null,
+              "name": null
+            },
+            "specialties": [
+              {
+                "machine_name": "rhododendron",
+                "type": "nursery_category",
+                "archival_data": {
+                  "id": "216179"
+                }
+              },
+              {
+                "machine_name": "trees",
+                "type": "nursery_category",
+                "archival_data": {
+                  "id": "216185"
+                }
+              }
+            ],
+            "catalog": {
+              "print": false,
+              "online": true,
+              "web_only": true
+            },
+            "update": null,
+            "nursery_catalog_items": [],
+            "archival_data": {
+              "id": "2471921",
+              "legacy_id": null,
+              "ships": true,
+              "NODATE": false,
+              "NoCatalog": true,
+              "active": true,
+              "bulkmail": false,
+              "SRCE2000": null,
+              "author": "jense035",
+              "created": "1550786106"
+            }
+          }
+        }
+      }
+    }
+  }
 
   let plantDataPath = [ 'plants', 'family' ];
   plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
   plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
   plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
   plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
-  plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
+  plantGenusLetter = getLetterListCollection(plantGenus, 'genus'),
+  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['dataPath'], configData['rootData']['common_names']['itemType'])
+  ;
+
+  let nurseriesDataPath = ['nursery_catalogs', 'nurseries'];
+  nurseriesNursery = getNumberLetterCollection(nurseriesData, nurseriesDataPath, configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
+
   plantInfoData = {
     "plants": {
       "family": plantFamily,
@@ -158,8 +271,13 @@ module.exports = async function(configData) {
       "species": plantSpecies,
       "variety": plantVariety,
       "genusLetters": plantGenusLetter,
-    }
+      "commonName": plantCommonName,
+    },
+    "nurseries": {
+      "nursery":  nurseriesNursery
+    },
   };
+
   console.log('plants_info processing complete');
 
   return plantInfoData;

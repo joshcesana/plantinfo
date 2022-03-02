@@ -9,7 +9,7 @@ const {
 /**
  * Takes a collection and returns it back with the attached items by type.
  *
-* @param {Array}        collection   The 11ty collection
+* @param {Array|Object}        collection   The 11ty collection
  * @param {Array}       dataPath      The data path to the terms.
  * @param {String}      itemType      The item type to use for the collection.
  * @returns {Array}                   The filtered collection
