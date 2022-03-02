@@ -224,7 +224,7 @@ module.exports = config => {
     // console.log(collection.getAll()[0].data['plants']['family']);
     // console.log(await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration));
     // return plantInfoFamilyCollection;
-    return await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration)await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+    return await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
   });
 
   // Returns genus items.
