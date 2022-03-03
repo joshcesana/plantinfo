@@ -323,6 +323,5 @@ module.exports = (plantLevels, commonNames, nurseryCatalogs, journalCitations) =
   index = addCommonNamesToIndex(commonNames, index);
   index = reviewNurseryCatalogs(nurseryCatalogs, index);
   index = reviewJournalCitations(journalCitations, index);
-
   return index;
 };

@@ -358,28 +358,19 @@ module.exports = async function(configData) {
     }
   };
 
-  const
-    citationsDataPath = ['journal_citations', 'journals'],
-    plantDataPath = [ 'plants', 'family' ],
-    commonNamesDataPath = ['common_names', 'common_names'],
-    nurseriesDataPath = ['nursery_catalogs', 'nurseries'],
-    nurseryCategoriesDataPath = ['terms', 'terms'],
-    searchOutputDir = 'dist_test'
-  ;
-
-  citationsJournalBook = getNumberLetterCollection(citationsData, citationsDataPath, configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
+  citationsJournalBook = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
   citationsCitationReference = getElementItemsCollection(citationsJournalBook, 'citation_reference', 'journal_book');
 
-  plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
+  plantFamily = getLetterGroupCollection(plantsData, configData['rootData']['plants']['globalDataPath'], configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
   plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
   plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
   plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
   plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
-  plantCommonName = getRootItemTypeCollection(commonNamesData, commonNamesDataPath, configData['rootData']['common_names']['itemType']);
+  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['globalDataPath'], configData['rootData']['common_names']['itemType']);
 
-  nurseriesNursery = getNumberLetterCollection(nurseriesData, nurseriesDataPath, configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
+  nurseriesNursery = getNumberLetterCollection(nurseriesData, configData['rootData']['nurseries']['globalDataPath'], configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
   nurseriesNurseryCatalog = getElementItemsCollection(nurseriesNursery, 'nursery_catalog', false);
-  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, nurseryCategoriesDataPath, configData['rootData']['nursery_categories']['itemType']);
+  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, configData['rootData']['nursery_categories']['globalDataPath'], configData['rootData']['nursery_categories']['itemType']);
   nurseriesNurserySpecialties = getCategoryCollection(nurseriesNursery, nurseriesNurseryCategory, 'specialties', 'nursery_category');
   nurseriesNurseryByCategory = getPagedCategoryCollection(nurseriesNurserySpecialties, 20, "nursery_category");
 
@@ -393,8 +384,8 @@ module.exports = async function(configData) {
   console.log('nursery prepare index collection has ' + nurseriesPrepareIndex.length + ' items');
   console.log('nursery build index collection has ' + Object.keys(nurseriesBuildIndex).length + ' items');
 
-  writeLunrIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesBuildIndex);
-  writeRawIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesPrepareIndex);
+  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], nurseriesBuildIndex);
+  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], nurseriesPrepareIndex);
 
   plantPrepareIndex = preparePlantIndex([plantGenus, plantSpecies, plantVariety], plantCommonName, nurseriesNurseryCatalog, citationsCitationReference);
   plantBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['plants']['refKey'], configData['searchData']['plants']['fieldKeys']);
@@ -402,8 +393,8 @@ module.exports = async function(configData) {
   console.log('plant prepare index collection has ' + plantPrepareIndex.length + ' items');
   console.log('plant build index collection has ' + Object.keys(plantBuildIndex).length + ' items');
 
-  writeLunrIndex(searchOutputDir, configData['searchData']['plants']['indexSlug'], plantBuildIndex);
-  writeRawIndex(searchOutputDir, configData['searchData']['plants']['indexSlug'], plantPrepareIndex);
+  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantBuildIndex);
+  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantPrepareIndex);
 
   plantInfoData = {
     "citations": {
@@ -415,10 +406,11 @@ module.exports = async function(configData) {
       "genus": plantGenus,
       "species": plantSpecies,
       "variety": plantVariety,
-      "genusLetters": plantGenusLetter,
-      "commonName": plantCommonName,
-      "plantPrepareIndex": plantPrepareIndex,
-      "plantBuildIndex": plantBuildIndex,
+      "genus_letters": plantGenusLetter,
+      "common_name": plantCommonName,
+      "plant_prepare_index": plantPrepareIndex,
+      "plant_build_index": plantBuildIndex,
+      "full_plant_index": plantPrepareIndex,
     },
     "nurseries": {
       "nursery":  nurseriesNursery,
