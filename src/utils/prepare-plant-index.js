@@ -10,11 +10,11 @@ const {
 /**
  * Takes a collection and returns it back with the custom index.
  *
- * @param {Array}           plantLevels      An array of 11ty collections
- * @param {Array}           commonNames       The 11ty collection
- * @param {Array}           nurseryCatalogs   The 11ty collection
- * @param {Array}           journalCitations         The 11ty collection
- * @returns {Array}                                    The custom index
+ * @param {Array|Object}    plantLevels       An array of 11ty collections
+ * @param {Array|Object}    commonNames       The 11ty collection
+ * @param {Array|Object}    nurseryCatalogs   The 11ty collection
+ * @param {Array|Object}    journalCitations  The 11ty collection
+ * @returns {Array}                           The custom index
  */
 module.exports = (plantLevels, commonNames, nurseryCatalogs, journalCitations) => {
   let index = [],

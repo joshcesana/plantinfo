@@ -11,6 +11,7 @@ const prepareNurseryIndex = require("../utils/prepare-nursery-index.js");
 const buildLunrIndex = require("../utils/build-lunr-index.js");
 const writeLunrIndex = require("../utils/write-lunr-index.js");
 const writeRawIndex = require("../utils/write-raw-index.js");
+const preparePlantIndex = require("../utils/prepare-plant-index.js");
 
 module.exports = async function(configData) {
   let
@@ -20,6 +21,8 @@ module.exports = async function(configData) {
     commonNamesData = {},
     nurseriesData = {},
     termsData = {},
+    citationsJournalBook,
+    citationsCitationReference,
     plantFamily,
     plantGenus,
     plantSpecies,
@@ -27,6 +30,8 @@ module.exports = async function(configData) {
     plantGenusLetter,
     plantCommonName,
     plantCommonNameLetter,
+    plantPrepareIndex,
+    plantBuildIndex,
     nurseriesNursery,
     nurseriesNurseryCatalog,
     nurseriesNurseryCategory,
@@ -64,6 +69,77 @@ module.exports = async function(configData) {
    * Temporary simulation of external data fetched and processed into the
    * plantsData structure, so we can work on testing the data processing.
    */
+  citationsData = {
+    "journal_citations": {
+      "journals": {
+        "y": {
+          "yellow_rose_the": {
+            "yellow_rose_the_vol_12_no_1_1995": {
+              "name": "Yellow Rose, The. vol 12, no. 1. (1995)",
+              "machine_name": "yellow_rose_the_vol_12_no_1_1995",
+              "type": "journal_book",
+              "volume": null,
+              "number": null,
+              "year": "1995",
+              "additional_info": null,
+              "publish_date": null,
+              "pulling_date": null,
+              "description": null,
+              "archival_data": {
+                "id": "2112909",
+                "legacy_id": "5923",
+                "author": "oitadmin",
+                "created": "1473951107"
+              },
+              "citation_reference_items": [
+                {
+                  "name": "Yellow Rose, The. vol 12, no. 1. (1995) p cover",
+                  "machine_name": "yellow_rose_the_vol_12_no_1_1995_p_cover",
+                  "type": "citation_reference",
+                  "plant": {
+                    "machine_name": "rosa_cultivars_bonn",
+                    "type": "variety",
+                    "archival_data": [
+                      "1490345"
+                    ]
+                  },
+                  "volume": null,
+                  "page": "p cover",
+                  "year": "1995",
+                  "notes": null,
+                  "parts_shown": {
+                    "Flower": true,
+                    "Seed": false,
+                    "Fruit": false,
+                    "Bark": false,
+                    "Root": false,
+                    "Habit": false,
+                    "Leaf": false,
+                    "Twig": false,
+                    "Unclear": false
+                  },
+                  "citation_type": {
+                    "Art": false,
+                    "Photo": false
+                  },
+                  "archival_data": {
+                    "id": "1747908",
+                    "legacy_id": "45426",
+                    "AD": false,
+                    "fpi_pub_issue": null,
+                    "pullingdat": "1",
+                    "active": true,
+                    "author": "oitadmin",
+                    "created": "1483154438"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  };
   plantsData = {
     "plants": {
       "family": {
@@ -165,29 +241,31 @@ module.exports = async function(configData) {
     }
   };
   commonNamesData = {
-    "common_names": [
-      {
-        "name": "Llacon",
-        "machine_name": "llacon",
-        "type": "common_name",
-        "plants": [
-          {
-            "machine_name": "smallanthus_sonchifolius",
-            "type": "species",
-            "archival_data": {
-              "id": "1453185"
+    "common_names": {
+      "common_names": [
+        {
+          "name": "Llacon",
+          "machine_name": "llacon",
+          "type": "common_name",
+          "plants": [
+            {
+              "machine_name": "smallanthus_sonchifolius",
+              "type": "species",
+              "archival_data": {
+                "id": "1453185"
+              }
             }
+          ],
+          "archival_data": {
+            "id": "2102802",
+            "legacy_id": "12897",
+            "active": true,
+            "author": "oitadmin",
+            "created": "1483715040"
           }
-        ],
-        "archival_data": {
-          "id": "2102802",
-          "legacy_id": "12897",
-          "active": true,
-          "author": "oitadmin",
-          "created": "1483715040"
         }
-      }
-    ]
+      ]
+    }
   };
   nurseriesData = {
     "nursery_catalogs": {
@@ -265,37 +343,46 @@ module.exports = async function(configData) {
     }
   };
   termsData = {
-    "terms": [
-      {
-        "name": "Evergreens",
-        "machine_name": "evergreens",
-        "type": "nursery_category",
-        "archival_data": {
-          "id": "216162",
-          "legacy_id": "10"
+    "terms": {
+      "terms": [
+        {
+          "name": "Evergreens",
+          "machine_name": "evergreens",
+          "type": "nursery_category",
+          "archival_data": {
+            "id": "216162",
+            "legacy_id": "10"
+          }
         }
-      }
-    ]
+      ]
+    }
   };
 
   const
+    citationsDataPath = ['journal_citations', 'journals'],
     plantDataPath = [ 'plants', 'family' ],
+    commonNamesDataPath = ['common_names', 'common_names'],
     nurseriesDataPath = ['nursery_catalogs', 'nurseries'],
+    nurseryCategoriesDataPath = ['terms', 'terms'],
     searchOutputDir = 'dist_test'
   ;
+
+  citationsJournalBook = getNumberLetterCollection(citationsData, citationsDataPath, configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
+  citationsCitationReference = getElementItemsCollection(citationsJournalBook, 'citation_reference', 'journal_book');
 
   plantFamily = getLetterGroupCollection(plantsData, plantDataPath, configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
   plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
   plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
   plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
   plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
-  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['dataPath'], configData['rootData']['common_names']['itemType']);
+  plantCommonName = getRootItemTypeCollection(commonNamesData, commonNamesDataPath, configData['rootData']['common_names']['itemType']);
 
   nurseriesNursery = getNumberLetterCollection(nurseriesData, nurseriesDataPath, configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
   nurseriesNurseryCatalog = getElementItemsCollection(nurseriesNursery, 'nursery_catalog', false);
-  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, configData['rootData']['nursery_categories']['dataPath'], configData['rootData']['nursery_categories']['itemType']);
+  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, nurseryCategoriesDataPath, configData['rootData']['nursery_categories']['itemType']);
   nurseriesNurserySpecialties = getCategoryCollection(nurseriesNursery, nurseriesNurseryCategory, 'specialties', 'nursery_category');
   nurseriesNurseryByCategory = getPagedCategoryCollection(nurseriesNurserySpecialties, 20, "nursery_category");
+
   nurseriesPrepareIndex = prepareNurseryIndex(nurseriesNursery, nurseriesNurseryCategory);
   nurseriesBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['nurseries']['refKey'], configData['searchData']['nurseries']['fieldKeys']);
 
@@ -309,7 +396,20 @@ module.exports = async function(configData) {
   writeLunrIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesBuildIndex);
   writeRawIndex(searchOutputDir, configData['searchData']['nurseries']['indexSlug'], nurseriesPrepareIndex);
 
+  plantPrepareIndex = preparePlantIndex([plantGenus, plantSpecies, plantVariety], plantCommonName, nurseriesNurseryCatalog, citationsCitationReference);
+  plantBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['plants']['refKey'], configData['searchData']['plants']['fieldKeys']);
+
+  console.log('plant prepare index collection has ' + plantPrepareIndex.length + ' items');
+  console.log('plant build index collection has ' + Object.keys(plantBuildIndex).length + ' items');
+
+  writeLunrIndex(searchOutputDir, configData['searchData']['plants']['indexSlug'], plantBuildIndex);
+  writeRawIndex(searchOutputDir, configData['searchData']['plants']['indexSlug'], plantPrepareIndex);
+
   plantInfoData = {
+    "citations": {
+      "journal_book": citationsJournalBook,
+      "citation_reference": citationsCitationReference,
+    },
     "plants": {
       "family": plantFamily,
       "genus": plantGenus,
@@ -317,6 +417,8 @@ module.exports = async function(configData) {
       "variety": plantVariety,
       "genusLetters": plantGenusLetter,
       "commonName": plantCommonName,
+      "plantPrepareIndex": plantPrepareIndex,
+      "plantBuildIndex": plantBuildIndex,
     },
     "nurseries": {
       "nursery":  nurseriesNursery,
