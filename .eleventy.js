@@ -89,7 +89,7 @@ module.exports = config => {
         },
         plant_prepare_index: {
           globalDataPath: ['plants', 'plant_prepare_index'],
-          collectionData: null,
+          collectionData: [],
         },
         plant_build_index: {
           globalDataPath: ['plants', 'plant_build_index'],
@@ -97,7 +97,7 @@ module.exports = config => {
         },
         full_plant_index: {
           globalDataPath: ['plants', 'full_plant_index'],
-          collectionData: null,
+          collectionData: [],
         },
         nursery: {
           globalDataPath: ['nurseries', 'nursery'],
@@ -121,7 +121,7 @@ module.exports = config => {
         },
         nursery_prepare_index: {
           globalDataPath: ['nurseries', 'nursery_prepare_index'],
-          collectionData: null,
+          collectionData: [],
         },
         nursery_build_index: {
           globalDataPath: ['nurseries', 'nursery_build_index'],
@@ -257,26 +257,7 @@ module.exports = config => {
         getFunction: buildLunrIndex,
         staticParameters: [searchData['plants']['refKey'], searchData['plants']['fieldKeys']]
       },
-    },
-    journalCollection,
-    citationCollection,
-    plantFamilyRootCollection,
-    plantFamilyCollection,
-    plantGenusCollection,
-    plantSpeciesCollection,
-    plantVarietyCollection,
-    plantCommonNameCollection,
-    nurseryRootCollection,
-    nurseryCategoryRootCollection,
-    nurseryCollection,
-    nurseryCatalogCollection,
-    nurseryCategoryCollection,
-    nurserySpecialtiesCollection,
-    nurseryPrepareIndexCollection,
-    nurseryBuildIndexCollection,
-    nurseryPagedCategoryCollection = [],
-    plantPrepareIndexCollection,
-    plantBuildIndexCollection
+    }
   ;
 
   config.addGlobalData('gdSearchOutputDir', gdSearchOutputDir);
@@ -302,9 +283,9 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.citation_reference.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.citation_reference.globalDataPath);
     } else {
-      journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
 
-      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
+      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
     }
 
     return rootData.collections.citation_reference.collectionData;
@@ -317,9 +298,9 @@ module.exports = config => {
       // console.log('eleventy add family');
       // console.log(plantInfoFamilyCollection);
       // console.log(collection.getAll()[0].data['plants']['family']);
-      // console.log(await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration));
+      // console.log(await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration));
     } else {
-      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
     }
 
     return rootData.collections.family.collectionData;
@@ -330,12 +311,11 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.genus.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.genus.globalDataPath);
     } else {
-      plantFamilyRootCollection = collection;
-      plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
       console.log('family collection has items');
-      console.log(plantFamilyCollection.length > 0);
+      console.log(rootData.collections.family.collectionData.length > 0);
 
-      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
     }
 
     return rootData.collections.genus.collectionData;
@@ -346,13 +326,12 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.genus_letters.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.genus_letters.globalDataPath);
     } else {
-      plantFamilyRootCollection = collection;
-      plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
-      plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
       console.log('genus collection has items');
-      console.log(plantGenusCollection.length > 0);
+      console.log(rootData.collections.genus.collectionData.length > 0);
 
-      rootData.collections.genus_letters.collectionData = await getCacheData(cacheData.plantGenusLettersCache, [plantGenusCollection], cacheDuration);
+      rootData.collections.genus_letters.collectionData = await getCacheData(cacheData.plantGenusLettersCache, [rootData.collections.genus.collectionData], cacheDuration);
     }
 
     return rootData.collections.genus_letters.collectionData;
@@ -363,11 +342,10 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.species.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.species.globalDataPath);
     } else {
-      plantFamilyRootCollection = collection;
-      plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
-      plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
 
-      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [plantGenusCollection], cacheDuration);
+      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
     }
 
     return rootData.collections.species.collectionData;
@@ -378,14 +356,13 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.variety.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.variety.globalDataPath);
     } else {
-      plantFamilyRootCollection = collection;
-      plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
-      plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
-      plantSpeciesCollection = await getCacheData(cacheData.plantSpeciesCache, [plantGenusCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
       console.log('species collection has items');
-      console.log(plantSpeciesCollection.length > 0);
+      console.log(rootData.collections.species.collectionData.length > 0);
 
-      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [plantSpeciesCollection], cacheDuration);
+      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
     }
 
     return rootData.collections.variety.collectionData;
@@ -407,9 +384,7 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.nursery.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery.globalDataPath);
     } else {
-      nurseryRootCollection = collection;
-
-      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
+      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
     }
 
     return rootData.collections.nursery.collectionData;
@@ -420,12 +395,11 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.nursery_catalog.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_catalog.globalDataPath);
     } else {
-      nurseryRootCollection = collection;
-      nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
+      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
       console.log('nursery collection has items');
-      console.log(nurseryCollection.length > 0);
+      console.log(rootData.collections.nursery.collectionData.length > 0);
 
-      rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [nurseryCollection], cacheDuration);
+      rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration);
     }
 
     return rootData.collections.nursery_catalog.collectionData;
@@ -436,9 +410,7 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.nursery_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_category.globalDataPath);
     } else {
-      nurseryCategoryRootCollection = collection;
-
-      rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
+      rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
     }
 
     return rootData.collections.nursery_category.collectionData;
@@ -448,32 +420,29 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.nursery_by_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_by_category.globalDataPath);
     } else {
-      nurseryRootCollection = collection;
-      nurseryCategoryRootCollection = collection;
+      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+      rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
+      rootData.collections.nursery_specialty.collectionData = await getCacheData(cacheData.nurserySpecialtiesCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
+      rootData.collections.nursery_by_category.collectionData = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [rootData.collections.nursery_specialty.collectionData], cacheDuration);
 
-      nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
-      nurseryCategoryCollection = await getCacheData(cacheData.nurseryCategoryCache, [nurseryCategoryRootCollection], cacheDuration);
-      nurserySpecialtiesCollection = await getCacheData(cacheData.nurserySpecialtiesCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
-      nurseryPagedCategoryCollection = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [nurserySpecialtiesCollection], cacheDuration);
-
-      nurseryPrepareIndexCollection = await getCacheData(cacheData.nurseryPrepareIndexCache, [nurseryCollection, nurseryCategoryCollection], cacheDuration);
+      rootData.collections.nursery_prepare_index.collectionData = await getCacheData(cacheData.nurseryPrepareIndexCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
       console.log('nursery prepare index collection has items');
-      console.log(nurseryPrepareIndexCollection.length > 0);
+      console.log(rootData.collections.nursery_prepare_index.collectionData.length > 0);
 
-      nurseryBuildIndexCollection = await getCacheData(cacheData.nurseryBuildIndexCache, [nurseryPrepareIndexCollection], cacheDuration);
+      rootData.collections.nursery_build_index.collectionData = await getCacheData(cacheData.nurseryBuildIndexCache, [rootData.collections.nursery_prepare_index.collectionData], cacheDuration);
       console.log('nursery category collection has items');
-      console.log(nurseryCategoryCollection.length > 0);
+      console.log(rootData.collections.nursery_category.collectionData.length > 0);
 
       console.log('nursery specialty collection has items');
-      console.log(nurserySpecialtiesCollection.length > 0);
+      console.log(rootData.collections.nursery_specialty.collectionData.length > 0);
 
       console.log('nursery paged category collection has items');
-      console.log(nurseryPagedCategoryCollection.length > 0);
+      console.log(rootData.collections.nursery_by_category.collectionData.length > 0);
 
-      writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryBuildIndexCollection);
-      writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], nurseryPrepareIndexCollection);
+      writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_build_index.collectionData );
+      writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_prepare_index.collectionData);
 
-      rootData.collections.nursery_by_category.collectionData = nurseryPagedCategoryCollection;
+      rootData.collections.nursery_by_category.collectionData = rootData.collections.nursery_by_category.collectionData;
     }
 
     return rootData.collections.nursery_by_category.collectionData;
@@ -483,49 +452,46 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.full_plant_index.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.full_plant_index.globalDataPath);
     } else {
-      plantFamilyRootCollection = collection;
-      nurseryRootCollection = collection;
 
-      plantFamilyCollection = await getCacheData(cacheData.plantFamilyCache, [plantFamilyRootCollection], cacheDuration);
-      plantGenusCollection = await getCacheData(cacheData.plantGenusCache, [plantFamilyCollection], cacheDuration);
-      plantSpeciesCollection = await getCacheData(cacheData.plantSpeciesCache, [plantGenusCollection], cacheDuration);
-      plantVarietyCollection = await getCacheData(cacheData.plantVarietyCache, [plantSpeciesCollection], cacheDuration);
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
 
-      plantCommonNameCollection = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
+      rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
 
-      nurseryCollection = await getCacheData(cacheData.nurseryCache, [nurseryRootCollection], cacheDuration);
-      nurseryCatalogCollection = await getCacheData(cacheData.nurseryCatalogCache, [nurseryCollection], cacheDuration)
+      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+      rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration)
 
-      journalCollection = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-      citationCollection = await getCacheData(cacheData.citationReferenceCache, [journalCollection], cacheDuration);
+      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
 
       console.log('plant variety collection has items');
-      console.log(plantVarietyCollection.length > 0);
+      console.log(rootData.collections.variety.collectionData.length > 0);
 
       console.log('plant common name collection has items');
-      console.log(plantCommonNameCollection.length > 0);
+      console.log(rootData.collections.common_name.collectionData.length > 0);
 
       console.log('journal collection has items');
-      console.log(journalCollection.length > 0);
+      console.log(rootData.collections.journal_book.collectionData.length > 0);
 
       console.log('citation collection has items');
-      console.log(citationCollection.length > 0);
+      console.log(rootData.collections.citation_reference.collectionData.length > 0);
 
-      plantPrepareIndexCollection = [];
-      plantPrepareIndexCollection = await getCacheData(cacheData.plantPrepareIndexCache, [
-        [plantGenusCollection, plantSpeciesCollection, plantVarietyCollection],
-        plantCommonNameCollection,
-        nurseryCatalogCollection,
-        citationCollection
+      rootData.collections.plant_prepare_index.collectionData = await getCacheData(cacheData.plantPrepareIndexCache, [
+        [rootData.collections.genus.collectionData, rootData.collections.species.collectionData, rootData.collections.variety.collectionData],
+        rootData.collections.common_name.collectionData,
+        rootData.collections.nursery_catalog.collectionData,
+        rootData.collections.citation_reference.collectionData
       ], cacheDuration);
       console.log('plant prepare index collection has items');
-      console.log(plantPrepareIndexCollection.length > 0);
-      plantBuildIndexCollection = await getCacheData(cacheData.plantBuildIndexCache, [plantPrepareIndexCollection], cacheDuration);
+      console.log(rootData.collections.plant_prepare_index.collectionData.length > 0);
+      rootData.collections.plant_build_index.collectionData = await getCacheData(cacheData.plantBuildIndexCache, [rootData.collections.plant_prepare_index.collectionData], cacheDuration);
 
-      writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], plantBuildIndexCollection);
-      writeRawIndex(searchOutputDir, searchData['plants']['indexSlug'], plantPrepareIndexCollection);
+      writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_build_index.collectionData);
+      writeRawIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_prepare_index.collectionData);
 
-      rootData.collections.full_plant_index.collectionData = plantPrepareIndexCollection;
+      rootData.collections.full_plant_index.collectionData = rootData.collections.plant_prepare_index.collectionData;
     }
 
     return rootData.collections.full_plant_index.collectionData;
