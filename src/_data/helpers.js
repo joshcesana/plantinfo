@@ -1,4 +1,6 @@
 const uuidv4 = require("uuid/v4");
+const fetch = require('node-fetch');
+
 module.exports = {
 
   /**
@@ -443,6 +445,67 @@ module.exports = {
     }
 
     return letterListSearch;
+  },
+
+  /**
+   * Get path for fetching external data.
+   *
+   * @param {Object}   externalDomain  An externalPath object containing
+   *                                     general info about the domain.
+   * @param {Object}   externalTopic   An externalPath object containing
+   *                                     specific info about the topic.
+   * @return {string}                  A uri for fetching external data.
+   */
+  getExternalDataIndexUri (externalDomain, externalTopic) {
+    let
+      dataIndexUri = '',
+      mergedExternalPathData = {};
+
+    if (
+      module.exports.isObject(externalDomain) &&
+      module.exports.isObject(externalTopic) &&
+      (
+        module.exports.objectHasOwnProperties(externalDomain, ['schema']) &&
+        module.exports.objectHasOwnProperties(externalDomain, ['domain']) &&
+        module.exports.objectHasOwnProperties(externalDomain, ['subDomain']) &&
+        module.exports.objectHasOwnProperties(externalDomain, ['indexFile'])
+      ) &&
+      (
+        module.exports.objectHasOwnProperties(externalTopic, ['topicSubDomain'])
+      )
+    ) {
+      mergedExternalPathData = module.exports.mergeObjects(externalDomain, externalTopic)
+
+      dataIndexUri =
+        mergedExternalPathData['schema'] + '://' +
+        mergedExternalPathData['topicSubDomain'] + '.' +
+        mergedExternalPathData['subDomain'] + '.' +
+        mergedExternalPathData['domain'] + '.' +
+        mergedExternalPathData['tld'] + '/' +
+        mergedExternalPathData['indexFile'] + '.' +
+        mergedExternalPathData['indexFileType']
+    }
+
+    return dataIndexUri;
+  },
+
+  /**
+   * Fetch an external JSON file with a URI.
+   *
+   * @param {String}       fetchURI    The URI to fetch the JSON.
+   * @return {Promise}                 The external JSON Promise.
+   */
+  async fetchExternalData(fetchURI) {
+    let dataFetched = null;
+
+    await fetch(fetchURI)
+      .then(response => response.json())
+      .then(fetchedJSON => {
+        dataFetched = fetchedJSON;
+      })
+      .catch(console.error);
+
+    return dataFetched;
   },
 
   /**

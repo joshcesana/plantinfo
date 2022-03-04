@@ -56,35 +56,35 @@ module.exports = config => {
     rootData = {
       collections: {
         journal_book: {
-          globalDataPath: ['citations', 'journal_book'],
+          globalDataPath: ['citations', 'data', 'journal_book'],
           collectionData: null,
         },
         citation_reference: {
-          globalDataPath: ['citations', 'citation_reference'],
+          globalDataPath: ['citations', 'data', 'citation_reference'],
           collectionData: null,
         },
         family: {
-          globalDataPath: ['plants', 'family'],
+          globalDataPath: ['plants', 'data', 'family'],
           collectionData: null,
         },
         genus: {
-          globalDataPath: ['plants', 'genus'],
+          globalDataPath: ['plants', 'data', 'genus'],
           collectionData: null,
         },
         species: {
-          globalDataPath: ['plants', 'species'],
+          globalDataPath: ['plants', 'data', 'species'],
           collectionData: null,
         },
         variety: {
-          globalDataPath: ['plants', 'variety'],
+          globalDataPath: ['plants', 'data', 'variety'],
           collectionData: null,
         },
         genus_letters: {
-          globalDataPath: ['plants', 'genus_letters'],
+          globalDataPath: ['plants', 'data', 'genus_letters'],
           collectionData: null,
         },
         common_name: {
-          globalDataPath: ['plants', 'common_name'],
+          globalDataPath: ['plants', 'data', 'common_name'],
           collectionData: null,
         },
         plant_prepare_index: {
@@ -96,35 +96,35 @@ module.exports = config => {
           collectionData: null,
         },
         full_plant_index: {
-          globalDataPath: ['plants', 'full_plant_index'],
+          globalDataPath: ['plants', 'data', 'full_plant_index'],
           collectionData: [],
         },
         nursery: {
-          globalDataPath: ['nurseries', 'nursery'],
+          globalDataPath: ['nurseries', 'data', 'nursery'],
           collectionData: null,
         },
         nursery_catalog: {
-          globalDataPath: ['nurseries', 'nursery_catalog'],
+          globalDataPath: ['nurseries', 'data', 'nursery_catalog'],
           collectionData: null,
         },
         nursery_category: {
-          globalDataPath: ['nurseries', 'nursery_category'],
+          globalDataPath: ['nurseries', 'data', 'nursery_category'],
           collectionData: null,
         },
         nursery_specialty: {
-          globalDataPath: ['nurseries', 'nursery_specialty'],
+          globalDataPath: ['nurseries', 'data', 'nursery_specialty'],
           collectionData: null,
         },
         nursery_by_category: {
-          globalDataPath: ['nurseries', 'nursery_by_category'],
+          globalDataPath: ['nurseries', 'data', 'nursery_by_category'],
           collectionData: null,
         },
         nursery_prepare_index: {
-          globalDataPath: ['nurseries', 'nursery_prepare_index'],
+          globalDataPath: ['nurseries', 'data', 'nursery_prepare_index'],
           collectionData: [],
         },
         nursery_build_index: {
-          globalDataPath: ['nurseries', 'nursery_build_index'],
+          globalDataPath: ['nurseries', 'data', 'nursery_build_index'],
           collectionData: null,
         }
       },

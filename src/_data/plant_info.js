@@ -1,6 +1,10 @@
 const fetch = require('node-fetch');
 const getCacheData = require('../utils/get-cache-data.js');
-const { objectHasOwnProperties } = require('../_data/helpers.js');
+const {
+  objectHasOwnProperties,
+  getExternalDataIndexUri,
+  fetchExternalData
+} = require('../_data/helpers.js');
 const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
 const getElementItemsCollection = require("../utils/get-element-items-collection.js");
 const getLetterListCollection = require("../utils/get-letter-list-collection.js");
@@ -22,24 +26,6 @@ module.exports = async function(configData) {
     commonNamesData = {},
     nurseriesData = {},
     termsData = {},
-    citationsJournalBook,
-    citationsCitationReference,
-    plantFamily,
-    plantGenus,
-    plantSpecies,
-    plantVariety,
-    plantGenusLetter,
-    plantCommonName,
-    plantCommonNameLetter,
-    plantPrepareIndex,
-    plantBuildIndex,
-    nurseriesNursery,
-    nurseriesNurseryCatalog,
-    nurseriesNurseryCategory,
-    nurseriesNurserySpecialties,
-    nurseriesNurseryByCategory,
-    nurseriesPrepareIndex,
-    nurseriesBuildIndex,
     plantsResponse,
     citationsResponse,
     nurseriesResponse,
@@ -72,14 +58,14 @@ module.exports = async function(configData) {
    * can be cached ahead of time. This includes the creation of search indexes.
    */
 
-  plantsResponse = await fetch('https://plants.data.plantinfo.org/file-index.json')
-  plantsExternalData = await plantsResponse.json()
-
-  citationsResponse = await fetch('https://citations.data.plantinfo.org/file-index.json')
-  citationsExternalData = await citationsResponse.json()
-
-  nurseriesResponse = await fetch('https://nurseries.data.plantinfo.org/file-index.json')
-  nurseriesExternalData = await nurseriesResponse.json()
+  // plantsResponse = await fetch('https://plants.data.plantinfo.org/file-index.json')
+  // plantsExternalData = await plantsResponse.json()
+  //
+  // citationsResponse = await fetch('https://citations.data.plantinfo.org/file-index.json')
+  // citationsExternalData = await citationsResponse.json()
+  //
+  // nurseriesResponse = await fetch('https://nurseries.data.plantinfo.org/file-index.json')
+  // nurseriesExternalData = await nurseriesResponse.json()
   
   /*
    * Temporary simulation of external data fetched and processed into the
@@ -374,70 +360,120 @@ module.exports = async function(configData) {
     }
   };
 
-  citationsJournalBook = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
-  citationsCitationReference = getElementItemsCollection(citationsJournalBook, 'citation_reference', 'journal_book');
-
-  plantFamily = getLetterGroupCollection(plantsData, configData['rootData']['plants']['globalDataPath'], configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
-  plantGenus = getElementItemsCollection(plantFamily, 'genus', false);
-  plantSpecies = getElementItemsCollection(plantGenus, 'species', false);
-  plantVariety = getElementItemsCollection(plantSpecies, 'variety', false);
-  plantGenusLetter = getLetterListCollection(plantGenus, 'genus');
-  plantCommonName = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['globalDataPath'], configData['rootData']['common_names']['itemType']);
-
-  nurseriesNursery = getNumberLetterCollection(nurseriesData, configData['rootData']['nurseries']['globalDataPath'], configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
-  nurseriesNurseryCatalog = getElementItemsCollection(nurseriesNursery, 'nursery_catalog', false);
-  nurseriesNurseryCategory = getRootItemTypeCollection(termsData, configData['rootData']['nursery_categories']['globalDataPath'], configData['rootData']['nursery_categories']['itemType']);
-  nurseriesNurserySpecialties = getCategoryCollection(nurseriesNursery, nurseriesNurseryCategory, 'specialties', 'nursery_category');
-  nurseriesNurseryByCategory = getPagedCategoryCollection(nurseriesNurserySpecialties, 20, "nursery_category");
-
-  nurseriesPrepareIndex = prepareNurseryIndex(nurseriesNursery, nurseriesNurseryCategory);
-  nurseriesBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['nurseries']['refKey'], configData['searchData']['nurseries']['fieldKeys']);
-
-  console.log('nursery category collection has ' + nurseriesNurseryCategory.length  + ' items');
-  console.log('nursery specialty collection has ' + nurseriesNurserySpecialties.length + ' items');
-  console.log('nursery paged category collection has ' + nurseriesNurseryByCategory.length + ' items');
-
-  console.log('nursery prepare index collection has ' + nurseriesPrepareIndex.length + ' items');
-  console.log('nursery build index collection has ' + Object.keys(nurseriesBuildIndex).length + ' items');
-
-  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], nurseriesBuildIndex);
-  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], nurseriesPrepareIndex);
-
-  plantPrepareIndex = preparePlantIndex([plantGenus, plantSpecies, plantVariety], plantCommonName, nurseriesNurseryCatalog, citationsCitationReference);
-  plantBuildIndex = buildLunrIndex(nurseriesPrepareIndex, configData['searchData']['plants']['refKey'], configData['searchData']['plants']['fieldKeys']);
-
-  console.log('plant prepare index collection has ' + plantPrepareIndex.length + ' items');
-  console.log('plant build index collection has ' + Object.keys(plantBuildIndex).length + ' items');
-
-  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantBuildIndex);
-  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantPrepareIndex);
-
   plantInfoData = {
+    "external": {
+      "path": {
+        "schema": "https",
+        "domain": "plantinfo",
+        "tld": "org",
+        "subDomain": "data",
+        "indexFile": "file-index",
+        "indexFileType": "json",
+      }
+    },
     "citations": {
-      "journal_book": citationsJournalBook,
-      "citation_reference": citationsCitationReference,
+      "external": {
+        "path": {
+          "topicSubDomain": "citations",
+        },
+        "dataIndexUri": null,
+        "dataIndex": null,
+        "data": null,
+      },
+      "data": {
+        "journal_book": null,
+        "citation_reference": null,
+      }
     },
     "plants": {
-      "family": plantFamily,
-      "genus": plantGenus,
-      "species": plantSpecies,
-      "variety": plantVariety,
-      "genus_letters": plantGenusLetter,
-      "common_name": plantCommonName,
-      "plant_prepare_index": plantPrepareIndex,
-      "plant_build_index": plantBuildIndex,
-      "full_plant_index": plantPrepareIndex,
+      "external": {
+        "path": {
+          "topicSubDomain": "plants",
+        },
+        "dataIndexUri": null,
+        "dataIndex": null,
+        "data": null,
+      },
+      "data": {
+        "family": null,
+        "genus": null,
+        "species": null,
+        "variety": null,
+        "genus_letters": null,
+        "common_name": null,
+        "common_name_letters": null,
+        "plant_prepare_index": null,
+        "plant_build_index": null,
+        "full_plant_index": null,
+      }
     },
     "nurseries": {
-      "nursery":  nurseriesNursery,
-      "nursery_catalog": nurseriesNurseryCatalog,
-      "nursery_category": nurseriesNurseryCategory,
-      "nursery_specialty": nurseriesNurserySpecialties,
-      "nursery_by_category": nurseriesNurseryByCategory,
-      "nursery_prepare_index": nurseriesPrepareIndex,
-      "nursery_build_index": nurseriesBuildIndex,
+      "external": {
+        "path": {
+          "topicSubDomain": "nurseries",
+        },
+        "dataIndexUri": null,
+        "dataIndex": null,
+        "data": null,
+      },
+      "data": {
+        "nursery":  null,
+        "nursery_catalog": null,
+        "nursery_category": null,
+        "nursery_specialty": null,
+        "nursery_by_category": null,
+        "nursery_prepare_index": null,
+        "nursery_build_index": null,
+      }
     },
   };
+
+  plantInfoData["citations"]["external"]["dataIndexUri"] = getExternalDataIndexUri(plantInfoData["external"]["path"], plantInfoData["citations"]["external"]["path"]);
+  plantInfoData["plants"]["external"]["dataIndexUri"] = getExternalDataIndexUri(plantInfoData["external"]["path"], plantInfoData["plants"]["external"]["path"]);
+  plantInfoData["nurseries"]["external"]["dataIndexUri"] = getExternalDataIndexUri(plantInfoData["external"]["path"], plantInfoData["nurseries"]["external"]["path"]);
+
+  plantInfoData["citations"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["citations"]["external"]["dataIndexUri"]);
+  plantInfoData["plants"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["plants"]["external"]["dataIndexUri"]);
+  plantInfoData["nurseries"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["nurseries"]["external"]["dataIndexUri"]);
+
+  plantInfoData["citations"]["data"]["journal_book"] = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
+  plantInfoData["citations"]["data"]["citation_reference"] = getElementItemsCollection(plantInfoData["citations"]["data"]["journal_book"], 'citation_reference', 'journal_book');
+
+  plantInfoData["plants"]["data"]["family"] = getLetterGroupCollection(plantsData, configData['rootData']['plants']['globalDataPath'], configData['rootData']['plants']['levelsDeep'], configData['rootData']['plants']['itemType']);
+  plantInfoData["plants"]["data"]["genus"] = getElementItemsCollection(plantInfoData["plants"]["data"]["family"], 'genus', false);
+  plantInfoData["plants"]["data"]["species"] = getElementItemsCollection(plantInfoData["plants"]["data"]["genus"], 'species', false);
+  plantInfoData["plants"]["data"]["variety"] = getElementItemsCollection(plantInfoData["plants"]["data"]["species"], 'variety', false);
+  plantInfoData["plants"]["data"]["genus_letters"] = getLetterListCollection(plantInfoData["plants"]["data"]["genus"], 'genus');
+  plantInfoData["plants"]["data"]["common_name"] = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['globalDataPath'], configData['rootData']['common_names']['itemType']);
+  plantInfoData["plants"]["data"]["common_name_letters"] = getLetterListCollection(plantInfoData["plants"]["data"]["common_names"], 'common_name');
+
+  plantInfoData["nurseries"]["data"]["nursery"] = getNumberLetterCollection(nurseriesData, configData['rootData']['nurseries']['globalDataPath'], configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
+  plantInfoData["nurseries"]["data"]["nursery_catalog"] = getElementItemsCollection(plantInfoData["nurseries"]["data"]["nursery"], 'nursery_catalog', false);
+  plantInfoData["nurseries"]["data"]["nursery_category"] = getRootItemTypeCollection(termsData, configData['rootData']['nursery_categories']['globalDataPath'], configData['rootData']['nursery_categories']['itemType']);
+  plantInfoData["nurseries"]["data"]["nursery_specialty"] = getCategoryCollection(plantInfoData["nurseries"]["data"]["nursery"], plantInfoData["nurseries"]["data"]["nursery_category"], 'specialties', 'nursery_category');
+  plantInfoData["nurseries"]["data"]["nursery_by_category"] = getPagedCategoryCollection( plantInfoData["nurseries"]["data"]["nursery_specialty"], 20, "nursery_category");
+
+  plantInfoData["nurseries"]["data"]["nursery_prepare_index"] = prepareNurseryIndex(plantInfoData["nurseries"]["data"]["nursery"], plantInfoData["nurseries"]["data"]["nursery_category"]);
+  plantInfoData["nurseries"]["data"]["nursery_build_index"] = buildLunrIndex(plantInfoData["nurseries"]["data"]["nursery_prepare_index"], configData['searchData']['nurseries']['refKey'], configData['searchData']['nurseries']['fieldKeys']);
+
+  console.log('nursery category collection has ' + plantInfoData["nurseries"]["data"]["nursery_category"].length  + ' items');
+  console.log('nursery specialty collection has ' +  plantInfoData["nurseries"]["data"]["nursery_specialty"].length + ' items');
+  console.log('nursery paged category collection has ' + plantInfoData["nurseries"]["data"]["nursery_by_category"].length + ' items');
+
+  console.log('nursery prepare index collection has ' + plantInfoData["nurseries"]["data"]["nursery_prepare_index"].length + ' items');
+  console.log('nursery build index collection has ' + Object.keys(plantInfoData["nurseries"]["data"]["nursery_build_index"]).length + ' items');
+
+  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], plantInfoData["nurseries"]["data"]["nursery_build_index"]);
+  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['nurseries']['indexSlug'], plantInfoData["nurseries"]["data"]["nursery_prepare_index"]);
+
+  plantInfoData["plants"]["data"]["plant_prepare_index"] = preparePlantIndex([plantInfoData["plants"]["data"]["genus"], plantInfoData["plants"]["data"]["species"], plantInfoData["plants"]["data"]["variety"]], plantInfoData["plants"]["data"]["common_name"], plantInfoData["nurseries"]["data"]["nursery_catalog"], plantInfoData["citations"]["data"]["citation_reference"]);
+  plantInfoData["plants"]["data"]["plant_build_index"] = buildLunrIndex(plantInfoData["nurseries"]["data"]["nursery_prepare_index"], configData['searchData']['plants']['refKey'], configData['searchData']['plants']['fieldKeys']);
+
+  console.log('plant prepare index collection has ' + plantInfoData["plants"]["data"]["plant_prepare_index"].length + ' items');
+  console.log('plant build index collection has ' + Object.keys(plantInfoData["plants"]["data"]["plant_build_index"]).length + ' items');
+
+  writeLunrIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantInfoData["plants"]["data"]["plant_build_index"]);
+  writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantInfoData["plants"]["data"]["plant_prepare_index"]);
 
   console.log('plant_info processing complete');
 
