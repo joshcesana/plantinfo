@@ -1,3 +1,4 @@
+const fetch = require('node-fetch');
 const getCacheData = require('../utils/get-cache-data.js');
 const { objectHasOwnProperties } = require('../_data/helpers.js');
 const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
@@ -38,7 +39,13 @@ module.exports = async function(configData) {
     nurseriesNurserySpecialties,
     nurseriesNurseryByCategory,
     nurseriesPrepareIndex,
-    nurseriesBuildIndex
+    nurseriesBuildIndex,
+    plantsResponse,
+    citationsResponse,
+    nurseriesResponse,
+    plantsExternalData = {},
+    citationsExternalData = {},
+    nurseriesExternalData = {}
   ;
 
   /*
@@ -65,6 +72,15 @@ module.exports = async function(configData) {
    * can be cached ahead of time. This includes the creation of search indexes.
    */
 
+  plantsResponse = await fetch('https://plants.data.plantinfo.org/file-index.json')
+  plantsExternalData = await plantsResponse.json()
+
+  citationsResponse = await fetch('https://citations.data.plantinfo.org/file-index.json')
+  citationsExternalData = await citationsResponse.json()
+
+  nurseriesResponse = await fetch('https://nurseries.data.plantinfo.org/file-index.json')
+  nurseriesExternalData = await nurseriesResponse.json()
+  
   /*
    * Temporary simulation of external data fetched and processed into the
    * plantsData structure, so we can work on testing the data processing.
