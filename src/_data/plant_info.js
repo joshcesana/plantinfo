@@ -1,10 +1,11 @@
-const fetch = require('node-fetch');
 const getCacheData = require('../utils/get-cache-data.js');
 const {
   objectHasOwnProperties,
   getExternalDataIndexUri,
-  fetchExternalData
+  fetchExternalData,
+  processExternalData,
 } = require('../_data/helpers.js');
+
 const getLetterGroupCollection = require('../utils/get-letter-group-collection.js');
 const getElementItemsCollection = require("../utils/get-element-items-collection.js");
 const getLetterListCollection = require("../utils/get-letter-list-collection.js");
@@ -435,6 +436,17 @@ module.exports = async function(configData) {
   plantInfoData["citations"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["citations"]["external"]["dataIndexUri"]);
   plantInfoData["plants"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["plants"]["external"]["dataIndexUri"]);
   plantInfoData["nurseries"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["nurseries"]["external"]["dataIndexUri"]);
+
+  // plantInfoData["citations"]["external"]["data"] = await processExternalData(
+  //   plantInfoData["citations"]["external"]["dataIndex"]
+  // );
+  // plantInfoData["plants"]["external"]["data"] = await  processExternalData(
+  //   plantInfoData["plants"]["external"]["dataIndex"]
+  // );
+  plantInfoData["nurseries"]["external"]["data"] = await processExternalData(
+    plantInfoData["nurseries"]["external"]["dataIndex"]
+  );
+  console.log(plantInfoData["nurseries"]["external"]["data"]);
 
   plantInfoData["citations"]["data"]["journal_book"] = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
   plantInfoData["citations"]["data"]["citation_reference"] = getElementItemsCollection(plantInfoData["citations"]["data"]["journal_book"], 'citation_reference', 'journal_book');
