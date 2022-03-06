@@ -1,6 +1,8 @@
 const uuidv4 = require("uuid/v4");
 const fetch = require('node-fetch');
 const nestedProperty = require('nested-property');
+const http = require('node:http');
+const https = require('node:https');
 
 module.exports = {
 
@@ -449,17 +451,49 @@ module.exports = {
   },
 
   /**
-   * Get path for fetching external data.
+   * Get index file for fetching external data.
    *
    * @param {Object}   externalDomain  An externalPath object containing
    *                                     general info about the domain.
    * @param {Object}   externalTopic   An externalPath object containing
    *                                     specific info about the topic.
-   * @return {string}                  A uri for fetching external data.
+   * @return {string}                  A file for fetching external data.
    */
-  getExternalDataIndexUri (externalDomain, externalTopic) {
+  getExternalDataIndexFile (externalDomain, externalTopic) {
     let
-      dataIndexUri = '',
+      dataIndexFile = '',
+      mergedExternalPathData = {};
+
+    if (
+      module.exports.isObject(externalDomain) &&
+      module.exports.isObject(externalTopic) &&
+      (
+        module.exports.objectHasOwnProperties(externalDomain, ['indexFile']) &&
+        module.exports.objectHasOwnProperties(externalDomain, ['indexFileType'])
+      )
+    ) {
+      mergedExternalPathData = module.exports.mergeObjects(externalDomain, externalTopic)
+
+      dataIndexFile =
+        mergedExternalPathData['indexFile'] + '.' +
+        mergedExternalPathData['indexFileType'];
+    }
+
+    return dataIndexFile;
+  },
+
+  /**
+   * Get domain for fetching external data.
+   *
+   * @param {Object}   externalDomain  An externalPath object containing
+   *                                     general info about the domain.
+   * @param {Object}   externalTopic   An externalPath object containing
+   *                                     specific info about the topic.
+   * @return {string}                  A domain uri for fetching external data.
+   */
+  getExternalDataDomain (externalDomain, externalTopic) {
+    let
+      dataIndexDomain = '',
       mergedExternalPathData = {};
 
     if (
@@ -468,8 +502,7 @@ module.exports = {
       (
         module.exports.objectHasOwnProperties(externalDomain, ['schema']) &&
         module.exports.objectHasOwnProperties(externalDomain, ['domain']) &&
-        module.exports.objectHasOwnProperties(externalDomain, ['subDomain']) &&
-        module.exports.objectHasOwnProperties(externalDomain, ['indexFile'])
+        module.exports.objectHasOwnProperties(externalDomain, ['subDomain'])
       ) &&
       (
         module.exports.objectHasOwnProperties(externalTopic, ['topicSubDomain'])
@@ -477,29 +510,105 @@ module.exports = {
     ) {
       mergedExternalPathData = module.exports.mergeObjects(externalDomain, externalTopic)
 
-      dataIndexUri =
+      dataIndexDomain =
         mergedExternalPathData['schema'] + '://' +
         mergedExternalPathData['topicSubDomain'] + '.' +
         mergedExternalPathData['subDomain'] + '.' +
         mergedExternalPathData['domain'] + '.' +
-        mergedExternalPathData['tld'] + '/' +
-        mergedExternalPathData['indexFile'] + '.' +
-        mergedExternalPathData['indexFileType']
+        mergedExternalPathData['tld']
+    }
+
+    return dataIndexDomain;
+  },
+
+  /**
+   * Get path for fetching external data.
+   *
+   * @param {String}   externalDomainUri  An external domain uri.
+   * @param {String}   externalFilePath   A path on a domain to a file.
+   * @return {string}                  A uri for fetching external data.
+   */
+  getExternalDataUri(externalDomainUri, externalFilePath) {
+    let dataIndexUri = '';
+
+    if (
+      externalDomainUri !== '' &&
+      externalFilePath !== ''
+    ) {
+
+      dataIndexUri =
+        externalDomainUri+ '/' +
+        externalFilePath;
     }
 
     return dataIndexUri;
   },
 
   /**
+   * Get path for fetching external data.
+   *
+   * @param {Object}   externalDomain  An externalPath object containing
+   *                                     general info about the domain.
+   * @param {Object}   externalTopic   An externalPath object containing
+   *                                     specific info about the topic.
+   * @return {string}                  A uri for fetching external data.
+   */
+  getExternalDataIndexUri(externalDomain, externalTopic) {
+    let
+      dataIndexUri = '',
+      dataIndexDomain = module.exports.getExternalDataDomain(externalDomain, externalTopic),
+      dataIndexFile = module.exports.getExternalDataIndexFile(externalDomain, externalTopic)
+    ;
+
+    if (
+      dataIndexDomain !== '' &&
+      dataIndexFile !== ''
+    ) {
+      dataIndexUri = module.exports.getExternalDataUri(dataIndexDomain, dataIndexFile);
+    }
+
+    return dataIndexUri;
+  },
+
+  /**
+   * Get agent options used to fetch external data.
+   *
+   * @param {String}    uriProtocol    The protocol for the URI.
+   * @return {Object}                  The fetch agent options.
+   */
+  getFetchAgentOptions(uriProtocol) {
+    const
+      httpAgent = new http.Agent({
+        keepAlive: true
+      }),
+      httpsAgent = new https.Agent({
+        keepAlive: true
+      });
+
+    let fetchOptions = {
+      options: null,
+    }
+
+    if (uriProtocol === 'http:') {
+      fetchOptions['options'] = httpAgent;
+    } else {
+      fetchOptions['options'] = httpsAgent;
+    }
+
+    return fetchOptions;
+  },
+
+  /**
    * Fetch an external JSON file with a URI.
    *
-   * @param {String}       fetchURI    The URI to fetch the JSON.
-   * @return {Promise}                 The external JSON Promise.
+   * @param {String}       fetchURI      The URI to fetch the JSON.
+   * @param {Object}       fetchOptions  The options for fetching the JSON.
+   * @return {Promise}                   The external JSON Promise.
    */
-  async fetchExternalData(fetchURI) {
+  async fetchExternalData(fetchURI, fetchOptions= {}) {
     let dataFetched = null;
 
-    await fetch(fetchURI)
+    await fetch(fetchURI, fetchOptions)
       .then(response => response.json())
       .then(fetchedJSON => {
         dataFetched = fetchedJSON;
@@ -594,6 +703,24 @@ module.exports = {
   },
 
   /**
+   * See if this item index should be tracked.
+   *
+   * @param {Boolean}  checkForLevelArray      The option to check if the level
+   *                                             to search is in an array.
+   * @return {Boolean}                         The option to track the index for
+   *                                             a level.
+   */
+  getTrackItemIndex(checkForLevelArray) {
+    let trackItemIndex = false;
+
+    if (checkForLevelArray) {
+      trackItemIndex = true;
+    }
+
+    return trackItemIndex;
+  },
+
+  /**
    * Recursively search through levels until reaching target level, then add
    * items to collection.
    *
@@ -632,12 +759,20 @@ module.exports = {
    *
    * @param {Array}  nestedPropertyArrayNotation   The array notation to a nested property.
    *                                               - {String} propertyKey
-   * @param {String} propertyKey                   The key for a nested property.
+   * @param {String|Number} propertyKey                   The key for a nested property.
    *
    * @return {Array}                              The array notation to a nested property.
    */
   addNestedPropertyArrayItem(nestedPropertyArrayNotation, propertyKey) {
-    nestedPropertyArrayNotation.push(propertyKey);
+    console.log('nested property array notation');
+    console.log(nestedPropertyArrayNotation);
+    if (
+      module.exports.isArray(nestedPropertyArrayNotation) &&
+      propertyKey !== ''
+    ) {
+      nestedPropertyArrayNotation.push(propertyKey);
+    }
+
     return nestedPropertyArrayNotation;
   },
 
@@ -668,13 +803,15 @@ module.exports = {
   getNestedPropertyDotNotation(nestedPropertyArrayNotation) {
     let nestedPropertyDotNotation = '';
 
-    nestedPropertyArrayNotation.forEach((propertyKey, index) => {
-      if (index !== 0) {
-        nestedPropertyDotNotation = nestedPropertyDotNotation + '.';
-      }
+    if (module.exports.isArrayWithItems(nestedPropertyArrayNotation)) {
+      nestedPropertyArrayNotation.forEach((propertyKey, index) => {
+        if (index !== 0) {
+          nestedPropertyDotNotation = nestedPropertyDotNotation + '.';
+        }
 
-      nestedPropertyDotNotation = nestedPropertyDotNotation + propertyKey;
-    })
+        nestedPropertyDotNotation = nestedPropertyDotNotation + propertyKey;
+      });
+    }
 
     return nestedPropertyDotNotation;
   },
@@ -695,11 +832,41 @@ module.exports = {
       levelDirectoryPropertyKey = levelItem['name'];
     }
 
+    if (levelDirectoryPropertyKey.endsWith('.json')) {
+      levelDirectoryPropertyKey = levelDirectoryPropertyKey.slice(0, -5);
+    }
+
     return levelDirectoryPropertyKey;
   },
 
   /**
-   * Add directory from index to external data.
+   * Get the directory children for the level item
+   *
+   * @param {Object}    levelItem             The level item object.
+   * @param {String}    childItemsKey         The key for an array of child items.
+   * @param {String}    directoryTypeKey      The type key for a directory.
+   * @return {Object|Array}                   The level directory children.
+   */
+  getLevelItemDirectoryChildren(levelItem, childItemsKey, directoryTypeKey) {
+    let levelDirectoryChildren = null;
+
+    if (
+      module.exports.objectHasOwnProperties(levelItem, ['type']) &&
+      module.exports.objectHasOwnProperties(levelItem, [childItemsKey]) &&
+      levelItem['type'] === directoryTypeKey &&
+      (
+        module.exports.isObject(levelItem[childItemsKey]) ||
+        module.exports.isArrayWithItems(levelItem[childItemsKey])
+      )
+    ) {
+      levelDirectoryChildren = levelItem[childItemsKey];
+    }
+
+    return levelDirectoryChildren;
+  },
+
+  /**
+   * Add level directory from index to external data.
    *
    * @param {Object}    externalData          The external data.
    * @param {Array}     externalDataItemPath  The path to where this item data
@@ -716,8 +883,11 @@ module.exports = {
     let levelItemData = {},
       externalDataItemPropertyPath = module.exports.getNestedPropertyDotNotation(externalDataItemPath);
 
+    console.log('add level directory');
+
+    console.log('property path');
+    console.log(externalDataItemPropertyPath);
     if (
-      nestedProperty.has(externalData, externalDataItemPropertyPath) &&
       module.exports.objectHasOwnProperties(levelItem, ['type']) &&
       module.exports.objectHasOwnProperties(levelItem, ['name']) &&
       module.exports.objectHasOwnProperties(levelItem, [childItemsKey]) &&
@@ -740,9 +910,11 @@ module.exports = {
   },
 
   /**
-   * Add data from index to external data.
+   * Add level data from index to external data.
    *
    * @param {Object}    externalData          The external data.
+   * @param {String}    externalDomainUri     An external domain uri.
+   * @param {String}    externalDomainSchema  An external domain schema.
    * @param {Array}     externalDataItemPath  The path to where this item data
    *                                          should be placed in externalData.
    *                                          - e.g ['a', 'b', 1, 'c']
@@ -751,100 +923,106 @@ module.exports = {
 
    * @return {Object}                         The external data.
    */
-  async addLevelData(externalData, externalDataItemPath, levelItem, fileTypeKey) {
+  async addFileLevelData(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelItem, fileTypeKey) {
     let
-      levelItemData = {},
+      fileLevelData = {},
       externalDataItemPropertyPath = module.exports.getNestedPropertyDotNotation(externalDataItemPath);
 
     if (
-      nestedProperty.has(externalData, externalDataItemPropertyPath) &&
       module.exports.objectHasOwnProperties(levelItem, ['type']) &&
       module.exports.objectHasOwnProperties(levelItem, ['name']) &&
       module.exports.objectHasOwnProperties(levelItem, ['path']) &&
       levelItem['type'] === fileTypeKey &&
-      levelItem['path'] !== ''
+      levelItem['path'] !== '' &&
+      levelItem['name'] !== ''
     ) {
-      levelItemData = await module.exports.fetchExternalData(levelItem['path']);
+      let
+        levelItemDataUri = module.exports.getExternalDataUri(externalDomainUri, levelItem['path']),
+        levelItemDataFetchOptions = module.exports.getFetchAgentOptions(externalDomainSchema);
 
-      nestedProperty.set(externalData, externalDataItemPropertyPath, levelItemData);
+      fileLevelData = await module.exports.fetchExternalData(levelItemDataUri, levelItemDataFetchOptions);
+      console.log(externalDataItemPropertyPath);
+      nestedProperty.set(externalData, externalDataItemPropertyPath, fileLevelData);
     }
 
     return externalData;
   },
 
   /**
-   * Check an external data level.
+   * Check an external data level with file data.
    *
    * @param {Object}        externalData            The external data.
-   * @param {Object|Array}  externalDataIndexLevel  The external data index level.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
    * @param {Array}         externalDataItemPath    The path to where this item
    *                                                data should be placed in externalData.
    *                                                - e.g ['a', 'b', 1, 'c']
    * @param {Array|Object}  levelValue        The external data level.
-   * @param {Number}        levelIndex        The index for the level.
-   * @param {Boolean}       trackItemIndex    The option to track the item
-   *                                            index, for array items.
    * @param {String}        levelPropertyKey  The level property key.
-   * @param {String}        childItemsKey     The key for an array of child items.
-   * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
    *
    * @return {Object}                         The external data structure.
    */
-  async checkExternalDataLevel(
+  async checkLevelFile(
     externalData,
-    externalDataIndexLevel,
+    externalDomainUri,
+    externalDomainSchema,
     externalDataItemPath,
     levelValue,
-    levelIndex,
-    trackItemIndex,
     levelPropertyKey,
-    childItemsKey,
-    directoryTypeKey,
     fileTypeKey
   ) {
-    let checkForLevelArray = module.exports.getCheckForLevelArray(levelValue);
-    console.log('check for level array?');
-    console.log(checkForLevelArray);
+    let
+      levelFileDataItem = module.exports.copyObject(levelValue),
+      levelFileDataItemPropertyKey = module.exports.getLevelItemPropertyKey(levelFileDataItem),
+      levelFileDataItemPath = module.exports.copyObject(externalDataItemPath)
+    ;
 
-    console.log('tracking item index?');
-    console.log(trackItemIndex);
+    levelFileDataItemPath = module.exports.addNestedPropertyArrayItem(levelFileDataItemPath, levelFileDataItemPropertyKey);
+    nestedProperty.set(externalData, levelFileDataItemPath, {});
+    externalData = await module.exports.addFileLevelData(externalData, externalDomainUri, externalDomainSchema, levelFileDataItemPath, levelFileDataItem, fileTypeKey);
 
-    if (trackItemIndex) {
-      levelPropertyKey = levelIndex;
-      externalDataItemPath = module.exports.addNestedPropertyArrayItem(externalDataItemPath, levelPropertyKey);
-    }
+    return externalData;
+  },
 
-    console.log('current external data item path');
-    console.log(externalDataItemPath);
+  /**
+   * Check an external data level with directory data.
+   *
+   * @param {Object}        externalData            The external data.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
+   * @param {Array}         externalDataItemPath    The path to where this item
+   *                                                data should be placed in externalData.
+   *                                                - e.g ['a', 'b', 1, 'c']
+   * @param {Array|Object}  levelValue        The external data level.
+   * @param {String}        levelPropertyKey  The level property key.
+   * @param {String}        childItemsKey     The key for an array of child items.
+   * @param {String}        directoryTypeKey  The type key for a directory.
+   *
+   * @return {Object}                         The external data structure.
+   */
+  async checkLevelDirectory(
+    externalData,
+    externalDomainUri,
+    externalDomainSchema,
+    externalDataItemPath,
+    levelValue,
+    levelPropertyKey,
+    childItemsKey,
+    directoryTypeKey
+  ) {
+    let
+      levelItem = module.exports.copyObject(levelValue),
+      levelDirectoryChildren = module.exports.getLevelItemDirectoryChildren(levelItem, childItemsKey, directoryTypeKey),
+      checkForLevelArray = module.exports.getCheckForLevelArray(levelDirectoryChildren),
+      trackItemIndex = module.exports.getTrackItemIndex(checkForLevelArray),
+      directoryDataItemPath = module.exports.copyObject(externalDataItemPath)
+    ;
 
-    if (
-      module.exports.objectHasOwnProperties(levelValue, ['type']) &&
-      levelValue['type'] === fileTypeKey
-    ) {
-      let levelItem = module.exports.copyObject(levelValue);
-
-      levelPropertyKey = module.exports.getLevelItemPropertyKey(levelItem),
-        externalDataItemPath = module.exports.addNestedPropertyArrayItem(externalDataItemPath, levelPropertyKey);
-      externalData = await module.exports.addLevelData(externalData, externalDataItemPath, levelItem, fileTypeKey);
-    } else if (
-      module.exports.objectHasOwnProperties(levelValue, ['type']) &&
-      levelValue['type'] === directoryTypeKey &&
-      module.exports.objectHasOwnProperties(levelValue, [childItemsKey])
-    ) {
-      let levelItem = module.exports.copyObject(levelValue);
-
-      levelPropertyKey = module.exports.getLevelItemPropertyKey(levelItem);
-      externalDataItemPath = module.exports.addNestedPropertyArrayItem(externalDataItemPath, levelPropertyKey);
-      externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, levelItem, checkForLevelArray, childItemsKey, directoryTypeKey);
-      externalData = module.exports.externalDataSeeker(externalData, externalDataIndexLevel, checkForLevelArray);
-    } else {
-      if (checkForLevelArray) {
-        trackItemIndex = true;
-      }
-
-      externalData = module.exports.externalDataSeeker(externalData, externalDataIndexLevel, checkForLevelArray, trackItemIndex);
-    }
+    levelPropertyKey = module.exports.getLevelItemPropertyKey(levelItem);
+    directoryDataItemPath = module.exports.addNestedPropertyArrayItem(directoryDataItemPath, levelPropertyKey);
+    externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, levelItem, checkForLevelArray, childItemsKey, directoryTypeKey);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelDirectoryChildren, externalDataItemPath, checkForLevelArray, trackItemIndex);
 
     return externalData;
   },
@@ -855,6 +1033,8 @@ module.exports = {
    * data as necessary.
    *
    * @param {Object}       externalData            The external data structure.
+   * @param {String}       externalDomainUri       An external domain uri.
+   * @param {String}       externalDomainSchema    An external domain schema.
    * @param {Object|Array} externalDataIndexLevel  The external data index level.
    * @param {Array}        externalDataItemPath    The path to where this item data
    *                                               should be placed in externalData.
@@ -863,38 +1043,61 @@ module.exports = {
    *                                                to search is in an array.
    * @param {Boolean}      trackItemIndex          The option to track the item
    *                                                index, for array items.
+   * @param {Number}       levelIndex              The index for the level.
    * @param {String}       childItemsKey           The key for an array of child items.
    * @param {String}       directoryTypeKey        The type key for a directory.
    * @param {String}       fileTypeKey             The type key for a file.
    * @return {Object}                              The external data structure.
    */
-  async externalDataSeeker(externalData, externalDataIndexLevel,  externalDataItemPath = [], checkForLevelArray= false, trackItemIndex = false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
+  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], levelIndex = 0, checkForLevelArray= false, trackItemIndex = false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
     let
-      levelValues = module.exports.getLevelValues(externalDataIndexLevel, checkForLevelArray),
+      levelValues = module.exports.cloneObject(externalDataIndexLevel),
       checkLevelValues = module.exports.getCheckLevelValues(levelValues, checkForLevelArray),
-      levelPropertyKey = null;
+      levelPropertyKey = null,
+      levelDataItemPath = module.exports.cloneObject(externalDataItemPath)
+    ;
 
+    console.log('check level values');
     console.log(checkLevelValues);
     if (checkLevelValues) {
-      for (const levelValue of levelValues) {
-        const index = levelValues.indexOf(levelValue);
-        console.log(index);
-        externalData = await module.exports.checkExternalDataLevel(
-          externalData,
-          externalDataIndexLevel,
-          externalDataItemPath,
-          levelValue,
-          index,
-          trackItemIndex,
-          levelPropertyKey,
-          childItemsKey,
-          directoryTypeKey,
-          fileTypeKey
-        );
+
+      if (trackItemIndex) {
+        levelPropertyKey = levelIndex;
+        levelDataItemPath = module.exports.addNestedPropertyArrayItem(levelDataItemPath, levelPropertyKey);
       }
 
-      // Completed looping through this level, so remove the last path item.
-      externalDataItemPath = module.exports.removeNestedPropertyArrayItem(externalDataItemPath);
+      console.log('check for level array');
+      console.log(checkForLevelArray);
+      if (checkForLevelArray) {
+        console.log('check level array');
+        for (const levelValue of levelValues) {
+          let
+            index = levelValues.indexOf(levelValue),
+            checkForLevelArray = module.exports.getCheckForLevelArray(levelValue),
+            trackItemIndex = module.exports.getTrackItemIndex(checkForLevelArray);
+            console.log(index);
+
+          externalData = module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelValue, levelDataItemPath, checkForLevelArray, trackItemIndex);
+        }
+      } else {
+        console.log('not checking level array');
+        let levelValue = module.exports.cloneObject(levelValues);
+
+        if (
+          module.exports.objectHasOwnProperties(levelValue, ['type']) &&
+          levelValue['type'] === fileTypeKey
+        ) {
+          console.log('check level file');
+          externalData = await module.exports.checkLevelFile(externalData, externalDomainUri, externalDomainSchema, levelDataItemPath, levelValue, levelPropertyKey, fileTypeKey);
+        } else if (
+          module.exports.objectHasOwnProperties(levelValue, ['type']) &&
+          levelValue['type'] === directoryTypeKey &&
+          module.exports.objectHasOwnProperties(levelValue, [childItemsKey])
+        ) {
+          console.log('check level directory');
+          externalData = await module.exports.checkLevelDirectory(externalData, externalDomainUri, externalDomainSchema, levelDataItemPath, levelValue, levelPropertyKey, childItemsKey, directoryTypeKey);
+        }
+      }
     }
 
     return externalData;
@@ -904,14 +1107,16 @@ module.exports = {
    * Process externalDataIndex in order to fetch additional nested data and
    * build an externalData structure.
    *
-   * @param {Object}       externalDataIndex  The externalDataIndex to process.
+   * @param {Object}    externalDataIndex     The externalDataIndex to process.
+   * @param {String}    externalDomainUri     An external domain uri.
+   * @param {String}    externalDomainSchema  An external domain schema.
    * @return {Object}                         The external data.
    */
-  async processExternalData(externalDataIndex) {
+  async processExternalData(externalDataIndex, externalDomainUri, externalDomainSchema) {
     let externalData = {};
 
     console.log('begin processing data index');
-    externalData = await module.exports.externalDataSeeker(externalData, externalDataIndex);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndex);
 
     return externalData;
   },

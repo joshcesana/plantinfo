@@ -2,6 +2,7 @@ const getCacheData = require('../utils/get-cache-data.js');
 const {
   objectHasOwnProperties,
   getExternalDataIndexUri,
+  getExternalDataDomain,
   fetchExternalData,
   processExternalData,
 } = require('../_data/helpers.js');
@@ -376,6 +377,7 @@ module.exports = async function(configData) {
       "external": {
         "path": {
           "topicSubDomain": "citations",
+          "fullDomain": null,
         },
         "dataIndexUri": null,
         "dataIndex": null,
@@ -390,6 +392,7 @@ module.exports = async function(configData) {
       "external": {
         "path": {
           "topicSubDomain": "plants",
+          "fullDomain": null,
         },
         "dataIndexUri": null,
         "dataIndex": null,
@@ -412,6 +415,7 @@ module.exports = async function(configData) {
       "external": {
         "path": {
           "topicSubDomain": "nurseries",
+          "fullDomain": null,
         },
         "dataIndexUri": null,
         "dataIndex": null,
@@ -433,18 +437,29 @@ module.exports = async function(configData) {
   plantInfoData["plants"]["external"]["dataIndexUri"] = getExternalDataIndexUri(plantInfoData["external"]["path"], plantInfoData["plants"]["external"]["path"]);
   plantInfoData["nurseries"]["external"]["dataIndexUri"] = getExternalDataIndexUri(plantInfoData["external"]["path"], plantInfoData["nurseries"]["external"]["path"]);
 
+  plantInfoData["citations"]["external"]["path"]["fullDomain"] = getExternalDataDomain(plantInfoData["external"]["path"], plantInfoData["citations"]["external"]["path"]);
+  plantInfoData["plants"]["external"]["path"]["fullDomain"] = getExternalDataDomain(plantInfoData["external"]["path"], plantInfoData["plants"]["external"]["path"]);
+  plantInfoData["nurseries"]["external"]["path"]["fullDomain"] = getExternalDataDomain(plantInfoData["external"]["path"], plantInfoData["nurseries"]["external"]["path"]);
+
+
   plantInfoData["citations"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["citations"]["external"]["dataIndexUri"]);
   plantInfoData["plants"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["plants"]["external"]["dataIndexUri"]);
   plantInfoData["nurseries"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["nurseries"]["external"]["dataIndexUri"]);
 
   // plantInfoData["citations"]["external"]["data"] = await processExternalData(
-  //   plantInfoData["citations"]["external"]["dataIndex"]
+  //   plantInfoData["citations"]["external"]["dataIndex"],
+  //   plantInfoData["citations"]["external"]["path"]["fullDomain"],
+  //   plantInfoData["external"]["path"]["schema"]
   // );
   // plantInfoData["plants"]["external"]["data"] = await  processExternalData(
-  //   plantInfoData["plants"]["external"]["dataIndex"]
+  //   plantInfoData["plants"]["external"]["dataIndex"],
+  //   plantInfoData["plants"]["external"]["path"]["fullDomain"],
+  //   plantInfoData["external"]["path"]["schema"]
   // );
   plantInfoData["nurseries"]["external"]["data"] = await processExternalData(
-    plantInfoData["nurseries"]["external"]["dataIndex"]
+    plantInfoData["nurseries"]["external"]["dataIndex"],
+    plantInfoData["nurseries"]["external"]["path"]["fullDomain"],
+    plantInfoData["external"]["path"]["schema"]
   );
   console.log(plantInfoData["nurseries"]["external"]["data"]);
 
