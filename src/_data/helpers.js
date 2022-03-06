@@ -703,24 +703,6 @@ module.exports = {
   },
 
   /**
-   * See if this item index should be tracked.
-   *
-   * @param {Boolean}  checkForLevelArray      The option to check if the level
-   *                                             to search is in an array.
-   * @return {Boolean}                         The option to track the index for
-   *                                             a level.
-   */
-  getTrackItemIndex(checkForLevelArray) {
-    let trackItemIndex = false;
-
-    if (checkForLevelArray) {
-      trackItemIndex = true;
-    }
-
-    return trackItemIndex;
-  },
-
-  /**
    * Recursively search through levels until reaching target level, then add
    * items to collection.
    *
@@ -764,8 +746,6 @@ module.exports = {
    * @return {Array}                              The array notation to a nested property.
    */
   addNestedPropertyArrayItem(nestedPropertyArrayNotation, propertyKey) {
-    console.log('nested property array notation');
-    console.log(nestedPropertyArrayNotation);
     if (
       module.exports.isArray(nestedPropertyArrayNotation) &&
       propertyKey !== ''
@@ -873,6 +853,25 @@ module.exports = {
    *                                          should be placed in externalData.
    *                                          - e.g ['a', 'b', 1, 'c']
    * @param {Object}    levelItem             The level item object.
+   * @return {Object}                         The external data.
+   */
+  addLevelArrayItem(externalData, externalDataItemPath, levelItem) {
+    let levelItemData = module.exports.copyObject(levelItem),
+      externalDataItemPropertyPath = module.exports.getNestedPropertyDotNotation(externalDataItemPath);
+
+      nestedProperty.set(externalData, externalDataItemPropertyPath, levelItemData);
+
+    return externalData;
+  },
+
+  /**
+   * Add level directory from index to external data.
+   *
+   * @param {Object}    externalData          The external data.
+   * @param {Array}     externalDataItemPath  The path to where this item data
+   *                                          should be placed in externalData.
+   *                                          - e.g ['a', 'b', 1, 'c']
+   * @param {Object}    levelItem             The level item object.
    * @param {Boolean}   checkForLevelArray    The option to check if the level
    *                                            to search is in an array.
    * @param {String}    childItemsKey         The key for an array of child items.
@@ -883,10 +882,6 @@ module.exports = {
     let levelItemData = {},
       externalDataItemPropertyPath = module.exports.getNestedPropertyDotNotation(externalDataItemPath);
 
-    console.log('add level directory');
-
-    console.log('property path');
-    console.log(externalDataItemPropertyPath);
     if (
       module.exports.objectHasOwnProperties(levelItem, ['type']) &&
       module.exports.objectHasOwnProperties(levelItem, ['name']) &&
@@ -941,7 +936,6 @@ module.exports = {
         levelItemDataFetchOptions = module.exports.getFetchAgentOptions(externalDomainSchema);
 
       fileLevelData = await module.exports.fetchExternalData(levelItemDataUri, levelItemDataFetchOptions);
-      console.log(externalDataItemPropertyPath);
       nestedProperty.set(externalData, externalDataItemPropertyPath, fileLevelData);
     }
 
@@ -958,7 +952,7 @@ module.exports = {
    *                                                data should be placed in externalData.
    *                                                - e.g ['a', 'b', 1, 'c']
    * @param {Array|Object}  levelValue        The external data level.
-   * @param {String}        levelPropertyKey  The level property key.
+   * @param {String|Numbwe} levelPropertyKey  The level property key.
    * @param {String}        fileTypeKey       The type key for a file.
    *
    * @return {Object}                         The external data structure.
@@ -995,7 +989,7 @@ module.exports = {
    *                                                data should be placed in externalData.
    *                                                - e.g ['a', 'b', 1, 'c']
    * @param {Array|Object}  levelValue        The external data level.
-   * @param {String}        levelPropertyKey  The level property key.
+   * @param {String|Number} levelPropertyKey  The level property key.
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    *
@@ -1015,14 +1009,195 @@ module.exports = {
       levelItem = module.exports.copyObject(levelValue),
       levelDirectoryChildren = module.exports.getLevelItemDirectoryChildren(levelItem, childItemsKey, directoryTypeKey),
       checkForLevelArray = module.exports.getCheckForLevelArray(levelDirectoryChildren),
-      trackItemIndex = module.exports.getTrackItemIndex(checkForLevelArray),
       directoryDataItemPath = module.exports.copyObject(externalDataItemPath)
     ;
 
     levelPropertyKey = module.exports.getLevelItemPropertyKey(levelItem);
     directoryDataItemPath = module.exports.addNestedPropertyArrayItem(directoryDataItemPath, levelPropertyKey);
     externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, levelItem, checkForLevelArray, childItemsKey, directoryTypeKey);
-    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelDirectoryChildren, externalDataItemPath, checkForLevelArray, trackItemIndex);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelDirectoryChildren, externalDataItemPath, checkForLevelArray);
+
+    return externalData;
+  },
+
+  /**
+   * Check an external data level with array data.
+   *
+   * @param {Object}        externalData            The external data.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
+   * @param {Array}         externalDataItemPath    The path to where this item
+   *                                                data should be placed in externalData.
+   *                                                - e.g ['a', 'b', 1, 'c']
+   * @param {Array}         levelValues       The external data leve values.
+   * @param {String|Number} levelPropertyKey  The level property key.
+   * @param {String}        childItemsKey     The key for an array of child items.
+   * @param {String}        directoryTypeKey  The type key for a directory.
+   * @param {String}        fileTypeKey       The type key for a file.
+   *
+   * @return {Object}                         The external data structure.
+   */
+  async checkLevelItem(
+    externalData,
+    externalDomainUri,
+    externalDomainSchema,
+    externalDataItemPath,
+    levelValues,
+    levelPropertyKey,
+    childItemsKey,
+    directoryTypeKey,
+    fileTypeKey
+  ) {
+    let
+      levelItem = module.exports.copyObject(levelValues),
+      levelItemPath = module.exports.copyObject(externalDataItemPath)
+    ;
+
+    if (
+      module.exports.objectHasOwnProperties(levelItem, ['type']) &&
+      levelItem['type'] === fileTypeKey
+    ) {
+      console.log('check level file');
+      externalData = await module.exports.checkLevelFile(externalData, externalDomainUri, externalDomainSchema, levelItemPath, levelItem, levelPropertyKey, fileTypeKey);
+    } else if (
+      module.exports.objectHasOwnProperties(levelItem, ['type']) &&
+      levelItem['type'] === directoryTypeKey &&
+      module.exports.objectHasOwnProperties(levelItem, [childItemsKey])
+    ) {
+      console.log('check level directory');
+      externalData = await module.exports.checkLevelDirectory(externalData, externalDomainUri, externalDomainSchema, levelItemPath, levelItem, levelPropertyKey, childItemsKey, directoryTypeKey);
+    }
+
+    return externalData;
+  },
+
+  /**
+   * Check an external data level with array item data.
+   *
+   * @param {Object}        externalData            The external data.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
+   * @param {Array}         externalDataItemPath    The path to where this item
+   *                                                data should be placed in externalData.
+   *                                                - e.g ['a', 'b', 1, 'c']
+   * @param {Array}         levelValues       The external data leve values.
+   * @param {Number}        levelItemIndex    The index number for the level values.
+   * @param {String|Number} levelPropertyKey  The level property key.
+   * @param {String}        childItemsKey     The key for an array of child items.
+   * @param {String}        directoryTypeKey  The type key for a directory.
+   * @param {String}        fileTypeKey       The type key for a file.
+   *
+   * @return {Object}                         The external data structure.
+   */
+  async checkLevelArrayItem(
+    externalData,
+    externalDomainUri,
+    externalDomainSchema,
+    externalDataItemPath,
+    levelValues,
+    levelItemIndex,
+    levelPropertyKey,
+    childItemsKey,
+    directoryTypeKey,
+    fileTypeKey
+  ) {
+    let
+      arrayItem = module.exports.copyObject(levelValues),
+      arrayItemPath = module.exports.copyObject(externalDataItemPath),
+      arrayItemPropertyKey = levelItemIndex,
+      checkForLevelArray = module.exports.getCheckForLevelArray(arrayItem)
+    ;
+    console.log(levelItemIndex);
+
+    arrayItemPath = module.exports.addNestedPropertyArrayItem(arrayItemPath, arrayItemPropertyKey);
+    console.log(arrayItemPath);
+    externalData = module.exports.addLevelArrayItem(externalData, externalDataItemPath, arrayItem);
+    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, arrayItemPath, arrayItem, arrayItemPropertyKey, checkForLevelArray, childItemsKey, directoryTypeKey, fileTypeKey);
+
+    return externalData;
+  },
+
+  /**
+   * Check an external data level with array data.
+   *
+   * @param {Object}        externalData            The external data.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
+   * @param {Array}         externalDataItemPath    The path to where this item
+   *                                                data should be placed in externalData.
+   *                                                - e.g ['a', 'b', 1, 'c']
+   * @param {Array}         levelValues       The external data leve values.
+   * @param {String|Number} levelPropertyKey  The level property key.
+   * @param {String}        childItemsKey     The key for an array of child items.
+   * @param {String}        directoryTypeKey  The type key for a directory.
+   * @param {String}        fileTypeKey       The type key for a file.
+   *
+   * @return {Object}                         The external data structure.
+   */
+  async checkLevelArray(
+    externalData,
+    externalDomainUri,
+    externalDomainSchema,
+    externalDataItemPath,
+    levelValues,
+    levelPropertyKey,
+    childItemsKey,
+    directoryTypeKey,
+    fileTypeKey
+  ) {
+    let
+      arrayItems = module.exports.copyObject(levelValues),
+      arrayItemsPath = module.exports.copyObject(externalDataItemPath)
+    ;
+
+    console.log('check level array');
+    for (const arrayItem of arrayItems) {
+      const arrayItemIndex = arrayItems.indexOf(arrayItem);
+
+      externalData = await module.exports.checkLevelArrayItem(externalData, externalDomainUri, externalDomainSchema, arrayItemsPath, arrayItem, arrayItemIndex, levelPropertyKey, childItemsKey, directoryTypeKey, fileTypeKey);
+    }
+
+    return externalData;
+  },
+
+  /**
+   * Check an external data level.
+   *
+   * @param {Object}        externalData            The external data.
+   * @param {String}        externalDomainUri       An external domain uri.
+   * @param {String}        externalDomainSchema    An external domain schema.
+   * @param {Array}         externalDataItemPath    The path to where this item
+   *                                                data should be placed in externalData.
+   *                                                - e.g ['a', 'b', 1, 'c']
+   * @param {Array}         levelValues       The external data leve values.
+   * @param {String|Number} levelPropertyKey  The level property key.
+   * @param {Boolean}       checkForLevelArray      The option to check if the level
+   *                                                to search is in an array.
+   * @param {String}        childItemsKey     The key for an array of child items.
+   * @param {String}        directoryTypeKey  The type key for a directory.
+   * @param {String}        fileTypeKey       The type key for a file.
+   *
+   * @return {Object}                         The external data structure.
+   */
+  async checkLevel(
+    externalData,
+    externalDomainUri,
+    externalDomainSchema,
+    externalDataItemPath,
+    levelValues,
+    levelPropertyKey,
+    checkForLevelArray,
+    childItemsKey,
+    directoryTypeKey,
+    fileTypeKey
+  ) {
+    if (checkForLevelArray) {
+      console.log('check level array');
+      externalData = await module.exports.checkLevelArray(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, childItemsKey, directoryTypeKey, fileTypeKey);
+    } else {
+      console.log('check level item');
+      externalData = await module.exports.checkLevelItem(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, childItemsKey, directoryTypeKey, fileTypeKey);
+    }
 
     return externalData;
   },
@@ -1041,63 +1216,20 @@ module.exports = {
    *                                               - e.g ['a', 'b', 1, 'c']
    * @param {Boolean}      checkForLevelArray      The option to check if the level
    *                                                to search is in an array.
-   * @param {Boolean}      trackItemIndex          The option to track the item
-   *                                                index, for array items.
-   * @param {Number}       levelIndex              The index for the level.
    * @param {String}       childItemsKey           The key for an array of child items.
    * @param {String}       directoryTypeKey        The type key for a directory.
    * @param {String}       fileTypeKey             The type key for a file.
    * @return {Object}                              The external data structure.
    */
-  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], levelIndex = 0, checkForLevelArray= false, trackItemIndex = false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
+  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], checkForLevelArray= false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
     let
       levelValues = module.exports.cloneObject(externalDataIndexLevel),
       checkLevelValues = module.exports.getCheckLevelValues(levelValues, checkForLevelArray),
-      levelPropertyKey = null,
-      levelDataItemPath = module.exports.cloneObject(externalDataItemPath)
+      levelPropertyKey = null
     ;
 
-    console.log('check level values');
-    console.log(checkLevelValues);
     if (checkLevelValues) {
-
-      if (trackItemIndex) {
-        levelPropertyKey = levelIndex;
-        levelDataItemPath = module.exports.addNestedPropertyArrayItem(levelDataItemPath, levelPropertyKey);
-      }
-
-      console.log('check for level array');
-      console.log(checkForLevelArray);
-      if (checkForLevelArray) {
-        console.log('check level array');
-        for (const levelValue of levelValues) {
-          let
-            index = levelValues.indexOf(levelValue),
-            checkForLevelArray = module.exports.getCheckForLevelArray(levelValue),
-            trackItemIndex = module.exports.getTrackItemIndex(checkForLevelArray);
-            console.log(index);
-
-          externalData = module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelValue, levelDataItemPath, checkForLevelArray, trackItemIndex);
-        }
-      } else {
-        console.log('not checking level array');
-        let levelValue = module.exports.cloneObject(levelValues);
-
-        if (
-          module.exports.objectHasOwnProperties(levelValue, ['type']) &&
-          levelValue['type'] === fileTypeKey
-        ) {
-          console.log('check level file');
-          externalData = await module.exports.checkLevelFile(externalData, externalDomainUri, externalDomainSchema, levelDataItemPath, levelValue, levelPropertyKey, fileTypeKey);
-        } else if (
-          module.exports.objectHasOwnProperties(levelValue, ['type']) &&
-          levelValue['type'] === directoryTypeKey &&
-          module.exports.objectHasOwnProperties(levelValue, [childItemsKey])
-        ) {
-          console.log('check level directory');
-          externalData = await module.exports.checkLevelDirectory(externalData, externalDomainUri, externalDomainSchema, levelDataItemPath, levelValue, levelPropertyKey, childItemsKey, directoryTypeKey);
-        }
-      }
+      externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, checkForLevelArray, childItemsKey, directoryTypeKey, fileTypeKey);
     }
 
     return externalData;
@@ -1115,7 +1247,6 @@ module.exports = {
   async processExternalData(externalDataIndex, externalDomainUri, externalDomainSchema) {
     let externalData = {};
 
-    console.log('begin processing data index');
     externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndex);
 
     return externalData;
