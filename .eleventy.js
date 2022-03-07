@@ -87,6 +87,10 @@ module.exports = config => {
           globalDataPath: ['plants', 'data', 'common_name'],
           collectionData: null,
         },
+        common_name_letters: {
+          globalDataPath: ['plants', 'data', 'common_name_letters'],
+          collectionData: null,
+        },
         plant_prepare_index: {
           globalDataPath: ['plants', 'plant_prepare_index'],
           collectionData: [],

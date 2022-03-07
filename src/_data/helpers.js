@@ -1066,16 +1066,16 @@ module.exports = {
     directoryTypeKey
   ) {
     let
-      levelItem = module.exports.copyObject(levelValue),
-      levelDirectoryChildren = module.exports.getLevelItemDirectoryChildren(levelItem, childItemsKey, directoryTypeKey),
-      checkForLevelArray = module.exports.getCheckForLevelArray(levelDirectoryChildren),
+      directoryItem = module.exports.copyObject(levelValue),
+      directoryChildren = module.exports.getLevelItemDirectoryChildren(directoryItem, childItemsKey, directoryTypeKey),
+      checkDirectoryForMultipleItems = module.exports.getCheckLevelForMultipleItems(directoryChildren),
       directoryDataItemPath = module.exports.copyObject(externalDataItemPath)
     ;
 
-    levelPropertyKey = module.exports.getLevelItemPropertyKey(levelItem);
+    levelPropertyKey = module.exports.getLevelItemPropertyKey(directoryItem);
     directoryDataItemPath = module.exports.addNestedPropertyArrayItem(directoryDataItemPath, levelPropertyKey);
-    externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, levelItem, checkForLevelArray, childItemsKey, directoryTypeKey);
-    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, levelDirectoryChildren, externalDataItemPath, checkForLevelArray);
+    externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, directoryItem, checkDirectoryForMultipleItems, childItemsKey, directoryTypeKey);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, directoryChildren, externalDataItemPath, checkDirectoryForMultipleItems);
 
     return externalData;
   },
