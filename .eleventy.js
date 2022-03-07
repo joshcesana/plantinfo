@@ -382,7 +382,9 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.common_name.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.common_name.globalDataPath);
     } else {
+      console.log('add common names to collections');
       rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
+      console.log('common names has ' + rootData.collections.common_name.collectionData.length + ' items');
     }
 
     return rootData.collections.common_name.collectionData;
@@ -393,8 +395,11 @@ module.exports = config => {
     if (useExternalData) {
       rootData.collections.common_name_letters.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.common_name_letters.globalDataPath);
     } else {
+      console.log('add common name letters to collections');
       rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
-      rootData.collections.common_name_letters.collectionData = await getCacheData(cacheData.plantCommonNameLettersCache, [collection], cacheDuration);
+      console.log('common names has ' + rootData.collections.common_name.collectionData.length + ' items');
+      rootData.collections.common_name_letters.collectionData = await getCacheData(cacheData.plantCommonNameLettersCache, [rootData.collections.common_name.collectionData], cacheDuration);
+      console.log('common name letters has ' + rootData.collections.common_name_letters.collectionData.length + ' items');
     }
 
     return rootData.collections.common_name_letters.collectionData;
