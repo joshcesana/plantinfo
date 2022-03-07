@@ -212,6 +212,11 @@ module.exports = config => {
         getFunction: getRootItemTypeCollection,
         staticParameters: [rootData.common_names.dataPath, rootData.common_names.itemType]
       },
+      plantCommonNameLettersCache: {
+        assetKey: 'plant_common_name_letters_cache',
+        getFunction: getLetterListCollection,
+        staticParameters: [rootData.common_names.itemType]
+      },
       nurseryCache: {
         assetKey: 'nursery_cache_nurseries',
         getFunction: getNumberLetterCollection,
@@ -368,7 +373,7 @@ module.exports = config => {
     return rootData.collections.variety.collectionData;
   });
 
-  // Returns nursery term items.
+  // Returns common name items.
   config.addCollection('common_name', async (collection) => {
     if (useExternalData) {
       rootData.collections.common_name.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.common_name.globalDataPath);
@@ -377,6 +382,18 @@ module.exports = config => {
     }
 
     return rootData.collections.common_name.collectionData;
+  });
+
+  // Returns common name letter items.
+  config.addCollection('common_name_letters', async (collection) => {
+    if (useExternalData) {
+      rootData.collections.common_name_letters.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.common_name_letters.globalDataPath);
+    } else {
+      rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
+      rootData.collections.common_name_letters.collectionData = await getCacheData(cacheData.plantCommonNameLettersCache, [collection], cacheDuration);
+    }
+
+    return rootData.collections.common_name_letters.collectionData;
   });
 
   // Returns nursery items.
