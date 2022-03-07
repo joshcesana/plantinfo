@@ -122,6 +122,19 @@ module.exports = {
   },
 
   /**
+   * Checks if this is an array with multiple items.
+   *
+   * @param {Array}       checkThis   The item to check.
+   * @returns {Boolean}               The determination if the object has these properties.
+   */
+  isArrayWithMultipleItems(checkThis) {
+    return (
+      Array.isArray(checkThis) &&
+      checkThis.length > 1
+    );
+  },
+
+  /**
    * Checks if this is an Eleventy collection.
    *
    * @param {Array}       checkThis   The item to check.
@@ -662,6 +675,25 @@ module.exports = {
   },
 
   /**
+   * See if this level value should be checked for an array.
+   *
+   * @param {Array|Object}  levelValue         The level value.
+   * @return {Boolean}                         The option to check if the level
+   *                                            to search is in an array.
+   */
+  getCheckForLevelArray(levelValue) {
+    let checkForLevelArray = false;
+
+    if (module.exports.isObject(levelValue)) {
+      checkForLevelArray = false;
+    } else if (module.exports.isArray(levelValue)) {
+      checkForLevelArray = true;
+    }
+
+    return checkForLevelArray;
+  },
+
+  /**
    * See if level values should be checked for this level.
    *
    * @param {Array}        levelValues         The level values.
@@ -684,22 +716,43 @@ module.exports = {
   },
 
   /**
-   * See if this level value should be checked for an array.
+   * Check if this level value has an array with multiple items.
    *
    * @param {Array|Object}  levelValue         The level value.
-   * @return {Boolean}                         The option to check if the level
-   *                                            to search is in an array.
+   * @return {Boolean}                         The level has an array with multiple items.
    */
-  getCheckForLevelArray(levelValue) {
-    let checkForLevelArray = false;
+  getCheckLevelForMultipleItems(levelValue) {
+    let checkLevelForMultipleItems = false;
 
     if (module.exports.isObject(levelValue)) {
-      checkForLevelArray = false;
-    } else if (module.exports.isArray(levelValue)) {
-      checkForLevelArray = true;
+      checkLevelForMultipleItems = false;
+    } else if (module.exports.isArrayWithMultipleItems(levelValue)) {
+      checkLevelForMultipleItems = true;
     }
 
-    return checkForLevelArray;
+    return checkLevelForMultipleItems;
+  },
+
+  /**
+   * See if level values should be checked for this level.
+   *
+   * @param {Array|Object} levelValues                 The level values.
+   * @param {Boolean}      checkLevelForMultipleItems  The option to check if the level
+   *                                                    has multiple items.
+   * @return {Boolean}                                 The level has multiple items
+   */
+  checkLevelForMultipleItems(levelValues, checkLevelForMultipleItems) {
+    let levelHasMultipleItems = false;
+
+    if (checkLevelForMultipleItems) {
+      if (module.exports.isArrayWithMultipleItems(levelValues)) {
+        levelHasMultipleItems = true;
+      }
+    } else {
+      levelHasMultipleItems = true;
+    }
+
+    return levelHasMultipleItems;
   },
 
   /**
@@ -856,10 +909,16 @@ module.exports = {
    * @return {Object}                         The external data.
    */
   addLevelArrayItem(externalData, externalDataItemPath, levelItem) {
-    let levelItemData = module.exports.copyObject(levelItem),
+    let
+      checkForLevelArray = module.exports.getCheckForLevelArray(levelItem),
+      levelItemData = {},
       externalDataItemPropertyPath = module.exports.getNestedPropertyDotNotation(externalDataItemPath);
 
-      nestedProperty.set(externalData, externalDataItemPropertyPath, levelItemData);
+    if (checkForLevelArray) {
+      levelItemData = [];
+    }
+
+    nestedProperty.set(externalData, externalDataItemPropertyPath, levelItemData);
 
     return externalData;
   },
@@ -891,7 +950,8 @@ module.exports = {
     ) {
       if (
         checkForLevelArray &&
-        module.exports.isArrayWithItems(levelItem[childItemsKey])
+        module.exports.isArrayWithItems(levelItem[childItemsKey]) &&
+        levelItem[childItemsKey].length > 1
       ) {
         levelItemData[levelItem['name']] = [];
       } else {
@@ -1105,14 +1165,12 @@ module.exports = {
       arrayItem = module.exports.copyObject(levelValues),
       arrayItemPath = module.exports.copyObject(externalDataItemPath),
       arrayItemPropertyKey = levelItemIndex,
-      checkForLevelArray = module.exports.getCheckForLevelArray(arrayItem)
+      checkLevelForMultipleItems = module.exports.getCheckLevelForMultipleItems(arrayItem)
     ;
-    console.log(levelItemIndex);
 
     arrayItemPath = module.exports.addNestedPropertyArrayItem(arrayItemPath, arrayItemPropertyKey);
-    console.log(arrayItemPath);
-    externalData = module.exports.addLevelArrayItem(externalData, externalDataItemPath, arrayItem);
-    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, arrayItemPath, arrayItem, arrayItemPropertyKey, checkForLevelArray, childItemsKey, directoryTypeKey, fileTypeKey);
+    externalData = module.exports.addLevelArrayItem(externalData, arrayItemPath, arrayItem);
+    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, arrayItemPath, arrayItem, arrayItemPropertyKey, checkLevelForMultipleItems, childItemsKey, directoryTypeKey, fileTypeKey);
 
     return externalData;
   },
@@ -1171,8 +1229,8 @@ module.exports = {
    *                                                - e.g ['a', 'b', 1, 'c']
    * @param {Array}         levelValues       The external data leve values.
    * @param {String|Number} levelPropertyKey  The level property key.
-   * @param {Boolean}       checkForLevelArray      The option to check if the level
-   *                                                to search is in an array.
+   * @param {Boolean}       checkLevelForMultipleItems  The option to check if the level
+   *                                                      has multiple items.
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
@@ -1186,18 +1244,25 @@ module.exports = {
     externalDataItemPath,
     levelValues,
     levelPropertyKey,
-    checkForLevelArray,
+    checkLevelForMultipleItems,
     childItemsKey,
     directoryTypeKey,
     fileTypeKey
   ) {
-    if (checkForLevelArray) {
-      console.log('check level array');
+    console.log('check level');
+    console.log('current path');
+    console.log(externalDataItemPath);
+    console.log('data before checking level');
+    console.log(externalData);
+    if (checkLevelForMultipleItems) {
+      console.log('check level for multiple items');
       externalData = await module.exports.checkLevelArray(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, childItemsKey, directoryTypeKey, fileTypeKey);
     } else {
       console.log('check level item');
       externalData = await module.exports.checkLevelItem(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, childItemsKey, directoryTypeKey, fileTypeKey);
     }
+    console.log('data after checking level');
+    console.log(externalData);
 
     return externalData;
   },
@@ -1214,22 +1279,22 @@ module.exports = {
    * @param {Array}        externalDataItemPath    The path to where this item data
    *                                               should be placed in externalData.
    *                                               - e.g ['a', 'b', 1, 'c']
-   * @param {Boolean}      checkForLevelArray      The option to check if the level
-   *                                                to search is in an array.
+   * @param {Boolean}      checkLevelForMultipleItems  The option to check if the level
+   *                                                    has multiple items.
    * @param {String}       childItemsKey           The key for an array of child items.
    * @param {String}       directoryTypeKey        The type key for a directory.
    * @param {String}       fileTypeKey             The type key for a file.
    * @return {Object}                              The external data structure.
    */
-  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], checkForLevelArray= false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
+  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], checkLevelForMultipleItems= false, childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
     let
       levelValues = module.exports.cloneObject(externalDataIndexLevel),
-      checkLevelValues = module.exports.getCheckLevelValues(levelValues, checkForLevelArray),
+      checkLevelValues = module.exports.checkLevelForMultipleItems(levelValues, checkLevelForMultipleItems),
       levelPropertyKey = null
     ;
 
     if (checkLevelValues) {
-      externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, checkForLevelArray, childItemsKey, directoryTypeKey, fileTypeKey);
+      externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, levelPropertyKey, checkLevelForMultipleItems, childItemsKey, directoryTypeKey, fileTypeKey);
     }
 
     return externalData;
