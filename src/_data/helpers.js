@@ -464,7 +464,7 @@ module.exports = {
   },
 
   /**
-   * Get index file for fetching external data.
+   * Get file for fetching external data.
    *
    * @param {Object}   externalDomain  An externalPath object containing
    *                                     general info about the domain.
@@ -493,6 +493,35 @@ module.exports = {
     }
 
     return dataIndexFile;
+  },
+
+  /**
+   * Get file path for fetching external data.
+   *
+   * @param {Object}   externalFile  An externalPath object containing
+   *                                  info about the file.
+   * @return {string}                  A file for fetching external data.
+   */
+  getExternalDataFilePath (externalFile) {
+    let
+      dataFilePath = '',
+      mergedExternalPathData = {};
+
+    if (
+      module.exports.isObject(externalFile) &&
+      (
+        module.exports.objectHasOwnProperties(externalFile, ['directory']) &&
+        module.exports.objectHasOwnProperties(externalFile, ['file']) &&
+        module.exports.objectHasOwnProperties(externalFile, ['fileType'])
+      )
+    ) {
+      dataFilePath =
+        externalFile['directory'] + '/' +
+        externalFile['file'] + '.' +
+        externalFile['fileType'];
+    }
+
+    return dataFilePath;
   },
 
   /**
@@ -581,6 +610,34 @@ module.exports = {
     }
 
     return dataIndexUri;
+  },
+
+  /**
+   * Get path for fetching external data.
+   *
+   * @param {Object}   externalFile    An externalPath object containing
+   *                                     specific info about the file.
+   * @return {string}                  A uri for fetching external data.
+   */
+  getExternalFileUri(externalFile) {
+    let
+      dataFileUri = '',
+      dataFileDomain = '',
+      dataFilePath = module.exports.getExternalDataFilePath(externalFile)
+    ;
+
+    if (module.exports.objectHasOwnProperties(externalFile, ['fullDomain'])) {
+      dataFileDomain = externalFile["fullDomain"]
+    }
+
+    if (
+      dataFileDomain !== '' &&
+      dataFilePath !== ''
+    ) {
+      dataFileUri = module.exports.getExternalDataUri(dataFileDomain, dataFilePath);
+    }
+
+    return dataFileUri;
   },
 
   /**

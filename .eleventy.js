@@ -51,7 +51,7 @@ module.exports = config => {
 
   let
     cacheDuration = '1s',
-    useExternalData = false,
+    useExternalData = true,
     globalDataKey = 'plant_info',
     rootData = {
       collections: {
@@ -275,31 +275,31 @@ module.exports = config => {
   config.addGlobalData('searchOutputDir', searchOutputDir);
   config.addGlobalData('searchData', searchData);
   config.addGlobalData('cacheData', cacheData);
-  //
-  // // Returns journal_book items.
-  // config.addCollection('journal_book', async (collection) => {
-  //   if (useExternalData) {
-  //     rootData.collections.journal_book.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.journal_book.globalDataPath);
-  //   } else {
-  //     rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-  //   }
-  //
-  //   return rootData.collections.journal_book.collectionData;
-  // });
-  //
-  // // Returns citation reference items.
-  // config.addCollection('citation_reference', async (collection) => {
-  //   if (useExternalData) {
-  //     rootData.collections.citation_reference.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.citation_reference.globalDataPath);
-  //   } else {
-  //     rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-  //
-  //     rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
-  //   }
-  //
-  //   return rootData.collections.citation_reference.collectionData;
-  // });
-  //
+
+  // Returns journal_book items.
+  config.addCollection('journal_book', async (collection) => {
+    if (useExternalData) {
+      rootData.collections.journal_book.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.journal_book.globalDataPath);
+    } else {
+      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+    }
+
+    return rootData.collections.journal_book.collectionData;
+  });
+
+  // Returns citation reference items.
+  config.addCollection('citation_reference', async (collection) => {
+    if (useExternalData) {
+      rootData.collections.citation_reference.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.citation_reference.globalDataPath);
+    } else {
+      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+
+      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
+    }
+
+    return rootData.collections.citation_reference.collectionData;
+  });
+
   // Returns family items.
   config.addCollection('family', async (collection) => {
     if (useExternalData) {
@@ -346,37 +346,37 @@ module.exports = config => {
 
     return rootData.collections.genus_letters.collectionData;
   });
-  //
-  // // Returns species items.
-  // config.addCollection('species', async (collection) => {
-  //   if (useExternalData) {
-  //     rootData.collections.species.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.species.globalDataPath);
-  //   } else {
-  //     rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
-  //     rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
-  //
-  //     rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
-  //   }
-  //
-  //   return rootData.collections.species.collectionData;
-  // });
-  //
-  // // Returns variety items.
-  // config.addCollection('variety', async (collection) => {
-  //   if (useExternalData) {
-  //     rootData.collections.variety.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.variety.globalDataPath);
-  //   } else {
-  //     rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
-  //     rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
-  //     rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
-  //     console.log('species collection has items');
-  //     console.log(rootData.collections.species.collectionData.length > 0);
-  //
-  //     rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
-  //   }
-  //
-  //   return rootData.collections.variety.collectionData;
-  // });
+
+  // Returns species items.
+  config.addCollection('species', async (collection) => {
+    if (useExternalData) {
+      rootData.collections.species.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.species.globalDataPath);
+    } else {
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+
+      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+    }
+
+    return rootData.collections.species.collectionData;
+  });
+
+  // Returns variety items.
+  config.addCollection('variety', async (collection) => {
+    if (useExternalData) {
+      rootData.collections.variety.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.variety.globalDataPath);
+    } else {
+      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+      console.log('species collection has items');
+      console.log(rootData.collections.species.collectionData.length > 0);
+
+      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
+    }
+
+    return rootData.collections.variety.collectionData;
+  });
 
   // Returns common name items.
   config.addCollection('common_name', async (collection) => {

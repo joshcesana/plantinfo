@@ -2,6 +2,7 @@ const getCacheData = require('../utils/get-cache-data.js');
 const {
   objectHasOwnProperties,
   getExternalDataIndexUri,
+  getExternalFileUri,
   getExternalDataDomain,
   fetchExternalData,
   processExternalData,
@@ -398,6 +399,16 @@ module.exports = async function(configData) {
         "dataIndex": null,
         "data": null,
       },
+      "common_names": {
+        "path": {
+          "fullDomain": null,
+          "directory": "common_names",
+          "file": "common_names",
+          "fileType": "json",
+        },
+        "fileUri": null,
+        "data": null,
+      },
       "data": {
         "family": null,
         "genus": null,
@@ -421,6 +432,16 @@ module.exports = async function(configData) {
         "dataIndex": null,
         "data": null,
       },
+      "terms": {
+        "path": {
+          "fullDomain": null,
+          "directory": "terms",
+          "file": "terms",
+          "fileType": "json",
+        },
+        "fileUri": null,
+        "data": null,
+      },
       "data": {
         "nursery":  null,
         "nursery_catalog": null,
@@ -442,9 +463,20 @@ module.exports = async function(configData) {
   plantInfoData["nurseries"]["external"]["path"]["fullDomain"] = getExternalDataDomain(plantInfoData["external"]["path"], plantInfoData["nurseries"]["external"]["path"]);
 
 
+  plantInfoData["plants"]["common_names"]["path"]["fullDomain"] = plantInfoData["plants"]["external"]["path"]["fullDomain"];
+  plantInfoData["plants"]["common_names"]["fileUri"] = getExternalFileUri(plantInfoData["plants"]["common_names"]["path"]);
+  console.log(plantInfoData["plants"]["common_names"]["fileUri"]);
+
+  plantInfoData["nurseries"]["terms"]["path"]["fullDomain"] = plantInfoData["nurseries"]["external"]["path"]["fullDomain"];
+  plantInfoData["nurseries"]["terms"]["fileUri"] = getExternalFileUri(plantInfoData["nurseries"]["terms"]["path"]);
+  console.log(plantInfoData["nurseries"]["terms"]["fileUri"]);
+
   plantInfoData["citations"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["citations"]["external"]["dataIndexUri"]);
   plantInfoData["plants"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["plants"]["external"]["dataIndexUri"]);
   plantInfoData["nurseries"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["nurseries"]["external"]["dataIndexUri"]);
+
+  plantInfoData["plants"]["common_names"]["data"] = await fetchExternalData(plantInfoData["plants"]["common_names"]["fileUri"]);
+  plantInfoData["nurseries"]["terms"]["data"] = await fetchExternalData(plantInfoData["nurseries"]["terms"]["fileUri"]);
 
   plantInfoData["citations"]["external"]["data"] = await processExternalData(
     plantInfoData["citations"]["external"]["dataIndex"],
@@ -469,6 +501,9 @@ module.exports = async function(configData) {
   plantsData = plantInfoData["plants"]["external"]["data"];
   nurseriesData = plantInfoData["nurseries"]["external"]["data"];
 
+  commonNamesData = plantInfoData["plants"]["common_names"]["data"]
+  termsData = plantInfoData["nurseries"]["terms"]["data"]
+
   plantInfoData["citations"]["data"]["journal_book"] = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
   plantInfoData["citations"]["data"]["citation_reference"] = getElementItemsCollection(plantInfoData["citations"]["data"]["journal_book"], 'citation_reference', 'journal_book');
 
@@ -478,7 +513,7 @@ module.exports = async function(configData) {
   plantInfoData["plants"]["data"]["variety"] = getElementItemsCollection(plantInfoData["plants"]["data"]["species"], 'variety', false);
   plantInfoData["plants"]["data"]["genus_letters"] = getLetterListCollection(plantInfoData["plants"]["data"]["genus"], 'genus');
   plantInfoData["plants"]["data"]["common_name"] = getRootItemTypeCollection(commonNamesData, configData['rootData']['common_names']['globalDataPath'], configData['rootData']['common_names']['itemType']);
-  plantInfoData["plants"]["data"]["common_name_letters"] = getLetterListCollection(plantInfoData["plants"]["data"]["common_names"], 'common_name');
+  plantInfoData["plants"]["data"]["common_name_letters"] = getLetterListCollection(plantInfoData["plants"]["data"]["common_name"], 'common_name');
 
   plantInfoData["nurseries"]["data"]["nursery"] = getNumberLetterCollection(nurseriesData, configData['rootData']['nurseries']['globalDataPath'], configData['rootData']['nurseries']['levelsDeep'], configData['rootData']['nurseries']['itemType']);
   plantInfoData["nurseries"]["data"]["nursery_catalog"] = getElementItemsCollection(plantInfoData["nurseries"]["data"]["nursery"], 'nursery_catalog', false);
