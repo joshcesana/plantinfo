@@ -1,5 +1,5 @@
 ---
-title: 'Plant Genus'
+title: 'Plant Genus Categories'
 type: 'genus'
 layout: 'layouts/letter-directory.html'
 pagination:
