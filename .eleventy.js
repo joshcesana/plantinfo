@@ -51,7 +51,7 @@ module.exports = config => {
 
   let
     cacheDuration = '1s',
-    useExternalData = true,
+    useExternalData = false,
     globalDataKey = 'plant_info',
     rootData = {
       collections: {
@@ -275,31 +275,31 @@ module.exports = config => {
   config.addGlobalData('searchOutputDir', searchOutputDir);
   config.addGlobalData('searchData', searchData);
   config.addGlobalData('cacheData', cacheData);
-
-  // Returns journal_book items.
-  config.addCollection('journal_book', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.journal_book.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.journal_book.globalDataPath);
-    } else {
-      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-    }
-
-    return rootData.collections.journal_book.collectionData;
-  });
-
-  // Returns citation reference items.
-  config.addCollection('citation_reference', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.citation_reference.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.citation_reference.globalDataPath);
-    } else {
-      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-
-      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
-    }
-
-    return rootData.collections.citation_reference.collectionData;
-  });
-
+  //
+  // // Returns journal_book items.
+  // config.addCollection('journal_book', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.journal_book.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.journal_book.globalDataPath);
+  //   } else {
+  //     rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.journal_book.collectionData;
+  // });
+  //
+  // // Returns citation reference items.
+  // config.addCollection('citation_reference', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.citation_reference.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.citation_reference.globalDataPath);
+  //   } else {
+  //     rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+  //
+  //     rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.citation_reference.collectionData;
+  // });
+  //
   // Returns family items.
   config.addCollection('family', async (collection) => {
     if (useExternalData) {
@@ -341,41 +341,42 @@ module.exports = config => {
       console.log(rootData.collections.genus.collectionData.length > 0);
 
       rootData.collections.genus_letters.collectionData = await getCacheData(cacheData.plantGenusLettersCache, [rootData.collections.genus.collectionData], cacheDuration);
+      console.log(rootData.collections.genus_letters.collectionData);
     }
 
     return rootData.collections.genus_letters.collectionData;
   });
-
-  // Returns species items.
-  config.addCollection('species', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.species.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.species.globalDataPath);
-    } else {
-      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
-      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
-
-      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
-    }
-
-    return rootData.collections.species.collectionData;
-  });
-
-  // Returns variety items.
-  config.addCollection('variety', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.variety.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.variety.globalDataPath);
-    } else {
-      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
-      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
-      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
-      console.log('species collection has items');
-      console.log(rootData.collections.species.collectionData.length > 0);
-
-      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
-    }
-
-    return rootData.collections.variety.collectionData;
-  });
+  //
+  // // Returns species items.
+  // config.addCollection('species', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.species.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.species.globalDataPath);
+  //   } else {
+  //     rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+  //     rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+  //
+  //     rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.species.collectionData;
+  // });
+  //
+  // // Returns variety items.
+  // config.addCollection('variety', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.variety.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.variety.globalDataPath);
+  //   } else {
+  //     rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+  //     rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+  //     rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+  //     console.log('species collection has items');
+  //     console.log(rootData.collections.species.collectionData.length > 0);
+  //
+  //     rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.variety.collectionData;
+  // });
 
   // Returns common name items.
   config.addCollection('common_name', async (collection) => {
@@ -391,7 +392,7 @@ module.exports = config => {
   });
 
   // Returns common name letter items.
-  config.addCollection('common_name_letters', async (collection) => {
+  config.addCollection('commonNamesLetters', async (collection) => {
     if (useExternalData) {
       rootData.collections.common_name_letters.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.common_name_letters.globalDataPath);
     } else {
@@ -400,128 +401,129 @@ module.exports = config => {
       console.log('common names has ' + rootData.collections.common_name.collectionData.length + ' items');
       rootData.collections.common_name_letters.collectionData = await getCacheData(cacheData.plantCommonNameLettersCache, [rootData.collections.common_name.collectionData], cacheDuration);
       console.log('common name letters has ' + rootData.collections.common_name_letters.collectionData.length + ' items');
+      console.log(rootData.collections.common_name_letters.collectionData);
     }
 
     return rootData.collections.common_name_letters.collectionData;
   });
-
-  // Returns nursery items.
-  config.addCollection('nursery', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.nursery.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery.globalDataPath);
-    } else {
-      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
-    }
-
-    return rootData.collections.nursery.collectionData;
-  });
-
-  // Returns nursery catalog items.
-  config.addCollection('nursery_catalog', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.nursery_catalog.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_catalog.globalDataPath);
-    } else {
-      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
-      console.log('nursery collection has items');
-      console.log(rootData.collections.nursery.collectionData.length > 0);
-
-      rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration);
-    }
-
-    return rootData.collections.nursery_catalog.collectionData;
-  });
-
-  // Returns nursery term items.
-  config.addCollection('nursery_category', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.nursery_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_category.globalDataPath);
-    } else {
-      rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
-    }
-
-    return rootData.collections.nursery_category.collectionData;
-  });
-
-  config.addCollection('nursery_by_category', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.nursery_by_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_by_category.globalDataPath);
-    } else {
-      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
-      rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
-      rootData.collections.nursery_specialty.collectionData = await getCacheData(cacheData.nurserySpecialtiesCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
-      rootData.collections.nursery_by_category.collectionData = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [rootData.collections.nursery_specialty.collectionData], cacheDuration);
-
-      rootData.collections.nursery_prepare_index.collectionData = await getCacheData(cacheData.nurseryPrepareIndexCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
-      console.log('nursery prepare index collection has items');
-      console.log(rootData.collections.nursery_prepare_index.collectionData.length > 0);
-
-      rootData.collections.nursery_build_index.collectionData = await getCacheData(cacheData.nurseryBuildIndexCache, [rootData.collections.nursery_prepare_index.collectionData], cacheDuration);
-      console.log('nursery category collection has items');
-      console.log(rootData.collections.nursery_category.collectionData.length > 0);
-
-      console.log('nursery specialty collection has items');
-      console.log(rootData.collections.nursery_specialty.collectionData.length > 0);
-
-      console.log('nursery paged category collection has items');
-      console.log(rootData.collections.nursery_by_category.collectionData.length > 0);
-
-      writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_build_index.collectionData );
-      writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_prepare_index.collectionData);
-
-      rootData.collections.nursery_by_category.collectionData = rootData.collections.nursery_by_category.collectionData;
-    }
-
-    return rootData.collections.nursery_by_category.collectionData;
-  });
-
-  config.addCollection('full_plant_index', async (collection) => {
-    if (useExternalData) {
-      rootData.collections.full_plant_index.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.full_plant_index.globalDataPath);
-    } else {
-
-      rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
-      rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
-      rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
-      rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
-
-      rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
-
-      rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
-      rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration)
-
-      rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
-      rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
-
-      console.log('plant variety collection has items');
-      console.log(rootData.collections.variety.collectionData.length > 0);
-
-      console.log('plant common name collection has items');
-      console.log(rootData.collections.common_name.collectionData.length > 0);
-
-      console.log('journal collection has items');
-      console.log(rootData.collections.journal_book.collectionData.length > 0);
-
-      console.log('citation collection has items');
-      console.log(rootData.collections.citation_reference.collectionData.length > 0);
-
-      rootData.collections.plant_prepare_index.collectionData = await getCacheData(cacheData.plantPrepareIndexCache, [
-        [rootData.collections.genus.collectionData, rootData.collections.species.collectionData, rootData.collections.variety.collectionData],
-        rootData.collections.common_name.collectionData,
-        rootData.collections.nursery_catalog.collectionData,
-        rootData.collections.citation_reference.collectionData
-      ], cacheDuration);
-      console.log('plant prepare index collection has items');
-      console.log(rootData.collections.plant_prepare_index.collectionData.length > 0);
-      rootData.collections.plant_build_index.collectionData = await getCacheData(cacheData.plantBuildIndexCache, [rootData.collections.plant_prepare_index.collectionData], cacheDuration);
-
-      writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_build_index.collectionData);
-      writeRawIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_prepare_index.collectionData);
-
-      rootData.collections.full_plant_index.collectionData = rootData.collections.plant_prepare_index.collectionData;
-    }
-
-    return rootData.collections.full_plant_index.collectionData;
-  });
+  //
+  // // Returns nursery items.
+  // config.addCollection('nursery', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.nursery.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery.globalDataPath);
+  //   } else {
+  //     rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.nursery.collectionData;
+  // });
+  //
+  // // Returns nursery catalog items.
+  // config.addCollection('nursery_catalog', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.nursery_catalog.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_catalog.globalDataPath);
+  //   } else {
+  //     rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+  //     console.log('nursery collection has items');
+  //     console.log(rootData.collections.nursery.collectionData.length > 0);
+  //
+  //     rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.nursery_catalog.collectionData;
+  // });
+  //
+  // // Returns nursery term items.
+  // config.addCollection('nursery_category', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.nursery_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_category.globalDataPath);
+  //   } else {
+  //     rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
+  //   }
+  //
+  //   return rootData.collections.nursery_category.collectionData;
+  // });
+  //
+  // config.addCollection('nursery_by_category', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.nursery_by_category.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.nursery_by_category.globalDataPath);
+  //   } else {
+  //     rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+  //     rootData.collections.nursery_category.collectionData = await getCacheData(cacheData.nurseryCategoryCache, [collection], cacheDuration);
+  //     rootData.collections.nursery_specialty.collectionData = await getCacheData(cacheData.nurserySpecialtiesCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
+  //     rootData.collections.nursery_by_category.collectionData = await getCacheData(cacheData.nurseryPagedCategoryCollectionCache, [rootData.collections.nursery_specialty.collectionData], cacheDuration);
+  //
+  //     rootData.collections.nursery_prepare_index.collectionData = await getCacheData(cacheData.nurseryPrepareIndexCache, [rootData.collections.nursery.collectionData, rootData.collections.nursery_category.collectionData], cacheDuration);
+  //     console.log('nursery prepare index collection has items');
+  //     console.log(rootData.collections.nursery_prepare_index.collectionData.length > 0);
+  //
+  //     rootData.collections.nursery_build_index.collectionData = await getCacheData(cacheData.nurseryBuildIndexCache, [rootData.collections.nursery_prepare_index.collectionData], cacheDuration);
+  //     console.log('nursery category collection has items');
+  //     console.log(rootData.collections.nursery_category.collectionData.length > 0);
+  //
+  //     console.log('nursery specialty collection has items');
+  //     console.log(rootData.collections.nursery_specialty.collectionData.length > 0);
+  //
+  //     console.log('nursery paged category collection has items');
+  //     console.log(rootData.collections.nursery_by_category.collectionData.length > 0);
+  //
+  //     writeLunrIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_build_index.collectionData );
+  //     writeRawIndex(searchOutputDir, searchData['nurseries']['indexSlug'], rootData.collections.nursery_prepare_index.collectionData);
+  //
+  //     rootData.collections.nursery_by_category.collectionData = rootData.collections.nursery_by_category.collectionData;
+  //   }
+  //
+  //   return rootData.collections.nursery_by_category.collectionData;
+  // });
+  //
+  // config.addCollection('full_plant_index', async (collection) => {
+  //   if (useExternalData) {
+  //     rootData.collections.full_plant_index.collectionData = getGlobalDataCollection(collection, globalDataKey, rootData.collections.full_plant_index.globalDataPath);
+  //   } else {
+  //
+  //     rootData.collections.family.collectionData = await getCacheData(cacheData.plantFamilyCache, [collection], cacheDuration);
+  //     rootData.collections.genus.collectionData = await getCacheData(cacheData.plantGenusCache, [rootData.collections.family.collectionData], cacheDuration);
+  //     rootData.collections.species.collectionData = await getCacheData(cacheData.plantSpeciesCache, [rootData.collections.genus.collectionData], cacheDuration);
+  //     rootData.collections.variety.collectionData = await getCacheData(cacheData.plantVarietyCache, [rootData.collections.species.collectionData], cacheDuration);
+  //
+  //     rootData.collections.common_name.collectionData = await getCacheData(cacheData.plantCommonNameCache, [collection], cacheDuration);
+  //
+  //     rootData.collections.nursery.collectionData = await getCacheData(cacheData.nurseryCache, [collection], cacheDuration);
+  //     rootData.collections.nursery_catalog.collectionData = await getCacheData(cacheData.nurseryCatalogCache, [rootData.collections.nursery.collectionData], cacheDuration)
+  //
+  //     rootData.collections.journal_book.collectionData = await getCacheData(cacheData.journalBookCache, [collection], cacheDuration);
+  //     rootData.collections.citation_reference.collectionData = await getCacheData(cacheData.citationReferenceCache, [rootData.collections.journal_book.collectionData], cacheDuration);
+  //
+  //     console.log('plant variety collection has items');
+  //     console.log(rootData.collections.variety.collectionData.length > 0);
+  //
+  //     console.log('plant common name collection has items');
+  //     console.log(rootData.collections.common_name.collectionData.length > 0);
+  //
+  //     console.log('journal collection has items');
+  //     console.log(rootData.collections.journal_book.collectionData.length > 0);
+  //
+  //     console.log('citation collection has items');
+  //     console.log(rootData.collections.citation_reference.collectionData.length > 0);
+  //
+  //     rootData.collections.plant_prepare_index.collectionData = await getCacheData(cacheData.plantPrepareIndexCache, [
+  //       [rootData.collections.genus.collectionData, rootData.collections.species.collectionData, rootData.collections.variety.collectionData],
+  //       rootData.collections.common_name.collectionData,
+  //       rootData.collections.nursery_catalog.collectionData,
+  //       rootData.collections.citation_reference.collectionData
+  //     ], cacheDuration);
+  //     console.log('plant prepare index collection has items');
+  //     console.log(rootData.collections.plant_prepare_index.collectionData.length > 0);
+  //     rootData.collections.plant_build_index.collectionData = await getCacheData(cacheData.plantBuildIndexCache, [rootData.collections.plant_prepare_index.collectionData], cacheDuration);
+  //
+  //     writeLunrIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_build_index.collectionData);
+  //     writeRawIndex(searchOutputDir, searchData['plants']['indexSlug'], rootData.collections.plant_prepare_index.collectionData);
+  //
+  //     rootData.collections.full_plant_index.collectionData = rootData.collections.plant_prepare_index.collectionData;
+  //   }
+  //
+  //   return rootData.collections.full_plant_index.collectionData;
+  // });
 
   // Tell 11ty to use the .eleventyignore and ignore our .gitignore file
   config.setUseGitIgnore(false);

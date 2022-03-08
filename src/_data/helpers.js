@@ -453,7 +453,7 @@ module.exports = {
     ) {
       let
         letterGroupItem = module.exports.cloneObject(itemToCheck),
-        firstLetter = (letterGroupItem.name.match(/[a-zA-Z]/) || []).pop();
+        firstLetter = (letterGroupItem.name.match(/[a-zA-Z]/) || []).pop().toUpperCase();
 
       if (firstLetter !== '' && !letterListSearch.letterFoundList.includes(firstLetter)) {
         letterListSearch = module.exports.addLetterGroupItem(letterListSearch, letterGroupItem, firstLetter)

@@ -29,3 +29,15 @@
     grid-template-columns: 1fr 2fr;
   }
 }
+
+.grid-3-1 {
+  @include media-query('ml') {
+    grid-template-columns: 3fr 1fr;
+  }
+}
+
+.grid-1-3 {
+  @include media-query('ml') {
+    grid-template-columns: 1fr 3fr;
+  }
+}
