@@ -446,22 +446,28 @@ module.exports = async function(configData) {
   plantInfoData["plants"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["plants"]["external"]["dataIndexUri"]);
   plantInfoData["nurseries"]["external"]["dataIndex"] = await fetchExternalData(plantInfoData["nurseries"]["external"]["dataIndexUri"]);
 
-  // plantInfoData["citations"]["external"]["data"] = await processExternalData(
-  //   plantInfoData["citations"]["external"]["dataIndex"],
-  //   plantInfoData["citations"]["external"]["path"]["fullDomain"],
-  //   plantInfoData["external"]["path"]["schema"]
-  // );
-  // plantInfoData["plants"]["external"]["data"] = await  processExternalData(
-  //   plantInfoData["plants"]["external"]["dataIndex"],
-  //   plantInfoData["plants"]["external"]["path"]["fullDomain"],
-  //   plantInfoData["external"]["path"]["schema"]
-  // );
+  plantInfoData["citations"]["external"]["data"] = await processExternalData(
+    plantInfoData["citations"]["external"]["dataIndex"],
+    plantInfoData["citations"]["external"]["path"]["fullDomain"],
+    plantInfoData["external"]["path"]["schema"]
+  );
+  plantInfoData["plants"]["external"]["data"] = await  processExternalData(
+    plantInfoData["plants"]["external"]["dataIndex"],
+    plantInfoData["plants"]["external"]["path"]["fullDomain"],
+    plantInfoData["external"]["path"]["schema"]
+  );
   plantInfoData["nurseries"]["external"]["data"] = await processExternalData(
     plantInfoData["nurseries"]["external"]["dataIndex"],
     plantInfoData["nurseries"]["external"]["path"]["fullDomain"],
     plantInfoData["external"]["path"]["schema"]
   );
+  console.log(plantInfoData["citations"]["external"]["data"]);
+  console.log(plantInfoData["plants"]["external"]["data"]);
   console.log(plantInfoData["nurseries"]["external"]["data"]);
+
+  citationsData = plantInfoData["citations"]["external"]["data"];
+  plantsData = plantInfoData["plants"]["external"]["data"];
+  nurseriesData = plantInfoData["nurseries"]["external"]["data"];
 
   plantInfoData["citations"]["data"]["journal_book"] = getNumberLetterCollection(citationsData, configData['rootData']['journals']['globalDataPath'], configData['rootData']['journals']['levelsDeep'], configData['rootData']['journals']['itemType']);
   plantInfoData["citations"]["data"]["citation_reference"] = getElementItemsCollection(plantInfoData["citations"]["data"]["journal_book"], 'citation_reference', 'journal_book');

@@ -51,7 +51,7 @@ module.exports = config => {
 
   let
     cacheDuration = '1s',
-    useExternalData = false,
+    useExternalData = true,
     globalDataKey = 'plant_info',
     rootData = {
       collections: {
