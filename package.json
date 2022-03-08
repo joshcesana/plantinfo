@@ -32,6 +32,8 @@
     "gulp-sass": "^5.1.0",
     "lodash": "^4.17.21",
     "lunr": "^2.3.9",
+    "nested-property": "^4.0.0",
+    "node-fetch": "^2.6.7",
     "sass": "^1.49.0",
     "uuid": "^3.4.0"
   },

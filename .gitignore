@@ -13,6 +13,7 @@ Thumbs.db
 # Node modules and output
 node_modules
 dist
+dist_global
 src/_includes/css
 
 # Temporary data

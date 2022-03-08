@@ -7,8 +7,17 @@
         <h1 class="[ page-title ] [ page-title--search ]">{{ title }}</h1>
       </div>
 
-      <div class="[ page-section page-section--mid ]">
-        {% include "partials/search/search-form.html" %}
+      <div class="[ page-section page-section--mid page-section--search ]">
+        <div class="[ auto-grid grid-2-1 ]">
+          <div class="[ grid-col grid-col--2 ]">
+            {% include "partials/search/search-form.html" %}
+          </div>
+          <div class="[ grid-col grid-col--1 ]">
+            {% if search_type == 'plants' %}
+              {% include "partials/search/search-common-names.html" %}
+            {% endif %}
+          </div>
+        </div>
       </div>
 
       <div class="[ page-section page-section--bottom ]">
