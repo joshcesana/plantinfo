@@ -10,10 +10,15 @@ async function handler(event) {
     path: event.path,
     query: event.queryStringParameters,
     functionsDir: "./netlify/functions/",
+    redirects: "netlify-toml-builders",
+    copy: [
+      { from: ".cache", to: "cache" }
+    ]
   });
 
   try {
     let [page] = await elev.getOutput();
+    let html = page.content;
 
     // If you want some of the data cascade available in `page.data`, use `eleventyConfig.dataFilterSelectors`.
     // Read more: https://www.11ty.dev/docs/config/#data-filter-selectors
@@ -23,7 +28,7 @@ async function handler(event) {
       headers: {
         "Content-Type": "text/html; charset=UTF-8",
       },
-      body: page.content,
+      body: html,
     };
   } catch (error) {
     // Only console log for matching serverless paths

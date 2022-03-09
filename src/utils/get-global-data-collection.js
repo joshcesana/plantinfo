@@ -23,10 +23,10 @@ module.exports = (collection, globalDataKey, globalDataPath) => {
 
   if (isObject(collectionPathData)) {
     globalDataCollection = collectionPathData;
-    console.log('global data collection object has ' + Object.entries(globalDataCollection).length);
+    console.log('global data collection object (' + globalDataKey + ') has ' + Object.entries(globalDataCollection).length);
   } else if (isArray(collectionPathData)) {
     globalDataCollection = collectionPathData;
-    console.log('global data collection array has ' + globalDataCollection.length);
+    console.log('global data collection array (' + globalDataKey + ') has ' + globalDataCollection.length);
   }
 
   return globalDataCollection;

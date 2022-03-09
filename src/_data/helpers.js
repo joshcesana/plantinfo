@@ -1455,7 +1455,7 @@ module.exports = {
               arrayItemIndex = arrayItems.indexOf(arrayItem),
               arrayItemIndexed = null;
 
-            if (arrayItemIndex < 4) {
+            if (arrayItemIndex < 5) {
               arrayItemIndexed = await levelArray.forArrayItem(arrayItem, arrayItemIndex);
               levelArray.setMostRecentArrayItemIndexed(arrayItemIndexed);
             }
@@ -1979,7 +1979,7 @@ module.exports = {
    * Creates the permalink path for a nursery.
    *
    * @param {Array}      nurseryItem         The nursery item.
-   * @returns {Array}                        The permalink path.
+   * @returns {String}                        The permalink path.
    */
   createNurseryPermalinkPath(nurseryItem) {
     let permalinkPath = '';
@@ -2129,7 +2129,7 @@ module.exports = {
    * Creates the permalink path for a plant.
    *
    * @param {Array}      plantItem           The plant item.
-   * @returns {Array}                        The permalink path.
+   * @returns {String}                        The permalink path.
    */
   createPlantPermalinkPath(plantItem) {
     let permalinkPath = '';
