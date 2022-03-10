@@ -39,6 +39,7 @@
   },
   "dependencies": {
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@netlify/functions": "^0.11.0"
+    "@netlify/functions": "^0.11.0",
+    "object-sizeof": "^1.6.3"
   }
 }

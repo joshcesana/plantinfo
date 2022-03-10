@@ -3,6 +3,7 @@ const fetch = require('node-fetch');
 const nestedProperty = require('nested-property');
 const http = require('node:http');
 const https = require('node:https');
+const sizeof = require("object-sizeof");
 
 module.exports = {
 
@@ -203,6 +204,49 @@ module.exports = {
     }
 
     return objectValues;
+  },
+
+  /**
+   * Gets the size of an object.
+   *
+   * @param {Object}       checkThis      The item to check.
+   * @returns {String}                    he object size.
+   */
+  getObjectSize(checkThis) {
+    let
+      objectSizeOf = 0,
+      objectSizeUnit = 'B',
+      unitMinSize = 1
+    ;
+
+    const k = 1024,
+      minSizeK = k,
+      minSizeMB = k * k,
+      minSizeGB = k * k * k,
+      unitK = 'K',
+      unitMB = 'MB',
+      unitGB = 'GB'
+    ;
+
+    objectSizeOf = sizeof(checkThis);
+
+    if (objectSizeOf > minSizeGB) {
+      unitMinSize = minSizeGB;
+      objectSizeUnit = unitGB;
+
+    } else if (objectSizeOf > minSizeMB) {
+      unitMinSize = minSizeMB;
+      objectSizeUnit = unitMB;
+    } else if (objectSizeOf > minSizeK) {
+      unitMinSize = minSizeK;
+      objectSizeUnit = unitK;
+    }
+
+    let
+      objectSizeOfInUnits = (objectSizeOf / unitMinSize),
+      objectSizeOfInUnitsRounded = Math.round(objectSizeOfInUnits * 100) / 100;
+
+    return objectSizeOfInUnitsRounded + objectSizeUnit;
   },
 
   /**
@@ -1467,7 +1511,7 @@ module.exports = {
               arrayItemIndex = arrayItems.indexOf(arrayItem),
               arrayItemIndexed = null;
 
-            if (arrayItemIndex < 6) {
+            if (arrayItemIndex < 5) {
               arrayItemIndexed = await levelArray.forArrayItem(arrayItem, arrayItemIndex);
               levelArray.setMostRecentArrayItemIndexed(arrayItemIndexed);
             }

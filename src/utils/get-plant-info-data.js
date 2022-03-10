@@ -1,9 +1,12 @@
+const sizeof = require('object-sizeof')
+
 const {
   getExternalDataIndexUri,
   getExternalDataDomain,
   getExternalFileUri,
   fetchExternalData,
-  processExternalData
+  processExternalData,
+  getObjectSize,
 } = require("../_data/helpers.js");
 
 const getNumberLetterCollection = require("../utils/get-number-letter-collection.js");
@@ -110,6 +113,25 @@ module.exports = async (plantInfoData, configData) => {
   writeRawIndex(configData['gdSearchOutputDir'], configData['searchData']['plants']['indexSlug'], plantInfoData["plants"]["data"]["plant_prepare_index"]);
 
   // console.log('plant_info processing complete');
+
+  // Remove external data to reduce memory usage.
+  // console.log('total size of plantInfoData');
+  // console.log(getObjectSize(plantInfoData));
+  // console.log('check size of external data');
+  // console.log('size of citations data: ' + getObjectSize(plantInfoData["citations"]["external"]["data"]));
+  // console.log('size of plants data: ' + getObjectSize(plantInfoData["plants"]["external"]["data"]));
+  // console.log('size of nurseries data: ' + getObjectSize(plantInfoData["nurseries"]["external"]["data"]));
+  // console.log('size of common names data: ' + getObjectSize(plantInfoData["plants"]["common_names"]["data"]));
+  // console.log('size of terms data: ' + getObjectSize(plantInfoData["nurseries"]["terms"]["data"]));
+
+  plantInfoData["citations"]["external"]["data"] = null;
+  plantInfoData["plants"]["external"]["data"] = null;
+  plantInfoData["nurseries"]["external"]["data"] = null;
+  plantInfoData["plants"]["common_names"]["data"] = null;
+  plantInfoData["nurseries"]["terms"]["data"] = null;
+
+  // console.log('total size of processedPlantInfoData after external data removed, and object cloned into new object');
+  // console.log(getObjectSize(plantInfoData));
 
   return plantInfoData;
 };
