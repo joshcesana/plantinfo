@@ -453,10 +453,22 @@ module.exports = {
     ) {
       let
         letterGroupItem = module.exports.cloneObject(itemToCheck),
-        firstLetter = (letterGroupItem.name.match(/[a-zA-Z]/) || []).pop().toUpperCase();
+        letterName = letterGroupItem.name
+      ;
 
-      if (firstLetter !== '' && !letterListSearch.letterFoundList.includes(firstLetter)) {
-        letterListSearch = module.exports.addLetterGroupItem(letterListSearch, letterGroupItem, firstLetter)
+      if (
+        typeof letterName !== undefined &&
+        letterName !== ''
+      ) {
+        let firstLetter = (letterGroupItem.name.match(/[a-zA-Z]/) || []).pop();
+
+        if (firstLetter.match(/[a-z]/)) {
+          firstLetter = firstLetter.toUpperCase();
+        }
+
+        if (!letterListSearch.letterFoundList.includes(firstLetter)) {
+          letterListSearch = module.exports.addLetterGroupItem(letterListSearch, letterGroupItem, firstLetter)
+        }
       }
     }
 
@@ -1455,7 +1467,7 @@ module.exports = {
               arrayItemIndex = arrayItems.indexOf(arrayItem),
               arrayItemIndexed = null;
 
-            if (arrayItemIndex < 5) {
+            if (arrayItemIndex < 6) {
               arrayItemIndexed = await levelArray.forArrayItem(arrayItem, arrayItemIndex);
               levelArray.setMostRecentArrayItemIndexed(arrayItemIndexed);
             }
