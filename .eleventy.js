@@ -21,7 +21,7 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = config => {
   let
-    maxDataItemsPerLevel = 7,
+    maxDataItemsPerLevel = 4,
     cacheDuration = '1s',
     cacheDirectory = '.cache',
     cacheDurationServerless = '*',
