@@ -1176,6 +1176,7 @@ module.exports = {
    * @param {Array|Object}  levelValue        The external data level.
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
+   * @param {Number}        maxDataItemsPerLevel  The maximum number of data items per level.
    *
    * @return {Object}                         The external data structure.
    */
@@ -1186,7 +1187,8 @@ module.exports = {
     externalDataItemPath,
     levelValue,
     childItemsKey,
-    directoryTypeKey
+    directoryTypeKey,
+    maxDataItemsPerLevel
   ) {
     let
       directoryItem = module.exports.copyObject(levelValue),
@@ -1200,7 +1202,7 @@ module.exports = {
     // console.log('directory data item path');
     // console.log(directoryDataItemPath);
     externalData = module.exports.addLevelDirectory(externalData, externalDataItemPath, directoryItem, childItemsKey, directoryTypeKey);
-    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, directoryChildren, externalDataItemPath);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, directoryChildren, maxDataItemsPerLevel, externalDataItemPath);
 
     return externalData;
   },
@@ -1218,6 +1220,7 @@ module.exports = {
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
+   * @param {Number}        maxDataItemsPerLevel  The maximum number of data items per level.
    *
    * @return {Object}                         The external data structure.
    */
@@ -1229,7 +1232,8 @@ module.exports = {
     levelValues,
     childItemsKey,
     directoryTypeKey,
-    fileTypeKey
+    fileTypeKey,
+    maxDataItemsPerLevel
   ) {
     let
       levelItem = module.exports.copyObject(levelValues),
@@ -1248,7 +1252,7 @@ module.exports = {
       module.exports.objectHasOwnProperties(levelItem, [childItemsKey])
     ) {
       // console.log('check level directory');
-      externalData = await module.exports.checkLevelDirectory(externalData, externalDomainUri, externalDomainSchema, levelItemPath, levelItem, childItemsKey, directoryTypeKey);
+      externalData = await module.exports.checkLevelDirectory(externalData, externalDomainUri, externalDomainSchema, levelItemPath, levelItem, childItemsKey, directoryTypeKey, maxDataItemsPerLevel);
     }
 
     return externalData;
@@ -1268,6 +1272,7 @@ module.exports = {
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
+   * @param {Number}        maxDataItemsPerLevel  The maximum number of data items per level.
    *
    * @return {Object}                         The external data structure.
    */
@@ -1280,7 +1285,8 @@ module.exports = {
     levelIndex,
     childItemsKey,
     directoryTypeKey,
-    fileTypeKey
+    fileTypeKey,
+    maxDataItemsPerLevel
   ) {
     let
       arrayItem = module.exports.copyObject(levelValues),
@@ -1300,7 +1306,7 @@ module.exports = {
     // console.log('finished adding array item');
     //
     // console.log('check array item for additional nested levels');
-    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, arrayItemPath, arrayItem, childItemsKey, directoryTypeKey, fileTypeKey);
+    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, arrayItemPath, arrayItem, childItemsKey, directoryTypeKey, fileTypeKey, maxDataItemsPerLevel);
     // console.log('finished checking this array item');
 
     return externalData;
@@ -1319,6 +1325,7 @@ module.exports = {
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
+   * @param {Number}        maxDataItemsPerLevel  The maximum number of data items per level.
    *
    * @return {Object}                         The external data structure.
    */
@@ -1330,7 +1337,8 @@ module.exports = {
     levelValues,
     childItemsKey,
     directoryTypeKey,
-    fileTypeKey
+    fileTypeKey,
+    maxDataItemsPerLevel
   ) {
     let
       levelArray = {
@@ -1340,6 +1348,7 @@ module.exports = {
         childItemsKey: childItemsKey,
         directoryTypeKey: directoryTypeKey,
         fileTypeKey: fileTypeKey,
+        maxDataItemsPerLevel: maxDataItemsPerLevel,
         arrayItems: module.exports.cloneObject(levelValues),
         arrayItemsPath: module.exports.cloneObject(externalDataItemPath),
         arrayItemsPathDotNotation: null,
@@ -1484,7 +1493,8 @@ module.exports = {
             arrayItemIndex,
             levelArray.childItemsKey,
             levelArray.directoryTypeKey,
-            levelArray.fileTypeKey
+            levelArray.fileTypeKey,
+            levelArray.maxDataItemsPerLevel
           );
         },
         forArrayItem: async (arrayItem, arrayItemIndex) => {
@@ -1511,7 +1521,7 @@ module.exports = {
               arrayItemIndex = arrayItems.indexOf(arrayItem),
               arrayItemIndexed = null;
 
-            if (arrayItemIndex < 5) {
+            if (arrayItemIndex < levelArray.maxDataItemsPerLevel) {
               arrayItemIndexed = await levelArray.forArrayItem(arrayItem, arrayItemIndex);
               levelArray.setMostRecentArrayItemIndexed(arrayItemIndexed);
             }
@@ -1550,6 +1560,7 @@ module.exports = {
    * @param {String}        childItemsKey     The key for an array of child items.
    * @param {String}        directoryTypeKey  The type key for a directory.
    * @param {String}        fileTypeKey       The type key for a file.
+   * @param {Number}        maxDataItemsPerLevel  The maximum number of data items per level.
    *
    * @return {Object}                         The external data structure.
    */
@@ -1561,7 +1572,8 @@ module.exports = {
     levelValues,
     childItemsKey,
     directoryTypeKey,
-    fileTypeKey
+    fileTypeKey,
+    maxDataItemsPerLevel
   ) {
     let checkForLevelArray = module.exports.getCheckForLevelArray(levelValues);
 
@@ -1572,10 +1584,10 @@ module.exports = {
     // console.log(externalData);
     if (checkForLevelArray) {
       // console.log('check level array');
-      externalData = await module.exports.checkLevelArray(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey);
+      externalData = await module.exports.checkLevelArray(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey, maxDataItemsPerLevel);
     } else {
       // console.log('check level item');
-      externalData = await module.exports.checkLevelItem(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey);
+      externalData = await module.exports.checkLevelItem(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey, maxDataItemsPerLevel);
     }
     // console.log('data after checking level');
     // console.log(externalData);
@@ -1594,6 +1606,7 @@ module.exports = {
    * @param {String}       externalDomainUri       An external domain uri.
    * @param {String}       externalDomainSchema    An external domain schema.
    * @param {Object|Array} externalDataIndexLevel  The external data index level.
+   * @param {Number}       maxDataItemsPerLevel    The maximum number of data items per level.
    * @param {Array}        externalDataItemPath    The path to where this item data
    *                                               should be placed in externalData.
    *                                               - e.g ['a', 'b', 1, 'c']
@@ -1602,10 +1615,10 @@ module.exports = {
    * @param {String}       fileTypeKey             The type key for a file.
    * @return {Object}                              The external data structure.
    */
-  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  externalDataItemPath = [], childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
+  async externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndexLevel,  maxDataItemsPerLevel, externalDataItemPath = [], childItemsKey= 'children', directoryTypeKey = 'directory', fileTypeKey= 'file') {
     let levelValues = module.exports.cloneObject(externalDataIndexLevel);
 
-    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey);
+    externalData = await module.exports.checkLevel(externalData, externalDomainUri, externalDomainSchema, externalDataItemPath, levelValues, childItemsKey, directoryTypeKey, fileTypeKey, maxDataItemsPerLevel);
 
     return externalData;
   },
@@ -1617,12 +1630,13 @@ module.exports = {
    * @param {Object}    externalDataIndex     The externalDataIndex to process.
    * @param {String}    externalDomainUri     An external domain uri.
    * @param {String}    externalDomainSchema  An external domain schema.
+   * @param {Number}    maxDataItemsPerLevel  The maximum number of data items per level.
    * @return {Object}                         The external data.
    */
-  async processExternalData(externalDataIndex, externalDomainUri, externalDomainSchema) {
+  async processExternalData(externalDataIndex, externalDomainUri, externalDomainSchema, maxDataItemsPerLevel) {
     let externalData = {};
 
-    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndex);
+    externalData = await module.exports.externalDataSeeker(externalData, externalDomainUri, externalDomainSchema, externalDataIndex, maxDataItemsPerLevel);
 
     return externalData;
   },

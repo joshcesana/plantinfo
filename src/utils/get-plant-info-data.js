@@ -57,17 +57,20 @@ module.exports = async (plantInfoData, configData) => {
   plantInfoData["citations"]["external"]["data"] = await processExternalData(
     plantInfoData["citations"]["external"]["dataIndex"],
     plantInfoData["citations"]["external"]["path"]["fullDomain"],
-    plantInfoData["external"]["path"]["schema"]
+    plantInfoData["external"]["path"]["schema"],
+    configData['maxDataItemsPerLevel']
   );
   plantInfoData["plants"]["external"]["data"] = await processExternalData(
     plantInfoData["plants"]["external"]["dataIndex"],
     plantInfoData["plants"]["external"]["path"]["fullDomain"],
-    plantInfoData["external"]["path"]["schema"]
+    plantInfoData["external"]["path"]["schema"],
+    configData['maxDataItemsPerLevel']
   );
   plantInfoData["nurseries"]["external"]["data"] = await processExternalData(
     plantInfoData["nurseries"]["external"]["dataIndex"],
     plantInfoData["nurseries"]["external"]["path"]["fullDomain"],
-    plantInfoData["external"]["path"]["schema"]
+    plantInfoData["external"]["path"]["schema"],
+    configData['maxDataItemsPerLevel']
   );
   // console.log(plantInfoData["citations"]["external"]["data"]);
   // console.log(plantInfoData["plants"]["external"]["data"]);

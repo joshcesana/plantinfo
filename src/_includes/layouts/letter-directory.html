@@ -4,6 +4,7 @@
 {% set letter_data = letter.data %}
 {% set letter_title = letter_data.letter %}
 {% set letter_slug = letter_data.letter_slug %}
+{% set show_letter_list = 'true' %}
 
 {% block content %}
   <div class="[ wrapper wrapper--topbot ]">
@@ -14,7 +15,9 @@
       {% include "partials/plant-nav/letter-bar.html" %}
 
       <h2 class="[ page-secondary-title ]">{{ letter_title }}</h2>
-      {% include "partials/plant-nav/directory-letter-list.html" %}
+      {% if show_letter_list === 'true' %}
+        {% include "partials/plant-nav/directory-letter-list.html" %}
+      {% endif %}
 
       {% include "partials/plant-nav/letter-bar.html" %}
     </article>

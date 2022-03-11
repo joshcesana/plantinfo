@@ -20,41 +20,14 @@ const getCommonNamePermalink = require('./src/filters/get-common-name-permalink.
 const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = config => {
-  config.addPlugin(UpgradeHelper);
-  // Reverse 1.0.0 breaking changes until full impacts are understood.
-  config.setDataDeepMerge(false);
-  config.setLiquidOptions(
-    {
-      strictFilters: false,
-      dynamicPartials: false,
-    }
-  );
-
-  config.addPlugin(EleventyServerlessBundlerPlugin, {
-    name: 'serverless',
-    functionsDir: './netlify/functions/',
-    copy: [
-      'src/filters/',
-      'src/utils/',
-      { from: ".cache", to: "cache" }
-    ]
-  });
-
-  // Set directories to pass through to the dist folder
-  config.addPassthroughCopy('./src/images/');
-  config.addPassthroughCopy('./src/js/');
-
-  config.addNunjucksFilter("getPlantPermalink", (value) => getPlantPermalink(value));
-  config.addNunjucksFilter("getNurseryPermalink", (value) => getNurseryPermalink(value));
-  config.addNunjucksFilter("getNurseryCategoryPermalink", (value) => getNurseryCategoryPermalink(value));
-  config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
-
   let
-    cacheDuration = '1h',
+    maxDataItemsPerLevel = 7,
+    cacheDuration = '1s',
     cacheDirectory = '.cache',
     cacheDurationServerless = '*',
     cacheDirectoryServerless = 'cache',
-    useExternalData = true,
+    searchOutputDir = 'dist',
+    gdSearchOutputDir = 'dist_global',
     globalDataKey = 'plant_info',
     rootData = {
       collections: {
@@ -164,8 +137,6 @@ module.exports = config => {
         itemType: 'journal_book'
       }
     },
-    searchOutputDir = 'dist',
-    gdSearchOutputDir = 'dist_global',
     searchData = {
       nurseries: {
         indexSlug: 'nursery',
@@ -269,17 +240,51 @@ module.exports = config => {
         getFunction: buildLunrIndex,
         staticParameters: [searchData['plants']['refKey'], searchData['plants']['fieldKeys']]
       },
-    }
+    },
+    useExternalData = true
   ;
 
-  config.addGlobalData('gdSearchOutputDir', gdSearchOutputDir);
   config.addGlobalData('cacheDuration', cacheDuration);
-  config.addGlobalData('rootData', rootData);
+  config.addGlobalData('cacheDirectory', cacheDirectory);
+  config.addGlobalData('cacheDurationServerless', cacheDurationServerless);
+  config.addGlobalData('cacheDirectoryServerless', cacheDirectoryServerless);
   config.addGlobalData('searchOutputDir', searchOutputDir);
+  config.addGlobalData('gdSearchOutputDir', gdSearchOutputDir);
+  config.addGlobalData('rootData', rootData);
   config.addGlobalData('searchData', searchData);
   config.addGlobalData('cacheData', cacheData);
   config.addGlobalData('useExternalData', useExternalData);
   config.addGlobalData('globalDataKey', globalDataKey);
+  config.addGlobalData('maxDataItemsPerLevel', maxDataItemsPerLevel);
+
+  config.addPlugin(UpgradeHelper);
+  // Reverse 1.0.0 breaking changes until full impacts are understood.
+  config.setDataDeepMerge(false);
+  config.setLiquidOptions(
+    {
+      strictFilters: false,
+      dynamicPartials: false,
+    }
+  );
+
+  config.addPlugin(EleventyServerlessBundlerPlugin, {
+    name: 'serverless',
+    functionsDir: './netlify/functions/',
+    copy: [
+      'src/filters/',
+      'src/utils/',
+      { from: ".cache", to: "cache" }
+    ]
+  });
+
+  // Set directories to pass through to the dist folder
+  config.addPassthroughCopy('./src/images/');
+  config.addPassthroughCopy('./src/js/');
+
+  config.addNunjucksFilter("getPlantPermalink", (value) => getPlantPermalink(value));
+  config.addNunjucksFilter("getNurseryPermalink", (value) => getNurseryPermalink(value));
+  config.addNunjucksFilter("getNurseryCategoryPermalink", (value) => getNurseryCategoryPermalink(value));
+  config.addNunjucksFilter("getCommonNamePermalink", (value) => getCommonNamePermalink(value));
 
   // Returns journal_book items.
   config.addCollection('journal_book', async (collection) => {
