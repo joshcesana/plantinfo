@@ -319,6 +319,28 @@ module.exports = {
   },
 
   /**
+   * Get data from config.
+   *
+   * @param {Object}       configData         The 11ty config data.
+   * @param {Array}        dataPath           The path to the data.
+   * @returns {Object|Array|String|Number}    The config data.
+   */
+  getConfigPathData(configData, dataPath) {
+    let configPathData = null;
+
+    if (module.exports.isObject(configData) && module.exports.isArrayWithItems(dataPath)) {
+      configPathData = configData;
+      dataPath.forEach(pathItem => {
+        if (module.exports.objectHasOwnProperties(configPathData, [pathItem])) {
+          configPathData = configPathData[pathItem];
+        }
+      });
+    }
+
+    return configPathData;
+  },
+
+  /**
    * Add item from group to group of items.
    *
    * @param {Array}        groupItems    The group items.
@@ -2208,7 +2230,7 @@ module.exports = {
       genusSlug: '',
       speciesSlug: '',
       varietySlug: '',
-      uuidSlug: ''
+      uuidSlug: 'NONE'
     };
 
     if (
@@ -2267,9 +2289,7 @@ module.exports = {
         permalinkPath = permalinkPath + 'variety/' + pathParts.varietySlug + '/';
       }
 
-      if (pathParts.uuidSlug !== '') {
-        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
-      }
+      permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
     }
 
     return permalinkPath;

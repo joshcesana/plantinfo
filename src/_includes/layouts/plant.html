@@ -1,14 +1,30 @@
 {% extends "layouts/base.html" %}
 
-{% set plant_data = plant.data %}
-{% set plant_name = plant_data.name %}
-{% set plant_type = plant_data.type %}
-{% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
 {% set show_related_data = 'true' %}
 {% set show_citations = 'true' %}
 
-{% block content %}
+{% set plant_name = '' %}
+{% set plant_machine_name = '' %}
+{% set plant_type = '' %}
+{% set scientificNameInfo = {} %}
+{% set plant_data = {} %}
 
+{% if helpers.objectHasOwnProperties(plant, ['data']) %}
+  {% set plant_data = plant.data %}
+
+  {% if
+    (helpers.objectHasOwnProperties(plant_data, ['name'])) and
+    (helpers.objectHasOwnProperties(plant_data, ['machine_name'])) and
+    (helpers.objectHasOwnProperties(plant_data, ['type']))
+  %}
+    {% set plant_name = plant_data.name %}
+    {% set plant_machine_name = plant_data.machine_name %}
+    {% set plant_type = plant_data.type %}
+    {% set scientificNameInfo = helpers.getScientificNameInfo(collections, plant_data, plant_type) %}
+  {% endif %}
+{% endif %}
+
+{% block content %}
   <div class="[ wrapper wrapper--topbot ]">
     <article class="[ page ] [ page--plant ]">
       <div class="[ page-head ] [ page-head--plant ]">
@@ -25,7 +41,7 @@
       {% endif %}
 
       {% if plant_type === 'family' %}
-        {% set family_data = plant.data %}
+        {% set family_data = plant_data %}
         {% include "partials/plants/family-data.html" %}
       {% endif %}
 

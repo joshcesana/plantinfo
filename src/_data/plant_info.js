@@ -2,7 +2,7 @@ const { AssetCache } = require("@11ty/eleventy-fetch");
 
 const getPlantInfoData = require('../utils/get-plant-info-data.js');
 
-module.exports = async function(configData) {
+module.exports = async (configData) => {
   let
     plantInfoData = {},
     cacheOptions = {

@@ -1,17 +1,19 @@
-{% set child_plant_type = helpers.getChildPlantType(plant_data.type) %}
-{% set child_plant_type_title = helpers.getPlantTypeTitle(child_plant_type) %}
-{% set child_collection = collections[child_plant_type] %}
-{% set child_plant_items = helpers.getChildPlantsByTypeAndMachineName(child_collection, child_plant_type, plant_data.type, plant_data.machine_name) %}
-{% set child_link_list = helpers.createChildLinkList(collections,child_plant_items, child_plant_type) %}
-{% set plant_link_list_wrapper =
-  {
-    wrapper_class: '[ related-plant__link-list-section related-' ~ child_plant_type ~ '__link-list-section ]',
-    title_class: '[ related-plant__link-list-section-title related-' ~ child_plant_type ~ '__link-list-section-title ]',
-    link_list_class: '[ related-plant__link-list related-' ~ child_plant_type ~ '__link-list ]',
-    heading_level: 'h2',
-    title: 'Related ' ~ child_plant_type_title,
-    link_list: child_link_list,
-    empty_message: 'There are no related ' ~ child_plant_type ~ ' for ' ~ plant_data.type ~ ' ' ~ plant_data.name ~ '.'
-  }
-%}
-{% include "../plant-link-list/plant-link-list-wrapper.html" %}
+{% if plant_type %}
+  {% set child_plant_type = helpers.getChildPlantType(plant_type) %}
+  {% set child_plant_type_title = helpers.getPlantTypeTitle(child_plant_type) %}
+  {% set child_collection = collections[child_plant_type] %}
+  {% set child_plant_items = helpers.getChildPlantsByTypeAndMachineName(child_collection, child_plant_type, plant_type, plant_machine_name) %}
+  {% set child_link_list = helpers.createChildLinkList(collections,child_plant_items, child_plant_type) %}
+  {% set plant_link_list_wrapper =
+    {
+      wrapper_class: '[ related-plant__link-list-section related-' ~ child_plant_type ~ '__link-list-section ]',
+      title_class: '[ related-plant__link-list-section-title related-' ~ child_plant_type ~ '__link-list-section-title ]',
+      link_list_class: '[ related-plant__link-list related-' ~ child_plant_type ~ '__link-list ]',
+      heading_level: 'h2',
+      title: 'Related ' ~ child_plant_type_title,
+      link_list: child_link_list,
+      empty_message: 'There are no related ' ~ child_plant_type ~ ' for ' ~ plant_type ~ ' ' ~ plant_name ~ '.'
+    }
+  %}
+  {% include "../plant-link-list/plant-link-list-wrapper.html" %}
+{% endif %}
