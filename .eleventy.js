@@ -8,10 +8,10 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = config => {
   let
-    maxDataItemsPerLevel = 7,
+    maxDataItemsPerLevel = 20,
     cacheDuration = '1s',
     cacheDirectory = '.cache',
-    cacheDurationServerless = '*',
+    cacheDurationServerless = '1s',
     cacheDirectoryServerless = 'cache',
     searchOutputDir = 'dist',
     gdSearchOutputDir = 'dist_global',

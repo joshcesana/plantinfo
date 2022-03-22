@@ -2,7 +2,7 @@
 title: {{ plant.data.name }}
 layout: 'layouts/plant.html'
 pagination:
-  data: plant_species
+  data: plants_species
   size: 1
   alias: plant
   serverless: eleventy.serverless.path.species

@@ -2077,7 +2077,7 @@ module.exports = {
     let permalinkPath = '';
     let pathParts = {
       nurserySlug: '',
-      uuidSlug: ''
+      uuidSlug: 'NONE'
     };
 
     if (
@@ -2100,9 +2100,7 @@ module.exports = {
     if (pathParts.nurserySlug !== '') {
       permalinkPath = permalinkPath + '/nurseries/nursery/' + pathParts.nurserySlug + '/';
 
-      if (pathParts.uuidSlug !== '') {
-        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
-      }
+      permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
     }
 
     return permalinkPath;
@@ -2118,7 +2116,7 @@ module.exports = {
     let permalinkPath = '';
     let pathParts = {
       nurseryCategorySlug: '',
-      uuidSlug: ''
+      uuidSlug: 'NONE'
     };
 
     let permalink_data = {};
@@ -2165,12 +2163,8 @@ module.exports = {
     ) {
       permalinkPath = permalinkPath + '/nurseries/nursery-category/' + pathParts.nurseryCategorySlug + '/';
 
-      if (
-        pathParts.uuidSlug !== '' &&
-        typeof(pathParts.uuidSlug) !== 'undefined'
-      ) {
-        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
-      }
+      permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
+
     }
 
     return permalinkPath;
@@ -2186,7 +2180,7 @@ module.exports = {
     let permalinkPath = '';
     let pathParts = {
       commonNameSlug: '',
-      uuidSlug: ''
+      uuidSlug: 'NONE'
     };
 
     if (
@@ -2209,9 +2203,7 @@ module.exports = {
     if (pathParts.commonNameSlug !== '') {
       permalinkPath = permalinkPath + '/plants/common-names/' + pathParts.commonNameSlug + '/';
 
-      if (pathParts.uuidSlug !== '') {
-        permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
-      }
+      permalinkPath = permalinkPath + 'uuid/' + pathParts.uuidSlug + '/';
     }
 
     return permalinkPath;
