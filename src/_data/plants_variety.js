@@ -1,5 +1,4 @@
-const { AssetCache } = require("@11ty/eleventy-fetch");
-const getPlantInfoData = require("./plant_info.js");
+const getPlantInfoData = require("./plant_info_data.js");
 
 const {
   getConfigPathData,
@@ -42,9 +41,9 @@ module.exports = async function(configData) {
       plantVarietyData = getCollectionPathData(plantData, ['variety']);
     }
 
-    console.log('plant info has ' + Object.entries(plantInfoData).length + ' items');
-    console.log('plant data has ' + Object.entries(plantData).length + ' items');
-    console.log('plant variety has ' + Object.entries(plantVarietyData).length + ' items');
+    // console.log('plant info has ' + Object.entries(plantInfoData).length + ' items');
+    // console.log('plant data has ' + Object.entries(plantData).length + ' items');
+    console.log('plant variety data has ' + Object.entries(plantVarietyData).length + ' items');
   }
 
   return plantVarietyData;

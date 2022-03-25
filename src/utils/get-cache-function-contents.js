@@ -1,11 +1,7 @@
-const getCacheAssetNew = require("./get-cache-asset-new.js");
-const getCacheAssetCheck = require("./get-cache-asset-check.js");
-const getCacheFunctionContents = require("./get-cache-function-contents.js");
-const getCacheAssetSave = require("./get-cache-asset-save.js");
+const { objectHasOwnProperties } = require("../_data/helpers.js");
 
 /**
- * Takes a collection and returns it back with the attached items by type, then
- * sort by machine name.
+ * Get the contents of a cache function.
  *
  * @param {Object}       cache                  The cache configuration,
  *                                              containing the following keys:
@@ -17,22 +13,20 @@ const getCacheAssetSave = require("./get-cache-asset-save.js");
  *                                                - The function to get the data
  * @param {Object}       dynamicParameters      The params for the function.
  * @param {Object}       cacheOptions           The options used for caching.
- * @returns {Object}                             The cache contents
+ * @returns {Object}                            The cache asset.
  */
 module.exports = async (cache, dynamicParameters, cacheOptions) => {
-  let
-    cacheContents = null,
-    cacheAsset = await getCacheAssetNew(cache, cacheOptions)
-  ;
+  let cacheContents;
 
-  cacheContents = await getCacheAssetCheck(cacheAsset, cacheOptions);
-
-  if (cacheContents !== null) {
-    return cacheContents;
-  } else {
-    cacheContents = await getCacheFunctionContents(cache, dynamicParameters, cacheOptions);
-
-    await getCacheAssetSave(cacheAsset, cacheContents);
+  if (
+    typeof(cache) !== 'undefined' &&
+    objectHasOwnProperties(cache, ['getFunction']) &&
+    objectHasOwnProperties(cache, ['staticParameters']) &&
+    Array.isArray(cache['staticParameters']) &&
+    Array.isArray(dynamicParameters)
+  ) {
+    let getParameters = [...dynamicParameters, ...cache['staticParameters']];
+    cacheContents = await cache.getFunction(...getParameters);
   }
 
   return cacheContents;

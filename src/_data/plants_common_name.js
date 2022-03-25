@@ -1,5 +1,4 @@
-const { AssetCache } = require("@11ty/eleventy-fetch");
-const getPlantInfoData = require("./plant_info.js");
+const getPlantInfoData = require("./plant_info_data.js");
 
 const {
   isObject,
@@ -29,16 +28,16 @@ module.exports = async (configData) => {
         plantCommonNameItemData = getItemByTypeAndMachineName(plantData, 'common_name', pathCommon, pathUUID);
 
         if (plantCommonNameItemData !== {}) {
-          plantCommonNameData[pathFamily] = plantCommonNameItemData;
+          plantCommonNameData[pathCommon] = plantCommonNameItemData;
         }
       }
     } else {
       plantCommonNameData = getCollectionPathData(plantData, ['common_name']);
     }
 
-    console.log('plant info has ' + Object.entries(plantInfoData).length + ' items');
-    console.log('plant data has ' + Object.entries(plantData).length + ' items');
-    console.log('plant common name has ' + Object.entries(plantCommonNameData).length + ' items');
+    // console.log('plant info has ' + Object.entries(plantInfoData).length + ' items');
+    // console.log('plant data has ' + Object.entries(plantData).length + ' items');
+    console.log('common name data has ' + Object.entries(plantCommonNameData).length + ' items');
   }
 
   return plantCommonNameData;

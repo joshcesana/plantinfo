@@ -8,14 +8,14 @@ const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
 
 module.exports = config => {
   let
-    maxDataItemsPerLevel = 20,
-    cacheDuration = '1s',
+    maxDataItemsPerLevel = 10,
+    cacheDuration = '5m',
     cacheDirectory = '.cache',
-    cacheDurationServerless = '1s',
+    cacheDurationServerless = '*',
     cacheDirectoryServerless = 'cache',
     searchOutputDir = 'dist',
     gdSearchOutputDir = 'dist_global',
-    globalDataKey = 'plant_info',
+    globalDataKey = 'plant_info_data',
     rootData = {
       collections: {
         journal_book: {

@@ -1,0 +1,10 @@
+{
+  "path": {
+    "schema": "https",
+    "domain": "plantinfo",
+    "tld": "org",
+    "subDomain": "data",
+    "indexFile": "file-index",
+    "indexFileType": "json"
+  }
+}
